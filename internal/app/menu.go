@@ -46,15 +46,15 @@ func (m *Menu) Run() {
 			m.a.Adb.Check(m.a.Ctx)
 			fmt.Fprintln(m.out)
 			continue
-		case "1", "2", "3", "4", "5", "6", "7":
+		case "1", "2", "3", "4", "5", "6", "7", "8":
 			mode = m.modeFor(choice)
 		default:
 			fmt.Fprintln(m.out, "Неверный выбор.")
 			time.Sleep(time.Second)
 			continue
 		}
-		// status/diag/report не требуют цели
-		if mode == ModeStatus || mode == ModeDiag || mode == ModeReport {
+		// status/diag/report/reboot не требуют цели
+		if mode == ModeStatus || mode == ModeDiag || mode == ModeReport || mode == ModeReboot {
 			if _, err := m.a.Run(mode, ""); err != nil {
 				fmt.Fprintln(m.out)
 				fmt.Fprintln(m.out, err)
@@ -102,9 +102,11 @@ func (m *Menu) modeFor(num string) Mode {
 	dyn := map[string]Mode{
 		"1": ModeInstall, "2": ModeEnable, "3": ModeDisable,
 		"4": ModeUninstall, "5": ModeStatus, "6": ModeDiag, "7": ModeReport,
+		"8": ModeReboot,
 	}
 	stat := map[string]Mode{
 		"1": ModeInstall, "2": ModeUninstall, "3": ModeStatus, "4": ModeDiag, "5": ModeReport,
+		"6": ModeReboot,
 	}
 	if m.scheme == "static" {
 		if md, ok := stat[num]; ok {
@@ -149,6 +151,7 @@ func (m *Menu) actionMenu() string {
 		fmt.Fprintln(m.out, "    [3] Статус       (overlay list: все / целевые)")
 		fmt.Fprintln(m.out, "    [4] Диагностика  (locale, целевые оверлеи, dump, dumpsys)")
 		fmt.Fprintln(m.out, "    [5] Собрать логи  (report: zip для анализа)")
+		fmt.Fprintln(m.out, "    [6] Перезагрузить (adb reboot) - ТОЛЬКО нужно после install/uninstall")
 		fmt.Fprintln(m.out, "    [R] Проверить ADB заново  (полная проверка + рестарт демона)")
 		fmt.Fprintln(m.out, "    [0] Выход")
 	} else {
@@ -158,8 +161,9 @@ func (m *Menu) actionMenu() string {
 		fmt.Fprintln(m.out, "    [3] Отключить               (disable)")
 		fmt.Fprintln(m.out, "    [4] Удалить                 (disable + adb uninstall)")
 		fmt.Fprintln(m.out, "    [5] Статус                  (overlay list: все / целевые)")
-		fmt.Fprintln(m.out, "    [6] Диагностика             (locale, целевые оверлеи, dump, dumpsys)")
+		fmt.Fprintln(m.out, "    [6] Диагностика             (locale, наши оверлеи, dump, dumpsys)")
 		fmt.Fprintln(m.out, "    [7] Собрать логи            (report: zip для анализа)")
+		fmt.Fprintln(m.out, "    [8] Перезагрузить ГУ        (adb reboot)")
 		fmt.Fprintln(m.out, "    [R] Проверить ADB заново    (полная проверка + рестарт демона)")
 		fmt.Fprintln(m.out, "    [0] Выход")
 	}

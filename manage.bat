@@ -15,6 +15,12 @@ REM    manage.bat <mode> <preset>       - сразу выполнять
 REM
 REM  modes:   install (install+enable) | enable | disable
 REM           uninstall (disable+adb uninstall) | status | diag | report
+REM           reboot (adb reboot)
+REM
+REM  ВАЖНО: после install или uninstall перезагрузите ГУ (режим [8] /
+REM  `reboot`). Динамические оверлеи обычно применяются без ребута, но
+REM  полный перезапуск чистит кэш/состояние PMS и гарантированно применяет
+REM  новые/удалённые оверлеи.
 REM  presets: 1 | 2 | 3 | 4 | 8 (top-8) | A (все) | C (2+3)
 REM           auto (все *_RRO.apk из apks_rro_min) | 0 (меню)
 REM
@@ -63,7 +69,7 @@ REM ================== аргументы ==================
 if "%~1"=="" goto MENU
 set "CLI=1"
 set "MODE=%~1"
-if /i not "%MODE%"=="install" if /i not "%MODE%"=="enable"  if /i not "%MODE%"=="disable" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" goto MENU
+if /i not "%MODE%"=="install" if /i not "%MODE%"=="enable"  if /i not "%MODE%"=="disable" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" if /i not "%MODE%"=="reboot" goto MENU
 call :ADB_CHECK
 if not "!A_OK!"=="1" (
     echo.
@@ -200,11 +206,12 @@ echo     [4] Удалить                 (disable + adb uninstall)
 echo     [5] Статус                  (overlay list: все / наши)
 echo     [6] Диагностика             (locale, наши оверлеи, dump, dumpsys)
 echo     [7] Собрать логи            (report: zip для анализа)
+echo     [8] Перезагрузить ГУ        (adb reboot)
 echo     [R] Проверить ADB заново    (полная проверка + рестарт демона)
 echo     [0] Выход
 echo.
 set "MODE="
-set /p "MODE=Выбор [0-7 или R]: "
+set /p "MODE=Выбор [0-8 или R]: "
 if /i "%MODE%"=="0" exit /b 0
 if /i "%MODE%"=="R" (
     echo.
@@ -220,6 +227,7 @@ if /i "%MODE%"=="4" set "ACT=uninstall"
 if /i "%MODE%"=="5" set "ACT=status"
 if /i "%MODE%"=="6" set "ACT=diag"
 if /i "%MODE%"=="7" set "ACT=report"
+if /i "%MODE%"=="8" set "ACT=reboot"
 if not defined ACT (
     echo Неверный выбор.
     timeout /t 1 >nul
@@ -235,10 +243,11 @@ if not "!A_OK!"=="1" (
     goto MENU_SCREEN
 )
 set "MODE=!ACT!"
-REM status/diag/report не требуют выбора цели
+REM status/diag/report/reboot не требуют выбора цели
 if /i "%MODE%"=="status" ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="diag"   ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="report" ( set "TARGETS=ok" & goto RUN )
+if /i "%MODE%"=="reboot" ( set "TARGETS=ok" & goto RUN )
 cls
 :GROUP_MENU
 echo ============================================================
@@ -286,6 +295,12 @@ if /i "%MODE%"=="diag" (
 )
 if /i "%MODE%"=="report" (
     call :CollectReport
+    goto ASK_MENU
+)
+if /i "%MODE%"=="reboot" (
+    echo [REBOOT] Перезагрузка ГУ: adb reboot
+    adb reboot
+    echo   Устройство перезагрузится, adb-подключение прервётся.
     goto ASK_MENU
 )
 

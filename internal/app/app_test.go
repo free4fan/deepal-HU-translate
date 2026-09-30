@@ -69,6 +69,11 @@ func (m *mockClient) Root(ctx context.Context) adb.Result {
 	return adb.Result{Out: "restarting adbd as root"}
 }
 
+func (m *mockClient) Reboot(ctx context.Context) adb.Result {
+	m.calls = append(m.calls, "reboot")
+	return adb.Result{Out: ""}
+}
+
 func (m *mockClient) UID(ctx context.Context) (int, string, error) {
 	m.calls = append(m.calls, "uid")
 	return m.uid, itoa(m.uid), nil
@@ -377,6 +382,50 @@ func TestRunDynamicUninstall(t *testing.T) {
 	}
 	if !containsCall(m.calls, "uninstall com.android.vendor.translate.rro.camera") {
 		t.Errorf("uninstall не вызван: %v", m.calls)
+	}
+	// после uninstall — заметка про reboot
+	if !strings.Contains(w.buf.String(), "Перезагрузите для применения") {
+		t.Errorf("после uninstall нет заметки про reboot:\n%s", w.buf.String())
+	}
+}
+
+// ---- reboot ----
+
+// Run(ModeReboot, "") — adb reboot без цели/root, без ops-лога.
+func TestRunReboot(t *testing.T) {
+	cfg, m, w := setupDyn(t)
+	_ = cfg
+
+	o, err := w.Run(ModeReboot, "")
+	if err != nil {
+		t.Fatalf("Run(reboot): %v", err)
+	}
+	if o.Total != 0 {
+		t.Errorf("reboot не должен считать цели, Total=%d", o.Total)
+	}
+	if !containsCall(m.calls, "reboot") {
+		t.Errorf("adb reboot не вызван: %v", m.calls)
+	}
+	if containsCall(m.calls, "root") {
+		t.Error("reboot не должен требовать root")
+	}
+	out := w.buf.String()
+	if !strings.Contains(out, "[REBOOT]") || !strings.Contains(out, "adb reboot") {
+		t.Errorf("нет сообщения о перезагрузке:\n%s", out)
+	}
+}
+
+// после динамического install тоже показывается заметка про reboot.
+func TestRunInstallRebootNote(t *testing.T) {
+	cfg, m, w := setupDyn(t)
+	_ = m
+	os.WriteFile(filepath.Join(cfg.ApkDir, "Camera_RRO.apk"), []byte("fake-apk"), 0o644)
+
+	if _, err := w.Run(ModeInstall, "8"); err != nil {
+		t.Fatalf("Run(install): %v", err)
+	}
+	if !strings.Contains(w.buf.String(), "Перезагрузите для применения") {
+		t.Errorf("после install нет заметки про reboot:\n%s", w.buf.String())
 	}
 }
 

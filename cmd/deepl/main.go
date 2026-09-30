@@ -13,7 +13,7 @@
 //	deepl stat-uninstall-all             - удалить все группы (static)
 //	deepl report [dyn|stat]              - собрать zip-отчёт
 //
-// modes:   install | enable | disable | uninstall | status | diag | report
+// modes:   install | enable | disable | uninstall | status | diag | report | reboot
 // presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <имена пакетов через пробел> | 0
 package main
 
@@ -126,7 +126,7 @@ func cliMode(ctx context.Context, cfg *groups.Config, rest []string, out io.Writ
 	}
 	mode, ok := parseMode(modeStr)
 	if !ok {
-		return fmt.Errorf("неизвестный mode %q (ожидается: install|enable|disable|uninstall|status|diag|report)", modeStr)
+		return fmt.Errorf("неизвестный mode %q (ожидается: install|enable|disable|uninstall|status|diag|report|reboot)", modeStr)
 	}
 
 	a := app.New(ctx, cfg, adb.New())
@@ -153,6 +153,8 @@ func parseMode(s string) (app.Mode, bool) {
 		return app.ModeDiag, true
 	case "report":
 		return app.ModeReport, true
+	case "reboot":
+		return app.ModeReboot, true
 	}
 	return "", false
 }
@@ -190,9 +192,13 @@ func usage() {
   deepl stat-install-all               установить все группы (static)
   deepl stat-uninstall-all             удалить все группы (static)
   deepl report [dyn|stat]              собрать zip-отчёт
+  deepl reboot                         перезагрузить ГУ (adb reboot)
 
-modes:   install | enable | disable | uninstall | status | diag | report
+modes:   install | enable | disable | uninstall | status | diag | report | reboot
 presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <пакеты через пробел> | 0 (меню)
+
+ВАЖНО: после install или uninstall перезагрузите ГУ (режим reboot / пункт [6]/[8] в меню) —
+статические оверлеи применяются только при старте, динамические reboot гарантирует применение.
 
 Любой пакет (не только из групп):
   deepl dyn install Camera              - установить+включить один

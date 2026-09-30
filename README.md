@@ -308,13 +308,18 @@ manage.bat install A        # (все группы 1+2+3+4)
 manage.bat disable 8
 manage.bat diag
 manage.bat report           # собрать zip-логи для анализа (см. ниже)
-# modes: install | enable | disable | uninstall | status | diag | report
+manage.bat reboot           # перезагрузить ГУ (adb reboot)
+# modes: install | enable | disable | uninstall | status | diag | report | reboot
 # presets: 1 | 2 | 3 | 4 | 8 (top-8) | A (все) | C (2+3) | auto (все *_RRO.apk) | 0 (меню)
 #   A и auto дают 91 пакет: 9 AOSP-target (EXCLUDE9) исключены — не
 #   ставятся adb install (см. ограничение устройства ниже).
+#   ВАЖНО: после install или uninstall перезагрузите ГУ (manage.bat reboot) —
+#   статические оверлеи применяются только при старте, динамические reboot
+#   гарантированно чистит кэш/состояние PMS. В меню это пункт [8] (dynamic)
+#   и [6] (static).
 
 # Статические (root, /vendor/overlay) - второй менеджер:
-manage_static.bat           # меню (или manage_static.bat install A / report)
+manage_static.bat           # меню (или manage_static.bat install A / report / reboot)
 ```
 
 > **Ограничение устройства (проверено по живым логам 22.09, см.

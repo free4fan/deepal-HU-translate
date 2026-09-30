@@ -26,6 +26,7 @@ const (
 	ModeStatus    Mode = "status"
 	ModeDiag      Mode = "diag"
 	ModeReport    Mode = "report"
+	ModeReboot    Mode = "reboot"
 )
 
 // mutating — изменяющие режимы (требуют root, пишут ops-лог).
@@ -98,6 +99,9 @@ func (a *App) Run(mode Mode, preset string) (Outcome, error) {
 		return Outcome{}, nil
 	case ModeDiag:
 		a.diag()
+		return Outcome{}, nil
+	case ModeReboot:
+		a.Reboot()
 		return Outcome{}, nil
 	}
 

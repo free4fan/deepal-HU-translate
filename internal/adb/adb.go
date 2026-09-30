@@ -57,6 +57,8 @@ type Client interface {
 	Uninstall(ctx context.Context, pkg string) Result
 	// Root — `adb root` (рестартует adbd).
 	Root(ctx context.Context) Result
+	// Reboot — `adb reboot` (перезагрузка ГУ).
+	Reboot(ctx context.Context) Result
 	// UID — `adb shell id -u`, 0 = root, 2000 = shell.
 	UID(ctx context.Context) (int, string, error)
 	// WaitDevice ждёт, пока device вернётся (polling, не `wait-for-device`).
@@ -359,5 +361,6 @@ func (a *Adb) StartServer(ctx context.Context) Result { return a.runResult(ctx, 
 
 // Remount — `adb remount` (fallback после `mount -o rw,remount /vendor`).
 func (a *Adb) Remount(ctx context.Context) Result { return a.runResult(ctx, "remount") }
+func (a *Adb) Reboot(ctx context.Context) Result  { return a.runResult(ctx, "reboot") }
 
 func (a *Adb) Version(ctx context.Context) Result { return a.runStdout(ctx, "version") }

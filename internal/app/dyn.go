@@ -218,9 +218,21 @@ func (a *App) printSummary(mode Mode, o Outcome) {
 	a.print("  OK:         %d\n", o.Ok)
 	a.print("  Ошибок:     %d\n", o.Fail)
 	a.print("  Не найдено: %d\n", o.Miss)
-	if a.isStatic() {
+	// После установки/удаления оверлея рекомендуется reboot: статические
+	// применяются только при старте (загрузка /vendor/overlay), динамические —
+	// reboot чистит кэш/состояние PMS и гарантированно применяет изменения.
+	if mode == ModeInstall || mode == ModeUninstall {
 		a.print("  Перезагрузите для применения:  adb reboot\n")
 	}
+}
+
+// Reboot — режим reboot (1:1 с bat `adb reboot`).
+func (a *App) Reboot() {
+	a.print("\n%s\n", strings.Repeat("=", 40))
+	a.print("  [REBOOT] Перезагрузка ГУ: adb reboot\n")
+	a.print("%s\n", strings.Repeat("=", 40))
+	a.Adb.Reboot(a.Ctx)
+	a.print("  Устройство перезагрузится, adb-подключение прервётся.\n")
 }
 
 // status — режим [5] (`cmd overlay list --user 0`), полный список или целевые.

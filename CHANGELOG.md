@@ -1,5 +1,16 @@
 # Changelog
 
+## [2026-09-30] — Пункт `adb reboot` в меню + заметка «перезагрузите после install/uninstall» (оба менеджера + Go)
+
+**Что:** в обоих меню появился режим `reboot` (выполняет `adb reboot`):
+- dynamic (`manage.bat` / `deepl dyn`): пункт `[8] Перезагрузить ГУ`;
+- static (`manage_static.bat` / `deepl stat`): пункт `[6] Перезагрузить`.
+
+После `install`/`uninstall` в итоге (summary) показывается строка
+«Перезагрузите для применения: adb reboot» — раньше это было только в static, теперь и в dynamic (динамические оверлеи обычно применяются без ребута, но reboot чистит кэш/состояние PMS и гарантированно применяет изменения; статические применяются только при старте).
+
+**Где:** `manage.bat`, `manage_static.bat` (валидные modes + `goto RUN` без цели + обработка в `:RUN`); Go — `adb.Client` + `Adb.Reboot`, `app.ModeReboot`, `Reboot()`, условие замечания в `printSummary`, `modeFor`/`actionMenu` в меню, `parseMode`/`usage` в CLI. Тесты: `TestRunReboot`, `TestRunInstallRebootNote`.
+
 ## [2026-09-30] — WT_AirConditioner: после закрытия машины перевод «слетал на китайский» (одном меню настроек климата) — РЕШЕНО: mirror RU в `values-zh-rCN/`
 
 **Симптом (пользователь).** RRO стоит, после ребута перевод есть; закрываешь машину, уходишь, приходишь — в меню настроек климата строки снова китайские (пример: `demisting` 自动除雾 вместо «Автодефрост»).

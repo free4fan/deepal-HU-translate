@@ -15,6 +15,7 @@ REM    manage_static.bat <mode> <preset>- сразу выполнять
 REM
 REM  modes:   install (adb push в /vendor/overlay + reboot)
 REM           uninstall (adb rm -rf + reboot) | status | diag | report
+REM           reboot (adb reboot)
 REM  presets: 1 | 2 | 3 | 4 | 8 (top-8) | A (все) | C (2+3)
 REM           auto (все *_RRO.apk из apks_rro_static) | 0 (меню)
 REM
@@ -54,7 +55,7 @@ REM ================== аргументы ==================
 if "%~1"=="" goto MENU
 set "CLI=1"
 set "MODE=%~1"
-if /i not "%MODE%"=="install" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" goto MENU
+if /i not "%MODE%"=="install" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" if /i not "%MODE%"=="reboot" goto MENU
 call :ADB_CHECK
 if not "!A_OK!"=="1" (
     echo.
@@ -66,6 +67,7 @@ if not "!A_OK!"=="1" (
 if /i "%MODE%"=="status"   set "TARGETS=ok"
 if /i "%MODE%"=="diag"     set "TARGETS=ok"
 if /i "%MODE%"=="report"   set "TARGETS=ok"
+if /i "%MODE%"=="reboot"   set "TARGETS=ok"
 if defined TARGETS goto RUN
 set "PRESET=%~2"
 if "%PRESET%"=="" goto GROUP_MENU
@@ -219,11 +221,12 @@ echo     [2] Удалить      (adb rm -rf из !OVERLAY_BASE! + reboot)
 echo     [3] Статус       (overlay list: все / наши)
 echo     [4] Диагностика  (locale, наши оверлеи, dump, dumpsys)
 echo     [5] Собрать логи  (report: zip для анализа)
+echo     [6] Перезагрузить (adb reboot) - ТОЛЬКО нужно после install/uninstall
 echo     [R] Проверить ADB заново  (полная проверка + рестарт демона)
 echo     [0] Выход
 echo.
 set "MODE="
-set /p "MODE=Выбор [0-5 или R]: "
+set /p "MODE=Выбор [0-6 или R]: "
 if /i "%MODE%"=="0" exit /b 0
 if /i "%MODE%"=="R" (
     echo.
@@ -237,6 +240,7 @@ if /i "%MODE%"=="2" set "ACT=uninstall"
 if /i "%MODE%"=="3" set "ACT=status"
 if /i "%MODE%"=="4" set "ACT=diag"
 if /i "%MODE%"=="5" set "ACT=report"
+if /i "%MODE%"=="6" set "ACT=reboot"
 if not defined ACT (
     echo Неверный выбор.
     timeout /t 1 >nul
@@ -252,10 +256,11 @@ if not "!A_OK!"=="1" (
     goto MENU_SCREEN
 )
 set "MODE=!ACT!"
-REM status/diag/report не требуют выбора цели
+REM status/diag/report/reboot не требуют выбора цели
 if /i "%MODE%"=="status" ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="diag"   ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="report" ( set "TARGETS=ok" & goto RUN )
+if /i "%MODE%"=="reboot" ( set "TARGETS=ok" & goto RUN )
 cls
 :GROUP_MENU
 echo ============================================================
@@ -303,6 +308,12 @@ if /i "%MODE%"=="diag" (
 )
 if /i "%MODE%"=="report" (
     call :CollectReport
+    goto ASK_MENU
+)
+if /i "%MODE%"=="reboot" (
+    echo [REBOOT] Перезагрузка ГУ: adb reboot
+    adb reboot
+    echo   Устройство перезагрузится, adb-подключение прервётся.
     goto ASK_MENU
 )
 REM install/uninstall пишут в /vendor - нужен root + remount
