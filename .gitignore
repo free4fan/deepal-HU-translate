@@ -2,10 +2,6 @@
 decompiled/
 original_apks/
 
-# Приватные ключи (платформенный AOSP platform-ключ)
-keys/*
-!keys/README.md
-
 # Артефакты сборки (только в корне, чтобы не затронуть cmd/deepl/)
 /deepl
 /deepl.exe
