@@ -1,0 +1,25 @@
+# Большие данные (не в git)
+decompiled/
+original_apks/
+
+# Приватные ключи (платформенный AOSP platform-ключ)
+keys/*
+!keys/README.md
+
+# Артефакты сборки (только в корне, чтобы не затронуть cmd/deepl/)
+/deepl
+/deepl.exe
+database/
+overlays/
+overlays_static/
+overlay_build/
+overlay_build_static/
+aux/
+apks_patched/
+
+# Логи отладки
+logs/
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,2696 @@
+[
+  {
+    "name": "add_title",
+    "zh": "添加指令",
+    "ru": "Добавить команду",
+    "type": "string"
+  },
+  {
+    "name": "app_edit_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "桌面",
+    "ru": "Рабочий стол",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "arrive_company",
+    "zh": "到公司",
+    "ru": "Прибыть в офис",
+    "type": "string"
+  },
+  {
+    "name": "arrive_home",
+    "zh": "到家",
+    "ru": "Прибыть домой",
+    "type": "string"
+  },
+  {
+    "name": "arrive_via",
+    "zh": "到达途经点",
+    "ru": "Точка маршрута",
+    "type": "string"
+  },
+  {
+    "name": "assembly_btn",
+    "zh": "设集合点",
+    "ru": "Установить точку сбора",
+    "type": "string"
+  },
+  {
+    "name": "assembly_none_small_tv",
+    "zh": "人，还未设置集结点~",
+    "ru": "Кто-то ещё не установил точку сбора~",
+    "type": "string"
+  },
+  {
+    "name": "assembly_none_tv",
+    "zh": "还未设置集合点~",
+    "ru": "Точка сбора ещё не установлена~",
+    "type": "string"
+  },
+  {
+    "name": "assembly_tv",
+    "zh": "快去设置集合点吧~",
+    "ru": "Давай быстрее назначай точку сбора~",
+    "type": "string"
+  },
+  {
+    "name": "average_electricity",
+    "zh": "平均电耗",
+    "ru": "Средний расход энергии",
+    "type": "string"
+  },
+  {
+    "name": "average_fuel_consumption",
+    "zh": "平均油耗",
+    "ru": "Средний расход топлива",
+    "type": "string"
+  },
+  {
+    "name": "bank",
+    "zh": "银行",
+    "ru": "Банк",
+    "type": "string"
+  },
+  {
+    "name": "blue_tooth_add_friend",
+    "zh": "添加联系人",
+    "ru": "Добавить контакт",
+    "type": "string"
+  },
+  {
+    "name": "blue_tooth_friend_book",
+    "zh": "通讯录",
+    "ru": "Адресная книга",
+    "type": "string"
+  },
+  {
+    "name": "blue_tooth_no_connected",
+    "zh": "蓝牙未连接",
+    "ru": "Bluetooth не подключен",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_card_name",
+    "zh": "蓝牙电话",
+    "ru": "Bluetooth-телефон",
+    "type": "string"
+  },
+  {
+    "name": "bt_not_connected",
+    "zh": "蓝牙未连接",
+    "ru": "Bluetooth не подключен",
+    "type": "string"
+  },
+  {
+    "name": "btn_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "btn_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "btn_dialog_save",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "btn_not_connected",
+    "zh": "去连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "btn_switch_blue_tooth_device",
+    "zh": "切换蓝牙设备",
+    "ru": "Сменить Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "btn_sync",
+    "zh": "立即同步",
+    "ru": "Синхронизировать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "btn_try_again",
+    "zh": "再试一次",
+    "ru": "Попробовать ещё раз",
+    "type": "string"
+  },
+  {
+    "name": "bus_station",
+    "zh": "长途汽车站",
+    "ru": "Автовокзал",
+    "type": "string"
+  },
+  {
+    "name": "bus_stop",
+    "zh": "公交站",
+    "ru": "Автобусная остановка",
+    "type": "string"
+  },
+  {
+    "name": "car_maintenance",
+    "zh": "汽车保养",
+    "ru": "Обслуживание",
+    "type": "string"
+  },
+  {
+    "name": "car_repair",
+    "zh": "汽车维修",
+    "ru": "Ремонт автомобилей",
+    "type": "string"
+  },
+  {
+    "name": "car_wash",
+    "zh": "洗车",
+    "ru": "Автомойка",
+    "type": "string"
+  },
+  {
+    "name": "card_first_tv",
+    "zh": "阿坝.四姑娘山",
+    "ru": "Аба. Сыгунняншань",
+    "type": "string"
+  },
+  {
+    "name": "card_full_notice",
+    "zh": "添加个数已达上限",
+    "ru": "Достигнут лимит добавлений",
+    "type": "string"
+  },
+  {
+    "name": "card_schedule_no_hint",
+    "zh": "暂无日程信息",
+    "ru": "Нет информации о расписании",
+    "type": "string"
+  },
+  {
+    "name": "card_schedule_phone_connect_confirm",
+    "zh": "去连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "card_schedule_phone_connect_hint",
+    "zh": "连接手机后使用",
+    "ru": "Подключите телефон",
+    "type": "string"
+  },
+  {
+    "name": "card_second_tv",
+    "zh": "新疆.独库公路",
+    "ru": "Синьцзян. Автодорога Дуку",
+    "type": "string"
+  },
+  {
+    "name": "card_third_tv",
+    "zh": "西藏.羊卓雍措",
+    "ru": "Тибет. Ямдрок-Цо",
+    "type": "string"
+  },
+  {
+    "name": "chargeing",
+    "zh": "充电站",
+    "ru": "Зарядная станция",
+    "type": "string"
+  },
+  {
+    "name": "check_net",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "cinema",
+    "zh": "电影院",
+    "ru": "Кинотеатр",
+    "type": "string"
+  },
+  {
+    "name": "click_to_fast",
+    "zh": "点击过快稍后尝试！",
+    "ru": "Слишком частые нажатия, попробуйте позже!",
+    "type": "string"
+  },
+  {
+    "name": "close_hot_word",
+    "zh": "关闭^关掉",
+    "ru": "Выключить^Выключи",
+    "type": "string"
+  },
+  {
+    "name": "club",
+    "zh": "酒吧",
+    "ru": "Бар",
+    "type": "string"
+  },
+  {
+    "name": "coffeenet",
+    "zh": "网吧",
+    "ru": "Интернет-кафе",
+    "type": "string"
+  },
+  {
+    "name": "comfort",
+    "zh": "舒适",
+    "ru": "Комфорт",
+    "type": "string"
+  },
+  {
+    "name": "company",
+    "zh": "去公司",
+    "ru": "В офис",
+    "type": "string"
+  },
+  {
+    "name": "confirm_that_contacts",
+    "zh": "是否确认打开同步通讯录开关？",
+    "ru": "Вы уверены, что хотите включить синхронизацию контактов?",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_btn_text",
+    "zh": "一键报平安",
+    "ru": "Я в порядке",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_content_login_text",
+    "zh": "给“%1$s”分享当前位置",
+    "ru": "Поделиться текущим местоположением с «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_content_text",
+    "zh": "一键发送当前位置给TA",
+    "ru": "Отправить текущее местоположение в один клик",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_send_fail_text",
+    "zh": "分享失败请重试",
+    "ru": "Не удалось. Повторите",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_send_succ_text",
+    "zh": "分享成功",
+    "ru": "Успешно отправлено",
+    "type": "string"
+  },
+  {
+    "name": "connect_card_title_text",
+    "zh": "报平安",
+    "ru": "Всё в порядке",
+    "type": "string"
+  },
+  {
+    "name": "connecting_to_service",
+    "zh": "服务连接中，请稍后重试",
+    "ru": "Идёт подключение к сервису. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "contact_abnormal_tips",
+    "zh": "\"请您在手机端确认是否开启了获取通讯录的权限\n常见操作方式：设置-蓝牙-车机蓝牙名称旁“i”图标。\n若开启权限后仍无法同步，请您忽略/删除设备后重新配对。\"",
+    "ru": "\"Подтвердите на телефоне, что включено разрешение на доступ к контактам.\\nОбычный путь: Настройки — Bluetooth — значок «i» рядом с названием Bluetooth головного устройства.\\nЕсли после включения разрешения синхронизация по-прежнему невозможна, проигнорируйте/удалите устройство и повторите сопряжение.\"",
+    "type": "string"
+  },
+  {
+    "name": "cosmetology",
+    "zh": "美容美发",
+    "ru": "Красота",
+    "type": "string"
+  },
+  {
+    "name": "create_team",
+    "zh": "创建队伍",
+    "ru": "Создать команду",
+    "type": "string"
+  },
+  {
+    "name": "dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_dlp_title",
+    "zh": "灯语卡片编辑",
+    "ru": "Редактор световой карты",
+    "type": "string"
+  },
+  {
+    "name": "dialog_know",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_select_title",
+    "zh": "车外喊话卡片编辑",
+    "ru": "Редактирование карточки внешнего оповещения",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_load_fail_button_label",
+    "zh": "点击查看",
+    "ru": "Просмотреть",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_load_fail_first_text",
+    "zh": "点击查看",
+    "ru": "Нажмите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_load_fail_second_text",
+    "zh": "快速了解您的爱车",
+    "ru": "Быстро узнать о вашем автомобиле",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_load_fail_title",
+    "zh": "快速了解您的爱车",
+    "ru": "Быстро узнать о вашем автомобиле",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_no_app",
+    "zh": "对不起，没找到玩车手册。",
+    "ru": "Извините, «Справочник автолюбителя» не найден.",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_no_content",
+    "zh": "对不起，没找到对应页面。",
+    "ru": "Извините, страница не найдена.",
+    "type": "string"
+  },
+  {
+    "name": "direction_service_card_title",
+    "zh": "玩车手册",
+    "ru": "Справочник автолюбителя",
+    "type": "string"
+  },
+  {
+    "name": "dock_fill_full_text",
+    "zh": "请将空位填满",
+    "ru": "Заполните пустые места",
+    "type": "string"
+  },
+  {
+    "name": "dock_no_holder_text",
+    "zh": "已无空位，请删除后再添加",
+    "ru": "Нет свободных мест. Сначала удалите, затем добавьте",
+    "type": "string"
+  },
+  {
+    "name": "drive",
+    "zh": "自驾",
+    "ru": "Поездка",
+    "type": "string"
+  },
+  {
+    "name": "drive_card_style_eco_text",
+    "zh": "经济",
+    "ru": "Эконом",
+    "type": "string"
+  },
+  {
+    "name": "drive_mode_city",
+    "zh": "市区",
+    "ru": "Город",
+    "type": "string"
+  },
+  {
+    "name": "drive_mode_mountain",
+    "zh": "山地",
+    "ru": "Горный",
+    "type": "string"
+  },
+  {
+    "name": "drive_mode_smart",
+    "zh": "智能",
+    "ru": "Умный",
+    "type": "string"
+  },
+  {
+    "name": "drive_mode_tell",
+    "zh": "高速",
+    "ru": "Трасса",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_cloud",
+    "zh": "专属",
+    "ru": "Эксклюзивный",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_comfortable",
+    "zh": "舒适",
+    "ru": "Комфортный",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_custom",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_energy_saving",
+    "zh": "节能",
+    "ru": "Энергосбережение",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_normal",
+    "zh": "标准",
+    "ru": "Стандарт",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_personalization",
+    "zh": "个性化",
+    "ru": "Персонализация",
+    "type": "string"
+  },
+  {
+    "name": "drive_style_sport",
+    "zh": "运动",
+    "ru": "Спорт",
+    "type": "string"
+  },
+  {
+    "name": "drugstore",
+    "zh": "药店",
+    "ru": "Аптека",
+    "type": "string"
+  },
+  {
+    "name": "edit_app",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "edit_app_finish",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "electricity_range",
+    "zh": "纯电里程",
+    "ru": "Запас хода (электро)",
+    "type": "string"
+  },
+  {
+    "name": "emergency_mode",
+    "zh": "应急模式",
+    "ru": "Аварийный режим",
+    "type": "string"
+  },
+  {
+    "name": "empty_schedules",
+    "zh": "暂无日程",
+    "ru": "Пока нет расписания",
+    "type": "string"
+  },
+  {
+    "name": "exit_over_team_text",
+    "zh": "退出集结",
+    "ru": "Покинуть сбор",
+    "type": "string"
+  },
+  {
+    "name": "food",
+    "zh": "美食",
+    "ru": "Кухня",
+    "type": "string"
+  },
+  {
+    "name": "food_brand",
+    "zh": "面包甜点",
+    "ru": "Выпечка и десерты",
+    "type": "string"
+  },
+  {
+    "name": "food_chinese",
+    "zh": "中餐",
+    "ru": "Китайская кухня",
+    "type": "string"
+  },
+  {
+    "name": "food_hotpot",
+    "zh": "火锅",
+    "ru": "Хотпот",
+    "type": "string"
+  },
+  {
+    "name": "food_quick",
+    "zh": "小吃快餐",
+    "ru": "Фастфуд и закуски",
+    "type": "string"
+  },
+  {
+    "name": "food_west",
+    "zh": "西餐",
+    "ru": "Западная кухня",
+    "type": "string"
+  },
+  {
+    "name": "fuel_range",
+    "zh": "燃油里程",
+    "ru": "Запас хода",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "gas_station",
+    "zh": "加油站",
+    "ru": "Заправка",
+    "type": "string"
+  },
+  {
+    "name": "hdd_without_music",
+    "zh": "本地音乐无内容",
+    "ru": "Нет контента в локальной музыке",
+    "type": "string"
+  },
+  {
+    "name": "history",
+    "zh": "历史目的地",
+    "ru": "История направлений",
+    "type": "string"
+  },
+  {
+    "name": "history_title",
+    "zh": "历史目的地",
+    "ru": "История направлений",
+    "type": "string"
+  },
+  {
+    "name": "home",
+    "zh": "回家",
+    "ru": "Домой",
+    "type": "string"
+  },
+  {
+    "name": "horoscopes_card_name",
+    "zh": "今日运势",
+    "ru": "Гороскоп на сегодня",
+    "type": "string"
+  },
+  {
+    "name": "hospital",
+    "zh": "医院",
+    "ru": "Больница",
+    "type": "string"
+  },
+  {
+    "name": "hotel_all",
+    "zh": "住宿",
+    "ru": "Проживание",
+    "type": "string"
+  },
+  {
+    "name": "hotel_hostel",
+    "zh": "旅馆招待所",
+    "ru": "Гостевой дом",
+    "type": "string"
+  },
+  {
+    "name": "hotel_star",
+    "zh": "星级酒店",
+    "ru": "Звёздный отель",
+    "type": "string"
+  },
+  {
+    "name": "hotel_youth",
+    "zh": "青年旅社",
+    "ru": "Хостел",
+    "type": "string"
+  },
+  {
+    "name": "in_car_parking",
+    "zh": "车内泊车",
+    "ru": "Парковка из салона",
+    "type": "string"
+  },
+  {
+    "name": "intelligent_parking",
+    "zh": "智能泊车",
+    "ru": "Умная парковка",
+    "type": "string"
+  },
+  {
+    "name": "invite_btn",
+    "zh": "邀请好友",
+    "ru": "Пригласить друзей",
+    "type": "string"
+  },
+  {
+    "name": "invite_tv",
+    "zh": "快邀请同伴加入队伍吧~",
+    "ru": "Скорее пригласи друзей в команду~",
+    "type": "string"
+  },
+  {
+    "name": "join_team",
+    "zh": "加入队伍",
+    "ru": "Вступить в команду",
+    "type": "string"
+  },
+  {
+    "name": "lane_navi_end_poi",
+    "zh": "首都机场T2航站楼",
+    "ru": "Терминал T2 аэропорта Шуту",
+    "type": "string"
+  },
+  {
+    "name": "lane_navi_start",
+    "zh": "开始体验",
+    "ru": "Попробовать",
+    "type": "string"
+  },
+  {
+    "name": "lane_navi_start_poi",
+    "zh": "望京SOHO",
+    "ru": "Ванцзин SOHO",
+    "type": "string"
+  },
+  {
+    "name": "lane_navi_text",
+    "zh": "车道级导航",
+    "ru": "Навигация по полосам",
+    "type": "string"
+  },
+  {
+    "name": "leader",
+    "zh": "队长",
+    "ru": "Капитан",
+    "type": "string"
+  },
+  {
+    "name": "light_scene_main_title",
+    "zh": "灯语卡片",
+    "ru": "Карточка света",
+    "type": "string"
+  },
+  {
+    "name": "link_app_carlink_sub_title",
+    "zh": "OPPO、VIVO、小米手机专享",
+    "ru": "Эксклюзивно для смартфонов OPPO, Vivo и Xiaomi",
+    "type": "string"
+  },
+  {
+    "name": "link_app_carplay_sub_title",
+    "zh": "苹果手机专享",
+    "ru": "Эксклюзивно для iPhone",
+    "type": "string"
+  },
+  {
+    "name": "link_app_connected",
+    "zh": "已连接",
+    "ru": "Подключено",
+    "type": "string"
+  },
+  {
+    "name": "link_app_hicar_sub_title",
+    "zh": "华为手机专享",
+    "ru": "Только для Huawei",
+    "type": "string"
+  },
+  {
+    "name": "link_app_honor",
+    "zh": "荣耀车联",
+    "ru": "Honor CarLink",
+    "type": "string"
+  },
+  {
+    "name": "link_app_honor_sub_title",
+    "zh": "荣耀手机专享",
+    "ru": "Только для Honor",
+    "type": "string"
+  },
+  {
+    "name": "link_app_load",
+    "zh": "正在加载……",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "link_app_tlink_sub_title",
+    "zh": "不限品牌，镜像投屏",
+    "ru": "Без ограничений по бренду, зеркалирование экрана",
+    "type": "string"
+  },
+  {
+    "name": "link_app_to_connect",
+    "zh": "去连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "link_indicator_disconnect",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "link_indicator_help",
+    "zh": "支持手机型号 &amp; 功能介绍",
+    "ru": "Поддерживаемые модели телефонов & обзор функций",
+    "type": "string"
+  },
+  {
+    "name": "loading",
+    "zh": "数据加载中...",
+    "ru": "Загрузка данных...",
+    "type": "string"
+  },
+  {
+    "name": "loading_pls_wait",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "local_app_center",
+    "zh": "应用中心",
+    "ru": "Центр приложений",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_default_tip",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "look_over_team_text",
+    "zh": "查看集结",
+    "ru": "Просмотреть сбор",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_switch_close",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_title",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "lyric_load_fail_text",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "main_title",
+    "zh": "车外喊话",
+    "ru": "Внешняя громкая связь",
+    "type": "string"
+  },
+  {
+    "name": "map_gaode",
+    "zh": "高德地图",
+    "ru": "Гаоде (Amap)",
+    "type": "string"
+  },
+  {
+    "name": "map_tencent",
+    "zh": "腾讯地图",
+    "ru": "Tencent Карты",
+    "type": "string"
+  },
+  {
+    "name": "me",
+    "zh": "我",
+    "ru": "Я",
+    "type": "string"
+  },
+  {
+    "name": "media_effect_ignore",
+    "zh": "忽略",
+    "ru": "Игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "media_effect_jump",
+    "zh": "前往",
+    "ru": "Перейти",
+    "type": "string"
+  },
+  {
+    "name": "mini_app",
+    "zh": "小程序",
+    "ru": "Мини-приложение",
+    "type": "string"
+  },
+  {
+    "name": "moor_in",
+    "zh": "泊入",
+    "ru": "Парковка",
+    "type": "string"
+  },
+  {
+    "name": "moor_in_text1",
+    "zh": "附近有空车位",
+    "ru": "Свободные места рядом",
+    "type": "string"
+  },
+  {
+    "name": "moor_in_text2",
+    "zh": "推荐使用自动泊入",
+    "ru": "Рекомендуется использовать автоматическую парковку",
+    "type": "string"
+  },
+  {
+    "name": "moor_out",
+    "zh": "泊出",
+    "ru": "Выезд",
+    "type": "string"
+  },
+  {
+    "name": "moor_out_text1",
+    "zh": "旅途开始了",
+    "ru": "Путешествие началось",
+    "type": "string"
+  },
+  {
+    "name": "moor_out_text2",
+    "zh": "推荐使用智能泊车",
+    "ru": "Рекомендуется использовать интеллектуальную парковку",
+    "type": "string"
+  },
+  {
+    "name": "more",
+    "zh": "详情",
+    "ru": "Подробности",
+    "type": "string"
+  },
+  {
+    "name": "music_card_bluetooth",
+    "zh": "蓝牙音乐",
+    "ru": "Музыка по Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "music_card_local",
+    "zh": "本地音乐",
+    "ru": "Локальная музыка",
+    "type": "string"
+  },
+  {
+    "name": "music_card_outside_music_playing",
+    "zh": "外放中",
+    "ru": "На внешних динамиках",
+    "type": "string"
+  },
+  {
+    "name": "music_card_qq",
+    "zh": "QQ音乐",
+    "ru": "QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "music_card_song_name",
+    "zh": "暂无播放",
+    "ru": "Не воспроизводится",
+    "type": "string"
+  },
+  {
+    "name": "music_card_usb",
+    "zh": "USB音乐",
+    "ru": "USB-музыка",
+    "type": "string"
+  },
+  {
+    "name": "music_name_init",
+    "zh": "暂无播放",
+    "ru": "Не воспроизводится",
+    "type": "string"
+  },
+  {
+    "name": "my_text",
+    "zh": "我",
+    "ru": "Я",
+    "type": "string"
+  },
+  {
+    "name": "n_btn_go_navi",
+    "zh": "去这里",
+    "ru": "Поехать сюда",
+    "type": "string"
+  },
+  {
+    "name": "n_maphome_tip_check_network",
+    "zh": "检查网络",
+    "ru": "Проверить сеть",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_arrive",
+    "zh": "到达",
+    "ru": "Прибытие",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_arrive_tip",
+    "zh": "到达目的地",
+    "ru": "Достигли цели",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_arrive_via_tip",
+    "zh": "到达途径点",
+    "ru": "Достигли точки",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_gps_low_tip",
+    "zh": "卫星信号弱",
+    "ru": "Слабый спутниковый сигнал",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_yaw_fail_tip",
+    "zh": "已偏离路线",
+    "ru": "Съехали с маршрута",
+    "type": "string"
+  },
+  {
+    "name": "n_tbt_yaw_tip",
+    "zh": "重新规划中",
+    "ru": "Идёт перепланирование",
+    "type": "string"
+  },
+  {
+    "name": "net_error",
+    "zh": "无数据请检查网络设置",
+    "ru": "Нет данных, проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "network_error_try_later",
+    "zh": "网络异常，请稍后重试",
+    "ru": "Ошибка сети, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "no_collection",
+    "zh": "暂无收藏小程序",
+    "ru": "Нет мини-приложений",
+    "type": "string"
+  },
+  {
+    "name": "no_data",
+    "zh": "暂无数据",
+    "ru": "Нет данных",
+    "type": "string"
+  },
+  {
+    "name": "no_date",
+    "zh": "无数据",
+    "ru": "Нет данных",
+    "type": "string"
+  },
+  {
+    "name": "no_favor_mini_apps",
+    "zh": "暂无收藏小程序",
+    "ru": "Пока нет избранных мини-приложений",
+    "type": "string"
+  },
+  {
+    "name": "no_location",
+    "zh": "无位置信息",
+    "ru": "Нет местоположения",
+    "type": "string"
+  },
+  {
+    "name": "no_location_btn",
+    "zh": "去打开",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "no_location_content",
+    "zh": "请打开导航获取位置权限",
+    "ru": "Включите навигацию для получения разрешения на геолокацию",
+    "type": "string"
+  },
+  {
+    "name": "no_net_connect",
+    "zh": "无网络连接",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "no_phone_book_contact",
+    "zh": "暂无联系人",
+    "ru": "Пока нет контактов",
+    "type": "string"
+  },
+  {
+    "name": "no_playing_while_driving",
+    "zh": "行车过程中无法使用该功能",
+    "ru": "Эту функцию нельзя использовать во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "no_power",
+    "zh": "电量不可达",
+    "ru": "Уровень заряда недоступен",
+    "type": "string"
+  },
+  {
+    "name": "no_recently_used",
+    "zh": "暂无最近使用",
+    "ru": "Нет недавно использованных",
+    "type": "string"
+  },
+  {
+    "name": "open_aqt_content",
+    "zh": "\"没有可播放的音频，\n请打开爱趣听选择你要听的音乐\"",
+    "ru": "\"Нет доступных для воспроизведения аудио.\\nОткройте «Айцютин» и выберите музыку, которую хотите послушать.\"",
+    "type": "string"
+  },
+  {
+    "name": "open_aqt_continue",
+    "zh": "继续打开",
+    "ru": "Открыть",
+    "type": "string"
+  },
+  {
+    "name": "open_aqt_no",
+    "zh": "不",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "open_aqt_title",
+    "zh": "打开爱趣听",
+    "ru": "Открыть Айцютин",
+    "type": "string"
+  },
+  {
+    "name": "out_car_parking",
+    "zh": "车外泊车",
+    "ru": "Дистанционная парковка",
+    "type": "string"
+  },
+  {
+    "name": "out_port",
+    "zh": "港口码头",
+    "ru": "Порт и причал",
+    "type": "string"
+  },
+  {
+    "name": "parking",
+    "zh": "停车场",
+    "ru": "Парковка",
+    "type": "string"
+  },
+  {
+    "name": "parking_charge",
+    "zh": "驻车充电",
+    "ru": "Зарядка на парковке",
+    "type": "string"
+  },
+  {
+    "name": "phone_call_toast",
+    "zh": "通话中，暂不支持操作",
+    "ru": "Действие временно недоступно во время разговора.",
+    "type": "string"
+  },
+  {
+    "name": "place_hold_time",
+    "zh": "–– 月 –– 日",
+    "ru": "–– .––",
+    "type": "string"
+  },
+  {
+    "name": "railway_station",
+    "zh": "火车站",
+    "ru": "Вокзал",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_description_evening",
+    "zh": "晚上好，听读物放松一下吧",
+    "ru": "Добрый вечер, послушайте что-нибудь, чтобы расслабиться.",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_description_morning",
+    "zh": "早上好，用读物开启新的一天吧",
+    "ru": "Доброе утро! Начните новый день с чтения.",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_title",
+    "zh": "媒体中心",
+    "ru": "Медиацентр",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_title_evening",
+    "zh": "晚间有声读物卡",
+    "ru": "Вечерняя карточка аудиокниг",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_title_morning",
+    "zh": "晨间有声读物卡",
+    "ru": "Утренняя карточка аудиокниги",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_toast_load_fail",
+    "zh": "加载失败，请检查网络或重试",
+    "ru": "Не удалось загрузить. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "reading_card_toast_no_network",
+    "zh": "无网络连接",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "record_text",
+    "zh": "按住说话",
+    "ru": "Удерживайте и говорите",
+    "type": "string"
+  },
+  {
+    "name": "refuel_no_date_tips",
+    "zh": "附近暂无加油站",
+    "ru": "Рядом нет АЗС",
+    "type": "string"
+  },
+  {
+    "name": "root_default_lyric",
+    "zh": "暂无歌词",
+    "ru": "Текст песни отсутствует",
+    "type": "string"
+  },
+  {
+    "name": "s_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "s_car_launcher",
+    "zh": "车控桌面",
+    "ru": "Управление авто",
+    "type": "string"
+  },
+  {
+    "name": "s_daily_recommend",
+    "zh": "每日推荐",
+    "ru": "Рекомендации дня",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_apps",
+    "zh": "自定义应用",
+    "ru": "Мои приложения",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_cannot_add_has_adjust",
+    "zh": "当前可添加位置不足两个",
+    "ru": "Доступных позиций для добавления менее двух",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_cannot_add_has_temp",
+    "zh": "当前可添加位置不足三个",
+    "ru": "Доступных позиций для добавления менее трёх",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_cannot_add_normal",
+    "zh": "添加个数已达上限",
+    "ru": "Достигнут лимит добавлений",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_custom_title",
+    "zh": "自定义快捷功能",
+    "ru": "Настраиваемые быстрые действия",
+    "type": "string"
+  },
+  {
+    "name": "s_dock_edit_title",
+    "zh": "长按拖动、点击编辑上下功能",
+    "ru": "Зажмите для перетаскивания, нажмите для изменения порядка функций",
+    "type": "string"
+  },
+  {
+    "name": "s_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "s_dynamic_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "s_dynamic_cannot_add_normal",
+    "zh": "已无空位，请删除后添加",
+    "ru": "Нет свободных мест. Удалите, затем добавьте.",
+    "type": "string"
+  },
+  {
+    "name": "s_dynamic_cannot_operate",
+    "zh": "为了您的驾驶安全，请驻车后尝试",
+    "ru": "Для безопасности при вождении выполните после парковки.",
+    "type": "string"
+  },
+  {
+    "name": "s_dynamic_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "s_dynamic_edit_title",
+    "zh": "支持点击添加/删除功能、长按拖动编辑顺序",
+    "ru": "Нажмите для добавления/удаления, удерживайте и перетаскивайте для изменения порядка",
+    "type": "string"
+  },
+  {
+    "name": "s_edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "s_empty_phone_apps",
+    "zh": "暂无手机应用",
+    "ru": "Нет приложений со смартфона",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_airclean",
+    "zh": "空气净化",
+    "ru": "Очистка воздуха",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_auto",
+    "zh": "自动空调",
+    "ru": "Авто-климат",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_blowmode",
+    "zh": "吹风模式",
+    "ru": "Режим обдува",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_cyclemode",
+    "zh": "内外循环",
+    "ru": "Режим циркуляции",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_driverdeforest",
+    "zh": "前除霜",
+    "ru": "Обдув лобового стекла",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_fan",
+    "zh": "风量",
+    "ru": "Приток воздуха",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_reardeforest",
+    "zh": "后除霜",
+    "ru": "Обогрев заднего стекла",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_seatadjust",
+    "zh": "空调通⻛/加热",
+    "ru": "Вентиляция/обогрев",
+    "type": "string"
+  },
+  {
+    "name": "s_hvac_temp",
+    "zh": "温度",
+    "ru": "Температура",
+    "type": "string"
+  },
+  {
+    "name": "s_launcher_car",
+    "zh": "车控",
+    "ru": "Управление автомобилем",
+    "type": "string"
+  },
+  {
+    "name": "s_launcher_introduce",
+    "zh": "开启导航 说走就走",
+    "ru": "Запусти навигацию — и в путь",
+    "type": "string"
+  },
+  {
+    "name": "s_launcher_map",
+    "zh": "出行",
+    "ru": "Поездка",
+    "type": "string"
+  },
+  {
+    "name": "s_launcher_title",
+    "zh": "出行桌面",
+    "ru": "Экран поездок",
+    "type": "string"
+  },
+  {
+    "name": "s_launcher_wallpaper",
+    "zh": "壁纸",
+    "ru": "Обои",
+    "type": "string"
+  },
+  {
+    "name": "s_listen_first_login",
+    "zh": "登录后开启专属音乐之旅~",
+    "ru": "Войдите, чтобы начать своё музыкальное путешествие~",
+    "type": "string"
+  },
+  {
+    "name": "s_listen_title",
+    "zh": "更多好音乐，到媒体中心收听~",
+    "ru": "Больше хорошей музыки — слушайте в медиацентре~",
+    "type": "string"
+  },
+  {
+    "name": "s_load_error",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "s_load_error_text",
+    "zh": "请检查网络设置或重试",
+    "ru": "Проверьте настройки сети или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "s_load_when_network_no",
+    "zh": "加载失败，请检查网络",
+    "ru": "Не удалось загрузить. Проверьте подключение к сети.",
+    "type": "string"
+  },
+  {
+    "name": "s_mini_app_all",
+    "zh": "全部",
+    "ru": "Все",
+    "type": "string"
+  },
+  {
+    "name": "s_mini_center",
+    "zh": "小场景中心",
+    "ru": "Центр малых сценариев",
+    "type": "string"
+  },
+  {
+    "name": "s_mini_collect",
+    "zh": "收藏",
+    "ru": "Избранное",
+    "type": "string"
+  },
+  {
+    "name": "s_mini_recent_use",
+    "zh": "最近使用",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "s_more_recommend",
+    "zh": "更多推荐",
+    "ru": "Больше рекомендаций",
+    "type": "string"
+  },
+  {
+    "name": "s_navi_launcher",
+    "zh": "出行桌面",
+    "ru": "Экран поездок",
+    "type": "string"
+  },
+  {
+    "name": "s_network_no",
+    "zh": "无网络连接",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "s_network_setting",
+    "zh": "网络设置",
+    "ru": "Настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "s_no_mini_apps",
+    "zh": "暂无小程序",
+    "ru": "Мини-программ пока нет",
+    "type": "string"
+  },
+  {
+    "name": "s_no_mini_net",
+    "zh": "暂无网络",
+    "ru": "Сеть недоступна",
+    "type": "string"
+  },
+  {
+    "name": "s_no_recent_apps",
+    "zh": "暂无最近使用",
+    "ru": "Нет недавно использованных",
+    "type": "string"
+  },
+  {
+    "name": "s_normal_last",
+    "zh": "今日推荐到底啦，明天再来吧~",
+    "ru": "Рекомендации на сегодня закончились, заходите завтра~",
+    "type": "string"
+  },
+  {
+    "name": "s_normal_listen",
+    "zh": "随便听听",
+    "ru": "Слушай что хочешь",
+    "type": "string"
+  },
+  {
+    "name": "s_open_error_no_net",
+    "zh": "打开失败了，请检查网络~",
+    "ru": "Не удалось открыть, проверьте сеть~",
+    "type": "string"
+  },
+  {
+    "name": "s_recent_title",
+    "zh": "最近使用",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "s_recommend_tip",
+    "zh": "今日推荐到底啦，明天再来吧~",
+    "ru": "Рекомендации на сегодня закончились, заходите завтра~",
+    "type": "string"
+  },
+  {
+    "name": "s_try_again",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "s_wallpaper_launcher",
+    "zh": "壁纸桌面",
+    "ru": "Обои рабочего стола",
+    "type": "string"
+  },
+  {
+    "name": "s_widget_3d_title",
+    "zh": "3D车控 身临其境",
+    "ru": "3D-управление автомобилем — эффект присутствия",
+    "type": "string"
+  },
+  {
+    "name": "s_widget_navi_title",
+    "zh": "开启导航 说走就走",
+    "ru": "Запусти навигацию — и в путь",
+    "type": "string"
+  },
+  {
+    "name": "s_widget_wallpaper_title",
+    "zh": "沉浸壁纸 松解身心",
+    "ru": "Иммерсивные обои — расслабление тела и разума",
+    "type": "string"
+  },
+  {
+    "name": "scene_bind_result",
+    "zh": "抽取结果",
+    "ru": "Результат извлечения",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_blind_box_confirm_text",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_blind_box_replace_text",
+    "zh": "换一批",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_data_layout_add_rec_cancel",
+    "zh": "换一批",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_data_layout_add_rec_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_detail",
+    "zh": "查看详情",
+    "ru": "Подробнее",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_execute_starting",
+    "zh": "停止执行",
+    "ru": "Остановить выполнение",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_no_net",
+    "zh": "无网络连接…",
+    "ru": "Нет подключения к сети…",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_no_net_tip",
+    "zh": "无网络连接",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_recently",
+    "zh": "最近使用",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_select_title",
+    "zh": "parent场景编辑",
+    "ru": "Ред. parent-сценария",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_stopping",
+    "zh": "退出中",
+    "ru": "Выход...",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_title",
+    "zh": "场景积木",
+    "ru": "Сценарные блоки",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_try_out",
+    "zh": "试",
+    "ru": "Попробовать",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_used_detail",
+    "zh": "详情",
+    "ru": "Подробности",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_used_title",
+    "zh": "高高兴兴回家来",
+    "ru": "С радостью возвращайся домой",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_list_blind_box",
+    "zh": "猜盲盒有惊喜哦~",
+    "ru": "В блайндоксах вас ждут сюрпризы~",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_list_blind_box_no_more",
+    "zh": "没有更多了",
+    "ru": "Больше нет",
+    "type": "string"
+  },
+  {
+    "name": "scene_un_upload_cant_run",
+    "zh": "场景未同步，无法执行",
+    "ru": "Сцена не синхронизирована, выполнение невозможно",
+    "type": "string"
+  },
+  {
+    "name": "scenic",
+    "zh": "景点",
+    "ru": "Достопримечательность",
+    "type": "string"
+  },
+  {
+    "name": "schedule_card_name",
+    "zh": "今日行程",
+    "ru": "Расписание на сегодня",
+    "type": "string"
+  },
+  {
+    "name": "sdk_mr_day",
+    "zh": "天",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "sdk_mr_hour",
+    "zh": "时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "sdk_mr_kilometer",
+    "zh": "公里",
+    "ru": "Километр",
+    "type": "string"
+  },
+  {
+    "name": "sdk_mr_meters",
+    "zh": "米",
+    "ru": "Метр",
+    "type": "string"
+  },
+  {
+    "name": "sdk_mr_min",
+    "zh": "分",
+    "ru": "мин",
+    "type": "string"
+  },
+  {
+    "name": "sdk_poidetail_no_date_sub_tips",
+    "zh": "未知区域",
+    "ru": "Неизвестная область",
+    "type": "string"
+  },
+  {
+    "name": "sdk_poidetail_no_network_tips",
+    "zh": "加载失败, 点击重试",
+    "ru": "Не удалось загрузить. Нажмите, чтобы повторить",
+    "type": "string"
+  },
+  {
+    "name": "select_dialog_sub_title",
+    "zh": "长按可以拖动卡片位置",
+    "ru": "Удерживайте, чтобы перетащить карточку",
+    "type": "string"
+  },
+  {
+    "name": "select_dialog_title",
+    "zh": "编辑卡片",
+    "ru": "Редактировать карточку",
+    "type": "string"
+  },
+  {
+    "name": "select_parking_method_text",
+    "zh": "请选择泊车方式",
+    "ru": "Выберите способ парковки",
+    "type": "string"
+  },
+  {
+    "name": "select_save_bt_text",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "service_area",
+    "zh": "服务区",
+    "ru": "Зона обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "set_applets_info",
+    "zh": "当前未设置联系人/车牌，是否跳转到小程序进行设置",
+    "ru": "Контакт и номерной знак не заданы. Перейти в мини-приложение для настройки?",
+    "type": "string"
+  },
+  {
+    "name": "set_horoscopes",
+    "zh": "设置星座，掌握专属运势",
+    "ru": "Укажите знак зодиака, чтобы получить персональный гороскоп.",
+    "type": "string"
+  },
+  {
+    "name": "shopping_market",
+    "zh": "超市",
+    "ru": "Супермаркет",
+    "type": "string"
+  },
+  {
+    "name": "shopping_store",
+    "zh": "便利店",
+    "ru": "Магазин у дома",
+    "type": "string"
+  },
+  {
+    "name": "shouting_play_text",
+    "zh": "喊话",
+    "ru": "Вызов",
+    "type": "string"
+  },
+  {
+    "name": "subway",
+    "zh": "地铁站",
+    "ru": "Станция метро",
+    "type": "string"
+  },
+  {
+    "name": "switch_music_tips",
+    "zh": "左右滑动可切歌",
+    "ru": "Свайп — смена трека",
+    "type": "string"
+  },
+  {
+    "name": "sync_now",
+    "zh": "立即同步",
+    "ru": "Синхронизировать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "tbt_advance_in",
+    "zh": "随后",
+    "ru": "Затем",
+    "type": "string"
+  },
+  {
+    "name": "tbt_arrive",
+    "zh": "目的地已到达",
+    "ru": "Пункт назначения достигнут",
+    "type": "string"
+  },
+  {
+    "name": "tbt_default_distance",
+    "zh": "--公里",
+    "ru": "-- км",
+    "type": "string"
+  },
+  {
+    "name": "tbt_default_time",
+    "zh": "--时--分",
+    "ru": "-- ч -- мин",
+    "type": "string"
+  },
+  {
+    "name": "tbt_energy_tv",
+    "zh": "到达后剩余",
+    "ru": "Остаток после прибытия",
+    "type": "string"
+  },
+  {
+    "name": "tbt_gps_lane_low_tip",
+    "zh": "卫星信号弱 请驶入开阔地带",
+    "ru": "Слабый спутниковый сигнал. Выедьте на открытую местность.",
+    "type": "string"
+  },
+  {
+    "name": "tbt_gps_low_tip",
+    "zh": "卫星信号弱",
+    "ru": "Слабый спутниковый сигнал",
+    "type": "string"
+  },
+  {
+    "name": "tbt_in",
+    "zh": "进入",
+    "ru": "Въезд",
+    "type": "string"
+  },
+  {
+    "name": "tbt_one_minute",
+    "zh": "&lt;1分钟",
+    "ru": "<1 мин",
+    "type": "string"
+  },
+  {
+    "name": "tbt_via_tv",
+    "zh": "距途经点",
+    "ru": "До промежуточной",
+    "type": "string"
+  },
+  {
+    "name": "tbt_yaw_tip",
+    "zh": "请驶入开阔地带",
+    "ru": "Выезжайте на открытую местность",
+    "type": "string"
+  },
+  {
+    "name": "team_assembly_tv",
+    "zh": "距离集合点",
+    "ru": "Расстояние до места сбора",
+    "type": "string"
+  },
+  {
+    "name": "team_person_tv",
+    "zh": "人",
+    "ru": "чел.",
+    "type": "string"
+  },
+  {
+    "name": "team_rank_tv",
+    "zh": "排名",
+    "ru": "Ранг",
+    "type": "string"
+  },
+  {
+    "name": "team_tv",
+    "zh": "队伍",
+    "ru": "Команда",
+    "type": "string"
+  },
+  {
+    "name": "team_up",
+    "zh": "组队",
+    "ru": "Сформировать команду",
+    "type": "string"
+  },
+  {
+    "name": "team_up_tv",
+    "zh": "实时共享位置，轻松结伴出行",
+    "ru": "Делитесь местоположением в реальном времени — легко путешествовать вместе",
+    "type": "string"
+  },
+  {
+    "name": "toast_car_bluetooth_disabled",
+    "zh": "手车互联中 蓝牙音乐不可用",
+    "ru": "При подключении смартфона к автомобилю воспроизведение музыки по Bluetooth недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "toast_limit_add",
+    "zh": "已添加到上限",
+    "ru": "Достигнут максимальный лимит.",
+    "type": "string"
+  },
+  {
+    "name": "toast_load_fail",
+    "zh": "加载失败，请检查网络或重试",
+    "ru": "Не удалось загрузить. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "toast_no_repeat_add",
+    "zh": "请勿添加重复号码",
+    "ru": "Не добавляйте повторяющиеся номера",
+    "type": "string"
+  },
+  {
+    "name": "toast_no_support_call",
+    "zh": "请您在通话结束后拨号",
+    "ru": "После завершения разговора наберите номер.",
+    "type": "string"
+  },
+  {
+    "name": "toast_not_support_add",
+    "zh": "已添加到上限",
+    "ru": "Достигнут максимальный лимит.",
+    "type": "string"
+  },
+  {
+    "name": "total_distance",
+    "zh": "总里程",
+    "ru": "Общий пробег",
+    "type": "string"
+  },
+  {
+    "name": "total_endurance",
+    "zh": "总续航",
+    "ru": "Общий запас хода",
+    "type": "string"
+  },
+  {
+    "name": "trace_punch_tv",
+    "zh": "打卡成功！",
+    "ru": "Вы успешно отметились!",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_after_charge",
+    "zh": "自充电后",
+    "ru": "После зарядки",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_big_text",
+    "zh": "补能后行驶",
+    "ru": "Пробег после зарядки",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_ev_attachment_power",
+    "zh": "附件电量",
+    "ru": "Заряд аксессуаров",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_ev_cost_power",
+    "zh": "行驶电量",
+    "ru": "Запас хода",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_ev_distance",
+    "zh": "行驶距离",
+    "ru": "Пробег",
+    "type": "string"
+  },
+  {
+    "name": "travel_card_desktop_ev_energy",
+    "zh": "平均能耗",
+    "ru": "Средний расход",
+    "type": "string"
+  },
+  {
+    "name": "trip_memory",
+    "zh": "的旅程回忆",
+    "ru": "Воспоминания",
+    "type": "string"
+  },
+  {
+    "name": "tv_being_synced",
+    "zh": "正在同步通话记录和联系人",
+    "ru": "Идёт синхронизация истории звонков и контактов",
+    "type": "string"
+  },
+  {
+    "name": "tv_being_synced_contacts",
+    "zh": "正在同步通讯录和联系人",
+    "ru": "Идёт синхронизация адресной книги и контактов",
+    "type": "string"
+  },
+  {
+    "name": "tv_item_default_name",
+    "zh": "联系人",
+    "ru": "Контакты",
+    "type": "string"
+  },
+  {
+    "name": "tv_sync_tip",
+    "zh": "尚未同步通话记录和联系人",
+    "ru": "История звонков и контакты ещё не синхронизированы",
+    "type": "string"
+  },
+  {
+    "name": "tv_sync_tip_error",
+    "zh": "同步通话记录和联系人出现问题",
+    "ru": "Ошибка синхронизации истории звонков и контактов",
+    "type": "string"
+  },
+  {
+    "name": "update_sound_count_tip",
+    "zh": "本次更新 %d 个声效，欢迎试用",
+    "ru": "В этом обновлении добавлено %d звуковых эффектов. Попробуйте!",
+    "type": "string"
+  },
+  {
+    "name": "usb_device_not_connected",
+    "zh": "USB未插入",
+    "ru": "USB не подключён",
+    "type": "string"
+  },
+  {
+    "name": "usb_without_music",
+    "zh": "USB无音乐",
+    "ru": "Нет музыки на USB",
+    "type": "string"
+  },
+  {
+    "name": "voice_hint_voice_assistant_volume_change",
+    "zh": "这是当前音量",
+    "ru": "Это текущая громкость",
+    "type": "string"
+  },
+  {
+    "name": "volume_call",
+    "zh": "电话音量",
+    "ru": "Громкость телефона",
+    "type": "string"
+  },
+  {
+    "name": "volume_meida",
+    "zh": "媒体音量",
+    "ru": "Громкость мультимедиа",
+    "type": "string"
+  },
+  {
+    "name": "volume_navi",
+    "zh": "导航音量",
+    "ru": "Громкость навигации",
+    "type": "string"
+  },
+  {
+    "name": "volume_title",
+    "zh": "音量调节",
+    "ru": "Регулировка громкости",
+    "type": "string"
+  },
+  {
+    "name": "volume_voice",
+    "zh": "语音音量",
+    "ru": "Громкость голоса",
+    "type": "string"
+  },
+  {
+    "name": "washroom",
+    "zh": "卫生间",
+    "ru": "Туалет",
+    "type": "string"
+  },
+  {
+    "name": "wc",
+    "zh": "公厕",
+    "ru": "Общественный туалет",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "wthotel_empty_data",
+    "zh": "附近没有推荐的酒店",
+    "ru": "Рядом нет рекомендованных отелей",
+    "type": "string"
+  },
+  {
+    "name": "wthotel_name",
+    "zh": "小桐自由行",
+    "ru": "Сяотун",
+    "type": "string"
+  },
+  {
+    "name": "wthotel_net_error",
+    "zh": "无网络",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Получатель",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM/PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "Вторая половина дня",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_confirm",
+    "zh": "确定",
+    "ru": "OK",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на календарный режим ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_timepicker_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_timepicker_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

@@ -1,0 +1,1400 @@
+[
+  {
+    "name": "Left_front_lun",
+    "zh": "左前轮视图",
+    "ru": "Левое переднее колесо",
+    "type": "string"
+  },
+  {
+    "name": "Upgrade",
+    "zh": "升级",
+    "ru": "Обновление",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "360全景",
+    "ru": "Панорама 360°",
+    "type": "string"
+  },
+  {
+    "name": "blow_up",
+    "zh": "放大",
+    "ru": "Увеличить",
+    "type": "string"
+  },
+  {
+    "name": "calibrating_tip_tx",
+    "zh": "正在标定，请等候...",
+    "ru": "Идёт калибровка, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "calibration_complete",
+    "zh": "标定完成!",
+    "ru": "Калибровка завершена!",
+    "type": "string"
+  },
+  {
+    "name": "calibration_fail",
+    "zh": "全景标定失败",
+    "ru": "Сбой калибровки панорамы",
+    "type": "string"
+  },
+  {
+    "name": "camera_lose",
+    "zh": "无视频信号",
+    "ru": "Нет видеосигнала",
+    "type": "string"
+  },
+  {
+    "name": "camera_lose_tip",
+    "zh": "摄像头异常，全景无法使⽤，请检查摄像头",
+    "ru": "Сбой камеры, панорамный режим недоступен. Проверьте камеру.",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "confirm_calibration",
+    "zh": "确认标定",
+    "ru": "Подтвердить калибровку",
+    "type": "string"
+  },
+  {
+    "name": "dialog_btn_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "educatingModeOnOff_0x0",
+    "zh": "已关闭泊车新手引导",
+    "ru": "Обучающий режим парковки отключён.",
+    "type": "string"
+  },
+  {
+    "name": "educatingModeOnOff_0x1",
+    "zh": "已为您打开泊车新手引导",
+    "ru": "Обучающий режим парковки включён.",
+    "type": "string"
+  },
+  {
+    "name": "error_please_start",
+    "zh": "请将整车上电",
+    "ru": "Включите питание автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "error_speed_high",
+    "zh": "当前车速过高，无法进入全景应用。",
+    "ru": "Текущая скорость слишком высока, вход в приложение кругового обзора невозможен.",
+    "type": "string"
+  },
+  {
+    "name": "exit_calibration",
+    "zh": "退出标定",
+    "ru": "Выйти из калибровки",
+    "type": "string"
+  },
+  {
+    "name": "format_failed_tip",
+    "zh": "请检查USB或重启系统",
+    "ru": "Проверьте USB или перезапустите систему",
+    "type": "string"
+  },
+  {
+    "name": "front",
+    "zh": "前视图",
+    "ru": "Вид спереди",
+    "type": "string"
+  },
+  {
+    "name": "front_camera",
+    "zh": "前摄像头",
+    "ru": "Фронтальная камера",
+    "type": "string"
+  },
+  {
+    "name": "front_cd",
+    "zh": "前方视角",
+    "ru": "Вид спереди",
+    "type": "string"
+  },
+  {
+    "name": "front_lun_cd",
+    "zh": "前轮视角",
+    "ru": "Вид переднего колеса",
+    "type": "string"
+  },
+  {
+    "name": "front_view",
+    "zh": "前视",
+    "ru": "Передний вид",
+    "type": "string"
+  },
+  {
+    "name": "is_calibration",
+    "zh": "是否确定全景标定?",
+    "ru": "Вы уверены, что хотите выполнить панорамную калибровку?",
+    "type": "string"
+  },
+  {
+    "name": "is_exit_calibration",
+    "zh": "当前标定未确定，退出不记忆本次标定",
+    "ru": "Текущая калибровка не подтверждена, при выходе она не будет сохранена.",
+    "type": "string"
+  },
+  {
+    "name": "is_exit_calibration_tip2",
+    "zh": "确定是否退出",
+    "ru": "Подтвердить выход?",
+    "type": "string"
+  },
+  {
+    "name": "know",
+    "zh": "知道了",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "know_1",
+    "zh": "知道了（1s）",
+    "ru": "ОК (1 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_10",
+    "zh": "知道了（10s）",
+    "ru": "ОК (10 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_2",
+    "zh": "知道了（2s）",
+    "ru": "ОК (2 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_3",
+    "zh": "知道了（3s）",
+    "ru": "ОК (3 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_4",
+    "zh": "知道了（4s）",
+    "ru": "Понятно (4 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_5",
+    "zh": "知道了（5s）",
+    "ru": "Понятно (5 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_6",
+    "zh": "知道了（6s）",
+    "ru": "Понятно (6 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_7",
+    "zh": "知道了（7s）",
+    "ru": "Понятно (7 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_8",
+    "zh": "知道了（8s）",
+    "ru": "Понятно (8 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_9",
+    "zh": "知道了（9s）",
+    "ru": "Понятно (9 с)",
+    "type": "string"
+  },
+  {
+    "name": "know_time",
+    "zh": "知道了（%Ss）",
+    "ru": "Понятно (%S с)",
+    "type": "string"
+  },
+  {
+    "name": "left",
+    "zh": "左视图",
+    "ru": "Вид слева",
+    "type": "string"
+  },
+  {
+    "name": "left_camera",
+    "zh": "左摄像头",
+    "ru": "Левая камера",
+    "type": "string"
+  },
+  {
+    "name": "left_cd",
+    "zh": "左边视角",
+    "ru": "Вид слева",
+    "type": "string"
+  },
+  {
+    "name": "left_right_front",
+    "zh": "左前　　　右前",
+    "ru": "Передний левый   передний правый",
+    "type": "string"
+  },
+  {
+    "name": "left_right_rear",
+    "zh": "左后　　　右后",
+    "ru": "Задний левый   задний правый",
+    "type": "string"
+  },
+  {
+    "name": "left_view",
+    "zh": "左视",
+    "ru": "Левый вид",
+    "type": "string"
+  },
+  {
+    "name": "manual_cali_error_tip",
+    "zh": "售后标定中无法退出，请先完成标定或重启",
+    "ru": "Выход невозможен во время калибровки. Завершите калибровку или перезапустите систему",
+    "type": "string"
+  },
+  {
+    "name": "maximize",
+    "zh": "最大化",
+    "ru": "Максимизировать",
+    "type": "string"
+  },
+  {
+    "name": "minimize",
+    "zh": "最小化",
+    "ru": "Минимизировать",
+    "type": "string"
+  },
+  {
+    "name": "no_upgrade",
+    "zh": "未升级",
+    "ru": "Не обновлено",
+    "type": "string"
+  },
+  {
+    "name": "pick_transparent",
+    "zh": "透明车身",
+    "ru": "Прозрачный кузов",
+    "type": "string"
+  },
+  {
+    "name": "please_check_the_camera",
+    "zh": "请检查摄像头",
+    "ru": "Проверьте камеру",
+    "type": "string"
+  },
+  {
+    "name": "radar_voice",
+    "zh": "雷达报警音",
+    "ru": "Тревога радара",
+    "type": "string"
+  },
+  {
+    "name": "rads_cancel_bt",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "rads_confirm",
+    "zh": "确认开启",
+    "ru": "Подтвердить включение",
+    "type": "string"
+  },
+  {
+    "name": "rads_continue",
+    "zh": "继续",
+    "ru": "Продолжать",
+    "type": "string"
+  },
+  {
+    "name": "rads_is_close",
+    "zh": "是否退出循迹倒车？",
+    "ru": "Выйти из режима реверса по траектории?",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x1",
+    "zh": "无记忆路径，循迹倒车不可用",
+    "ru": "Нет сохранённой траектории, движение задним ходом по траектории недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x10",
+    "zh": "用户已控制，循迹倒车已退出",
+    "ru": "Пользователь взял управление, режим движения задним ходом по траектории завершён.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x11",
+    "zh": "检测到车门开启，已为您暂停",
+    "ru": "Обнаружено открытие двери, движение приостановлено.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x12",
+    "zh": "检测到安全带解开，已为您暂停",
+    "ru": "Обнаружено расстёгивание ремня безопасности, движение приостановлено.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x13",
+    "zh": "坡度过大，循迹倒车已退出",
+    "ru": "Слишком крутой уклон, режим движения задним ходом по траектории завершён.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x16",
+    "zh": "系统故障，循迹倒车不可用",
+    "ru": "Сбой системы, движение задним ходом по траектории недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x1B",
+    "zh": "检测到后方障碍物，等待中",
+    "ru": "Обнаружено препятствие сзади, ожидание.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x1B_tip",
+    "zh": "正在泊车中，请注意避让",
+    "ru": "Парковка в процессе, пожалуйста, не приближайтесь.",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x1C",
+    "zh": "系统故障，循迹倒车已退出",
+    "ru": "Сбой системы, функция реверса по пройденному пути отключена",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x2",
+    "zh": "坡度过大，循迹倒车不可用",
+    "ru": "Слишком крутой уклон, функция реверса по пройденному пути недоступна",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x24",
+    "zh": "请松开加速踏板",
+    "ru": "Отпустите педаль газа",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x25",
+    "zh": "请松开制动踏板",
+    "ru": "Отпустите педаль тормоза",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x26",
+    "zh": "请勿拨动换挡档杆",
+    "ru": "Не перемещайте рычаг переключения передач",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x28",
+    "zh": "等待时间过长，循迹倒车已退出",
+    "ru": "Превышено время ожидания, функция реверса по пройденному пути отключена",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x29",
+    "zh": "循迹倒车已暂停",
+    "ru": "Авто-реверс на паузе",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x2A",
+    "zh": "非普通驾驶模式，循迹倒车不可用",
+    "ru": "Функция реверса по пройденному пути недоступна в режиме, отличном от обычного",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x2B",
+    "zh": "驾驶模式已切换，循迹倒车已退出",
+    "ru": "Режим вождения переключён, обратное движение по траектории отключено",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x2C",
+    "zh": "系统失效，请踩住刹车控制车辆",
+    "ru": "Неисправность системы, удерживайте педаль тормоза для управления автомобилем",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x3",
+    "zh": "请停车后重试",
+    "ru": "Остановитесь и повторите",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x5",
+    "zh": "请关闭车门后重试",
+    "ru": "Закройте дверь и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0x8",
+    "zh": "循迹倒车已开启，请松开制动踏板和方向盘",
+    "ru": "Обратное движение по траектории активировано, отпустите педаль тормоза и руль",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xA",
+    "zh": "请系好安全带后重试",
+    "ru": "Пристегните ремень безопасности и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xB",
+    "zh": "光线暗，循迹倒车暂不可用",
+    "ru": "При слабом освещении обратное движение по траектории временно недоступно",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xC",
+    "zh": "循迹倒车已开始，请注意观察周边环境",
+    "ru": "Обратное движение по траектории началось, обратите внимание на окружающую обстановку",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xD",
+    "zh": "即将抵达终点",
+    "ru": "Скоро прибытие",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xE",
+    "zh": "循迹倒车已完成",
+    "ru": "Обратный заезд завершён",
+    "type": "string"
+  },
+  {
+    "name": "rads_notice_0xE_voice",
+    "zh": "循迹倒车已完成，请控制车辆",
+    "ru": "Заезд задним ходом по траектории завершён, возьмите управление на себя",
+    "type": "string"
+  },
+  {
+    "name": "rads_speed",
+    "zh": "车速：",
+    "ru": "Скорость автомобиля:",
+    "type": "string"
+  },
+  {
+    "name": "rads_state_ing",
+    "zh": "循迹倒车中…",
+    "ru": "Обратный заезд…",
+    "type": "string"
+  },
+  {
+    "name": "rads_state_ok",
+    "zh": "循迹倒车已完成",
+    "ru": "Обратный заезд завершён",
+    "type": "string"
+  },
+  {
+    "name": "rads_state_stop",
+    "zh": "循迹倒车暂停中",
+    "ru": "Обратный заезд на паузе",
+    "type": "string"
+  },
+  {
+    "name": "rads_stop",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "rads_use_tip",
+    "zh": "循迹倒车属于辅助驾驶功能，作为功能使用的第一责任人，您对功能使用安全具有监管的责任，须要遵守相关法律法规；使用过程中，请您注意观察周围环境，包括但不限于横穿的行人、车辆等运动物体以及排水沟、悬崖等道路情况，必要时须主动控制车辆。",
+    "ru": "Реверс по траектории является функцией системы помощи водителю. Как основное ответственное лицо за использование функции, вы несёте ответственность за безопасность её применения и обязаны соблюдать действующее законодательство. Во время использования внимательно следите за окружающей обстановкой, включая, но не ограничиваясь, пешеходов, транспортные средства и другие движущиеся объекты, пересекающие дорогу, а также состояние покрытия (дренажные канавы, обрывы и т. п.). При необходимости самостоятельно управляйте транспортным средством.",
+    "type": "string"
+  },
+  {
+    "name": "rads_use_title",
+    "zh": "循迹倒车使用须知",
+    "ru": "Инструкция по использованию реверса по траектории",
+    "type": "string"
+  },
+  {
+    "name": "ramp_tip",
+    "zh": "开启后，车辆行驶在坡度约大于9°时，系统主动开启全景，方便观察车辆前方盲区。",
+    "ru": "После включения при движении по уклону более 9° система автоматически активирует панорамный обзор для контроля слепой зоны перед автомобилем.",
+    "type": "string"
+  },
+  {
+    "name": "ramp_voice",
+    "zh": "当前道路坡道过大，请注意前方道路",
+    "ru": "Уклон дороги слишком крутой, будьте внимательны к дороге впереди.",
+    "type": "string"
+  },
+  {
+    "name": "rear",
+    "zh": "后视图",
+    "ru": "Вид сзади",
+    "type": "string"
+  },
+  {
+    "name": "rear_camera",
+    "zh": "后摄像头",
+    "ru": "Задняя камера",
+    "type": "string"
+  },
+  {
+    "name": "rear_cd",
+    "zh": "后面视角",
+    "ru": "Вид сзади",
+    "type": "string"
+  },
+  {
+    "name": "rear_lun_cd",
+    "zh": "后轮视角",
+    "ru": "Вид на заднее колесо",
+    "type": "string"
+  },
+  {
+    "name": "rear_view",
+    "zh": "后视",
+    "ru": "Задний вид",
+    "type": "string"
+  },
+  {
+    "name": "reduce",
+    "zh": "缩小",
+    "ru": "Уменьшить",
+    "type": "string"
+  },
+  {
+    "name": "residue",
+    "zh": "剩余：",
+    "ru": "Осталось:",
+    "type": "string"
+  },
+  {
+    "name": "retry",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "right",
+    "zh": "右视图",
+    "ru": "Вид справа",
+    "type": "string"
+  },
+  {
+    "name": "right_camera",
+    "zh": "右摄像头",
+    "ru": "Правая камера",
+    "type": "string"
+  },
+  {
+    "name": "right_cd",
+    "zh": "右边视角",
+    "ru": "Вид справа",
+    "type": "string"
+  },
+  {
+    "name": "right_front_lun",
+    "zh": "右前轮视图",
+    "ru": "Право-переднее колесо",
+    "type": "string"
+  },
+  {
+    "name": "right_view",
+    "zh": "右视",
+    "ru": "Вид справа",
+    "type": "string"
+  },
+  {
+    "name": "str_reminder",
+    "zh": "欢迎使用全景影像，请注意车辆周边安全",
+    "ru": "Добро пожаловать в систему кругового обзора, пожалуйста, соблюдайте безопасность вокруг автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "switch_auxiliary",
+    "zh": "引导线",
+    "ru": "Направляющая линия",
+    "type": "string"
+  },
+  {
+    "name": "switch_radar",
+    "zh": "雷达触发全景",
+    "ru": "Панорама по радару",
+    "type": "string"
+  },
+  {
+    "name": "switch_ramp",
+    "zh": "坡道视野辅助",
+    "ru": "Обзор на уклоне",
+    "type": "string"
+  },
+  {
+    "name": "switch_turnSignal",
+    "zh": "转向灯触发全景",
+    "ru": "Панорама по поворотнику",
+    "type": "string"
+  },
+  {
+    "name": "tv_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "tv_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "tv_set",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_ng",
+    "zh": "升级失败",
+    "ru": "Обновление не удалось",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_no_power_off",
+    "zh": "升级中，请勿断电",
+    "ru": "Идёт обновление, не отключайте питание",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_ok",
+    "zh": "升级成功",
+    "ru": "Обновление успешно",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_ok1",
+    "zh": "升级成功!",
+    "ru": "Обновление успешно!",
+    "type": "string"
+  },
+  {
+    "name": "upgrading",
+    "zh": "升级中...",
+    "ru": "Обновление...",
+    "type": "string"
+  },
+  {
+    "name": "vehicleStartRemindSts_0x3",
+    "zh": "前车驶离，请踩加速踏板起步",
+    "ru": "Автомобиль впереди уехал, нажмите на педаль газа для начала движения",
+    "type": "string"
+  },
+  {
+    "name": "version_ng",
+    "zh": "四个摄像头供应商信息不一致/供应商信息读取失败",
+    "ru": "Информация о поставщиках четырёх камер не совпадает / Ошибка чтения информации о поставщиках",
+    "type": "string"
+  },
+  {
+    "name": "version_no_read",
+    "zh": "供应商信息读取失败",
+    "ru": "Не удалось прочитать информацию о поставщике",
+    "type": "string"
+  },
+  {
+    "name": "version_ok",
+    "zh": "版本号一致，无需升级",
+    "ru": "Версии совпадают, обновление не требуется",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x1",
+    "zh": "请立即接管",
+    "ru": "Возьмите управление!",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x111",
+    "zh": "智能巡航临时退出",
+    "ru": "Временное отключение интеллектуального круиз-контроля",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x112",
+    "zh": "智能巡航已恢复",
+    "ru": "Круиз-контроль возобновлён",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x11C",
+    "zh": "安全带解开，巡航十秒后退出",
+    "ru": "Ремень безопасности отстёгнут, круиз-контроль отключится через 10 секунд",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x11E",
+    "zh": "智能巡航尝试激活中",
+    "ru": "Идёт попытка активации интеллектуального круиз-контроля",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x11F",
+    "zh": "车门开启，巡航十秒后退出",
+    "ru": "Дверь открыта, круиз-контроль отключится через 10 секунд",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x2",
+    "zh": "请立即接管",
+    "ru": "Возьмите управление",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x22",
+    "zh": "前方汇流， 请谨慎驾驶",
+    "ru": "Впереди слияние, будьте осторожны",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x25",
+    "zh": "前方下匝道，请恢复手动驾驶",
+    "ru": "Впереди съезд, пожалуйста, переключитесь на ручное управление",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x26",
+    "zh": "前方收费站，请恢复手动驾驶",
+    "ru": "Впереди пункт оплаты, пожалуйста, переключитесь на ручное управление",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x4F",
+    "zh": "请手握方向盘",
+    "ru": "Держите руки на руле",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x58",
+    "zh": "您还未关闭转向灯",
+    "ru": "Вы ещё не выключили указатель поворота",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x6",
+    "zh": "智能巡航已退出",
+    "ru": "Адаптивный круиз отключён",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0x7",
+    "zh": "智能巡航已激活",
+    "ru": "Адаптивный круиз активен",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0xA",
+    "zh": "自适应巡航已退出",
+    "ru": "Адаптивный круиз-контроль отключён",
+    "type": "string"
+  },
+  {
+    "name": "voiceRequest_0xA1",
+    "zh": "前方急弯，请谨慎驾驶",
+    "ru": "Впереди крутой поворот, будьте осторожны",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть на половину высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "copy",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "expand_button_title",
+    "zh": "高级",
+    "ru": "Расширенные",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "not_set",
+    "zh": "未设置",
+    "ru": "Не задано",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "preference_copied",
+    "zh": "已将“%1$s”复制到剪贴板。",
+    "ru": "«%1$s» скопировано в буфер обмена.",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

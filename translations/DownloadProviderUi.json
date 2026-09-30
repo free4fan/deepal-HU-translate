@@ -1,0 +1,194 @@
+[
+  {
+    "name": "app_label",
+    "zh": "下载",
+    "ru": "Загрузки",
+    "type": "string"
+  },
+  {
+    "name": "button_sort_by_date",
+    "zh": "按日期排序",
+    "ru": "Сортировать по дате",
+    "type": "string"
+  },
+  {
+    "name": "button_sort_by_size",
+    "zh": "按大小排序",
+    "ru": "Сортировать по размеру",
+    "type": "string"
+  },
+  {
+    "name": "cancel_running_download",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "delete_download",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "deselect_all",
+    "zh": "取消全选",
+    "ru": "Снять выделение со всех",
+    "type": "string"
+  },
+  {
+    "name": "dialog_cannot_resume",
+    "zh": "下载中断，无法继续进行。",
+    "ru": "Загрузка прервана, продолжить невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_failed_body",
+    "zh": "您想要稍后重新尝试下载该文件，还是将其从队列中删除？",
+    "ru": "Повторить попытку загрузки файла позже или удалить его из очереди?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_file_already_exists",
+    "zh": "无法下载，目标文件已存在。",
+    "ru": "Невозможно загрузить: целевой файл уже существует.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_file_missing_body",
+    "zh": "找不到已下载的文件。",
+    "ru": "Загруженный файл не найден.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_insufficient_space_on_cache",
+    "zh": "无法完成下载，内部下载存储器的空间不足。",
+    "ru": "Не удалось завершить загрузку: недостаточно места во внутренней памяти.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_insufficient_space_on_external",
+    "zh": "无法完成下载，外部存储器的空间不足。",
+    "ru": "Не удалось завершить загрузку: недостаточно места на внешнем накопителе.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_media_not_found",
+    "zh": "无法下载，未安装外部媒体。",
+    "ru": "Невозможно загрузить: внешний носитель не установлен.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_queued_body",
+    "zh": "此文件正在等待下载，因此暂时无法使用。",
+    "ru": "Этот файл ожидает загрузки, поэтому временно недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_not_available",
+    "zh": "无法下载",
+    "ru": "Невозможно загрузить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_queued_body",
+    "zh": "等待下载的文件",
+    "ru": "Файлы, ожидающие загрузки",
+    "type": "string"
+  },
+  {
+    "name": "download_error",
+    "zh": "失败",
+    "ru": "Неудача",
+    "type": "string"
+  },
+  {
+    "name": "download_no_application_title",
+    "zh": "无法打开文件",
+    "ru": "Невозможно открыть файл",
+    "type": "string"
+  },
+  {
+    "name": "download_queued",
+    "zh": "已加入队列",
+    "ru": "Добавлено в очередь",
+    "type": "string"
+  },
+  {
+    "name": "download_running",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "download_share_dialog",
+    "zh": "分享方式",
+    "ru": "Способ обмена",
+    "type": "string"
+  },
+  {
+    "name": "download_success",
+    "zh": "已完成",
+    "ru": "Завершено",
+    "type": "string"
+  },
+  {
+    "name": "download_title_sorted_by_date",
+    "zh": "下载内容 - 按日期排序",
+    "ru": "Загруженные файлы — сортировка по дате",
+    "type": "string"
+  },
+  {
+    "name": "download_title_sorted_by_size",
+    "zh": "下载内容 - 按大小排序",
+    "ru": "Загруженные файлы — сортировка по размеру",
+    "type": "string"
+  },
+  {
+    "name": "keep_queued_download",
+    "zh": "保留",
+    "ru": "Оставить",
+    "type": "string"
+  },
+  {
+    "name": "missing_title",
+    "zh": "&lt;未知>",
+    "ru": "<Неизвестный>",
+    "type": "string"
+  },
+  {
+    "name": "no_downloads",
+    "zh": "无下载内容。",
+    "ru": "Нет содержимого для загрузки.",
+    "type": "string"
+  },
+  {
+    "name": "remove_download",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "retry_download",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "select_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "selected_count",
+    "zh": "已选择 %1$d 个，共 %2$d 个",
+    "ru": "Выбрано %1$d, всего %2$d",
+    "type": "string"
+  },
+  {
+    "name": "start_now_download",
+    "zh": "立即开始",
+    "ru": "Начать сейчас",
+    "type": "string"
+  }
+]

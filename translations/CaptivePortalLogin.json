@@ -1,0 +1,176 @@
+[
+  {
+    "name": "action_bar_label",
+    "zh": "登录到网络",
+    "ru": "Войти в сеть",
+    "type": "string"
+  },
+  {
+    "name": "action_bar_title",
+    "zh": "登录%1$s",
+    "ru": "Войти в %1$s",
+    "type": "string"
+  },
+  {
+    "name": "action_do_not_use_network",
+    "zh": "不要使用此网络",
+    "ru": "Не используйте эту сеть",
+    "type": "string"
+  },
+  {
+    "name": "action_use_network",
+    "zh": "直接使用此网络",
+    "ru": "Использовать эту сеть напрямую",
+    "type": "string"
+  },
+  {
+    "name": "channel_description_download_progress",
+    "zh": "显示文件下载进度的通知",
+    "ru": "Уведомление о прогрессе загрузки файла",
+    "type": "string"
+  },
+  {
+    "name": "channel_description_downloads",
+    "zh": "显示下载已完成或下载已取消的通知",
+    "ru": "Показывать уведомление при завершении или отмене загрузки",
+    "type": "string"
+  },
+  {
+    "name": "channel_name_download_progress",
+    "zh": "下载进度",
+    "ru": "Прогресс загрузки",
+    "type": "string"
+  },
+  {
+    "name": "channel_name_downloads",
+    "zh": "下载状态",
+    "ru": "Статус загрузки",
+    "type": "string"
+  },
+  {
+    "name": "custom_scheme_example",
+    "zh": "例如，登录页面可能会要求使用特定应用进行身份验证",
+    "ru": "Например, страница входа может потребовать использования конкретного приложения для аутентификации",
+    "type": "string"
+  },
+  {
+    "name": "custom_scheme_warning",
+    "zh": "您尝试加入的网络正在请求打开另一个应用。",
+    "ru": "Сеть, к которой вы пытаетесь подключиться, запрашивает открытие другого приложения.",
+    "type": "string"
+  },
+  {
+    "name": "download_completed",
+    "zh": "下载已完成",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "downloading_paramfile",
+    "zh": "正在下载%1$s",
+    "ru": "Загрузка %1$s",
+    "type": "string"
+  },
+  {
+    "name": "error_continue_via_browser",
+    "zh": "仍然通过浏览器继续操作",
+    "ru": "Продолжить работу в браузере",
+    "type": "string"
+  },
+  {
+    "name": "error_downloading_paramfile",
+    "zh": "无法下载%1$s",
+    "ru": "Не удалось скачать %1$s",
+    "type": "string"
+  },
+  {
+    "name": "no_bypass_error_vpnwarning",
+    "zh": "另外，无法绕过此错误，因为该设备目前正在运行 VPN。",
+    "ru": "Кроме того, эту ошибку невозможно обойти, так как на устройстве в данный момент запущен VPN.",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "page_info",
+    "zh": "页面信息",
+    "ru": "Информация о странице",
+    "type": "string"
+  },
+  {
+    "name": "page_info_address",
+    "zh": "地址：",
+    "ru": "Адрес:",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_date_invalid",
+    "zh": "该证书的日期无效。",
+    "ru": "Дата этого сертификата недействительна.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_example",
+    "zh": "例如，登录页面可能并不属于页面上显示的单位。",
+    "ru": "Например, страница входа может не принадлежать организации, указанной на странице.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_expired",
+    "zh": "该证书已过期。",
+    "ru": "Этот сертификат истёк.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_invalid",
+    "zh": "该证书无效。",
+    "ru": "Сертификат недействителен.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_mismatch",
+    "zh": "网站的名称与证书上的名称不一致。",
+    "ru": "Имя сайта не совпадает с именем, указанным в сертификате.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_not_yet_valid",
+    "zh": "该证书尚未生效。",
+    "ru": "Данный сертификат ещё не вступил в силу.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_unknown",
+    "zh": "未知证书错误。",
+    "ru": "Неизвестная ошибка сертификата.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_untrusted",
+    "zh": "该证书并非来自可信的授权中心。",
+    "ru": "Этот сертификат не выдан доверенным центром сертификации.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_view_certificate",
+    "zh": "查看证书",
+    "ru": "Просмотреть сертификат",
+    "type": "string"
+  },
+  {
+    "name": "ssl_error_warning",
+    "zh": "您尝试加入的网络存在安全问题。",
+    "ru": "В сети, к которой вы пытаетесь подключиться, обнаружены проблемы с безопасностью.",
+    "type": "string"
+  },
+  {
+    "name": "ssl_security_warning_title",
+    "zh": "安全警告",
+    "ru": "Предупреждение",
+    "type": "string"
+  }
+]

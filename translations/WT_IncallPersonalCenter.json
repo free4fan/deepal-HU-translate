@@ -1,0 +1,2294 @@
+[
+  {
+    "name": "amap_login_title_hint",
+    "zh": "使用手机高德地图扫码登录",
+    "ru": "Отсканируйте QR-код в приложении Amap на смартфоне",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_account_title",
+    "zh": "确认绑定车机账号与高德地图账号",
+    "ru": "Подтвердить привязку аккаунта мультимедийной системы к аккаунту Amap",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_amap_bind_info",
+    "zh": "《账号绑定服务协议》",
+    "ru": "«Соглашение о привязке учётной записи»",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_amap_privacy_info",
+    "zh": "《高德隐私权政策》",
+    "ru": "«Политика конфиденциальности Amap»",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_amap_service_info",
+    "zh": "《高德服务条款》",
+    "ru": "«Условия использования Amap»",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_amap_sure",
+    "zh": "同意",
+    "ru": "Согласен",
+    "type": "string"
+  },
+  {
+    "name": "tx_switch_user_faild",
+    "zh": "切换帐号失败，请先前往高德地图退出当前帐号",
+    "ru": "Не удалось переключить аккаунт. Сначала выйдите из текущего аккаунта в приложении Amap.",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте клавиатуру в любом месте для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие параметры",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "activity_amap_tip_bind",
+    "zh": "确认将驾驶员中心与高德地图账户绑定？",
+    "ru": "Подтвердить привязку «Центра водителя» к аккаунту Amap?",
+    "type": "string"
+  },
+  {
+    "name": "bitmap_download_error",
+    "zh": "图片下载失败",
+    "ru": "Ошибка загрузки изображения",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "confirm_safety",
+    "zh": "确认安全",
+    "ru": "Безопасно",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "http_init_error",
+    "zh": "网络初始化失败",
+    "ru": "Сбой инициализации сети",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "json_error",
+    "zh": "json解析失败",
+    "ru": "Ошибка парсинга JSON",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "ПП",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календаря",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы выбрать день",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы выбрать год",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_navigate_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_open_drawer_description",
+    "zh": "打开抽屉式导航栏",
+    "ru": "Открыть выдвижную панель навигации",
+    "type": "string"
+  },
+  {
+    "name": "net_return_error",
+    "zh": "网络接口返回错误",
+    "ru": "Сетевой интерфейс вернул ошибку",
+    "type": "string"
+  },
+  {
+    "name": "no_network_error",
+    "zh": "无网，请检查网络连接",
+    "ru": "Нет сети. Проверьте подключение к сети.",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_amap_hint",
+    "zh": "绑定驾驶员中心与高德地图账号",
+    "ru": "Привязать Центр водителя к аккаунту Amap",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_confirm",
+    "zh": "确认绑定",
+    "ru": "Подтвердить привязку",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_fail",
+    "zh": "绑定失败",
+    "ru": "Привязка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_fail_other_user",
+    "zh": "该账号已被其他账号绑定，请解绑后重试",
+    "ru": "Этот аккаунт уже привязан к другому аккаунту. Отвяжите и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_net_error",
+    "zh": "绑定失败，请重试",
+    "ru": "Привязка не удалась. Повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_success",
+    "zh": "绑定成功",
+    "ru": "Привязка выполнена",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_switch_user",
+    "zh": "切换账号",
+    "ru": "Сменить аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "tx_bind_title_hint",
+    "zh": "应用关联",
+    "ru": "Связывание приложений",
+    "type": "string"
+  },
+  {
+    "name": "tx_login_amap_hint",
+    "zh": "请使用手机高德扫码登录",
+    "ru": "Для входа отсканируйте QR-код приложением Amap на смартфоне",
+    "type": "string"
+  },
+  {
+    "name": "tx_login_title_hint",
+    "zh": "使用手机高德扫码绑定账号",
+    "ru": "Привяжите аккаунт, отсканировав QR-код в приложении Amap на смартфоне",
+    "type": "string"
+  },
+  {
+    "name": "tx_qrcode_fail",
+    "zh": "二维码加载失败，请重试",
+    "ru": "Не удалось загрузить QR-код. Попробуйте снова.",
+    "type": "string"
+  },
+  {
+    "name": "zxing_app_name",
+    "zh": "条码扫描器",
+    "ru": "Сканер штрих-кодов",
+    "type": "string"
+  },
+  {
+    "name": "zxing_button_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_camera_framework_bug",
+    "zh": "抱歉，Android相机出现问题。您可能需要重启设备。",
+    "ru": "К сожалению, в камере Android возникла проблема. Возможно, вам потребуется перезагрузить устройство.",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_default_status",
+    "zh": "请将条码置于取景框内扫描。",
+    "ru": "Поместите штрих-код в рамку для сканирования.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_capsule_title_1",
+    "zh": "控车码登录",
+    "ru": "Вход по коду авто",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_capsule_title_2",
+    "zh": "扫码登录",
+    "ru": "Войти по QR-коду",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_pin_hint",
+    "zh": "密码输入错误",
+    "ru": "Неверный пароль",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_pin_hint_btn",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_pin_input_title",
+    "zh": "密码",
+    "ru": "Пароль",
+    "type": "string"
+  },
+  {
+    "name": "account_switch_pin_title",
+    "zh": "该密码与您手机深蓝APP设置的控车码一致",
+    "ru": "Этот пароль совпадает с кодом управления автомобилем, установленным в приложении Deepal на вашем телефоне.",
+    "type": "string"
+  },
+  {
+    "name": "app_link_amap_no_ready",
+    "zh": "请先启动地图并同意用户协议",
+    "ru": "Пожалуйста, сначала запустите карту и примите пользовательское соглашение",
+    "type": "string"
+  },
+  {
+    "name": "app_link_tip",
+    "zh": "绑定您的驾驶员账号与%1$s账号，绑定后%2$s账号与驾驶员账号同时登录和退出。",
+    "ru": "Привяжите ваш аккаунт водителя к аккаунту %1$s. После привязки аккаунт %2$s и аккаунт водителя будут одновременно входить в систему и выходить из неё.",
+    "type": "string"
+  },
+  {
+    "name": "app_link_tip_default",
+    "zh": "绑定您的驾驶员账号，绑定后账号与驾驶员账号同时登录和退出。",
+    "ru": "Привяжите аккаунт водителя. После привязки оба аккаунта будут одновременно входить в систему и выходить из неё.",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "驾驶员中心",
+    "ru": "Центр водителя",
+    "type": "string"
+  },
+  {
+    "name": "bind_stop_bluetooth_toast_master",
+    "zh": "车主账号无法停用蓝牙钥匙功能",
+    "ru": "Аккаунт владельца не позволяет отключить функцию Bluetooth-ключа.",
+    "type": "string"
+  },
+  {
+    "name": "bind_stop_bluetooth_toast_member",
+    "zh": "您的蓝牙钥匙已解绑",
+    "ru": "Ваш Bluetooth-ключ отвязан.",
+    "type": "string"
+  },
+  {
+    "name": "btn_face_privacy_permission_cancel_txt",
+    "zh": "不同意，退出",
+    "ru": "Не согласен, выйти",
+    "type": "string"
+  },
+  {
+    "name": "btn_face_privacy_permission_confirm_txt",
+    "zh": "同意",
+    "ru": "Согласен",
+    "type": "string"
+  },
+  {
+    "name": "dialog_birthday_set_fail",
+    "zh": "修改失败，请稍候重试",
+    "ru": "Не удалось выполнить изменение. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_birthday_set_fail_out",
+    "zh": "修改失败，不能超出当前时间线",
+    "ru": "Не удалось изменить: нельзя выходить за пределы текущей временной шкалы.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_close_face_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_close_face_sure",
+    "zh": "关闭",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_close_face_title",
+    "zh": "录入面部数据",
+    "ru": "Регистрация данных лица",
+    "type": "string"
+  },
+  {
+    "name": "dialog_close_face_title_tx",
+    "zh": "您确定要关闭人脸识别功能？",
+    "ru": "Вы уверены, что хотите отключить функцию распознавания лиц?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_del_pwd",
+    "zh": "删除登录密码？",
+    "ru": "Удалить пароль для входа?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_del_pwd_confirm",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_face_rec",
+    "zh": "人脸识别中",
+    "ru": "Распознавание лица...",
+    "type": "string"
+  },
+  {
+    "name": "dialog_face_rec_title",
+    "zh": "账号绑定",
+    "ru": "Привязка аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "dialog_face_thi_title",
+    "zh": "请您尽量使车内光线适当、面部无遮挡并正对车内主驾驶位摄像头进行人脸注册",
+    "ru": "Пожалуйста, по возможности обеспечьте достаточное освещение в салоне, не закрывайте лицо и смотрите прямо в камеру на водительском месте для регистрации лица.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_happen",
+    "zh": "发生时间：",
+    "ru": "Время возникновения:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_info",
+    "zh": "问题详情：",
+    "ru": "Детали проблемы:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_reply",
+    "zh": "长安回复：",
+    "ru": "Ответ Changan:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_status",
+    "zh": "处理进度：",
+    "ru": "Прогресс обработки:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_time",
+    "zh": "处理时间：",
+    "ru": "Время обработки:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_title",
+    "zh": "历史反馈",
+    "ru": "История обратной связи",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_detail_type",
+    "zh": "问题类型：",
+    "ru": "Тип проблемы:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_feedback_problem_fun_time_title",
+    "zh": "问题发生时间",
+    "ru": "Время возникновения проблемы",
+    "type": "string"
+  },
+  {
+    "name": "dialog_forget_pwd",
+    "zh": "忘记密码",
+    "ru": "Забыли пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_gender_Girl",
+    "zh": "女",
+    "ru": "Женщина",
+    "type": "string"
+  },
+  {
+    "name": "dialog_gender_boy",
+    "zh": "男",
+    "ru": "Мужчина",
+    "type": "string"
+  },
+  {
+    "name": "dialog_head_img_set_fail",
+    "zh": "修改失败，请稍候重试",
+    "ru": "Не удалось выполнить изменение, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_head_selected_title",
+    "zh": "头像编辑",
+    "ru": "Редактирование аватара",
+    "type": "string"
+  },
+  {
+    "name": "dialog_logout_title",
+    "zh": "退出登录？",
+    "ru": "Выйти из аккаунта?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_nick_name_set_fail",
+    "zh": "修改失败，请稍候重试",
+    "ru": "Не удалось выполнить изменение, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_nickname_set_edit_hint",
+    "zh": "昵称编辑",
+    "ru": "Изменение ника",
+    "type": "string"
+  },
+  {
+    "name": "dialog_nickname_set_empty_tip",
+    "zh": "昵称不能为空",
+    "ru": "Ник не может быть пустым",
+    "type": "string"
+  },
+  {
+    "name": "dialog_nickname_set_not_match_rule_tip",
+    "zh": "最多支持输入16个汉字或英文",
+    "ru": "Максимум 16 китайских или английских символов",
+    "type": "string"
+  },
+  {
+    "name": "dialog_nickname_set_not_match_rule_tip_empty",
+    "zh": "不允许输入空格",
+    "ru": "Ввод пробелов не допускается",
+    "type": "string"
+  },
+  {
+    "name": "dialog_reset_old_pwd",
+    "zh": "原密码",
+    "ru": "Текущий пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_reset_pwd",
+    "zh": "输入密码",
+    "ru": "Введите пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_set_pwd",
+    "zh": "设置密码",
+    "ru": "Задать пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_set_pwd_confirm_pwd",
+    "zh": "确认密码",
+    "ru": "Подтвердите пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_set_pwd_input_name",
+    "zh": "密码",
+    "ru": "Пароль",
+    "type": "string"
+  },
+  {
+    "name": "dialog_set_pwd_sure",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_set_success",
+    "zh": "修改成功",
+    "ru": "Успешно изменено",
+    "type": "string"
+  },
+  {
+    "name": "dialog_switch_cancel",
+    "zh": "取消切换",
+    "ru": "Отменить переключение",
+    "type": "string"
+  },
+  {
+    "name": "dialog_switch_user",
+    "zh": "切换账号",
+    "ru": "Сменить аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "dialog_switch_user_tips",
+    "zh": "检查到新的账号登录",
+    "ru": "Обнаружен новый вход в аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "dialog_switch_user_title",
+    "zh": "检查到新的账号登录",
+    "ru": "Обнаружен новый вход в аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_face_big_title",
+    "zh": "温馨提示",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_function_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_function_known",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_function_quit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_function_sure",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_rke_big_title",
+    "zh": "闭锁操作",
+    "ru": "Операция блокировки",
+    "type": "string"
+  },
+  {
+    "name": "dialog_tip_rke_title",
+    "zh": "\"请使用车钥匙连续进行两次\\\"闭锁\\\"操作\n为保证有效性，操作时请勿关闭此页面\"",
+    "ru": "\"Пожалуйста, дважды подряд выполните операцию \\\"Заблокировать\\\" на ключе автомобиля.\\nВо время выполнения операции не закрывайте эту страницу, чтобы обеспечить корректную работу.\"",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_birthday",
+    "zh": "生日",
+    "ru": "День рождения",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_birthday_tip",
+    "zh": "生日编辑",
+    "ru": "Редактирование ДР",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_gender",
+    "zh": "性别",
+    "ru": "Пол",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_gender_tip",
+    "zh": "请选择您的性别",
+    "ru": "Пожалуйста, выберите ваш пол",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_nick_edit_hint",
+    "zh": "昵称最多16个字，字符间不允许空格",
+    "ru": "Никнейм — не более 16 символов, без пробелов",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_nickname",
+    "zh": "昵称",
+    "ru": "Ник",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_nickname_tip",
+    "zh": "请输入您的昵称",
+    "ru": "Пожалуйста, введите ваш никнейм",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_info_set",
+    "zh": "个人信息设置",
+    "ru": "Настройки профиля",
+    "type": "string"
+  },
+  {
+    "name": "dialog_user_set_sure",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "dialog_verify_pwd_fail",
+    "zh": "两次设置密码不一致，请重新输入",
+    "ru": "Пароли не совпадают. Повторите ввод.",
+    "type": "string"
+  },
+  {
+    "name": "face_dialog_register_failed_try",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_bind",
+    "zh": "已绑定",
+    "ru": "Привязано",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_bluetooth",
+    "zh": "蓝牙钥匙",
+    "ru": "Bluetooth-ключ",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_bluetooth_fail_toast",
+    "zh": "蓝牙钥匙绑定失败",
+    "ru": "Не удалось привязать Bluetooth-ключ",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_bluetooth_tip",
+    "zh": "完成蓝牙钥匙绑定，体验账号登录免扫码。车辆处于OFF挡，闭锁状态时，通过蓝牙钥匙解锁车门的同时可完成驾驶员中心账号登录。",
+    "ru": "Завершите привязку Bluetooth-ключа и входите в аккаунт без сканирования QR-кода. Когда автомобиль находится в положении OFF и двери заперты, разблокировка дверей с помощью Bluetooth-ключа одновременно выполняет вход в аккаунт «Центр водителя».",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_delete_face",
+    "zh": "删除人脸",
+    "ru": "Удалить лицо",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_face",
+    "zh": "人脸识别",
+    "ru": "Распознавание лиц",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_face_register",
+    "zh": "人脸识别中…",
+    "ru": "Распознавание лиц…",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_face_register_failed",
+    "zh": "人脸识别失败，请重试",
+    "ru": "Не удалось распознать лицо, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_face_register_repeat",
+    "zh": "您已经绑定账号",
+    "ru": "Вы уже привязали аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_face_register_success",
+    "zh": "人脸识别成功",
+    "ru": "Лицо распознано",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_faceid_tip",
+    "zh": "完成人脸识别账号绑定，体验账号登录免扫码。当主驾驶位车门关闭、驾驶员落座且网络畅通时，可通过人脸识别登录驾驶员中心账号。",
+    "ru": "Привяжите аккаунт к функции распознавания лица и входите в систему без сканирования QR-кода. Когда дверь водителя закрыта, водитель занял своё место, а сетевое соединение стабильно, вы сможете авторизоваться в аккаунте «Центра водителя» с помощью распознавания лица.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_fail_toast",
+    "zh": "绑定失败",
+    "ru": "Привязка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_rek_fail_toast",
+    "zh": "车钥匙绑定失败",
+    "ru": "Сбой привязки ключа",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_rke",
+    "zh": "车钥匙",
+    "ru": "Ключ автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_rke_tip",
+    "zh": "完成车钥匙绑定，体验账号登录免扫码。车辆处于OFF挡，闭锁状态时，通过绑定钥匙完成车门解锁的同时可完成驾驶员中心账号登录。",
+    "ru": "Привяжите ключ автомобиля, чтобы входить в аккаунт без сканирования QR-кода. Когда автомобиль находится в положении OFF и двери заблокированы, разблокировка дверей привязанным ключом одновременно выполняет вход в аккаунт «Центр водителя».",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_success_toast",
+    "zh": "绑定成功",
+    "ru": "Привязка выполнена",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_bind_unbind",
+    "zh": "未绑定",
+    "ru": "Не привязан",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_dialog_confirm",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_dialog_delete_face",
+    "zh": "您即将删除人脸识别信息",
+    "ru": "Вы собираетесь удалить данные распознавания лиц.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_empty_account_text",
+    "zh": "暂无其他账号登录",
+    "ru": "Другие аккаунты пока не авторизованы",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_face_car_toast",
+    "zh": "请先前往车辆中心打开车内摄像头开关",
+    "ru": "Сначала перейдите в Центр автомобиля и включите камеру салона.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_account_manage_delete_tip",
+    "zh": "确定删除",
+    "ru": "Подтвердить удаление",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_amap",
+    "zh": "高德地图",
+    "ru": "Гаоде (Amap)",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_dialog_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_huo_shan",
+    "zh": "火山车娱",
+    "ru": "Huoshan Cheyu",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_ku_gou",
+    "zh": "酷狗音乐",
+    "ru": "Kugou Music",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_bind_no",
+    "zh": "未关联",
+    "ru": "Не привязано",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_bind_yes",
+    "zh": "已关联",
+    "ru": "Привязано",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_go_bind",
+    "zh": "去关联",
+    "ru": "Перейти к привязке",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_go_bind2",
+    "zh": "去绑定",
+    "ru": "Привязать",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_no_data",
+    "zh": "暂无应用关联",
+    "ru": "Нет привязанных приложений",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_unbind",
+    "zh": "解除关联",
+    "ru": "Отвязать",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_link_unbind2",
+    "zh": "解除%s关联",
+    "ru": "Убрать привязку %s",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_qq_music",
+    "zh": "QQ音乐",
+    "ru": "QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_toast_unbind_fail",
+    "zh": "解绑失败，请重试",
+    "ru": "Не удалось отвязать. Попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_toast_unbind_success",
+    "zh": "已解除关联",
+    "ru": "Привязка удалена.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_tong_xing",
+    "zh": "桐行车主",
+    "ru": "Тунсин — автовладелец",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_unbind_hint",
+    "zh": "\"确认解除账号关联绑定关系，解除后\n驾驶员中心将不会自动登录\"",
+    "ru": "\"Подтвердите отмену привязки аккаунта. После этого\\nЦентр водителя не будет автоматически входить в систему.\"",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_unbind_sure",
+    "zh": "解除应用关联",
+    "ru": "Отвязать приложение",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_wei_xin",
+    "zh": "自驾游、小程序",
+    "ru": "Автопутешествия, мини-приложения",
+    "type": "string"
+  },
+  {
+    "name": "fragment_app_xi_ma",
+    "zh": "喜马拉雅",
+    "ru": "Сямаля",
+    "type": "string"
+  },
+  {
+    "name": "fragment_del_pwd_hint",
+    "zh": "删除密码",
+    "ru": "Удалить пароль",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_empty_msg_hint",
+    "zh": "还没有收到您的反馈～",
+    "ru": "Пока не получили вашу обратную связь~",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_experience",
+    "zh": "体验问题",
+    "ru": "Проблемы UX",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_fun_edit_hint",
+    "zh": "\"请详细描述您遇到的问题：\n1.打开了某个APP或页面\n2.执行某个操作遇到了什么问题\n3.其他附加描述\"",
+    "ru": "\"Опишите подробно возникшую проблему:\\n1. Какой APP или страница были открыты\\n2. При выполнении какого действия возникла проблема\\n3. Дополнительное описание\"",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_fun_title",
+    "zh": "异常描述",
+    "ru": "Описание аномалии",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_function",
+    "zh": "功能异常",
+    "ru": "Сбой функции",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_other",
+    "zh": "服务及其他",
+    "ru": "Услуги и прочее",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_other_edit_hint",
+    "zh": "请描述详细问题或建议，至少5个字符",
+    "ru": "Опишите подробно проблему или предложение, минимум 5 символов",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_other_title",
+    "zh": "问题或建议描述",
+    "ru": "Описание проблемы или предложения",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_submit",
+    "zh": "提交",
+    "ru": "Отправить",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_suggest",
+    "zh": "新功能建议",
+    "ru": "Предложения новых функций",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_time",
+    "zh": "问题发生时间",
+    "ru": "Время возникновения проблемы",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_problem_time_selected",
+    "zh": "请选择时间",
+    "ru": "Выберите время",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_title",
+    "zh": "用户反馈",
+    "ru": "Обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_title_hint",
+    "zh": "您的建议会让我们变得更好",
+    "ru": "Ваши предложения помогут нам стать лучше",
+    "type": "string"
+  },
+  {
+    "name": "fragment_feedback_want_hint",
+    "zh": "我要反馈",
+    "ru": "Хочу оставить отзыв",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_date_title",
+    "zh": "问题发生时间",
+    "ru": "Время возникновения проблемы",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_describe_less",
+    "zh": "反馈内容少于5个字符",
+    "ru": "Текст обратной связи короче 5 символов",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_describe_more",
+    "zh": "反馈内容超出限制",
+    "ru": "Текст обратной связи превышает лимит",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_select_time",
+    "zh": "请选择发生时间",
+    "ru": "Выберите время возникновения",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_select_time_fail",
+    "zh": "问题发生时间不能超过当前时间",
+    "ru": "Время возникновения проблемы не может превышать текущее время",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_send_fail",
+    "zh": "发送失败",
+    "ru": "Не удалось отправить",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_send_success",
+    "zh": "发送成功",
+    "ru": "Успешно отправлено",
+    "type": "string"
+  },
+  {
+    "name": "fragment_problem_toast_start_voice_fail",
+    "zh": "语音功能启用失败",
+    "ru": "Не удалось включить голосовую функцию",
+    "type": "string"
+  },
+  {
+    "name": "fragment_reset_pwd_hint",
+    "zh": "重置密码",
+    "ru": "Сбросить пароль",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_seat_one",
+    "zh": "座椅位置1",
+    "ru": "Положение сиденья 1",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_seat_three",
+    "zh": "座椅位置3",
+    "ru": "Положение сиденья 3",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_seat_two",
+    "zh": "座椅位置2",
+    "ru": "Положение сиденья 2",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_self_suit",
+    "zh": "自适应调节",
+    "ru": "Адаптивная регулировка",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_setting",
+    "zh": "位置记忆设置",
+    "ru": "Настройки памяти положения",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_memory_suit_explain",
+    "zh": "自动调节至：记忆位置 %1$d",
+    "ru": "Автоматически установлено: позиция памяти %1$d",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_self_suit_sub_title",
+    "zh": "自动调节至记忆座椅位置",
+    "ru": "Автоматическая регулировка в положение памяти сиденья",
+    "type": "string"
+  },
+  {
+    "name": "fragment_seat_self_suit_title",
+    "zh": "座椅自适应",
+    "ru": "Адаптация сиденья",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_account_14",
+    "zh": "14天有效",
+    "ru": "Действителен 14 дней",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_account_day_hint",
+    "zh": "账号有效期",
+    "ru": "Срок действия аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_account_long",
+    "zh": "长期有效",
+    "ru": "Бессрочный",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_account_single",
+    "zh": "仅本次登录",
+    "ru": "Только для этой сессии",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_birthday_hint",
+    "zh": "生日",
+    "ru": "День рождения",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_gender_hint",
+    "zh": "性别",
+    "ru": "Пол",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_gender_man",
+    "zh": "男",
+    "ru": "Мужчина",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_gender_woman",
+    "zh": "女",
+    "ru": "Женщина",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_head_hint",
+    "zh": "头像",
+    "ru": "Аватар",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_nick_name_hint",
+    "zh": "昵称",
+    "ru": "Ник",
+    "type": "string"
+  },
+  {
+    "name": "fragment_set_pwd_hint",
+    "zh": "登录密码设置",
+    "ru": "Настройка пароля для входа",
+    "type": "string"
+  },
+  {
+    "name": "is_switch_user",
+    "zh": "用户是否切换账号",
+    "ru": "Пользователь сменил аккаунт?",
+    "type": "string"
+  },
+  {
+    "name": "login_incall_app",
+    "zh": "登录驾驶员中心",
+    "ru": "Войти в центр водителя",
+    "type": "string"
+  },
+  {
+    "name": "login_incall_app_no_network_tip",
+    "zh": "当前无网络，查看网络设置",
+    "ru": "Нет подключения к сети. Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "login_incall_app_tip",
+    "zh": "请使用深蓝汽车APP扫码登录",
+    "ru": "Пожалуйста, войдите в систему, отсканировав QR-код в приложении Deepal",
+    "type": "string"
+  },
+  {
+    "name": "login_incall_app_title",
+    "zh": "登录驾驶员中心",
+    "ru": "Войти в центр водителя",
+    "type": "string"
+  },
+  {
+    "name": "login_qrcode_fail",
+    "zh": "登陆失败，请重新扫码",
+    "ru": "Вход не выполнен. Отсканируйте QR-код повторно",
+    "type": "string"
+  },
+  {
+    "name": "login_qrcode_fail_btn_tip",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "login_qrcode_retry",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "login_qrcode_success",
+    "zh": "后台加载账号、设置、应用信息",
+    "ru": "Фоновая загрузка данных аккаунта, настроек и приложений",
+    "type": "string"
+  },
+  {
+    "name": "login_qrcode_success_title",
+    "zh": "登录成功",
+    "ru": "Успешный вход",
+    "type": "string"
+  },
+  {
+    "name": "login_request_userinfo_timeout",
+    "zh": "登录失败，网络请求超时",
+    "ru": "Не удалось войти: таймаут сетевого запроса",
+    "type": "string"
+  },
+  {
+    "name": "login_scan_success",
+    "zh": "扫码成功",
+    "ru": "QR отсканирован",
+    "type": "string"
+  },
+  {
+    "name": "no_binding",
+    "zh": "该车辆未实名认证，请前往APP端操作",
+    "ru": "Данный автомобиль не прошёл верификацию личности. Выполните процедуру в приложении.",
+    "type": "string"
+  },
+  {
+    "name": "personal_14_hint",
+    "zh": "14天有效：驾驶员中心账号登录状态保持 14 天后才会登出。",
+    "ru": "Действие 14 дней: сессия входа в аккаунт «Центра водителя» сохраняется 14 дней, после чего происходит автоматический выход.",
+    "type": "string"
+  },
+  {
+    "name": "personal_account_validity_period",
+    "zh": "\"仅限本次登录：用户每次用车均需要深蓝汽车APP重新扫码登录，推荐注重隐私安全的用户选择此项。 \n14天有效：驾驶员中心账号登录状态保持 14 天后才会登出。 \n长期有效：驾驶员中心账号保持长期登录状态，若多人共用车辆不建议选择此项。\"",
+    "ru": "\"Только для текущей сессии: при каждом использовании автомобиля потребуется заново сканировать QR-код в приложении Deepal. Рекомендуется пользователям, ценящим конфиденциальность и безопасность. \\nДействие 14 дней: сессия входа в аккаунт «Центра водителя» сохраняется 14 дней, после чего происходит автоматический выход. \\nДействие постоянно: аккаунт «Центра водителя» остаётся в системе постоянно. Не рекомендуется, если автомобилем пользуются несколько человек.\"",
+    "type": "string"
+  },
+  {
+    "name": "personal_long_hint",
+    "zh": "长期有效：驾驶员中心账号保持长期登录状态，若多人共用车辆不建议选择此项。",
+    "ru": "Действие постоянно: аккаунт «Центра водителя» остаётся в системе постоянно. Не рекомендуется, если автомобилем пользуются несколько человек.",
+    "type": "string"
+  },
+  {
+    "name": "personal_single_hint",
+    "zh": "仅限本次登录：用户每次用车均需要深蓝汽车APP重新扫码登录，推荐注重隐私安全的用户选择此项。",
+    "ru": "Только для текущей сессии: при каждом использовании автомобиля потребуется заново сканировать QR-код в приложении Deepal. Рекомендуется пользователям, ценящим конфиденциальность и безопасность.",
+    "type": "string"
+  },
+  {
+    "name": "problem_share_switch_text",
+    "zh": "\"共享应用日志，以便我们更\n准确诊断问题\"",
+    "ru": "\"Поделитесь логами приложения, чтобы мы могли\\nточнее диагностировать проблему\"",
+    "type": "string"
+  },
+  {
+    "name": "qrcode_retry",
+    "zh": "二维码加载失败，点击重试",
+    "ru": "Не удалось загрузить QR-код. Нажмите, чтобы повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "qrcode_retry_tx",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "re_login",
+    "zh": "暂无token信息,需重新登录进行刷新",
+    "ru": "Информация о токене отсутствует, необходимо повторить вход для обновления",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_hint",
+    "zh": "座椅及后视镜记忆设置",
+    "ru": "Настройки памяти сиденья и зеркал",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_mirror",
+    "zh": "后视镜",
+    "ru": "Боковые зеркала",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_position_tip",
+    "zh": "保存当前设定位置到座椅%1$s",
+    "ru": "Сохранить текущее положение на сиденье %1$s",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_seat",
+    "zh": "座椅",
+    "ru": "Сиденье",
+    "type": "string"
+  },
+  {
+    "name": "seat_dialog_set",
+    "zh": "位置设置",
+    "ru": "Настройка положения",
+    "type": "string"
+  },
+  {
+    "name": "speech_account_bind",
+    "zh": "账号绑定",
+    "ru": "Привязка аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "speech_account_mem",
+    "zh": "历史账号",
+    "ru": "История аккаунтов",
+    "type": "string"
+  },
+  {
+    "name": "speech_app_link",
+    "zh": "应用关联",
+    "ru": "Связывание приложений",
+    "type": "string"
+  },
+  {
+    "name": "speech_feed_back",
+    "zh": "用户反馈",
+    "ru": "Обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "speech_personal_setting",
+    "zh": "个性化设置",
+    "ru": "Персональные настройки",
+    "type": "string"
+  },
+  {
+    "name": "speech_user_info",
+    "zh": "个人信息",
+    "ru": "Личная информация",
+    "type": "string"
+  },
+  {
+    "name": "speech_user_setting",
+    "zh": "账户设置",
+    "ru": "Настройки аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "start_bluetoothkey_in_incall",
+    "zh": "\"请前往深蓝汽车APP首页连接蓝牙\n连接成功后等待蓝牙钥匙绑定\"",
+    "ru": "\"Перейдите на главную страницу приложения Deepal и подключите Bluetooth\\nПосле успешного подключения дождитесь привязки Bluetooth-ключа.\"",
+    "type": "string"
+  },
+  {
+    "name": "sure",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "toast_account_bluetooth_gear",
+    "zh": "请切换至P挡再进行蓝牙钥匙绑定操作",
+    "ru": "Пожалуйста, переключите в положение «P» перед привязкой Bluetooth-ключа.",
+    "type": "string"
+  },
+  {
+    "name": "toast_account_face_gear",
+    "zh": "请切换至P挡再进行人脸识别操作",
+    "ru": "Пожалуйста, переключите в положение «P» перед выполнением распознавания лиц.",
+    "type": "string"
+  },
+  {
+    "name": "toast_account_rek_gear",
+    "zh": "请切换至P挡再进行车钥匙绑定操作",
+    "ru": "Пожалуйста, переключите в положение «P» перед привязкой автомобильного ключа.",
+    "type": "string"
+  },
+  {
+    "name": "toast_blue_unbind_fail",
+    "zh": "蓝牙钥匙解绑失败，请稍后重试",
+    "ru": "Не удалось отвязать Bluetooth-ключ. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "toast_face_close_success",
+    "zh": "人脸识别功能已关闭",
+    "ru": "Функция распознавания лиц отключена.",
+    "type": "string"
+  },
+  {
+    "name": "toast_face_del_success",
+    "zh": "人脸删除成功",
+    "ru": "Лицо успешно удалено",
+    "type": "string"
+  },
+  {
+    "name": "toast_face_unbind_fail",
+    "zh": "人脸删除失败，请稍后再试",
+    "ru": "Не удалось удалить лицо. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "toast_key_has_bean_bound",
+    "zh": "该钥匙已被其他账号绑定，请解绑后再试",
+    "ru": "Этот ключ уже привязан к другому аккаунту. Отвяжите его и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "toast_key_not_repeat_the_locking_operation",
+    "zh": "请勿在车钥匙绑定期间重复进行闭锁操作",
+    "ru": "Не повторяйте операцию блокировки во время привязки ключа.",
+    "type": "string"
+  },
+  {
+    "name": "toast_rek_unbind_fail",
+    "zh": "解绑失败，请稍后再试",
+    "ru": "Не удалось отвязать. Попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "toast_rke_unbind_success",
+    "zh": "您的车钥匙已解绑",
+    "ru": "Ваш ключ от автомобиля отвязан",
+    "type": "string"
+  },
+  {
+    "name": "tts_close",
+    "zh": "驾驶员中心已经关闭了哟",
+    "ru": "Центр водителя уже закрыт.",
+    "type": "string"
+  },
+  {
+    "name": "tts_not",
+    "zh": "抱歉，当前用户不支持查看",
+    "ru": "К сожалению, текущему пользователю недоступен просмотр.",
+    "type": "string"
+  },
+  {
+    "name": "tts_ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "tts_open",
+    "zh": "驾驶员中心已经打开了哟",
+    "ru": "Центр водителя уже открыт!",
+    "type": "string"
+  },
+  {
+    "name": "txt_face_privacy_permission",
+    "zh": "《人脸隐私声明》",
+    "ru": "«Декларация о конфиденциальности данных лица»",
+    "type": "string"
+  },
+  {
+    "name": "txt_face_privacy_permission_content",
+    "zh": "人脸识别功能通过车内摄像头拍摄图像进行人脸特征比对以实现账户登录。这整个过程在车内完成，不会将人脸信息传输至车外，更多信息请查看《基础隐私政策》",
+    "ru": "Функция распознавания лиц использует камеры в салоне автомобиля для съёмки изображений и сопоставления черт лица с целью входа в аккаунт. Весь процесс выполняется внутри автомобиля, информация о лице не передаётся за его пределы. Подробнее см. «Базовую политику конфиденциальности».",
+    "type": "string"
+  },
+  {
+    "name": "txt_face_privacy_permission_tips",
+    "zh": "点击同意表示您已阅读并认可所有条款！",
+    "ru": "Нажимая «Согласен», вы подтверждаете, что ознакомились и принимаете все условия!",
+    "type": "string"
+  },
+  {
+    "name": "user_customer_service",
+    "zh": "我的客服",
+    "ru": "Моя служба поддержки",
+    "type": "string"
+  },
+  {
+    "name": "user_identity_master",
+    "zh": "车主",
+    "ru": "Владелец автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "user_identity_member",
+    "zh": "成员",
+    "ru": "Участник",
+    "type": "string"
+  },
+  {
+    "name": "user_logout",
+    "zh": "退出登录",
+    "ru": "Выйти",
+    "type": "string"
+  },
+  {
+    "name": "user_smart_tab_img_close",
+    "zh": "关闭^关掉",
+    "ru": "Закрыть^Выключить",
+    "type": "string"
+  },
+  {
+    "name": "user_smart_tab_text",
+    "zh": "账号绑定^应用关联^历史账号管理^账户设置",
+    "ru": "Привязка аккаунта^Привязка приложений^Управление историческими аккаунтами^Настройки аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_account_bind",
+    "zh": "账号绑定",
+    "ru": "Привязка аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_account_history",
+    "zh": "历史账号管理",
+    "ru": "История аккаунтов",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_account_set",
+    "zh": "账户设置",
+    "ru": "Настройки аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_app_link",
+    "zh": "应用关联",
+    "ru": "Привязка приложений",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_feed_back",
+    "zh": "用户反馈",
+    "ru": "Обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "user_tab_seat",
+    "zh": "座椅记忆",
+    "ru": "Память сиденья",
+    "type": "string"
+  },
+  {
+    "name": "view_date_picker_day",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "view_date_picker_month",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "view_date_picker_today",
+    "zh": "今天",
+    "ru": "Сегодня",
+    "type": "string"
+  },
+  {
+    "name": "view_date_picker_year",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "voice_account_switch_capsule_title_1",
+    "zh": "pin码登录",
+    "ru": "Вход по PIN-коду",
+    "type": "string"
+  },
+  {
+    "name": "voice_bind_key",
+    "zh": "%1s^打开%1s^绑定%1s",
+    "ru": "%1s^открыть %1s^привязать %1s",
+    "type": "string"
+  },
+  {
+    "name": "voice_clear",
+    "zh": "清除^清空",
+    "ru": "Очистить^Очистить всё",
+    "type": "string"
+  },
+  {
+    "name": "voice_close_dialog",
+    "zh": "关闭^关掉",
+    "ru": "Закрыть^Выключить",
+    "type": "string"
+  },
+  {
+    "name": "voice_dialog_tip_function_sure",
+    "zh": "关闭^确认",
+    "ru": "Закрыть^Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "voice_feedback_time",
+    "zh": "问题发生时间^发生时间",
+    "ru": "Время возникновения проблемы^Время возникновения",
+    "type": "string"
+  },
+  {
+    "name": "voice_head_img",
+    "zh": "头像^修改头像",
+    "ru": "Аватар^Изменить аватар",
+    "type": "string"
+  },
+  {
+    "name": "voice_nike_name",
+    "zh": "昵称^修改昵称",
+    "ru": "Ник^Изменить ник",
+    "type": "string"
+  },
+  {
+    "name": "voice_record",
+    "zh": "语音输入",
+    "ru": "Голосовой ввод",
+    "type": "string"
+  },
+  {
+    "name": "voice_retry",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "voice_tips",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "voice_tx_bind_amap_bind_info",
+    "zh": "账号绑定协议",
+    "ru": "Соглашение о привязке аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "voice_tx_bind_amap_privacy_info",
+    "zh": "高德地图隐私权益政策",
+    "ru": "Политика конфиденциальности и прав Amap",
+    "type": "string"
+  },
+  {
+    "name": "voice_tx_bind_amap_service_info",
+    "zh": "高德地图服务条款",
+    "ru": "Условия предоставления услуг Amap",
+    "type": "string"
+  },
+  {
+    "name": "voice_txt_face_privacy_permission",
+    "zh": "人脸隐私声明",
+    "ru": "Приватность лица",
+    "type": "string"
+  },
+  {
+    "name": "voice_unbind_key",
+    "zh": "%1s^关闭%1s^解绑%1s",
+    "ru": "%1s^Выключить%1s^Отвязать%1s",
+    "type": "string"
+  },
+  {
+    "name": "web_loading",
+    "zh": "加载中…",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "option_item_feedback_state_0",
+    "zh": "待处理",
+    "ru": "Ожидает обработки",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_state_1",
+    "zh": "处理中",
+    "ru": "В обработке",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_state_2",
+    "zh": "已完成",
+    "ru": "Завершено",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_type_0",
+    "zh": "功能异常",
+    "ru": "Сбой функции",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_type_1",
+    "zh": "体验问题",
+    "ru": "Проблемы UX",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_type_2",
+    "zh": "新功能建议",
+    "ru": "Предложения новых функций",
+    "type": "arrays"
+  },
+  {
+    "name": "option_item_feedback_type_3",
+    "zh": "服务及其他",
+    "ru": "Услуги и прочее",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_0",
+    "zh": "星期日",
+    "ru": "Воскресенье",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_1",
+    "zh": "星期一",
+    "ru": "Понедельник",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_2",
+    "zh": "星期二",
+    "ru": "Вторник",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_3",
+    "zh": "星期三",
+    "ru": "Среда",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_4",
+    "zh": "星期四",
+    "ru": "Четверг",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_5",
+    "zh": "星期五",
+    "ru": "Пятница",
+    "type": "arrays"
+  },
+  {
+    "name": "weeks_6",
+    "zh": "星期六",
+    "ru": "Суббота",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

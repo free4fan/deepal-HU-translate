@@ -1,0 +1,1046 @@
+[
+  {
+    "name": "accessibility_open_tip",
+    "zh": "请在手机端小桐畅联内打开车机控制功能",
+    "ru": "Включите функцию управления мультимедийной системой в приложении «Сяотун Чанлянь» на смартфоне.",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "小桐畅联",
+    "ru": "Сяотун Чанлянь",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_disable",
+    "zh": "蓝牙未开启",
+    "ru": "Bluetooth не включён",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_permission_denied",
+    "zh": "蓝牙权限未开启",
+    "ru": "Разрешение Bluetooth не включено",
+    "type": "string"
+  },
+  {
+    "name": "c928_qr_tip_download_tip",
+    "zh": "没有小桐畅联APP，",
+    "ru": "Приложение «Сяотун Чанлянь» не установлено,",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "car_control_off_tip",
+    "zh": "反控已关闭",
+    "ru": "Удалённое управление выкл.",
+    "type": "string"
+  },
+  {
+    "name": "car_control_on_tip",
+    "zh": "反控已打开",
+    "ru": "Удалённое управление вкл.",
+    "type": "string"
+  },
+  {
+    "name": "choose_device_to_connect",
+    "zh": "请选择要连接的设备",
+    "ru": "Выберите устройство для подключения",
+    "type": "string"
+  },
+  {
+    "name": "close_float_window_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "close_float_window_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "close_float_window_title",
+    "zh": "是否确定断开与手机的连接？",
+    "ru": "Вы уверены, что хотите отключить соединение с телефоном?",
+    "type": "string"
+  },
+  {
+    "name": "connect_fail_open_again",
+    "zh": "连接失败，请重新打开小桐畅联",
+    "ru": "Не удалось подключиться. Откройте «Сяотун Чанлянь» заново.",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_app_list",
+    "zh": "应用列表",
+    "ru": "Список приложений",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_float_close",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_float_full",
+    "zh": "全屏",
+    "ru": "Полный экран",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_float_small",
+    "zh": "悬浮球",
+    "ru": "Плавающая кнопка",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_float_window",
+    "zh": "半屏",
+    "ru": "Половина экрана",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_screen_home",
+    "zh": "首页",
+    "ru": "Главная страница",
+    "type": "string"
+  },
+  {
+    "name": "dialog_control_tip_confirm",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_control_tip_hint",
+    "zh": "车机控制-手机系统设置—已安装服务(或应用列表)—小桐畅联—打开小桐畅联开关",
+    "ru": "Управление головным устройством - Настройки системы телефона — Установленные службы (или список приложений) — Сяотун Чанлянь — Включить переключатель Сяотун Чанлянь",
+    "type": "string"
+  },
+  {
+    "name": "dialog_control_tip_msg",
+    "zh": "请在手机端小桐畅联应用内，按照引导打开车机控制功能",
+    "ru": "Пожалуйста, в приложении «Сяотун Чанлянь» на смартфоне, следуя инструкциям, включите функцию управления головным устройством.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_control_tip_title",
+    "zh": "暂未打开车机控制功能",
+    "ru": "Функция управления головным устройством не включена.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_download_scan_with_browser",
+    "zh": "扫码下载",
+    "ru": "Сканируйте для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "disconnection_err",
+    "zh": "程序异常退出，连接已断开",
+    "ru": "Программа завершила работу аварийно, соединение разорвано",
+    "type": "string"
+  },
+  {
+    "name": "disconnection_tip",
+    "zh": "\"连接失败\n请点击重试\"",
+    "ru": "\"Подключение не удалось\\nНажмите, чтобы повторить попытку\"",
+    "type": "string"
+  },
+  {
+    "name": "disconnection_toast",
+    "zh": "连接已断开",
+    "ru": "Соединение разорвано",
+    "type": "string"
+  },
+  {
+    "name": "drive_safe_tip",
+    "zh": "为了您的安全，行车中请勿使用视频类应用",
+    "ru": "В целях вашей безопасности, пожалуйста, не используйте видеоприложения во время вождения",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "guide_tip_close",
+    "zh": "点击断开手机连接",
+    "ru": "Нажмите, чтобы отключить телефон",
+    "type": "string"
+  },
+  {
+    "name": "guide_tip_drag",
+    "zh": "拖动触区",
+    "ru": "Зона перетаскивания",
+    "type": "string"
+  },
+  {
+    "name": "guide_tip_full",
+    "zh": "点击打开全屏",
+    "ru": "Нажмите для полноэкрана",
+    "type": "string"
+  },
+  {
+    "name": "guide_tip_home",
+    "zh": "点击回到手机界面首页",
+    "ru": "Нажмите, чтобы вернуться на главный экран телефона",
+    "type": "string"
+  },
+  {
+    "name": "guide_tip_small",
+    "zh": "点击打开悬浮球",
+    "ru": "Нажмите для плавающей кнопки",
+    "type": "string"
+  },
+  {
+    "name": "hid_input_device_tip",
+    "zh": "请开启手机端蓝牙>%s>输入设备",
+    "ru": "Включите Bluetooth на телефоне >%s> устройства ввода",
+    "type": "string"
+  },
+  {
+    "name": "issue_title_bar_text",
+    "zh": "常见问题",
+    "ru": "Частые вопросы",
+    "type": "string"
+  },
+  {
+    "name": "known",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "move_app_main_confirm",
+    "zh": "这个应用已经在中控打开，要移动过来吗?",
+    "ru": "Это приложение уже открыто на центральном экране, переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "move_app_secondary_confirm",
+    "zh": "这个应用已经在副驾屏上打开，要移动过来吗?",
+    "ru": "Это приложение уже открыто на экране пассажира, переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "negative_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "never_remind",
+    "zh": "不再提醒",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "next",
+    "zh": "下一步",
+    "ru": "Следующий шаг",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "open_wifi_bluetooth_tip",
+    "zh": "请开启 %s",
+    "ru": "Пожалуйста, включите %s",
+    "type": "string"
+  },
+  {
+    "name": "open_wifi_restart_app",
+    "zh": "请开启 WiFi 后，重新打开小桐畅联",
+    "ru": "После включения Wi-Fi перезапустите «Сяотун Чанлянь».",
+    "type": "string"
+  },
+  {
+    "name": "open_wifi_tip",
+    "zh": "请开启 WiFi",
+    "ru": "Пожалуйста, включите Wi-Fi.",
+    "type": "string"
+  },
+  {
+    "name": "phone_permission_background1",
+    "zh": "“后台弹出界面“",
+    "ru": "«Фоновое всплывающее окно»",
+    "type": "string"
+  },
+  {
+    "name": "phone_permission_background2",
+    "zh": "“后台弹窗“",
+    "ru": "Фоновое всплывающее окно",
+    "type": "string"
+  },
+  {
+    "name": "phone_permission_float1",
+    "zh": "“悬浮窗“",
+    "ru": "Плавающее окно",
+    "type": "string"
+  },
+  {
+    "name": "phone_permission_float2",
+    "zh": "“显示悬浮窗“",
+    "ru": "Показать плавающее окно",
+    "type": "string"
+  },
+  {
+    "name": "phone_permission_tip",
+    "zh": "请在小桐畅联内打开「车端便捷返回」的授权",
+    "ru": "Пожалуйста, включите разрешение «Быстрый возврат к автомобилю» в приложении Сяотун Чанлянь.",
+    "type": "string"
+  },
+  {
+    "name": "phone_screen_off_tip",
+    "zh": "手机已锁屏，解锁后继续投屏",
+    "ru": "Экран телефона заблокирован. После разблокировки зеркалирование экрана продолжится.",
+    "type": "string"
+  },
+  {
+    "name": "phone_screen_on_tip",
+    "zh": "为了您的隐私安全，请使用手机解锁",
+    "ru": "В целях вашей конфиденциальности и безопасности, пожалуйста, разблокируйте телефон.",
+    "type": "string"
+  },
+  {
+    "name": "please_scan_again",
+    "zh": "有多台设备连接，请在手机端重新扫码连接",
+    "ru": "Подключено несколько устройств. Пожалуйста, отсканируйте QR-код на телефоне для повторного подключения.",
+    "type": "string"
+  },
+  {
+    "name": "positive_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "qr_invalid_generate_again",
+    "zh": "二维码失效，请重新扫码",
+    "ru": "QR-код недействителен, отсканируйте заново",
+    "type": "string"
+  },
+  {
+    "name": "qr_load_error_hint",
+    "zh": "\"二维码加载失败\n 点击重试\"",
+    "ru": "\"Не удалось загрузить QR-код\\nНажмите, чтобы повторить\"",
+    "type": "string"
+  },
+  {
+    "name": "qr_load_error_ing",
+    "zh": "二维码正在加载，请稍候",
+    "ru": "QR-код загружается, пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "qr_load_finish",
+    "zh": "二维码加载完成",
+    "ru": "QR-код загружен",
+    "type": "string"
+  },
+  {
+    "name": "qr_load_hint",
+    "zh": "请确认打开%s开关，点击重试",
+    "ru": "Убедитесь, что переключатель %s включён, и нажмите «Повторить»",
+    "type": "string"
+  },
+  {
+    "name": "qr_load_out_time_max_count_hint",
+    "zh": "二维码加载失败,请手动开关WIFI重试",
+    "ru": "Не удалось загрузить QR-код. Переключите Wi-Fi вручную и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "qr_new_tip_common_issue",
+    "zh": "常见问题？",
+    "ru": "Частые вопросы?",
+    "type": "string"
+  },
+  {
+    "name": "qr_new_tip_download_click",
+    "zh": "点击下载",
+    "ru": "Нажмите, чтобы скачать",
+    "type": "string"
+  },
+  {
+    "name": "qr_new_tip_download_tip",
+    "zh": "还没有APP？",
+    "ru": "Ещё нет приложения?",
+    "type": "string"
+  },
+  {
+    "name": "qr_new_tip_sub",
+    "zh": "使⽤⼩桐畅联手机APP扫码，授权后完成投屏",
+    "ru": "Отсканируйте QR-код в мобильном приложении «Сяотунчанлянь», после авторизации начнётся трансляция экрана.",
+    "type": "string"
+  },
+  {
+    "name": "qr_page_quit",
+    "zh": "返回^退出",
+    "ru": "Назад^Выход",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip",
+    "zh": "\"注意：\n1. 使用过程中，车机需连接手机蓝牙，保证声音正常输出。 \n2. 因隐私或版权保护，投屏过程中部分页面内容可能无法显示。 \n3. 当前版本只支持安卓手机。\"",
+    "ru": "\"Примечание:\\n1. Во время использования головное устройство должно быть подключено к телефону по Bluetooth для корректного вывода звука. \\n2. В целях защиты конфиденциальности и авторских прав во время трансляции экрана часть содержимого страниц может отображаться не полностью. \\n3. Текущая версия поддерживает только телефоны на Android.\"",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_bottom",
+    "zh": "\"注意：使用过程中，车机需连接手机蓝牙，保证声音正常输出。 \n因隐私或版权保护，投屏过程中部分页面内容可能无法显示。\"",
+    "ru": "\"Внимание: во время использования головное устройство должно быть подключено к Bluetooth телефона для обеспечения нормального вывода звука. \\nВ связи с защитой конфиденциальности или авторских прав часть контента может не отображаться при зеркалировании экрана.\"",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_download_app",
+    "zh": "若没有小桐畅联APP",
+    "ru": "Если у вас нет приложения «Сяотунчанлянь»",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_download_click",
+    "zh": "点击下载",
+    "ru": "Нажмите, чтобы скачать",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_download_here_click",
+    "zh": "点击这里下载",
+    "ru": "Нажмите здесь, чтобы скачать",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_download_tip",
+    "zh": "若没有小桐畅联APP，",
+    "ru": "Если приложение «Сяотунчанлянь» не установлено,",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_last",
+    "zh": "注：因隐私或版权保护，投屏时可能出现内容无法显示",
+    "ru": "Прим.: из-за защиты конфиденциальности или авторских прав при зеркалировании экрана часть контента может не отображаться",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_main",
+    "zh": "欢迎使用小桐畅联",
+    "ru": "Добро пожаловать в «Сяотунчанлянь»",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_new",
+    "zh": "\"注意： \n1、使用过程中，车机需连接手机蓝牙，保证声音正常输出。 \n2、请在手机或PAD设置小桐畅联允许后台运行或不限制，避免互联过程中异常断开。 \n3、因隐私或版权保护，投屏过程中部分页面内容可能无法显示。 \n4、目前支持Android10及以上手机或PAD版本，投屏效果会受到芯片性能影响，如存在一 定的延迟或抖动为正常现象。\"",
+    "ru": "\"Внимание: \\n1. Во время использования мультимедийная система должна быть подключена к Bluetooth телефона для нормального вывода звука. \\n2. В настройках телефона или планшета разрешите приложению «Сяотунчанлянь» работу в фоновом режиме или снимите ограничения, чтобы избежать непреднамеренного разрыва соединения. \\n3. Из-за защиты конфиденциальности или авторских прав при зеркалировании экрана часть контента страниц может не отображаться. \\n4. Поддерживаются телефоны и планшеты с Android 10 и выше. Качество зеркалирования зависит от производительности чипа; небольшие задержки или дрожание изображения являются нормальным явлением.\"",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_new_half",
+    "zh": "\"注意： \n1、使用过程中，车机需连接手机蓝牙，保证声音正常输出。 \n2、请在手机或PAD设置小桐畅联允许后台运行或不限制，避免互联过程中异常断开。 \n3、因隐私或版权保护，投屏过程中部分页面内容可能无法显示。 \n4、目前支持Android10及以上手机或PAD版本，投屏效果会受到芯片性能影响，如存在一定的延迟或抖动为正常现象。\"",
+    "ru": "\"Внимание: \\n1. Во время использования мультимедийная система должна быть подключена к Bluetooth телефона для нормального вывода звука. \\n2. В настройках телефона или планшета разрешите приложению «Сяотунчанлянь» работу в фоновом режиме или снимите ограничения, чтобы избежать непреднамеренного разрыва соединения. \\n3. Из-за защиты конфиденциальности или авторских прав при зеркалировании экрана часть контента страниц может не отображаться. \\n4. Поддерживаются телефоны и планшеты с Android 10 и выше. Качество зеркалирования зависит от производительности чипа; небольшие задержки или дрожание изображения являются нормальным явлением.\"",
+    "type": "string"
+  },
+  {
+    "name": "qr_tip_sub",
+    "zh": "请使用小桐畅联APP扫码连接",
+    "ru": "Отсканируйте QR-код приложением «Сяотунчанлянь» для подключения",
+    "type": "string"
+  },
+  {
+    "name": "running_close_tip",
+    "zh": "为了您的安全，手机窗口暂时关闭全屏状态",
+    "ru": "Для вашей безопасности полноэкранный режим окна телефона временно отключён",
+    "type": "string"
+  },
+  {
+    "name": "running_no_full",
+    "zh": "为了您的安全，行车中不支持手机窗口全屏",
+    "ru": "Для вашей безопасности полноэкранный режим окна телефона во время движения не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "safe_tip",
+    "zh": "为了您的安全，行车中请勿使用视频类应用",
+    "ru": "В целях безопасности не используйте видеоприложения во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "scan_code_tip",
+    "zh": "使用小桐畅联扫码完成投屏",
+    "ru": "Отсканируйте код в приложении «Сяотунчанлянь» для завершения передачи на экран.",
+    "type": "string"
+  },
+  {
+    "name": "screen_cast_permission_tip",
+    "zh": "投屏需要以下权限",
+    "ru": "Для передачи на экран требуются следующие разрешения",
+    "type": "string"
+  },
+  {
+    "name": "screen_permission_denied",
+    "zh": "%s 权限未开启",
+    "ru": "Разрешение «%s» не включено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_p2p_name",
+    "zh": "小桐畅联车机端",
+    "ru": "«Сяотунчанлянь» — авто",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть на половину высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего: %1$d, лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите утро или вечер",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "После полудня",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить%1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец дня недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Формат: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы перейти к выбору дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Мес.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

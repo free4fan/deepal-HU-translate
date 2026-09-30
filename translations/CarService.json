@@ -1,0 +1,5211 @@
+[
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_display_daltonizer_preference_subtitle",
+    "zh": "借助色彩校正功能，您可以调整设备上的颜色显示方式",
+    "ru": "С помощью функции коррекции цвета вы можете настроить отображение цветов на устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_display_daltonizer_preference_title",
+    "zh": "色彩校正",
+    "ru": "Цветовая коррекция",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_manual_zen_less_time",
+    "zh": "减少时间。",
+    "ru": "Сократить время.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_manual_zen_more_time",
+    "zh": "增加时间。",
+    "ru": "Увеличить время.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_no_wifi",
+    "zh": "WLAN 连接已断开。",
+    "ru": "Подключение к Wi-Fi отключено.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_off",
+    "zh": "WLAN 已关闭。",
+    "ru": "Wi-Fi отключен.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_one_bar",
+    "zh": "WLAN 信号强度为一格。",
+    "ru": "Уровень сигнала Wi-Fi составляет одну полоску.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_security_type_none",
+    "zh": "开放网络",
+    "ru": "Открытая сеть",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_security_type_secured",
+    "zh": "安全网络",
+    "ru": "Защищённая сеть",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_signal_full",
+    "zh": "WLAN 信号满格。",
+    "ru": "Сигнал Wi-Fi полный.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_three_bars",
+    "zh": "WLAN 信号强度为三格。",
+    "ru": "Уровень сигнала Wi-Fi составляет три полоски.",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_wifi_two_bars",
+    "zh": "WLAN 信号强度为两格。",
+    "ru": "Уровень сигнала Wi-Fi составляет две полоски.",
+    "type": "string"
+  },
+  {
+    "name": "accessor_expires_text",
+    "zh": "租约到期时间是 %s",
+    "ru": "Срок аренды истекает %s",
+    "type": "string"
+  },
+  {
+    "name": "accessor_info_title",
+    "zh": "共享数据的应用",
+    "ru": "Приложения с общими данными",
+    "type": "string"
+  },
+  {
+    "name": "accessor_no_description_text",
+    "zh": "此应用未提供任何说明。",
+    "ru": "Это приложение не содержит описания.",
+    "type": "string"
+  },
+  {
+    "name": "active_input_method_subtypes",
+    "zh": "有效的输入法",
+    "ru": "Действующие методы ввода",
+    "type": "string"
+  },
+  {
+    "name": "activity_blocked_text",
+    "zh": "您不能在驾车时使用此功能",
+    "ru": "Вы не можете использовать эту функцию во время вождения",
+    "type": "string"
+  },
+  {
+    "name": "adb_device_fingerprint_title_format",
+    "zh": "设备指纹：%1$s",
+    "ru": "Отпечаток устройства: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "adb_device_forget",
+    "zh": "取消保存",
+    "ru": "Отменить сохранение",
+    "type": "string"
+  },
+  {
+    "name": "adb_keys_warning_message",
+    "zh": "是否针对您之前授权的所有计算机撤消 USB 调试的访问权限？",
+    "ru": "Отменить доступ к отладке по USB для всех ранее авторизованных вами компьютеров?",
+    "type": "string"
+  },
+  {
+    "name": "adb_pair_method_code_summary",
+    "zh": "使用六位数的配对码配对新设备",
+    "ru": "Используйте шестизначный код сопряжения, чтобы сопрясти новое устройство",
+    "type": "string"
+  },
+  {
+    "name": "adb_pair_method_code_title",
+    "zh": "使用配对码配对设备",
+    "ru": "Сопряжите устройство с помощью кода сопряжения",
+    "type": "string"
+  },
+  {
+    "name": "adb_pair_method_qrcode_summary",
+    "zh": "使用二维码扫描器配对新设备",
+    "ru": "Используйте QR-сканер для сопряжения нового устройства",
+    "type": "string"
+  },
+  {
+    "name": "adb_pair_method_qrcode_title",
+    "zh": "使用二维码配对设备",
+    "ru": "Сопряжить устройство по QR-коду",
+    "type": "string"
+  },
+  {
+    "name": "adb_paired_devices_title",
+    "zh": "已配对的设备",
+    "ru": "Сопряжённые устройства",
+    "type": "string"
+  },
+  {
+    "name": "adb_pairing_device_dialog_failed_msg",
+    "zh": "请确保设备已连接到同一网络。",
+    "ru": "Убедитесь, что устройство подключено к той же сети.",
+    "type": "string"
+  },
+  {
+    "name": "adb_pairing_device_dialog_failed_title",
+    "zh": "配对失败",
+    "ru": "Сбой сопряжения",
+    "type": "string"
+  },
+  {
+    "name": "adb_pairing_device_dialog_pairing_code_label",
+    "zh": "WLAN 配对码",
+    "ru": "Код сопряжения WLAN",
+    "type": "string"
+  },
+  {
+    "name": "adb_pairing_device_dialog_title",
+    "zh": "与设备配对",
+    "ru": "Сопряжение с устройством",
+    "type": "string"
+  },
+  {
+    "name": "adb_qrcode_pairing_device_failed_msg",
+    "zh": "无法配对设备。可能是因为二维码不正确，或者设备未连接到同一网络。",
+    "ru": "Не удалось сопрясти устройство. Возможно, QR-код неверен или устройство не подключено к той же сети.",
+    "type": "string"
+  },
+  {
+    "name": "adb_warning_message",
+    "zh": "USB 调试仅用于开发目的。该功能可用于在您的计算机和设备之间复制数据、在您的设备上安装应用（事先不发通知）以及读取日志数据。",
+    "ru": "Отладка USB предназначена только для целей разработки. Эта функция позволяет копировать данные между компьютером и устройством, устанавливать приложения на устройство (без предварительного уведомления) и читать данные журналов.",
+    "type": "string"
+  },
+  {
+    "name": "adb_warning_title",
+    "zh": "是否允许 USB 调试？",
+    "ru": "Разрешить отладку по USB?",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_connection_failed_message",
+    "zh": "确保%1$s已连接到正确的网络",
+    "ru": "Убедитесь, что %1$s подключено к правильной сети.",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_connection_failed_title",
+    "zh": "连接失败",
+    "ru": "Подключение не удалось",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_device_connected_summary",
+    "zh": "当前已连接",
+    "ru": "Подключено",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_device_details_title",
+    "zh": "设备详细信息",
+    "ru": "Детали устройства",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_error",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_ip_addr_preference_title",
+    "zh": "IP 地址和端口",
+    "ru": "IP-адрес и порт",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_list_empty_off",
+    "zh": "要查看和使用可用的设备，请开启无线调试",
+    "ru": "Чтобы просмотреть и использовать доступные устройства, включите беспроводную отладку",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_no_network_msg",
+    "zh": "请连接到 WLAN 网络",
+    "ru": "Подключитесь к сети WLAN",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_qrcode_pairing_description",
+    "zh": "扫描二维码即可通过 WLAN 配对设备",
+    "ru": "Отсканируйте QR-код, чтобы сопрячь устройство по WLAN",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_qrcode_pairing_title",
+    "zh": "扫描二维码",
+    "ru": "Отсканируйте QR-код",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_qrcode_summary",
+    "zh": "扫描二维码即可通过 WLAN 配对设备",
+    "ru": "Отсканируйте QR-код, чтобы сопрячь устройство по WLAN",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_settings",
+    "zh": "无线调试",
+    "ru": "Беспроводная отладка",
+    "type": "string"
+  },
+  {
+    "name": "adb_wireless_verifying_qrcode_text",
+    "zh": "正在配对设备…",
+    "ru": "Сопоставление устройства…",
+    "type": "string"
+  },
+  {
+    "name": "adbwifi_warning_message",
+    "zh": "无线调试仅用于开发目的。该功能可用于在您的计算机和设备之间复制数据、在您的设备上安装应用（事先不发通知）以及读取日志数据。",
+    "ru": "Беспроводная отладка предназначена только для целей разработки. Эта функция позволяет копировать данные между компьютером и устройством, устанавливать приложения на устройство (без предварительного уведомления) и просматривать данные журналов.",
+    "type": "string"
+  },
+  {
+    "name": "adbwifi_warning_title",
+    "zh": "要允许无线调试吗？",
+    "ru": "Разрешить беспроводную отладку?",
+    "type": "string"
+  },
+  {
+    "name": "alarm_template",
+    "zh": "时间：%1$s",
+    "ru": "Время: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "alarm_template_far",
+    "zh": "时间：%1$s",
+    "ru": "Время: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "allow_mock_location",
+    "zh": "允许模拟位置",
+    "ru": "Разрешить имитацию локации",
+    "type": "string"
+  },
+  {
+    "name": "allow_mock_location_summary",
+    "zh": "允许模拟位置",
+    "ru": "Разрешить имитацию локации",
+    "type": "string"
+  },
+  {
+    "name": "animator_duration_scale_title",
+    "zh": "Animator 时长缩放",
+    "ru": "Масштаб длительности Animator",
+    "type": "string"
+  },
+  {
+    "name": "apn_settings_not_available",
+    "zh": "此用户无权修改接入点名称设置",
+    "ru": "У этого пользователя нет прав на изменение настроек имени точки доступа",
+    "type": "string"
+  },
+  {
+    "name": "app_process_limit_title",
+    "zh": "后台进程限制",
+    "ru": "Ограничение фоновых процессов",
+    "type": "string"
+  },
+  {
+    "name": "auto_connect_disable",
+    "zh": "自动连接已关闭",
+    "ru": "Автоподключение отключено",
+    "type": "string"
+  },
+  {
+    "name": "available_via_app",
+    "zh": "可通过“%1$s”使用",
+    "ru": "Можно использовать через «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "available_via_carrier",
+    "zh": "可通过%1$s连接",
+    "ru": "Подключение через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "available_via_passpoint",
+    "zh": "可通过%1$s连接",
+    "ru": "Подключение через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_charging",
+    "zh": "正在充电",
+    "ru": "Заряжается",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_charging_fast",
+    "zh": "正在快速充电",
+    "ru": "Быстрая зарядка",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_charging_slow",
+    "zh": "正在慢速充电",
+    "ru": "Идёт медленная зарядка",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_discharging",
+    "zh": "未在充电",
+    "ru": "Не заряжается",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_full",
+    "zh": "电量充足",
+    "ru": "Заряд достаточен",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_not_charging",
+    "zh": "已插入电源，但是现在无法充电",
+    "ru": "Подключено к питанию, но сейчас не заряжается",
+    "type": "string"
+  },
+  {
+    "name": "battery_info_status_unknown",
+    "zh": "未知",
+    "ru": "Неизвестно",
+    "type": "string"
+  },
+  {
+    "name": "blob_expires_text",
+    "zh": "到期时间是 %s",
+    "ru": "Время истечения — %s",
+    "type": "string"
+  },
+  {
+    "name": "blob_id_text",
+    "zh": "共享数据 ID：%d",
+    "ru": "ID общих данных: %d",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_a2dp_profile_summary_connected",
+    "zh": "已连接到媒体音频",
+    "ru": "Подключено к медиа-аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_a2dp_profile_summary_use_for",
+    "zh": "用于媒体音频",
+    "ru": "Для мультимедийного аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_active_battery_level",
+    "zh": "使用中，电池电量：%1$s",
+    "ru": "В использовании, заряд батареи: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_active_battery_level_untethered",
+    "zh": "已启用，左：目前电量为 %1$s；右：目前电量为 %2$s",
+    "ru": "Включено, левый: текущий заряд %1$s; правый: текущий заряд %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_active_no_battery_level",
+    "zh": "使用中",
+    "ru": "В использовании",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_battery_level",
+    "zh": "%1$s 的电量",
+    "ru": "Заряд батареи: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_battery_level_untethered",
+    "zh": "左：目前电量为 %1$s；右：目前电量为 %2$s",
+    "ru": "Левый: текущий заряд %1$s; правый: текущий заряд %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected",
+    "zh": "已连接%1$s",
+    "ru": "Подключено к %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_battery_level",
+    "zh": "已连接，电量为 %1$s %2$s",
+    "ru": "Подключено, заряд: %1$s %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_a2dp",
+    "zh": "已连接（无媒体信号）%1$s",
+    "ru": "Подключено (нет сигнала мультимедиа) %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_a2dp_battery_level",
+    "zh": "已连接（无媒体信号），电量为 %1$s %2$s",
+    "ru": "Подключено (нет сигнала мультимедиа), заряд батареи: %1$s %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_headset",
+    "zh": "已连接（无手机信号）%1$s",
+    "ru": "Подключено (нет сигнала телефона) %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_headset_battery_level",
+    "zh": "已连接（无手机信号），电量为 %1$s %2$s",
+    "ru": "Подключено (нет сигнала телефона), заряд батареи: %1$s %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_headset_no_a2dp",
+    "zh": "已连接（无手机或媒体信号）%1$s",
+    "ru": "Подключено (нет сигнала телефона или мультимедиа) %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_headset_no_a2dp_battery_level",
+    "zh": "已连接（无手机或媒体信号），电量为 %1$s %2$s",
+    "ru": "Подключено (нет сигнала телефона или мультимедиа), заряд батареи: %1$s %2$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected_no_map",
+    "zh": "已连接（无消息访问权限）%1$s",
+    "ru": "Подключено (нет доступа к сообщениям) %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connecting",
+    "zh": "正在连接...",
+    "ru": "Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_disable_absolute_volume",
+    "zh": "停用绝对音量功能",
+    "ru": "Отключить абсолютный уровень громкости",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_disable_absolute_volume_summary",
+    "zh": "停用蓝牙绝对音量功能，即可避免在连接到远程设备时出现音量问题（例如音量高得让人无法接受或无法控制音量等）。",
+    "ru": "Отключите функцию абсолютного уровня громкости Bluetooth, чтобы избежать проблем с громкостью при подключении к удалённому устройству (например, чрезмерно высокая громкость или невозможность управления громкостью).",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_disconnected",
+    "zh": "已断开连接",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_disconnecting",
+    "zh": "正在断开连接...",
+    "ru": "Отключение...",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_enable_gabeldorsche",
+    "zh": "启用“Gabeldorsche”",
+    "ru": "Включить «Gabeldorsche»",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_enable_gabeldorsche_summary",
+    "zh": "启用“蓝牙 Gabeldorsche”功能堆栈。",
+    "ru": "Включить функциональный стек «Bluetooth Gabeldorsche».",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_headset_profile_summary_connected",
+    "zh": "已连接到手机音频",
+    "ru": "Подключено к аудио телефона",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_headset_profile_summary_use_for",
+    "zh": "用于手机音频",
+    "ru": "Для мобильного аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearing_aid_profile_summary_connected",
+    "zh": "已连接到助听器",
+    "ru": "Подключено к слуховому аппарату",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearing_aid_profile_summary_use_for",
+    "zh": "用于助听器",
+    "ru": "Для слухового аппарата",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearingaid_left_battery_level",
+    "zh": "左侧 - 电池电量：%1$s",
+    "ru": "Слева - уровень заряда батареи: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearingaid_left_pairing_message",
+    "zh": "正在配对左侧助听器…",
+    "ru": "Синхронизация с левым слуховым аппаратом…",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearingaid_right_battery_level",
+    "zh": "右侧 - 电池电量：%1$s",
+    "ru": "Справа - уровень заряда батареи: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hearingaid_right_pairing_message",
+    "zh": "正在配对右侧助听器…",
+    "ru": "Синхронизация с правым слуховым аппаратом…",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hid_profile_summary_connected",
+    "zh": "已连接到输入设备",
+    "ru": "Подключено к устройству ввода",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_hid_profile_summary_use_for",
+    "zh": "用于输入",
+    "ru": "Для ввода",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_map_profile_summary_connected",
+    "zh": "已连接到地图",
+    "ru": "Подключено к карте",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_map_profile_summary_use_for",
+    "zh": "用于地图",
+    "ru": "Для карты",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_opp_profile_summary_connected",
+    "zh": "已连接到文件传输服务器",
+    "ru": "Подключено к серверу передачи файлов",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_opp_profile_summary_not_connected",
+    "zh": "未连接到文件传输服务器",
+    "ru": "Не подключено к серверу передачи файлов",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_opp_profile_summary_use_for",
+    "zh": "用于文件传输",
+    "ru": "Для передачи файлов",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing",
+    "zh": "正在配对...",
+    "ru": "Сопряжение...",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_accept",
+    "zh": "配对",
+    "ru": "Сопряжение",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_accept_all_caps",
+    "zh": "配对",
+    "ru": "Сопряжение",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_decline",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_device_down_error_message",
+    "zh": "无法与“%1$s”进行通信。",
+    "ru": "Не удается установить связь с «%1$s».",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_error_message",
+    "zh": "无法与“%1$s”进行配对。",
+    "ru": "Не удается выполнить сопряжение с «%1$s».",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_pin_error_message",
+    "zh": "PIN码或配对密钥不正确，无法与%1$s配对。",
+    "ru": "Неверный PIN-код или ключ сопряжения, невозможно выполнить сопряжение с %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_rejected_error_message",
+    "zh": "%1$s 已拒绝配对。",
+    "ru": "%1$s отклонил сопряжение.",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pairing_will_share_phonebook",
+    "zh": "配对之后，所配对的设备将可以在建立连接后访问您的通讯录和通话记录。",
+    "ru": "После сопряжения устройство сможет получить доступ к вашему списку контактов и истории звонков при установленном соединении.",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pan_nap_profile_summary_connected",
+    "zh": "与其他设备共享该设备的互联网连接",
+    "ru": "Совместное использование интернет-соединения этого устройства с другими устройствами",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pan_profile_summary_use_for",
+    "zh": "用于访问互联网",
+    "ru": "Для доступа к интернету",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_pan_user_profile_summary_connected",
+    "zh": "经由其他设备连接到互联网",
+    "ru": "Подключение к интернету через другое устройство",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_a2dp",
+    "zh": "媒体音频",
+    "ru": "Медиа-аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_a2dp_high_quality",
+    "zh": "HD 音频：%1$s",
+    "ru": "HD аудио: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_a2dp_high_quality_unknown_codec",
+    "zh": "HD 音频",
+    "ru": "HD аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_headset",
+    "zh": "通话",
+    "ru": "Звонки",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_hearing_aid",
+    "zh": "助听器",
+    "ru": "Слуховой аппарат",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_hid",
+    "zh": "输入设备",
+    "ru": "Устройство ввода",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_map",
+    "zh": "短信",
+    "ru": "СМС",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_opp",
+    "zh": "文件传输",
+    "ru": "Передача файлов",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_pan",
+    "zh": "互联网连接",
+    "ru": "Подключение к интернету",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_pan_nap",
+    "zh": "共享互联网连接",
+    "ru": "Общий доступ к интернету",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_pbap",
+    "zh": "共享联系人",
+    "ru": "Обмен контактами",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_pbap_summary",
+    "zh": "用于共享联系人",
+    "ru": "Для обмена контактами",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_profile_sap",
+    "zh": "SIM 卡存取权限",
+    "ru": "Доступ к SIM-карте",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_sap_profile_summary_connected",
+    "zh": "已连接到 SAP",
+    "ru": "Подключено к SAP",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_sap_profile_summary_use_for",
+    "zh": "用于存取 SIM 卡",
+    "ru": "Для доступа к SIM-карте",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_bits_per_sample",
+    "zh": "蓝牙音频每样本位数",
+    "ru": "Разрядность выборки Bluetooth-аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_bits_per_sample_dialog_title",
+    "zh": "\"触发蓝牙音频编解码器\n选择：每样本位数\"",
+    "ru": "\"Активация кодека Bluetooth-аудио\\nВыбор: разрядность выборки\"",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_channel_mode",
+    "zh": "蓝牙音频声道模式",
+    "ru": "Режим аудиоканала Bluetooth-аудио",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_channel_mode_dialog_title",
+    "zh": "\"触发蓝牙音频编解码器\n选择：声道模式\"",
+    "ru": "\"Активация кодека Bluetooth-аудио\\nВыбор: режим аудиоканала\"",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_ldac_playback_quality",
+    "zh": "蓝牙音频 LDAC 编解码器：播放质量",
+    "ru": "Кодек LDAC Bluetooth-аудио: качество воспроизведения",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title",
+    "zh": "\"触发蓝牙音频 LDAC\n编解码器选择：播放质量\"",
+    "ru": "\"Активация кодека LDAC Bluetooth-аудио\\nВыбор: качество воспроизведения\"",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_sample_rate",
+    "zh": "蓝牙音频采样率",
+    "ru": "Частота дискретизации BT",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_sample_rate_dialog_title",
+    "zh": "\"触发蓝牙音频编解码器\n选择：采样率\"",
+    "ru": "\"Активация кодека Bluetooth-аудио\\nВыбор: частота дискретизации\"",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_streaming_label",
+    "zh": "正在流式传输：%1$s",
+    "ru": "Потоковая передача: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_type",
+    "zh": "蓝牙音频编解码器",
+    "ru": "Аудиокодек Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_type_dialog_title",
+    "zh": "\"触发蓝牙音频编解码器\n选择\"",
+    "ru": "\"Аудиокодек Bluetooth\\nВыбор\"",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_a2dp_codec_type_help_info",
+    "zh": "灰显意味着手机或耳机不支持该功能",
+    "ru": "Серое выделение означает, что телефон или наушники не поддерживают эту функцию",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_avrcp_version_dialog_title",
+    "zh": "选择蓝牙 AVRCP 版本",
+    "ru": "Выберите версию AVRCP Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_avrcp_version_string",
+    "zh": "蓝牙 AVRCP 版本",
+    "ru": "Версия Bluetooth AVRCP",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_map_version_dialog_title",
+    "zh": "选择蓝牙 MAP 版本",
+    "ru": "Выберите версию Bluetooth MAP",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_select_map_version_string",
+    "zh": "蓝牙 MAP 版本",
+    "ru": "Версия Bluetooth MAP",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_show_devices_without_names",
+    "zh": "显示没有名称的蓝牙设备",
+    "ru": "Отображать Bluetooth-устройства без имени",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_show_devices_without_names_summary",
+    "zh": "系统将显示没有名称（只有 MAC 地址）的蓝牙设备",
+    "ru": "Система будет отображать Bluetooth-устройства без имени (только MAC-адрес)",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_bluetooth",
+    "zh": "蓝牙",
+    "ru": "Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_computer",
+    "zh": "计算机",
+    "ru": "Компьютер",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_headphone",
+    "zh": "耳机",
+    "ru": "Наушники",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_headset",
+    "zh": "耳麦",
+    "ru": "Гарнитура",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_imaging",
+    "zh": "成像设备",
+    "ru": "Устройства захвата",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_input_peripheral",
+    "zh": "外围输入设备",
+    "ru": "Периферийное устройство ввода",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_talkback_phone",
+    "zh": "手机",
+    "ru": "Мобильный телефон",
+    "type": "string"
+  },
+  {
+    "name": "bt_hci_snoop_log",
+    "zh": "启用蓝牙 HCI 信息收集日志",
+    "ru": "Включить журнал сбора данных HCI Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bt_hci_snoop_log_summary",
+    "zh": "捕获蓝牙数据包（更改此设置之后请切换蓝牙开关）。",
+    "ru": "Перехват пакетов Bluetooth (после изменения этого параметра переключите Bluetooth).",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_in_power",
+    "zh": "错误报告快捷方式",
+    "ru": "Ярлык отчёта об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_in_power_summary",
+    "zh": "在电源菜单中显示用于提交错误报告的按钮",
+    "ru": "Отображать кнопку для отправки отчёта об ошибке в меню питания",
+    "type": "string"
+  },
+  {
+    "name": "button_convert_fbe",
+    "zh": "清除并转换…",
+    "ru": "Очистить и преобразовать…",
+    "type": "string"
+  },
+  {
+    "name": "cached_apps_freezer_device_default",
+    "zh": "设备默认设置",
+    "ru": "Настройки по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "cached_apps_freezer_disabled",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "cached_apps_freezer_enabled",
+    "zh": "已启用",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "cached_apps_freezer_reboot_dialog_text",
+    "zh": "设备必须重新启动才能应用此更改。您可以立即重新启动或取消。",
+    "ru": "Для применения этого изменения необходимо перезапустить устройство. Вы можете перезапустить его сейчас или отменить.",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "car_can_bus_failure",
+    "zh": "CAN 总线故障",
+    "ru": "Неисправность CAN-шины",
+    "type": "string"
+  },
+  {
+    "name": "car_can_bus_failure_desc",
+    "zh": "CAN 总线没有响应。请将主机盒插头拔下并插回，然后重新启动汽车",
+    "ru": "Шина CAN не отвечает. Пожалуйста, выньте и снова вставьте разъём головного устройства, затем перезапустите автомобиль",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_car_cluster_control",
+    "zh": "仪表板控制",
+    "ru": "Приборная панель",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_car_display_in_cluster",
+    "zh": "直接呈现在仪表板上",
+    "ru": "Непосредственное отображение на приборной панели",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_car_navigation_manager",
+    "zh": "导航管理器",
+    "ru": "Менеджер навигации",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc",
+    "zh": "访问汽车信息。",
+    "ru": "Доступ к информации об автомобиле.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_access_projection_status",
+    "zh": "允许应用获取投影到车载显示屏的其他应用的状态。",
+    "ru": "Разрешает приложению получать состояние других приложений, отображаемых на экране автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_adjust_range_remaining",
+    "zh": "调整汽车的剩余可行驶距离值。",
+    "ru": "Отрегулировать значение оставшегося запаса хода автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_audio_settings",
+    "zh": "控制汽车的音频设置。",
+    "ru": "Управлять настройками аудиосистемы автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_audio_volume",
+    "zh": "控制汽车的音频音量。",
+    "ru": "Регулировка громкости аудиосистемы автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_bind_input_service",
+    "zh": "处理输入事件",
+    "ru": "Обработка входных событий",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_bind_instrument_cluster_rendering",
+    "zh": "接收仪表板数据",
+    "ru": "Получение данных приборной панели",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_bind_projection_service",
+    "zh": "允许应用绑定到投影服务的顶级接口。普通应用绝不需要此权限。",
+    "ru": "Разрешает приложению привязываться к основному интерфейсу службы проекции. Обычным приложениям это разрешение совершенно не требуется.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_bind_vms_client",
+    "zh": "绑定到 VMS 客户端",
+    "ru": "Привязать к клиенту VMS",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_camera",
+    "zh": "访问汽车摄像头。",
+    "ru": "Получить доступ к камере автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_cluster_control",
+    "zh": "在仪表板上启动应用",
+    "ru": "Запустить приложение на приборной панели",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_display_in_cluster",
+    "zh": "允许应用声明即将在仪表板上显示的活动",
+    "ru": "Разрешить приложению объявлять активности, которые будут отображаться на приборной панели",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_energy_ports",
+    "zh": "访问汽车的油箱盖和充电端口信息。",
+    "ru": "Доступ к информации о крышке топливного бака и зарядном порту автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_engine_detailed",
+    "zh": "访问汽车的详细引擎信息。",
+    "ru": "Доступ к подробной информации о двигателе автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_exterior_environment",
+    "zh": "访问汽车的外部温度信息。",
+    "ru": "Доступ к информации о температуре наружного воздуха автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_exterior_lights",
+    "zh": "访问汽车的外部灯具状态信息。",
+    "ru": "Доступ к информации о состоянии внешних световых приборов автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_handle_usb_aoap_device",
+    "zh": "允许应用在 AOAP 模式下与设备通信",
+    "ru": "Разрешить приложению обмениваться данными с устройством в режиме AOAP",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_identification",
+    "zh": "访问汽车的标识信息。",
+    "ru": "Доступ к идентификационной информации автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_info",
+    "zh": "访问汽车的基本信息。",
+    "ru": "Доступ к базовой информации об автомобиле.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_interior_lights",
+    "zh": "访问汽车的内部灯具状态信息。",
+    "ru": "Доступ к информации о состоянии освещения салона автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_navigation_manager",
+    "zh": "将导航数据报给仪表板",
+    "ru": "Передавать навигационные данные на приборную панель",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_power",
+    "zh": "访问汽车的电源状态信息。",
+    "ru": "Доступ к информации о состоянии электропитания автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_powertrain",
+    "zh": "访问汽车的动力总成信息。",
+    "ru": "Доступ к информации о силовой установке автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_steering",
+    "zh": "访问汽车的方向盘转角信息。",
+    "ru": "Доступ к информации об угле поворота рулевого колеса автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_test_service",
+    "zh": "控制汽车的测试模式",
+    "ru": "Управление тестовым режимом автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_tires",
+    "zh": "访问汽车的轮胎信息。",
+    "ru": "Доступ к информации о шинах автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_car_ux_restrictions_configuration",
+    "zh": "配置用户体验限制条件",
+    "ru": "Настройка ограничений пользовательского опыта",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_app_blocking",
+    "zh": "控制驾车时的应用屏蔽情况。",
+    "ru": "Управление блокировкой приложений при вождении.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_display_units",
+    "zh": "控制显示屏。",
+    "ru": "Управление дисплеем.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_doors",
+    "zh": "控制车门。",
+    "ru": "Управление дверями.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_energy_ports",
+    "zh": "控制汽车的油箱盖和充电端口。",
+    "ru": "Управление крышкой топливного бака и зарядным портом автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_exterior_lights",
+    "zh": "控制汽车的外部灯具。",
+    "ru": "Управление внешним освещением автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_features",
+    "zh": "启用或停用汽车的功能。",
+    "ru": "Включение или отключение функций автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_interior_lights",
+    "zh": "控制汽车的内部灯具。",
+    "ru": "Управление освещением салона автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_mirrors",
+    "zh": "控制车镜。",
+    "ru": "Управление зеркалами.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_occupant_awareness_system",
+    "zh": "允许控制 Occupant Awareness System 检测图表的启动和停止",
+    "ru": "Разрешить запуск и остановку графика обнаружения системы Occupant Awareness System.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_seats",
+    "zh": "控制车座。",
+    "ru": "Управлять сиденьями.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_control_car_windows",
+    "zh": "控制车窗。",
+    "ru": "Управление стёклами.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_diag_clear",
+    "zh": "清除汽车的诊断数据。",
+    "ru": "Стереть диагностические данные автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_diag_read",
+    "zh": "读取汽车的诊断数据。",
+    "ru": "Считать диагностические данные автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_driving_state",
+    "zh": "监听驾车状态变化。",
+    "ru": "Отслеживать изменения состояния вождения.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_energy",
+    "zh": "访问汽车的能耗信息。",
+    "ru": "Доступ к информации об энергопотреблении автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_enroll_trust",
+    "zh": "允许注册可信设备",
+    "ru": "Разрешить регистрацию доверенных устройств",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_hvac",
+    "zh": "访问汽车的 HVAC。",
+    "ru": "Доступ к HVAC автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_mileage",
+    "zh": "访问汽车的里程信息。",
+    "ru": "Доступ к информации о пробеге автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_mock_vehicle_hal",
+    "zh": "模拟汽车的车载 HAL 以进行内部测试。",
+    "ru": "Эмуляция бортового HAL автомобиля для внутреннего тестирования.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_projection",
+    "zh": "允许应用将手机界面投影到车载显示屏。",
+    "ru": "Разрешить приложению проецировать экран смартфона на дисплей автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_radio",
+    "zh": "访问汽车收音机。",
+    "ru": "Доступ к автомобильному радио.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_read_car_display_units",
+    "zh": "读取显示屏信息。",
+    "ru": "Чтение информации с дисплея.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_read_car_occupant_awareness_state",
+    "zh": "允许读取 Occupant Awareness System 的状态和检测数据",
+    "ru": "Разрешить чтение состояния и данных детектирования системы обнаружения присутствия пассажиров",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_receive_ducking",
+    "zh": "当应用的音量因车内播放其他音频而降低时，允许该应用收到相关通知。",
+    "ru": "Когда громкость приложения снижается из-за воспроизведения другого аудио в автомобиле, разрешить этому приложению получать соответствующие уведомления.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_speed",
+    "zh": "访问车速信息。",
+    "ru": "Доступ к скорости.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_storage_monitoring",
+    "zh": "监控闪存使用情况",
+    "ru": "Мониторинг использования флеш-памяти",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_use_car_watchdog",
+    "zh": "使用汽车监控定时器。",
+    "ru": "Использование таймера мониторинга автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_vehicle_dynamics_state",
+    "zh": "访问汽车的动力状态信息。",
+    "ru": "Доступ к информации о динамическом состоянии автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_vendor_extension",
+    "zh": "访问汽车的供应商渠道信息，以交换汽车专属信息。",
+    "ru": "Доступ к информации о каналах поставщика для обмена специфической автомобильной информацией.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_vendor_permission_info",
+    "zh": "访问汽车的供应商权限信息。",
+    "ru": "Доступ к информации о разрешениях поставщика автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_vms_publisher",
+    "zh": "发布 VMS 消息",
+    "ru": "Опубликовать сообщение VMS",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_desc_vms_subscriber",
+    "zh": "订阅 VMS 消息",
+    "ru": "Подписаться на сообщения VMS",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label",
+    "zh": "访问汽车的信息",
+    "ru": "Доступ к информации об автомобиле",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_access_projection_status",
+    "zh": "访问投影状态信息",
+    "ru": "Доступ к информации о состоянии проекции",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_adjust_range_remaining",
+    "zh": "调整汽车的剩余可行驶距离",
+    "ru": "Отрегулировать остаточный запас хода автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_audio_settings",
+    "zh": "管理汽车的音频设置",
+    "ru": "Управление аудионастройками автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_audio_volume",
+    "zh": "控制汽车的音频音量",
+    "ru": "Управление громкостью аудиосистемы автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_bind_input_service",
+    "zh": "汽车输入服务",
+    "ru": "Сервис ввода автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_bind_instrument_cluster_rendering",
+    "zh": "仪表板呈现",
+    "ru": "Отображение панели",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_bind_projection_service",
+    "zh": "绑定到投影服务",
+    "ru": "Привязать к сервису проекции",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_bind_vms_client",
+    "zh": "VMS 客户端服务",
+    "ru": "Служба клиента VMS",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_camera",
+    "zh": "访问汽车的摄像头",
+    "ru": "Доступ к камере автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_energy_ports",
+    "zh": "访问汽车的油箱盖和充电端口信息",
+    "ru": "Доступ к информации о крышке топливного бака и зарядном порте автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_engine_detailed",
+    "zh": "访问汽车的引擎详情",
+    "ru": "Доступ к деталям двигателя автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_exterior_environment",
+    "zh": "读取汽车的外部温度信息",
+    "ru": "Считывание информации о внешней температуре автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_exterior_lights",
+    "zh": "读取汽车的外部灯具状态信息",
+    "ru": "Считать информацию о состоянии внешних световых приборов автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_handle_usb_aoap_device",
+    "zh": "在 AOAP 模式下与 USB 设备通信",
+    "ru": "Обмен данными с USB-устройствами в режиме AOAP",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_identification",
+    "zh": "读取汽车的识别信息",
+    "ru": "Считать идентификационную информацию автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_info",
+    "zh": "访问汽车的基本信息",
+    "ru": "Доступ к основной информации об автомобиле",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_interior_lights",
+    "zh": "读取汽车的内部灯具信息",
+    "ru": "Считать информацию о внутренних световых приборах автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_power",
+    "zh": "读取汽车的电源状态信息",
+    "ru": "Считать информацию о состоянии электропитания автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_powertrain",
+    "zh": "读取汽车的动力总成信息",
+    "ru": "Считать информацию о силовой установке автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_steering",
+    "zh": "读取汽车的方向盘转角信息",
+    "ru": "Считать данные об угле поворота руля автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_test_service",
+    "zh": "控制汽车的测试模式",
+    "ru": "Управление тестовым режимом автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_tires",
+    "zh": "访问汽车的轮胎信息",
+    "ru": "Доступ к информации о шинах автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_car_ux_restrictions_configuration",
+    "zh": "用户体验限制条件配置",
+    "ru": "Настройка ограничений пользовательского опыта",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_app_blocking",
+    "zh": "应用屏蔽",
+    "ru": "Блокировка приложений",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_display_units",
+    "zh": "控制汽车的显示屏",
+    "ru": "Управление дисплеем автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_doors",
+    "zh": "控制车门",
+    "ru": "Управление дверями",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_energy_ports",
+    "zh": "控制汽车的油箱盖和充电端口",
+    "ru": "Управление крышкой топливного бака и зарядным портом автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_exterior_lights",
+    "zh": "读取汽车的外部灯具信息",
+    "ru": "Считать информацию о внешних световых приборах автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_features",
+    "zh": "启用或停用汽车的功能",
+    "ru": "Включение или отключение функций автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_interior_lights",
+    "zh": "控制汽车的内部灯具",
+    "ru": "Управление внутренним освещением автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_mirrors",
+    "zh": "控制汽车的车镜",
+    "ru": "Управление зеркалами автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_occupant_awareness_system",
+    "zh": "控制 Occupant Awareness System 图表",
+    "ru": "Управление Occupant Awareness System",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_seats",
+    "zh": "控制车座",
+    "ru": "Управление сиденьями",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_control_car_windows",
+    "zh": "控制车窗",
+    "ru": "Управление окнами",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_diag_clear",
+    "zh": "清除诊断数据",
+    "ru": "Очистка диагностических данных",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_diag_read",
+    "zh": "读取诊断数据",
+    "ru": "Считывание диагностики",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_driving_state",
+    "zh": "监听驾车状态",
+    "ru": "Мониторинг состояния вождения",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_energy",
+    "zh": "访问汽车的能耗信息",
+    "ru": "Доступ к информации о расходе энергии автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_enroll_trust",
+    "zh": "注册可信设备",
+    "ru": "Доверенное устройство",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_hvac",
+    "zh": "访问汽车的暖通空调",
+    "ru": "Доступ к климат-контролю автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_mileage",
+    "zh": "访问汽车的行驶里程信息",
+    "ru": "Доступ к информации о пробеге автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_mock_vehicle_hal",
+    "zh": "模拟车辆 HAL",
+    "ru": "Эмуляция HAL автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_projection",
+    "zh": "将手机界面投影到汽车的显示屏",
+    "ru": "Проецировать экран смартфона на дисплей автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_radio",
+    "zh": "管理汽车的收音机",
+    "ru": "Управление радио автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_read_car_display_units",
+    "zh": "读取汽车显示屏信息",
+    "ru": "Считывать информацию с дисплея автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_read_car_occupant_awareness_state",
+    "zh": "Occupant Awareness System 读取权限",
+    "ru": "Права на чтение Системы мониторинга присутствия в салоне",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_receive_ducking",
+    "zh": "接收应用音量降低通知",
+    "ru": "Получать уведомления о снижении громкости приложения",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_speed",
+    "zh": "读取车速信息",
+    "ru": "Чтение скорости",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_storage_monitoring",
+    "zh": "闪存监控",
+    "ru": "Мониторинг флеш-памяти",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_use_car_watchdog",
+    "zh": "使用汽车监控定时器",
+    "ru": "Использовать таймер мониторинга автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_vehicle_dynamics_state",
+    "zh": "访问汽车的动力状态信息",
+    "ru": "Доступ к информации о состоянии силовой установки автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_vendor_extension",
+    "zh": "访问汽车的供应商渠道",
+    "ru": "Доступ к каналам поставщика автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_vendor_permission_info",
+    "zh": "访问汽车的供应商权限信息",
+    "ru": "Доступ к информации о разрешениях поставщика автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_vms_publisher",
+    "zh": "VMS 发布商",
+    "ru": "VMS-издатель",
+    "type": "string"
+  },
+  {
+    "name": "car_permission_label_vms_subscriber",
+    "zh": "VMS 订阅者",
+    "ru": "Подписчик VMS",
+    "type": "string"
+  },
+  {
+    "name": "category_personal",
+    "zh": "个人",
+    "ru": "Личный",
+    "type": "string"
+  },
+  {
+    "name": "category_work",
+    "zh": "工作",
+    "ru": "Работа",
+    "type": "string"
+  },
+  {
+    "name": "charge_length_format",
+    "zh": "%1$s前",
+    "ru": "%1$s назад",
+    "type": "string"
+  },
+  {
+    "name": "choose_profile",
+    "zh": "选择个人资料",
+    "ru": "Выбрать профиль",
+    "type": "string"
+  },
+  {
+    "name": "clear_adb_keys",
+    "zh": "撤消 USB 调试授权",
+    "ru": "Отозвать разрешение на отладку по USB",
+    "type": "string"
+  },
+  {
+    "name": "confirm_enable_oem_unlock_text",
+    "zh": "警告：如果开启此设置，此设备上的设备保护功能将无法使用。",
+    "ru": "Предупреждение: если включить эту настройку, функция защиты устройства на этом устройстве станет недоступна.",
+    "type": "string"
+  },
+  {
+    "name": "confirm_enable_oem_unlock_title",
+    "zh": "要允许 OEM 解锁吗？",
+    "ru": "Разрешить разблокировку OEM?",
+    "type": "string"
+  },
+  {
+    "name": "connected_via_app",
+    "zh": "已通过%1$s连接到网络",
+    "ru": "Подключено к сети через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "connected_via_carrier",
+    "zh": "已通过%1$s连接",
+    "ru": "Подключено через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "connected_via_network_scorer",
+    "zh": "已通过%1$s自动连接",
+    "ru": "Автоматически подключено через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "connected_via_network_scorer_default",
+    "zh": "已自动连接（通过网络评分服务提供方）",
+    "ru": "Соединение установлено автоматически (через провайдера службы оценки сети)",
+    "type": "string"
+  },
+  {
+    "name": "connected_via_passpoint",
+    "zh": "已通过%1$s连接",
+    "ru": "Подключено через %1$s",
+    "type": "string"
+  },
+  {
+    "name": "content_description_menu_button",
+    "zh": "菜单",
+    "ru": "Меню",
+    "type": "string"
+  },
+  {
+    "name": "convert_to_fbe_warning",
+    "zh": "\"将数据分区转换为文件加密。\n！！警告！！此操作将会清除您所有的数据。\n此功能为 Alpha 版功能，可能无法正常运行。\n要继续操作，请按“清除并转换…”。\"",
+    "ru": "\"Преобразовать раздел данных в шифрование на уровне файлов.\\n!! Внимание !! Данная операция удалит все ваши данные.\\nЭта функция находится в альфа-версии и может работать некорректно.\\nЧтобы продолжить, нажмите «Удалить и преобразовать…».\"",
+    "type": "string"
+  },
+  {
+    "name": "convert_to_file_encryption",
+    "zh": "转换为文件加密",
+    "ru": "Файловое шифрование",
+    "type": "string"
+  },
+  {
+    "name": "convert_to_file_encryption_done",
+    "zh": "文件已加密",
+    "ru": "Файлы зашифрованы",
+    "type": "string"
+  },
+  {
+    "name": "convert_to_file_encryption_enabled",
+    "zh": "转换…",
+    "ru": "Преобразовать…",
+    "type": "string"
+  },
+  {
+    "name": "copy",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_mode_deuteranomaly",
+    "zh": "绿色弱视（红绿不分）",
+    "ru": "Дейтеранопия (не различает красный и зелёный)",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_mode_disabled",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_mode_monochromacy",
+    "zh": "全色盲",
+    "ru": "Полная цветовая слепота",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_mode_protanomaly",
+    "zh": "红色弱视（红绿不分）",
+    "ru": "Слабое восприятие красного (не различает красный и зелёный)",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_mode_tritanomaly",
+    "zh": "蓝色弱视（蓝黄不分）",
+    "ru": "Слабое восприятие синего (не различает синий и жёлтый)",
+    "type": "string"
+  },
+  {
+    "name": "daltonizer_type_overridden",
+    "zh": "已被“%1$s”覆盖",
+    "ru": "Перезаписано «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "data_usage_ota",
+    "zh": "系统更新",
+    "ru": "Обновление системы",
+    "type": "string"
+  },
+  {
+    "name": "data_usage_uninstalled_apps",
+    "zh": "已删除的应用",
+    "ru": "Удалённые приложения",
+    "type": "string"
+  },
+  {
+    "name": "data_usage_uninstalled_apps_users",
+    "zh": "已删除的应用和用户",
+    "ru": "Удалённые приложения и пользователи",
+    "type": "string"
+  },
+  {
+    "name": "debug_app",
+    "zh": "选择调试应用",
+    "ru": "Выбор отладочного приложения",
+    "type": "string"
+  },
+  {
+    "name": "debug_app_not_set",
+    "zh": "未设置任何调试应用",
+    "ru": "Не установлено ни одно отладочное приложение.",
+    "type": "string"
+  },
+  {
+    "name": "debug_app_set",
+    "zh": "调试应用：%1$s",
+    "ru": "Отладка приложения: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "debug_applications_category",
+    "zh": "应用",
+    "ru": "Приложения",
+    "type": "string"
+  },
+  {
+    "name": "debug_debugging_category",
+    "zh": "调试",
+    "ru": "Отладка",
+    "type": "string"
+  },
+  {
+    "name": "debug_drawing_category",
+    "zh": "绘图",
+    "ru": "Отрисовка",
+    "type": "string"
+  },
+  {
+    "name": "debug_hw_drawing_category",
+    "zh": "硬件加速渲染",
+    "ru": "Аппаратно ускоренный рендеринг",
+    "type": "string"
+  },
+  {
+    "name": "debug_hw_overdraw",
+    "zh": "调试 GPU 过度绘制",
+    "ru": "Отладка избыточной перерисовки GPU",
+    "type": "string"
+  },
+  {
+    "name": "debug_input_category",
+    "zh": "输入",
+    "ru": "Ввод",
+    "type": "string"
+  },
+  {
+    "name": "debug_layout",
+    "zh": "显示布局边界",
+    "ru": "Показывать границы макета",
+    "type": "string"
+  },
+  {
+    "name": "debug_layout_summary",
+    "zh": "显示剪辑边界、边距等。",
+    "ru": "Отображать границы клипа, отступы и т. д.",
+    "type": "string"
+  },
+  {
+    "name": "debug_monitoring_category",
+    "zh": "监控",
+    "ru": "Мониторинг",
+    "type": "string"
+  },
+  {
+    "name": "debug_networking_category",
+    "zh": "网络",
+    "ru": "Сеть",
+    "type": "string"
+  },
+  {
+    "name": "debug_view_attributes",
+    "zh": "启用视图属性检查功能",
+    "ru": "Включить проверку свойств элементов",
+    "type": "string"
+  },
+  {
+    "name": "default_guest_name",
+    "zh": "访客",
+    "ru": "Посетитель",
+    "type": "string"
+  },
+  {
+    "name": "delete_blob_confirmation_text",
+    "zh": "确定要删除这些共享数据吗？",
+    "ru": "Вы уверены, что хотите удалить эти общие данные?",
+    "type": "string"
+  },
+  {
+    "name": "delete_blob_text",
+    "zh": "删除共享数据",
+    "ru": "Удалить общие данные",
+    "type": "string"
+  },
+  {
+    "name": "dev_logpersist_clear_warning_message",
+    "zh": "当我们不再使用永久日志记录器进行监控时，我们需要清除保存在您设备上的日志记录器数据。",
+    "ru": "Когда постоянный логгер больше не используется для мониторинга, необходимо удалить данные логгера, сохранённые на вашем устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "dev_logpersist_clear_warning_title",
+    "zh": "要清除永久存储的日志记录器数据吗？",
+    "ru": "Очистить постоянно хранимые данные логгера?",
+    "type": "string"
+  },
+  {
+    "name": "dev_settings_warning_message",
+    "zh": "这些设置仅适用于开发工作。一旦启用，会导致您的设备以及设备上的应用崩溃或出现异常。",
+    "ru": "Эти настройки предназначены только для разработки. После включения они могут вызвать сбой устройства и приложений или привести к их некорректной работе.",
+    "type": "string"
+  },
+  {
+    "name": "dev_settings_warning_title",
+    "zh": "允许开发设置？",
+    "ru": "Разрешить настройки разработчика?",
+    "type": "string"
+  },
+  {
+    "name": "development_settings_enable",
+    "zh": "启用开发者选项",
+    "ru": "Включить параметры разработчика",
+    "type": "string"
+  },
+  {
+    "name": "development_settings_not_available",
+    "zh": "此用户无法使用开发者选项",
+    "ru": "Этот пользователь не может использовать параметры разработчика",
+    "type": "string"
+  },
+  {
+    "name": "development_settings_summary",
+    "zh": "设置应用开发选项",
+    "ru": "Настройки для разработки приложений",
+    "type": "string"
+  },
+  {
+    "name": "development_settings_title",
+    "zh": "开发者选项",
+    "ru": "Для разработчиков",
+    "type": "string"
+  },
+  {
+    "name": "direct_boot_unaware_dialog_message",
+    "zh": "注意：重新启动后，您必须将手机解锁才能运行此应用",
+    "ru": "Примечание: после перезагрузки вы должны разблокировать телефон, чтобы запустить это приложение",
+    "type": "string"
+  },
+  {
+    "name": "disable_overlays",
+    "zh": "停用 HW 叠加层",
+    "ru": "Отключить аппаратные оверлеи",
+    "type": "string"
+  },
+  {
+    "name": "disable_overlays_summary",
+    "zh": "始终使用 GPU 进行屏幕合成",
+    "ru": "Всегда использовать GPU для композитинга экрана",
+    "type": "string"
+  },
+  {
+    "name": "disabled",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "disabled_by_admin",
+    "zh": "已被管理员停用",
+    "ru": "Отключено администратором",
+    "type": "string"
+  },
+  {
+    "name": "disabled_by_admin_summary_text",
+    "zh": "由管理员控制",
+    "ru": "Управляется администратором",
+    "type": "string"
+  },
+  {
+    "name": "enable_adb",
+    "zh": "USB 调试",
+    "ru": "Отладка по USB",
+    "type": "string"
+  },
+  {
+    "name": "enable_adb_summary",
+    "zh": "连接 USB 后启用调试模式",
+    "ru": "Включает режим отладки после подключения USB",
+    "type": "string"
+  },
+  {
+    "name": "enable_adb_wireless",
+    "zh": "无线调试",
+    "ru": "Беспроводная отладка",
+    "type": "string"
+  },
+  {
+    "name": "enable_adb_wireless_summary",
+    "zh": "连接到 WLAN 后启用调试模式",
+    "ru": "Включить режим отладки после подключения к WLAN",
+    "type": "string"
+  },
+  {
+    "name": "enable_freeform_support",
+    "zh": "启用可自由调整的窗口",
+    "ru": "Свободно настраиваемые окна",
+    "type": "string"
+  },
+  {
+    "name": "enable_freeform_support_summary",
+    "zh": "启用可自由调整的窗口这一实验性功能。",
+    "ru": "Включить экспериментальную функцию свободно настраиваемых окон.",
+    "type": "string"
+  },
+  {
+    "name": "enable_gpu_debug_layers",
+    "zh": "启用 GPU 调试层",
+    "ru": "Включить отладочные слои GPU",
+    "type": "string"
+  },
+  {
+    "name": "enable_gpu_debug_layers_summary",
+    "zh": "允许为调试应用加载 GPU 调试层",
+    "ru": "Разрешить загрузку отладочных слоёв GPU для отладочных приложений",
+    "type": "string"
+  },
+  {
+    "name": "enable_opengl_traces_title",
+    "zh": "启用 OpenGL 跟踪",
+    "ru": "Включить трассировку OpenGL",
+    "type": "string"
+  },
+  {
+    "name": "enable_terminal_summary",
+    "zh": "启用终端应用，以便在本地访问 Shell",
+    "ru": "Включить приложение терминала для локального доступа к оболочке Shell",
+    "type": "string"
+  },
+  {
+    "name": "enable_terminal_title",
+    "zh": "本地终端",
+    "ru": "Локальный терминал",
+    "type": "string"
+  },
+  {
+    "name": "enable_verbose_vendor_logging",
+    "zh": "启用详细供应商日志记录",
+    "ru": "Включить подробное ведение журнала вендора",
+    "type": "string"
+  },
+  {
+    "name": "enable_verbose_vendor_logging_summary",
+    "zh": "在错误报告中包含其他设备特定的供应商日志，这些日志可能会含有隐私信息、消耗更多电量和/或使用更多存储空间。",
+    "ru": "В отчёт об ошибках включаются журналы вендора, специфичные для других устройств. Эти журналы могут содержать конфиденциальные данные, увеличивать расход заряда батареи и/или занимать больше места в хранилище.",
+    "type": "string"
+  },
+  {
+    "name": "enabled_by_admin",
+    "zh": "已被管理员启用",
+    "ru": "Включено администратором",
+    "type": "string"
+  },
+  {
+    "name": "enhanced_connectivity_summary",
+    "zh": "启用增强连接性功能。",
+    "ru": "Включить расширенные функции подключения.",
+    "type": "string"
+  },
+  {
+    "name": "exit_button",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "exit_button_close_application",
+    "zh": "关闭应用",
+    "ru": "Закрыть приложение",
+    "type": "string"
+  },
+  {
+    "name": "exit_button_go_back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "exit_button_message",
+    "zh": "要重新开始使用安全的应用功能，请选择%s。",
+    "ru": "Чтобы возобновить использование безопасных функций приложения, выберите %s.",
+    "type": "string"
+  },
+  {
+    "name": "expand_button_title",
+    "zh": "高级",
+    "ru": "Дополнительно",
+    "type": "string"
+  },
+  {
+    "name": "external_source_trusted",
+    "zh": "允许",
+    "ru": "Разрешено",
+    "type": "string"
+  },
+  {
+    "name": "external_source_untrusted",
+    "zh": "不允许",
+    "ru": "Не разрешено",
+    "type": "string"
+  },
+  {
+    "name": "failed_to_open_app_settings_toast",
+    "zh": "无法打开 %1$s 的设置",
+    "ru": "Не удается открыть настройки %1$s",
+    "type": "string"
+  },
+  {
+    "name": "force_allow_on_external",
+    "zh": "强制允许将应用写入外部存储设备",
+    "ru": "Принудительно разрешить приложениям записывать на внешнее хранилище",
+    "type": "string"
+  },
+  {
+    "name": "force_allow_on_external_summary",
+    "zh": "允许将任何应用写入外部存储设备（无论清单值是什么）",
+    "ru": "Разрешить любому приложению записывать данные во внешнее хранилище (независимо от значения манифеста)",
+    "type": "string"
+  },
+  {
+    "name": "force_msaa",
+    "zh": "强制启用 4x MSAA",
+    "ru": "Принудительно включить 4x MSAA",
+    "type": "string"
+  },
+  {
+    "name": "force_msaa_summary",
+    "zh": "在 OpenGL ES 2.0 应用中启用 4x MSAA",
+    "ru": "Включить 4x MSAA в приложениях OpenGL ES 2.0",
+    "type": "string"
+  },
+  {
+    "name": "force_resizable_activities",
+    "zh": "强制将活动设为可调整大小",
+    "ru": "Принудительно сделать активность изменяемой по размеру",
+    "type": "string"
+  },
+  {
+    "name": "force_resizable_activities_summary",
+    "zh": "将所有 Activity 设为可配合多窗口环境调整大小（忽略清单值）。",
+    "ru": "Сделать все Activity изменяемыми по размеру в многооконном режиме (игнорировать значение манифеста).",
+    "type": "string"
+  },
+  {
+    "name": "force_rtl_layout_all_locales",
+    "zh": "强制使用从右到左的布局方向",
+    "ru": "Принудительное использование направления макета справа налево",
+    "type": "string"
+  },
+  {
+    "name": "force_rtl_layout_all_locales_summary",
+    "zh": "强制将所有语言区域的屏幕布局方向改为从右到左",
+    "ru": "Принудительно установить направление макета экрана справа налево для всех языковых регионов",
+    "type": "string"
+  },
+  {
+    "name": "guest_exit_guest",
+    "zh": "移除访客",
+    "ru": "Удалить гостя",
+    "type": "string"
+  },
+  {
+    "name": "guest_new_guest",
+    "zh": "添加访客",
+    "ru": "Добавить гостя",
+    "type": "string"
+  },
+  {
+    "name": "guest_nickname",
+    "zh": "访客",
+    "ru": "Гость",
+    "type": "string"
+  },
+  {
+    "name": "hdcp_checking_dialog_title",
+    "zh": "设置 HDCP 检查行为",
+    "ru": "Настройка поведения проверки HDCP",
+    "type": "string"
+  },
+  {
+    "name": "hdcp_checking_title",
+    "zh": "HDCP 检查",
+    "ru": "Проверка HDCP",
+    "type": "string"
+  },
+  {
+    "name": "help_feedback_label",
+    "zh": "帮助和反馈",
+    "ru": "Помощь и обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "help_label",
+    "zh": "帮助和反馈",
+    "ru": "Помощь и обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "home",
+    "zh": "设置主屏幕",
+    "ru": "Установить домашний экран",
+    "type": "string"
+  },
+  {
+    "name": "ime_security_warning",
+    "zh": "此输入法可能会收集您输入的所有内容，包括密码和信用卡号等个人数据。它来自“%1$s”应用。要使用此输入法吗？",
+    "ru": "Этот метод ввода может собирать все, что вы вводите, включая личные данные, такие как пароли и номера кредитных карт. Он от приложения «%1$s». Использовать этот метод ввода?",
+    "type": "string"
+  },
+  {
+    "name": "immediately_destroy_activities",
+    "zh": "不保留活动",
+    "ru": "Не удерживать активности",
+    "type": "string"
+  },
+  {
+    "name": "immediately_destroy_activities_summary",
+    "zh": "用户离开后即销毁每个活动",
+    "ru": "Немедленно завершать каждую активность после ухода пользователя",
+    "type": "string"
+  },
+  {
+    "name": "ims_reg_status_not_registered",
+    "zh": "未注册",
+    "ru": "Незарегистрирован",
+    "type": "string"
+  },
+  {
+    "name": "ims_reg_status_registered",
+    "zh": "已注册",
+    "ru": "Зарегистрирован",
+    "type": "string"
+  },
+  {
+    "name": "ims_reg_title",
+    "zh": "IMS 注册状态",
+    "ru": "Статус регистрации IMS",
+    "type": "string"
+  },
+  {
+    "name": "inactive_app_active_summary",
+    "zh": "已启用。点按即可切换。",
+    "ru": "Включено. Нажмите, чтобы переключить.",
+    "type": "string"
+  },
+  {
+    "name": "inactive_app_inactive_summary",
+    "zh": "未启用。点按即可切换。",
+    "ru": "Не включено. Нажмите, чтобы переключить.",
+    "type": "string"
+  },
+  {
+    "name": "inactive_apps_title",
+    "zh": "待机应用",
+    "ru": "Приложения ожидания",
+    "type": "string"
+  },
+  {
+    "name": "install_other_apps",
+    "zh": "安装未知应用",
+    "ru": "Незнакомые приложения",
+    "type": "string"
+  },
+  {
+    "name": "keep_screen_on",
+    "zh": "不锁定屏幕",
+    "ru": "Не блокировать экран",
+    "type": "string"
+  },
+  {
+    "name": "keep_screen_on_summary",
+    "zh": "充电时屏幕不会休眠",
+    "ru": "Экран не будет гаснуть при зарядке.",
+    "type": "string"
+  },
+  {
+    "name": "keywords_adb_wireless",
+    "zh": "adb, 调试, debug, 开发, dev",
+    "ru": "adb, отладка, debug, разработка, dev",
+    "type": "string"
+  },
+  {
+    "name": "launch_defaults_none",
+    "zh": "没有默认操作",
+    "ru": "Нет действия по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "launch_defaults_some",
+    "zh": "已设置部分默认选项",
+    "ru": "Некоторые параметры по умолчанию уже установлены",
+    "type": "string"
+  },
+  {
+    "name": "loading_injected_setting_summary",
+    "zh": "正在加载…",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_summary_change",
+    "zh": "点按即可更改或移除用于保护桌面完整备份的密码",
+    "ru": "Коснитесь, чтобы изменить или удалить пароль для защиты полной резервной копии рабочего стола",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_summary_none",
+    "zh": "桌面完整备份当前未设置密码保护",
+    "ru": "Полная резервная копия рабочего стола в настоящее время не защищена паролем",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_title",
+    "zh": "桌面备份密码",
+    "ru": "Пароль бэкапа рабочего стола",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_toast_confirmation_mismatch",
+    "zh": "新密码和确认密码不一致",
+    "ru": "Новый пароль и пароль подтверждения не совпадают",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_toast_success",
+    "zh": "已设置了新的备份密码",
+    "ru": "Новый пароль резервного копирования установлен.",
+    "type": "string"
+  },
+  {
+    "name": "local_backup_password_toast_validation_failure",
+    "zh": "设置备份密码失败",
+    "ru": "Не удалось установить пароль резервного копирования",
+    "type": "string"
+  },
+  {
+    "name": "managed_user_title",
+    "zh": "所有工作应用",
+    "ru": "Все рабочие приложения",
+    "type": "string"
+  },
+  {
+    "name": "media_category",
+    "zh": "媒体",
+    "ru": "Медиа",
+    "type": "string"
+  },
+  {
+    "name": "media_transfer_this_device_name",
+    "zh": "手机扬声器",
+    "ru": "Динамик телефона",
+    "type": "string"
+  },
+  {
+    "name": "media_transfer_wired_device_name",
+    "zh": "有线音频设备",
+    "ru": "Проводные аудиоустройства",
+    "type": "string"
+  },
+  {
+    "name": "media_transfer_wired_usb_device_name",
+    "zh": "有线耳机",
+    "ru": "Проводные наушники",
+    "type": "string"
+  },
+  {
+    "name": "mobile_data_always_on",
+    "zh": "始终开启移动数据网络",
+    "ru": "Всегда держать мобильные данные включёнными",
+    "type": "string"
+  },
+  {
+    "name": "mobile_data_always_on_summary",
+    "zh": "始终开启移动数据网络，即使 WLAN 网络已开启（便于快速切换网络）。",
+    "ru": "Всегда держать мобильные данные включёнными, даже при активном WLAN (для быстрого переключения сетей).",
+    "type": "string"
+  },
+  {
+    "name": "mock_location_app",
+    "zh": "选择模拟位置信息应用",
+    "ru": "Приложение для подмены местоположения",
+    "type": "string"
+  },
+  {
+    "name": "mock_location_app_not_set",
+    "zh": "尚未设置模拟位置信息应用",
+    "ru": "Приложение для подмены местоположения не настроено",
+    "type": "string"
+  },
+  {
+    "name": "mock_location_app_set",
+    "zh": "模拟位置信息应用：%1$s",
+    "ru": "Приложение для подмены местоположения: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mr_button_content_description",
+    "zh": "投射按钮",
+    "ru": "Кнопка трансляции",
+    "type": "string"
+  },
+  {
+    "name": "mr_cast_button_connected",
+    "zh": "投射按钮。已连接",
+    "ru": "Кнопка трансляции. Подключено",
+    "type": "string"
+  },
+  {
+    "name": "mr_cast_button_connecting",
+    "zh": "投射按钮。正在连接",
+    "ru": "Кнопка трансляции. Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "mr_cast_button_disconnected",
+    "zh": "投射按钮。已断开连接",
+    "ru": "Кнопка трансляции. Отключено",
+    "type": "string"
+  },
+  {
+    "name": "mr_cast_dialog_title_view_placeholder",
+    "zh": "没有任何相关信息",
+    "ru": "Нет соответствующей информации",
+    "type": "string"
+  },
+  {
+    "name": "mr_chooser_searching",
+    "zh": "正在查找设备",
+    "ru": "Поиск устройства",
+    "type": "string"
+  },
+  {
+    "name": "mr_chooser_title",
+    "zh": "投射到",
+    "ru": "Проецировать на",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_album_art",
+    "zh": "专辑封面",
+    "ru": "Обложка альбома",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_casting_screen",
+    "zh": "正在投射屏幕",
+    "ru": "Идёт трансляция экрана",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_close_description",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_collapse_group",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_disconnect",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_expand_group",
+    "zh": "展开",
+    "ru": "Развернуть",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_no_info_available",
+    "zh": "没有任何相关信息",
+    "ru": "Нет соответствующей информации",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_no_media_selected",
+    "zh": "未选择任何媒体内容",
+    "ru": "Медиа-контент не выбран",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_play",
+    "zh": "播放",
+    "ru": "Играть",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_stop",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_stop_casting",
+    "zh": "停止投射",
+    "ru": "Остановить трансляцию",
+    "type": "string"
+  },
+  {
+    "name": "mr_controller_volume_slider",
+    "zh": "音量滑块",
+    "ru": "Ползунок громкости",
+    "type": "string"
+  },
+  {
+    "name": "mr_dialog_groupable_header",
+    "zh": "添加设备",
+    "ru": "Добавить устройство",
+    "type": "string"
+  },
+  {
+    "name": "mr_dialog_transferable_header",
+    "zh": "在一组设备上播放",
+    "ru": "Воспроизведение на группе устройств",
+    "type": "string"
+  },
+  {
+    "name": "mr_system_route_name",
+    "zh": "系统",
+    "ru": "Система",
+    "type": "string"
+  },
+  {
+    "name": "mr_user_route_category_name",
+    "zh": "设备",
+    "ru": "Устройство",
+    "type": "string"
+  },
+  {
+    "name": "no_application",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "not_set",
+    "zh": "未设置",
+    "ru": "Не задано",
+    "type": "string"
+  },
+  {
+    "name": "oem_unlock_enable",
+    "zh": "OEM 解锁",
+    "ru": "Разблокировка OEM",
+    "type": "string"
+  },
+  {
+    "name": "oem_unlock_enable_summary",
+    "zh": "允许解锁引导加载程序",
+    "ru": "Разрешить разблокировку загрузчика",
+    "type": "string"
+  },
+  {
+    "name": "okay",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "osu_completing_sign_up",
+    "zh": "正在完成注册…",
+    "ru": "Завершение регистрации…",
+    "type": "string"
+  },
+  {
+    "name": "osu_connect_failed",
+    "zh": "无法连接",
+    "ru": "Невозможно подключиться",
+    "type": "string"
+  },
+  {
+    "name": "osu_opening_provider",
+    "zh": "正在打开%1$s",
+    "ru": "Открывается %1$s",
+    "type": "string"
+  },
+  {
+    "name": "osu_sign_up_complete",
+    "zh": "注册完毕。正在连接…",
+    "ru": "Регистрация завершена. Подключение…",
+    "type": "string"
+  },
+  {
+    "name": "osu_sign_up_failed",
+    "zh": "无法完成注册。点按即可重试。",
+    "ru": "Не удалось завершить регистрацию. Нажмите, чтобы повторить попытку.",
+    "type": "string"
+  },
+  {
+    "name": "overlay_display_devices_title",
+    "zh": "模拟辅助显示设备",
+    "ru": "Симулированное вспомогательное устройство отображения",
+    "type": "string"
+  },
+  {
+    "name": "picture_color_mode",
+    "zh": "图片颜色模式",
+    "ru": "Режим цвета изображения",
+    "type": "string"
+  },
+  {
+    "name": "picture_color_mode_desc",
+    "zh": "使用 sRGB",
+    "ru": "Использовать sRGB",
+    "type": "string"
+  },
+  {
+    "name": "pointer_location",
+    "zh": "指针位置",
+    "ru": "Положение указателя",
+    "type": "string"
+  },
+  {
+    "name": "pointer_location_summary",
+    "zh": "屏幕叠加层显示当前触摸数据",
+    "ru": "Оверлей отображает текущие данные касания",
+    "type": "string"
+  },
+  {
+    "name": "power_charging_duration",
+    "zh": "%1$s - %2$s后充满电",
+    "ru": "%1$s - полная зарядка через %2$s",
+    "type": "string"
+  },
+  {
+    "name": "power_charging_limited",
+    "zh": "%1$s - 正在针对电池状况进行优化",
+    "ru": "%1$s - оптимизация с учётом состояния аккумулятора",
+    "type": "string"
+  },
+  {
+    "name": "power_discharge_by",
+    "zh": "目前电量为 %2$s，估计能用到%1$s",
+    "ru": "Текущий заряд: %2$s, заряда хватит до %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_discharge_by_enhanced",
+    "zh": "根据您的使用情况，估计能用到%1$s（目前电量为 %2$s）",
+    "ru": "С учётом ваших привычек, заряда хватит до %1$s (текущий заряд: %2$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_discharge_by_only",
+    "zh": "估计能用到%1$s",
+    "ru": "Заряда хватит до %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_discharge_by_only_enhanced",
+    "zh": "根据您的使用情况，估计能用到%1$s",
+    "ru": "С учётом вашего использования, хватит до %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_discharge_by_only_short",
+    "zh": "直到%1$s",
+    "ru": "До %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_discharging_duration",
+    "zh": "大约还可使用 %1$s (%2$s)",
+    "ru": "Примерно ещё %1$s (%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_discharging_duration_enhanced",
+    "zh": "根据您的使用情况，大约还可使用 %1$s (%2$s)",
+    "ru": "С учётом вашего использования, примерно ещё %1$s (%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_charging_duration_only",
+    "zh": "还剩 %1$s充满电",
+    "ru": "Осталось %1$s до полной зарядки",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_duration_only",
+    "zh": "大约还可使用 %1$s",
+    "ru": "Примерно ещё %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_duration_only_enhanced",
+    "zh": "根据您的使用情况，大约还可使用 %1$s",
+    "ru": "С учётом вашего использования, примерно ещё %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_duration_only_shutdown_imminent",
+    "zh": "手机可能即将关机",
+    "ru": "Телефон может вот-вот выключиться",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_duration_shutdown_imminent",
+    "zh": "手机可能即将关机 (%1$s)",
+    "ru": "Телефон может вот-вот выключиться (%1$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_less_than_duration",
+    "zh": "剩余电池续航时间不到 %1$s (%2$s)",
+    "ru": "Оставшееся время работы батареи менее %1$s (%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_less_than_duration_only",
+    "zh": "剩余电池续航时间不到 %1$s",
+    "ru": "До разряда батареи осталось менее %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_more_than_subtext",
+    "zh": "剩余电池续航时间超过 %1$s (%2$s)",
+    "ru": "Время работы от батареи превышает %1$s (%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "power_remaining_only_more_than_subtext",
+    "zh": "剩余电池续航时间超过 %1$s",
+    "ru": "Время работы от батареи превышает %1$s",
+    "type": "string"
+  },
+  {
+    "name": "power_suggestion_battery_run_out",
+    "zh": "电池电量可能在%1$s 前耗尽",
+    "ru": "Заряд батареи может исчерпаться до %1$s",
+    "type": "string"
+  },
+  {
+    "name": "preference_copied",
+    "zh": "已将“%1$s”复制到剪贴板。",
+    "ru": "«%1$s» скопировано в буфер обмена.",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_broken",
+    "zh": "无法访问私人 DNS 服务器",
+    "ru": "Не удается получить доступ к частному DNS-серверу",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_mode_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_mode_opportunistic",
+    "zh": "自动",
+    "ru": "Автоматический",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_mode_provider",
+    "zh": "私人 DNS 提供商主机名",
+    "ru": "Имя хоста провайдера приватного DNS",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_mode_provider_failure",
+    "zh": "无法连接",
+    "ru": "Не удалось подключиться",
+    "type": "string"
+  },
+  {
+    "name": "private_dns_mode_provider_hostname_hint",
+    "zh": "输入 DNS 提供商的主机名",
+    "ru": "Введите имя хоста DNS-провайдера",
+    "type": "string"
+  },
+  {
+    "name": "process_kernel_label",
+    "zh": "Android 操作系统",
+    "ru": "Операционная система Android",
+    "type": "string"
+  },
+  {
+    "name": "profile_connect_timeout_subtext",
+    "zh": "连接时遇到问题。请关闭并重新开启设备",
+    "ru": "При подключении возникла проблема. Пожалуйста, выключите и включите устройство заново",
+    "type": "string"
+  },
+  {
+    "name": "profile_info_settings_title",
+    "zh": "个人资料信息",
+    "ru": "Личные данные",
+    "type": "string"
+  },
+  {
+    "name": "remaining_length_format",
+    "zh": "还需 %1$s",
+    "ru": "Осталось %1$s",
+    "type": "string"
+  },
+  {
+    "name": "retail_demo_reset_message",
+    "zh": "输入密码即可在演示模式下恢复出厂设置",
+    "ru": "Введите пароль, чтобы сбросить до заводских настроек в демо-режиме.",
+    "type": "string"
+  },
+  {
+    "name": "retail_demo_reset_next",
+    "zh": "下一步",
+    "ru": "Далее",
+    "type": "string"
+  },
+  {
+    "name": "retail_demo_reset_title",
+    "zh": "需要输入密码",
+    "ru": "Необходимо ввести пароль",
+    "type": "string"
+  },
+  {
+    "name": "running_process_item_user_label",
+    "zh": "用户：%1$s",
+    "ru": "Пользователь: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "runningservices_settings_summary",
+    "zh": "查看和控制当前正在运行的服务",
+    "ru": "Просмотр и управление запущенными службами",
+    "type": "string"
+  },
+  {
+    "name": "runningservices_settings_title",
+    "zh": "正在运行的服务",
+    "ru": "Запущенные службы",
+    "type": "string"
+  },
+  {
+    "name": "saved_network",
+    "zh": "由“%1$s”保存",
+    "ru": "Сохранено: \"%1$s\"",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_custom",
+    "zh": "自定义 (%d)",
+    "ru": "Пользовательский (%d)",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_default",
+    "zh": "默认",
+    "ru": "По умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_extremely_large",
+    "zh": "最大",
+    "ru": "Максимальный",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_large",
+    "zh": "大",
+    "ru": "Большой",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_small",
+    "zh": "小",
+    "ru": "Маленький",
+    "type": "string"
+  },
+  {
+    "name": "screen_zoom_summary_very_large",
+    "zh": "较大",
+    "ru": "Крупный",
+    "type": "string"
+  },
+  {
+    "name": "search_menu",
+    "zh": "搜索设置",
+    "ru": "Настройки поиска",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "select_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "select_logd_size_dialog_title",
+    "zh": "选择每个日志缓冲区的日志记录器大小",
+    "ru": "Выберите размер логгера для каждого буфера журнала",
+    "type": "string"
+  },
+  {
+    "name": "select_logd_size_title",
+    "zh": "日志记录器缓冲区大小",
+    "ru": "Размер буфера логгера",
+    "type": "string"
+  },
+  {
+    "name": "select_logpersist_dialog_title",
+    "zh": "选择要在设备上永久存储的日志缓冲区",
+    "ru": "Выберите буфер журнала для постоянного хранения на устройстве",
+    "type": "string"
+  },
+  {
+    "name": "select_logpersist_title",
+    "zh": "在设备上永久存储日志记录器数据",
+    "ru": "Постоянное хранение данных логгера на устройстве",
+    "type": "string"
+  },
+  {
+    "name": "select_private_dns_configuration_dialog_title",
+    "zh": "选择私人 DNS 模式",
+    "ru": "Выберите режим частного DNS",
+    "type": "string"
+  },
+  {
+    "name": "select_private_dns_configuration_title",
+    "zh": "私人 DNS",
+    "ru": "Частный DNS",
+    "type": "string"
+  },
+  {
+    "name": "select_usb_configuration_dialog_title",
+    "zh": "选择USB配置",
+    "ru": "Выберите конфигурацию USB",
+    "type": "string"
+  },
+  {
+    "name": "select_usb_configuration_title",
+    "zh": "选择USB配置",
+    "ru": "Выберите конфигурацию USB",
+    "type": "string"
+  },
+  {
+    "name": "select_webview_provider_dialog_title",
+    "zh": "设置 WebView 实现",
+    "ru": "Настройка реализации WebView",
+    "type": "string"
+  },
+  {
+    "name": "select_webview_provider_title",
+    "zh": "WebView 实现",
+    "ru": "Реализация WebView",
+    "type": "string"
+  },
+  {
+    "name": "select_webview_provider_toast_text",
+    "zh": "此选项已失效，请重试。",
+    "ru": "Эта опция недействительна. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_delete_failure_text",
+    "zh": "删除共享数据时出错。",
+    "ru": "Ошибка при удалении общих данных.",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_no_accessors_dialog_text",
+    "zh": "此共享数据未获得租用。要将其删除吗？",
+    "ru": "Эти общие данные не арендованы. Удалить их?",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_no_blobs_text",
+    "zh": "此用户没有共享数据。",
+    "ru": "У этого пользователя нет общих данных.",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_query_failure_text",
+    "zh": "提取共享数据时出错。请重试。",
+    "ru": "Ошибка при извлечении общих данных. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_summary",
+    "zh": "查看和修改共享数据",
+    "ru": "Просмотр и изменение общих данных",
+    "type": "string"
+  },
+  {
+    "name": "shared_data_title",
+    "zh": "共享数据",
+    "ru": "Общие данные",
+    "type": "string"
+  },
+  {
+    "name": "show_all_anrs",
+    "zh": "显示后台 ANR",
+    "ru": "ANR фоновых приложений",
+    "type": "string"
+  },
+  {
+    "name": "show_all_anrs_summary",
+    "zh": "为后台应用显示“应用无响应”对话框",
+    "ru": "Показывать диалоговое окно «Приложение не отвечает» для фоновых приложений",
+    "type": "string"
+  },
+  {
+    "name": "show_hw_layers_updates",
+    "zh": "显示硬件层更新",
+    "ru": "Обновления аппаратных слоёв",
+    "type": "string"
+  },
+  {
+    "name": "show_hw_layers_updates_summary",
+    "zh": "Flash 硬件层在进行更新时会显示为绿色",
+    "ru": "При обновлении аппаратный слой Flash отображается зелёным цветом",
+    "type": "string"
+  },
+  {
+    "name": "show_hw_screen_updates",
+    "zh": "显示视图更新",
+    "ru": "Обновления представлений",
+    "type": "string"
+  },
+  {
+    "name": "show_hw_screen_updates_summary",
+    "zh": "绘图时闪烁显示窗口中的视图",
+    "ru": "При отрисовке представления в окне мигают",
+    "type": "string"
+  },
+  {
+    "name": "show_non_rect_clip",
+    "zh": "调试非矩形剪裁操作",
+    "ru": "Отладка операции непрямоугольной обрезки",
+    "type": "string"
+  },
+  {
+    "name": "show_notification_channel_warnings",
+    "zh": "显示通知渠道警告",
+    "ru": "Показать предупреждения канала уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "show_notification_channel_warnings_summary",
+    "zh": "当应用未经有效渠道发布通知时，在屏幕上显示警告",
+    "ru": "Если приложение публикует уведомления без валидного канала, на экране отображается предупреждение",
+    "type": "string"
+  },
+  {
+    "name": "show_screen_updates",
+    "zh": "显示面 (surface) 更新",
+    "ru": "Показать обновления поверхности",
+    "type": "string"
+  },
+  {
+    "name": "show_screen_updates_summary",
+    "zh": "窗口中的面 (surface) 更新时全部闪烁",
+    "ru": "Все поверхности в окне мигают при обновлении",
+    "type": "string"
+  },
+  {
+    "name": "show_touches",
+    "zh": "显示点按操作反馈",
+    "ru": "Показать обратную связь при касании",
+    "type": "string"
+  },
+  {
+    "name": "show_touches_summary",
+    "zh": "显示点按操作的视觉反馈",
+    "ru": "Отображение визуальной обратной связи при касании",
+    "type": "string"
+  },
+  {
+    "name": "simulate_color_space",
+    "zh": "模拟颜色空间",
+    "ru": "Симуляция цветов",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_fast",
+    "zh": "快",
+    "ru": "Быстрый",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_medium",
+    "zh": "适中",
+    "ru": "Умеренный",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_okay",
+    "zh": "良好",
+    "ru": "Хороший",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_slow",
+    "zh": "慢",
+    "ru": "Медленный",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_very_fast",
+    "zh": "很快",
+    "ru": "Быстро",
+    "type": "string"
+  },
+  {
+    "name": "speed_label_very_slow",
+    "zh": "很慢",
+    "ru": "Очень медленно",
+    "type": "string"
+  },
+  {
+    "name": "standby_bucket_summary",
+    "zh": "应用待机状态： %s",
+    "ru": "Состояние ожидания приложения: %s",
+    "type": "string"
+  },
+  {
+    "name": "status_unavailable",
+    "zh": "无法获取",
+    "ru": "Не удалось получить",
+    "type": "string"
+  },
+  {
+    "name": "storage_category",
+    "zh": "存储",
+    "ru": "Память",
+    "type": "string"
+  },
+  {
+    "name": "strict_mode",
+    "zh": "启用严格模式",
+    "ru": "Включить строгий режим",
+    "type": "string"
+  },
+  {
+    "name": "strict_mode_summary",
+    "zh": "应用在主线程上执行长时间操作时闪烁屏幕",
+    "ru": "Экран мерцает, когда приложение выполняет длительные операции в основном потоке",
+    "type": "string"
+  },
+  {
+    "name": "tap_to_renew_subscription_and_connect",
+    "zh": "点按即可续订并连接",
+    "ru": "Нажмите, чтобы продлить подписку и подключиться",
+    "type": "string"
+  },
+  {
+    "name": "tap_to_sign_up",
+    "zh": "点按即可注册",
+    "ru": "Нажмите для регистрации",
+    "type": "string"
+  },
+  {
+    "name": "tether_settings_title_all",
+    "zh": "网络共享与便携式热点",
+    "ru": "Совместное использование сети и портативная точка доступа",
+    "type": "string"
+  },
+  {
+    "name": "tether_settings_title_bluetooth",
+    "zh": "蓝牙网络共享",
+    "ru": "Сеть через Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "tether_settings_title_usb",
+    "zh": "USB 网络共享",
+    "ru": "USB-модем",
+    "type": "string"
+  },
+  {
+    "name": "tether_settings_title_usb_bluetooth",
+    "zh": "网络共享",
+    "ru": "Раздача сети",
+    "type": "string"
+  },
+  {
+    "name": "tether_settings_title_wifi",
+    "zh": "便携式热点",
+    "ru": "Портативная точка доступа",
+    "type": "string"
+  },
+  {
+    "name": "tethering_hardware_offload",
+    "zh": "网络共享硬件加速",
+    "ru": "Аппаратное ускорение раздачи сети",
+    "type": "string"
+  },
+  {
+    "name": "tethering_hardware_offload_summary",
+    "zh": "使用网络共享硬件加速功能（如果可用）",
+    "ru": "Использовать функцию аппаратного ускорения раздачи сети (если доступно)",
+    "type": "string"
+  },
+  {
+    "name": "tethering_settings_not_available",
+    "zh": "此用户无权修改网络共享设置",
+    "ru": "У этого пользователя нет прав на изменение настроек раздачи сети.",
+    "type": "string"
+  },
+  {
+    "name": "time_unit_just_now",
+    "zh": "刚刚",
+    "ru": "Только что",
+    "type": "string"
+  },
+  {
+    "name": "title_convert_fbe",
+    "zh": "正在转换为文件加密",
+    "ru": "Преобразование в файловое шифрование",
+    "type": "string"
+  },
+  {
+    "name": "track_frame_time",
+    "zh": "HWUI 呈现模式分析",
+    "ru": "Анализ режима презентации HWUI",
+    "type": "string"
+  },
+  {
+    "name": "transition_animation_scale_title",
+    "zh": "过渡动画缩放",
+    "ru": "Масштаб анимации перехода",
+    "type": "string"
+  },
+  {
+    "name": "trust_device_default_name",
+    "zh": "我的设备",
+    "ru": "Моё устройство",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_lang_summary",
+    "zh": "设置文字转语音功能要使用的语言",
+    "ru": "Выбор языка для функции синтеза речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_lang_title",
+    "zh": "语言",
+    "ru": "Язык",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_pitch_summary",
+    "zh": "会影响合成语音的音调",
+    "ru": "Влияет на высоту звука синтезированной речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_pitch_title",
+    "zh": "音高",
+    "ru": "Высота звука",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_rate_summary",
+    "zh": "文字转换成语音后的播放速度",
+    "ru": "Скорость воспроизведения после преобразования текста в речь",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_rate_title",
+    "zh": "语速",
+    "ru": "Скорость речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_default_sample_string",
+    "zh": "这是语音合成示例",
+    "ru": "Это пример синтеза речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_engine_network_required",
+    "zh": "您必须连接到网络才能使用文字转语音功能输出这种语言。",
+    "ru": "Для использования функции синтеза речи при выводе этого языка необходимо подключение к сети.",
+    "type": "string"
+  },
+  {
+    "name": "tts_engine_preference_section_title",
+    "zh": "首选引擎",
+    "ru": "Предпочтительный движок",
+    "type": "string"
+  },
+  {
+    "name": "tts_engine_security_warning",
+    "zh": "此语音合成引擎能够收集语音中出现的所有信息，包括密码和信用卡号码之类的个人数据。此功能由 %s 引擎提供。是否启用此语音合成引擎？",
+    "ru": "Этот движок синтеза речи может собирать всю информацию, содержащуюся в голосовом вводе, включая личные данные, такие как пароли и номера кредитных карт. Эта функция обеспечивается движком %s. Включить этот движок синтеза речи?",
+    "type": "string"
+  },
+  {
+    "name": "tts_engine_settings_button",
+    "zh": "进行引擎设置",
+    "ru": "Настроить движок",
+    "type": "string"
+  },
+  {
+    "name": "tts_engine_settings_title",
+    "zh": "“%s”的设置",
+    "ru": "Настройки «%s»",
+    "type": "string"
+  },
+  {
+    "name": "tts_general_section_title",
+    "zh": "常规",
+    "ru": "Общие",
+    "type": "string"
+  },
+  {
+    "name": "tts_install_data_summary",
+    "zh": "安装语音合成所需的数据包",
+    "ru": "Установить пакеты данных для синтеза речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_install_data_title",
+    "zh": "安装语音数据包",
+    "ru": "Установить пакет голосовых данных",
+    "type": "string"
+  },
+  {
+    "name": "tts_lang_not_selected",
+    "zh": "未选择语言",
+    "ru": "Язык не выбран",
+    "type": "string"
+  },
+  {
+    "name": "tts_lang_use_system",
+    "zh": "使用系统语言",
+    "ru": "Использовать язык системы",
+    "type": "string"
+  },
+  {
+    "name": "tts_play_example_summary",
+    "zh": "播放简短的语音合成示例",
+    "ru": "Воспроизвести краткий пример синтеза речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_play_example_title",
+    "zh": "收听示例",
+    "ru": "Прослушать пример",
+    "type": "string"
+  },
+  {
+    "name": "tts_reset_speech_pitch_summary",
+    "zh": "将文字的读出音调重置为默认值。",
+    "ru": "Сбросить высоту тона чтения текста до значения по умолчанию.",
+    "type": "string"
+  },
+  {
+    "name": "tts_reset_speech_pitch_title",
+    "zh": "重置语音音调",
+    "ru": "Сбросить тон голоса",
+    "type": "string"
+  },
+  {
+    "name": "tts_settings",
+    "zh": "文字转语音设置",
+    "ru": "Настройки синтеза речи",
+    "type": "string"
+  },
+  {
+    "name": "tts_settings_title",
+    "zh": "文字转语音 (TTS) 输出",
+    "ru": "Вывод синтеза речи (TTS)",
+    "type": "string"
+  },
+  {
+    "name": "tts_status_checking",
+    "zh": "正在检查…",
+    "ru": "Проверка...",
+    "type": "string"
+  },
+  {
+    "name": "tts_status_not_supported",
+    "zh": "不支持%1$s",
+    "ru": "%1$s не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "tts_status_ok",
+    "zh": "完全支持%1$s",
+    "ru": "Полностью поддерживает %1$s",
+    "type": "string"
+  },
+  {
+    "name": "tts_status_requires_network",
+    "zh": "只有在连接到网络的情况下，才支持%1$s",
+    "ru": "%1$s поддерживается только при подключении к сети",
+    "type": "string"
+  },
+  {
+    "name": "tts_status_title",
+    "zh": "默认语言状态",
+    "ru": "Статус языка по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "unknown",
+    "zh": "未知",
+    "ru": "Неизвестно",
+    "type": "string"
+  },
+  {
+    "name": "usb_audio_disable_routing",
+    "zh": "关闭 USB 音频转接",
+    "ru": "Отключить маршрутизацию USB-аудио",
+    "type": "string"
+  },
+  {
+    "name": "usb_audio_disable_routing_summary",
+    "zh": "关闭自动转接至 USB 音频外围设备的功能",
+    "ru": "Отключить функцию автоматического переключения на USB-аудиопериферийные устройства.",
+    "type": "string"
+  },
+  {
+    "name": "use_system_language_to_select_input_method_subtypes",
+    "zh": "使用系统语言",
+    "ru": "Использовать язык системы",
+    "type": "string"
+  },
+  {
+    "name": "user_add_profile_item_summary",
+    "zh": "您可以限制其他人使用来自您的帐号的应用和内容",
+    "ru": "Вы можете ограничить доступ других пользователей к приложениям и контенту вашего аккаунта.",
+    "type": "string"
+  },
+  {
+    "name": "user_add_profile_item_title",
+    "zh": "受限个人资料",
+    "ru": "Ограниченный профиль",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_item_summary",
+    "zh": "用户拥有个人专属的应用和内容",
+    "ru": "У пользователя есть собственные приложения и контент.",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_item_title",
+    "zh": "用户",
+    "ru": "Пользователь",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_message_long",
+    "zh": "\"创建新用户后，您就能够与其他人共用此设备。每位用户都有自己的专属空间，而且在自己的个人空间内还可以自行安装自己想要的应用、设置壁纸等。此外，用户还可以调整会影响所有用户的设备设置（例如 WLAN 设置）。\n\n当您添加新用户后，该用户需要自行设置个人空间。\n\n任何用户都可以为所有其他用户更新应用。无障碍功能设置和服务可能无法转移给新用户。\"",
+    "ru": "\"После создания нового пользователя вы сможете делиться этим устройством с другими. У каждого пользователя есть собственное пространство, в котором он может устанавливать нужные приложения, выбирать обои и т. д. Кроме того, пользователь может изменять настройки устройства, влияющие на всех пользователей (например, настройки WLAN).\\n\\nПосле добавления нового пользователя ему необходимо настроить собственное пространство.\\n\\nЛюбой пользователь может обновлять приложения для всех остальных. Настройки специальных возможностей и сервисы могут не переноситься на нового пользователя.\"",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_message_short",
+    "zh": "\"您添加新用户后，该用户必须设置自己的空间。\n\n任何用户均可为其他所有用户更新应用。\"",
+    "ru": "\"После добавления нового пользователя он должен настроить своё рабочее пространство.\\n\\nЛюбой пользователь может обновлять приложения для всех остальных пользователей.\"",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_title",
+    "zh": "要添加新用户吗？",
+    "ru": "Добавить нового пользователя?",
+    "type": "string"
+  },
+  {
+    "name": "user_add_user_type_title",
+    "zh": "添加",
+    "ru": "Добавить",
+    "type": "string"
+  },
+  {
+    "name": "user_guest",
+    "zh": "访客",
+    "ru": "Гость",
+    "type": "string"
+  },
+  {
+    "name": "user_info_settings_title",
+    "zh": "用户信息",
+    "ru": "Данные пользователя",
+    "type": "string"
+  },
+  {
+    "name": "user_need_lock_message",
+    "zh": "您需要先设置锁定屏幕来保护您的应用和个人数据，然后才可以创建受限个人资料。",
+    "ru": "Сначала настройте экран блокировки для защиты ваших приложений и личных данных, а затем вы сможете создать ограниченный профиль.",
+    "type": "string"
+  },
+  {
+    "name": "user_new_profile_name",
+    "zh": "新的个人资料",
+    "ru": "Новый профиль",
+    "type": "string"
+  },
+  {
+    "name": "user_new_user_name",
+    "zh": "新用户",
+    "ru": "Новый пользователь",
+    "type": "string"
+  },
+  {
+    "name": "user_set_lock_button",
+    "zh": "设置屏幕锁定方式",
+    "ru": "Настроить способ блокировки экрана",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_button_setup_later",
+    "zh": "以后再说",
+    "ru": "Позже",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_button_setup_now",
+    "zh": "立即设置",
+    "ru": "Настроить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_dialog_message",
+    "zh": "请让相应用户操作设备并设置他们自己的空间。",
+    "ru": "Пожалуйста, позвольте соответствующему пользователю управлять устройством и настроить своё пространство.",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_dialog_title",
+    "zh": "要现在设置该用户吗？",
+    "ru": "Хотите настроить этого пользователя сейчас?",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_profile_dialog_message",
+    "zh": "要立即设置个人资料吗？",
+    "ru": "Хотите настроить профиль прямо сейчас?",
+    "type": "string"
+  },
+  {
+    "name": "user_switch_to_user",
+    "zh": "切换到%s",
+    "ru": "Переключиться на %s",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "verify_apps_over_usb_summary",
+    "zh": "检查通过 ADB/ADT 安装的应用是否存在有害行为。",
+    "ru": "Проверка на вредоносное поведение приложений, установленных через ADB/ADT.",
+    "type": "string"
+  },
+  {
+    "name": "verify_apps_over_usb_title",
+    "zh": "通过 USB 验证应用",
+    "ru": "Проверка приложений через USB",
+    "type": "string"
+  },
+  {
+    "name": "vpn_settings_not_available",
+    "zh": "此用户无权修改VPN设置",
+    "ru": "Этот пользователь не имеет права изменять настройки VPN",
+    "type": "string"
+  },
+  {
+    "name": "wait_for_debugger",
+    "zh": "等待调试程序",
+    "ru": "Ожидание отладочной программы",
+    "type": "string"
+  },
+  {
+    "name": "wait_for_debugger_summary",
+    "zh": "调试应用会在执行前等待附加调试器",
+    "ru": "Отлаживаемое приложение будет ожидать подключения отладчика перед запуском",
+    "type": "string"
+  },
+  {
+    "name": "wifi_ap_unable_to_handle_new_sta",
+    "zh": "接入点暂时满载",
+    "ru": "Точка доступа временно перегружена",
+    "type": "string"
+  },
+  {
+    "name": "wifi_cant_connect",
+    "zh": "无法连接",
+    "ru": "Невозможно подключиться",
+    "type": "string"
+  },
+  {
+    "name": "wifi_cant_connect_to_ap",
+    "zh": "无法连接到“%1$s”",
+    "ru": "Не удается подключиться к «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "wifi_check_password_try_again",
+    "zh": "请检查密码，然后重试",
+    "ru": "Пожалуйста, проверьте пароль и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "wifi_connected_low_quality",
+    "zh": "质量不佳",
+    "ru": "Низкое качество",
+    "type": "string"
+  },
+  {
+    "name": "wifi_connected_no_internet",
+    "zh": "无法访问互联网",
+    "ru": "Нет доступа к интернету",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disabled_by_recommendation_provider",
+    "zh": "网络质量较差，因此未连接",
+    "ru": "Качество сети низкое, поэтому не подключено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disabled_generic",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disabled_network_failure",
+    "zh": "IP 配置失败",
+    "ru": "Сбой настройки IP",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disabled_password_failure",
+    "zh": "身份验证出现问题",
+    "ru": "Проблема с проверкой подлинности",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disabled_wifi_failure",
+    "zh": "WLAN 连接失败",
+    "ru": "Не удалось подключиться к Wi-Fi",
+    "type": "string"
+  },
+  {
+    "name": "wifi_disconnected",
+    "zh": "已断开连接",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_display_certification",
+    "zh": "无线显示认证",
+    "ru": "Сертификация Wi-Fi дисплея",
+    "type": "string"
+  },
+  {
+    "name": "wifi_display_certification_summary",
+    "zh": "显示无线显示认证选项",
+    "ru": "Параметры аутентификации беспроводного дисплея",
+    "type": "string"
+  },
+  {
+    "name": "wifi_enhanced_mac_randomization",
+    "zh": "WLAN 增强型随机分配 MAC 地址功能",
+    "ru": "Расширенная функция случайного назначения MAC-адреса Wi-Fi",
+    "type": "string"
+  },
+  {
+    "name": "wifi_enhanced_mac_randomization_summary",
+    "zh": "启用此模式后，每当此设备连接到已启用随机分配 MAC 地址功能的网络时，它的 MAC 地址就可能会发生更改。",
+    "ru": "После включения этого режима при каждом подключении устройства к сети, в которой активирована функция случайного назначения MAC-адреса, его MAC-адрес может измениться.",
+    "type": "string"
+  },
+  {
+    "name": "wifi_fail_to_scan",
+    "zh": "无法扫描网络",
+    "ru": "Не удалось отсканировать сети",
+    "type": "string"
+  },
+  {
+    "name": "wifi_limited_connection",
+    "zh": "网络连接受限",
+    "ru": "Подключение к сети ограничено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_metered_label",
+    "zh": "按流量计费",
+    "ru": "Оплата по трафику",
+    "type": "string"
+  },
+  {
+    "name": "wifi_no_internet",
+    "zh": "无法访问互联网",
+    "ru": "Нет доступа к интернету",
+    "type": "string"
+  },
+  {
+    "name": "wifi_no_internet_no_reconnect",
+    "zh": "无法自动连接",
+    "ru": "Автоподключение недоступно",
+    "type": "string"
+  },
+  {
+    "name": "wifi_not_in_range",
+    "zh": "不在范围内",
+    "ru": "Вне диапазона",
+    "type": "string"
+  },
+  {
+    "name": "wifi_passpoint_expired",
+    "zh": "已失效",
+    "ru": "Истёк",
+    "type": "string"
+  },
+  {
+    "name": "wifi_remembered",
+    "zh": "已保存",
+    "ru": "Сохранено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_scan_throttling",
+    "zh": "WLAN 扫描调节",
+    "ru": "Регулировка сканирования WLAN",
+    "type": "string"
+  },
+  {
+    "name": "wifi_scan_throttling_summary",
+    "zh": "降低耗电量以及改善网络性能",
+    "ru": "Снижение энергопотребления и улучшение производительности сети",
+    "type": "string"
+  },
+  {
+    "name": "wifi_security_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_mac_randomized",
+    "zh": "MAC 已随机化",
+    "ru": "MAC-адрес рандомизирован",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_no_internet",
+    "zh": "无法访问互联网",
+    "ru": "Нет доступа к интернету",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_sign_in_required",
+    "zh": "必须登录",
+    "ru": "Необходимо войти",
+    "type": "string"
+  },
+  {
+    "name": "wifi_unmetered_label",
+    "zh": "不按流量计费",
+    "ru": "Без тарификации трафика",
+    "type": "string"
+  },
+  {
+    "name": "wifi_verbose_logging",
+    "zh": "启用 WLAN 详细日志记录功能",
+    "ru": "Включить подробное ведение журнала WLAN",
+    "type": "string"
+  },
+  {
+    "name": "wifi_verbose_logging_summary",
+    "zh": "提升 WLAN 日志记录级别（在 WLAN 选择器中显示每个 SSID 的 RSSI）",
+    "ru": "Повысить уровень логирования WLAN (отображать RSSI каждого SSID в списке сетей WLAN)",
+    "type": "string"
+  },
+  {
+    "name": "window_animation_scale_title",
+    "zh": "窗口动画缩放",
+    "ru": "Масштаб анимации окон",
+    "type": "string"
+  },
+  {
+    "name": "zen_alarm_warning",
+    "zh": "您将不会听到下一个%1$s 的闹钟响铃",
+    "ru": "Вы не услышите следующий будильник в %1$s",
+    "type": "string"
+  },
+  {
+    "name": "zen_alarm_warning_indef",
+    "zh": "您将不会听到下一个%1$s 的闹钟响铃，除非您在该时间之前关闭这项功能",
+    "ru": "Вы не услышите следующий будильник в %1$s, если не отключите эту функцию до этого времени",
+    "type": "string"
+  },
+  {
+    "name": "zen_interruption_level_priority",
+    "zh": "仅限优先事项",
+    "ru": "Только приоритетные",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_duration_always_prompt_title",
+    "zh": "每次都询问",
+    "ru": "Спрашивать каждый раз",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_duration_settings_title",
+    "zh": "持续时间",
+    "ru": "Продолжительность",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_enable_dialog_turn_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_forever",
+    "zh": "直到您将其关闭",
+    "ru": "До отключения",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_settings_summary_off",
+    "zh": "永不",
+    "ru": "Никогда",
+    "type": "string"
+  },
+  {
+    "name": "zen_mode_settings_turn_on_dialog_title",
+    "zh": "开启勿扰模式",
+    "ru": "Включить режим «Не беспокоить»",
+    "type": "string"
+  },
+  {
+    "name": "animator_duration_scale_entries_0",
+    "zh": "关闭动画",
+    "ru": "Отключить анимацию",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_1",
+    "zh": "动画缩放 0.5x",
+    "ru": "Масштаб анимации 0.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_2",
+    "zh": "动画缩放 1x",
+    "ru": "Масштаб анимации 1x",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_3",
+    "zh": "动画缩放 1.5x",
+    "ru": "Масштаб анимации 1.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_4",
+    "zh": "动画缩放 2x",
+    "ru": "Масштаб анимации 2x",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_5",
+    "zh": "动画缩放 5x",
+    "ru": "Масштаб анимации 5x",
+    "type": "arrays"
+  },
+  {
+    "name": "animator_duration_scale_entries_6",
+    "zh": "动画缩放 10x",
+    "ru": "Масштаб анимации 10x",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_0",
+    "zh": "标准限制",
+    "ru": "Стандартные ограничения",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_1",
+    "zh": "不允许后台进程",
+    "ru": "Фоновые процессы не разрешены",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_2",
+    "zh": "不得超过1个进程",
+    "ru": "Не более 1 процесса",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_3",
+    "zh": "不得超过2个进程",
+    "ru": "Не более 2 процессов",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_4",
+    "zh": "不得超过3个进程",
+    "ru": "Не более 3 процессов",
+    "type": "arrays"
+  },
+  {
+    "name": "app_process_limit_entries_5",
+    "zh": "不得超过4个进程",
+    "ru": "Не более 4 процессов",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_summaries_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_summaries_1",
+    "zh": "16 位/样本",
+    "ru": "16 бит/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_summaries_2",
+    "zh": "24 位/样本",
+    "ru": "24 бита/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_summaries_3",
+    "zh": "32 位/样本",
+    "ru": "32 бит/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_titles_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_titles_1",
+    "zh": "16 位/样本",
+    "ru": "16 бит/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_titles_2",
+    "zh": "24 位/样本",
+    "ru": "24 бит/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_bits_per_sample_titles_3",
+    "zh": "32 位/样本",
+    "ru": "32 бит/выборка",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_summaries_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_summaries_1",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_summaries_2",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_titles_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_titles_1",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_channel_mode_titles_2",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_summaries_0",
+    "zh": "偏重音频质量",
+    "ru": "Приоритет качества звука",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_summaries_1",
+    "zh": "兼顾音频和连接质量",
+    "ru": "Баланс качества звука и связи",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_summaries_2",
+    "zh": "偏重连接质量",
+    "ru": "Приоритет качества связи",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_summaries_3",
+    "zh": "尽可能提供更佳音质（自适应比特率）",
+    "ru": "Максимальное качество звука (адаптивный битрейт)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_titles_0",
+    "zh": "偏重音频质量 (990kbps/909kbps)",
+    "ru": "Приоритет качества звука (990kbps/909kbps)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_titles_1",
+    "zh": "兼顾音频和连接质量 (660kbps/606kbps)",
+    "ru": "Баланс качества звука и подключения (660kbps/606kbps)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_titles_2",
+    "zh": "偏重连接质量 (330kbps/303kbps)",
+    "ru": "Приоритет качества подключения (330kbps/303kbps)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_ldac_playback_quality_titles_3",
+    "zh": "尽可能提供更佳音质（自适应比特率）",
+    "ru": "Максимальное качество звука (адаптивный битрейт)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_summaries_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_summaries_1",
+    "zh": "44.1 kHz",
+    "ru": "44.1 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_summaries_2",
+    "zh": "48.0 kHz",
+    "ru": "48.0 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_summaries_3",
+    "zh": "88.2 kHz",
+    "ru": "88.2 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_summaries_4",
+    "zh": "96.0 kHz",
+    "ru": "96.0 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_titles_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_titles_1",
+    "zh": "44.1 kHz",
+    "ru": "44.1 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_titles_2",
+    "zh": "48.0 kHz",
+    "ru": "48.0 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_titles_3",
+    "zh": "88.2 kHz",
+    "ru": "88.2 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_sample_rate_titles_4",
+    "zh": "96.0 kHz",
+    "ru": "96.0 kHz",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_1",
+    "zh": "SBC",
+    "ru": "SBC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_2",
+    "zh": "AAC",
+    "ru": "AAC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_3",
+    "zh": "Qualcomm® aptX™ 音频",
+    "ru": "Qualcomm® aptX™ аудио",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_4",
+    "zh": "Qualcomm® aptX™ HD 音频",
+    "ru": "Аудио Qualcomm® aptX™ HD",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_summaries_5",
+    "zh": "LDAC",
+    "ru": "LDAC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_0",
+    "zh": "使用系统选择（默认）",
+    "ru": "Использовать системный выбор (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_1",
+    "zh": "SBC",
+    "ru": "SBC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_2",
+    "zh": "AAC",
+    "ru": "AAC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_3",
+    "zh": "Qualcomm® aptX™ 音频",
+    "ru": "Qualcomm® aptX™ аудио",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_4",
+    "zh": "Qualcomm® aptX™ HD 音频",
+    "ru": "Аудио Qualcomm® aptX™ HD",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_a2dp_codec_titles_5",
+    "zh": "LDAC",
+    "ru": "LDAC",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_audio_active_device_summaries_0",
+    "zh": "",
+    "ru": "",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_audio_active_device_summaries_1",
+    "zh": "，使用中",
+    "ru": ", в использовании",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_audio_active_device_summaries_2",
+    "zh": "，使用中（媒体）",
+    "ru": ", в использовании (медиа)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_audio_active_device_summaries_3",
+    "zh": "，使用中（手机）",
+    "ru": ", в использовании (телефон)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_avrcp_versions_0",
+    "zh": "AVRCP 1.5（默认）",
+    "ru": "AVRCP 1.5 (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_avrcp_versions_1",
+    "zh": "AVRCP 1.3",
+    "ru": "AVRCP 1.3",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_avrcp_versions_2",
+    "zh": "AVRCP 1.4",
+    "ru": "AVRCP 1.4",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_avrcp_versions_3",
+    "zh": "AVRCP 1.6",
+    "ru": "AVRCP 1.6",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_map_versions_0",
+    "zh": "MAP 1.2（默认）",
+    "ru": "MAP 1.2 (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_map_versions_1",
+    "zh": "MAP 1.3",
+    "ru": "MAP 1.3",
+    "type": "arrays"
+  },
+  {
+    "name": "bluetooth_map_versions_2",
+    "zh": "MAP 1.4",
+    "ru": "MAP 1.4",
+    "type": "arrays"
+  },
+  {
+    "name": "bt_hci_snoop_log_entries_0",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "bt_hci_snoop_log_entries_1",
+    "zh": "已启用“已过滤”",
+    "ru": "«Отфильтровано» включено",
+    "type": "arrays"
+  },
+  {
+    "name": "bt_hci_snoop_log_entries_2",
+    "zh": "已启用",
+    "ru": "Включено",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_descriptions_0",
+    "zh": "增强的颜色",
+    "ru": "Улучшенные цвета",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_descriptions_1",
+    "zh": "肉眼所看到的自然颜色",
+    "ru": "Естественные цвета, видимые невооружённым глазом",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_descriptions_2",
+    "zh": "针对数字内容优化的颜色",
+    "ru": "Цвета, оптимизированные для цифрового контента",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_names_0",
+    "zh": "鲜亮（默认）",
+    "ru": "Яркий (по умолчанию)",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_names_1",
+    "zh": "自然",
+    "ru": "Природный",
+    "type": "arrays"
+  },
+  {
+    "name": "color_mode_names_2",
+    "zh": "标准",
+    "ru": "Стандарт",
+    "type": "arrays"
+  },
+  {
+    "name": "debug_hw_overdraw_entries_0",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "arrays"
+  },
+  {
+    "name": "debug_hw_overdraw_entries_1",
+    "zh": "显示过度绘制区域",
+    "ru": "Показать области перерисовки",
+    "type": "arrays"
+  },
+  {
+    "name": "debug_hw_overdraw_entries_2",
+    "zh": "显示适合绿色弱视患者查看的区域",
+    "ru": "Показать области, удобные для просмотра при деутеранопии",
+    "type": "arrays"
+  },
+  {
+    "name": "enable_opengl_traces_entries_0",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "arrays"
+  },
+  {
+    "name": "enable_opengl_traces_entries_1",
+    "zh": "Logcat",
+    "ru": "Logcat",
+    "type": "arrays"
+  },
+  {
+    "name": "enable_opengl_traces_entries_2",
+    "zh": "Systrace（图形）",
+    "ru": "Systrace (графика)",
+    "type": "arrays"
+  },
+  {
+    "name": "enable_opengl_traces_entries_3",
+    "zh": "glGetError 上的调用堆栈",
+    "ru": "Стек вызовов для glGetError",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_summaries_0",
+    "zh": "一律不使用 HDCP 检查",
+    "ru": "Полностью отключить проверку HDCP",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_summaries_1",
+    "zh": "仅使用 HDCP 检查 DRM 内容",
+    "ru": "Использовать HDCP только для проверки DRM-контента",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_summaries_2",
+    "zh": "始终使用 HDCP 检查",
+    "ru": "Всегда выполнять проверку HDCP",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_titles_0",
+    "zh": "永不检查",
+    "ru": "Никогда не проверять",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_titles_1",
+    "zh": "仅检查 DRM 内容",
+    "ru": "Проверять только DRM-контент",
+    "type": "arrays"
+  },
+  {
+    "name": "hdcp_checking_titles_2",
+    "zh": "总是检查",
+    "ru": "Всегда проверять",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_0",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_1",
+    "zh": "480p",
+    "ru": "480p",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_2",
+    "zh": "480p（安全）",
+    "ru": "480p (безопасный)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_3",
+    "zh": "720p",
+    "ru": "720p",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_4",
+    "zh": "720p（安全）",
+    "ru": "720p (безопасный)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_5",
+    "zh": "1080p",
+    "ru": "1080p",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_6",
+    "zh": "1080p（安全）",
+    "ru": "1080p (безопасность)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_7",
+    "zh": "4K",
+    "ru": "4K",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_8",
+    "zh": "4K（安全）",
+    "ru": "4K (безопасность)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_9",
+    "zh": "4K（画质提升）",
+    "ru": "4K (улучшение качества изображения)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_10",
+    "zh": "4K（画质提升、安全）",
+    "ru": "4K (улучшение качества изображения, безопасность)",
+    "type": "arrays"
+  },
+  {
+    "name": "overlay_display_devices_entries_11",
+    "zh": "720p，1080p（双屏）",
+    "ru": "720p, 1080p (два экрана)",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_lowram_titles_0",
+    "zh": "关闭",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_lowram_titles_1",
+    "zh": "64K",
+    "ru": "64K",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_lowram_titles_2",
+    "zh": "256K",
+    "ru": "256K",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_lowram_titles_3",
+    "zh": "1M",
+    "ru": "1M",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_0",
+    "zh": "关闭",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_1",
+    "zh": "每个日志缓冲区 64K",
+    "ru": "64 КБ на каждый буфер журнала",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_2",
+    "zh": "每个日志缓冲区 256K",
+    "ru": "256 КБ на каждый буфер журнала",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_3",
+    "zh": "每个日志缓冲区 1M",
+    "ru": "1 МБ на каждый буфер журнала",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_4",
+    "zh": "每个日志缓冲区 4M",
+    "ru": "4 МБ на каждый буфер журнала",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_summaries_5",
+    "zh": "每个日志缓冲区 16M",
+    "ru": "16 МБ на каждый буфер журнала",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_0",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_1",
+    "zh": "64K",
+    "ru": "64K",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_2",
+    "zh": "256K",
+    "ru": "256K",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_3",
+    "zh": "1M",
+    "ru": "1M",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_4",
+    "zh": "4M",
+    "ru": "4M",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logd_size_titles_5",
+    "zh": "16M",
+    "ru": "16M",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_summaries_0",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_summaries_1",
+    "zh": "所有日志缓冲区",
+    "ru": "Все буферы журналов",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_summaries_2",
+    "zh": "所有非无线电日志缓冲区",
+    "ru": "Все буферы журналов, кроме радиочастотных",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_summaries_3",
+    "zh": "仅限内核日志缓冲区",
+    "ru": "Только буфер журнала ядра",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_titles_0",
+    "zh": "关闭",
+    "ru": "Отключить",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_titles_1",
+    "zh": "全部",
+    "ru": "Все",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_titles_2",
+    "zh": "所有非无线电",
+    "ru": "Все, кроме радиосвязи",
+    "type": "arrays"
+  },
+  {
+    "name": "select_logpersist_titles_3",
+    "zh": "仅限内核",
+    "ru": "Только ядро",
+    "type": "arrays"
+  },
+  {
+    "name": "show_non_rect_clip_entries_0",
+    "zh": "关闭",
+    "ru": "Отключить",
+    "type": "arrays"
+  },
+  {
+    "name": "show_non_rect_clip_entries_1",
+    "zh": "以蓝色填充非矩形剪裁区域",
+    "ru": "Закрасить синим цветом непрямоугольную область обрезки",
+    "type": "arrays"
+  },
+  {
+    "name": "show_non_rect_clip_entries_2",
+    "zh": "以绿色突出显示测试绘制命令",
+    "ru": "Подсветить тестовые команды отрисовки зелёным цветом",
+    "type": "arrays"
+  },
+  {
+    "name": "track_frame_time_entries_0",
+    "zh": "关闭",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "track_frame_time_entries_1",
+    "zh": "在屏幕上显示为条形图",
+    "ru": "Отображать на экране в виде столбчатой диаграммы",
+    "type": "arrays"
+  },
+  {
+    "name": "track_frame_time_entries_2",
+    "zh": "在 adb shell dumpsys gfxinfo 中",
+    "ru": "В adb shell dumpsys gfxinfo",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_0",
+    "zh": "关闭动画",
+    "ru": "Отключить анимацию",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_1",
+    "zh": "动画缩放 0.5x",
+    "ru": "Масштаб анимации 0.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_2",
+    "zh": "动画缩放 1x",
+    "ru": "Масштаб анимации 1x",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_3",
+    "zh": "动画缩放 1.5x",
+    "ru": "Масштаб анимации 1.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_4",
+    "zh": "动画缩放 2x",
+    "ru": "Масштаб анимации 2x",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_5",
+    "zh": "动画缩放 5x",
+    "ru": "Масштаб анимации 5x",
+    "type": "arrays"
+  },
+  {
+    "name": "transition_animation_scale_entries_6",
+    "zh": "动画缩放 10x",
+    "ru": "Масштаб анимации 10x",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_0",
+    "zh": "很慢",
+    "ru": "Очень медленно",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_1",
+    "zh": "慢",
+    "ru": "Медленно",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_2",
+    "zh": "正常",
+    "ru": "Нормально",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_3",
+    "zh": "快",
+    "ru": "Быстро",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_4",
+    "zh": "较快",
+    "ru": "Довольно быстро",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_5",
+    "zh": "非常快",
+    "ru": "Очень быстро",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_6",
+    "zh": "超快",
+    "ru": "Очень быстро",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_7",
+    "zh": "极快",
+    "ru": "Сверхбыстро",
+    "type": "arrays"
+  },
+  {
+    "name": "tts_rate_entries_8",
+    "zh": "最快",
+    "ru": "Максимально быстро",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_0",
+    "zh": "充电",
+    "ru": "Зарядка",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_1",
+    "zh": "MTP（媒体传输协议）",
+    "ru": "MTP（протокол передачи мультимедиа）",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_2",
+    "zh": "PTP（图片传输协议）",
+    "ru": "PTP（протокол передачи изображений）",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_3",
+    "zh": "RNDIS（USB 以太网）",
+    "ru": "RNDIS（Ethernet по USB）",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_4",
+    "zh": "音频来源",
+    "ru": "Источник звука",
+    "type": "arrays"
+  },
+  {
+    "name": "usb_configuration_titles_5",
+    "zh": "MIDI",
+    "ru": "MIDI",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_0",
+    "zh": "",
+    "ru": "",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_1",
+    "zh": "正在扫描...",
+    "ru": "Сканирование...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_2",
+    "zh": "正在连接...",
+    "ru": "Подключение...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_3",
+    "zh": "正在验证身份…",
+    "ru": "Аутентификация…",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_4",
+    "zh": "正在获取IP地址...",
+    "ru": "Получение IP-адреса...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_5",
+    "zh": "已连接",
+    "ru": "Подключено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_6",
+    "zh": "已暂停",
+    "ru": "Приостановлено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_7",
+    "zh": "正在断开连接...",
+    "ru": "Отключение...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_8",
+    "zh": "已断开连接",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_9",
+    "zh": "失败",
+    "ru": "Не удалось",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_10",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_11",
+    "zh": "暂时关闭（网络状况不佳）",
+    "ru": "Временно отключено (плохое качество сети)",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_0",
+    "zh": "",
+    "ru": "",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_1",
+    "zh": "正在扫描...",
+    "ru": "Сканирование...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_2",
+    "zh": "正在连接到 %1$s...",
+    "ru": "Подключение к %1$s...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_3",
+    "zh": "正在通过 %1$s 进行身份验证...",
+    "ru": "Идёт аутентификация через %1$s...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_4",
+    "zh": "正在从%1$s获取IP地址...",
+    "ru": "Получение IP-адреса от %1$s...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_5",
+    "zh": "已连接到“%1$s”",
+    "ru": "Подключено к «%1$s»",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_6",
+    "zh": "已暂停",
+    "ru": "Приостановлено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_7",
+    "zh": "正在断开与 %1$s 的连接...",
+    "ru": "Отключение от %1$s...",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_8",
+    "zh": "已断开连接",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_9",
+    "zh": "失败",
+    "ru": "Не удалось",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_10",
+    "zh": "已停用",
+    "ru": "Отключено",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_status_with_ssid_11",
+    "zh": "暂时关闭（网络状况不佳）",
+    "ru": "Временно отключено (плохое качество сети)",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_0",
+    "zh": "关闭动画",
+    "ru": "Отключить анимацию",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_1",
+    "zh": "动画缩放 0.5x",
+    "ru": "Масштаб анимации 0.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_2",
+    "zh": "动画缩放 1x",
+    "ru": "Масштаб анимации 1x",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_3",
+    "zh": "动画缩放 1.5x",
+    "ru": "Масштаб анимации 1.5x",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_4",
+    "zh": "动画缩放 2x",
+    "ru": "Масштаб анимации 2x",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_5",
+    "zh": "动画缩放 5x",
+    "ru": "Масштаб анимации 5x",
+    "type": "arrays"
+  },
+  {
+    "name": "window_animation_scale_entries_6",
+    "zh": "动画缩放 10x",
+    "ru": "Масштаб анимации 10x",
+    "type": "arrays"
+  },
+  {
+    "name": "wifi_tether_connected_summary_one",
+    "zh": "已连接 %1$d 个设备",
+    "ru": "Подключено %1$d устройство",
+    "type": "plurals"
+  },
+  {
+    "name": "wifi_tether_connected_summary_other",
+    "zh": "已连接 %1$d 个设备",
+    "ru": "Подключено %1$d устройств",
+    "type": "plurals"
+  },
+  {
+    "name": "imsi_protection_warning",
+    "zh": "此网络会收到可用于跟踪设备位置的 SIM 卡 ID。<annotation id=\"url\">了解详情</annotation>",
+    "ru": "Эта сеть будет получать ID SIM-карты, который можно использовать для отслеживания местоположения устройства.<annotation id=\"url\">Подробнее</annotation>",
+    "type": "string",
+    "styled": true
+  }
+]

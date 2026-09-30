@@ -1,0 +1,2877 @@
+[
+  {
+    "name": "all_version_collect_test",
+    "zh": "整车版本收集",
+    "ru": "Сбор версий автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "all_version_collect_vom_test",
+    "zh": "\"整车版本收集\n(虚拟GW)\"",
+    "ru": "\"Сбор версий автомобиля\\n(Виртуальный GW)\"",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "车辆升级",
+    "ru": "Обновление автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "auto_download_wifi",
+    "zh": "允许WIFI网络时自动下载",
+    "ru": "Автозагрузка по Wi-Fi",
+    "type": "string"
+  },
+  {
+    "name": "before_upgrade_tips",
+    "zh": "更新提示:",
+    "ru": "Подсказка обновления:",
+    "type": "string"
+  },
+  {
+    "name": "before_upgrade_tips_1",
+    "zh": "\"1.请点击【检测并下载】发现更新、更稳定、更优异的软件版本，以确保最佳的用车体验；\n2.在软件更新时，您将无法使用该车辆，请确保车辆处于静止状态；\n3.升级前请将车停放在安全区域；\n4.升级过程中，请不要尝试操作车辆，以免发生升级失败或引起故障。\"",
+    "ru": "\"1. Нажмите 【Обнаружить и загрузить】, чтобы найти более новую, стабильную и улучшенную версию ПО для оптимального использования автомобиля;\\n2. Во время обновления ПО использование автомобиля невозможно. Убедитесь, что автомобиль неподвижен;\\n3. Перед обновлением припаркуйте автомобиль в безопасном месте;\\n4. Во время обновления не управляйте автомобилем, чтобы избежать сбоя обновления или возникновения неисправностей.\"",
+    "type": "string"
+  },
+  {
+    "name": "btn_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "btn_download",
+    "zh": "立刻下载",
+    "ru": "Скачать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "btn_download_install",
+    "zh": "立即安装",
+    "ru": "Установить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "btn_download_leave_install",
+    "zh": "锁车升级",
+    "ru": "Обновление с замком",
+    "type": "string"
+  },
+  {
+    "name": "btn_download_plan_install",
+    "zh": "预约升级",
+    "ru": "Плановое обновление",
+    "type": "string"
+  },
+  {
+    "name": "btn_hujiao",
+    "zh": "呼叫",
+    "ru": "Вызов",
+    "type": "string"
+  },
+  {
+    "name": "btn_network_setting",
+    "zh": "设置网络",
+    "ru": "Настройка сети",
+    "type": "string"
+  },
+  {
+    "name": "btn_order_install_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "btn_order_install_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "btn_prepare_usb_install_now",
+    "zh": "立即安装",
+    "ru": "Установить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "btn_version_retry",
+    "zh": "重新检测",
+    "ru": "Повторить проверку",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "check_failed_title",
+    "zh": "文件下载失败",
+    "ru": "Не удалось загрузить файл",
+    "type": "string"
+  },
+  {
+    "name": "check_install_condition_retry",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "check_update_fail",
+    "zh": "更新检测异常(%d)",
+    "ru": "Ошибка проверки обновлений (%d)",
+    "type": "string"
+  },
+  {
+    "name": "check_version",
+    "zh": "检测更新",
+    "ru": "Проверить обновления",
+    "type": "string"
+  },
+  {
+    "name": "condition_status_code",
+    "zh": "状态码:%s",
+    "ru": "Код состояния: %s",
+    "type": "string"
+  },
+  {
+    "name": "confirm_downgrade_content",
+    "zh": "您正在进行系统降级操作，降级后会清空您的用户数据，确认继续吗？",
+    "ru": "Вы выполняете операцию понижения версии системы. После понижения все ваши пользовательские данные будут удалены. Подтверждаете продолжение?",
+    "type": "string"
+  },
+  {
+    "name": "confirm_downgrade_no",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "confirm_downgrade_tip",
+    "zh": "本次降级会恢复出厂设置",
+    "ru": "Понижение версии приведёт к сбросу до заводских настроек",
+    "type": "string"
+  },
+  {
+    "name": "confirm_downgrade_title",
+    "zh": "降级警告",
+    "ru": "Предупр.: понижение",
+    "type": "string"
+  },
+  {
+    "name": "confirm_downgrade_yes",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "confirm_factory_reset_content",
+    "zh": "本次升级跨度大，升级完成后需要手动恢复出厂设置，是否确认升级？",
+    "ru": "Обновление значительное, после его завершения потребуется вручную сбросить до заводских настроек. Подтверждаете обновление?",
+    "type": "string"
+  },
+  {
+    "name": "confirm_factory_reset_tip",
+    "zh": "恢复出厂设置会清除您的用户数据",
+    "ru": "Сброс до заводских настроек удалит ваши пользовательские данные",
+    "type": "string"
+  },
+  {
+    "name": "confirm_factory_reset_title",
+    "zh": "提示",
+    "ru": "Уведомление",
+    "type": "string"
+  },
+  {
+    "name": "confirm_factory_reset_yes",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "confirm_install_content",
+    "zh": "\"1.升级预计持续%s分钟\n2.期间请勿断电，保持车辆静止，部分功能暂无法使用\"",
+    "ru": "\"1. Обновление займёт примерно %s мин.\\n2. Не отключайте питание, держите автомобиль неподвижным. Некоторые функции временно недоступны\"",
+    "type": "string"
+  },
+  {
+    "name": "confirm_install_no",
+    "zh": "否",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "confirm_install_title",
+    "zh": "开始升级",
+    "ru": "Начать обновление",
+    "type": "string"
+  },
+  {
+    "name": "copy_fail_tip",
+    "zh": "\"1.请检测U盘是否正确连接\n2.请检测U盘是否有损坏\"",
+    "ru": "\"1. Проверьте, правильно ли подключён USB-накопитель.\\n2. Проверьте, не повреждён ли USB-накопитель.\"",
+    "type": "string"
+  },
+  {
+    "name": "data_deploy",
+    "zh": "数据准备",
+    "ru": "Подготовка данных",
+    "type": "string"
+  },
+  {
+    "name": "deploy_connect_test",
+    "zh": "连通性",
+    "ru": "Связность",
+    "type": "string"
+  },
+  {
+    "name": "deploy_fail",
+    "zh": "升级数据准备失败(%d)",
+    "ru": "Не удалось подготовить данные обновления (%d)",
+    "type": "string"
+  },
+  {
+    "name": "deploy_fail_tip",
+    "zh": "\"1.目前车辆状态可能无法继续升级。\n2.请及时联系维保中心处理。\"",
+    "ru": "\"1. В настоящее время состояние автомобиля может не позволять продолжить обновление.\\n2. Пожалуйста, обратитесь в сервисный центр для устранения.\"",
+    "type": "string"
+  },
+  {
+    "name": "deploy_ing_str",
+    "zh": "升级数据准备中…",
+    "ru": "Подготовка данных обновления…",
+    "type": "string"
+  },
+  {
+    "name": "deploy_one_file",
+    "zh": "传输文件",
+    "ru": "Передача файла",
+    "type": "string"
+  },
+  {
+    "name": "deploy_one_sub_master",
+    "zh": "部署SubMaster",
+    "ru": "Развернуть SubMaster",
+    "type": "string"
+  },
+  {
+    "name": "deploy_parallel",
+    "zh": "并行传文件",
+    "ru": "Параллельная передача",
+    "type": "string"
+  },
+  {
+    "name": "deploy_parallel_request",
+    "zh": "并行请求",
+    "ru": "Параллельные запросы",
+    "type": "string"
+  },
+  {
+    "name": "deploy_progress_now",
+    "zh": "当前进度:",
+    "ru": "Текущий прогресс:",
+    "type": "string"
+  },
+  {
+    "name": "deploy_request",
+    "zh": "请求部署",
+    "ru": "Запрос на развертывание",
+    "type": "string"
+  },
+  {
+    "name": "deploy_test",
+    "zh": "部署测试",
+    "ru": "Тестовое развёртывание",
+    "type": "string"
+  },
+  {
+    "name": "deploy_tip",
+    "zh": "升级包传输阶段，后台会自动执行，不影响正常用车，若锁车离开，则暂停传输。",
+    "ru": "На этапе передачи пакета обновления процесс выполняется автоматически в фоновом режиме и не влияет на нормальную эксплуатацию автомобиля. Если вы заблокируете автомобиль и покинете его, передача будет приостановлена.",
+    "type": "string"
+  },
+  {
+    "name": "deploy_tip_str",
+    "zh": "温馨提示：数据准备中，您可以离开本界面正常使用车辆，数据准备完成后将提醒您升级",
+    "ru": "Напоминание: идёт подготовка данных. Вы можете покинуть этот экран и продолжать пользоваться автомобилем в обычном режиме. После завершения подготовки данных мы сообщим вам о готовности к обновлению.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_common_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_condition_not_meet_title",
+    "zh": "升级条件不满足",
+    "ru": "Условия обновления не выполнены",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_cond_title_result_tips",
+    "zh": "您上次的软件升级条件不满足，请重新选择升级方式进行升级！",
+    "ru": "Условия предыдущего обновления ПО не выполнены. Выберите способ обновления и повторите попытку!",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_detail_btn",
+    "zh": "详细信息",
+    "ru": "Подробная информация",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_fail_title_result_tips",
+    "zh": "您上次的软件升级失败了(%d)，车辆已恢复升级前状态，请重新检测升级！",
+    "ru": "Последнее обновление ПО не удалось (%d). Автомобиль возвращён в состояние до обновления. Повторите проверку на наличие обновления!",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_failed_content",
+    "zh": "已反馈失败信息给客服，您可以进入远程升级应用重新尝试安装",
+    "ru": "Информация об ошибке передана в службу поддержки. Вы можете открыть приложение для удалённого обновления и повторить попытку установки.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_failed_title",
+    "zh": "升级异常",
+    "ru": "Ошибка обновления",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_failed_title_result",
+    "zh": "升级失败",
+    "ru": "Обновление не удалось",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_rollback_fail_title_result_tips",
+    "zh": "您上次的软件升级失败了(%d)，请重试或联系深蓝客服中心处理，客服中心电话(951998)",
+    "ru": "Последнее обновление ПО завершилось со сбоем (%d). Повторите попытку или обратитесь в центр поддержки Deepal (тел. 951998)",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_success_btn",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_success_title",
+    "zh": "升级完成",
+    "ru": "Обновление завершено",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_success_title_result",
+    "zh": "升级成功",
+    "ru": "Обновление успешно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm_result_success_title_result_tips",
+    "zh": "您的软件已升级成功，请尽情体验新系统吧！",
+    "ru": "Ваше программное обеспечение успешно обновлено. Наслаждайтесь новой системой!",
+    "type": "string"
+  },
+  {
+    "name": "dialog_copy_data",
+    "zh": "升级文件拷贝中…",
+    "ru": "Копирование файла обновления…",
+    "type": "string"
+  },
+  {
+    "name": "dialog_copy_data_fail",
+    "zh": "安装包拷贝失败，退出U盘升级(%d)",
+    "ru": "Не удалось скопировать установочный пакет, обновление с USB-накопителя прервано (%d)",
+    "type": "string"
+  },
+  {
+    "name": "dialog_copy_finish",
+    "zh": "数据拷贝结束,稍后进行部署",
+    "ru": "Копирование данных завершено, развертывание будет выполнено позже.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploy_failure_content",
+    "zh": "车控部署失败%s，是否重试？",
+    "ru": "Развертывание управления автомобилем завершилось ошибкой%s, повторить попытку?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploy_failure_title",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploy_finish",
+    "zh": "部署结束,稍后进行安装",
+    "ru": "Развертывание завершено, установка будет выполнена позже.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploy_install_btn",
+    "zh": "继续安装",
+    "ru": "Продолжить установку",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploy_retry_btn",
+    "zh": "重新部署",
+    "ru": "Переразвернуть",
+    "type": "string"
+  },
+  {
+    "name": "dialog_deploying",
+    "zh": "部署中",
+    "ru": "Идёт развёртывание",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_no",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_notify_sub_title",
+    "zh": "温馨提示：在OTA升级过程中，如果遇到任何问题，也可联系客服。",
+    "ru": "Примечание: при возникновении любых проблем в процессе OTA-обновления вы можете обратиться в службу поддержки.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_notify_tip",
+    "zh": "温馨提示：本次升级将清空系统缓存数据",
+    "ru": "Напоминаем: данное обновление очистит системный кэш",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_notify_title",
+    "zh": "升级必读",
+    "ru": "Обязательно к прочтению",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_yes",
+    "zh": "确定(%ds)",
+    "ru": "Подтвердить(%ds)",
+    "type": "string"
+  },
+  {
+    "name": "dialog_install_yes_1",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_recover_install_notify_title",
+    "zh": "恢复安装",
+    "ru": "Восстановление",
+    "type": "string"
+  },
+  {
+    "name": "dialog_retry_content",
+    "zh": "是否尝试重试安装？",
+    "ru": "Повторить попытку установки?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_usb_notify_title",
+    "zh": "升级对象详情",
+    "ru": "Детали объекта обновления",
+    "type": "string"
+  },
+  {
+    "name": "dialog_usb_update",
+    "zh": "U盘升级",
+    "ru": "Обновление с USB-флешки",
+    "type": "string"
+  },
+  {
+    "name": "dialog_usb_update_title",
+    "zh": "U盘升级提示",
+    "ru": "Обновление с USB",
+    "type": "string"
+  },
+  {
+    "name": "download_continue",
+    "zh": "继续下载",
+    "ru": "Продолжить загрузку",
+    "type": "string"
+  },
+  {
+    "name": "download_fail",
+    "zh": "升级包下载失败(%d)",
+    "ru": "Не удалось загрузить пакет обновления (%d)",
+    "type": "string"
+  },
+  {
+    "name": "download_fail_420007",
+    "zh": "检测到当前任务已经过期。",
+    "ru": "Обнаружено, что срок действия текущей задачи истёк.",
+    "type": "string"
+  },
+  {
+    "name": "download_fail_420011",
+    "zh": "检测到当前网络状态不佳。",
+    "ru": "Текущее состояние сети неудовлетворительное.",
+    "type": "string"
+  },
+  {
+    "name": "download_ignore",
+    "zh": "忽略",
+    "ru": "Игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "download_now",
+    "zh": "立即下载",
+    "ru": "Скачать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "download_speed_string",
+    "zh": "下载速度：",
+    "ru": "Скорость загрузки:",
+    "type": "string"
+  },
+  {
+    "name": "download_start",
+    "zh": "开始下载",
+    "ru": "Начать загрузку",
+    "type": "string"
+  },
+  {
+    "name": "download_stop",
+    "zh": "下载已暂停",
+    "ru": "Загрузка приостановлена",
+    "type": "string"
+  },
+  {
+    "name": "download_test",
+    "zh": "下载测试",
+    "ru": "Тест загрузки",
+    "type": "string"
+  },
+  {
+    "name": "download_time",
+    "zh": "预计当前软件包剩余下载时间：",
+    "ru": "Ожидаемое оставшееся время загрузки текущего пакета обновления:",
+    "type": "string"
+  },
+  {
+    "name": "download_tip",
+    "zh": "升级包下载阶段，后台会自动执行，不影响正常用车，若锁车离开，则暂停下载。",
+    "ru": "Загрузка пакета обновления выполняется автоматически в фоновом режиме и не влияет на эксплуатацию автомобиля. При блокировке автомобиля и уходе загрузка будет приостановлена.",
+    "type": "string"
+  },
+  {
+    "name": "download_tip_wait",
+    "zh": "当前是WiFi网络连接，是否允许下载？",
+    "ru": "Вы подключены к Wi-Fi. Разрешить загрузку?",
+    "type": "string"
+  },
+  {
+    "name": "download_tip_wait_2",
+    "zh": "当前是WiFi网络连接，是否允许下载？若断开WIFI网络连接，将使用车机流量自动下载。",
+    "ru": "Подключено к сети Wi-Fi. Разрешить загрузку? При отключении Wi-Fi загрузка будет выполнена автоматически с использованием мобильного трафика автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "download_tip_wait_3",
+    "zh": "当前是车机网络连接，请切换到WIFI网络后下载升级包。",
+    "ru": "В настоящее время используется мобильное подключение автомобиля. Переключитесь на Wi-Fi для загрузки пакета обновления.",
+    "type": "string"
+  },
+  {
+    "name": "download_tip_wait_4",
+    "zh": "当前是WIFI网络连接，将会消耗WIFI终端的流量，是否允许下载？",
+    "ru": "Подключено к сети Wi-Fi. Загрузка будет расходовать трафик Wi-Fi-устройства. Разрешить загрузку?",
+    "type": "string"
+  },
+  {
+    "name": "download_tip_wait_dialog",
+    "zh": "温馨提示：当前是WiFi网络连接，是否允许下载？",
+    "ru": "Подсказка: вы подключены к сети Wi-Fi. Разрешить загрузку?",
+    "type": "string"
+  },
+  {
+    "name": "entry_check",
+    "zh": "跳过准入检查",
+    "ru": "Пропустить проверку",
+    "type": "string"
+  },
+  {
+    "name": "error_code",
+    "zh": "异常原因：",
+    "ru": "Причина ошибки:",
+    "type": "string"
+  },
+  {
+    "name": "exit_factory",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "factory_mode",
+    "zh": "工程模式",
+    "ru": "Инженерный режим",
+    "type": "string"
+  },
+  {
+    "name": "failed_to_load",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "failed_to_load_1",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "fota_self_update_install_tips",
+    "zh": "FOTA自更新，应用即将关闭！",
+    "ru": "FOTA-обновление, приложение скоро закроется!",
+    "type": "string"
+  },
+  {
+    "name": "found_new_version_title",
+    "zh": "发现新版本",
+    "ru": "Доступна новая версия",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_download_check",
+    "zh": "升级包校验中…",
+    "ru": "Проверка пакета обновления…",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_download_speed",
+    "zh": "下载速度 %s/s",
+    "ru": "Скорость загрузки %s/с",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_error_network_unavailable",
+    "zh": "网络异常,请重试",
+    "ru": "Сбой сети, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_error_retry_btn",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_init_reading_version",
+    "zh": "读取系统版本中…",
+    "ru": "Чтение версии системы…",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_leave_install_cancel",
+    "zh": "取消锁车安装",
+    "ru": "Отменить (авто заперто)",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_leave_install_cancel_failed",
+    "zh": "锁车升级取消失败，请重新尝试",
+    "ru": "Не удалось отменить обновление при блокировке, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_leave_install_cancel_tip",
+    "zh": "正在取消锁车升级",
+    "ru": "Отменяется обновление при блокировке",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_leave_install_failed",
+    "zh": "锁车升级设置失败，请重新尝试",
+    "ru": "Не удалось настроить обновление при блокировке, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_new_version_downloading_tip",
+    "zh": "升级包下载中",
+    "ru": "Загрузка пакета обновления",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_new_version_update_infos_title",
+    "zh": "更新说明",
+    "ru": "Список изменений",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_cancel",
+    "zh": "取消预约安装",
+    "ru": "Отменить (расписание)",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_cancel_failed",
+    "zh": "预约升级取消失败，请重新尝试",
+    "ru": "Не удалось отменить запланированное обновление. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_cancel_tip",
+    "zh": "正在取消预约升级",
+    "ru": "Отменяется запланированное обновление.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_canceling",
+    "zh": "取消中…",
+    "ru": "Отменяется…",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_failed",
+    "zh": "预约升级设置失败，请重新尝试",
+    "ru": "Не удалось настроить запланированное обновление. Попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_loading",
+    "zh": "正在预约，请稍后",
+    "ru": "Идёт планирование, подождите.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_tips",
+    "zh": "您已预约%s升级，系统将在该时间自动安装。",
+    "ru": "Вы запланировали обновление на %s, система автоматически установит его в это время.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_order_install_update",
+    "zh": "修改预约时间",
+    "ru": "Изменить запланированное время",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_toast_settings",
+    "zh": "请连接WIFI",
+    "ru": "Подключитесь к Wi-Fi",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_trans_error",
+    "zh": "数据传输异常:%d，请重试",
+    "ru": "Сбой передачи данных: %d, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_trans_error_action",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_unknown_error",
+    "zh": "未知异常，请稍后重试",
+    "ru": "Неизвестная ошибка, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_vehicle_service_error",
+    "zh": "检测异常,请重试",
+    "ru": "Обнаружена аномалия, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_fota_vehicle_service_error_action",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_cancel",
+    "zh": "U盘已经拔出，是否停止升级",
+    "ru": "USB-накопитель извлечён. Остановить обновление?",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_check_failed",
+    "zh": "安装包校验失败，请重试或前往深蓝汽车官网重新下载！",
+    "ru": "Проверка пакета обновления не пройдена. Повторите попытку или скачайте заново с официального сайта Deepal!",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_getting_task_failed",
+    "zh": "检测安装包失败，请拔插U盘重试!",
+    "ru": "Не удалось обнаружить установочный пакет. Извлеките и снова вставьте USB-накопитель и повторите попытку!",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_getting_task_not_meet",
+    "zh": "U盘中版本与车型不匹配",
+    "ru": "Версия на USB-накопителе не соответствует модели автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_load_getting_task",
+    "zh": "正在检测安装包",
+    "ru": "Проверка пакета установки",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_new_version",
+    "zh": "检查到U盘升级包：%s",
+    "ru": "Обнаружен пакет обновления на USB-накопителе: %s",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_no",
+    "zh": "否",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_no_device",
+    "zh": "未插入U盘",
+    "ru": "USB не вставлен",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_no_task",
+    "zh": "未检测到安装包，请到深蓝汽车官网下载",
+    "ru": "Установочный пакет не обнаружен. Пожалуйста, скачайте его на официальном сайте Deepal.",
+    "type": "string"
+  },
+  {
+    "name": "fragment_usb_yes",
+    "zh": "是",
+    "ru": "Да",
+    "type": "string"
+  },
+  {
+    "name": "guide_factory_reset_content",
+    "zh": "您的系统已升级完成，因为升级跨度大，部分数据可能不兼容，需要您手动恢复出厂设置",
+    "ru": "Обновление вашей системы завершено. Из-за значительного скачка в версиях некоторые данные могут быть несовместимы, поэтому вам необходимо вручную сбросить настройки до заводских.",
+    "type": "string"
+  },
+  {
+    "name": "guide_factory_reset_no",
+    "zh": "暂不操作",
+    "ru": "Пока нет",
+    "type": "string"
+  },
+  {
+    "name": "guide_factory_reset_tip",
+    "zh": "恢复出厂设置会清除您的用户数据",
+    "ru": "Сброс до заводских настроек удалит ваши пользовательские данные",
+    "type": "string"
+  },
+  {
+    "name": "guide_factory_reset_title",
+    "zh": "升级完成提示",
+    "ru": "Обновление завершено",
+    "type": "string"
+  },
+  {
+    "name": "guide_factory_reset_yes",
+    "zh": "恢复出厂设置",
+    "ru": "Сброс до заводских настроек",
+    "type": "string"
+  },
+  {
+    "name": "init_tip",
+    "zh": "数据初始化中…",
+    "ru": "Инициализация данных…",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery",
+    "zh": "剩余电量不满足升级条件",
+    "ru": "Недостаточно заряда батареи для обновления",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_accuracy",
+    "zh": "电量精度不满足升级条件",
+    "ru": "Точность уровня заряда не соответствует условиям обновления",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_accuracy_show",
+    "zh": "蓄电池精度",
+    "ru": "Точность АКБ",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_accuracy_show_notify",
+    "zh": "蓄电池精度不足，请锁车静置车辆4小时后重试",
+    "ru": "Точность измерения аккумулятора недостаточна. Заблокируйте автомобиль и оставьте его в покое на 4 часа, затем повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_accuracy_show_notify_notMeet",
+    "zh": "蓄电池精度不足，请锁车静置车辆4小时后重试；",
+    "ru": "Точность измерения аккумулятора недостаточна. Заблокируйте автомобиль и оставьте его в покое на 4 часа, затем повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_accuracy_tip",
+    "zh": "蓄电池精度不满足，请锁车静置车辆4小时后重试。",
+    "ru": "Точность измерения аккумулятора не соответствует требованиям. Заблокируйте автомобиль и оставьте его в покое на 4 часа, затем повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_show",
+    "zh": "蓄电池电量",
+    "ru": "Заряд АКБ",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_show_notify",
+    "zh": "蓄电池电量不足，请用车一段时间或关闭部分用电设备（如灯光，空调等）后再试",
+    "ru": "Заряд аккумулятора недостаточен. Проедьте некоторое время или отключите часть потребителей (освещение, климат-контроль и т. д.), затем повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_show_notify_notMeet",
+    "zh": "蓄电池电量不足，请用车一段时间后再试；",
+    "ru": "Заряд аккумулятора недостаточен. Проедьте некоторое время и повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_battery_tip",
+    "zh": "电池电量不足，请开启发动机，用车一段时间后重新尝试。",
+    "ru": "Заряд батареи недостаточен. Запустите двигатель, проедьте некоторое время и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_bms_working_mode_tip",
+    "zh": "车辆高压状态异常，车辆不可用，请联系维保中心处理。",
+    "ru": "Неисправность высоковольтной системы автомобиля. Автомобиль недоступен. Обратитесь в сервисный центр.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_brash_gear_fail",
+    "zh": "刷写挡位请求失败",
+    "ru": "Запрос позиции передач для прошивки не выполнен",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_cancel_fail",
+    "zh": "取消安装失败",
+    "ru": "Не удалось отменить установку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_cancel_success",
+    "zh": "取消安装成功",
+    "ru": "Установка успешно отменена",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_charge_show",
+    "zh": "未连接快充充电枪",
+    "ru": "Кабель быстрой зарядки не подключён",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_charge_show_notify",
+    "zh": "快充充电枪连接中，请拔出充/放电枪后重试",
+    "ru": "Кабель быстрой зарядки подключён. Отсоедините кабель заряда/разряда и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_charge_show_notify_notMeet",
+    "zh": "快充充电枪连接中，请拔出充/放电枪后重试；",
+    "ru": "Кабель быстрой зарядки подключён. Отсоедините кабель заряда/разряда и повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_charge_tip",
+    "zh": "当前车辆连接了充/放电枪，无法进行升级，如果您需要升级，请拔出充/放电枪后重试。",
+    "ru": "К автомобилю подключён кабель заряда/разряда, обновление невозможно. Если требуется обновление, отсоедините кабель заряда/разряда и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_check_fail",
+    "zh": "车辆升级条件检测失败",
+    "ru": "Не удалось проверить условия обновления автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_discharge_show",
+    "zh": "未连接慢充/放电枪",
+    "ru": "Кабель медленной зарядки/разряда не подключён",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_discharge_show_notify",
+    "zh": "慢充/放电枪连接中，请拔出充/放电枪后重试",
+    "ru": "Кабель медленной зарядки/разряда подключён. Отсоедините кабель заряда/разряда и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_discharge_show_notify_notMeet",
+    "zh": "慢充/放电枪连接中，请拔出充/放电枪后重试；",
+    "ru": "Кабель медленной зарядки/разряда подключён. Отсоедините кабель заряда/разряда и повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_discharge_tip",
+    "zh": "当前车辆连接了充/放电枪，无法进行升级，如果您需要升级，请拔出充/放电枪后重试。",
+    "ru": "К автомобилю подключён кабель заряда/разряда, обновление невозможно. Если вам необходимо выполнить обновление, отсоедините кабель заряда/разряда и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine",
+    "zh": "发动机状态不满足升级条件",
+    "ru": "Состояние двигателя не соответствует условиям обновления.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show",
+    "zh": "未在充电状态",
+    "ru": "Не в режиме зарядки",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show_notify",
+    "zh": "增程器处于工作状态，请前往车辆中心>驾驶>驾驶模式关闭驻车充电后重试",
+    "ru": "Расширитель запаса хода работает. Перейдите в «Центр автомобиля» > «Вождение» > «Режим вождения», отключите «Зарядку на стоянке» и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show_notify_notMeet",
+    "zh": "增程器处于工作状态，请关闭驻车充电后重试；",
+    "ru": "Расширитель запаса хода находится в рабочем состоянии, отключите зарядку на стоянке и повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show_phev",
+    "zh": "动力总成状态",
+    "ru": "Состояние силовой установки",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show_phev_notify",
+    "zh": "车辆动力总成状态不满足，请稍后重试",
+    "ru": "Состояние силовой установки автомобиля не соответствует требованиям, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_show_phev_notify_notMeet",
+    "zh": "车辆动力总成状态不满足，请稍后重试；",
+    "ru": "Состояние силовой установки автомобиля не соответствует требованиям, повторите попытку позже;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_engine_tip",
+    "zh": "发动机处于运行状态，请熄火。",
+    "ru": "Двигатель запущен, пожалуйста, заглушите его.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_hand_brake",
+    "zh": "驻车制动",
+    "ru": "Стояночный тормоз",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_hand_brake_show",
+    "zh": "驻车制动器状态",
+    "ru": "Состояние стояночного тормоза",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_hand_brake_show_notify",
+    "zh": "其他条件不满足，请联系客服(951998)协助处理",
+    "ru": "Если не выполнены другие условия, обратитесь в службу поддержки (951998) для оказания помощи.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_hand_brake_show_notify_notMeet",
+    "zh": "其他条件不满足，请联系客服(951998)协助处理；",
+    "ru": "Если не выполнены другие условия, обратитесь в службу поддержки (951998) для оказания помощи;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_hand_brake_tip",
+    "zh": "手刹未拉起，请拉起手刹。",
+    "ru": "Ручной тормоз не включен. Включите ручной тормоз.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_met",
+    "zh": "安装条件满足",
+    "ru": "Условия установки выполнены",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_not_met",
+    "zh": "车辆升级条件检测不满足",
+    "ru": "Условия обновления автомобиля не выполнены",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_not_met1",
+    "zh": "安装准备失败，请稍后再试",
+    "ru": "Не удалось подготовить установку. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_not_met11",
+    "zh": "车辆安装准备失败",
+    "ru": "Не удалось подготовить установку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_pow",
+    "zh": "整车电源状态不满足升级条件",
+    "ru": "Состояние питания автомобиля не соответствует условиям обновления",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_pow_show",
+    "zh": "电源挡位ON挡",
+    "ru": "Питание: ON",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_pow_show_notify",
+    "zh": "电源挡位非ON挡，请保持车辆处于ON挡",
+    "ru": "Положение переключателя питания не ON. Удерживайте переключатель в положении ON.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_pow_show_notify_notMeet",
+    "zh": "电源挡位非ON挡，请保持车辆处于ON挡；",
+    "ru": "Положение питания не ON. Убедитесь, что зажигание находится в положении ON;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_pow_tip",
+    "zh": "请按下启动按钮上电。",
+    "ru": "Пожалуйста, нажмите кнопку запуска для включения питания.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_battery_state",
+    "zh": "动力电池电量",
+    "ru": "Заряд тяговой батареи",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_battery_state_notify",
+    "zh": "动力电池电量不满足，请充电，电量高于30%后重试",
+    "ru": "Заряд тяговой батареи недостаточен, зарядите батарею и повторите попытку при уровне заряда выше 30%.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_battery_state_notify_notMeet",
+    "zh": "动力电池电量不满足，请充电，电量高于30%后重试；",
+    "ru": "Уровень заряда тяговой батареи недостаточен, зарядите батарею и повторите попытку при уровне заряда выше 30%;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_battery_tip",
+    "zh": "当前高压电池电量过低，升级可能造成馈电，请电量充足后再试。",
+    "ru": "Уровень заряда высоковольтной батареи слишком низкий. Обновление может привести к разряду. Повторите попытку при достаточном заряде.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_saving_fail",
+    "zh": "车辆正处于省电模式",
+    "ru": "Автомобиль находится в режиме энергосбережения",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_saving_show",
+    "zh": "省电模式",
+    "ru": "Режим энергосбережения",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_saving_show_notify",
+    "zh": "车辆处于省电模式，请退出省电模式后重试",
+    "ru": "Автомобиль находится в режиме энергосбережения. Выйдите из режима энергосбережения и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_saving_show_notify_notMeet",
+    "zh": "车辆处于省电模式，请退出省电模式后重试；",
+    "ru": "Автомобиль находится в режиме энергосбережения. Выйдите из режима энергосбережения и повторите попытку;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_power_saving_tip",
+    "zh": "当前正处于省电模式，请退出省电模式后重试。",
+    "ru": "В настоящее время включен режим энергосбережения. Выйдите из режима энергосбережения и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_remote_boot_tip",
+    "zh": "当前系统繁忙，请稍后重试。",
+    "ru": "Система перегружена, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_shift",
+    "zh": "变速器挡位不满足升级条件",
+    "ru": "Положение передачи не соответствует условиям обновления",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_shift_show",
+    "zh": "驻车挡位P挡",
+    "ru": "Парковочная передача (P)",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_shift_show_notify",
+    "zh": "车辆未处于P挡，请将挡位调整至P挡",
+    "ru": "Автомобиль не в положении P. Переведите селектор в положение P",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_shift_show_notify_notMeet",
+    "zh": "车辆未处于P挡，请将挡位调整至P挡；",
+    "ru": "Автомобиль не в положении P. Переведите селектор в положение P;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_shift_tip",
+    "zh": "换挡器挡位不满足，请将挡位拨到P挡。",
+    "ru": "Положение селектора КПП не соответствует требованиям, переведите его в положение P.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_speed",
+    "zh": "车速不满足升级条件",
+    "ru": "Скорость автомобиля не соответствует условиям обновления.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_speed_show",
+    "zh": "车速为0",
+    "ru": "Скорость 0",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_speed_show_notify",
+    "zh": "车速不为0，请将车辆静止并停放在安全区域",
+    "ru": "Скорость автомобиля не равна нулю. Остановите и припаркуйте автомобиль в безопасном месте.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_speed_show_notify_notMeet",
+    "zh": "车速不为0，请将车辆静止并停放在安全区域；",
+    "ru": "Скорость автомобиля не равна нулю, остановите автомобиль и припаркуйте его в безопасном месте;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_speed_tip",
+    "zh": "当前车辆正在行驶，请将车辆静止并停放在安全区域。",
+    "ru": "Автомобиль находится в движении. Остановите и припаркуйте его в безопасном месте.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_time_out_tip",
+    "zh": "请求超时，请稍后重试。",
+    "ru": "Превышено время ожидания запроса. Попробуйте ещё раз позже.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_tmp",
+    "zh": "外部温度不满足升级条件",
+    "ru": "Внешняя температура не соответствует условиям обновления.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_tmp_show",
+    "zh": "环境温度大于%d°C",
+    "ru": "Температура окружающей среды выше %d°C",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_tmp_show_notify",
+    "zh": "环境温度小于%d°C，请到合适温度场所升级",
+    "ru": "Температура окружающей среды ниже %d°C. Выполните обновление в помещении с подходящей температурой.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_tmp_show_notify_notMeet",
+    "zh": "外部温度不满足升级，请到合适温度场所升级；",
+    "ru": "Температура окружающей среды не соответствует требованиям обновления. Выполните обновление в помещении с подходящей температурой;",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_tmp_tip",
+    "zh": "当前环境温度过低，升级可能造成馈电，不支持升级。",
+    "ru": "Слишком низкая температура окружающей среды. Обновление может привести к разряду батареи, поэтому не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_working_mode_bms",
+    "zh": "BMS工作模式",
+    "ru": "Режим работы BMS",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_working_mode_bms_notify",
+    "zh": "BMS工作模式不满足，车辆高压状态异常，车辆不可用，请联系维保中心处理",
+    "ru": "Режим работы BMS не соответствует требованиям, состояние высоковольтной системы автомобиля нештатное, эксплуатация невозможна. Обратитесь в сервисный центр",
+    "type": "string"
+  },
+  {
+    "name": "install_condition_working_mode_bms_notify_notMeet",
+    "zh": "BMS工作模式不满足，车辆高压状态异常，车辆不可用，请联系维保中心处理；",
+    "ru": "Режим работы BMS не соответствует требованиям, состояние высоковольтной системы автомобиля нештатное, эксплуатация невозможна. Обратитесь в сервисный центр;",
+    "type": "string"
+  },
+  {
+    "name": "install_dialog_order_tip",
+    "zh": "\"1.车辆将在升级时间到达时自动升级，升级过程中车辆将无法行驶且部分功能暂时无法使用。\n2.升级时间到达前请离开车辆并闭锁，结束充电和放电，确保蓄电池电量充足，关闭灯光、空调等用电设备。\"",
+    "ru": "\"1. Автомобиль будет автоматически обновлён, когда наступит заданное время. В процессе обновления автомобиль не сможет двигаться, а часть функций будет временно недоступна.\\n2. До наступления времени обновления покиньте автомобиль и закройте его на замке, завершите зарядку и разрядку, убедитесь в достаточном заряде батареи, отключите освещение, климат-контроль и другие потребители электроэнергии.\"",
+    "type": "string"
+  },
+  {
+    "name": "install_dialog_tip",
+    "zh": "温馨提示：在OTA升级过程中，车辆可能会出现Ready状态退出、显示屏短暂亮灭等情况，均属于正常现象，如果遇到其它问题，也可联系客服(951998)协助。",
+    "ru": "Напоминание: в процессе OTA-обновления возможны выход из режима готовности (Ready), кратковременное включение и выключение дисплея и подобные явления — всё это является нормальным. Если возникнут иные вопросы, вы также можете обратиться в службу поддержки по номеру 951998.",
+    "type": "string"
+  },
+  {
+    "name": "install_dialog_version",
+    "zh": "版本更新：%s",
+    "ru": "Обновление версии: %s",
+    "type": "string"
+  },
+  {
+    "name": "install_fail_dialog",
+    "zh": "安装失败",
+    "ru": "Установка не выполнена",
+    "type": "string"
+  },
+  {
+    "name": "install_new_version_btn_install_detail",
+    "zh": "详细信息",
+    "ru": "Подробности",
+    "type": "string"
+  },
+  {
+    "name": "install_new_version_btn_install_now",
+    "zh": "更新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "install_new_version_title",
+    "zh": "检测到新版本",
+    "ru": "Обнаружена новая версия",
+    "type": "string"
+  },
+  {
+    "name": "install_next_time",
+    "zh": "下次再说",
+    "ru": "Позже",
+    "type": "string"
+  },
+  {
+    "name": "install_now",
+    "zh": "现在升级",
+    "ru": "Обновить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "install_result_dialog_version",
+    "zh": "车辆已成功升级到%s",
+    "ru": "Автомобиль успешно обновлён до %s",
+    "type": "string"
+  },
+  {
+    "name": "install_result_fail_content",
+    "zh": "%s版本升级失败(%d)",
+    "ru": "Не удалось обновить версию %s (%d)",
+    "type": "string"
+  },
+  {
+    "name": "install_result_fail_tip",
+    "zh": "请联系维保中心处理",
+    "ru": "Пожалуйста, обратитесь в сервисный центр",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip",
+    "zh": "升级过程中车辆不能使用，您可以锁车离开，不必等待",
+    "ru": "Во время обновления автомобиль нельзя использовать, вы можете заблокировать его и уйти, ждать не нужно",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip1",
+    "zh": "升级过程中车辆不能使用！",
+    "ru": "Во время обновления автомобиль нельзя использовать!",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip2",
+    "zh": "升级期间，您可以锁车离开，不必等待！",
+    "ru": "Во время обновления вы можете заблокировать автомобиль и уйти, ждать не нужно!",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip2_default",
+    "zh": "整个升级过程可能会比较长，请耐心等待！",
+    "ru": "Весь процесс обновления может занять довольно много времени, пожалуйста, наберитесь терпения!",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip3",
+    "zh": "升级过程中，进度可能偶有停滞，请耐心等待！",
+    "ru": "В процессе обновления прогресс может временно останавливаться, пожалуйста, наберитесь терпения!",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip4",
+    "zh": "升级过程中，仪表、中控短暂熄屏或闪烁属于正常现象！",
+    "ru": "Во время обновления кратковременное гашение или мерцание приборной панели и центрального дисплея — нормальное явление!",
+    "type": "string"
+  },
+  {
+    "name": "installing_tip_time",
+    "zh": "预计%s分钟",
+    "ru": "Ожидается %s мин",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_check_success",
+    "zh": "校验成功",
+    "ru": "Проверка успешна",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_checking",
+    "zh": "正在校验",
+    "ru": "Проверка...",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_install_exception",
+    "zh": "安装异常",
+    "ru": "Ошибка установки",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_install_failed",
+    "zh": "安装失败，系统即将重启",
+    "ru": "Установка не удалась. Система будет перезагружена.",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_install_start",
+    "zh": "正在升级：软件更新至%s",
+    "ru": "Обновление: ПО обновляется до %s",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_install_success",
+    "zh": "安装结束，系统即将重启",
+    "ru": "Установка завершена, система скоро перезагрузится.",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_installing",
+    "zh": "正在安装",
+    "ru": "Устанавливается...",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_one_success",
+    "zh": "安装成功",
+    "ru": "Установка успешна",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_preparing",
+    "zh": "正在准备安装",
+    "ru": "Подготовка к установке",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_revert_exception",
+    "zh": "恢复异常",
+    "ru": "Ошибка восстановления",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_revert_failed",
+    "zh": "恢复失败，系统即将重启",
+    "ru": "Сбой восстановления, система будет перезагружена",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_revert_one_success",
+    "zh": "恢复成功",
+    "ru": "Восстановление успешно",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_revert_start",
+    "zh": "开始恢复",
+    "ru": "Начало восстановления",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_revert_success",
+    "zh": "恢复结束，系统即将重启",
+    "ru": "Восстановление завершено, система скоро перезагрузится",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_reverting",
+    "zh": "正在恢复",
+    "ru": "Восстанавливается",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_rollback_start",
+    "zh": "正在回滚：软件更新至%s",
+    "ru": "Откат: обновление ПО до %s",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_transfer_success",
+    "zh": "传输成功",
+    "ru": "Передача успешна",
+    "type": "string"
+  },
+  {
+    "name": "installing_title_transferring",
+    "zh": "正在传输",
+    "ru": "Передаётся",
+    "type": "string"
+  },
+  {
+    "name": "latest_version",
+    "zh": "已是最新版本",
+    "ru": "Это последняя версия",
+    "type": "string"
+  },
+  {
+    "name": "leave_install_content",
+    "zh": "您已选择锁车升级，系统将在您离车锁门后自动安装，安装期间请勿停留在车内。",
+    "ru": "Вы выбрали режим обновления при заблокированном автомобиле. После того как вы покинете салон и закроете двери, установка будет выполнена автоматически. Во время установки не оставайтесь в автомобиле.",
+    "type": "string"
+  },
+  {
+    "name": "leave_install_setup",
+    "zh": "锁车升级设置中…",
+    "ru": "Настройка обновления при заблокированном автомобиле…",
+    "type": "string"
+  },
+  {
+    "name": "leave_install_tips",
+    "zh": "注意：请保证离车后挡位在P挡，蓄电池电量不少于60%，拉起手刹",
+    "ru": "Внимание: после выхода из автомобиля убедитесь, что селектор передач находится в положении «P», заряд аккумулятора составляет не менее 60%, а ручной тормоз затянут",
+    "type": "string"
+  },
+  {
+    "name": "leave_install_title",
+    "zh": "升级提示",
+    "ru": "Обновление",
+    "type": "string"
+  },
+  {
+    "name": "leave_install_yes",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "ll_dialog_result_fail_tips",
+    "zh": "最多重试安装3次，已经进行过%d次重试",
+    "ru": "Максимум 3 попытки повторной установки, уже выполнено %d попыток",
+    "type": "string"
+  },
+  {
+    "name": "loading_tip_check_update",
+    "zh": "正在检查更新…",
+    "ru": "Проверка обновления…",
+    "type": "string"
+  },
+  {
+    "name": "log_collecting",
+    "zh": "日志收集中…",
+    "ru": "Сбор журналов…",
+    "type": "string"
+  },
+  {
+    "name": "main_btn_console",
+    "zh": "工程模式",
+    "ru": "Инженерный режим",
+    "type": "string"
+  },
+  {
+    "name": "main_btn_fota",
+    "zh": "系统升级",
+    "ru": "Обновление системы",
+    "type": "string"
+  },
+  {
+    "name": "main_btn_setting",
+    "zh": "升级设置",
+    "ru": "Настройки обновления",
+    "type": "string"
+  },
+  {
+    "name": "main_btn_upgrade",
+    "zh": "在线升级",
+    "ru": "Онлайн-обновление",
+    "type": "string"
+  },
+  {
+    "name": "main_btn_usb",
+    "zh": "USB升级",
+    "ru": "Обновление через USB",
+    "type": "string"
+  },
+  {
+    "name": "main_version_infos_title",
+    "zh": "版本信息：",
+    "ru": "Информация о версии:",
+    "type": "string"
+  },
+  {
+    "name": "mask_check_tip",
+    "zh": "正在检测安装条件，请稍候",
+    "ru": "Идёт проверка условий установки, пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "mask_install_error_content_file",
+    "zh": "升级文件被篡改，系统即将重启！",
+    "ru": "Файл обновления был скомпрометирован, система скоро перезагрузится!",
+    "type": "string"
+  },
+  {
+    "name": "mask_power_status_tip",
+    "zh": "车辆未处于上电状态，请将车辆上电",
+    "ru": "Питание автомобиля не включено, пожалуйста, включите питание",
+    "type": "string"
+  },
+  {
+    "name": "mask_self_upgrade_tip",
+    "zh": "正在进行FOTA自升级，请稍候",
+    "ru": "Выполняется самообновление FOTA, пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "message_install_error_gear",
+    "zh": "请将挡位挂到P挡",
+    "ru": "Пожалуйста, переведите селектор передач в положение P",
+    "type": "string"
+  },
+  {
+    "name": "message_install_error_speed",
+    "zh": "请保持车辆静止",
+    "ru": "Не перемещайте автомобиль",
+    "type": "string"
+  },
+  {
+    "name": "message_install_error_status",
+    "zh": "请将电源挡位切换到ON挡",
+    "ru": "Пожалуйста, переведите переключатель питания в положение ВКЛ.",
+    "type": "string"
+  },
+  {
+    "name": "message_installing",
+    "zh": "升级服务忙，请稍后重试",
+    "ru": "Служба обновления занята, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "mode_preparation",
+    "zh": "模式准备",
+    "ru": "Подготовка режима",
+    "type": "string"
+  },
+  {
+    "name": "more_detail_btn",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "more_info_string",
+    "zh": "更多",
+    "ru": "Больше",
+    "type": "string"
+  },
+  {
+    "name": "net_request",
+    "zh": "云端请求",
+    "ru": "Запрос к облаку",
+    "type": "string"
+  },
+  {
+    "name": "net_rollback_request",
+    "zh": "回滚信息请求",
+    "ru": "Запрос информации об откате",
+    "type": "string"
+  },
+  {
+    "name": "net_task_request",
+    "zh": "任务信息请求",
+    "ru": "Запрос информации о задаче",
+    "type": "string"
+  },
+  {
+    "name": "network_change_tips",
+    "zh": "检测到您的网络环境为WIFI,继续下载会消耗您的流量",
+    "ru": "Обнаружено подключение к Wi-Fi, продолжение загрузки будет расходовать ваш мобильный трафик",
+    "type": "string"
+  },
+  {
+    "name": "network_fail_tip",
+    "zh": "\"1.请检查网络状态是否正常。\n2.请尝试重试。\"",
+    "ru": "\"1. Проверьте состояние сети.\\n2. Попробуйте повторить попытку.\"",
+    "type": "string"
+  },
+  {
+    "name": "network_setting",
+    "zh": "网络设置",
+    "ru": "Настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "never_remind_content",
+    "zh": "确认后默认忽略该版本的更新，系统将不再弹出任何该版本的升级提醒",
+    "ru": "После подтверждения обновления этой версии будут игнорироваться по умолчанию, и система больше не будет показывать уведомления об обновлении этой версии",
+    "type": "string"
+  },
+  {
+    "name": "new_version_btn_content",
+    "zh": "检测到新版本，可进行下载",
+    "ru": "Обнаружена новая версия, доступна для скачивания",
+    "type": "string"
+  },
+  {
+    "name": "new_version_btn_download",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "new_version_btn_next",
+    "zh": "下次提醒",
+    "ru": "Напомнить позже",
+    "type": "string"
+  },
+  {
+    "name": "new_version_btn_remind_next_time",
+    "zh": "下次再说",
+    "ru": "Позже",
+    "type": "string"
+  },
+  {
+    "name": "new_version_ignore",
+    "zh": "忽略该版本",
+    "ru": "Игнорировать эту версию",
+    "type": "string"
+  },
+  {
+    "name": "new_version_size_title",
+    "zh": "升级包大小：",
+    "ru": "Размер пакета обновления:",
+    "type": "string"
+  },
+  {
+    "name": "new_version_text_download_init",
+    "zh": "下载准备中…",
+    "ru": "Подготовка к скачиванию…",
+    "type": "string"
+  },
+  {
+    "name": "no_more_dialog",
+    "zh": "不再提示",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "no_more_remind",
+    "zh": "不再提醒，如需升级请点击“车辆升级”手动升级",
+    "ru": "Больше не напоминать. Если требуется обновление, нажмите «Обновление автомобиля» для ручного обновления",
+    "type": "string"
+  },
+  {
+    "name": "no_space",
+    "zh": "储存空间不足",
+    "ru": "Недостаточно места в хранилище",
+    "type": "string"
+  },
+  {
+    "name": "no_space_title",
+    "zh": "请联系深蓝客服中心处理，客服中心电话(951998)。",
+    "ru": "Обратитесь в службу поддержки Deepal. Телефон: (951998).",
+    "type": "string"
+  },
+  {
+    "name": "no_usb",
+    "zh": "未插入U盘",
+    "ru": "U-диск не вставлен",
+    "type": "string"
+  },
+  {
+    "name": "not_connect_network",
+    "zh": "当前网络不可用",
+    "ru": "Сеть в данный момент недоступна",
+    "type": "string"
+  },
+  {
+    "name": "not_upgrade_dialog",
+    "zh": "未安装",
+    "ru": "Не установлен",
+    "type": "string"
+  },
+  {
+    "name": "notification_deploy_success",
+    "zh": "部署成功，点击查看",
+    "ru": "Развертывание выполнено успешно, нажмите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "notification_download",
+    "zh": "检测到新版本！",
+    "ru": "Обнаружена новая версия!",
+    "type": "string"
+  },
+  {
+    "name": "notification_download_failed",
+    "zh": "下载失败，点击重新下载!",
+    "ru": "Загрузка не удалась, нажмите для повторной загрузки!",
+    "type": "string"
+  },
+  {
+    "name": "notification_download_progress",
+    "zh": "已下载%s，请稍候",
+    "ru": "Уже загружено %s, подождите",
+    "type": "string"
+  },
+  {
+    "name": "notification_download_progress_down",
+    "zh": "已下载%s，点击查看",
+    "ru": "Загружено %s, нажмите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "notification_download_success",
+    "zh": "下载成功，点击查看",
+    "ru": "Загрузка завершена, нажмите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "notification_new_version",
+    "zh": "发现新版本",
+    "ru": "Доступна новая версия",
+    "type": "string"
+  },
+  {
+    "name": "notification_update",
+    "zh": "升级",
+    "ru": "Обновление",
+    "type": "string"
+  },
+  {
+    "name": "notification_version_content",
+    "zh": "约%s",
+    "ru": "Около %s",
+    "type": "string"
+  },
+  {
+    "name": "notification_version_title",
+    "zh": "未安装的升级包",
+    "ru": "Неустановленный пакет обновления",
+    "type": "string"
+  },
+  {
+    "name": "order_install_btn_yes",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "order_install_time_endfix",
+    "zh": "时",
+    "ru": "ч",
+    "type": "string"
+  },
+  {
+    "name": "order_install_time_minute",
+    "zh": "分",
+    "ru": "мин",
+    "type": "string"
+  },
+  {
+    "name": "order_install_title",
+    "zh": "预约升级时间设置",
+    "ru": "Настройка времени запланированного обновления",
+    "type": "string"
+  },
+  {
+    "name": "order_install_title_1",
+    "zh": "变更预约升级时间",
+    "ru": "Изменить время запланированного обновления",
+    "type": "string"
+  },
+  {
+    "name": "order_tip_today",
+    "zh": "今日",
+    "ru": "Сегодня",
+    "type": "string"
+  },
+  {
+    "name": "order_tip_tomorrow",
+    "zh": "明日",
+    "ru": "Завтра",
+    "type": "string"
+  },
+  {
+    "name": "order_tips",
+    "zh": "升级过程中车辆将⽆法⾏驶且车辆部分功能将⽆法使⽤。在软件版本升级过程中，如果遇到任何问题，您可以联系客服中⼼。",
+    "ru": "Во время обновления автомобиль не сможет передвигаться, а некоторые функции будут недоступны. Если во время обновления ПО возникнут какие-либо проблемы, обратитесь в службу поддержки.",
+    "type": "string"
+  },
+  {
+    "name": "ota_state_machine",
+    "zh": "状态机查询",
+    "ru": "Автомат состояний",
+    "type": "string"
+  },
+  {
+    "name": "ota_upgrade_checking",
+    "zh": "更新检测中…",
+    "ru": "Проверка обновлений…",
+    "type": "string"
+  },
+  {
+    "name": "park_brake_condition_fail",
+    "zh": "请拉起手刹",
+    "ru": "Включите ручной тормоз",
+    "type": "string"
+  },
+  {
+    "name": "prompt_install_checking",
+    "zh": "数据准备中…",
+    "ru": "Подготовка данных…",
+    "type": "string"
+  },
+  {
+    "name": "pts_tip",
+    "zh": "PTS控制器升级成功，请进行初始化，操作方式见车辆的《使用说明书》->电动背门/电动尾翼初始化。",
+    "ru": "Обновление PTS-контроллера успешно завершено. Выполните инициализацию, см. «Руководство по эксплуатации» автомобиля -> Инициализация электропривода двери багажника/спойлера.",
+    "type": "string"
+  },
+  {
+    "name": "random_check_please_input_random_code",
+    "zh": "请输入校验码",
+    "ru": "Введите проверочный код",
+    "type": "string"
+  },
+  {
+    "name": "random_check_title",
+    "zh": "随机码校验",
+    "ru": "Проверка случайного кода",
+    "type": "string"
+  },
+  {
+    "name": "remain_download_time_d",
+    "zh": "剩余下载时间：超过1天",
+    "ru": "Оставшееся время загрузки: более 1 дня",
+    "type": "string"
+  },
+  {
+    "name": "remain_download_time_default",
+    "zh": "大约剩余下载时间：3小时左右",
+    "ru": "Ориентировочное оставшееся время загрузки: около 3 часов",
+    "type": "string"
+  },
+  {
+    "name": "remain_download_time_h",
+    "zh": "剩余下载时间：%d小时%d分钟",
+    "ru": "Оставшееся время загрузки: %d ч %d мин",
+    "type": "string"
+  },
+  {
+    "name": "remain_download_time_m",
+    "zh": "剩余下载时间：%d分钟",
+    "ru": "Оставшееся время загрузки: %d минут",
+    "type": "string"
+  },
+  {
+    "name": "remain_download_time_s",
+    "zh": "剩余下载时间：%d秒",
+    "ru": "Оставшееся время загрузки: %d сек.",
+    "type": "string"
+  },
+  {
+    "name": "result_condition_not_meet_tips",
+    "zh": "升级条件不满足",
+    "ru": "Условия обновления не выполнены",
+    "type": "string"
+  },
+  {
+    "name": "result_condition_not_meet_tips_1",
+    "zh": "升级时条件不满足，未进行升级，请重新发起升级",
+    "ru": "Условия обновления не выполнены, обновление не выполнено. Повторите попытку обновления",
+    "type": "string"
+  },
+  {
+    "name": "resume_download_btn_resume",
+    "zh": "继续下载",
+    "ru": "Продолжить загрузку",
+    "type": "string"
+  },
+  {
+    "name": "retry_check_version",
+    "zh": "重新检测",
+    "ru": "Повторная проверка",
+    "type": "string"
+  },
+  {
+    "name": "retry_check_version_new",
+    "zh": "检测并下载",
+    "ru": "Проверить и загрузить",
+    "type": "string"
+  },
+  {
+    "name": "roll_backing_dialog",
+    "zh": "回滚中",
+    "ru": "Идёт откат...",
+    "type": "string"
+  },
+  {
+    "name": "rollback_fail_dialog",
+    "zh": "回滚失败",
+    "ru": "Откат не удался",
+    "type": "string"
+  },
+  {
+    "name": "rollback_success_dialog",
+    "zh": "回滚成功",
+    "ru": "Откат выполнен успешно",
+    "type": "string"
+  },
+  {
+    "name": "rollback_success_dialog_content",
+    "zh": "已成功回滚，功能已恢复正常",
+    "ru": "Откат выполнен успешно, функции восстановлены.",
+    "type": "string"
+  },
+  {
+    "name": "rollback_tip",
+    "zh": "回滚过程中车辆不能使用，您可以锁车离开，不必等待",
+    "ru": "Во время отката автомобиль использовать нельзя, вы можете заблокировать его и уйти, ждать не нужно.",
+    "type": "string"
+  },
+  {
+    "name": "rollback_tip1",
+    "zh": "回滚过程中车辆不能使用！",
+    "ru": "Во время отката использование автомобиля невозможно!",
+    "type": "string"
+  },
+  {
+    "name": "rollback_tip2",
+    "zh": "回滚期间，您可以锁车离开，不必等待！",
+    "ru": "Во время отката вы можете заблокировать автомобиль и уйти, ждать не нужно!",
+    "type": "string"
+  },
+  {
+    "name": "rollback_tip3",
+    "zh": "回滚需要一段时间，请耐心等待！",
+    "ru": "Откат займёт некоторое время, пожалуйста, подождите!",
+    "type": "string"
+  },
+  {
+    "name": "rollback_tip_time",
+    "zh": "系统恢复中，请耐心等待!",
+    "ru": "Система восстанавливается, пожалуйста, подождите!",
+    "type": "string"
+  },
+  {
+    "name": "silent_upgrade",
+    "zh": "静默升级中…",
+    "ru": "Фоновое обновление…",
+    "type": "string"
+  },
+  {
+    "name": "skip_install_condition_check",
+    "zh": "跳过VOM安装条件检测",
+    "ru": "Пропустить проверку условий установки VOM",
+    "type": "string"
+  },
+  {
+    "name": "skip_power",
+    "zh": "跳过挡位检测",
+    "ru": "Пропустить проверку передачи",
+    "type": "string"
+  },
+  {
+    "name": "slcm_tip",
+    "zh": "车窗控制器升级成功，请进行初始化，操作方式见车辆的《使用说明书》->车窗初始化。",
+    "ru": "Обновление контроллера окон выполнено успешно, выполните инициализацию. Порядок действий см. в «Руководстве по эксплуатации» автомобиля -> Инициализация окон.",
+    "type": "string"
+  },
+  {
+    "name": "soft_name_fota",
+    "zh": "系统升级",
+    "ru": "Обновление системы",
+    "type": "string"
+  },
+  {
+    "name": "software_download",
+    "zh": "软件下载",
+    "ru": "Загрузка ПО",
+    "type": "string"
+  },
+  {
+    "name": "space_clean_tip",
+    "zh": "新版本没有足够的空间，请清理以继续",
+    "ru": "Для новой версии недостаточно места. Выполните очистку, чтобы продолжить.",
+    "type": "string"
+  },
+  {
+    "name": "space_not_enough_btn_yes",
+    "zh": "清除",
+    "ru": "Очистить",
+    "type": "string"
+  },
+  {
+    "name": "space_not_enough_clean_success",
+    "zh": "清除成功",
+    "ru": "Очищено",
+    "type": "string"
+  },
+  {
+    "name": "space_not_enough_content_download",
+    "zh": "新版本没有足够的空间，请清理以继续",
+    "ru": "Недостаточно места для новой версии. Освободите место, чтобы продолжить.",
+    "type": "string"
+  },
+  {
+    "name": "space_not_enough_content_install_usb",
+    "zh": "USB安装空间不足，请清理内部存储空间以继续",
+    "ru": "Недостаточно места для установки с USB. Освободите внутреннее хранилище, чтобы продолжить.",
+    "type": "string"
+  },
+  {
+    "name": "space_not_enough_title",
+    "zh": "空间不足",
+    "ru": "Недостаточно места",
+    "type": "string"
+  },
+  {
+    "name": "tip_download_notify",
+    "zh": "下载过程中您不必关注，您可以用正常使用车辆，下载完成后系统将提示您安装",
+    "ru": "Во время загрузки вам не нужно на это обращать внимание — вы можете пользоваться автомобилем в обычном режиме. После завершения загрузки система предложит установить обновление.",
+    "type": "string"
+  },
+  {
+    "name": "tip_download_notify_header",
+    "zh": "温馨提示：",
+    "ru": "Напоминание:",
+    "type": "string"
+  },
+  {
+    "name": "tip_download_notify_prepare",
+    "zh": "数据准备中，您可以离开本界面正常使用车辆，数据准备完成后将提醒您升级",
+    "ru": "Идёт подготовка данных. Вы можете покинуть этот экран и пользоваться автомобилем в обычном режиме. После завершения подготовки система напомнит об обновлении.",
+    "type": "string"
+  },
+  {
+    "name": "tip_download_speed",
+    "zh": "下载速度：%sKB/S",
+    "ru": "Скорость загрузки: %s КБ/с",
+    "type": "string"
+  },
+  {
+    "name": "tip_download_use_mobile_data",
+    "zh": "正在使用基础流量下载新版本",
+    "ru": "Загрузка новой версии по мобильному интернету.",
+    "type": "string"
+  },
+  {
+    "name": "tip_leave_upgrade_content",
+    "zh": "\"本次升级预计耗时%d分钟，升级过程中车辆将无法行驶且部分车辆控制功能暂时无法使用。\n升级前请确认：\n1.车辆停靠在安全位置。\n2.车辆处于P挡。\n3.制动踏板未踩下。\n4.车辆未处于直流/交流充电或车外放电状态。\"",
+    "ru": "\"Обновление займёт примерно %d мин. Во время обновления автомобиль не сможет двигаться, а некоторые функции управления временно недоступны.\\nПеред обновлением убедитесь, что:\\n1. Автомобиль припаркован в безопасном месте.\\n2. КПП в положении P.\\n3. Педаль тормоза не нажата.\\n4. Автомобиль не находится в режиме зарядки постоянным/переменным током или внешней разрядки.\"",
+    "type": "string"
+  },
+  {
+    "name": "tip_loading_waiting",
+    "zh": "请稍后",
+    "ru": "Подождите немного",
+    "type": "string"
+  },
+  {
+    "name": "tip_network_error",
+    "zh": "当前网络不可用",
+    "ru": "Сеть в данный момент недоступна",
+    "type": "string"
+  },
+  {
+    "name": "tip_new_version_default_title",
+    "zh": "检测到系统更新",
+    "ru": "Обнаружено обновление системы",
+    "type": "string"
+  },
+  {
+    "name": "tip_order_install_time",
+    "zh": "请选择有效的预约安装时间",
+    "ru": "Пожалуйста, выберите корректное время запланированной установки",
+    "type": "string"
+  },
+  {
+    "name": "tip_order_install_time_short",
+    "zh": "预约安装时间需在10分钟以后，请重新选择",
+    "ru": "Время установки должно быть назначено не ранее чем через 10 минут. Пожалуйста, выберите другое время",
+    "type": "string"
+  },
+  {
+    "name": "tip_order_upgrade_content",
+    "zh": "\"本次升级预计耗时%d分钟，升级过程中车辆将无法行驶且部分车辆控制功能暂时无法使用。\n升级前请确认：\n1.车辆停靠在安全位置。\n2.车辆处于P挡。\n3.制动踏板未踩下。\n4.车辆未处于直流/交流充电或车外放电状态。\n5.升级时间到达前请离开车辆并闭锁。\"",
+    "ru": "\"Обновление займёт примерно %d мин. Во время обновления автомобиль не сможет двигаться, а некоторые функции управления временно недоступны.\\nПеред обновлением убедитесь, что:\\n1. Автомобиль припаркован в безопасном месте.\\n2. КПП в положении P.\\n3. Педаль тормоза не нажата.\\n4. Автомобиль не находится в режиме зарядки постоянным/переменным током или внешней разрядки.\\n5. До начала обновления покиньте автомобиль и заблокируйте его.\"",
+    "type": "string"
+  },
+  {
+    "name": "tip_prepare_install_duration",
+    "zh": "本次安装预计耗时%s分钟",
+    "ru": "Установка займёт примерно %s мин",
+    "type": "string"
+  },
+  {
+    "name": "tip_result_check_version_error",
+    "zh": "检测更新异常",
+    "ru": "Ошибка обнаружения обновлений",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_content",
+    "zh": "\"本次升级预计耗时%d分钟，升级过程中车辆将无法行驶且部分车辆控制功能暂时无法使用。\n升级前请确认：\n1.车辆停靠在安全位置。\n2.车辆处于P挡。\n3.制动踏板未踩下。\n4.车辆未处于直流/交流充电或车外放电状态。\"",
+    "ru": "\"Обновление займёт примерно %d мин. Во время обновления автомобиль не сможет двигаться, а некоторые функции управления временно недоступны.\\nПеред обновлением убедитесь, что:\\n1. Автомобиль припаркован в безопасном месте.\\n2. КПП в положении P.\\n3. Педаль тормоза не нажата.\\n4. Автомобиль не находится в режиме зарядки постоянным/переменным током или внешнего разряда.\"",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_content_cond",
+    "zh": "\"升级条件检测中：\n1.请确保车辆已停靠在安全区域。\n2.升级过程中车辆将不能使用。\n3.请确保手刹拉起、挡杆拨到P挡。\n4.本次升级预计时间%d分钟。\n5.升级过程中，仪表、中控短暂熄屏属于正常现象。\"",
+    "ru": "\"Проверка условий обновления:\\n1. Убедитесь, что автомобиль припаркован в безопасном месте.\\n2. Во время обновления автомобиль будет недоступен для использования.\\n3. Убедитесь, что ручной тормоз поднят, а селектор КПП переведён в положение «P».\\n4. Ожидаемое время обновления: %d минут.\\n5. Кратковременное отключение экрана приборной панели и мультимедийной системы во время обновления является нормальным явлением.\"",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_count_down_over",
+    "zh": "我已阅读以上说明，和",
+    "ru": "Я ознакомился с приведёнными выше инструкциями, и",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_duration",
+    "zh": "本次安装预计耗时%s分钟",
+    "ru": "Установка займёт примерно %s мин.",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_more",
+    "zh": "你还可以选择",
+    "ru": "Вы также можете выбрать",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_service_agreement",
+    "zh": "《软件在线升级服务协议》",
+    "ru": "«Соглашение об услугах онлайн-обновления программного обеспечения»",
+    "type": "string"
+  },
+  {
+    "name": "tip_upgrade_title",
+    "zh": "升级提示：",
+    "ru": "Подсказка об обновлении:",
+    "type": "string"
+  },
+  {
+    "name": "tip_version_check_failure",
+    "zh": "异常代码：%s",
+    "ru": "Код исключения: %s",
+    "type": "string"
+  },
+  {
+    "name": "tip_version_latest",
+    "zh": "已经是最新版本!",
+    "ru": "Это уже последняя версия!",
+    "type": "string"
+  },
+  {
+    "name": "tip_version_load_failure",
+    "zh": "版本读取失败",
+    "ru": "Не удалось прочитать версию",
+    "type": "string"
+  },
+  {
+    "name": "top_content_check_update",
+    "zh": "检查更新",
+    "ru": "Проверить обновления",
+    "type": "string"
+  },
+  {
+    "name": "top_content_deploy",
+    "zh": "数据部署",
+    "ru": "Развёртывание данных",
+    "type": "string"
+  },
+  {
+    "name": "top_content_install_choose",
+    "zh": "升级安装",
+    "ru": "Установка обновления",
+    "type": "string"
+  },
+  {
+    "name": "top_content_install_result",
+    "zh": "升级反馈",
+    "ru": "Результат обновления",
+    "type": "string"
+  },
+  {
+    "name": "top_content_software_download",
+    "zh": "版本下载",
+    "ru": "Скачать версию",
+    "type": "string"
+  },
+  {
+    "name": "transmission_gear_condition_fail",
+    "zh": "请将挡位拨到P挡",
+    "ru": "Поставьте рычаг переключения передач в положение P",
+    "type": "string"
+  },
+  {
+    "name": "update_channel_error",
+    "zh": "升级通道异常(%d)",
+    "ru": "Сбой канала обновления (%d)",
+    "type": "string"
+  },
+  {
+    "name": "update_object",
+    "zh": "升级%s",
+    "ru": "Обновить %s",
+    "type": "string"
+  },
+  {
+    "name": "update_request_failed",
+    "zh": "升级请求失败(%d)",
+    "ru": "Запрос на обновление не удался (%d)",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_break_dialog",
+    "zh": "安装中断",
+    "ru": "Установка прервана",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_condition_checking",
+    "zh": "升级条件检查中",
+    "ru": "Проверка условий обновления...",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_condition_checking_text",
+    "zh": "车辆升级条件检查中",
+    "ru": "Проверка условий обновления автомобиля...",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_condition_not_satisfy",
+    "zh": "安装条件不满足",
+    "ru": "Условия установки не выполнены",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_content_title",
+    "zh": "更新内容",
+    "ru": "Что нового",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_factory",
+    "zh": "工程安装",
+    "ru": "Заводская установка",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_fail",
+    "zh": "升级失败(%d)",
+    "ru": "Обновление не удалось (%d)",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_failed_info_string",
+    "zh": "失败说明：",
+    "ru": "Описание ошибки:",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_info_string",
+    "zh": "新版本说明：",
+    "ru": "Что нового:",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_leave",
+    "zh": "锁车升级",
+    "ru": "Обновление, авто закрыто",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_not_support_usb",
+    "zh": "当前不支持USB升级",
+    "ru": "Обновление по USB в настоящее время не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_now",
+    "zh": "立即升级",
+    "ru": "Обновить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_order",
+    "zh": "预约升级",
+    "ru": "Запланировать",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_package_downloading",
+    "zh": "升级包下载中…",
+    "ru": "Загрузка пакета обновления…",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_pkg_check_fail",
+    "zh": "未检查到安装包",
+    "ru": "Установочный пакет не найден",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_pkg_checking",
+    "zh": "正在检查安装包…",
+    "ru": "Проверка установочного пакета…",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_service_agreement_exit",
+    "zh": "软件升级在线服务协议",
+    "ru": "Онлайн-соглашение об обновлении программного обеспечения",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_success",
+    "zh": "升级成功",
+    "ru": "Обновлено",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_test",
+    "zh": "安装测试",
+    "ru": "Тест установки",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_time",
+    "zh": "\"本次安装预计耗时\n%d分钟\"",
+    "ru": "\"Установка займёт примерно\\n%d мин.\"",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_tip_title",
+    "zh": "版本更新：",
+    "ru": "Обновление версии:",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_tip_title_1",
+    "zh": "当前更新：",
+    "ru": "Текущее обновление:",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_tips",
+    "zh": "\"升级提示：确保安全的前提下，请将车辆调整到以下状态\n1. 保持车辆静止\n2. 手刹拉起\n3. 挡杆拨到P\n4. 启动发动机（有ECU的时候，关闭发动机）\"",
+    "ru": "\"Уведомление об обновлении: Для обеспечения безопасности переведите автомобиль в следующее состояние:\\n1. Удерживайте автомобиль неподвижным\\n2. Затяните ручной тормоз\\n3. Переведите рычаг КПП в положение «P»\\n4. Запустите двигатель (при наличии ECU — выключите двигатель)\"",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_txt",
+    "zh": "立即安装",
+    "ru": "Установить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_warning",
+    "zh": "使用升级功能，请确保车辆停靠在安全区域。升级过程中，不能驾驶车辆。",
+    "ru": "При использовании функции обновления убедитесь, что автомобиль припаркован в безопасном месте. Во время обновления управлять автомобилем нельзя.",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_warning_new",
+    "zh": "使用升级功能，请确保车辆停放在安全区域。",
+    "ru": "Для использования функции обновления убедитесь, что автомобиль припаркован в безопасном месте.",
+    "type": "string"
+  },
+  {
+    "name": "upgrading_dialog",
+    "zh": "安装中",
+    "ru": "Устанавливается",
+    "type": "string"
+  },
+  {
+    "name": "upgrading_title",
+    "zh": "安装中",
+    "ru": "Устанавливается",
+    "type": "string"
+  },
+  {
+    "name": "usb_check_please_input_password",
+    "zh": "请输入口令",
+    "ru": "Введите пароль",
+    "type": "string"
+  },
+  {
+    "name": "usb_check_text_info",
+    "zh": "检测到降级安装，请输入口令后操作",
+    "ru": "Обнаружена установка более старой версии, введите пароль для продолжения",
+    "type": "string"
+  },
+  {
+    "name": "usb_check_text_info_error",
+    "zh": "口令检测错误",
+    "ru": "Ошибка проверки пароля",
+    "type": "string"
+  },
+  {
+    "name": "usb_file_copy_fail",
+    "zh": "文件拷贝失败(%d)",
+    "ru": "Не удалось скопировать файл (%d)",
+    "type": "string"
+  },
+  {
+    "name": "usb_upgrade",
+    "zh": "USB升级",
+    "ru": "Обновление через USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_upgrade_title",
+    "zh": "监测到U盘升级包",
+    "ru": "Обнаружен пакет обновления на USB-накопителе",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_fail",
+    "zh": "检测车控升级条件失败：%d，请重试",
+    "ru": "Не удалось проверить условия обновления системы управления: %d, повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_fail_energy",
+    "zh": "蓄电池电量不足，请在电量满足后尝试",
+    "ru": "Недостаточный заряд аккумулятора, повторите попытку при достаточном заряде",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_fail_engine",
+    "zh": "请关闭发动机",
+    "ru": "Выключите двигатель",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_fail_gear",
+    "zh": "请将电源挡位切换到ON挡",
+    "ru": "Переведите переключатель питания в положение ON",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_fail_speed",
+    "zh": "请保持车辆静止",
+    "ru": "Оставьте автомобиль неподвижным",
+    "type": "string"
+  },
+  {
+    "name": "vc_install_condition_title",
+    "zh": "升级条件提示",
+    "ru": "Условия обновления",
+    "type": "string"
+  },
+  {
+    "name": "vehicle_upgrade",
+    "zh": "车辆升级",
+    "ru": "Обновление автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "version_android",
+    "zh": "安卓版本：",
+    "ru": "Версия Android:",
+    "type": "string"
+  },
+  {
+    "name": "version_check",
+    "zh": "版本检查",
+    "ru": "Проверка версии",
+    "type": "string"
+  },
+  {
+    "name": "version_collect_fail",
+    "zh": "版本收集失败(%d)",
+    "ru": "Ошибка сбора версии (%d)",
+    "type": "string"
+  },
+  {
+    "name": "version_collect_retry",
+    "zh": "请尝试重新检测版本",
+    "ru": "Пожалуйста, попробуйте повторно проверить версию",
+    "type": "string"
+  },
+  {
+    "name": "version_collect_test",
+    "zh": "版本收集",
+    "ru": "Сбор версии",
+    "type": "string"
+  },
+  {
+    "name": "version_collecting",
+    "zh": "版本收集中…",
+    "ru": "Сбор версии…",
+    "type": "string"
+  },
+  {
+    "name": "version_cpu",
+    "zh": "处理器：",
+    "ru": "Процессор:",
+    "type": "string"
+  },
+  {
+    "name": "version_detail_title",
+    "zh": "当前版本详情",
+    "ru": "Детали текущей версии",
+    "type": "string"
+  },
+  {
+    "name": "version_info_detail",
+    "zh": "详情>",
+    "ru": "Подробнее >",
+    "type": "string"
+  },
+  {
+    "name": "version_info_name",
+    "zh": "当前版本：",
+    "ru": "Текущая версия:",
+    "type": "string"
+  },
+  {
+    "name": "version_info_name_1",
+    "zh": "当前版本：请稍后",
+    "ru": "Текущая версия: подождите",
+    "type": "string"
+  },
+  {
+    "name": "version_object",
+    "zh": "%s版本：",
+    "ru": "%s версия:",
+    "type": "string"
+  },
+  {
+    "name": "version_product",
+    "zh": "In Call 系统",
+    "ru": "Система In Call",
+    "type": "string"
+  },
+  {
+    "name": "version_ram",
+    "zh": "内存：",
+    "ru": "Память:",
+    "type": "string"
+  },
+  {
+    "name": "version_rom",
+    "zh": "系统容量：",
+    "ru": "Объём системы:",
+    "type": "string"
+  },
+  {
+    "name": "wait_upgrade_tips_4g",
+    "zh": "\"温馨提示：正在使用基础流量下载新版本\n下载过程您不必关注，您可以正常使用车辆，下载完成\n后系统将提示您升级！\"",
+    "ru": "\"Примечание: новая версия загружается по базовому пакету данных.\\nНе нужно следить за процессом — вы можете спокойно пользоваться автомобилем.\\nПосле завершения загрузки система уведомит вас о необходимости обновления!\"",
+    "type": "string"
+  },
+  {
+    "name": "wait_upgrade_tips_wifi",
+    "zh": "\"温馨提示：正在使用wifi流量下载新版本\n下载过程您不必关注，您可以正常使用车辆，下载完成\n后系统将提示您升级！\"",
+    "ru": "\"Примечание: новая версия загружается по Wi-Fi.\\nНе нужно следить за процессом — вы можете спокойно пользоваться автомобилем.\\nПосле завершения загрузки система уведомит вас о необходимости обновления!\"",
+    "type": "string"
+  },
+  {
+    "name": "wait_upgrade_title",
+    "zh": "检测到系统更新：",
+    "ru": "Обнаружено обновление системы:",
+    "type": "string"
+  },
+  {
+    "name": "wifi_download_tips",
+    "zh": "当前是WIFI网络连接，是否允许下载",
+    "ru": "Вы подключены к Wi-Fi. Разрешить загрузку?",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Кому",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "upgrade_service_agreement_content",
+    "zh": " <b>一、特别提示</b>\"\n 　　在此特别提醒您在使用车辆软件在线升级服务（On-The-Air，以下简称“OTA”）前，请认真阅读本《软件在线升级服务协议》（以下简称“协议”），并确保充分理解本协议，特别是免除或限制我方责任的条款、对用户进行限制的条款等。本协议由深蓝汽车科技有限公司（以下简称“我们”或“深蓝汽车”）提供，本协议中的“您”与“用户”指使用OTA服务的个人。\n 　　本协议约定我们与您之间关于车辆OTA服务的权利义务。除非您已充分阅读、完全理解并接受本协议所有条款，否则您无权使用OTA服务，您使用OTA服务即视为您已阅读并同意签署本协议。本协议可根据需要随时更新，更新后的协议条款一旦公布即代替原来的协议条款，您可在软件在线升级前的提示界面中查阅最新版协议条款。在修改协议条款后，\"<b>如果您不接受修改后的条款，请立即停止使用OTA服务，您继续使用OTA服务将被视为接受修改后的协议。</b>\"\n 二、用户声明和保证\n 　　您明确声明和保证为具有完全民事行为能力的民事主体，具备足够的法律权利或授权来签署和履行本协议，您对本协议的签署和履行不会对您需履行的其他任何协议造成冲突或者导致违约。\n 三、OTA服务内容\n 　　1、OTA 服务可以对车辆内部软件进行升级，从而使车内软件系统保持最新的或者合适的版本，提升车辆性能或者引入新的功能。\n 　　2、OTA服务的具体服务内容由我们基于实际情况提供，包括但不限于如下内容：\n 　　（1）立即升级\n 　　在OTA升级界面中，当您在车内点击“立即安装”时，车载系统将立即触发软件安装流程，此过程需要一定时间，在完成软件安装后，车载系统将告知您安装结果。\n 　　（2）稍后升级\n 　　在OTA升级界面中，当您在车内点击“稍后提醒”时，车载系统将会在一段时间后再次提示您选择软件安装方式。\n 　　（3）预约升级\n 　　在OTA升级界面中，当您在车内或深蓝汽车APP中点击“预约安装”，并设定具体安装时间后，车载系统将会在指定时间运行软件安装流程。\n 　　3、在使用OTA升级服务前，请务必认真阅读并遵守如下注意事项：\n 　　（1）请确保车辆处于安全位置；\n 　　（2）OTA 服务依赖网络进行数据传输、升级包下载、结果上报等动作，请您确保良好的网络连接；\n 　　（3）请确保车辆处于驻车挡位，未处于充电中；软件升级过程中，车辆将无法行驶且无法充电，请勿行驶车辆；\n 　　（4）请确保车辆车窗、天窗、尾门、前备箱处于关闭状态；\n 　　（5）请确保在软件升级过程中OBD诊断接口未外接任何设备；\n 　　（6）软件升级过程中，如短暂提示故障、熄屏属于正常现象。\n 四、个人信息收集\n 　　\"<b>您理解并同意，在您使用OTA服务过程中，我们会收集您车载终端的唯一设备标识符、系统版本、服务提供商（移动、联通、电信）、国际移动设备识别码（IMEI）、接入网络方式/类型/状态、MAC地址、设备型号、设备类型、设备版本及您输入的升级偏好信息，此类信息是用于识别车内软件的当前版本及对应升级版本的情况以及用于提供系统判断当前网络状态是否能够支撑OTA升级服务，用户升级习惯用于提供用户偏好升级包的情况，保障向您提供的升级功能能够安全稳定进行。</b>\"\n 五、服务的终止、变更、中断\n 　　1、服务的终止\n 　　您理解并同意，在下列情况下，我们有权终止向用户提供服务：\n 　　（1）在用户违反本服务协议相关规定时，我们有权终止向该用户提供服务。\n 　　（2）本服务条款终止或更新时，用户明示不愿接受新的服务条款；\n 　　（3）用户的使用导致我们的合法权利遭受侵害；\n 　　（4）由于法律法规政策等原因必须终止服务。\n 　　2、服务的变更、中断\n 　　您理解并同意：\n 　　（1）鉴于OTA服务的特殊性，用户同意我们会变更、中断部分或全部的OTA服务，并删除OTA服务过程中产生的数据信息，我们将不再另行通知，用户理解并不会因此追究我们责任。\n 　　（2）我们需要定期或不定期地对提供OTA服务的平台进行检测或者更新，如因此类情况而造成OTA服务在合理时间内的中断，用户理解并不会因此追究我们责任。\n 　　（3）对于OTA服务的提供，我们将努力保持其处于最佳状态，但是OTA服务涉及车辆电子电气系统、车载无线通讯设备、网络通讯服务传输、后台系统、用户手机的正常工作、以及用户对车辆的正确操作等诸多因素，可能涉及因网络不稳定、恶意攻击，我们对提供的OTA服务的内容和服务不间断性不能做出保证，用户使用 OTA 系统进行软件升级时应承担以上风险。\n 　　（4）因前项描述的OTA服务依赖的因素而导致OTA服务的停止，不能使用以及服务内容的变更，用户理解并不会因此追究我们责任。\n 　　（5）OTA服务的部分内容需要用户的手机操作来实现。请勿在驾驶途中操作手机。因驾驶途中操作手机引起的交通事故及其他事件，本公司不承担任何责任。\n 　　（6）当发生如战争、动乱、罢工、地震、海啸、火灾、停电等企业不可抗力原因发生的OTA服务的停止、不能使用，用户理解并不会因此追究我们责任。\n 六、服务条款的修改\n 　　1、基于OTA服务特殊性，我们有权根据实际情况修改本服务条款的任何内容，并通过适当方式向用户提示修改内容。\n 　　2、如果您不同意我们对本服务条款所做的修改，您有权停止使用OTA服务。\n 　　3、在我们发送修改通知后15日内，如果用户未提出书面异议并继续使用OTA服务，则视为用户接受我们对本服务条款所做的修改。\n 七、免责与赔偿声明\n 　　\"<b>1、若我们已经明示其服务提供方式发生变更并提醒用户应当注意事项，用户未按要求操作所产生的一切后果由用户自行承担。</b>\"\n 　　\"<b>2、用户明确同意其使用OTA服务所存在的风险将完全由其自己承担，因其使用OTA服务而产生的一切后果也由其自己承担。</b>\"\n 　　\"<b>3、用户在使用OTA服务时有违法、不真实、不正当、侵犯第三方合法权益的行为，或用户违反本协议项下的任何条款而给我们及任何其他第三方造成损失，用户同意承担由此造成的损害赔偿责任。</b>\"\n 八、其他\n 　　1、我们郑重提醒用户注意本协议中免除我们责任和限制用户权利的条款，请用户仔细阅读，自主考虑风险。如果您因年龄、智力等因素而不具有完全民事行为能力，请在法定监护人的陪同下阅读和判断是否同意本协议。若不同意，您有权停止使用OTA服务。一旦您使用OTA服务，即视为您已在法定监护人的陪同下阅读并充分理解本协议的全部内容，完全同意并签署、遵守本协议。\n 　　2、本协议的成立、效力、履行、解释及纠纷解决等相关事宜，均适用于中华人民共和国大陆地区法律。若用户和我们之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，用户同意将纠纷或争议提交深蓝汽车所在地有管辖权的人民法院管辖。\n 　　3、本协议签订地位于中华人民共和国重庆市江北区。\n 　　4、本协议的任何条款无论因何种原因无效或不具可执行性，其余条款仍有效，对双方具有约束力。\n 　　5、本协议一经同意即刻生效。\n \"",
+    "ru": " <b>1. Особые указания</b>\"\n 　　Особым образом обращаем ваше внимание: перед использованием услуги онлайн-обновления программного обеспечения автомобиля (On-The-Air, далее — \"OTA\") внимательно прочитайте настоящее «Соглашение об онлайн-обновлении программного обеспечения» (далее — «Соглашение») и убедитесь, что полностью понимаете его, в особенности положения, освобождающие или ограничивающие нашу ответственность, положения, ограничивающие права пользователей, и т. д. Настоящее Соглашение предоставляется компанией Deepal Automotive Technology Co., Ltd. (далее — «мы» или «Deepal»). В настоящем Соглашении «вы» и «пользователь» означают физическое лицо, использующее услугу OTA.\n 　　Настоящее Соглашение определяет права и обязанности между нами и вами в отношении услуги OTA для автомобиля. Если вы не прочитали, полностью не поняли и не приняли все условия настоящего Соглашения, вы не имеете права использовать услугу OTA. Использование вами услуги OTA означает, что вы прочитали и согласны подписать настоящее Соглашение. Настоящее Соглашение может быть обновлено в любой момент по мере необходимости; обновлённые условия вступают в силу с момента их публикации и заменяют прежние условия. Вы можете ознакомиться с последней версией условий Соглашения на экране уведомлений перед онлайн-обновлением программного обеспечения. После изменения условий Соглашения<b>если вы не принимаете изменённые условия, немедленно прекратите использование услуги OTA. Продолжение использования услуги OTA будет рассматриваться как принятие изменённого Соглашения.</b>\"\n 2. Заявления и гарантии пользователя\n 　　Вы явно заявляете и гарантируете, что являетесь субъектом гражданских прав, обладающим полной дееспособностью, имеющим достаточные правовые права или полномочия для подписания и исполнения настоящего Соглашения. Подписание и исполнение вами настоящего Соглашения не вступают в противоречие с какими-либо иными соглашениями, которые вы обязаны исполнять, и не приводят к нарушению обязательств.\n 3. Содержание услуги OTA\n 　　1. Услуга OTA позволяет обновлять внутреннее программное обеспечение автомобиля, чтобы система программного обеспечения в автомобиле оставалась на последней или подходящей версии, повышая характеристики автомобиля или внедряя новые функции.\n 　　2. Конкретное содержание услуги OTA предоставляется нами на основе фактической ситуации, включая, но не ограничиваясь следующим:\n 　　(1) Немедленное обновление\n 　　На экране обновления OTA, когда вы нажимаете «Установить сейчас» в салоне автомобиля, бортовая система немедленно запустит процесс установки программного обеспечения. Этот процесс занимает определённое время. После завершения установки бортовая система сообщит вам о результате.\n 　　(2) Отложенное обновление\n 　　На экране обновления OTA, когда вы нажимаете «Напомнить позже» в салоне автомобиля, бортовая система через некоторое время снова предложит вам выбрать способ установки программного обеспечения.\n 　　(3) Запланированное обновление\n 　　На экране обновления OTA, когда вы нажимаете «Запланировать установку» в салоне автомобиля или в приложении Deepal и задаёте конкретное время установки, бортовая система запустит процесс установки программного обеспечения в указанное время.\n 　　3. Перед использованием услуги обновления OTA обязательно внимательно прочитайте и соблюдайте следующие рекомендации:\n 　　(1) Убедитесь, что автомобиль находится в безопасном месте;\n 　　(2) Услуга OTA зависит от сети для передачи данных, загрузки пакета обновления, отчёта о результатах и т. д. Убедитесь в стабильном сетевом подключении;\n 　　(3) Убедитесь, что автомобиль находится на парковочной передаче и не находится в процессе зарядки. В процессе обновления программного обеспечения автомобиль не сможет двигаться и не сможет заряжаться — не перемещайте автомобиль;\n 　　(4) Убедитесь, что окна, люк крыши, задняя дверь и передний багажник автомобиля закрыты;\n 　　(5) Убедитесь, что во время обновления программного обеспечения к диагностическому разъёму OBD не подключены никакие внешние устройства;\n 　　(6) Во время обновления программного обеспечения кратковременные сообщения об ошибках и отключение экрана являются нормальным явлением.\n 4. Сбор персональных данных\n 　　\"<b>Вы понимаете и соглашаетесь с тем, что в процессе использования вами услуги OTA мы собираем уникальный идентификатор вашего бортового терминала, версию системы, провайдера (China Mobile, China Unicom, China Telecom), международный идентификатор мобильного устройства (IMEI), способ/тип/статус подключения к сети, MAC-адрес, модель устройства, тип устройства, версию устройства, а также информацию о ваших предпочтениях по обновлению. Указанная информация используется для определения текущей версии программного обеспечения в автомобиле и соответствующей версии обновления, а также для определения системой того, поддерживает ли текущее состояние сети услугу обновления OTA. Привычки пользователя по обновлению используются для предоставления предпочтительного пакета обновления, чтобы обеспечить стабильную и безопасную работу функции обновления, предоставляемой вам.</b>V. Прекращение, изменение и прерывание услуг\n1. Прекращение услуг\nВы понимаете и соглашаетесь с тем, что в следующих случаях мы имеем право прекратить предоставление услуг пользователю:\n(1) При нарушении пользователем соответствующих положений настоящего соглашения мы имеем право прекратить предоставление услуг данному пользователю.\n(2) При прекращении или обновлении настоящих условий обслуживания пользователь явно выражает нежелание принимать новые условия обслуживания;\n(3) Использование со стороны пользователя приводит к нарушению наших законных прав;\n(4) Прекращение услуг необходимо в связи с требованиями законодательства, нормативных актов и государствен<b>1. Если мы явно уведомили об изменении способа предоставления услуг и предупредили пользователя о необходимых мерах, все последствия, возникшие в результате несоблюдения пользователем требований, несёт сам пользователь.</b>\"\n 　　\"<b>2. Пользователь явно соглашается, что все риски, связанные с использованием услуги OTA, полностью принимаются им на себя, а все последствия, возникшие в результате использования услуги OTA, также полностью ложатся на него.</b>\"\n 　　\"<b>3. Если при использовании услуги OTA пользователь совершает незаконные, недобросовестные или неправомерные действия, нарушающие законные права и интересы третьих лиц, либо нарушает любые положения настоящего Соглашения, причиняя ущерб нам и/или любым другим третьим лицам, пользователь соглашается нести ответственность за возмещение причинённого ущерба.</b>\"\n VIII. Прочее\n 1. Мы настоятельно рекомендуем пользователям обратить внимание на положения настоящего Соглашения, освобождающие нас от ответственности и ограничивающие права пользователей. Просьба внимательно ознакомиться с ними и самостоятельно оценить риски. Если вы по возрасту, состоянию здоровья или иным причинам не обладаете полной дееспособностью, просим ознакомиться с настоящим Соглашением и принять решение о его принятии в присутствии законного представителя. В случае несогласия вы вправе прекратить использование услуги OTA. Использование услуги OTA означает, что вы в присутствии законного представителя ознакомились и полностью поняли все положения настоящего Соглашения, полностью согласны с ним, подписали и обязуетесь его соблюдать.\n 2. Заключение, действительность, исполнение, толкование и разрешение споров по настоящему Соглашению регулируются законодательством материковой части Китайской Народной Республики. В случае возникновения любых споров или разногласий между пользователем и нами стороны в первую очередь стремятся к их урегулированию путём дружественных переговоров. При недостижении согласия пользователь соглашается передать спор или разногласие на рассмотрение суда, имеющего юрисдикцию по месту нахождения Deepal.\n 3. Место заключения настоящего Соглашения — район Цзянбэй, г. Чунцин, Китайская Народная Республика.\n 4. Если какое-либо положение настоящего Соглашения по какой-либо причине признаётся недействительным или не подлежащим исполнению, остальные положения сохраняют силу и обязательны для обеих сторон.\n 5. Настоящее Соглашение вступает в силу с момента его принятия.\n \"",
+    "type": "string",
+    "styled": true
+  }
+]

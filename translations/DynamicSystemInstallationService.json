@@ -1,0 +1,74 @@
+[
+  {
+    "name": "keyguard_description",
+    "zh": "请输入您的密码，以便继续使用动态系统更新",
+    "ru": "Введите пароль, чтобы продолжить обновление динамической системы.",
+    "type": "string"
+  },
+  {
+    "name": "notification_action_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "notification_action_discard",
+    "zh": "舍弃",
+    "ru": "Отклонить",
+    "type": "string"
+  },
+  {
+    "name": "notification_action_reboot_to_dynsystem",
+    "zh": "重启",
+    "ru": "Перезагрузка",
+    "type": "string"
+  },
+  {
+    "name": "notification_action_reboot_to_origin",
+    "zh": "重启",
+    "ru": "Перезагрузка",
+    "type": "string"
+  },
+  {
+    "name": "notification_dynsystem_in_use",
+    "zh": "目前正在运行动态系统。需重启才能使用原 Android 版本。",
+    "ru": "Сейчас работает динамическая система. Для перехода на исходную версию Android требуется перезагрузка.",
+    "type": "string"
+  },
+  {
+    "name": "notification_image_validation_failed",
+    "zh": "映像验证失败。安装将中止。",
+    "ru": "Не удалось проверить образ. Установка будет прервана.",
+    "type": "string"
+  },
+  {
+    "name": "notification_install_completed",
+    "zh": "动态系统已准备就绪。重启您的设备即可开始使用动态系统。",
+    "ru": "Динамическая система готова. Перезагрузите устройство, чтобы начать работу с динамической системой.",
+    "type": "string"
+  },
+  {
+    "name": "notification_install_failed",
+    "zh": "安装失败",
+    "ru": "Установка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "notification_install_inprogress",
+    "zh": "正在安装",
+    "ru": "Устанавливается...",
+    "type": "string"
+  },
+  {
+    "name": "toast_dynsystem_discarded",
+    "zh": "已舍弃动态系统",
+    "ru": "Динамическая система отклонена",
+    "type": "string"
+  },
+  {
+    "name": "toast_failed_to_reboot_to_dynsystem",
+    "zh": "无法重启或加载动态系统",
+    "ru": "Не удалось перезапустить или загрузить динамическую систему",
+    "type": "string"
+  }
+]

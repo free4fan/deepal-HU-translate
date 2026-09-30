@@ -1,0 +1,1160 @@
+[
+  {
+    "name": "all_doc",
+    "zh": "全部",
+    "ru": "Все",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "文件管理",
+    "ru": "Менеджер файлов",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Область",
+    "type": "string"
+  },
+  {
+    "name": "available_space",
+    "zh": "可用空间%s",
+    "ru": "Свободное место: %s",
+    "type": "string"
+  },
+  {
+    "name": "back",
+    "zh": "返回^回到上一页",
+    "ru": "Назад^На предыдущую страницу",
+    "type": "string"
+  },
+  {
+    "name": "back_main",
+    "zh": "关闭^关掉^退出",
+    "ru": "Закрыть^Выключить^Выйти",
+    "type": "string"
+  },
+  {
+    "name": "calculating_size",
+    "zh": "正在计算大小",
+    "ru": "Расчёт размера",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "complete",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "copy",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "copy_failed",
+    "zh": "复制失败",
+    "ru": "Копирование не удалось",
+    "type": "string"
+  },
+  {
+    "name": "copy_success",
+    "zh": "复制成功",
+    "ru": "Скопировано",
+    "type": "string"
+  },
+  {
+    "name": "copy_title",
+    "zh": "复制到",
+    "ru": "Скопировать в",
+    "type": "string"
+  },
+  {
+    "name": "copying_files",
+    "zh": "正在复制文件（%s）",
+    "ru": "Копирование файла (%s)",
+    "type": "string"
+  },
+  {
+    "name": "cover",
+    "zh": "覆盖",
+    "ru": "Перезаписать",
+    "type": "string"
+  },
+  {
+    "name": "delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_failed",
+    "zh": "删除失败",
+    "ru": "Не удалось удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_success",
+    "zh": "删除成功",
+    "ru": "Успешно удалено",
+    "type": "string"
+  },
+  {
+    "name": "deleting_files",
+    "zh": "正在删除文件（%s）",
+    "ru": "Удаление файла (%s)",
+    "type": "string"
+  },
+  {
+    "name": "disable_hud",
+    "zh": "请在P挡下使用HUD投屏功能",
+    "ru": "Используйте функцию проецирования экрана HUD на передаче P.",
+    "type": "string"
+  },
+  {
+    "name": "edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "empty",
+    "zh": "无内容",
+    "ru": "Нет содержимого",
+    "type": "string"
+  },
+  {
+    "name": "empty_audios",
+    "zh": "暂无音频文件",
+    "ru": "Нет аудиофайлов.",
+    "type": "string"
+  },
+  {
+    "name": "empty_files",
+    "zh": "暂无文件",
+    "ru": "Нет файлов.",
+    "type": "string"
+  },
+  {
+    "name": "empty_images",
+    "zh": "暂无图片文件",
+    "ru": "Нет изображений",
+    "type": "string"
+  },
+  {
+    "name": "empty_videos",
+    "zh": "暂无视频文件",
+    "ru": "Нет видеофайлов",
+    "type": "string"
+  },
+  {
+    "name": "enlarge",
+    "zh": "放大",
+    "ru": "Увеличить",
+    "type": "string"
+  },
+  {
+    "name": "exit_hud",
+    "zh": "退出投屏",
+    "ru": "Завершить трансляцию",
+    "type": "string"
+  },
+  {
+    "name": "file_can_not_play",
+    "zh": "文件无法播放",
+    "ru": "Невозможно воспроизвести файл",
+    "type": "string"
+  },
+  {
+    "name": "folder_exist_is_overwrite",
+    "zh": "文件夹已被占用，是否覆盖原有文件？",
+    "ru": "Папка уже занята. Заменить существующие файлы?",
+    "type": "string"
+  },
+  {
+    "name": "full",
+    "zh": "全屏",
+    "ru": "Полный экран",
+    "type": "string"
+  },
+  {
+    "name": "full_exit",
+    "zh": "半屏^退出全屏",
+    "ru": "Полуэкран^Выйти из полного",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "hud_screening",
+    "zh": "HUD投屏中",
+    "ru": "Идёт трансляция на HUD",
+    "type": "string"
+  },
+  {
+    "name": "last",
+    "zh": "上一个",
+    "ru": "Предыдущий",
+    "type": "string"
+  },
+  {
+    "name": "local_storage",
+    "zh": "本地文件",
+    "ru": "Локальный файл",
+    "type": "string"
+  },
+  {
+    "name": "move",
+    "zh": "移动",
+    "ru": "Перемещение",
+    "type": "string"
+  },
+  {
+    "name": "move_failed",
+    "zh": "移动失败",
+    "ru": "Перемещение не удалось",
+    "type": "string"
+  },
+  {
+    "name": "move_success",
+    "zh": "移动成功",
+    "ru": "Перемещение выполнено",
+    "type": "string"
+  },
+  {
+    "name": "move_title",
+    "zh": "移动到",
+    "ru": "Переместить в",
+    "type": "string"
+  },
+  {
+    "name": "moving_files",
+    "zh": "正在移动文件（%s）",
+    "ru": "Перемещение файла (%s)...",
+    "type": "string"
+  },
+  {
+    "name": "music",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "next",
+    "zh": "下一个",
+    "ru": "Следующий",
+    "type": "string"
+  },
+  {
+    "name": "not_allow_read_write_tip",
+    "zh": "文件管理需要授权读写文件，请先授权！",
+    "ru": "Для управления файлами требуется разрешение на чтение и запись. Пожалуйста, предоставьте его!",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "picture",
+    "zh": "图片",
+    "ru": "Изображения",
+    "type": "string"
+  },
+  {
+    "name": "play",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "play_next_time",
+    "zh": "播放(%ds)",
+    "ru": "Воспроизведение (%d с)",
+    "type": "string"
+  },
+  {
+    "name": "play_next_video_coming",
+    "zh": "即将播放下一个视频",
+    "ru": "Скоро начнётся следующее видео",
+    "type": "string"
+  },
+  {
+    "name": "play_not_allow_ok",
+    "zh": "知道了",
+    "ru": "Понял",
+    "type": "string"
+  },
+  {
+    "name": "play_video_back",
+    "zh": "返回(%dS)",
+    "ru": "Возврат (%d с)",
+    "type": "string"
+  },
+  {
+    "name": "play_video_back_list_now",
+    "zh": "即将返回播放列表",
+    "ru": "Скоро вернётесь в плейлист.",
+    "type": "string"
+  },
+  {
+    "name": "reduce",
+    "zh": "缩小",
+    "ru": "Уменьшить",
+    "type": "string"
+  },
+  {
+    "name": "root_directory",
+    "zh": "根目录",
+    "ru": "Корневой каталог",
+    "type": "string"
+  },
+  {
+    "name": "rotate",
+    "zh": "旋转",
+    "ru": "Вращение",
+    "type": "string"
+  },
+  {
+    "name": "select_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "select_all_cancel",
+    "zh": "取消全选",
+    "ru": "Снять выделение",
+    "type": "string"
+  },
+  {
+    "name": "select_file_number",
+    "zh": "已选择（%d）个文件",
+    "ru": "Выбрано (%d) файлов",
+    "type": "string"
+  },
+  {
+    "name": "state_hud",
+    "zh": "请先开启HUD后投屏",
+    "ru": "Включите HUD перед началом трансляции экрана",
+    "type": "string"
+  },
+  {
+    "name": "storage_tip",
+    "zh": "此处总空间指文件管理应用内资源存储总空间",
+    "ru": "Общий объём здесь означает суммарный объём хранилища ресурсов в приложении «Файлы».",
+    "type": "string"
+  },
+  {
+    "name": "str_loading",
+    "zh": "加载中…",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "str_loading_waiting",
+    "zh": "文件过多，请耐心等待",
+    "ru": "Слишком много файлов, подождите",
+    "type": "string"
+  },
+  {
+    "name": "str_picture_not_preview",
+    "zh": "文件无法预览",
+    "ru": "Файл невозможно просмотреть",
+    "type": "string"
+  },
+  {
+    "name": "sure_delete_selected_files",
+    "zh": "确定删除所选文件？",
+    "ru": "Удалить выбранные файлы?",
+    "type": "string"
+  },
+  {
+    "name": "system_not_has_enough_space_copy",
+    "zh": "系统空间不足，无法复制",
+    "ru": "Недостаточно места в системе, невозможно скопировать",
+    "type": "string"
+  },
+  {
+    "name": "system_not_has_enough_space_move",
+    "zh": "系统空间不足，无法移动",
+    "ru": "Недостаточно места в системе, невозможно переместить",
+    "type": "string"
+  },
+  {
+    "name": "usb_is_pull_in_doing",
+    "zh": "外部设备不存在",
+    "ru": "Внешнее устройство не найдено",
+    "type": "string"
+  },
+  {
+    "name": "video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Зажмите любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_description",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_description",
+    "zh": "全屏模式",
+    "ru": "Полноэкранный режим",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_next_description",
+    "zh": "下一曲",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_pause_description",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_play_description",
+    "zh": "播放",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_previous_description",
+    "zh": "上一曲",
+    "ru": "Предыдущий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_all_description",
+    "zh": "全部重复播放",
+    "ru": "Повторять всё",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_off_description",
+    "zh": "不重复播放",
+    "ru": "Не повторять",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_one_description",
+    "zh": "重复播放一项",
+    "ru": "Повторять один",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_rewind_description",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_off_description",
+    "zh": "随机播放功能已关闭",
+    "ru": "Случайное воспроизведение отключено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_on_description",
+    "zh": "随机播放功能已开启",
+    "ru": "Режим перемешивания включен",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_stop_description",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_vr_description",
+    "zh": "VR 模式",
+    "ru": "Режим VR",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_completed",
+    "zh": "下载完毕",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_description",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_downloading",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_notification_channel_name",
+    "zh": "下载内容",
+    "ru": "Скачиваемый контент",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_removing",
+    "zh": "正在移除下载内容",
+    "ru": "Удаление загруженного содержимого...",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_mono",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_alternate",
+    "zh": "替用轨",
+    "ru": "Альтернативный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_closed_captions",
+    "zh": "字幕",
+    "ru": "Субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_commentary",
+    "zh": "旁白",
+    "ru": "Комментарий",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_supplementary",
+    "zh": "补充轨",
+    "ru": "Дополнительный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_auto",
+    "zh": "自动",
+    "ru": "Авто",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_audio",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_text",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_stereo",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround",
+    "zh": "环绕声",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_5_point_1",
+    "zh": "5.1 环绕声",
+    "ru": "Объёмный звук 5.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_7_point_1",
+    "zh": "7.1 环绕声",
+    "ru": "Объёмный звук 7.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_unknown",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на календарный режим",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы перейти к выбору дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться в режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы перейти к выбору года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

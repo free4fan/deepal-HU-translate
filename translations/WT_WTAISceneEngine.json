@@ -1,0 +1,338 @@
+[
+  {
+    "name": "all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "app_exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "智慧场景",
+    "ru": "Умные сценарии",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "auto_title",
+    "zh": "场景原子数据自检",
+    "ru": "Самопроверка атомарных данных сценария",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "car_info_page",
+    "zh": "车身信息",
+    "ru": "Информация о кузове",
+    "type": "string"
+  },
+  {
+    "name": "clean_up",
+    "zh": "清除",
+    "ru": "Очистить",
+    "type": "string"
+  },
+  {
+    "name": "common_alert",
+    "zh": "动态检测",
+    "ru": "Динам. контроль",
+    "type": "string"
+  },
+  {
+    "name": "during_self_inspection",
+    "zh": "自检中__",
+    "ru": "Идёт самопроверка__",
+    "type": "string"
+  },
+  {
+    "name": "dynamic_monitoring",
+    "zh": "动态监听",
+    "ru": "Динамический мониторинг",
+    "type": "string"
+  },
+  {
+    "name": "event",
+    "zh": "上报",
+    "ru": "Отчёт",
+    "type": "string"
+  },
+  {
+    "name": "event_id_page",
+    "zh": "事件上报",
+    "ru": "Отчёт о событии",
+    "type": "string"
+  },
+  {
+    "name": "fail",
+    "zh": "失败;",
+    "ru": "Неудача;",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "get",
+    "zh": "信号获取：",
+    "ru": "Захват сигнала:",
+    "type": "string"
+  },
+  {
+    "name": "get_signal",
+    "zh": "信号获取",
+    "ru": "Получение сигнала",
+    "type": "string"
+  },
+  {
+    "name": "not_supported",
+    "zh": "虚拟车未支持该信号",
+    "ru": "Виртуальный автомобиль не поддерживает данный сигнал",
+    "type": "string"
+  },
+  {
+    "name": "not_triggered_text",
+    "zh": "未触发",
+    "ru": "Не сработало",
+    "type": "string"
+  },
+  {
+    "name": "refresh",
+    "zh": "刷新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "register",
+    "zh": "信号监听：",
+    "ru": "Мониторинг сигнала:",
+    "type": "string"
+  },
+  {
+    "name": "scene_page",
+    "zh": "场景信息",
+    "ru": "Информация о сценарии",
+    "type": "string"
+  },
+  {
+    "name": "self_inspection_completed",
+    "zh": "自检完成",
+    "ru": "Самопроверка завершена",
+    "type": "string"
+  },
+  {
+    "name": "self_inspection_list",
+    "zh": "自检列表：",
+    "ru": "Список самопроверки:",
+    "type": "string"
+  },
+  {
+    "name": "set",
+    "zh": "信号下发：",
+    "ru": "Отправка сигнала:",
+    "type": "string"
+  },
+  {
+    "name": "signal_acquisition",
+    "zh": "信号回调",
+    "ru": "Обратный вызов сигнала",
+    "type": "string"
+  },
+  {
+    "name": "signal_issuance",
+    "zh": "信号下发",
+    "ru": "Отправка сигнала",
+    "type": "string"
+  },
+  {
+    "name": "start",
+    "zh": "开始",
+    "ru": "Начать",
+    "type": "string"
+  },
+  {
+    "name": "start_selfscan",
+    "zh": "开始自检",
+    "ru": "Запустить самопроверку",
+    "type": "string"
+  },
+  {
+    "name": "success",
+    "zh": "成功",
+    "ru": "Успех",
+    "type": "string"
+  },
+  {
+    "name": "successfully_triggere",
+    "zh": "触发成功",
+    "ru": "Срабатывание успешно",
+    "type": "string"
+  },
+  {
+    "name": "suspend",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "trigger",
+    "zh": "一键触发",
+    "ru": "Запуск одной кнопкой",
+    "type": "string"
+  },
+  {
+    "name": "value",
+    "zh": "值：",
+    "ru": "Значение:",
+    "type": "string"
+  },
+  {
+    "name": "vin_title",
+    "zh": "车辆信息",
+    "ru": "Данные авто",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё опции",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Открыть",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша пробела",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

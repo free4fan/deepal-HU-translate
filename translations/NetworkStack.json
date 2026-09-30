@@ -1,0 +1,44 @@
+[
+  {
+    "name": "application_label",
+    "zh": "网络管理器",
+    "ru": "Диспетчер сетей",
+    "type": "string"
+  },
+  {
+    "name": "connected",
+    "zh": "已连接",
+    "ru": "Подключено",
+    "type": "string"
+  },
+  {
+    "name": "notification_channel_description_connected",
+    "zh": "当设备成功通过强制门户网络的身份验证时显示的通知",
+    "ru": "Уведомление, отображаемое при успешной аутентификации устройства через принудительный портал.",
+    "type": "string"
+  },
+  {
+    "name": "notification_channel_description_network_venue_info",
+    "zh": "为说明网络包含场地信息页面而显示的通知",
+    "ru": "Уведомление о наличии в сети страницы с информацией о месте.",
+    "type": "string"
+  },
+  {
+    "name": "notification_channel_name_connected",
+    "zh": "强制门户身份验证",
+    "ru": "Принудительная аутентификация на портале",
+    "type": "string"
+  },
+  {
+    "name": "notification_channel_name_network_venue_info",
+    "zh": "网络包含场地信息页面",
+    "ru": "Страница с информацией о месте в сети",
+    "type": "string"
+  },
+  {
+    "name": "tap_for_info",
+    "zh": "已连接/点按即可查看网站",
+    "ru": "Подключено / Нажмите, чтобы открыть сайт",
+    "type": "string"
+  }
+]

@@ -1,0 +1,878 @@
+[
+  {
+    "name": "add_device_app_scan_text",
+    "zh": "请使用深蓝APP扫一扫",
+    "ru": "Пожалуйста, отсканируйте с помощью приложения Deep Blue.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_app_warm_tip_text",
+    "zh": "温馨提示：为保证传输稳定，请关闭移动数据",
+    "ru": "Напоминание: для обеспечения стабильной передачи данных отключите мобильные данные.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_first_step",
+    "zh": "第一步：",
+    "ru": "Первый шаг:",
+    "type": "string"
+  },
+  {
+    "name": "add_device_first_step_context",
+    "zh": "请打开手机WIFI功能，选择连接方式。",
+    "ru": "Пожалуйста, включите Wi-Fi на телефоне и выберите способ подключения.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_please_opertion_next",
+    "zh": "请按照下方说明操作",
+    "ru": "Пожалуйста, следуйте инструкциям ниже.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_second_step",
+    "zh": "第二步：",
+    "ru": "Второй шаг:",
+    "type": "string"
+  },
+  {
+    "name": "add_device_second_step_context",
+    "zh": "方式一：请用您的手机连接WIFI，并在深蓝APP接收您分享的文件。",
+    "ru": "Способ 1: подключите телефон к Wi-Fi и получите файл в приложении Deep Blue.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_second_step_fun_two_context",
+    "zh": "方式二：请打开深蓝APP，扫描二维码连接WIFI，接收您分享的文件。",
+    "ru": "Способ 2: откройте приложение Deep Blue, отсканируйте QR-код для подключения к Wi-Fi и получите файл.",
+    "type": "string"
+  },
+  {
+    "name": "add_device_title",
+    "zh": "添加设备",
+    "ru": "Добавить устройство",
+    "type": "string"
+  },
+  {
+    "name": "add_device_wifi_ap_password_text",
+    "zh": "密码:",
+    "ru": "Пароль:",
+    "type": "string"
+  },
+  {
+    "name": "all_select",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "all_video_play_finish",
+    "zh": "全部视频播放完成",
+    "ru": "Воспроизведение всех видео завершено",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "行车记录仪",
+    "ru": "Видеорегистратор",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Область",
+    "type": "string"
+  },
+  {
+    "name": "assisted_driving_storage",
+    "zh": "驾驶辅助：%1$sGB",
+    "ru": "Помощь при вождении: %1$s ГБ",
+    "type": "string"
+  },
+  {
+    "name": "camera_view_no_sign_text",
+    "zh": "无信号",
+    "ru": "Нет сигнала",
+    "type": "string"
+  },
+  {
+    "name": "camera_view_screenshot_fail",
+    "zh": "拍照失败",
+    "ru": "Снимок не удался",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_all_select",
+    "zh": "取消全选",
+    "ru": "Снять выделение",
+    "type": "string"
+  },
+  {
+    "name": "capture_success",
+    "zh": "拍照成功",
+    "ru": "Снимок выполнен",
+    "type": "string"
+  },
+  {
+    "name": "change_load",
+    "zh": "转存",
+    "ru": "Перенос",
+    "type": "string"
+  },
+  {
+    "name": "change_storage_file_doing",
+    "zh": "正在转存文件（%1$s",
+    "ru": "Перенос файла（%1$s",
+    "type": "string"
+  },
+  {
+    "name": "change_storage_file_success",
+    "zh": "文件转存成功",
+    "ru": "Файл успешно перемещён",
+    "type": "string"
+  },
+  {
+    "name": "combination",
+    "zh": "组合",
+    "ru": "Сочетание",
+    "type": "string"
+  },
+  {
+    "name": "current_first_picture",
+    "zh": "当前为第一张图片",
+    "ru": "Это первое изображение",
+    "type": "string"
+  },
+  {
+    "name": "current_first_video",
+    "zh": "当前为第一个视频",
+    "ru": "Это первое видео",
+    "type": "string"
+  },
+  {
+    "name": "current_last_picture",
+    "zh": "当前为最后一张图片",
+    "ru": "Это последнее изображение",
+    "type": "string"
+  },
+  {
+    "name": "currently_the_first_image",
+    "zh": "当前为第一张图片",
+    "ru": "Это первое изображение",
+    "type": "string"
+  },
+  {
+    "name": "currently_the_last_image",
+    "zh": "当前为最后一张图片",
+    "ru": "Это последнее изображение",
+    "type": "string"
+  },
+  {
+    "name": "cycle_record",
+    "zh": "循环视频",
+    "ru": "Циклическое видео",
+    "type": "string"
+  },
+  {
+    "name": "cycle_record_bottom_text",
+    "zh": "%1$s个视频，当储存空间容量满时系统会自动覆盖较早文件",
+    "ru": "%1$s видео, при заполнении памяти система автоматически перезаписывает более ранние файлы",
+    "type": "string"
+  },
+  {
+    "name": "delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_file_doing",
+    "zh": "正在删除文件（%1$s",
+    "ru": "Удаление файла (%1$s",
+    "type": "string"
+  },
+  {
+    "name": "device_searching",
+    "zh": "设备搜索中...",
+    "ru": "Поиск устройств...",
+    "type": "string"
+  },
+  {
+    "name": "drive_video",
+    "zh": "驾驶视频",
+    "ru": "Видео вождения",
+    "type": "string"
+  },
+  {
+    "name": "driving_assistant_recode",
+    "zh": "驾驶辅助",
+    "ru": "Помощь водителю",
+    "type": "string"
+  },
+  {
+    "name": "dvr_file_change_timeout",
+    "zh": "文件转存超时",
+    "ru": "Тайм-аут переноса файла",
+    "type": "string"
+  },
+  {
+    "name": "dvr_file_delete_timeout",
+    "zh": "文件删除超时",
+    "ru": "Тайм-аут удаления файла",
+    "type": "string"
+  },
+  {
+    "name": "dvr_file_had_delete",
+    "zh": "文件已删除",
+    "ru": "Файл удалён",
+    "type": "string"
+  },
+  {
+    "name": "dvr_know",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dvr_list_loading_text",
+    "zh": "视频列表加载中…",
+    "ru": "Список видео загружается…",
+    "type": "string"
+  },
+  {
+    "name": "dvr_photograph",
+    "zh": "拍照",
+    "ru": "Сделать фото",
+    "type": "string"
+  },
+  {
+    "name": "dvr_screenshot",
+    "zh": "截图",
+    "ru": "Скриншот",
+    "type": "string"
+  },
+  {
+    "name": "dvr_share_finish",
+    "zh": "行车记录仪视频下载已完成",
+    "ru": "Загрузка видео с видеорегистратора завершена",
+    "type": "string"
+  },
+  {
+    "name": "dvr_short_reconnect_success",
+    "zh": "重连接成功",
+    "ru": "Переподключение успешно",
+    "type": "string"
+  },
+  {
+    "name": "dvr_video_loading_text",
+    "zh": "视频加载中…",
+    "ru": "Видео загружается…",
+    "type": "string"
+  },
+  {
+    "name": "dvr_video_string",
+    "zh": "行车记录仪",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "dvr_voice",
+    "zh": "声音",
+    "ru": "Звук",
+    "type": "string"
+  },
+  {
+    "name": "eme_video_can_storage_all_time",
+    "zh": "紧急视频可永久保存，不会被新文件覆盖",
+    "ru": "Экстренные видеозаписи сохраняются навсегда и не будут перезаписаны новыми файлами.",
+    "type": "string"
+  },
+  {
+    "name": "emergency_record",
+    "zh": "紧急录制",
+    "ru": "Экстренная запись",
+    "type": "string"
+  },
+  {
+    "name": "emergency_record_storage",
+    "zh": "紧急视频：%1$sGB",
+    "ru": "Экстренное видео: %1$s ГБ",
+    "type": "string"
+  },
+  {
+    "name": "emergency_save",
+    "zh": "紧急视频",
+    "ru": "Экстренное видео",
+    "type": "string"
+  },
+  {
+    "name": "emergency_save_bottom_text",
+    "zh": "%1$s个视频",
+    "ru": "%1$s видео",
+    "type": "string"
+  },
+  {
+    "name": "fast_forward",
+    "zh": "快进中",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "file_deleted",
+    "zh": "文件已删除",
+    "ru": "Файл удалён",
+    "type": "string"
+  },
+  {
+    "name": "format",
+    "zh": "格式化",
+    "ru": "Форматирование",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "had_change_speed",
+    "zh": "已切换至%1$s倍速播放",
+    "ru": "Скорость воспроизведения изменена на %1$sx",
+    "type": "string"
+  },
+  {
+    "name": "had_select",
+    "zh": "已选择（%1$s）个文件",
+    "ru": "Выбрано %1$s файлов",
+    "type": "string"
+  },
+  {
+    "name": "is_change_storage_all_select_file",
+    "zh": "是否将所选视频转存为紧急视频?",
+    "ru": "Сохранить выбранное видео как аварийное?",
+    "type": "string"
+  },
+  {
+    "name": "is_continue_formatting",
+    "zh": "此操作会清空储存空间数据，是否继续格式化",
+    "ru": "Это действие удалит все данные на носителе. Продолжить форматирование?",
+    "type": "string"
+  },
+  {
+    "name": "is_delete_all_select_file",
+    "zh": "是否删除所选文件?",
+    "ru": "Удалить выбранные файлы?",
+    "type": "string"
+  },
+  {
+    "name": "live_video",
+    "zh": "实况影像",
+    "ru": "Живой просмотр",
+    "type": "string"
+  },
+  {
+    "name": "loop_record",
+    "zh": "循环录制",
+    "ru": "Циклическая запись",
+    "type": "string"
+  },
+  {
+    "name": "loop_record_storage",
+    "zh": "循环视频：%1$sGB",
+    "ru": "Циклическая запись: %1$s ГБ",
+    "type": "string"
+  },
+  {
+    "name": "memory_card",
+    "zh": "储存空间",
+    "ru": "Хранилище",
+    "type": "string"
+  },
+  {
+    "name": "memory_storage_select_text",
+    "zh": "存储路径选择",
+    "ru": "Выбор пути хранения",
+    "type": "string"
+  },
+  {
+    "name": "memory_storage_tip_text",
+    "zh": "行车记录仪仅支持当前存储路径的视频显示及回放",
+    "ru": "Видеорегистратор поддерживает просмотр и воспроизведение видео только с текущего пути хранения",
+    "type": "string"
+  },
+  {
+    "name": "min1",
+    "zh": "1分钟",
+    "ru": "1 минута",
+    "type": "string"
+  },
+  {
+    "name": "min3",
+    "zh": "3分钟",
+    "ru": "3 минуты",
+    "type": "string"
+  },
+  {
+    "name": "min5",
+    "zh": "5分钟",
+    "ru": "5 минут",
+    "type": "string"
+  },
+  {
+    "name": "network_connect_timeout",
+    "zh": "连接超时，传输已取消，请重试",
+    "ru": "Превышено время ожидания соединения, передача отменена. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "network_connect_timeout_know",
+    "zh": "我知道了",
+    "ru": "Я понял",
+    "type": "string"
+  },
+  {
+    "name": "network_disconnect_reconnect_text",
+    "zh": "重新连接",
+    "ru": "Переподключиться",
+    "type": "string"
+  },
+  {
+    "name": "network_disconnect_text",
+    "zh": "网络已断开",
+    "ru": "Сеть отключена",
+    "type": "string"
+  },
+  {
+    "name": "no_data_string",
+    "zh": "暂无文件",
+    "ru": "Нет файлов",
+    "type": "string"
+  },
+  {
+    "name": "now_two_speed",
+    "zh": "当前已是2倍速播放",
+    "ru": "Сейчас идёт воспроизведение на скорости 2x",
+    "type": "string"
+  },
+  {
+    "name": "out_of_memory",
+    "zh": "当存储空间不⾜时，较早的循环视频会被新视频覆盖",
+    "ru": "Старые записи перезаписываются новыми.",
+    "type": "string"
+  },
+  {
+    "name": "park_video",
+    "zh": "泊车视频",
+    "ru": "Видео парковки",
+    "type": "string"
+  },
+  {
+    "name": "pho_memory_over",
+    "zh": "照片空间不足",
+    "ru": "Мало места для фото",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_success_phone_name_text",
+    "zh": "%1$s的手机连接成功",
+    "ru": "Телефон %1$s успешно подключен",
+    "type": "string"
+  },
+  {
+    "name": "photo_name",
+    "zh": "图片名称",
+    "ru": "Имя изображения",
+    "type": "string"
+  },
+  {
+    "name": "photo_storage",
+    "zh": "照片：%1$sGB",
+    "ru": "Фото: %1$s ГБ",
+    "type": "string"
+  },
+  {
+    "name": "picture",
+    "zh": "照片",
+    "ru": "Фото",
+    "type": "string"
+  },
+  {
+    "name": "picture_bottom_text",
+    "zh": "%1$s张图片",
+    "ru": "%1$s изображений",
+    "type": "string"
+  },
+  {
+    "name": "please_clear_pho",
+    "zh": "请清理照片文件",
+    "ru": "Очистите фото",
+    "type": "string"
+  },
+  {
+    "name": "record_time",
+    "zh": "录像循环时间",
+    "ru": "Время цикла записи",
+    "type": "string"
+  },
+  {
+    "name": "sentry_video",
+    "zh": "哨兵视频",
+    "ru": "Сторожевое видео",
+    "type": "string"
+  },
+  {
+    "name": "setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "share",
+    "zh": "分享",
+    "ru": "Поделиться",
+    "type": "string"
+  },
+  {
+    "name": "share_data_cancel",
+    "zh": "分享已取消",
+    "ru": "Обмен отменён",
+    "type": "string"
+  },
+  {
+    "name": "share_data_cancel_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "share_data_finish",
+    "zh": "分享已完成(%1$s/%2$s)",
+    "ru": "Обмен завершён (%1$s/%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "share_data_interrupt",
+    "zh": "分享已中断",
+    "ru": "Обмен прерван",
+    "type": "string"
+  },
+  {
+    "name": "share_data_success_fail_num",
+    "zh": "成功%1$s个，失败%2$s个",
+    "ru": "Успешно: %1$s, неудачно: %2$s",
+    "type": "string"
+  },
+  {
+    "name": "share_more_nine_file",
+    "zh": "最多可分享9个文件",
+    "ru": "Максимум 9 файлов",
+    "type": "string"
+  },
+  {
+    "name": "sharing_data_text",
+    "zh": "分享中(%1$s/%2$s)",
+    "ru": "Обмен выполняется (%1$s/%2$s)",
+    "type": "string"
+  },
+  {
+    "name": "sharing_data_warm_tip",
+    "zh": "\"成功使用提示\n 1、文件分享期间，中控屏和手机APP要保持在传输界面，以免中断。\n 2、文件分享期间，手机无法上网，传输完成，断开连接后将恢复联网。\n 3、文件分享期间，请勿关闭车辆或手机WIFI，保持网络通畅。\"",
+    "ru": "\"Подсказка по использованию\\n 1. Во время обмена файлами удерживайте экран мультимедийной системы и приложение на телефоне на экране передачи, чтобы избежать прерывания.\\n 2. Во время обмена файлами телефон не имеет доступа в интернет. После завершения передачи и отключения соединения доступ в интернет будет восстановлен.\\n 3. Во время обмена файлами не отключайте Wi-Fi в автомобиле и на телефоне, поддерживайте стабильное соединение.\"",
+    "type": "string"
+  },
+  {
+    "name": "shot_success",
+    "zh": "截图成功",
+    "ru": "Скриншот выполнен",
+    "type": "string"
+  },
+  {
+    "name": "sound_recording",
+    "zh": "车内录音",
+    "ru": "Запись в салоне",
+    "type": "string"
+  },
+  {
+    "name": "take_photo",
+    "zh": "拍照",
+    "ru": "Сделать фото",
+    "type": "string"
+  },
+  {
+    "name": "use_status",
+    "zh": "已用%1$sGB/共%2$sGB",
+    "ru": "Использовано: %1$s ГБ / Всего: %2$s ГБ",
+    "type": "string"
+  },
+  {
+    "name": "video_play_car_speeding_text",
+    "zh": "为了您的安全，行车过程中禁止播放视频",
+    "ru": "Для вашей безопасности во время движения запрещено воспроизводить видео.",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_behind",
+    "zh": "后",
+    "ru": "Сзади",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_combination",
+    "zh": "\"组\n合\"",
+    "ru": "Комбинация",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_combination_half",
+    "zh": "组合",
+    "ru": "Комбинация",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_front",
+    "zh": "前",
+    "ru": "Перед",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_left",
+    "zh": "左",
+    "ru": "Левый",
+    "type": "string"
+  },
+  {
+    "name": "video_play_orientation_right",
+    "zh": "右",
+    "ru": "Правый",
+    "type": "string"
+  },
+  {
+    "name": "warm_prompt",
+    "zh": "温馨提示",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте клавиатуру в любом месте для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше опций",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша пробела",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

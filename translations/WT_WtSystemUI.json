@@ -1,0 +1,1502 @@
+[
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "qs_center_cancel_btn",
+    "zh": "还原",
+    "ru": "Восстановить",
+    "type": "string"
+  },
+  {
+    "name": "qs_center_complete_btn",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "qs_center_exit_btn",
+    "zh": "编辑",
+    "ru": "Изменить",
+    "type": "string"
+  },
+  {
+    "name": "qs_center_fastenter",
+    "zh": "自定义",
+    "ru": "Настроить",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_car_window_adjust_btn",
+    "zh": "车窗通风",
+    "ru": "Проветривание",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_clear_screen_btn",
+    "zh": "屏幕清洁",
+    "ru": "Очистка экрана",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_close_window_btn",
+    "zh": "一键关窗",
+    "ru": "Закрыть окна",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_fast_cool_btn",
+    "zh": "极速制冷",
+    "ru": "Охлаждение",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_tank_cap_pressure_relief_btn",
+    "zh": "油箱门解锁",
+    "ru": "Крышка бака",
+    "type": "string"
+  },
+  {
+    "name": "qs_widget_wireless_charge_btn",
+    "zh": "无线充电",
+    "ru": "Зарядка",
+    "type": "string"
+  },
+  {
+    "name": "scene_alert_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "scene_alert_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "scene_linkage_content",
+    "zh": "关闭后将无法继续体验不同场景下的场景联动服务，是否确认关闭？",
+    "ru": "После отключения сервис сценарной связки будет недоступен в различных сценариях. Подтвердить отключение?",
+    "type": "string"
+  },
+  {
+    "name": "scene_linkage_title",
+    "zh": "关闭场景联动服务",
+    "ru": "Отключить сервис сценарной связки",
+    "type": "string"
+  },
+  {
+    "name": "scene_name",
+    "zh": "当前场景:",
+    "ru": "Текущий сценарий:",
+    "type": "string"
+  },
+  {
+    "name": "scene_tip_content",
+    "zh": "基于不同驾驶模式提供桌面体验服务，包括儿童模式、通勤模式、出游模式、关怀伴驾等。",
+    "ru": "Предоставляет сервисы рабочего стола в зависимости от режима вождения, включая детский режим, режим поездок на работу, режим путешествий, режим заботы и сопровождения и т.д.",
+    "type": "string"
+  },
+  {
+    "name": "scene_title",
+    "zh": "场景联动",
+    "ru": "Сценарии",
+    "type": "string"
+  },
+  {
+    "name": "system_new_notification",
+    "zh": "%d条新消息.",
+    "ru": "%d новых сообщений.",
+    "type": "string"
+  },
+  {
+    "name": "system_no_notification",
+    "zh": "无新消息",
+    "ru": "Нет новых сообщений",
+    "type": "string"
+  },
+  {
+    "name": "system_notification_btn_text",
+    "zh": "消息通知",
+    "ru": "Уведомления",
+    "type": "string"
+  },
+  {
+    "name": "system_settings_btn_text",
+    "zh": "系统设置",
+    "ru": "Системные настройки",
+    "type": "string"
+  },
+  {
+    "name": "text_edit_shown_full_toast",
+    "zh": "快捷空间已经添加满了",
+    "ru": "Быстрый доступ уже заполнен.",
+    "type": "string"
+  },
+  {
+    "name": "text_edit_shown_repeat_toast",
+    "zh": "下拉中心已有相同功能组件",
+    "ru": "В центре уведомлений уже есть компонент с аналогичной функцией",
+    "type": "string"
+  },
+  {
+    "name": "vehicle_settings_btn_text",
+    "zh": "车辆设置",
+    "ru": "Настройки автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Для перемещения удерживайте клавиатуру в любом месте (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_error",
+    "zh": "无法连接",
+    "ru": "Невозможно подключиться",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_more",
+    "zh": "更多",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_allow",
+    "zh": "允许",
+    "ru": "Разрешить",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_checkbox",
+    "zh": "允许“%1$s”显示任何应用的图块",
+    "ru": "Разрешить «%1$s» отображать плитки любых приложений",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_deny",
+    "zh": "拒绝",
+    "ru": "Отказ",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_text_1",
+    "zh": "- 可以读取“%1$s”中的信息",
+    "ru": "- Может считывать информацию из «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_text_2",
+    "zh": "- 可以在“%1$s”内执行操作",
+    "ru": "- В «%1$s» можно выполнять операции",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_permission_title",
+    "zh": "要允许“%1$s”显示“%2$s”图块吗？",
+    "ru": "Разрешить «%1$s» отображать плитку «%2$s»?",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_show_more",
+    "zh": "显示更多",
+    "ru": "Показать ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_updated",
+    "zh": "更新时间：%1$s",
+    "ru": "Время обновления: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "abc_slices_permission_request",
+    "zh": "“%1$s”想要显示“%2$s”图块",
+    "ru": "«%1$s» хочет отобразить плитку «%2$s»",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "action_canned_reply",
+    "zh": "“我正在开车。”",
+    "ru": "Я за рулём.",
+    "type": "string"
+  },
+  {
+    "name": "action_mute_long",
+    "zh": "忽略对话",
+    "ru": "Игнорировать диалог",
+    "type": "string"
+  },
+  {
+    "name": "action_mute_short",
+    "zh": "忽略",
+    "ru": "Игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "action_unmute_long",
+    "zh": "将对话取消静音",
+    "ru": "Включить звук в диалоге",
+    "type": "string"
+  },
+  {
+    "name": "action_unmute_short",
+    "zh": "取消忽略",
+    "ru": "Отменить игнорирование",
+    "type": "string"
+  },
+  {
+    "name": "always_use_device",
+    "zh": "连接%2$s后一律打开%1$s",
+    "ru": "После подключения к %2$s всегда открывать %1$s",
+    "type": "string"
+  },
+  {
+    "name": "assist_action_failed_toast",
+    "zh": "无法从 Google 助理请求操作！",
+    "ru": "Не удалось запросить действие у Google Ассистента!",
+    "type": "string"
+  },
+  {
+    "name": "assist_action_play_label",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "canned_reply_message",
+    "zh": "我正在开车。",
+    "ru": "Я веду машину.",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_alert_dialog_default_button",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_preference_switch_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_preference_switch_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_restricted_while_driving",
+    "zh": "驾车时无法使用此功能",
+    "ru": "Эта функция недоступна во время вождения",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrollbar_page_down_button",
+    "zh": "向下滚动",
+    "ru": "Прокрутить вниз",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrollbar_page_up_button",
+    "zh": "向上滚动",
+    "ru": "Прокрутить вверх",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrolling_limited_message",
+    "zh": "驾车时滚动操作受限",
+    "ru": "При движении прокрутка ограничена",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_default_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_overflow_title",
+    "zh": "溢出菜单",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_search_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_settings_title",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_nav_icon_content_description",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "clear_all",
+    "zh": "全部清除",
+    "ru": "Очистить всё",
+    "type": "string"
+  },
+  {
+    "name": "control_center",
+    "zh": "控制中心",
+    "ru": "Центр управления",
+    "type": "string"
+  },
+  {
+    "name": "copy",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "empty_notification_header",
+    "zh": "没有通知",
+    "ru": "Нет уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "expand_button_title",
+    "zh": "高级",
+    "ru": "Дополнительно",
+    "type": "string"
+  },
+  {
+    "name": "message_unshown_count",
+    "zh": "+ 另外 %d 个",
+    "ru": "+ ещё %d",
+    "type": "string"
+  },
+  {
+    "name": "not_set",
+    "zh": "未设置",
+    "ru": "Не задано",
+    "type": "string"
+  },
+  {
+    "name": "notification_header",
+    "zh": "通知",
+    "ru": "Уведомления",
+    "type": "string"
+  },
+  {
+    "name": "notification_service_label",
+    "zh": "车辆通知监听器服务",
+    "ru": "Сервис прослушивания уведомлений транспортного средства",
+    "type": "string"
+  },
+  {
+    "name": "notifications",
+    "zh": "通知中心",
+    "ru": "Центр уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "preference_copied",
+    "zh": "已将“%1$s”复制到剪贴板。",
+    "ru": "«%1$s» скопировано в буфер обмена.",
+    "type": "string"
+  },
+  {
+    "name": "says",
+    "zh": "说",
+    "ru": "Сказать",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "toast_message_sent_success",
+    "zh": "已成功发送消息。",
+    "ru": "Сообщение успешно отправлено.",
+    "type": "string"
+  },
+  {
+    "name": "usb_debugging_allow",
+    "zh": "允许",
+    "ru": "Разрешить",
+    "type": "string"
+  },
+  {
+    "name": "usb_debugging_always",
+    "zh": "一律允许使用这台计算机进行调试",
+    "ru": "Всегда разрешать отладку с этого компьютера",
+    "type": "string"
+  },
+  {
+    "name": "usb_debugging_message",
+    "zh": "\"这台计算机的 RSA 密钥指纹如下：\n%1$s\"",
+    "ru": "\"Отпечаток RSA-ключа этого компьютера следующий:\\n%1$s\"",
+    "type": "string"
+  },
+  {
+    "name": "usb_debugging_title",
+    "zh": "允许 USB 调试吗？",
+    "ru": "Разрешить отладку по USB?",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_off",
+    "zh": "已关闭",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_on",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "alternate_tag_car_control",
+    "zh": "车身",
+    "ru": "Кузов",
+    "type": "string"
+  },
+  {
+    "name": "alternate_tag_car_prefarence",
+    "zh": "车内",
+    "ru": "В салоне",
+    "type": "string"
+  },
+  {
+    "name": "alternate_tag_drive_assist",
+    "zh": "屏幕",
+    "ru": "Экран",
+    "type": "string"
+  },
+  {
+    "name": "alternate_tag_othre",
+    "zh": "驾控",
+    "ru": "Управление",
+    "type": "string"
+  },
+  {
+    "name": "btn_text_copilot_qs_bluetooth_btn",
+    "zh": "未开启",
+    "ru": "Не вкл.",
+    "type": "string"
+  },
+  {
+    "name": "btn_text_copilot_qs_close_screen_btn",
+    "zh": "关闭屏幕",
+    "ru": "Выкл. экрана",
+    "type": "string"
+  },
+  {
+    "name": "btn_text_refresh",
+    "zh": "刷新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "button_text_connect",
+    "zh": "连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_button_text_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_button_text_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content_delete_bluetooth_text",
+    "zh": "是否忽略“%s”的蓝牙设备?",
+    "ru": "Игнорировать Bluetooth-устройство «%s»?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content_disconnect_bluetooth_text",
+    "zh": "是否断开“%s”的连接?",
+    "ru": "Отключить подключение к «%s»?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content_disconnect_wifi_text",
+    "zh": "是否断开“%s”的WLAN连接？",
+    "ru": "Отключить подключение к WLAN «%s»?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content_open_bluetooth_text",
+    "zh": "开启蓝牙后，手机互联将自动断开",
+    "ru": "После включения Bluetooth подключение смартфона будет автоматически отключено.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content_pair_bluetooth_text",
+    "zh": "您正在尝试将车机设备与其他设备建立连接关系",
+    "ru": "Вы пытаетесь установить соединение между автомобильной мультимедийной системой и другими устройствами",
+    "type": "string"
+  },
+  {
+    "name": "dialog_exhibition_mode_tips_confirm",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_exhibition_mode_tips_content",
+    "zh": "展车模式下，车辆不可行驶，不得进入Ready状态，不能启动发动机，不可切换至非P挡，禁用拖车模式",
+    "ru": "В режиме выставочного автомобиля: движение запрещено, перевод в состояние Ready недопустим, запуск двигателя невозможен, переключение из положения P запрещено, режим буксировки отключён",
+    "type": "string"
+  },
+  {
+    "name": "dialog_exhibition_mode_tips_title",
+    "zh": "展车模式",
+    "ru": "Режим выставки",
+    "type": "string"
+  },
+  {
+    "name": "dialog_hotspot_button_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_hotspot_tips_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_hotspot_tips_confirm",
+    "zh": "确认修改",
+    "ru": "Подтвердить изменения",
+    "type": "string"
+  },
+  {
+    "name": "dialog_hotspot_tips_content",
+    "zh": "为保证使用安全，建议您修改默认密码",
+    "ru": "Для обеспечения безопасности рекомендуем изменить пароль по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "dialog_hotspot_tips_title",
+    "zh": "温馨提示",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_delete_bluetooth_text",
+    "zh": "忽略此设备",
+    "ru": "Игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_disconnect_bluetooth_text",
+    "zh": "断开蓝牙连接",
+    "ru": "Отключить Bluetooth-соединение",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_disconnect_wifi_text",
+    "zh": "断开网络连接",
+    "ru": "Отключить подключение к сети",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_input_password_again_text",
+    "zh": "是否再次尝试输入“%s”的密码？",
+    "ru": "Повторить попытку ввода пароля для «%s»?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_open_bluetooth_text",
+    "zh": "温馨提示",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_pair_bluetooth_text",
+    "zh": "蓝牙配对请求",
+    "ru": "Запрос сопряжения",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_wrong_password_text",
+    "zh": "密码错误",
+    "ru": "Неверный пароль",
+    "type": "string"
+  },
+  {
+    "name": "dvr_status_text_error",
+    "zh": "故障",
+    "ru": "Неисправность",
+    "type": "string"
+  },
+  {
+    "name": "dvr_status_text_not_recording",
+    "zh": "未录制",
+    "ru": "Не записано",
+    "type": "string"
+  },
+  {
+    "name": "hint_clear_screen",
+    "zh": "长按3s结束屏幕清洁",
+    "ru": "Удерживайте 3 с, чтобы завершить очистку экрана",
+    "type": "string"
+  },
+  {
+    "name": "hint_copilot_text_close_bluetooth",
+    "zh": "蓝牙未开启",
+    "ru": "Bluetooth не включен",
+    "type": "string"
+  },
+  {
+    "name": "hint_copilot_text_open_and_no_connected_bluetooth",
+    "zh": "未连接蓝牙",
+    "ru": "Bluetooth не подключен",
+    "type": "string"
+  },
+  {
+    "name": "input_hotspot_password_tip",
+    "zh": "8–32个字符，字母、数字和特殊字符中两种类型组合",
+    "ru": "8–32 символа, комбинация двух типов из букв, цифр и специальных символов",
+    "type": "string"
+  },
+  {
+    "name": "input_hotspot_password_title",
+    "zh": "修改热点密码",
+    "ru": "Изменить пароль точки доступа",
+    "type": "string"
+  },
+  {
+    "name": "input_wlan_password_tip",
+    "zh": "输入密码",
+    "ru": "Введите пароль",
+    "type": "string"
+  },
+  {
+    "name": "no_message",
+    "zh": "暂无消息",
+    "ru": "Пока нет сообщений",
+    "type": "string"
+  },
+  {
+    "name": "now_datatime_shortest",
+    "zh": "现在",
+    "ru": "Сейчас",
+    "type": "string"
+  },
+  {
+    "name": "panel_contorl_center",
+    "zh": "控制中心",
+    "ru": "Центр управления",
+    "type": "string"
+  },
+  {
+    "name": "panel_notification_center",
+    "zh": "通知中心",
+    "ru": "Центр уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "popup_bluetooth_hint_loading",
+    "zh": "搜索可用蓝牙中",
+    "ru": "Поиск Bluetooth...",
+    "type": "string"
+  },
+  {
+    "name": "popup_bluetooth_hint_no_device",
+    "zh": "暂无可用蓝牙",
+    "ru": "Нет Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "popup_bluetooth_hint_not_enable",
+    "zh": "未开启蓝牙",
+    "ru": "Bluetooth не включен",
+    "type": "string"
+  },
+  {
+    "name": "popup_bluetooth_more_settings",
+    "zh": "更多蓝牙设置",
+    "ru": "Настройки Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "popup_button_text_cellular_setting",
+    "zh": "移动网络设置",
+    "ru": "Настройки мобильной сети",
+    "type": "string"
+  },
+  {
+    "name": "popup_button_text_purchase",
+    "zh": "购买流量",
+    "ru": "Покупка трафика",
+    "type": "string"
+  },
+  {
+    "name": "popup_cellular_more_settings",
+    "zh": "更多移动网络设置",
+    "ru": "Дополнительные настройки мобильной сети",
+    "type": "string"
+  },
+  {
+    "name": "popup_clock_outside_temperature",
+    "zh": "车外温度",
+    "ru": "Температура за бортом",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_camera",
+    "zh": "摄像头",
+    "ru": "Камера",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_dlp_off",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_dlp_using",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_mic",
+    "zh": "麦克风",
+    "ru": "Микрофон",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_not_permit",
+    "zh": "未授权",
+    "ru": "Не авторизовано",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_permit",
+    "zh": "已授权",
+    "ru": "Авторизовано",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_using",
+    "zh": "使用中",
+    "ru": "В использовании",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_charge_charging",
+    "zh": "充电中",
+    "ru": "Заряжается",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_charge_error",
+    "zh": "充电故障",
+    "ru": "Неисправность зарядки",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_charge_fullof",
+    "zh": "充电完成",
+    "ru": "Зарядка завершена",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_charge_not_charging",
+    "zh": "未充电",
+    "ru": "Не заряжен",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_charge_off",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "popup_content_text_wireless_mirror_projection",
+    "zh": "镜像投影",
+    "ru": "Зеркальная проекция",
+    "type": "string"
+  },
+  {
+    "name": "popup_deauthorization",
+    "zh": "去授权",
+    "ru": "Перейти к авторизации",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_emergency_save",
+    "zh": "紧急录制",
+    "ru": "Срочная запись",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_record",
+    "zh": "紧急保存",
+    "ru": "Срочное сохранение",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_saved_records",
+    "zh": "查看行车记录",
+    "ru": "Просмотр записей",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_status_cycling",
+    "zh": "循环录制中",
+    "ru": "Циклическая запись",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_status_unopen",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_tachograph",
+    "zh": "行车记录仪",
+    "ru": "Видеорегистратор",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_item_view_recording",
+    "zh": "查看云台录制",
+    "ru": "Просмотр записи",
+    "type": "string"
+  },
+  {
+    "name": "popup_dvr_pan_tilt_recording",
+    "zh": "云台录像",
+    "ru": "Запись камеры",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_more_settings",
+    "zh": "打开云台相机",
+    "ru": "Открыть поворотную камеру",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_quick_photo",
+    "zh": "快速抓拍",
+    "ru": "Быстрый снимок",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_scan_coding",
+    "zh": "扫码中",
+    "ru": "Сканирование...",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_smart_scanner",
+    "zh": "智能扫码",
+    "ru": "Умное сканирование",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_start_scan_code",
+    "zh": "开始扫码",
+    "ru": "Начать сканирование",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_video_recording",
+    "zh": "一键录像",
+    "ru": "Запись одним нажатием",
+    "type": "string"
+  },
+  {
+    "name": "popup_gimbal_view_album",
+    "zh": "查看相册",
+    "ru": "Просмотреть альбом",
+    "type": "string"
+  },
+  {
+    "name": "popup_user_center_add",
+    "zh": "添加用户",
+    "ru": "Добавить пользователя",
+    "type": "string"
+  },
+  {
+    "name": "popup_user_center_driver",
+    "zh": "前往驾驶员中心",
+    "ru": "Перейти в центр водителей",
+    "type": "string"
+  },
+  {
+    "name": "popup_user_center_logout",
+    "zh": "退出登录",
+    "ru": "Выйти из учётной записи",
+    "type": "string"
+  },
+  {
+    "name": "popup_volume_more_settings",
+    "zh": "更多音量设置",
+    "ru": "Настройки громкости",
+    "type": "string"
+  },
+  {
+    "name": "popup_volume_mute",
+    "zh": "一键静音",
+    "ru": "Отключить звук",
+    "type": "string"
+  },
+  {
+    "name": "popup_volume_unmute",
+    "zh": "解除静音",
+    "ru": "Включить звук",
+    "type": "string"
+  },
+  {
+    "name": "popup_wifi_hint_loading",
+    "zh": "搜索可用网络中",
+    "ru": "Поиск доступных сетей...",
+    "type": "string"
+  },
+  {
+    "name": "popup_wifi_hint_no_ap",
+    "zh": "暂无网络",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "popup_wifi_hint_not_enable",
+    "zh": "未开启WLAN",
+    "ru": "WLAN не включен",
+    "type": "string"
+  },
+  {
+    "name": "popup_wifi_more_settings",
+    "zh": "更多WLAN设置",
+    "ru": "Дополнительные настройки WLAN",
+    "type": "string"
+  },
+  {
+    "name": "qs_automatic_brightness",
+    "zh": "自动亮度",
+    "ru": "Автояркость",
+    "type": "string"
+  },
+  {
+    "name": "qs_screen_off",
+    "zh": "熄屏",
+    "ru": "Выкл. экрана",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_area_title",
+    "zh": "自定义快捷功能",
+    "ru": "Настраиваемые быстрые действия",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_bluetooth_label",
+    "zh": "蓝牙",
+    "ru": "Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_button_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_button_confirm",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_button_edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "quick_settings_edit_title",
+    "zh": "长按拖动、点击可编辑右侧展示区功能",
+    "ru": "Удерживайте — изменить порядок.",
+    "type": "string"
+  },
+  {
+    "name": "switch_capuse_text_new_bluetooth_devices",
+    "zh": "新的设备",
+    "ru": "Новые устройства",
+    "type": "string"
+  },
+  {
+    "name": "switch_capuse_text_save_bluetooth_devices",
+    "zh": "我的设备",
+    "ru": "Мои устройства",
+    "type": "string"
+  },
+  {
+    "name": "text_cellular",
+    "zh": "移动数据",
+    "ru": "Мобильные данные",
+    "type": "string"
+  },
+  {
+    "name": "text_hotspot",
+    "zh": "车载热点",
+    "ru": "Точка доступа",
+    "type": "string"
+  },
+  {
+    "name": "title_text_left_data",
+    "zh": "流量剩余：",
+    "ru": "Остаток трафика:",
+    "type": "string"
+  },
+  {
+    "name": "title_text_time_left",
+    "zh": "剩余时长：",
+    "ru": "Оставшееся время:",
+    "type": "string"
+  },
+  {
+    "name": "title_text_time_left_default",
+    "zh": "已过期",
+    "ru": "Истёк",
+    "type": "string"
+  },
+  {
+    "name": "title_text_time_unit",
+    "zh": "天",
+    "ru": "дн.",
+    "type": "string"
+  },
+  {
+    "name": "title_text_total_data",
+    "zh": "总流量：",
+    "ru": "Общий трафик:",
+    "type": "string"
+  },
+  {
+    "name": "title_text_used_data",
+    "zh": "已用流量：",
+    "ru": "Использованный трафик:",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_bluetooth_connect_failed",
+    "zh": "连接失败，请确认%s在通信范围内",
+    "ru": "Соединение не удалось, убедитесь, что %s находится в зоне связи.",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_bluetooth_pair_failed",
+    "zh": "蓝牙匹配失败，请重新匹配",
+    "ru": "Сопряжение по Bluetooth не удалось. Повторите сопряжение.",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_clear_screen_failed",
+    "zh": "请在P挡使用屏幕清洁",
+    "ru": "Используйте очистку экрана в положении P.",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_exceed_max_pair_number_failed",
+    "zh": "最多保存7个设备，请删除后再试",
+    "ru": "Максимум 7 устройств. Удалите одно и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_hotspot_password_enter_error",
+    "zh": "输入不符合规则",
+    "ru": "Ввод не соответствует правилам",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_hotspot_password_enter_space",
+    "zh": "密码不能包含空格",
+    "ru": "Пароль не должен содержать пробелы",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_hotspot_password_enter_standardize",
+    "zh": "密码必须包含字母、数字、特殊字符中任意两类",
+    "ru": "Пароль должен содержать любые два типа символов: буквы, цифры, специальные символы",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_hotspot_password_length_too_long",
+    "zh": "密码过长",
+    "ru": "Слишком длинный пароль",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_tank_cap_pressure_relief_failed",
+    "zh": "请换至P挡后加油",
+    "ru": "Переведите рычаг в положение P перед заправкой",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_widget_full",
+    "zh": "添加个数已达上限",
+    "ru": "Достигнут лимит добавлений",
+    "type": "string"
+  },
+  {
+    "name": "toast_content_wifi_disconnected",
+    "zh": "WiFi已断开",
+    "ru": "WiFi отключен",
+    "type": "string"
+  },
+  {
+    "name": "toast_hotspot_pwd_modify_fail",
+    "zh": "热点密码修改失败",
+    "ru": "Не удалось изменить пароль точки доступа",
+    "type": "string"
+  },
+  {
+    "name": "toast_hotspot_pwd_modify_success",
+    "zh": "热点密码修改成功",
+    "ru": "Пароль точки доступа успешно изменён",
+    "type": "string"
+  },
+  {
+    "name": "voice_hint_voice_assistant_volume_change",
+    "zh": "这是当前音量",
+    "ru": "Это текущая громкость",
+    "type": "string"
+  },
+  {
+    "name": "volume_call",
+    "zh": "电话音量",
+    "ru": "Громкость телефона",
+    "type": "string"
+  },
+  {
+    "name": "volume_meida",
+    "zh": "媒体音量",
+    "ru": "Громкость мультимедиа",
+    "type": "string"
+  },
+  {
+    "name": "volume_navi",
+    "zh": "导航音量",
+    "ru": "Громкость навигации",
+    "type": "string"
+  },
+  {
+    "name": "volume_voice",
+    "zh": "语音音量",
+    "ru": "Громкость голоса",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_connected",
+    "zh": "已连接",
+    "ru": "Подключено",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_connecting",
+    "zh": "连接中",
+    "ru": "Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "wifi_status_disconnected",
+    "zh": "未连接",
+    "ru": "Не подключено",
+    "type": "string"
+  },
+  {
+    "name": "abc_slice_duration_days_one",
+    "zh": "%d 天前",
+    "ru": "%d дн. назад",
+    "type": "plurals"
+  },
+  {
+    "name": "abc_slice_duration_days_other",
+    "zh": "%d 天前",
+    "ru": "%d дн. назад",
+    "type": "plurals"
+  },
+  {
+    "name": "abc_slice_duration_min_one",
+    "zh": "%d 分钟前",
+    "ru": "%d минуту назад",
+    "type": "plurals"
+  },
+  {
+    "name": "abc_slice_duration_min_other",
+    "zh": "%d 分钟前",
+    "ru": "%d минут назад",
+    "type": "plurals"
+  },
+  {
+    "name": "abc_slice_duration_years_one",
+    "zh": "%d 年前",
+    "ru": "%d год назад",
+    "type": "plurals"
+  },
+  {
+    "name": "abc_slice_duration_years_other",
+    "zh": "%d 年前",
+    "ru": "%d лет назад",
+    "type": "plurals"
+  },
+  {
+    "name": "restricted_message_text_one",
+    "zh": "1 条新消息",
+    "ru": "1 новое сообщение",
+    "type": "plurals"
+  },
+  {
+    "name": "restricted_message_text_other",
+    "zh": "%d 条新消息",
+    "ru": "%d новых сообщений",
+    "type": "plurals"
+  }
+]

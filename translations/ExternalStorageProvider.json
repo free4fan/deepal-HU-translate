@@ -1,0 +1,26 @@
+[
+  {
+    "name": "app_label",
+    "zh": "外部存储设备",
+    "ru": "Внешнее хранилище",
+    "type": "string"
+  },
+  {
+    "name": "root_documents",
+    "zh": "文档",
+    "ru": "Документы",
+    "type": "string"
+  },
+  {
+    "name": "root_internal_storage",
+    "zh": "内部存储空间",
+    "ru": "Внутреннее хранилище",
+    "type": "string"
+  },
+  {
+    "name": "storage_description",
+    "zh": "本地存储空间",
+    "ru": "Локальное хранилище",
+    "type": "string"
+  }
+]

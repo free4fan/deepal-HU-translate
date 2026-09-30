@@ -1,0 +1,14 @@
+[
+  {
+    "name": "message_not_supported",
+    "zh": "没有可处理此操作的应用",
+    "ru": "Нет приложения, способного обработать эту операцию.",
+    "type": "string"
+  },
+  {
+    "name": "stub_name",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  }
+]

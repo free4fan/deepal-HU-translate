@@ -1,0 +1,596 @@
+[
+  {
+    "name": "accessibility_service_label",
+    "zh": "纯麦智能麦克风控制",
+    "ru": "Управление умным микрофоном Puremic",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "纯麦",
+    "ru": "Puremic",
+    "type": "string"
+  },
+  {
+    "name": "pm_bad_net",
+    "zh": "网络请求失败",
+    "ru": "Ошибка сетевого запроса",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_accompany",
+    "zh": "伴奏",
+    "ru": "Аккомпанемент",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_camera",
+    "zh": "录像",
+    "ru": "Видеозапись",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_echo",
+    "zh": "混响",
+    "ru": "Реверберация",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_mic",
+    "zh": "话筒",
+    "ru": "Микрофон",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_mic1",
+    "zh": "话筒1",
+    "ru": "Микрофон 1",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_mic2",
+    "zh": "话筒2",
+    "ru": "Микрофон 2",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_output",
+    "zh": "输出",
+    "ru": "Вывод",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_pk_mode",
+    "zh": "PK模式",
+    "ru": "Режим PvP",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_play",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_prog",
+    "zh": "已点",
+    "ru": "Заказано",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_remote_mic",
+    "zh": "遥控器开",
+    "ru": "Пульт включён",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_remote_mic_close",
+    "zh": "遥控器关",
+    "ru": "Пульт выключен",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_repeat",
+    "zh": "重唱",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_score",
+    "zh": "分数",
+    "ru": "Оценка",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_score_level",
+    "zh": "难度",
+    "ru": "Сложность",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_skip",
+    "zh": "切歌",
+    "ru": "Переключить трек",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_sound",
+    "zh": "音效",
+    "ru": "Звуковой эффект",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_speed",
+    "zh": "速度",
+    "ru": "Скорость",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_stepback",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_stepforward",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_tone",
+    "zh": "音调",
+    "ru": "Тон",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_tunning",
+    "zh": "调音",
+    "ru": "Настройка звука",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_vocal_off",
+    "zh": "伴唱",
+    "ru": "Бэк-вокал",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_vocal_on",
+    "zh": "原唱",
+    "ru": "Основной вокал",
+    "type": "string"
+  },
+  {
+    "name": "pm_control_voice",
+    "zh": "延迟",
+    "ru": "Задержка",
+    "type": "string"
+  },
+  {
+    "name": "pm_current_version",
+    "zh": "当前版本: %s",
+    "ru": "Текущая версия: %s",
+    "type": "string"
+  },
+  {
+    "name": "pm_device_info",
+    "zh": "机器信息",
+    "ru": "Инфо устройства",
+    "type": "string"
+  },
+  {
+    "name": "pm_dongle_fail",
+    "zh": "(验证失败%s)",
+    "ru": "Ошибка проверки%s",
+    "type": "string"
+  },
+  {
+    "name": "pm_dongle_info",
+    "zh": "麦克信息",
+    "ru": "Информация о микрофоне",
+    "type": "string"
+  },
+  {
+    "name": "pm_dongle_no_device",
+    "zh": "(无设备)",
+    "ru": "(Нет устройства)",
+    "type": "string"
+  },
+  {
+    "name": "pm_dongle_success",
+    "zh": "(验证成功)",
+    "ru": "(Проверка успешна)",
+    "type": "string"
+  },
+  {
+    "name": "pm_dongle_verify",
+    "zh": "(验证中...)",
+    "ru": "(Проверка...)",
+    "type": "string"
+  },
+  {
+    "name": "pm_exit_karaoke_tip",
+    "zh": "再次点击返回键退出演唱",
+    "ru": "Нажмите кнопку «Назад» ещё раз, чтобы выйти из режима пения.",
+    "type": "string"
+  },
+  {
+    "name": "pm_file_not_exist",
+    "zh": "文件不存在",
+    "ru": "Файл не существует",
+    "type": "string"
+  },
+  {
+    "name": "pm_file_save_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "pm_help",
+    "zh": "帮助文档",
+    "ru": "Справка",
+    "type": "string"
+  },
+  {
+    "name": "pm_not_enough_space",
+    "zh": "存储空间不足",
+    "ru": "Недостаточно места",
+    "type": "string"
+  },
+  {
+    "name": "pm_output_title",
+    "zh": "输出选择",
+    "ru": "Выбор вывода",
+    "type": "string"
+  },
+  {
+    "name": "pm_play_unknown_error",
+    "zh": "播放失败，自动切到下一首",
+    "ru": "Воспроизведение не удалось, автоматически переключено на следующую композицию",
+    "type": "string"
+  },
+  {
+    "name": "pm_player_del_cache",
+    "zh": "删除缓存",
+    "ru": "Очистить кэш",
+    "type": "string"
+  },
+  {
+    "name": "pm_press_again_play_next",
+    "zh": "再按一次将切歌",
+    "ru": "Ещё одно нажатие переключит трек",
+    "type": "string"
+  },
+  {
+    "name": "pm_press_again_replay",
+    "zh": "再按一次将重播",
+    "ru": "Нажмите ещё раз для повтора",
+    "type": "string"
+  },
+  {
+    "name": "pm_reserved_title",
+    "zh": "已选歌曲(%d首)",
+    "ru": "Выбранные песни (%d)",
+    "type": "string"
+  },
+  {
+    "name": "pm_save_record_fail",
+    "zh": "保存失败",
+    "ru": "Не удалось сохранить",
+    "type": "string"
+  },
+  {
+    "name": "pm_save_record_loading",
+    "zh": "正在保存...",
+    "ru": "Сохранение...",
+    "type": "string"
+  },
+  {
+    "name": "pm_save_record_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_changeVocal_off",
+    "zh": "原唱已关",
+    "ru": "Оригинал выкл.",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_changeVocal_on",
+    "zh": "原唱已开",
+    "ru": "Оригинал вкл.",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_next_song",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_next_title",
+    "zh": "下一首：%s",
+    "ru": "Следующий трек: %s",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_play",
+    "zh": "预览",
+    "ru": "Предпросмотр",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_repeat",
+    "zh": "重唱",
+    "ru": "Ансамбль",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "pm_score_upload",
+    "zh": "上传",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_echo",
+    "zh": "混响调节",
+    "ru": "Настройка реверба",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_key",
+    "zh": "音调调节",
+    "ru": "Регулировка высоты тона",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_left_mic",
+    "zh": "左麦克风",
+    "ru": "Левый микрофон",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_mic",
+    "zh": "麦克调节",
+    "ru": "Регулировка микрофона",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_music",
+    "zh": "伴奏调节",
+    "ru": "Настройка аккомп.",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_right_mic",
+    "zh": "右麦克风",
+    "ru": "Правый микрофон",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_tempo",
+    "zh": "速度调节",
+    "ru": "Регулировка скорости",
+    "type": "string"
+  },
+  {
+    "name": "pm_tuning_title",
+    "zh": "调音台",
+    "ru": "Микшер",
+    "type": "string"
+  },
+  {
+    "name": "pm_unknown_version",
+    "zh": "未知版本",
+    "ru": "Неизвестная версия",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_cancel",
+    "zh": "暂不更新",
+    "ru": "Не сейчас",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_message",
+    "zh": "发现新版本，是否更新？",
+    "ru": "Обнаружена новая версия. Обновить?",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_progress_message",
+    "zh": "请稍候…",
+    "ru": "Подождите…",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_progress_title",
+    "zh": "正在下载",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "pm_update_title",
+    "zh": "提示",
+    "ru": "Уведомление",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_no_file",
+    "zh": "无需上报(0x001)",
+    "ru": "Отчёт не требуется (0x001)",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_not_need",
+    "zh": "无需上报(0x002)",
+    "ru": "Отчёт не требуется (0x002)",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_problem",
+    "zh": "问题上报",
+    "ru": "Сообщение о проблеме",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_problem_fail",
+    "zh": "上报失败",
+    "ru": "Сбой отправки",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_problem_success",
+    "zh": "上报成功",
+    "ru": "Отчёт успешно отправлен",
+    "type": "string"
+  },
+  {
+    "name": "pm_upload_uploading",
+    "zh": "上报中...",
+    "ru": "Отправка...",
+    "type": "string"
+  },
+  {
+    "name": "pm_write_fail",
+    "zh": "写入失败",
+    "ru": "Запись не удалась",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到主屏幕",
+    "ru": "Перейти на главный экран",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享方式",
+    "ru": "Способ обмена",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "使用%s分享",
+    "ru": "Поделиться через %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

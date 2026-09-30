@@ -1,0 +1,140 @@
+[
+  {
+    "name": "bugreport_add_details_to_zip_failed",
+    "zh": "无法将错误报告详细信息添加到 ZIP 文件中",
+    "ru": "Не удалось добавить подробности отчёта об ошибке в ZIP-файл.",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_confirm",
+    "zh": "错误报告包含的数据来自于系统的各种日志文件，其中可能包含您认为敏感的数据（例如应用使用情况信息和位置数据）。请务必只与您信任的人和应用分享错误报告。",
+    "ru": "Данные в отчёте об ошибке получены из различных файлов журнала системы и могут содержать конфиденциальную информацию (например, данные об использовании приложений и данные о местоположении). Делитесь отчётами об ошибках только с людьми и приложениями, которым вы доверяете.",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_confirm_dont_repeat",
+    "zh": "不再显示",
+    "ru": "Больше не показывать",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_finished_pending_screenshot_text",
+    "zh": "点按即可分享不含屏幕截图的错误报告；您也可以等待屏幕截图完成",
+    "ru": "Нажмите, чтобы поделиться отчётом об ошибке без снимка экрана. Также можно дождаться завершения создания снимка экрана",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_finished_text",
+    "zh": "点按即可分享您的错误报告",
+    "ru": "Нажмите, чтобы поделиться вашим отчётом об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_finished_title",
+    "zh": "已获取错误报告 #%d",
+    "ru": "Отчёт об ошибке #%d получен",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_in_progress_title",
+    "zh": "正在生成错误报告 #%d",
+    "ru": "Генерация отчёта об ошибке #%d",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_info_action",
+    "zh": "详细信息",
+    "ru": "Подробная информация",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_info_description",
+    "zh": "错误摘要",
+    "ru": "Краткое описание ошибки",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_info_dialog_title",
+    "zh": "错误报告 #%d 详情",
+    "ru": "Подробности отчёта об ошибке #%d",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_info_name",
+    "zh": "文件名",
+    "ru": "Имя файла",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_info_title",
+    "zh": "错误标题",
+    "ru": "Заголовок ошибки",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_intent_chooser_title",
+    "zh": "分享错误报告",
+    "ru": "Поделиться отчётом об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_notification_channel",
+    "zh": "错误报告",
+    "ru": "Отчёт об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_screenshot_action",
+    "zh": "屏幕截图",
+    "ru": "Скриншот",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_screenshot_failed",
+    "zh": "无法截图。",
+    "ru": "Скриншот не выполнен.",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_screenshot_taken",
+    "zh": "已成功截图。",
+    "ru": "Скриншот успешно сделан.",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_storage_title",
+    "zh": "错误报告",
+    "ru": "Отчёт об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_unnamed",
+    "zh": "未命名",
+    "ru": "Безымянный",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_unreadable_text",
+    "zh": "无法读取错误报告文件",
+    "ru": "Не удалось прочитать файл отчёта об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_updating_title",
+    "zh": "正在向错误报告添加详细信息",
+    "ru": "Добавление подробностей в отчёт об ошибке",
+    "type": "string"
+  },
+  {
+    "name": "bugreport_updating_wait",
+    "zh": "请稍候…",
+    "ru": "Подождите…",
+    "type": "string"
+  },
+  {
+    "name": "save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  }
+]

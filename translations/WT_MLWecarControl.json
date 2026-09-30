@@ -1,0 +1,758 @@
+[
+  {
+    "name": "action_screen_alias",
+    "zh": "亮度",
+    "ru": "Яркость",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_close",
+    "zh": "关闭屏幕",
+    "ru": "Выключить экран",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_increase",
+    "zh": "增加屏幕亮度",
+    "ru": "Увеличить яркость экрана",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_increase_value",
+    "zh": "增加屏幕亮度具体档位",
+    "ru": "Увеличить яркость экрана до конкретного уровня",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_max",
+    "zh": "最大屏幕亮度",
+    "ru": "Максимальная яркость экрана",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_min",
+    "zh": "最小屏幕亮度",
+    "ru": "Минимальная яркость экрана",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_open",
+    "zh": "打开屏幕",
+    "ru": "Включить экран",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_reduce",
+    "zh": "降低屏幕亮度",
+    "ru": "Уменьшить яркость экрана",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_reduce_value",
+    "zh": "降低屏幕亮度具体档位",
+    "ru": "Снизить яркость экрана до конкретного уровня",
+    "type": "string"
+  },
+  {
+    "name": "action_screen_set",
+    "zh": "设置屏幕亮度具体档位",
+    "ru": "Установить конкретный уровень яркости экрана",
+    "type": "string"
+  },
+  {
+    "name": "air_quality_level",
+    "zh": "车内空气质量等级是%1$d",
+    "ru": "Уровень качества воздуха в салоне составляет %1$d",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "beyond_max",
+    "zh": "已超出调整范围，已为您调整到最大值",
+    "ru": "Превышен диапазон регулировки, значение установлено на максимум.",
+    "type": "string"
+  },
+  {
+    "name": "beyond_min",
+    "zh": "已超出调整范围，已为您调整到最小值",
+    "ru": "Превышен диапазон регулировки, значение установлено на минимум.",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connected",
+    "zh": "当前蓝牙未连接",
+    "ru": "Bluetooth не подключен.",
+    "type": "string"
+  },
+  {
+    "name": "call_who",
+    "zh": "你要打给谁？",
+    "ru": "Кому ты хочешь позвонить?",
+    "type": "string"
+  },
+  {
+    "name": "cruise_auto_return",
+    "zh": "没听到你说话，我先退下了",
+    "ru": "Не расслышал вас, я пока отойду.",
+    "type": "string"
+  },
+  {
+    "name": "enjoy_the_day_scenery_moon",
+    "zh": "良辰美景奈何天，看月亮还没到时间，请先欣赏白天的景色",
+    "ru": "Прекрасный день и чудесные виды, но до луны ещё рано — сначала полюбуемся дневными пейзажами.",
+    "type": "string"
+  },
+  {
+    "name": "enjoy_the_day_scenery_star",
+    "zh": "良辰美景奈何天，看星星还没到时间，请先欣赏白天的景色",
+    "ru": "Прекрасный день и чудесные виды, но до звёзд ещё рано — сначала полюбуемся дневными пейзажами.",
+    "type": "string"
+  },
+  {
+    "name": "enjoy_the_night_scenery",
+    "zh": "没有蓝天白云，但有明月繁星，请先欣赏夜晚的景色",
+    "ru": "Нет голубого неба и белых облаков, но есть яркая луна и множество звёзд — пожалуйста, сначала насладитесь ночным пейзажем.",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "no_support_function",
+    "zh": "暂不支持此功能",
+    "ru": "Функция не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "over_speed_warn",
+    "zh": "为了驾驶安全，暂时无法控制全景影像",
+    "ru": "В целях безопасности вождения управление камерой кругового обзора временно недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "please_open_engine_ev",
+    "zh": "当前不具备操作条件，请整车上电",
+    "ru": "В настоящее время условия для выполнения операции отсутствуют. Пожалуйста, включите питание автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "pm_level",
+    "zh": "车内pm2.5浓度等级是%1$d",
+    "ru": "Уровень концентрации PM2.5 в салоне: %1$d",
+    "type": "string"
+  },
+  {
+    "name": "remain_kilometre_mileage",
+    "zh": "剩余里程为%1$d公里",
+    "ru": "Остаточный запас хода: %1$d км",
+    "type": "string"
+  },
+  {
+    "name": "smoking",
+    "zh": "抽烟",
+    "ru": "Курение",
+    "type": "string"
+  },
+  {
+    "name": "stuffy",
+    "zh": "闷",
+    "ru": "Спёртый воздух",
+    "type": "string"
+  },
+  {
+    "name": "tips_action_cross",
+    "zh": "超出调节范围了，只能在%d到%d之内调节哦",
+    "ru": "Превышен диапазон регулировки. Настраивать можно только в пределах от %d до %d.",
+    "type": "string"
+  },
+  {
+    "name": "tips_action_type_cross",
+    "zh": "超出调节范围了，只能在%d到%d之内调节哦",
+    "ru": "Превышен диапазон регулировки. Настраивать можно только в пределах от %d до %d.",
+    "type": "string"
+  },
+  {
+    "name": "tips_already_action",
+    "zh": "当前%s已经%s了",
+    "ru": "На данный момент %s уже %s.",
+    "type": "string"
+  },
+  {
+    "name": "tips_already_action_current",
+    "zh": "当前%s已经是%d了",
+    "ru": "Сейчас %s уже составляет %d",
+    "type": "string"
+  },
+  {
+    "name": "tips_already_action_max",
+    "zh": "当前%s已经最大了",
+    "ru": "Текущее значение %s уже максимальное",
+    "type": "string"
+  },
+  {
+    "name": "tips_already_action_min",
+    "zh": "当前%s已经最小了",
+    "ru": "Текущее значение %s уже минимальное",
+    "type": "string"
+  },
+  {
+    "name": "tips_format_adderror",
+    "zh": "只支持整数调节,已为你调到%d了",
+    "ru": "Поддерживается только целочисленная регулировка, уже установлено значение %d",
+    "type": "string"
+  },
+  {
+    "name": "tips_format_error",
+    "zh": "你要说合理的数据哦",
+    "ru": "Укажите корректное значение",
+    "type": "string"
+  },
+  {
+    "name": "tips_format_notsupported",
+    "zh": "当前不支持该精度",
+    "ru": "В настоящее время данная точность не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "usb_connected",
+    "zh": "当前USB未连接",
+    "ru": "USB не подключен",
+    "type": "string"
+  },
+  {
+    "name": "ventilate",
+    "zh": "气",
+    "ru": "Воздух",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте клавиатуру в любом месте для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательские",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше опций",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Кому поделиться",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "ПМ",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Используйте: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календаря",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

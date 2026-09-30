@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Screen_notification_text",
+    "zh": "解锁即可使用",
+    "ru": "Разблокируйте для работы",
+    "type": "string"
+  },
+  {
+    "name": "Screen_notification_title",
+    "zh": "%s 请求访问相机",
+    "ru": "%s запрашивает доступ к камере",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到主屏幕",
+    "ru": "Перейти на главный экран",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие опции",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享方式",
+    "ru": "Способ обмена",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "使用%s分享",
+    "ru": "Поделиться через %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_back_preview",
+    "zh": "后置相机预览",
+    "ru": "Предпросмотр задней камеры",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_falsh_mode_off",
+    "zh": "闪光灯关闭状态",
+    "ru": "Вспышка выключена",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_falsh_mode_torch",
+    "zh": "闪光灯常亮状态",
+    "ru": "Постоянное включение вспышки",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_front_preview",
+    "zh": "前置相机预览",
+    "ru": "Предпросмотр передней камеры",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_stop_sharing_to_source",
+    "zh": "停止共享摄像头",
+    "ru": "Остановить общий доступ к камере",
+    "type": "string"
+  },
+  {
+    "name": "app_name_for_libdmsdpcamera",
+    "zh": "分布式相机",
+    "ru": "Распределённая камера",
+    "type": "string"
+  },
+  {
+    "name": "capsule_dialog_content",
+    "zh": "摄像头已协同至 %s。",
+    "ru": "Камера передана в %s.",
+    "type": "string"
+  },
+  {
+    "name": "capsule_dialog_negative_btn",
+    "zh": "断开",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "lens_wide",
+    "zh": "广角",
+    "ru": "Широкоугольный",
+    "type": "string"
+  },
+  {
+    "name": "notification_content_text",
+    "zh": "解锁即可使用",
+    "ru": "Разблокируйте для работы",
+    "type": "string"
+  },
+  {
+    "name": "notification_content_theme",
+    "zh": "分布式设备管理",
+    "ru": "Распределённое управление",
+    "type": "string"
+  },
+  {
+    "name": "notification_content_title",
+    "zh": "%s请求访问相机",
+    "ru": "%s запрашивает доступ к камере",
+    "type": "string"
+  },
+  {
+    "name": "permission_dialog_content",
+    "zh": "是否允许 %s 访问相机？",
+    "ru": "Разрешить %s доступ к камере?",
+    "type": "string"
+  },
+  {
+    "name": "permission_dialog_hint",
+    "zh": "用于共享摄像头",
+    "ru": "Для общего доступа к камере",
+    "type": "string"
+  },
+  {
+    "name": "permission_dialog_main_end",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "permission_dialog_negative_btn",
+    "zh": "禁止",
+    "ru": "Запретить",
+    "type": "string"
+  },
+  {
+    "name": "res_allow",
+    "zh": "允许",
+    "ru": "Разрешить",
+    "type": "string"
+  },
+  {
+    "name": "res_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "res_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "res_reject",
+    "zh": "禁止 (%ss)",
+    "ru": "Запрещено (%ss)",
+    "type": "string"
+  },
+  {
+    "name": "res_stop_use_camera",
+    "zh": "结束对摄像头的使用？",
+    "ru": "Завершить использование камеры?",
+    "type": "string"
+  },
+  {
+    "name": "res_toast",
+    "zh": "%s 对摄像头的使用已结束",
+    "ru": "Использование камеры приложением «%s» завершено",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "sink_back_to_desktop",
+    "zh": "回到桌面",
+    "ru": "На рабочий стол",
+    "type": "string"
+  },
+  {
+    "name": "sink_stop_sharing",
+    "zh": "停止共享",
+    "ru": "Остановить трансляцию",
+    "type": "string"
+  },
+  {
+    "name": "sink_stop_sharing_or_not",
+    "zh": "是否停止共享摄像头至 %1$s？",
+    "ru": "Прекратить трансляцию с камеры на %1$s?",
+    "type": "string"
+  },
+  {
+    "name": "source_connection_service_exception",
+    "zh": "设备已断开，请重新连接。",
+    "ru": "Устройство отключено, подключите его повторно.",
+    "type": "string"
+  },
+  {
+    "name": "source_sharing_status_text",
+    "zh": "正在共享至 %1$s",
+    "ru": "Передача на %1$s",
+    "type": "string"
+  },
+  {
+    "name": "source_stop_sharing_tip",
+    "zh": "%1$s 已停止使用本机摄像头",
+    "ru": "%1$s прекратил использование камеры на этом устройстве",
+    "type": "string"
+  },
+  {
+    "name": "accessibility_long_press_zoom_scale_tips_other",
+    "zh": "缩放 %s 倍",
+    "ru": "Масштаб %s раз",
+    "type": "plurals"
+  },
+  {
+    "name": "accessibility_recorded_hour_title_other",
+    "zh": "%1$s 小时",
+    "ru": "%1$s часов",
+    "type": "plurals"
+  },
+  {
+    "name": "accessibility_recorded_minute_title_other",
+    "zh": "%1$s 分钟",
+    "ru": "%1$s минут",
+    "type": "plurals"
+  },
+  {
+    "name": "accessibility_recorded_second_title_other",
+    "zh": "%1$s 秒",
+    "ru": "%1$s секунд",
+    "type": "plurals"
+  }
+]

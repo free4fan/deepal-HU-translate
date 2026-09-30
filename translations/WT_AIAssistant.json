@@ -1,0 +1,2768 @@
+[
+  {
+    "name": "a_day_time_text",
+    "zh": "1天前",
+    "ru": "1 день назад",
+    "type": "string"
+  },
+  {
+    "name": "a_min_time_text",
+    "zh": "1分钟前",
+    "ru": "1 минуту назад",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_deep_thinking_loading_end_r1",
+    "zh": "已深度思考(R1)",
+    "ru": "Глубокое мышление завершено (R1)",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_deep_thinking_loading_r1",
+    "zh": "深度思考中...",
+    "ru": "Глубокое мышление...",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_deep_thinking_r1",
+    "zh": "深度思考(R1)",
+    "ru": "Глубокое мышление (R1)",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_five",
+    "zh": "让我思考一下",
+    "ru": "Позвольте подумать",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_four",
+    "zh": "正在调取相关信息，请稍候",
+    "ru": "Получение соответствующей информации, подождите.",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_one",
+    "zh": "请让我好好想一想",
+    "ru": "Позвольте мне хорошенько подумать",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_six",
+    "zh": "我正在查阅相关资料",
+    "ru": "Я сейчас изучаю соответствующие материалы",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_three",
+    "zh": "别着急，我正在分析这个问题",
+    "ru": "Не переживай, я как раз анализирую эту проблему",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_guide_two",
+    "zh": "正在为您查阅资料",
+    "ru": "Ищу информацию для вас",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_query_error",
+    "zh": "生成失败",
+    "ru": "Генерация не удалась",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_query_loading",
+    "zh": "生成中...",
+    "ru": "Генерация...",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_query_quilt",
+    "zh": "退出超脑模式",
+    "ru": "Выйти из режима «Супермозг»",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_source_title_first",
+    "zh": "该内容由",
+    "ru": "Этот контент от...",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_time_out",
+    "zh": "我还不能理解你的意思，能再说一遍吗？",
+    "ru": "Я пока не понимаю, что ты имеешь в виду, можешь повторить?",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_title_default",
+    "zh": "超脑小安",
+    "ru": "Супермозг Сяоань",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_title_tip",
+    "zh": "*AI生成内容仅供参考",
+    "ru": "*Контент, сгенерированный ИИ, предназначен только для ознакомления",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_today_news_title",
+    "zh": "热点新闻",
+    "ru": "Горячие новости",
+    "type": "string"
+  },
+  {
+    "name": "ai_mode_today_news_title_relevant",
+    "zh": "相关",
+    "ru": "Связанные",
+    "type": "string"
+  },
+  {
+    "name": "an_hour_time_text",
+    "zh": "1小时前",
+    "ru": "1 час назад",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "智慧助手",
+    "ru": "Умный помощник",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "assistant_content",
+    "zh": "AI助手",
+    "ru": "ИИ-помощник",
+    "type": "string"
+  },
+  {
+    "name": "baike_mask",
+    "zh": "百科蒙层",
+    "ru": "Оверлей энциклопедии",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "day_time_text",
+    "zh": "%1$d天前",
+    "ru": "%1$d дней назад",
+    "type": "string"
+  },
+  {
+    "name": "default_name",
+    "zh": "小伙伴",
+    "ru": "Приятель",
+    "type": "string"
+  },
+  {
+    "name": "elevation_tts",
+    "zh": "\" 常见的高原预防措施有:需要逐渐登高、逐渐适应。升至海拔2500m以上高度后每24小时内的上升高度不能超过600m,每增加600～1200m需要增加1天时间进行适应。2.如果要进入海拔4km左右的高原地区，尽量在2.5-3km 海拔地区停留 2-3天。3.初入高原,应减少体力活动,多食碳水化合物类、多种维生素和易消化食品。4.随身携带一些氧气，出现反应的时吸氧缓解症状。 5. 进入高原地区后，需保证充足的休息睡眠，避免熬夜。\"",
+    "ru": "\" Общие меры профилактики горной болезни: 1. Необходимо постепенно подниматься, постепенно адаптироваться. После достижения высоты выше 2500 м подъём в течение 24 часов не должен превышать 600 м; на каждые дополнительные 600–1200 м требуется 1 дополнительный день для акклиматизации. 2. При въезде в горный район на высоте около 4 км рекомендуется провести 2–3 дня на высоте 2,5–3 км. 3. При первом пребывании на высоте следует ограничить физические нагрузки, употреблять больше углеводов, витаминов и легкоусвояемую пищу. 4. Возьмите с собой кислород; при появлении симптомов используйте кислород для облегчения состояния. 5. В горной местности обеспечьте полноценный отдых и сон, избегайте недосыпа.\"",
+    "type": "string"
+  },
+  {
+    "name": "entry_my_customer_service",
+    "zh": "进入我的客服",
+    "ru": "Перейти в службу поддержки",
+    "type": "string"
+  },
+  {
+    "name": "error_down",
+    "zh": "已经是第一页了",
+    "ru": "Это уже первая страница",
+    "type": "string"
+  },
+  {
+    "name": "error_up",
+    "zh": "已经是最后一页了",
+    "ru": "Это уже последняя страница",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "gps_word_negative",
+    "zh": "取消，不用了，不需要",
+    "ru": "Отмена, не нужно, не требуется",
+    "type": "string"
+  },
+  {
+    "name": "gps_word_positive",
+    "zh": "播放详情，需要播放，好的，需要",
+    "ru": "Воспроизвести детали, нужно воспроизвести, хорошо, нужно",
+    "type": "string"
+  },
+  {
+    "name": "hint",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "hour_time_text",
+    "zh": "%1$d小时前",
+    "ru": "%1$d часов назад",
+    "type": "string"
+  },
+  {
+    "name": "min_time_text",
+    "zh": "%1$d分钟前",
+    "ru": "%1$d минут назад",
+    "type": "string"
+  },
+  {
+    "name": "network_is_unavailable",
+    "zh": "网络出小差了，稍后再试吧|哎呀，网络出走了，等下再试试吧|网络好像消失在宇宙中啦，稍后再试试吧",
+    "ru": "Сеть немного подглючила, попробуйте позже|Ой, сеть сбежала, попробуйте чуть позже|Сеть, кажется, исчезла в космосе, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "next_page",
+    "zh": "下一页^翻页",
+    "ru": "Далее^Листать",
+    "type": "string"
+  },
+  {
+    "name": "now_time_text",
+    "zh": "现在",
+    "ru": "Сейчас",
+    "type": "string"
+  },
+  {
+    "name": "permission_overlay_request",
+    "zh": "AI助手运行时需要显示在其他应用上层，请授予相关权限",
+    "ru": "Для работы AI-ассистенту необходимо отображаться поверх других приложений. Предоставьте соответствующие разрешения.",
+    "type": "string"
+  },
+  {
+    "name": "phone_calling",
+    "zh": "语音暂不可用哦...",
+    "ru": "Голосовая функция временно недоступна...",
+    "type": "string"
+  },
+  {
+    "name": "poetry_mask",
+    "zh": "诗词蒙层",
+    "ru": "Поэтический оверлей",
+    "type": "string"
+  },
+  {
+    "name": "previous_page",
+    "zh": "上一页",
+    "ru": "Предыдущая страница",
+    "type": "string"
+  },
+  {
+    "name": "push_file_title",
+    "zh": "微信分享的图片",
+    "ru": "Изображение из WeChat",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_open_forward_content",
+    "zh": "设为壁纸^设置^壁纸^设置为壁纸",
+    "ru": "Установить как обои^Настройки^Обои^Установить как обои",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_button_content",
+    "zh": "设为壁纸",
+    "ru": "Установить как обои",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_content_no",
+    "zh": "图片需小于20M",
+    "ru": "Изображение < 20 МБ",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_forward_content",
+    "zh": "设为壁纸,设置,壁纸,设置为壁纸",
+    "ru": "Установить как обои, настройки, обои, установить как обои",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_title_no",
+    "zh": "微信图片分享失败",
+    "ru": "Не удалось поделиться изображением в WeChat",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_tts_content_no",
+    "zh": "微信图片分享失败啦，请分享小于20兆的图片",
+    "ru": "Не удалось поделиться изображением в WeChat. Пожалуйста, отправляйте изображения размером менее 20 МБ.",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_image_set_tts_content_yes",
+    "zh": "收到来自微信分享的图片，你可以说设为壁纸或保存",
+    "ru": "Получено изображение, отправленное через WeChat. Скажите «Установить как обои» или «Сохранить»",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_save_button_content",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "push_multi_media_save_forward_content",
+    "zh": "保存,存储",
+    "ru": "Сохранить, Записать",
+    "type": "string"
+  },
+  {
+    "name": "push_poi_title_route_gaode",
+    "zh": "收到高德的路线",
+    "ru": "Получен маршрут из Amap",
+    "type": "string"
+  },
+  {
+    "name": "push_poi_tts_content_by_driver",
+    "zh": "收到来自车主应用分享的新地点,你可以说导航或者取消",
+    "ru": "Получено новое место из приложения владельца. Скажите «Навигация» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "push_poi_tts_content_by_gaode",
+    "zh": "收到来自高德分享的新地点,你可以说导航或者取消",
+    "ru": "Получено новое место из Amap. Скажите «Навигация» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "push_poi_tts_content_by_gaode_driver",
+    "zh": "收到来自高德分享的新路线,你可以说导航或者取消",
+    "ru": "Получен новый маршрут из Amap. Скажите «Навигация» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "push_recommend_image_content",
+    "zh": "查看，放大，图片放大，展开图片，放大图片，打开图片",
+    "ru": "Просмотреть, Увеличить, Увеличить изображение, Развернуть изображение, Увеличить изображение, Открыть изображение",
+    "type": "string"
+  },
+  {
+    "name": "push_route_tts_content_by_gaode",
+    "zh": "收到来自高德分享的新路线,你可以说导航或者取消",
+    "ru": "Получен новый маршрут из Amap. Скажите «Навигация» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "push_schedule_button_content",
+    "zh": "查看详情",
+    "ru": "Подробнее",
+    "type": "string"
+  },
+  {
+    "name": "push_schedule_forward_content",
+    "zh": "⽇程详情，进⼊详情，查看⽇常，进⼊，打开⽇程，修改⽇程，查看详情",
+    "ru": "Детали расписания, перейти к деталям, просмотр ежедневных дел, перейти, открыть расписание, изменить расписание, просмотреть детали",
+    "type": "string"
+  },
+  {
+    "name": "recommend_image_content",
+    "zh": "查看^放大^图片放大^展开图片^放大图片^打开图片",
+    "ru": "Просмотр^Увеличить^Увеличить изображение^Развернуть изображение^Увеличить изображение^Открыть изображение",
+    "type": "string"
+  },
+  {
+    "name": "recommend_list_select_one",
+    "zh": "第一个^第1个",
+    "ru": "первый^1-й",
+    "type": "string"
+  },
+  {
+    "name": "recommend_list_select_three",
+    "zh": "第三个^第3个",
+    "ru": "Третий^3-й",
+    "type": "string"
+  },
+  {
+    "name": "recommend_list_select_two",
+    "zh": "第二个^第2个",
+    "ru": "Второй^2-й",
+    "type": "string"
+  },
+  {
+    "name": "recommend_title",
+    "zh": "智能推荐",
+    "ru": "Умные рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "recommend_title_wechat",
+    "zh": "微信助手",
+    "ru": "Помощник WeChat",
+    "type": "string"
+  },
+  {
+    "name": "recommend_title_wechat_link",
+    "zh": "微信互联",
+    "ru": "Связь с WeChat",
+    "type": "string"
+  },
+  {
+    "name": "semantic_tryword",
+    "zh": "试试说",
+    "ru": "Попробуй сказать",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_continue_content",
+    "zh": "继续反馈^没说完",
+    "ru": "Продолжить отзыв^Не закончил",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_edit_content",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_error",
+    "zh": "反馈失败",
+    "ru": "Сбой отправки отзыва",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_exit_content",
+    "zh": "撤回^不用了^不反馈",
+    "ru": "Отменить^Не нужно^Без обратной связи",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_submit",
+    "zh": "提交中...",
+    "ru": "Отправка...",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_submit_content",
+    "zh": "提交",
+    "ru": "Отправить",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_submit_content_des",
+    "zh": "提交^确认提交",
+    "ru": "Отправить^Подтвердить отправку",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_back_success",
+    "zh": "反馈成功",
+    "ru": "Отзыв успешно отправлен",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_exit",
+    "zh": "反馈内容将不会保存，我先退下啦",
+    "ru": "Содержание обратной связи не будет сохранено, я пока отойду.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_keep",
+    "zh": "好的，继续说吧",
+    "ru": "Хорошо, говори дальше.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_listener_over",
+    "zh": "发现你的反馈结束了, 你可以说提交或继续反馈",
+    "ru": "Ваш отзыв завершён. Скажите «Отправить» или «Продолжить отзыв»",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_listener_save",
+    "zh": "你的反馈已保存为草稿",
+    "ru": "Ваш отзыв сохранён как черновик.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_error",
+    "zh": "当前反馈失败，等下再试试吧",
+    "ru": "Не удалось отправить отзыв. Попробуйте ещё раз позже.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_long_toast",
+    "zh": "反馈内容超出限制",
+    "ru": "Содержание обратной связи превышает лимит.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_long_tts",
+    "zh": "反馈内容超出字数限制，有些记不住呢",
+    "ru": "Содержание обратной связи превышает лимит по символам, часть не запомню.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_long_view",
+    "zh": "反馈内容过长",
+    "ru": "Слишком длинный текст",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_short_toast",
+    "zh": "反馈内容少于5个字",
+    "ru": "Содержание обратной связи менее 5 символов",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_short_tts",
+    "zh": "反馈内容少于5个字，下次仔细说说吧",
+    "ru": "Содержание обратной связи менее 5 символов. В следующий раз опишите подробнее.",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_interrupt_short_view",
+    "zh": "反馈内容过短",
+    "ru": "Слишком короткий текст",
+    "type": "string"
+  },
+  {
+    "name": "sound_feed_submit_success",
+    "zh": "感谢你的反馈，会尽快回复哦",
+    "ru": "Спасибо за ваш отзыв, ответим как можно скорее",
+    "type": "string"
+  },
+  {
+    "name": "sound_init_one",
+    "zh": "好的，开始反馈吧",
+    "ru": "Хорошо, давайте начнём обратную связь.",
+    "type": "string"
+  },
+  {
+    "name": "sound_init_two",
+    "zh": "好的，请说吧",
+    "ru": "Хорошо, говорите.",
+    "type": "string"
+  },
+  {
+    "name": "sound_please_speak",
+    "zh": "请说吧...",
+    "ru": "Говорите...",
+    "type": "string"
+  },
+  {
+    "name": "sound_shouting_title",
+    "zh": "车外喊话",
+    "ru": "Громкая связь наружу",
+    "type": "string"
+  },
+  {
+    "name": "sound_start_error",
+    "zh": "语音启动失败",
+    "ru": "Ошибка запуска голоса",
+    "type": "string"
+  },
+  {
+    "name": "sound_start_error_info",
+    "zh": "暂时无法使用语音反馈，请前往我的客服反馈",
+    "ru": "Голосовая обратная связь временно недоступна. Оставьте обращение в разделе «Моя поддержка».",
+    "type": "string"
+  },
+  {
+    "name": "sound_starting",
+    "zh": "录音启动中...",
+    "ru": "Запись запускается...",
+    "type": "string"
+  },
+  {
+    "name": "space_top_main_voice_listening",
+    "zh": "正在聆听中…",
+    "ru": "Слушаю...",
+    "type": "string"
+  },
+  {
+    "name": "space_top_main_voice_listening_two",
+    "zh": "正在聆听...",
+    "ru": "Слушаю...",
+    "type": "string"
+  },
+  {
+    "name": "space_top_main_voice_tts_playing",
+    "zh": "正在播报...",
+    "ru": "Озвучивание...",
+    "type": "string"
+  },
+  {
+    "name": "space_top_mini_voice_listening",
+    "zh": "持续聆听中",
+    "ru": "Непрерывное прослушивание",
+    "type": "string"
+  },
+  {
+    "name": "space_top_mini_voice_try",
+    "zh": "试试说",
+    "ru": "Попробуй сказать",
+    "type": "string"
+  },
+  {
+    "name": "start_navi",
+    "zh": "开始导航(%s)",
+    "ru": "Начать навигацию (%s)",
+    "type": "string"
+  },
+  {
+    "name": "t_afternoon",
+    "zh": "下午",
+    "ru": "После полудня",
+    "type": "string"
+  },
+  {
+    "name": "t_before_dawn",
+    "zh": "凌晨",
+    "ru": "Раннее утро",
+    "type": "string"
+  },
+  {
+    "name": "t_forenoon",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "t_midday",
+    "zh": "中午",
+    "ru": "Полдень",
+    "type": "string"
+  },
+  {
+    "name": "t_morning",
+    "zh": "早上",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "t_night",
+    "zh": "晚上",
+    "ru": "Вечер",
+    "type": "string"
+  },
+  {
+    "name": "t_tempture",
+    "zh": "温度",
+    "ru": "Температура",
+    "type": "string"
+  },
+  {
+    "name": "t_weather",
+    "zh": "今天天气",
+    "ru": "Сегодняшняя погода",
+    "type": "string"
+  },
+  {
+    "name": "toast_permission_not_granted",
+    "zh": "AI助手需要必要的权限以保证正常运行",
+    "ru": "AI-помощнику требуются необходимые разрешения для корректной работы.",
+    "type": "string"
+  },
+  {
+    "name": "user_none_login",
+    "zh": "你还未登录，请先登录一下吧",
+    "ru": "Вы ещё не вошли в систему, пожалуйста, войдите.",
+    "type": "string"
+  },
+  {
+    "name": "voice_animal_cries",
+    "zh": "%1$s是这样叫",
+    "ru": "%1$s издаёт именно такой звук",
+    "type": "string"
+  },
+  {
+    "name": "voice_animal_cries_not_find",
+    "zh": "抱歉没有为您找到%1$s的叫声哦",
+    "ru": "Извините, не удалось найти звук %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "voice_call_phone_tips",
+    "zh": "即将呼叫",
+    "ru": "Скоро будет звонок",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_no_traffic",
+    "zh": "暂无更多航班",
+    "ru": "Пока нет доступных рейсов.",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_no_train",
+    "zh": "暂无更多班次",
+    "ru": "Рейсов больше нет",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_num_restriction_not_location",
+    "zh": "抱歉，找不到您的位置信息",
+    "ru": "Извините, не удалось найти информацию о вашем местоположении",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_num_restriction_out_fourteen_days",
+    "zh": "暂时不支持查询14天以后的限行信息",
+    "ru": "Запрос информации об ограничениях движения более чем на 14 дней вперёд пока не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_num_restriction_tts_first",
+    "zh": "%1$s%2$s的限行尾号为%3$s和%4$s",
+    "ru": "В %1$s%2$s ограничены номера с последними цифрами %3$s и %4$s",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_num_restriction_tts_second",
+    "zh": "%1$s的限行尾号为%2$s和%3$s",
+    "ru": "В %1$s ограничены номера с последними цифрами %2$s и %3$s",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_num_restriction_tts_three",
+    "zh": "%1$s不限行",
+    "ru": "В %1$s без ограничений",
+    "type": "string"
+  },
+  {
+    "name": "voice_car_unlimited",
+    "zh": "不限行",
+    "ru": "Без ограничений",
+    "type": "string"
+  },
+  {
+    "name": "voice_card_telephone_about_to_call",
+    "zh": "即将拨打",
+    "ru": "Скоро наберу",
+    "type": "string"
+  },
+  {
+    "name": "voice_card_telephone_to_call",
+    "zh": "拨打",
+    "ru": "Позвонить",
+    "type": "string"
+  },
+  {
+    "name": "voice_card_telephone_to_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "voice_card_weather_only_query_today",
+    "zh": "%1$s仅支持当天查询",
+    "ru": "%1$s поддерживает запросы только за текущий день",
+    "type": "string"
+  },
+  {
+    "name": "voice_card_weather_only_select_seven_days",
+    "zh": "只支持查询未来7天的天气哦",
+    "ru": "Поддерживается только запрос погоды на ближайшие 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "voice_no_available",
+    "zh": "语音暂不可用哦",
+    "ru": "Голос временно недоступен",
+    "type": "string"
+  },
+  {
+    "name": "voice_query_flight_info",
+    "zh": "查到以下航班信息",
+    "ru": "Найдена следующая информация о рейсах",
+    "type": "string"
+  },
+  {
+    "name": "voice_query_traffic_info",
+    "zh": "查到以下火车票信息",
+    "ru": "Найдена следующая информация о билетах на поезд",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_exit_tip_four",
+    "zh": "下个路口再见吧",
+    "ru": "Встретимся на следующем перекрёстке",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_exit_tip_one",
+    "zh": "好的，有事再喊我",
+    "ru": "Хорошо, если что — зови.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_exit_tip_three",
+    "zh": "好的，下次再见",
+    "ru": "Хорошо, до следующего раза.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_exit_tip_two",
+    "zh": "好的，我退下了",
+    "ru": "Хорошо, я откланяюсь.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_negative_four",
+    "zh": "被嫌弃了, 我想回星环城了",
+    "ru": "Меня разлюбили, хочу вернуться в Город Звёздного Кольца.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_negative_one",
+    "zh": "被嫌弃了, 但是我不会放弃学习的",
+    "ru": "Меня отвергли, но я не брошу учиться.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_negative_three",
+    "zh": "知道啦, 我会继续修炼自己的",
+    "ru": "Понял, буду продолжать работать над собой.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_negative_two",
+    "zh": "你考的都是我不会的呀",
+    "ru": "Ты проверяешь только то, чего я не знаю.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_no_permission",
+    "zh": "按下方向盘语音键可召唤深蓝~",
+    "ru": "Нажмите кнопку голосового управления на руле, чтобы вызвать Deepal~",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_no_wake_up_launcher",
+    "zh": "试试说“深蓝你好”唤醒我",
+    "ru": "Попробуйте сказать «Привет, Deepal», чтобы активировать меня.",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_no_wake_up_launcher_tip",
+    "zh": "“深蓝你好”",
+    "ru": "«Привет, Deepal»",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_no_wake_up_try",
+    "zh": "试试说：%s",
+    "ru": "Попробуй сказать: %s",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_open_details",
+    "zh": "查看详情",
+    "ru": "Подробнее",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_positive_in_two",
+    "zh": "生活不易, 小安多才多艺",
+    "ru": "Жизнь непростая, а Сяо Ан — человек-оркестр",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_positive_no_two",
+    "zh": "生活不易, 深蓝多才多艺",
+    "ru": "Жизнь непростая, а Deepal — человек-оркестр",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_positive_one",
+    "zh": "啊呀, 怪不好意思的",
+    "ru": "Ой, как-то неловко",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_say_goodbye",
+    "zh": "下次见，记得带上手机",
+    "ru": "Увидимся в следующий раз, не забудь взять с собой телефон",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_wake_up_launcher",
+    "zh": "试试说",
+    "ru": "Попробуй сказать",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_wake_up_other",
+    "zh": "主人，我在，您可以说",
+    "ru": "Господин, я здесь, говорите",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_wake_up_other_nick",
+    "zh": "%s，我在，您可以说",
+    "ru": "%s, я здесь, говорите",
+    "type": "string"
+  },
+  {
+    "name": "voice_state_welcome",
+    "zh": "好，%s",
+    "ru": "Хорошо, %s",
+    "type": "string"
+  },
+  {
+    "name": "voice_there_is_no_previous_page",
+    "zh": "已经在桌面了",
+    "ru": "Уже на главном экране",
+    "type": "string"
+  },
+  {
+    "name": "voice_today_not_birthday",
+    "zh": "还没到你的生日哦, 和我一起期待生日当天的惊喜吧",
+    "ru": "До твоего дня рождения ещё далеко, давай вместе будем ждать сюрприз в этот день!",
+    "type": "string"
+  },
+  {
+    "name": "voice_today_not_festival",
+    "zh": "还没到特殊节日哦, 和我一起期待属于特殊节日的惊喜吧",
+    "ru": "До особого праздника ещё далеко, давай вместе будем ждать сюрприз в этот день!",
+    "type": "string"
+  },
+  {
+    "name": "w_baoxue",
+    "zh": "暴雪",
+    "ru": "Метель",
+    "type": "string"
+  },
+  {
+    "name": "w_baoyu",
+    "zh": "暴雨",
+    "ru": "Ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_bingbao",
+    "zh": "冰雹",
+    "ru": "Град",
+    "type": "string"
+  },
+  {
+    "name": "w_bingli",
+    "zh": "冰粒",
+    "ru": "Ледяные зёрна",
+    "type": "string"
+  },
+  {
+    "name": "w_bingzhen",
+    "zh": "冰针",
+    "ru": "Ледяные иглы",
+    "type": "string"
+  },
+  {
+    "name": "w_chenjuanfeng",
+    "zh": "尘卷风",
+    "ru": "Пылевой вихрь",
+    "type": "string"
+  },
+  {
+    "name": "w_dabaoyu",
+    "zh": "大暴雨",
+    "ru": "Сильный ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_dadaobaoyu",
+    "zh": "大到暴雨",
+    "ru": "Сильный–ливневый дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_daxue",
+    "zh": "大雪",
+    "ru": "Сильный снег",
+    "type": "string"
+  },
+  {
+    "name": "w_dayu",
+    "zh": "大雨",
+    "ru": "Ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_dongwu",
+    "zh": "冻雾",
+    "ru": "Переохлаждённый туман",
+    "type": "string"
+  },
+  {
+    "name": "w_dongyu",
+    "zh": "冻雨",
+    "ru": "Ледяной дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_duoyun",
+    "zh": "多云",
+    "ru": "Облачно",
+    "type": "string"
+  },
+  {
+    "name": "w_fuchen",
+    "zh": "浮尘",
+    "ru": "Взвешенная пыль",
+    "type": "string"
+  },
+  {
+    "name": "w_jiazaishibai",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "w_jubuzhenyu2",
+    "zh": "局部阵雨",
+    "ru": "Местами дожди",
+    "type": "string"
+  },
+  {
+    "name": "w_leibao",
+    "zh": "雷暴",
+    "ru": "Гроза",
+    "type": "string"
+  },
+  {
+    "name": "w_leidian",
+    "zh": "雷电",
+    "ru": "Молния",
+    "type": "string"
+  },
+  {
+    "name": "w_leizhenyu",
+    "zh": "雷阵雨",
+    "ru": "Гроза",
+    "type": "string"
+  },
+  {
+    "name": "w_leizhenyubanbingbao",
+    "zh": "雷阵雨伴有冰雹",
+    "ru": "Гроза с градом",
+    "type": "string"
+  },
+  {
+    "name": "w_qiangshachenbao",
+    "zh": "强沙尘暴",
+    "ru": "Сильная пыльная буря",
+    "type": "string"
+  },
+  {
+    "name": "w_qiangzhenyu",
+    "zh": "强阵雨",
+    "ru": "Сильные ливневые дожди",
+    "type": "string"
+  },
+  {
+    "name": "w_qing",
+    "zh": "晴",
+    "ru": "Ясно",
+    "type": "string"
+  },
+  {
+    "name": "w_shachenbao",
+    "zh": "沙尘暴",
+    "ru": "Пыльная буря",
+    "type": "string"
+  },
+  {
+    "name": "w_shaoyun",
+    "zh": "少云",
+    "ru": "Небольшая облачность",
+    "type": "string"
+  },
+  {
+    "name": "w_tedabaoyu",
+    "zh": "特大暴雨",
+    "ru": "Сильнейший ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_wu",
+    "zh": "雾",
+    "ru": "Туман",
+    "type": "string"
+  },
+  {
+    "name": "w_wumai",
+    "zh": "霾",
+    "ru": "Смог",
+    "type": "string"
+  },
+  {
+    "name": "w_wuwangluo",
+    "zh": "无网络",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaodaozhongxue",
+    "zh": "小到中雪",
+    "ru": "Слабый-умеренный снег",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaodaozhongyu",
+    "zh": "小到中雨",
+    "ru": "Слабый-умеренный дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaoxue",
+    "zh": "小雪",
+    "ru": "Небольшой снег",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaoyu",
+    "zh": "小雨",
+    "ru": "Небольшой дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaozhenxue",
+    "zh": "小阵雪",
+    "ru": "Слабый снег",
+    "type": "string"
+  },
+  {
+    "name": "w_xiaozhenyu",
+    "zh": "小阵雨",
+    "ru": "Слабый ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_xue",
+    "zh": "雪",
+    "ru": "Снег",
+    "type": "string"
+  },
+  {
+    "name": "w_yangsha",
+    "zh": "扬沙",
+    "ru": "Пылевоздух",
+    "type": "string"
+  },
+  {
+    "name": "w_yin",
+    "zh": "阴",
+    "ru": "Облачно",
+    "type": "string"
+  },
+  {
+    "name": "w_yu",
+    "zh": "雨",
+    "ru": "Дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_yujiaxue",
+    "zh": "雨夹雪",
+    "ru": "Дождь со снегом",
+    "type": "string"
+  },
+  {
+    "name": "w_zhenxue",
+    "zh": "阵雪",
+    "ru": "Снегопад",
+    "type": "string"
+  },
+  {
+    "name": "w_zhenyu",
+    "zh": "阵雨",
+    "ru": "Ливень",
+    "type": "string"
+  },
+  {
+    "name": "w_zhongdaodayu",
+    "zh": "中到大雨",
+    "ru": "Умеренный-сильный дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_zhongxue",
+    "zh": "中雪",
+    "ru": "Умеренный снег",
+    "type": "string"
+  },
+  {
+    "name": "w_zhongyu",
+    "zh": "中雨",
+    "ru": "Умеренный дождь",
+    "type": "string"
+  },
+  {
+    "name": "w_zhuanqing",
+    "zh": "大部晴朗",
+    "ru": "Преимущественно ясно",
+    "type": "string"
+  },
+  {
+    "name": "weather_error",
+    "zh": "暂不支持此类天气查询",
+    "ru": "Данный тип запроса о погоде временно не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "wechat_cancel_content",
+    "zh": "取消,不用了,退出,退下,知道了,忽略",
+    "ru": "Отмена, не нужно, выход, отступить, понял, игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "wechat_music_button_content",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "wechat_music_forward_content",
+    "zh": "播放音乐，需要播放，播放，好的，需要，是的",
+    "ru": "Воспроизвести музыку, нужно воспроизвести, воспроизвести, хорошо, нужно, да",
+    "type": "string"
+  },
+  {
+    "name": "wechat_poi_button_content",
+    "zh": "导航",
+    "ru": "Навигация",
+    "type": "string"
+  },
+  {
+    "name": "wechat_poi_forward_content",
+    "zh": "发起导航，需要导航，导航，好的，需要，是的",
+    "ru": "Запустить навигацию, нужна навигация, навигация, хорошо, нужно, да",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_music_title_content",
+    "zh": "收到新的音乐",
+    "ru": "Получена новая музыка",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_music_tts_content",
+    "zh": "收到来自微信分享的音乐，需要为你播放吗？",
+    "ru": "Получена музыка из WeChat. Хотите, чтобы я её воспроизвёл?",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_poi_title_content",
+    "zh": "收到新的地点",
+    "ru": "Получено новое местоположение",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_poi_tts_content",
+    "zh": "收到来自微信分享的新地点，你可以说导航或取消？",
+    "ru": "Получено новое место из WeChat. Скажите «Навигация» или «Отмена»?",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_share_title",
+    "zh": "微信分享",
+    "ru": "Поделиться в WeChat",
+    "type": "string"
+  },
+  {
+    "name": "wechat_push_title_sub_content",
+    "zh": "来自微信分享",
+    "ru": "Из WeChat",
+    "type": "string"
+  },
+  {
+    "name": "wechat_reverse_content",
+    "zh": "取消，不用了，不需要，关闭，忽略",
+    "ru": "Отмена, не нужно, не требуется, закрыть, игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Для перемещения клавиатуры удерживайте любую её область (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие параметры",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "Вторая половина дня",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "мес",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_0",
+    "zh": "我有点热",
+    "ru": "Мне немного жарко",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_1",
+    "zh": "温度调高3度",
+    "ru": "Температуру +3°",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_2",
+    "zh": "打开最大制冷",
+    "ru": "Макс. охлаждение",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_3",
+    "zh": "打开内循环",
+    "ru": "Включить рециркуляцию",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_4",
+    "zh": "打开前除霜",
+    "ru": "Обогрев лобового",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_5",
+    "zh": "打开自动模式",
+    "ru": "Включить автоматический режим",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_6",
+    "zh": "风量小一点",
+    "ru": "Уменьшите поток воздуха",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_7",
+    "zh": "最大风量",
+    "ru": "Максимальный обдув",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_8",
+    "zh": "风量调高3档",
+    "ru": "Увеличить обдув на 3 уровня",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_9",
+    "zh": "空调吹脸",
+    "ru": "Обдув лица",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_air_conditioner_10",
+    "zh": "打开空调吹脚",
+    "ru": "Включить обдув ног",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_0",
+    "zh": "取消收藏",
+    "ru": "Убрать из избранного",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_1",
+    "zh": "快进1分钟",
+    "ru": "Вперёд на 1 мин",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_2",
+    "zh": "暂停播放",
+    "ru": "Пауза",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_3",
+    "zh": "重新播放",
+    "ru": "Воспроизвести заново",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_4",
+    "zh": "收藏这个节目",
+    "ru": "В избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_byte_dance_5",
+    "zh": "快退20秒",
+    "ru": "Назад на 20 сек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_intelligent_customer_service_0",
+    "zh": "我要反馈",
+    "ru": "Я хочу оставить отзыв",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_0",
+    "zh": "打电话给中国移动",
+    "ru": "Позвонить в «Китай Мобайл»",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_1",
+    "zh": "导航到北京南站",
+    "ru": "Навигация до Южного вокзала Пекина",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_2",
+    "zh": "打开车窗",
+    "ru": "Откройте окно",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_3",
+    "zh": "播放我收藏的音乐",
+    "ru": "Воспроизвести музыку из избранного",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_4",
+    "zh": "我想听刘德华的歌",
+    "ru": "Я хочу послушать песни Анди Лау",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_5",
+    "zh": "附近的加油站",
+    "ru": "Ближайшая заправка",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_6",
+    "zh": "导航声音大一点",
+    "ru": "Сделай навигацию громче",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_7",
+    "zh": "今天天气怎么样",
+    "ru": "Какая сегодня погода?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_8",
+    "zh": "打开空调",
+    "ru": "Включить климат",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_9",
+    "zh": "长安汽车的股票",
+    "ru": "Акции Changan",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_10",
+    "zh": "讲个笑话",
+    "ru": "Расскажи шутку",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_11",
+    "zh": "历史上的今天",
+    "ru": "Этот день в истории",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_12",
+    "zh": "给我起个名字",
+    "ru": "Дай мне имя",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_13",
+    "zh": "打开导航",
+    "ru": "Открыть навигацию",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_14",
+    "zh": "打开音乐",
+    "ru": "Включи музыку",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_15",
+    "zh": "打开电话",
+    "ru": "Открыть телефон",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_16",
+    "zh": "增大音量",
+    "ru": "Увеличить громкость",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_17",
+    "zh": "减少音量",
+    "ru": "Уменьшить громкость",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_18",
+    "zh": "随机播放",
+    "ru": "Перемешать",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_19",
+    "zh": "收藏这首歌",
+    "ru": "Добавить в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_20",
+    "zh": "打开歌词",
+    "ru": "Показать текст песни",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_21",
+    "zh": "单曲循环",
+    "ru": "Повтор одного трека",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_22",
+    "zh": "顺序播放",
+    "ru": "По порядку",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_23",
+    "zh": "上一首",
+    "ru": "Предыдущий трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_24",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_25",
+    "zh": "我想听歌",
+    "ru": "Я хочу послушать музыку",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_26",
+    "zh": "放大地图",
+    "ru": "Увеличить карту",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_27",
+    "zh": "车头向上",
+    "ru": "Передом вверх",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_28",
+    "zh": "3D视图",
+    "ru": "3D-вид",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_29",
+    "zh": "查看路线",
+    "ru": "Показать маршрут",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_30",
+    "zh": "躲避拥堵",
+    "ru": "Избегать пробок",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_31",
+    "zh": "附近有什么好吃的",
+    "ru": "Что вкусного рядом?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_32",
+    "zh": "帮我找个厕所",
+    "ru": "Помоги мне найти туалет",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_33",
+    "zh": "我要去北京大学",
+    "ru": "Я еду в Пекинский университет",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_34",
+    "zh": "我要回家",
+    "ru": "Я еду домой",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_35",
+    "zh": "明天天气怎么样",
+    "ru": "Какая будет погода завтра?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_36",
+    "zh": "北京的空气质量",
+    "ru": "Качество воздуха в Пекине",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_37",
+    "zh": "上海明天会下雨吗",
+    "ru": "Завтра в Шанхае будет дождь?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_38",
+    "zh": "今天的洗车指数",
+    "ru": "Индекс мойки авто на сегодня",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_39",
+    "zh": "经济模式",
+    "ru": "Эко-режим",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_40",
+    "zh": "打开全景",
+    "ru": "Открой панораму",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_41",
+    "zh": "打开360",
+    "ru": "Открой 360",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_42",
+    "zh": "换一个发音人",
+    "ru": "Сменить голос",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_43",
+    "zh": "换成四川话",
+    "ru": "Переключи на сычуаньский",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_44",
+    "zh": "我饿了",
+    "ru": "Я голоден",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_45",
+    "zh": "我觉得有点闷",
+    "ru": "Мне немного душно",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_46",
+    "zh": "开启提神模式",
+    "ru": "Включить режим бодрости",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_47",
+    "zh": "开启休憩模式",
+    "ru": "Включить режим отдыха",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_0",
+    "zh": "导航回家",
+    "ru": "Навигация домой",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_1",
+    "zh": "去公司",
+    "ru": "В офис",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_2",
+    "zh": "去重庆大学怎么走",
+    "ru": "Как добраться до Чунцинского университета?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_3",
+    "zh": "我在哪里",
+    "ru": "Где я?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_4",
+    "zh": "定位当前位置",
+    "ru": "Определить местоположение",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_5",
+    "zh": "收藏当前地点",
+    "ru": "Добавить в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_6",
+    "zh": "收藏这个地方",
+    "ru": "Сохранить это место",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_7",
+    "zh": "还有多久到",
+    "ru": "Сколько ещё ехать?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_8",
+    "zh": "到终点还要多久",
+    "ru": "Сколько до цели?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_9",
+    "zh": "剩余里程",
+    "ru": "Оставшееся расстояние",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_10",
+    "zh": "到目的地还有多远",
+    "ru": "Сколько ещё до места назначения?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_11",
+    "zh": "显示实时路况",
+    "ru": "Показать пробки",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_12",
+    "zh": "查询附近的加油站",
+    "ru": "Найти ближайшие заправки",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_13",
+    "zh": "公司周边有没有咖啡馆",
+    "ru": "Есть ли кафе рядом с офисом?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_14",
+    "zh": "附近有没有厕所",
+    "ru": "Есть ли поблизости туалет?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_15",
+    "zh": "地图大一点",
+    "ru": "Карта чуть больше",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_16",
+    "zh": "比例尺放大一点",
+    "ru": "Чуть увеличить масштаб",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_launcher_navi_17",
+    "zh": "地图缩小",
+    "ru": "Уменьшить карту",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_0",
+    "zh": "收藏这首歌",
+    "ru": "Добавить в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_1",
+    "zh": "取消收藏",
+    "ru": "Убрать из избранного",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_2",
+    "zh": "下一曲",
+    "ru": "Следующий трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_3",
+    "zh": "切歌",
+    "ru": "Переключить трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_4",
+    "zh": "单曲循环",
+    "ru": "Повтор одного трека",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_5",
+    "zh": "快进1分钟",
+    "ru": "Перемотать +1 мин",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_6",
+    "zh": "暂停播放",
+    "ru": "Пауза",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_7",
+    "zh": "重新播放",
+    "ru": "Воспроизвести заново",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_8",
+    "zh": "收藏这个节目",
+    "ru": "Добавить программу в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_lei_shi_9",
+    "zh": "快退20秒",
+    "ru": "Перемотать -20 сек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_0",
+    "zh": "来首张国荣的歌",
+    "ru": "Включи песню Лесли Чана",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_1",
+    "zh": "我要听民谣",
+    "ru": "Я хочу послушать фолк",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_2",
+    "zh": "播放本地歌曲",
+    "ru": "Воспроизвести локальные песни",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_3",
+    "zh": "放一首沉默是金",
+    "ru": "Включи «Тишина — золото»",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_4",
+    "zh": "收藏这首歌",
+    "ru": "Добавить в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_5",
+    "zh": "取消收藏",
+    "ru": "Убрать из избранного",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_6",
+    "zh": "下一曲",
+    "ru": "Следующий трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_7",
+    "zh": "切歌",
+    "ru": "Переключить трек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_8",
+    "zh": "单曲循环",
+    "ru": "Повтор одного трека",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_9",
+    "zh": "快进1分钟",
+    "ru": "Вперёд 1 мин",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_10",
+    "zh": "暂停播放",
+    "ru": "Пауза",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_11",
+    "zh": "重新播放",
+    "ru": "Воспроизвести заново",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_12",
+    "zh": "收藏这个节目",
+    "ru": "Добавить в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_music_13",
+    "zh": "快退20秒",
+    "ru": "Назад 20 сек",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_scene_model_0",
+    "zh": "我饿了",
+    "ru": "Я голоден",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_scene_model_1",
+    "zh": "我觉得有点闷",
+    "ru": "Мне душно",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_scene_model_2",
+    "zh": "开启提神模式",
+    "ru": "Включить режим бодрости",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_scene_model_3",
+    "zh": "开启休憩模式",
+    "ru": "Включить режим отдыха",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_0",
+    "zh": "打开WIFI",
+    "ru": "Включить Wi-Fi",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_1",
+    "zh": "打开蓝牙",
+    "ru": "Включить Bluetooth",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_2",
+    "zh": "关闭蓝牙",
+    "ru": "Отключить Bluetooth",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_3",
+    "zh": "屏幕亮一点",
+    "ru": "Сделай экран чуть ярче",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_4",
+    "zh": "屏幕调到最亮",
+    "ru": "Яркость на максимум",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_5",
+    "zh": "切换到黑夜模式",
+    "ru": "Переключиться на ночной режим",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_6",
+    "zh": "静音",
+    "ru": "Без звука",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_7",
+    "zh": "太吵了",
+    "ru": "Слишком шумно",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_8",
+    "zh": "音量调到20",
+    "ru": "Установи громкость на 20",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_9",
+    "zh": "媒体声音调到最低",
+    "ru": "Установи громкость мультимедиа на минимум",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_10",
+    "zh": "导航音量大一点",
+    "ru": "Повысь громкость навигации",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_setting_11",
+    "zh": "把媒体静音",
+    "ru": "Отключи звук мультимедиа",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_0",
+    "zh": "打电话给妈妈",
+    "ru": "Позвони маме",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_1",
+    "zh": "呼叫李四177号码",
+    "ru": "Позвони Ли Сы по номеру 177",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_2",
+    "zh": "打电话给顺丰快递",
+    "ru": "Позвони в SF Express",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_3",
+    "zh": "回拨电话",
+    "ru": "Перезвонить",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_4",
+    "zh": "打开通讯录",
+    "ru": "Открыть контакты",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_5",
+    "zh": "张三的号码是多少",
+    "ru": "Какой номер у Чжан Саня?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_telephone_6",
+    "zh": "查看未接电话",
+    "ru": "Просмотреть пропущенные вызовы",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_tencent_audio_0",
+    "zh": "暂停播放",
+    "ru": "Пауза",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_tencent_audio_1",
+    "zh": "重新播放",
+    "ru": "Воспроизвести заново",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_tencent_audio_2",
+    "zh": "收藏这个节目",
+    "ru": "Добавить программу в избранное",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_0",
+    "zh": "后排车窗关闭",
+    "ru": "Закрыть задние окна",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_1",
+    "zh": "副驾车窗开一半",
+    "ru": "Окно пассажира наполовину",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_2",
+    "zh": "车窗留个缝",
+    "ru": "Окно на щёлочку",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_3",
+    "zh": "车窗打开30%",
+    "ru": "Открой окно на 30%.",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_4",
+    "zh": "自动远光灯",
+    "ru": "Авто дальний свет",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_5",
+    "zh": "打开大灯",
+    "ru": "Включи фары.",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_6",
+    "zh": "打开示廓灯",
+    "ru": "Включи габаритные огни.",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_7",
+    "zh": "胎压正常吗",
+    "ru": "Давление в шинах в норме?",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_guiding_vehicle_8",
+    "zh": "检查一下胎压",
+    "ru": "Проверь давление в шинах.",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_tourist_guiding_0",
+    "zh": "导航回家",
+    "ru": "Навигация домой",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_tourist_guiding_1",
+    "zh": "检查一下胎压",
+    "ru": "Проверь давление в шинах",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_tourist_guiding_2",
+    "zh": "空调调到25度",
+    "ru": "Климат на 25",
+    "type": "arrays"
+  },
+  {
+    "name": "chang_an_tourist_guiding_3",
+    "zh": "我想听歌",
+    "ru": "Я хочу послушать музыку",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_minimalist_goodbye_style_0",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_minimalist_goodbye_style_1",
+    "zh": "OK",
+    "ru": "OK",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_naixiongyaomei_goodbye_style_0",
+    "zh": "好嘛，我走了",
+    "ru": "Ну ладно, я пошёл",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_naixiongyaomei_goodbye_style_1",
+    "zh": "要得，我走了",
+    "ru": "Ладно, я пошёл",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_xiaolingjie_goodbye_style_0",
+    "zh": "那我走咯",
+    "ru": "Тогда я ухожу",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_xiaolingjie_goodbye_style_1",
+    "zh": "行啦，那我先走咯",
+    "ru": "Ладно, я тогда ухожу.",
+    "type": "arrays"
+  },
+  {
+    "name": "tinnove_multi_xiaolingjie_goodbye_style_2",
+    "zh": "嗯嗯，等你下次叫我",
+    "ru": "Хорошо, жду, когда ты снова позовёшь.",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

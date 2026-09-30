@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "alarm_title",
+    "zh": "故障报警",
+    "ru": "Неисправность",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j01",
+    "zh": "错误代码：（J01）",
+    "ru": "Код ошибки: (J01)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j01_content",
+    "zh": "\"您尚未实名认证\n请扫描左侧二维码下载Incall远程助理或\n联系经销商完成实名认证\"",
+    "ru": "\"Верификация личности не выполнена.\\nОтсканируйте QR-код слева для загрузки Incall Remote Assistant или\\nобратитесь к дилеру для завершения верификации\"",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j02",
+    "zh": "错误代码：（J02）",
+    "ru": "Код ошибки: (J02)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j02_content",
+    "zh": "\"车联网基础服务已停用\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\n请致电呼叫中心\n951999\\t重新激活\"",
+    "ru": "\"Базовые сервисы телематики отключены\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\nПозвоните в колл-центр\\n951999\\tдля повторной активации\"",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j03",
+    "zh": "错误代码：（J03）",
+    "ru": "Код ошибки: (J03)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_j03_content",
+    "zh": "\"车联网基础服务已无法使用\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\n请到4S店处理\"",
+    "ru": "\"Базовые сервисы телематики недоступны\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\nОбратитесь в дилерский центр 4S\"",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z00_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z01",
+    "zh": "错误代码：（Z01）",
+    "ru": "Код ошибки: (Z01)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z01_content",
+    "zh": "您暂未购买该产品，或产品已过有效期，请至服务商城购买",
+    "ru": "Вы не приобрели данный продукт или срок его действия истёк. Приобретите его в сервисном магазине.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z02",
+    "zh": "错误代码：（Z02）",
+    "ru": "Код ошибки: (Z02)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z02_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z03",
+    "zh": "错误代码：（Z03）",
+    "ru": "Код ошибки: (Z03)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z03_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z04",
+    "zh": "错误代码：（Z04）",
+    "ru": "Код ошибки: (Z04)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z04_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z05",
+    "zh": "错误代码：（Z05）",
+    "ru": "Код ошибки: (Z05)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z05_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z06",
+    "zh": "错误代码：（Z06）",
+    "ru": "Код ошибки: (Z06)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z06_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z07",
+    "zh": "错误代码：（Z07）",
+    "ru": "Код ошибки: (Z07)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z07_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z08",
+    "zh": "错误代码：（Z08）",
+    "ru": "Код ошибки: (Z08)",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z08_content",
+    "zh": "网络请求超时，请稍后重试",
+    "ru": "Время ожидания сетевого запроса истекло. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "error_code_z09",
+    "zh": "错误代码：（Z09）",
+    "ru": "Код ошибки: (Z09)",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "双屏互动",
+    "ru": "Два экрана",
+    "type": "string"
+  },
+  {
+    "name": "ar_camera_Unavailable",
+    "zh": "摄像头被占用,暂不支持此操作",
+    "ru": "Камера занята, данная операция временно недоступна",
+    "type": "string"
+  },
+  {
+    "name": "ar_navigate_not_open",
+    "zh": "AR导航未开启",
+    "ru": "AR-навигация не включена",
+    "type": "string"
+  },
+  {
+    "name": "calling_bluetooth_disconnected",
+    "zh": "蓝牙未连接，请连接蓝牙！",
+    "ru": "Bluetooth не подключен, подключите Bluetooth!",
+    "type": "string"
+  },
+  {
+    "name": "calling_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "calling_navigation",
+    "zh": "导航到：",
+    "ru": "Перейти к:",
+    "type": "string"
+  },
+  {
+    "name": "calling_ok",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "calling_status_active",
+    "zh": "通话中",
+    "ru": "В разговоре",
+    "type": "string"
+  },
+  {
+    "name": "calling_status_coming",
+    "zh": "正在来电…",
+    "ru": "Входящий вызов…",
+    "type": "string"
+  },
+  {
+    "name": "calling_status_dialing",
+    "zh": "正在连接…",
+    "ru": "Подключение…",
+    "type": "string"
+  },
+  {
+    "name": "calling_title_center",
+    "zh": "长安客服中心",
+    "ru": "Поддержка Changan",
+    "type": "string"
+  },
+  {
+    "name": "calling_title_sos",
+    "zh": "SOS紧急呼叫",
+    "ru": "Экстренный вызов SOS",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "full_screen_not_open",
+    "zh": "全屏导航未开启",
+    "ru": "Полноэкранная навигация не включена",
+    "type": "string"
+  },
+  {
+    "name": "full_screen_opened",
+    "zh": "全屏导航已经开启",
+    "ru": "Полноэкранная навигация уже включена",
+    "type": "string"
+  },
+  {
+    "name": "look",
+    "zh": "查看",
+    "ru": "Просмотреть",
+    "type": "string"
+  },
+  {
+    "name": "open_ar_auto_need_navigate",
+    "zh": "导航中才能开启AR导航",
+    "ru": "AR-навигацию можно включить только во время навигации.",
+    "type": "string"
+  },
+  {
+    "name": "screen_save_fail",
+    "zh": "仪表截屏图片已传输失败，请重新截屏",
+    "ru": "Не удалось передать скриншот приборной панели. Повторите скриншот.",
+    "type": "string"
+  },
+  {
+    "name": "screen_save_fail_space",
+    "zh": "车机存储空间不足，无法保存截图",
+    "ru": "Недостаточно места в мультимедийной системе, невозможно сохранить скриншот.",
+    "type": "string"
+  },
+  {
+    "name": "screen_save_success",
+    "zh": "仪表截屏图片已为您保存至文件管理，是否需要立即查看？",
+    "ru": "Скриншот приборной панели сохранён в файловом менеджере. Хотите открыть его сейчас?",
+    "type": "string"
+  },
+  {
+    "name": "screen_save_success_1",
+    "zh": "仪表截屏图片已为您保存至文件管理，立即查看",
+    "ru": "Скриншот приборной панели сохранён в файловом менеджере. Открыть сейчас.",
+    "type": "string"
+  },
+  {
+    "name": "WeatherIdByCity_0",
+    "zh": "获取全部天气信息（cityid）",
+    "ru": "Получить все данные о погоде (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_1",
+    "zh": "实况天气（cityid）",
+    "ru": "Текущая погода (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_2",
+    "zh": "天气预报(24小时)（cityid）",
+    "ru": "Прогноз погоды (24 часа) (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_3",
+    "zh": "天气预报(15天)（cityid）",
+    "ru": "Прогноз погоды (15 дней) (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_4",
+    "zh": "aqi（cityid）",
+    "ru": "aqi（cityid）",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_5",
+    "zh": "aqi预报5天（cityid）",
+    "ru": "Прогноз AQI на 5 дней (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_6",
+    "zh": "限行数据(14天 包括今日)",
+    "ru": "Данные об ограничениях движения (14 дней, включая сегодня)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_7",
+    "zh": "天气预警（cityid）",
+    "ru": "Предупреждение о погоде (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_8",
+    "zh": "生活指数10个（cityid）",
+    "ru": "10 индексов жизни (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByCity_9",
+    "zh": "生活指数28个（cityid）",
+    "ru": "28 индексов жизни (cityid)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_0",
+    "zh": "获取全部天气信息（经纬度）",
+    "ru": "Получить всю информацию о погоде (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_1",
+    "zh": "实况天气（经纬度）",
+    "ru": "Текущая погода (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_2",
+    "zh": "天气预报(24小时)（经纬度）",
+    "ru": "Прогноз погоды (24 часа) (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_3",
+    "zh": "天气预报(15天)（经纬度）",
+    "ru": "Прогноз погоды (15 дней) (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_4",
+    "zh": "aqi（经纬度）",
+    "ru": "AQI (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_5",
+    "zh": "aqi预报5天（经纬度）",
+    "ru": "Прогноз AQI на 5 дней (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_6",
+    "zh": "限行数据(14天 包括今日)（经纬度）",
+    "ru": "Данные об ограничениях на движение (14 дней, включая сегодня) (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_7",
+    "zh": "天气预警（经纬度）",
+    "ru": "Предупреждения о погоде (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_8",
+    "zh": "生活指数10个（经纬度）",
+    "ru": "Индексы (10 шт.) (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "WeatherIdByGPS_9",
+    "zh": "生活指数28个（经纬度）",
+    "ru": "Индексы (28 шт.) (широта/долгота)",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_0",
+    "zh": "机油压力异常",
+    "ru": "Аномальное давление масла",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_1",
+    "zh": "GPF达到限值，请检查维护",
+    "ru": "GPF достиг предельного значения. Проверьте и выполните обслуживание.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_2",
+    "zh": "主动进气格栅故障，请检查维修",
+    "ru": "Неисправность активной решётки радиатора. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_3",
+    "zh": "换挡器故障，请检查维修",
+    "ru": "Неисправность переключателя передач. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_4",
+    "zh": "P挡故障，请检查维修",
+    "ru": "Неисправность режима парковки. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_5",
+    "zh": "制动液位低，请检查维修",
+    "ru": "Низкий уровень тормозной жидкости. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_6",
+    "zh": "电子驻车制动系统故障，请检查维修",
+    "ru": "Неисправность системы электронного стояночного тормоза. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_7",
+    "zh": "胎压监测系统故障，请检查维修",
+    "ru": "Неисправность системы контроля давления в шинах. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_8",
+    "zh": "左前轮胎漏气，请谨慎驾驶至维修点处理",
+    "ru": "Спускает левое переднее колесо. Осторожно доедьте до пункта ремонта.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_9",
+    "zh": "右前轮胎漏气，请谨慎驾驶至维修点处理",
+    "ru": "Спускает правое переднее колесо. Осторожно доедьте до пункта ремонта.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_10",
+    "zh": "左后轮胎漏气，请谨慎驾驶至维修点处理",
+    "ru": "Спускает левое заднее колесо. Осторожно доедьте до пункта ремонта.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_11",
+    "zh": "右后轮胎漏气，请谨慎驾驶至维修点处理",
+    "ru": "Спускает правое заднее колесо. Осторожно доедьте до пункта ремонта.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_12",
+    "zh": "左前轮胎漏气，请靠边停车，更换备胎！",
+    "ru": "Спускает левое переднее колесо. Остановитесь на обочине и замените колесо на запасное!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_13",
+    "zh": "右前轮胎漏气，请靠边停车，更换备胎！",
+    "ru": "Спускает правое переднее колесо. Остановитесь на обочине и замените колесо на запасное!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_14",
+    "zh": "左后轮胎漏气，请靠边停车，更换备胎！",
+    "ru": "Спускает левое заднее колесо. Остановитесь на обочине и замените колесо на запасное!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_15",
+    "zh": "右后轮胎漏气，请靠边停车，更换备胎！",
+    "ru": "Правое заднее колесо спущено. Остановитесь у обочины и установите запасное колесо!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_16",
+    "zh": "左前轮胎漏气，请靠边停车，检查轮胎！",
+    "ru": "Левое переднее колесо спущено. Остановитесь у обочины и проверьте шину!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_17",
+    "zh": "右前轮胎漏气，请靠边停车，检查轮胎！",
+    "ru": "Правое переднее колесо спущено. Остановитесь у обочины и проверьте шину!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_18",
+    "zh": "左后轮胎漏气，请靠边停车，检查轮胎！",
+    "ru": "Левое заднее колесо спущено. Остановитесь у обочины и проверьте шину!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_19",
+    "zh": "右后轮胎漏气，请靠边停车，检查轮胎！",
+    "ru": "Правое заднее колесо спущено. Остановитесь у обочины и проверьте шину!",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_20",
+    "zh": "左前轮胎漏气，请检查轮胎",
+    "ru": "Левое переднее колесо спущено, проверьте шину",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_21",
+    "zh": "右前轮胎漏气，请检查轮胎",
+    "ru": "Правое переднее колесо спущено, проверьте шину",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_22",
+    "zh": "左后轮胎漏气，请检查轮胎",
+    "ru": "Левое заднее колесо спущено, проверьте шину",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_23",
+    "zh": "右后轮胎漏气，请检查轮胎",
+    "ru": "Спустило правое заднее колесо, проверьте колесо",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_24",
+    "zh": "左前轮胎漏气，请更换备胎",
+    "ru": "Спустило переднее левое колесо, замените на запасное",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_25",
+    "zh": "右前轮胎漏气，请更换备胎",
+    "ru": "Спустило правое переднее колесо, замените на запасное",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_26",
+    "zh": "左后轮胎漏气，请更换备胎",
+    "ru": "Спустило левое заднее колесо, замените на запасное",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_27",
+    "zh": "右后轮胎漏气，请更换备胎",
+    "ru": "Спустило правое заднее колесо, замените на запасное",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_28",
+    "zh": "左前轮胎漏气，请检查轮胎",
+    "ru": "Спустило переднее левое колесо, проверьте колесо",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_29",
+    "zh": "右前轮胎漏气，请检查轮胎",
+    "ru": "Спустило правое переднее колесо, проверьте колесо",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_30",
+    "zh": "左后轮胎漏气，请检查轮胎",
+    "ru": "Спустило заднее левое колесо, проверьте колесо",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_31",
+    "zh": "右后轮胎漏气，请检查轮胎",
+    "ru": "Правое заднее колесо спустило, проверьте шину",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_32",
+    "zh": "胎压较低，请充气",
+    "ru": "Низкое давление в шинах, подкачайте",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_33",
+    "zh": "工厂模式，请联系经销商",
+    "ru": "Заводской режим, обратитесь к дилеру",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_34",
+    "zh": "运输模式，请联系经销商",
+    "ru": "Режим транспортировки, обратитесь к дилеру",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_35",
+    "zh": "为保证电量充足，请启动发动机",
+    "ru": "Для поддержания достаточного заряда запустите двигатель",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_36",
+    "zh": "无钥匙系统故障，请检查维修",
+    "ru": "Неисправность системы бесключевого доступа, требуется проверка и ремонт",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_37",
+    "zh": "电源分配故障，请检查维修",
+    "ru": "Неисправность распределения питания, требуется проверка и ремонт",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_38",
+    "zh": "转向锁止系统故障，请检查维修",
+    "ru": "Неисправность системы блокировки рулевого управления, требуется проверка и ремонт",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_39",
+    "zh": "环境光传感器故障，请检查维修",
+    "ru": "Неисправность датчика освещённости. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_40",
+    "zh": "前位置灯故障，请检查维修",
+    "ru": "Неисправность передних габаритных огней. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_41",
+    "zh": "后位置灯故障，请检查维修",
+    "ru": "Неисправность задних габаритных огней. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_42",
+    "zh": "左近光灯故障，请检查维修",
+    "ru": "Неисправность левого ближнего света. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_43",
+    "zh": "右近光灯故障，请检查维修",
+    "ru": "Неисправность правого ближнего света. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_44",
+    "zh": "左前雾灯故障，请检查维修",
+    "ru": "Неисправность левого переднего противотуманного фонаря. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_45",
+    "zh": "右前雾灯故障，请检查维修",
+    "ru": "Неисправность правого переднего противотуманного фонаря. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_46",
+    "zh": "左后雾灯故障，请检查维修",
+    "ru": "Неисправность левого заднего противотуманного фонаря. Проверьте и устраните",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_47",
+    "zh": "右后雾灯故障，请检查维修",
+    "ru": "Неисправность правой задней противотуманной фары. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_48",
+    "zh": "左转向灯故障，请检查维修",
+    "ru": "Неисправность левого указателя поворота. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_49",
+    "zh": "右转向灯故障，请检查维修",
+    "ru": "Неисправность правого указателя поворота. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_50",
+    "zh": "制动灯故障，请检查维修",
+    "ru": "Неисправность стоп-сигнала. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_51",
+    "zh": "高位制动灯故障，请检查维修",
+    "ru": "Неисправность верхнего стоп-сигнала. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_52",
+    "zh": "倒车灯故障，请检查维修",
+    "ru": "Неисправность фонаря заднего хода. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_53",
+    "zh": "左日间行车灯故障，请检查维修",
+    "ru": "Неисправность левого дневного ходового огня. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_54",
+    "zh": "右日间行车灯故障，请检查维修",
+    "ru": "Неисправность правого дневного ходового огня. Проверьте и отремонтируйте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_55",
+    "zh": "水温偏高",
+    "ru": "Высокая температура воды",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_56",
+    "zh": "燃油已耗尽，请加注燃油",
+    "ru": "Запас топлива исчерпан, заправьте автомобиль",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_57",
+    "zh": "OBD故障指示灯点亮，请检查发动机管理EMS",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте систему управления двигателем (EMS)",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_58",
+    "zh": "OBD故障指示灯点亮，请检查动力总成控制系统PCU/PDCU",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте систему управления силовой установкой PCU/PDCU",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_59",
+    "zh": "OBD故障指示灯点亮，请检查电机控制系统PEU",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте систему управления электродвигателем (PEU)",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_60",
+    "zh": "OBD故障指示灯点亮，请检查EPBi/IBCU",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте EPBi/IBCU",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_61",
+    "zh": "OBD故障指示灯点亮，请检查电池管理系统BMS",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте систему управления батареей (BMS)",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_62",
+    "zh": "OBD故障指示灯点亮，请检查充电机系统OBC",
+    "ru": "Загорелся индикатор неисправности OBD, проверьте систему зарядки OBC",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_63",
+    "zh": "OBD故障指示灯点亮，请检查热管理系统TMS",
+    "ru": "Загорелся индикатор неисправности OBD. Проверьте систему терморегулирования TMS",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_64",
+    "zh": "OBD故障指示灯点亮，请检查DCDC系统",
+    "ru": "Загорелся индикатор неисправности OBD. Проверьте систему DC-DC",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_65",
+    "zh": "OBD故障指示灯点亮，请检查变速器控制系统TCU",
+    "ru": "Загорелся индикатор неисправности OBD. Проверьте систему управления трансмиссией TCU",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_66",
+    "zh": "系统通讯故障，请检查维修",
+    "ru": "Сбой связи. Проверьте и устраните неисправность",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_67",
+    "zh": "系统通讯故障，请靠边停车",
+    "ru": "Сбой связи. Остановитесь на обочине",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_68",
+    "zh": "热管理系统通讯异常，请检查维修",
+    "ru": "Сбой связи системы терморегулирования. Проверьте и устраните неисправность",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_69",
+    "zh": "高压系统故障，请联系专业人员检修",
+    "ru": "Неисправность высоковольтной системы. Обратитесь к специалисту для диагностики и ремонта",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_70",
+    "zh": "油箱门解锁失败，请检查维修",
+    "ru": "Не удалось разблокировать лючок бензобака. Проверьте и устраните неисправность",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_71",
+    "zh": "防盗认证失败，请检查维修",
+    "ru": "Ошибка аутентификации противоугонной системы. Обратитесь в сервис.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_72",
+    "zh": "集成式自适应巡航系统通讯异常（L2级）",
+    "ru": "Сбой связи с интегрированной системой адаптивного круиз-контроля (уровень L2)",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_73",
+    "zh": "胎压较低，请充气",
+    "ru": "Низкое давление в шинах. Подкачайте.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_74",
+    "zh": "轮胎信息在行驶几分钟后显示",
+    "ru": "Информация о шинах отображается через несколько минут после начала движения.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_75",
+    "zh": "低速自动紧急制动不可用，请检查维修",
+    "ru": "Система автоматического экстренного торможения на низкой скорости недоступна. Обратитесь в сервис.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_76",
+    "zh": "OBD故障指示灯点亮，请检查电驱系统RMIPU",
+    "ru": "Загорелся индикатор неисправности OBD. Проверьте систему электропривода RMIPU.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_77",
+    "zh": "传感器故障，请检查维修",
+    "ru": "Неисправность датчика. Обратитесь в сервис.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_78",
+    "zh": "传感器被遮挡，请检查维修",
+    "ru": "Датчик перекрыт. Уберите препятствие.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_79",
+    "zh": "泊车系统故障，请检查维修",
+    "ru": "Неисправность системы парковки. Требуется проверка и ремонт.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_80",
+    "zh": "请确保拖挂车转向灯正常工作",
+    "ru": "Убедитесь, что указатели поворота прицепа работают исправно.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_81",
+    "zh": "智驾系统过热，降温后恢复",
+    "ru": "Перегрев системы интеллектуального вождения. Работа восстановится после охлаждения.",
+    "type": "arrays"
+  },
+  {
+    "name": "alarm_text_arr_82",
+    "zh": "碰撞缓解制动功能正在工作",
+    "ru": "Функция торможения при столкновении активна.",
+    "type": "arrays"
+  },
+  {
+    "name": "tai_app_names_0",
+    "zh": "腾讯地图",
+    "ru": "Карты Tencent",
+    "type": "arrays"
+  },
+  {
+    "name": "tai_app_names_1",
+    "zh": "腾讯语音",
+    "ru": "Голос Tencent",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

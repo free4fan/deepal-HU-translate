@@ -1,0 +1,16 @@
+{
+  "WT_AutoMaintenance": {
+    "dialog_part_jiansuqiyou_title_text": "ключ: MainActivity.R() сравнивает getString(id) с server maintenanceProgram (减速器油) — не совпадение = не заполняются карточки ТО (Осталось - - км)",
+    "dialog_part_zhidongye_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (制动液)",
+    "dialog_part_kongtiaolvqing_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (空调滤芯)",
+    "dialog_part_jiyou_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (机油机滤)",
+    "dialog_part_kongqilvqing_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (空气滤芯)",
+    "dialog_part_lengqueye_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (冷却液)",
+    "dialog_part_lengqueye_title_text2": "ключ: MainActivity.R() — сравнение с maintenanceProgram (发动机冷却液)",
+    "dialog_part_huohuasai_title_text": "ключ: MainActivity.R() — сравнение с maintenanceProgram (火花塞)"
+  },
+  "WT_HDCloudCamera": {
+    "setting_guardian_mode": "ключ: SpeechOperateCommand:4522 сравнение с json.optString(\"Mode\") (внешний источник голосовой команды, zh=守护模式) — RU = команда не срабатывает",
+    "cruise_protect_model": "ключ: SpeechOperateCommand:4549 сравнение с json.optString(\"Mode\") (внешний источник, zh=巡航守护模式)"
+  }
+}

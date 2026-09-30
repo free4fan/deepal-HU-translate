@@ -1,0 +1,1286 @@
+[
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "back_hot_wrod",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "cb_log_htword",
+    "zh": "勾选",
+    "ru": "Отметить",
+    "type": "string"
+  },
+  {
+    "name": "close_two_hotword",
+    "zh": "关闭^返回",
+    "ru": "Закрыть^Назад",
+    "type": "string"
+  },
+  {
+    "name": "feedback_date_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "feedback_date_happen",
+    "zh": "发生时间",
+    "ru": "Время возникновения",
+    "type": "string"
+  },
+  {
+    "name": "feedback_date_title",
+    "zh": "问题发生时间",
+    "ru": "Время возникновения проблемы",
+    "type": "string"
+  },
+  {
+    "name": "feedback_describe_hint",
+    "zh": "\"请详细描述您遇到的问题：\n1.打开了某个APP页面\\t\\t2.执行某个操作遇到了什么问题\\t\\t3.其他附加描述\"",
+    "ru": "\"Опишите подробно возникшую проблему:\\n1. Открыли страницу какого приложения\\t\\t2. При выполнении какого действия возникла проблема\\t\\t3. Дополнительное описание\"",
+    "type": "string"
+  },
+  {
+    "name": "feedback_describe_hint_other",
+    "zh": "请描述详细问题或建议，至少5个字符。",
+    "ru": "Опишите проблему или предложение подробнее, минимум 5 символов.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_failed",
+    "zh": "反馈失败",
+    "ru": "Сбой отправки отзыва",
+    "type": "string"
+  },
+  {
+    "name": "feedback_log_share",
+    "zh": "共享应用日志，以便我们更准确诊断问题",
+    "ru": "Поделитесь журналами приложения, чтобы мы могли точнее диагностировать проблему.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_log_uploading",
+    "zh": "正在上传日志，请稍后再试",
+    "ru": "Идёт загрузка журналов, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_max_limit",
+    "zh": "反馈内容超出限制",
+    "ru": "Содержание обратной связи превышает допустимый лимит.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_min_limit",
+    "zh": "反馈内容少于5个字",
+    "ru": "Содержание обратной связи менее 5 символов.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_not_login",
+    "zh": "请登录驾驶员中心",
+    "ru": "Пожалуйста, войдите в Центр водителя",
+    "type": "string"
+  },
+  {
+    "name": "feedback_reply",
+    "zh": "客服回复：",
+    "ru": "Ответ службы поддержки:",
+    "type": "string"
+  },
+  {
+    "name": "feedback_submit",
+    "zh": "提交",
+    "ru": "Отправить",
+    "type": "string"
+  },
+  {
+    "name": "feedback_submit_later",
+    "zh": "网络异常，网络恢复后为您自动提交",
+    "ru": "Сбой сети. После восстановления соединения отправка будет выполнена автоматически.",
+    "type": "string"
+  },
+  {
+    "name": "feedback_submit_success",
+    "zh": "提交成功",
+    "ru": "Успешно отправлено",
+    "type": "string"
+  },
+  {
+    "name": "feedback_success",
+    "zh": "反馈成功",
+    "ru": "Отзыв успешно отправлен",
+    "type": "string"
+  },
+  {
+    "name": "feedback_too_long",
+    "zh": "反馈内容超出限制",
+    "ru": "Содержание обратной связи превышает допустимый лимит",
+    "type": "string"
+  },
+  {
+    "name": "feedback_too_short",
+    "zh": "反馈内容少于5个字",
+    "ru": "Содержание обратной связи менее 5 символов",
+    "type": "string"
+  },
+  {
+    "name": "feedback_type_1",
+    "zh": "功能异常",
+    "ru": "Сбой функции",
+    "type": "string"
+  },
+  {
+    "name": "feedback_type_2",
+    "zh": "体验问题",
+    "ru": "Проблемы UX",
+    "type": "string"
+  },
+  {
+    "name": "feedback_type_3",
+    "zh": "新功能建议",
+    "ru": "Новые функции",
+    "type": "string"
+  },
+  {
+    "name": "feedback_type_4",
+    "zh": "服务及其他",
+    "ru": "Услуги и прочее",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_hotword",
+    "zh": "键盘",
+    "ru": "Клавиатура",
+    "type": "string"
+  },
+  {
+    "name": "like_hot3word",
+    "zh": "赞^点赞",
+    "ru": "Лайк",
+    "type": "string"
+  },
+  {
+    "name": "like_hotword",
+    "zh": "有帮助",
+    "ru": "Полезно",
+    "type": "string"
+  },
+  {
+    "name": "pause_htword",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "play_htword",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "tab_human_customer",
+    "zh": "人工客服",
+    "ru": "Оператор поддержки",
+    "type": "string"
+  },
+  {
+    "name": "tab_smart_customer",
+    "zh": "智能客服",
+    "ru": "Умная поддержка",
+    "type": "string"
+  },
+  {
+    "name": "text_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "text_check_network",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "text_check_network_or_retry",
+    "zh": "请检查网络设置或重试",
+    "ru": "Проверьте настройки сети или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "text_feedback",
+    "zh": "我要反馈",
+    "ru": "Оставить отзыв",
+    "type": "string"
+  },
+  {
+    "name": "text_load_failed",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "text_loading",
+    "zh": "加载中…",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "text_network_disconnected",
+    "zh": "网络未连接",
+    "ru": "Сеть не подключена",
+    "type": "string"
+  },
+  {
+    "name": "text_network_setting",
+    "zh": "网络设置",
+    "ru": "Настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "text_no_feedback",
+    "zh": "还没有收到您的反馈哦～",
+    "ru": "Мы ещё не получили вашу обратную связь~",
+    "type": "string"
+  },
+  {
+    "name": "text_no_network",
+    "zh": "网络未连接，请检查网络设置",
+    "ru": "Сеть не подключена, проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "text_qa_help",
+    "zh": "Hi，%s，请问有什么可以为您效劳的呢？",
+    "ru": "Привет, %s, чем могу вам помочь?",
+    "type": "string"
+  },
+  {
+    "name": "text_qa_not_found",
+    "zh": "如您有以下问题，可点击下方文字，我们将尽快为您解答",
+    "ru": "Если у вас есть следующие вопросы, нажмите на текст ниже, и мы ответим на них в кратчайшие сроки",
+    "type": "string"
+  },
+  {
+    "name": "text_qa_open_link",
+    "zh": "点击打开链接",
+    "ru": "Нажмите, чтобы открыть ссылку",
+    "type": "string"
+  },
+  {
+    "name": "text_question_hint",
+    "zh": "请输入您要咨询的内容",
+    "ru": "Введите ваш вопрос",
+    "type": "string"
+  },
+  {
+    "name": "text_retry",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "text_send",
+    "zh": "发送",
+    "ru": "Отправить",
+    "type": "string"
+  },
+  {
+    "name": "text_slide_cancel",
+    "zh": "下滑取消",
+    "ru": "Свайп вниз для отмены",
+    "type": "string"
+  },
+  {
+    "name": "text_slide_send",
+    "zh": "上滑送出",
+    "ru": "Свайп вверх",
+    "type": "string"
+  },
+  {
+    "name": "text_url_error",
+    "zh": "URL地址错误",
+    "ru": "Неверный URL",
+    "type": "string"
+  },
+  {
+    "name": "text_useful",
+    "zh": "有帮助",
+    "ru": "Полезно",
+    "type": "string"
+  },
+  {
+    "name": "text_useless",
+    "zh": "无用",
+    "ru": "Бесполезно",
+    "type": "string"
+  },
+  {
+    "name": "text_voice_input",
+    "zh": "语音输入",
+    "ru": "Голосовой ввод",
+    "type": "string"
+  },
+  {
+    "name": "text_voice_record_failed",
+    "zh": "语音录入启动失败",
+    "ru": "Не удалось запустить голосовой ввод",
+    "type": "string"
+  },
+  {
+    "name": "text_welcome",
+    "zh": "欢迎来到我的客服，可以直接说“开始反馈”",
+    "ru": "Добро пожаловать в службу поддержки, можно сразу сказать «Начать обратную связь»",
+    "type": "string"
+  },
+  {
+    "name": "useless_hot3word",
+    "zh": "踩^踩一下",
+    "ru": "Не нравится^Минус",
+    "type": "string"
+  },
+  {
+    "name": "useless_hotword",
+    "zh": "无用",
+    "ru": "Бесполезный",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте нажатие в любом месте клавиатуры для перемещения (включая область подбора)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше опций",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "我的客服",
+    "ru": "Мой сервис",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_disabled_description",
+    "zh": "启用字幕",
+    "ru": "Включить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_enabled_description",
+    "zh": "停用字幕",
+    "ru": "Отключить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_description",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_enter_description",
+    "zh": "进入全屏模式",
+    "ru": "Перейти в полноэкранный режим",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_exit_description",
+    "zh": "退出全屏模式",
+    "ru": "Выйти из полноэкранного режима",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_hide",
+    "zh": "隐藏播放器控件",
+    "ru": "Скрыть элементы управления плеером",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_next_description",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_hide_description",
+    "zh": "隐藏其他设置",
+    "ru": "Скрыть другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_show_description",
+    "zh": "显示其他设置",
+    "ru": "Показать другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_pause_description",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_play_description",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed",
+    "zh": "速度",
+    "ru": "Скорость",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed_normal",
+    "zh": "正常",
+    "ru": "Нормальная",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_previous_description",
+    "zh": "上一首",
+    "ru": "Предыдущий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_all_description",
+    "zh": "全部重复播放",
+    "ru": "Повторять всё",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_off_description",
+    "zh": "不重复播放",
+    "ru": "Не повторять",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_one_description",
+    "zh": "重复播放一项",
+    "ru": "Повторять один элемент",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_rewind_description",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_seek_bar_description",
+    "zh": "播放进度",
+    "ru": "Прогресс",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_settings_description",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_show",
+    "zh": "显示播放器控件",
+    "ru": "Показать плеер",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_off_description",
+    "zh": "随机播放功能已关闭",
+    "ru": "Перемешивание отключено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_on_description",
+    "zh": "随机播放功能已开启",
+    "ru": "Перемешивание включено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_stop_description",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_vr_description",
+    "zh": "VR 模式",
+    "ru": "Режим VR",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_completed",
+    "zh": "下载完毕",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_description",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_downloading",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_notification_channel_name",
+    "zh": "下载内容",
+    "ru": "Скачиваемый контент",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused",
+    "zh": "下载已暂停",
+    "ru": "Загрузка приостановлена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_network",
+    "zh": "正在等待连接到网络以进行下载",
+    "ru": "Ожидание подключения к сети для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_wifi",
+    "zh": "正在等待连接到 WLAN 网络以进行下载",
+    "ru": "Ожидание подключения к сети WLAN для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_removing",
+    "zh": "正在移除下载内容",
+    "ru": "Удаление загруженного содержимого",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_mono",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_alternate",
+    "zh": "替用轨",
+    "ru": "Альтернативный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_closed_captions",
+    "zh": "字幕",
+    "ru": "Субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_commentary",
+    "zh": "旁白",
+    "ru": "Наррация",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_supplementary",
+    "zh": "补充轨",
+    "ru": "Дополнительный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_auto",
+    "zh": "自动",
+    "ru": "Автоматический",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_audio",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_text",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_stereo",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround",
+    "zh": "环绕声",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_5_point_1",
+    "zh": "5.1 环绕声",
+    "ru": "Объёмный звук 5.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_7_point_1",
+    "zh": "7.1 环绕声",
+    "ru": "Объёмный звук 7.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_unknown",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "feedback_describe",
+    "zh": "问题描述：",
+    "ru": "Описание проблемы:",
+    "type": "string"
+  },
+  {
+    "name": "feedback_happen_time",
+    "zh": "发生时间：",
+    "ru": "Время возникновения:",
+    "type": "string"
+  },
+  {
+    "name": "feedback_history",
+    "zh": "历史反馈",
+    "ru": "История обратной связи",
+    "type": "string"
+  },
+  {
+    "name": "feedback_status",
+    "zh": "处理状态：",
+    "ru": "Статус обработки:",
+    "type": "string"
+  },
+  {
+    "name": "feedback_status_finished",
+    "zh": "已完结",
+    "ru": "Завершено",
+    "type": "string"
+  },
+  {
+    "name": "feedback_status_solved",
+    "zh": "已处理",
+    "ru": "Обработано",
+    "type": "string"
+  },
+  {
+    "name": "feedback_status_solving",
+    "zh": "处理中",
+    "ru": "В обработке",
+    "type": "string"
+  },
+  {
+    "name": "feedback_status_unsolved",
+    "zh": "待处理",
+    "ru": "Ожидает обработки",
+    "type": "string"
+  },
+  {
+    "name": "feedback_submit_time",
+    "zh": "反馈时间：",
+    "ru": "Время подачи:",
+    "type": "string"
+  },
+  {
+    "name": "feedback_type",
+    "zh": "反馈类型：",
+    "ru": "Тип обратной связи:",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календаря",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключить на текстовый ввод",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "video_parse_failed",
+    "zh": "视频解析失败",
+    "ru": "Не удалось обработать видео",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_one",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать вперёд %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_other",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать вперёд %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_one",
+    "zh": "快退 %d 秒",
+    "ru": "Перемотать назад %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_other",
+    "zh": "快退 %d 秒",
+    "ru": "Перемотать назад %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

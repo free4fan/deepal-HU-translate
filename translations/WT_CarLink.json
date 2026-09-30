@@ -1,0 +1,1532 @@
+[
+  {
+    "name": "app_name",
+    "zh": "手机互联",
+    "ru": "Подключение смартфона",
+    "type": "string"
+  },
+  {
+    "name": "app_not_support",
+    "zh": "手机互联暂未上线",
+    "ru": "Подключение смартфона пока недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "blue_tooth_sub_title",
+    "zh": "HUAWEI HiCar 连接过程需要使用蓝牙",
+    "ru": "Для подключения HUAWEI HiCar требуется Bluetooth.",
+    "type": "string"
+  },
+  {
+    "name": "blue_tooth_title",
+    "zh": "蓝牙开启中...",
+    "ru": "Bluetooth включается...",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_msg1",
+    "zh": "已连接HUAWEI HiCar，为保证通话体验，建议进行蓝牙配对，是否连接？",
+    "ru": "HUAWEI HiCar уже подключен. Для обеспечения качества звонков рекомендуется выполнить сопряжение по Bluetooth. Подключить?",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_msg2",
+    "zh": "您已连接HUAWEI HiCar，断开蓝牙会影响HUAWEI HiCar通话体验，是否重新连接？",
+    "ru": "Вы подключены к HUAWEI HiCar. Отключение Bluetooth может ухудшить качество звонков через HUAWEI HiCar. Переподключить?",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_msg3",
+    "zh": "检测到HUAWEI HiCar通话，建议连接车机蓝牙后接听，您也可以通过手机直接接听",
+    "ru": "Обнаружен вызов через HUAWEI HiCar. Рекомендуется подключить Bluetooth автомобиля перед ответом, но вы также можете ответить напрямую с телефона.",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_msg4",
+    "zh": "为保证通话体验，建议进行蓝牙配对，是否允许？",
+    "ru": "Для обеспечения качества звонков рекомендуется выполнить сопряжение по Bluetooth. Разрешить?",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_title1",
+    "zh": "蓝牙配对请求",
+    "ru": "Запрос сопряжения Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_title2",
+    "zh": "断开蓝牙",
+    "ru": "Отключить Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_title3",
+    "zh": "来电提示",
+    "ru": "Входящий звонок",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_title4",
+    "zh": "去电提示",
+    "ru": "Исходящий звонок",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_notice_title_prompt",
+    "zh": "温馨提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "carLink",
+    "zh": "ICCOA Carlink车机互联助手",
+    "ru": "ICCOA Carlink — помощник подключения к автомобильной мультимедийной системе",
+    "type": "string"
+  },
+  {
+    "name": "carlink_bluetooth_connect_notice_msg",
+    "zh": "ICCOA Carlink已连接，为保证通话体验，需进行蓝牙配对，确定前往配对吗？",
+    "ru": "ICCOA Carlink подключен. Для обеспечения качества звонков требуется сопряжение по Bluetooth. Подтверждаете переход к сопряжению?",
+    "type": "string"
+  },
+  {
+    "name": "common_connect_fail",
+    "zh": "连接失败，您可以重新尝试",
+    "ru": "Не удалось подключиться, вы можете повторить попытку.",
+    "type": "string"
+  },
+  {
+    "name": "common_quit",
+    "zh": "手机互联已断开连接",
+    "ru": "Соединение с телефоном разорвано",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips",
+    "zh": "绑定异常，可能原因如下",
+    "ru": "Ошибка привязки. Возможные причины:",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips1",
+    "zh": "未开启手机蓝牙/WIFI，请检查手机蓝牙/WIFI是否开启",
+    "ru": "Bluetooth/Wi-Fi телефона не включён. Проверьте, включён ли Bluetooth/Wi-Fi на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips2",
+    "zh": "手机未联网，请检查手机网络状态",
+    "ru": "Телефон не подключён к сети. Проверьте состояние сети на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips3",
+    "zh": "PIN码输入错误，请检查手机端是否输入正确PIN码",
+    "ru": "PIN-код введён неверно. Проверьте, правильно ли он введён на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips4",
+    "zh": "手机与车机距离过远，请用手机靠近车机后重试",
+    "ru": "Телефон слишком далеко от головного устройства. Поднесите телефон ближе и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips_hotpot",
+    "zh": "连接失败，请断开车机热点",
+    "ru": "Подключение не удалось, отключите точку доступа автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "conn_fail_tips_p2p",
+    "zh": "连接失败",
+    "ru": "Подключение не удалось",
+    "type": "string"
+  },
+  {
+    "name": "conn_jion_honor_ring",
+    "zh": "荣耀信任环连接码",
+    "ru": "Код подключения Honor Trust Ring",
+    "type": "string"
+  },
+  {
+    "name": "conn_succ_tips",
+    "zh": "已加入Owner的信任环：",
+    "ru": "Добавлен в Trust Ring Owner:",
+    "type": "string"
+  },
+  {
+    "name": "conn_succ_tips2",
+    "zh": "多种内容和服务可在信任环设备和车辆间流转",
+    "ru": "Различный контент и сервисы могут передаваться между устройствами Trust Ring и автомобилем.",
+    "type": "string"
+  },
+  {
+    "name": "conn_tips",
+    "zh": "\"保持手机蓝牙开启靠近车载中控，\n 发现车辆后在手机上根据指引输入连接码绑定\\\"荣耀信任环\\\"\"",
+    "ru": "\"Держите Bluetooth на телефоне включённым и подойдите к мультимедийной системе автомобиля.\\n После обнаружения автомобиля следуйте инструкциям на телефоне и введите код подключения для привязки \\\"Honor Trust Ring\\\"\"",
+    "type": "string"
+  },
+  {
+    "name": "connect",
+    "zh": "连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "connect_failed",
+    "zh": "连接失败，您可以尝试以下方法恢复",
+    "ru": "Подключение не удалось. Вы можете попробовать следующие способы восстановления.",
+    "type": "string"
+  },
+  {
+    "name": "connect_label",
+    "zh": "连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "connect_phone",
+    "zh": "连接手机",
+    "ru": "Подключить телефон",
+    "type": "string"
+  },
+  {
+    "name": "desktop_toast",
+    "zh": "请先连接手机后再获取列表",
+    "ru": "Сначала подключите телефон, а затем получите список.",
+    "type": "string"
+  },
+  {
+    "name": "device_name",
+    "zh": "设备名：",
+    "ru": "Имя устройства:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_bt_confirm",
+    "zh": "允许",
+    "ru": "Разрешить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_navigation_destination_desc",
+    "zh": "收到一条来自手机的地址，确定导航到这里吗？",
+    "ru": "Получен адрес с мобильного телефона. Подтвердить навигацию сюда?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_navigation_destination_title",
+    "zh": "荣耀任意门 一拖导航",
+    "ru": "Honor Anywhere Door: перетащите для навигации",
+    "type": "string"
+  },
+  {
+    "name": "dialog_phone_cancel",
+    "zh": "暂不需要",
+    "ru": "Пока не нужно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_phone_confirm",
+    "zh": "连接蓝牙",
+    "ru": "Подключить Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "exit_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "exit_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "exit_content",
+    "zh": "是否确定断开与手机的连接",
+    "ru": "Вы уверены, что хотите отключиться от телефона?",
+    "type": "string"
+  },
+  {
+    "name": "failed_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "failed_content",
+    "zh": "\"原因如下：\n1. 未开启手机蓝牙/WIFI，请检查手机蓝牙/WIFI是否开启。\n2. 手机未联网，请检查手机网络状态。\n3. PIN码输入错误，请检查手机端是否输入正确PIN码。\n4. 手机与车机距离过远，请用手机靠近车机后重试。\"",
+    "ru": "\"Причины:\\n1. Bluetooth/Wi-Fi телефона не включён. Проверьте, включён ли Bluetooth/Wi-Fi на телефоне.\\n2. Телефон не подключён к сети. Проверьте состояние сети телефона.\\n3. Введён неверный PIN-код. Проверьте, введён ли на телефоне правильный PIN-код.\\n4. Расстояние между телефоном и головным устройством слишком велико. Поднесите телефон к головному устройству и повторите попытку.\"",
+    "type": "string"
+  },
+  {
+    "name": "failed_retry",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "failed_title",
+    "zh": "绑定异常！",
+    "ru": "Ошибка привязки!",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "hicar_auto_connect_default",
+    "zh": "正在连接HUAWEI HiCar",
+    "ru": "Подключение к HUAWEI HiCar",
+    "type": "string"
+  },
+  {
+    "name": "hicar_auto_connect_fail",
+    "zh": "HUAWEI HiCar连接失败，重新进行连接",
+    "ru": "Не удалось подключиться к HUAWEI HiCar. Повторите подключение.",
+    "type": "string"
+  },
+  {
+    "name": "hicar_auto_connect_fail_switch",
+    "zh": "HUAWEI HiCar连接失败，请打开手机HiCar智行自动连接",
+    "ru": "Подключение к HUAWEI HiCar не удалось. Включите на телефоне автоматическое подключение HiCar.",
+    "type": "string"
+  },
+  {
+    "name": "hicar_auto_connect_hint",
+    "zh": "正在连接",
+    "ru": "Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "hicar_bluetooth_connect_notice_msg",
+    "zh": "已连接HUAWEI HiCar，为保证通话体验，建议进行蓝牙配对，是否允许？",
+    "ru": "Подключено к HUAWEI HiCar. Для обеспечения качества звонков рекомендуется выполнить сопряжение по Bluetooth. Разрешить?",
+    "type": "string"
+  },
+  {
+    "name": "hicar_click_quit_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "hicar_click_quit_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "hicar_click_quit_title",
+    "zh": "确定要断开手机互联？",
+    "ru": "Вы уверены, что хотите отключить подключение смартфона?",
+    "type": "string"
+  },
+  {
+    "name": "hicar_connect_hint",
+    "zh": "连接中...",
+    "ru": "Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "hicar_failure_content",
+    "zh": "\"原因如下：\n1、未开启⼿机蓝⽛/WIFI，请检查⼿机蓝⽛/WIFI是否开启\n2、排查手机是否连接车机热点 ，请断开手机与车机热点\n3、⼿机未联⽹，请检查⼿机⽹络状态\n4、PIN码输⼊错误，请检查⼿机端是否输⼊正确PIN码\n5、⼿机与⻋机距离过远，请⽤⼿机靠近⻋机后重试\"",
+    "ru": "\"Причины:\\n1. Bluetooth/Wi-Fi телефона не включён. Проверьте, включён ли Bluetooth/Wi-Fi на телефоне\\n2. Проверьте, подключён ли телефон к точке доступа головного устройства. Отключите телефон от точки доступа головного устройства\\n3. Телефон не подключён к сети. Проверьте состояние сети телефона\\n4. Введён неверный PIN-код. Проверьте, введён ли на телефоне правильный PIN-код\\n5. Расстояние между телефоном и головным устройством слишком велико. Поднесите телефон к головному устройству и повторите попытку\"",
+    "type": "string"
+  },
+  {
+    "name": "hicar_failure_retry",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "hicar_failure_title",
+    "zh": "连接异常",
+    "ru": "Ошибка соединения",
+    "type": "string"
+  },
+  {
+    "name": "hicar_init_failure_content",
+    "zh": "\"1、重新关闭、打开车机蓝牙和WIFI\n2、退出此页面,过5S后再重新打开尝试连接\"",
+    "ru": "\"1. Повторно выключите и включите Bluetooth и Wi-Fi в мультимедийной системе.\\n2. Выйдите с этой страницы, подождите 5 секунд, затем откройте её снова и попробуйте подключиться.\"",
+    "type": "string"
+  },
+  {
+    "name": "hicar_init_failure_subtitle",
+    "zh": "您可以通过以下方法修复:",
+    "ru": "Вы можете исправить это следующим образом:",
+    "type": "string"
+  },
+  {
+    "name": "hicar_init_failure_title",
+    "zh": "连接初始化失败",
+    "ru": "Сбой инициализации",
+    "type": "string"
+  },
+  {
+    "name": "hicar_open_in_main_screen",
+    "zh": "手机互联已经在中控屏打开了哦",
+    "ru": "Подключение телефона уже активно на центральном экране.",
+    "type": "string"
+  },
+  {
+    "name": "hicar_park_app_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "hicar_park_app_title",
+    "zh": "为了您的安全，行车中请不要播放视频",
+    "ru": "В целях вашей безопасности не воспроизводите видео во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "hicar_park_app_use",
+    "zh": "继续播放",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "hicar_phone_device_connect_hint",
+    "zh": "HUAWEI HiCar已连接，请连接手机蓝牙",
+    "ru": "HUAWEI HiCar уже подключено, подключите Bluetooth на телефоне.",
+    "type": "string"
+  },
+  {
+    "name": "hicar_pin_code_refresh",
+    "zh": "HUAWEI HiCar正在重连中，请退出稍后再试",
+    "ru": "HUAWEI HiCar переподключается. Выйдите и повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "hihonor_title",
+    "zh": "荣耀信任环连接码",
+    "ru": "Код подключения Honor Trust Ring",
+    "type": "string"
+  },
+  {
+    "name": "hihonor_title_bar",
+    "zh": "荣耀车联",
+    "ru": "Honor Connect",
+    "type": "string"
+  },
+  {
+    "name": "hint",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "honor_auto_connect_default",
+    "zh": "荣耀互联正在连接",
+    "ru": "Honor Connect подключается",
+    "type": "string"
+  },
+  {
+    "name": "honor_auto_connect_hint",
+    "zh": "正在连接",
+    "ru": "Подключение...",
+    "type": "string"
+  },
+  {
+    "name": "honor_connect_fail",
+    "zh": "手机互联连接失败，请稍后重试",
+    "ru": "Не удалось установить соединение с телефоном. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "honor_connect_tab_name",
+    "zh": "荣耀互联",
+    "ru": "Honor Connect",
+    "type": "string"
+  },
+  {
+    "name": "honor_connect_tip",
+    "zh": "手机互联已断开连接",
+    "ru": "Соединение с телефоном разорвано",
+    "type": "string"
+  },
+  {
+    "name": "honor_phone_introduce_bottom_tip",
+    "zh": "*以上内容仅作参考，由手机厂商提供内容",
+    "ru": "*Приведённая выше информация носит исключительно справочный характер и предоставлена производителями мобильных телефонов.",
+    "type": "string"
+  },
+  {
+    "name": "honor_phone_introduce_step1_title",
+    "zh": "1.扫码查看荣耀车联支持的手机型号，以及对手机版本的要求",
+    "ru": "1. Отсканируйте QR-код, чтобы узнать поддерживаемые модели смартфонов для Honor Car Connect, а также требования к версии ОС смартфона.",
+    "type": "string"
+  },
+  {
+    "name": "honor_phone_introduce_step2_tip1",
+    "zh": "·导航任意门：在手机上长按文字或定位信息，然后拖拽至侧边栏“荣耀车联”，将自动获取地址信息发送到车机地图。",
+    "ru": "· Навигационный портал: на телефоне нажмите и удерживайте текст или геолокацию, затем перетащите в панель «Honor Car Connect» — адрес будет автоматически передан в навигацию на головном устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "honor_phone_introduce_step2_tip2",
+    "zh": "·应用流转：打开手机应用，可点击手机应用内的“应用流转”按钮，将内容无缝接续到车机。",
+    "ru": "· Перенос приложения: откройте мобильное приложение и нажмите в нём кнопку «Перенос приложения», чтобы бесшовно перенести контент на автомобильную мультимедийную систему.",
+    "type": "string"
+  },
+  {
+    "name": "honor_phone_introduce_step2_title",
+    "zh": "2.荣耀车联的特色功能有哪些？",
+    "ru": "2. Какие уникальные функции есть у Honor Car Connect?",
+    "type": "string"
+  },
+  {
+    "name": "honor_pin_code_tip",
+    "zh": "保持手机蓝牙开启靠近车载中控，发现车辆后输入连接码，进行首次验证。",
+    "ru": "Держите Bluetooth на телефоне включённым и подойдите к мультимедийной системе автомобиля. После обнаружения автомобиля введите код подключения для первичной верификации.",
+    "type": "string"
+  },
+  {
+    "name": "honor_pin_code_tip_usb",
+    "zh": "保持手机蓝牙开启靠近车载中控，发现车辆后输入连接码，进行首次验证。你也可以通过USB线连接你的手机。",
+    "ru": "Держите Bluetooth на телефоне включённым и подойдите к мультимедийной системе автомобиля. После обнаружения автомобиля введите код подключения для первичной верификации. Также можно подключить телефон через USB-кабель.",
+    "type": "string"
+  },
+  {
+    "name": "honor_pin_code_tips",
+    "zh": "保持手机蓝牙开启靠近车载中控，发现车辆后输入连接码，进行首次验证。",
+    "ru": "Держите Bluetooth на телефоне включённым и поднесите телефон к мультимедийной системе. После обнаружения автомобиля введите код подключения для первичной верификации.",
+    "type": "string"
+  },
+  {
+    "name": "honor_pin_code_title",
+    "zh": "荣耀信任环连接码",
+    "ru": "Код подключения Honor Trust Ring",
+    "type": "string"
+  },
+  {
+    "name": "honor_title",
+    "zh": "荣耀车联",
+    "ru": "Honor CarLink",
+    "type": "string"
+  },
+  {
+    "name": "honor_title_bar",
+    "zh": "荣耀车联",
+    "ru": "Honor CarLink",
+    "type": "string"
+  },
+  {
+    "name": "icc_auto_connect_fail",
+    "zh": "ICCOA Carlink连接失败，请重新进行连接",
+    "ru": "Сбой подключения ICCOA Carlink. Повторите подключение.",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_click_quit_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_click_quit_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_connect_hint",
+    "zh": "连接中，请不要退出页面...",
+    "ru": "Идёт подключение, не покидайте страницу...",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_disconnect",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_load_hint",
+    "zh": "正在加载页面，请稍候...",
+    "ru": "Загрузка страницы, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "icc_cast_quit_title",
+    "zh": "是否确定断开与手机的连接？",
+    "ru": "Вы уверены, что хотите отключить связь с телефоном?",
+    "type": "string"
+  },
+  {
+    "name": "icc_park_app_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "icc_park_app_title",
+    "zh": "为了您的安全，行车中请不要播放视频",
+    "ru": "В целях вашей безопасности не воспроизводите видео во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "icc_park_app_use",
+    "zh": "继续播放",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "icc_phone_device_connect_hint",
+    "zh": "CarLink已连接，请连接手机蓝牙",
+    "ru": "CarLink подключён, подключите Bluetooth телефона",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_quit",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_tip",
+    "zh": "请将手机开启蓝牙靠近中控，发现连接弹窗后输入PIN码进行连接验证",
+    "ru": "Включите Bluetooth на телефоне и поднесите его к головному устройству. После появления окна подключения введите PIN-код для подтверждения подключения.",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_tip_usb",
+    "zh": "\"USB投屏已配置\n请连接USB进行投屏\"",
+    "ru": "\"Трансляция экрана по USB настроена.\\nПодключите USB для трансляции.\"",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_tips",
+    "zh": "保持手机蓝牙开启靠近车载中控，发现车辆后输入连接码，进行首次验证。你也可以通过USB线连接你的手机。",
+    "ru": "Держите Bluetooth на телефоне включённым и поднесите его к головному устройству. После обнаружения автомобиля введите код подключения для первичной верификации. Также можно подключить телефон через USB-кабель.",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_title",
+    "zh": "ICCOA Carlink 连接码",
+    "ru": "Код подключения ICCOA Carlink",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_code_title_assist",
+    "zh": "ICCOA Carlink车机互联助手",
+    "ru": "Помощник подключения ICCOA Carlink",
+    "type": "string"
+  },
+  {
+    "name": "icc_pin_connect_failed",
+    "zh": "连接失败，您可以重新尝试",
+    "ru": "Не удалось подключиться, вы можете попробовать снова.",
+    "type": "string"
+  },
+  {
+    "name": "icc_return_between_applications",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "init_sdk_failed",
+    "zh": "启动车机投屏失败，请稍后再试！",
+    "ru": "Не удалось запустить трансляцию экрана на головное устройство. Попробуйте позже!",
+    "type": "string"
+  },
+  {
+    "name": "initializing",
+    "zh": "初始化中，请等待！",
+    "ru": "Идёт инициализация, подождите!",
+    "type": "string"
+  },
+  {
+    "name": "loding_app_list",
+    "zh": "应用列表加载中....",
+    "ru": "Загрузка списка приложений....",
+    "type": "string"
+  },
+  {
+    "name": "move_app_main_confirm",
+    "zh": "这个应用已经在中控打开，要移动过来吗?",
+    "ru": "Это приложение уже открыто на центральном экране, переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "move_app_secondary_confirm",
+    "zh": "这个应用已经在副驾屏上打开，要移动过来吗?",
+    "ru": "Это приложение уже открыто на экране пассажира, переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "need_user_intervention_method",
+    "zh": "• 请检测手机端是否存在连接弹窗未确认，确认后将继续连接",
+    "ru": "• Проверьте, нет ли на телефоне неподтверждённого запроса на подключение. После подтверждения соединение продолжится.",
+    "type": "string"
+  },
+  {
+    "name": "negative_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "never_remind",
+    "zh": "不再提醒",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "park_app_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "park_app_title",
+    "zh": "为了您的安全，行车中请不要播放视频",
+    "ru": "В целях вашей безопасности не воспроизводите видео во время вождения.",
+    "type": "string"
+  },
+  {
+    "name": "park_app_use",
+    "zh": "继续播放",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "pin_cast_connect_hint",
+    "zh": "连接中，请不要退出页面...",
+    "ru": "Идёт подключение, не закрывайте страницу...",
+    "type": "string"
+  },
+  {
+    "name": "pin_code_hint",
+    "zh": "PIN 码：",
+    "ru": "PIN-код:",
+    "type": "string"
+  },
+  {
+    "name": "pin_code_quit",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "pin_code_tips",
+    "zh": "\"手机需先与汽车完成蓝牙配对，手机开启蓝牙靠近中控，发现汽车后输入连接码，进行首次验证； \n使用时请勿将手机连接至车机热点\"",
+    "ru": "\"Для работы необходимо сначала выполнить сопряжение телефона с автомобилем по Bluetooth. Включите Bluetooth на телефоне, поднесите его к мультимедийной системе, найдите автомобиль и введите код подключения для первичной аутентификации.\\nПри использовании не подключайте телефон к точке доступа автомобиля\"",
+    "type": "string"
+  },
+  {
+    "name": "pin_code_title",
+    "zh": "HUAWEI HiCar 连接码",
+    "ru": "Код подключения HUAWEI HiCar",
+    "type": "string"
+  },
+  {
+    "name": "pin_phone_introduce",
+    "zh": "支持手机型号 &amp; 功能介绍",
+    "ru": "Поддерживаемые модели телефонов & обзор функций",
+    "type": "string"
+  },
+  {
+    "name": "positive_ok",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "quit_label",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "reconnect",
+    "zh": "重连",
+    "ru": "Переподключение",
+    "type": "string"
+  },
+  {
+    "name": "restart_car_method",
+    "zh": "• 熄火后，重启车机系统后重新进行连接",
+    "ru": "• После остановки двигателя перезапустите мультимедийную систему и выполните повторное подключение.",
+    "type": "string"
+  },
+  {
+    "name": "retry",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_navi_text_content",
+    "zh": "手机使用“高德地图”导航时，可将导航信息一键接续到智能座舱继续导航",
+    "ru": "При навигации в приложении «Amap» на смартфоне можно в один клик перенести маршрут в интеллектуальную кабину для продолжения навигации.",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_navi_text_title",
+    "zh": "导航接续",
+    "ru": "Продолжение навигации",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_screen_content",
+    "zh": "手机的应用可在车上显示并使用",
+    "ru": "Приложения со смартфона можно отображать и использовать в автомобиле.",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_screen_title",
+    "zh": "屏幕共享",
+    "ru": "Демонстрация экрана",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_text_content",
+    "zh": "通过本机“荣耀分享”和智能座舱“手机互联”，手机和车机可互相传输文件",
+    "ru": "С помощью «Honor Share» на телефоне и «Связи с телефоном» в интеллектуальном салоне телефон и мультимедийная система могут обмениваться файлами.",
+    "type": "string"
+  },
+  {
+    "name": "smartcabin_introduce_text_title",
+    "zh": "文件互传",
+    "ru": "Обмен файлами",
+    "type": "string"
+  },
+  {
+    "name": "tab_connect_phone",
+    "zh": "连接手机",
+    "ru": "Подключить телефон",
+    "type": "string"
+  },
+  {
+    "name": "tab_service_center",
+    "zh": "服务中心",
+    "ru": "Центр обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "tab_super_desktop",
+    "zh": "超级桌面",
+    "ru": "Суперрабочий стол",
+    "type": "string"
+  },
+  {
+    "name": "tip_change_projection_to_phone",
+    "zh": "投屏关闭，已切换至手机端",
+    "ru": "Трансляция на экран отключена, переключено на телефон.",
+    "type": "string"
+  },
+  {
+    "name": "tip_device_offline",
+    "zh": "手机互联已断开连接",
+    "ru": "Соединение с телефоном разорвано",
+    "type": "string"
+  },
+  {
+    "name": "tip_none_nav_app",
+    "zh": "请安装导航应用",
+    "ru": "Установите навигационное приложение",
+    "type": "string"
+  },
+  {
+    "name": "title_card_near_use",
+    "zh": "上次使用",
+    "ru": "Последнее использование",
+    "type": "string"
+  },
+  {
+    "name": "title_dlna_link",
+    "zh": "视频TV投屏",
+    "ru": "Трансляция видео на ТВ",
+    "type": "string"
+  },
+  {
+    "name": "title_hihonor",
+    "zh": "荣耀车联",
+    "ru": "Honor CarLink",
+    "type": "string"
+  },
+  {
+    "name": "title_honor_link",
+    "zh": "荣耀车联",
+    "ru": "Honor CarLink",
+    "type": "string"
+  },
+  {
+    "name": "title_sub_car_link",
+    "zh": "OPPO、VIVO、小米等手机支持",
+    "ru": "Поддержка OPPO, VIVO, Xiaomi и других смартфонов",
+    "type": "string"
+  },
+  {
+    "name": "title_sub_dlna_link",
+    "zh": "不限品牌，视频投屏",
+    "ru": "Без ограничений по бренду, трансляция видео на экран",
+    "type": "string"
+  },
+  {
+    "name": "title_sub_honor_link",
+    "zh": "荣耀手机专享",
+    "ru": "Только Honor",
+    "type": "string"
+  },
+  {
+    "name": "title_sub_hua_wei",
+    "zh": "华为手机专享",
+    "ru": "Только для Huawei",
+    "type": "string"
+  },
+  {
+    "name": "title_sub_wu_tong",
+    "zh": "多形态切换，畅享手车互联",
+    "ru": "Переключение между режимами, наслаждайтесь связью смартфона и автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "toast_carplay_connect",
+    "zh": "苹果CarPlay已连接，请断开后尝试",
+    "ru": "Apple CarPlay подключен. Отключите его и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "toast_disconect_phone",
+    "zh": "请先断开与手机的连接，再进行尝试",
+    "ru": "Сначала отключите связь с телефоном, затем повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "ucar_wifi_hint",
+    "zh": "WIFI无线投屏",
+    "ru": "Wi-Fi трансляция",
+    "type": "string"
+  },
+  {
+    "name": "unsupport_wireless_method",
+    "zh": "• 当前手机或者车机可能不支持无线连接，请插入USB线进行连接",
+    "ru": "• Ваш телефон или мультимедийная система могут не поддерживать беспроводное подключение. Подключите USB-кабель.",
+    "type": "string"
+  },
+  {
+    "name": "usb_reconnect_method",
+    "zh": "• 如果使用USB连接，请检测USB线是否松动，尝试重新插拔连接",
+    "ru": "• Если используется USB-подключение, проверьте, не ослаблен ли USB-кабель, и переподключите его.",
+    "type": "string"
+  },
+  {
+    "name": "usb_usb_hint",
+    "zh": "\"usb投屏已配置\n请连接USB进行投屏\"",
+    "ru": "\"Трансляция экрана по USB настроена\\nПодключите USB-кабель для трансляции\"",
+    "type": "string"
+  },
+  {
+    "name": "wifi_connect_hint",
+    "zh": "请将手机开启蓝牙靠近中控，发现连接弹窗后输入PIN码进行连接验证",
+    "ru": "Включите Bluetooth на телефоне и приблизьте его к головному устройству. После появления окна сопряжения введите PIN-код для подтверждения подключения.",
+    "type": "string"
+  },
+  {
+    "name": "wireless_reconnect_method",
+    "zh": "• 点击重连按钮，重新进行连接",
+    "ru": "• Нажмите кнопку переподключения.",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша пробела",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "dmsdp_permission_camera_description",
+    "zh": "用于提供视频通话、拍照等服务",
+    "ru": "Для видеозвонков, съёмки фотографий и других услуг",
+    "type": "string"
+  },
+  {
+    "name": "dmsdp_permission_microphone_description",
+    "zh": "用于提供通话、语音控制等服务",
+    "ru": "Для звонков, голосового управления и других услуг",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Используйте: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться в режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы перейти к выбору дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться в режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_navigate_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_open_drawer_description",
+    "zh": "打开抽屉式导航栏",
+    "ru": "Открыть выдвижную панель навигации",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

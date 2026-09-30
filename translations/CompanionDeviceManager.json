@@ -1,0 +1,20 @@
+[
+  {
+    "name": "app_label",
+    "zh": "配套设备管理器",
+    "ru": "Менеджер сопряжённых устройств",
+    "type": "string"
+  },
+  {
+    "name": "chooser_title",
+    "zh": "关联 &lt;strong>%1$s&lt;/strong>",
+    "ru": "Связать <strong>%1$s</strong>",
+    "type": "string"
+  },
+  {
+    "name": "confirmation_title",
+    "zh": "将 &lt;strong>%1$s&lt;/strong> 关联到 &lt;strong>%2$s&lt;/strong>",
+    "ru": "Связать <strong>%1$s</strong> с <strong>%2$s</strong>",
+    "type": "string"
+  }
+]

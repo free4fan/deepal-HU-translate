@@ -1,0 +1,22 @@
+  ── Русский — размещено 28.08.2026 ──────────────────────────────────
+  » Скачивание оверлея S05: AdayoAPA_Overlay_ru_signed.apk
+  ✓ AdayoAPA_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: AdayoDvr_Overlay_ru_signed.apk
+  ✓ AdayoDvr_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: Camera_Overlay_ru_signed.apk
+  ✓ Camera_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: WT_AirConditioner_Overlay_ru_signed.apk
+  ✓ WT_AirConditioner_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: WT_BTPhone_Overlay_ru_signed.apk
+  ✓ WT_BTPhone_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: WT_Launcher_Overlay_ru_signed.apk
+  ✓ WT_Launcher_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: WT_MultiMediaCenter_Overlay_ru_signed.apk
+  ✓ WT_MultiMediaCenter_Overlay_ru_signed.apk — OK
+  » Скачивание оверлея S05: WT_VehicleCenter_Overlay_ru_signed.apk
+  ✓ WT_VehicleCenter_Overlay_ru_signed.apk — OK
+  ✓ Статические vendor-overlay S05 синхронизированы (8 файлов).
+
+  ✓ Синхронизация завершена. Скачано: 8 файлов, актуальных: 0.
+
+    Выбран пакет: ru

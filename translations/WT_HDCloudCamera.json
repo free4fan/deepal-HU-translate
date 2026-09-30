@@ -1,0 +1,3446 @@
+[
+  {
+    "name": "BPD_init_tips",
+    "zh": "首次打开体态拍照需连接网络",
+    "ru": "При первом запуске функции фото осанки требуется подключение к интернету.",
+    "type": "string"
+  },
+  {
+    "name": "accuracy",
+    "zh": ",精度=",
+    "ru": ", точность=",
+    "type": "string"
+  },
+  {
+    "name": "adjusting_angle_to_sea",
+    "zh": "开始调整角度了,在屏幕上看看效果吧",
+    "ru": "Начинаю настраивать угол, посмотрите на экране, как это будет выглядеть.",
+    "type": "string"
+  },
+  {
+    "name": "already_in_app",
+    "zh": "已经在云台界面了",
+    "ru": "Вы уже на экране управления PTZ.",
+    "type": "string"
+  },
+  {
+    "name": "already_in_protect_model",
+    "zh": "已经在守护模式中了",
+    "ru": "Уже в режиме охраны.",
+    "type": "string"
+  },
+  {
+    "name": "already_in_rotate_recording",
+    "zh": "已经在旋转录像了",
+    "ru": "Уже идёт запись с вращением.",
+    "type": "string"
+  },
+  {
+    "name": "already_panorama_shooting",
+    "zh": "已经在全景拍摄了",
+    "ru": "Уже идёт съёмка в панорамном режиме.",
+    "type": "string"
+  },
+  {
+    "name": "already_recording",
+    "zh": "已经在为您录像了",
+    "ru": "Уже идёт запись для вас.",
+    "type": "string"
+  },
+  {
+    "name": "already_recording_in_clone_panorma",
+    "zh": "已经在分身全景拍摄了",
+    "ru": "Уже идёт съёмка панорамы в режиме «Клон»",
+    "type": "string"
+  },
+  {
+    "name": "angle_capture_lose_tips",
+    "zh": "当前正在旋转，请停止旋转后在重试！",
+    "ru": "Идёт вращение. Остановите его и повторите попытку!",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "云台相机",
+    "ru": "PTZ-камера",
+    "type": "string"
+  },
+  {
+    "name": "appointment_for_filming",
+    "zh": "预约拍",
+    "ru": "Забронировать съёмку",
+    "type": "string"
+  },
+  {
+    "name": "appointment_time_must_be_later_than_the_current_time",
+    "zh": "预约时间要大于现在时间哦",
+    "ru": "Время записи должно быть позже текущего.",
+    "type": "string"
+  },
+  {
+    "name": "arc_invalid",
+    "zh": "该功能需要联网后才可使用",
+    "ru": "Для использования этой функции требуется подключение к интернету.",
+    "type": "string"
+  },
+  {
+    "name": "arc_invalid_camera_error",
+    "zh": "功能暂不可用，请确保正常联网以激活该功能",
+    "ru": "Функция временно недоступна. Убедитесь в стабильном подключении к сети для активации функции.",
+    "type": "string"
+  },
+  {
+    "name": "arc_not_active",
+    "zh": "该功能未激活",
+    "ru": "Эта функция не активирована",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Зона",
+    "type": "string"
+  },
+  {
+    "name": "back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "background_to_run",
+    "zh": "云台相机已经退至后台！",
+    "ru": "Поворотная камера переведена в фоновый режим!",
+    "type": "string"
+  },
+  {
+    "name": "camera_continuous_count",
+    "zh": "连续拍",
+    "ru": "Серийная съёмка",
+    "type": "string"
+  },
+  {
+    "name": "camera_speech_vlog_tips_confirm",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "cancel_failed_scan_qr_code",
+    "zh": "取消二维码扫描失败",
+    "ru": "Не удалось отменить сканирование QR-кода.",
+    "type": "string"
+  },
+  {
+    "name": "cancel_following_success",
+    "zh": "已取消智能跟随",
+    "ru": "Умное сопровождение отключено.",
+    "type": "string"
+  },
+  {
+    "name": "cancel_rotate_shot",
+    "zh": "取消旋转拍摄",
+    "ru": "Отменить поворотную съёмку",
+    "type": "string"
+  },
+  {
+    "name": "cannot_use_now_state",
+    "zh": "当前状态云台相机不可用",
+    "ru": "Поворотная камера в данный момент недоступна",
+    "type": "string"
+  },
+  {
+    "name": "capture_finish_go_album",
+    "zh": "拍完啦，去相册看看效果吧",
+    "ru": "Снимок готов! Загляни в галерею, чтобы посмотреть результат.",
+    "type": "string"
+  },
+  {
+    "name": "capture_in_video_recording",
+    "zh": "录像中抓拍",
+    "ru": "Съёмка в записи",
+    "type": "string"
+  },
+  {
+    "name": "capture_photo_so_fast_tips",
+    "zh": "点击太快了，拍不过来咯！",
+    "ru": "Слишком быстро кликаешь, я не успеваю снимать!",
+    "type": "string"
+  },
+  {
+    "name": "character_expression",
+    "zh": "表情识别拍照",
+    "ru": "Съёмка с распознаванием эмоций",
+    "type": "string"
+  },
+  {
+    "name": "character_tag",
+    "zh": "人物标签识别",
+    "ru": "Распознавание тегов людей",
+    "type": "string"
+  },
+  {
+    "name": "click_physical_button",
+    "zh": "2. 语音说我要拍照",
+    "ru": "2. Скажите голосом: «Хочу сделать фото»",
+    "type": "string"
+  },
+  {
+    "name": "click_shot",
+    "zh": "点击拍照",
+    "ru": "Нажмите для фото",
+    "type": "string"
+  },
+  {
+    "name": "click_software_button",
+    "zh": "1. 点击“拍照”按钮",
+    "ru": "1. Нажмите кнопку «Сделать фото».",
+    "type": "string"
+  },
+  {
+    "name": "click_to_preview",
+    "zh": "点击预览照片",
+    "ru": "Нажмите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "clone_panoramic_shooting_effect",
+    "zh": "分身全景拍摄效果",
+    "ru": "Эффект «Клон-панорама»",
+    "type": "string"
+  },
+  {
+    "name": "cloud",
+    "zh": "云台",
+    "ru": "Гимбал",
+    "type": "string"
+  },
+  {
+    "name": "cloud_camera_app_name",
+    "zh": "高清云台",
+    "ru": "HD стабилизатор",
+    "type": "string"
+  },
+  {
+    "name": "confirm_formatting",
+    "zh": "确认格式化",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "confirming_factory_recovery",
+    "zh": "确认恢复出厂设置",
+    "ru": "Подтвердить сброс к заводским настройкам",
+    "type": "string"
+  },
+  {
+    "name": "connect_phone",
+    "zh": "连接手机",
+    "ru": "Подключить телефон",
+    "type": "string"
+  },
+  {
+    "name": "connect_phone_setting",
+    "zh": "设置项连接手机",
+    "ru": "Подключение телефона",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_close_app",
+    "zh": "退出",
+    "ru": "Выйти",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_close_scan_qrcode",
+    "zh": "取消^退出^关闭",
+    "ru": "Отменить^Выйти^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_confirm",
+    "zh": "确定^确认",
+    "ru": "ОК^Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_continue_video",
+    "zh": "继续^继续录制^继续录像",
+    "ru": "Продолжить^Продолжить запись^Продолжить видеозапись",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_do_capture",
+    "zh": "拍摄",
+    "ru": "Снять",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_do_video",
+    "zh": "录制^拍摄",
+    "ru": "Запись^Съёмка",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_enter_album",
+    "zh": "相册^图库",
+    "ru": "Фотоальбом^галерея",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_humanoid_tracking",
+    "zh": "人形追踪",
+    "ru": "Отслеживание человека",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_pause_video",
+    "zh": "暂停^暂停录制^暂停录像",
+    "ru": "Пауза^Пауза записи^Пауза видеозаписи",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_retract",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_return",
+    "zh": "返回^关闭^取消",
+    "ru": "Назад^Закрыть^Отмена",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_settings_follow",
+    "zh": "智能跟随^打开智能跟随",
+    "ru": "Умное слежение^Включить умное слежение",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_settings_monitor",
+    "zh": "开启守护模式",
+    "ru": "Включить режим защиты",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_settings_monitor_window",
+    "zh": "守护模式",
+    "ru": "Режим охраны",
+    "type": "string"
+  },
+  {
+    "name": "content_desc_stop_capture",
+    "zh": "停止^停止录制^取消录制^退出录制",
+    "ru": "Стоп^Остановить запись^Отменить запись^Завершить запись",
+    "type": "string"
+  },
+  {
+    "name": "count_time_shot",
+    "zh": "倒计时拍照",
+    "ru": "Съёмка с таймером",
+    "type": "string"
+  },
+  {
+    "name": "country",
+    "zh": ", 城市=",
+    "ru": ", город=",
+    "type": "string"
+  },
+  {
+    "name": "cruise_protect_model",
+    "zh": "巡航守护模式",
+    "ru": "Режим патрулирования и охраны",
+    "type": "string"
+  },
+  {
+    "name": "current_day",
+    "zh": "当日",
+    "ru": "Сегодня",
+    "type": "string"
+  },
+  {
+    "name": "custom",
+    "zh": "自定义",
+    "ru": "Пользовательские",
+    "type": "string"
+  },
+  {
+    "name": "desc_character_expression_recognition",
+    "zh": "开启后抓拍欢乐瞬间，识别间隔10分钟",
+    "ru": "После включения автоматически фиксирует радостные моменты, интервал распознавания — 10 минут.",
+    "type": "string"
+  },
+  {
+    "name": "desc_character_tag_recognition",
+    "zh": "开启后根据表情进行个性化识别展示",
+    "ru": "После включения будет осуществляться персонализированное распознавание и отображение на основе выражения лица.",
+    "type": "string"
+  },
+  {
+    "name": "desc_incall_app_remote_take_picture",
+    "zh": "开启后允许通过长安inCall控制相机",
+    "ru": "После включения позволяет управлять камерой через Changan inCall.",
+    "type": "string"
+  },
+  {
+    "name": "designated_shooting_direction",
+    "zh": "指定方位拍摄",
+    "ru": "Съёмка с заданного направления",
+    "type": "string"
+  },
+  {
+    "name": "district",
+    "zh": ",区县 =",
+    "ru": ", район =",
+    "type": "string"
+  },
+  {
+    "name": "exit_app_soon",
+    "zh": "即将退出程序",
+    "ru": "Скоро выход",
+    "type": "string"
+  },
+  {
+    "name": "eys_closed_request_wanna_to_retry",
+    "zh": "检测到闭眼，是否重拍？",
+    "ru": "Обнаружены закрытые глаза. Переснять?",
+    "type": "string"
+  },
+  {
+    "name": "failed_by_hardware",
+    "zh": "云台相机硬件原因 开启失败",
+    "ru": "Не удалось включить поворотную камеру из-за аппаратной ошибки.",
+    "type": "string"
+  },
+  {
+    "name": "failed_cancel_follow",
+    "zh": "取消跟随拍失败",
+    "ru": "Не удалось отменить режим слежения.",
+    "type": "string"
+  },
+  {
+    "name": "failed_cancel_panorama",
+    "zh": "取消分身全景拍失败",
+    "ru": "Не удалось отменить панорамную съёмку с клоном",
+    "type": "string"
+  },
+  {
+    "name": "failed_cancel_select_follow",
+    "zh": "取消选中跟随失败",
+    "ru": "Не удалось отменить режим слежения",
+    "type": "string"
+  },
+  {
+    "name": "failed_cancel_shot_start",
+    "zh": "取消拍时光失败",
+    "ru": "Не удалось отменить съёмку момента",
+    "type": "string"
+  },
+  {
+    "name": "failed_delet_video",
+    "zh": "删除视频失败",
+    "ru": "Не удалось удалить видео",
+    "type": "string"
+  },
+  {
+    "name": "failed_exit_protect_model",
+    "zh": "退出守护模式失败",
+    "ru": "Не удалось выйти из режима защиты",
+    "type": "string"
+  },
+  {
+    "name": "failed_follow_start",
+    "zh": "打开跟随拍失败",
+    "ru": "Не удалось включить следящую съёмку",
+    "type": "string"
+  },
+  {
+    "name": "failed_left_to_right_shot",
+    "zh": "从左到右旋转拍失败",
+    "ru": "Не удалось выполнить съёмку поворотом слева направо",
+    "type": "string"
+  },
+  {
+    "name": "failed_open_delay_shot",
+    "zh": "打开延时摄影失败",
+    "ru": "Не удалось включить таймлапс",
+    "type": "string"
+  },
+  {
+    "name": "failed_open_protect_model",
+    "zh": "守护模式开启失败",
+    "ru": "Не удалось включить режим защиты.",
+    "type": "string"
+  },
+  {
+    "name": "failed_open_qr_code",
+    "zh": "二维码开启失败",
+    "ru": "Не удалось активировать QR-код",
+    "type": "string"
+  },
+  {
+    "name": "failed_open_record",
+    "zh": "视频拍摄开启失败",
+    "ru": "Не удалось начать видеосъемку",
+    "type": "string"
+  },
+  {
+    "name": "failed_panorama",
+    "zh": "取消全景拍失败",
+    "ru": "Не удалось отменить съемку панорамы",
+    "type": "string"
+  },
+  {
+    "name": "failed_restart_record",
+    "zh": "重新拍摄失败",
+    "ru": "Не удалось переснять.",
+    "type": "string"
+  },
+  {
+    "name": "failed_right_to_left_shot",
+    "zh": "从右向左旋转拍失败",
+    "ru": "Не удалось выполнить съемку с поворотом справа налево",
+    "type": "string"
+  },
+  {
+    "name": "failed_save_rotate_record",
+    "zh": "保存旋转录像失败",
+    "ru": "Не удалось сохранить запись с поворотом.",
+    "type": "string"
+  },
+  {
+    "name": "failed_select_follow",
+    "zh": "选中跟随失败",
+    "ru": "Ошибка слежения",
+    "type": "string"
+  },
+  {
+    "name": "failed_shot_star",
+    "zh": "拍时光失败",
+    "ru": "Не удалось снять момент",
+    "type": "string"
+  },
+  {
+    "name": "failed_to_generate_video",
+    "zh": "拍摄时长太短，视频生成失败",
+    "ru": "Продолжительность съёмки слишком мала, генерация видео не удалась.",
+    "type": "string"
+  },
+  {
+    "name": "failed_to_take_picture",
+    "zh": "照片生成失败",
+    "ru": "Не удалось сгенерировать фото",
+    "type": "string"
+  },
+  {
+    "name": "filming_fill_light",
+    "zh": "拍摄补光",
+    "ru": "Заполняющий свет",
+    "type": "string"
+  },
+  {
+    "name": "filming_fill_light_tip",
+    "zh": "光线较暗时，车内拍照自动打开前顶灯",
+    "ru": "При съёмке в салоне в условиях слабого освещения автоматически включается передний потолочный плафон.",
+    "type": "string"
+  },
+  {
+    "name": "fiter_setting_failed",
+    "zh": "滤镜设置失败",
+    "ru": "Не удалось настроить фильтр",
+    "type": "string"
+  },
+  {
+    "name": "focus_adjustment",
+    "zh": "焦距调节",
+    "ru": "Настройка фокуса",
+    "type": "string"
+  },
+  {
+    "name": "follow_dialog_tips",
+    "zh": "\"1、开启后，摄像头会跟随框选中的对象进行移动\n2、每一个框选对象对应一个数字，您可选择任意数字\n进行跟随\n3、当人形快速移动或离开画面边界导致跟随框脱离\n时，会重新识别\"",
+    "ru": "1. После включения камера будет отслеживать выделенный объект\\n2. Каждому выделенному объекту присвоен номер. Выберите любой номер\\nдля отслеживания\\n3. Если человек быстро перемещается или выходит за границы кадра,\\nи контур отслеживания теряется, будет выполнена повторная идентификация",
+    "type": "string"
+  },
+  {
+    "name": "follow_select_human_tips",
+    "zh": "云台相机将跟随选中对象拍摄",
+    "ru": "Камера на поворотном механизме будет вести съёмку выбранного объекта.",
+    "type": "string"
+  },
+  {
+    "name": "follow_shot",
+    "zh": "跟随拍摄",
+    "ru": "Съёмка за объектом",
+    "type": "string"
+  },
+  {
+    "name": "format_settings",
+    "zh": "画幅设置",
+    "ru": "Соотношение сторон",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "gimbal_calibration",
+    "zh": "云台校准",
+    "ru": "Калибровка гimbala",
+    "type": "string"
+  },
+  {
+    "name": "go_switch_on",
+    "zh": "去开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "guardian_mode_switch",
+    "zh": "守护模式开关",
+    "ru": "Переключатель режима защиты",
+    "type": "string"
+  },
+  {
+    "name": "have_identified_the_QR_code_for_you",
+    "zh": "已为您识别到二维码",
+    "ru": "QR-код распознан.",
+    "type": "string"
+  },
+  {
+    "name": "have_lapse_recording",
+    "zh": "已经在延时拍摄中了",
+    "ru": "Таймлапс уже записывается.",
+    "type": "string"
+  },
+  {
+    "name": "high_temperature",
+    "zh": "当前摄像头温度过高，请冷却一段时间后使用",
+    "ru": "Температура камеры слишком высока. Дайте ей остыть перед использованием.",
+    "type": "string"
+  },
+  {
+    "name": "high_temperature_error",
+    "zh": "云台相机太烫了，请冷却一段时间后再拍摄",
+    "ru": "Поворотная камера перегрета. Дайте ей остыть перед съёмкой.",
+    "type": "string"
+  },
+  {
+    "name": "high_temperature_warn_capture",
+    "zh": "云台相机太热了，请降低相片像素或冷却一会儿再拍摄",
+    "ru": "Поворотная камера перегрета. Уменьшите разрешение снимка или дайте камере остыть перед съёмкой",
+    "type": "string"
+  },
+  {
+    "name": "high_temperature_warn_video",
+    "zh": "云台相机太热了，请降低分辨率或冷却一会儿再拍摄",
+    "ru": "Поворотная камера перегрета. Уменьшите разрешение или дайте камере остыть перед съёмкой",
+    "type": "string"
+  },
+  {
+    "name": "humanoid_tracking_switch",
+    "zh": "人形追踪开关",
+    "ru": "Трекинг людей",
+    "type": "string"
+  },
+  {
+    "name": "ikonw",
+    "zh": "我知道了",
+    "ru": "Понятно.",
+    "type": "string"
+  },
+  {
+    "name": "intelligent_recognition",
+    "zh": "智能识别",
+    "ru": "Умное распознавание",
+    "type": "string"
+  },
+  {
+    "name": "intelligent_recognition_content",
+    "zh": "\"开启后，将根据您的表情进行个性化的\n识别展示，并可以体验“欢乐拍”功能\"",
+    "ru": "После включения система будет отображать персонализированные\\nрезультаты распознавания по вашему выражению лица, а также вы сможете воспользоваться функцией «Весёлая съёмка».",
+    "type": "string"
+  },
+  {
+    "name": "just_angle_with_integer",
+    "zh": "只支持整数度数，已帮你调整到合适位置",
+    "ru": "Поддерживаются только целые значения градусов. Значение было автоматически скорректировано до ближайшего допустимого.",
+    "type": "string"
+  },
+  {
+    "name": "lapse_generated_video",
+    "zh": "生成视频时间",
+    "ru": "Время генерации видео",
+    "type": "string"
+  },
+  {
+    "name": "lapse_order_time",
+    "zh": "您已预约 %s 进行拍摄",
+    "ru": "Вы уже запланировали съёмку на %s",
+    "type": "string"
+  },
+  {
+    "name": "lapse_order_time_invalid",
+    "zh": "时间已过，您无法预约 %s 进行拍摄",
+    "ru": "Время истекло, вы не можете запланировать съёмку на %s.",
+    "type": "string"
+  },
+  {
+    "name": "lapse_remaining_time",
+    "zh": "剩余拍摄时长",
+    "ru": "Оставшееся время съёмки",
+    "type": "string"
+  },
+  {
+    "name": "lapse_time_max_limit",
+    "zh": "目前延时拍定时最长只能支持24小时",
+    "ru": "На данный момент максимальная длительность интервальной съёмки — 24 часа.",
+    "type": "string"
+  },
+  {
+    "name": "lapse_window_tips",
+    "zh": "\"若开始拍摄，云台相机将持续在后台运行。当电量\n不足20%，延时拍摄将\"",
+    "ru": "После начала съёмки PTZ-камера будет продолжать работать в фоновом режиме. При уровне заряда батареи менее\\n20% интервальная съёмка будет...",
+    "type": "string"
+  },
+  {
+    "name": "latitude",
+    "zh": "(纬度=",
+    "ru": "(Широта=",
+    "type": "string"
+  },
+  {
+    "name": "left",
+    "zh": "左边",
+    "ru": "Слева",
+    "type": "string"
+  },
+  {
+    "name": "left_max_limit",
+    "zh": "已经转到最左边啦",
+    "ru": "Уже повернулась до самого левого края",
+    "type": "string"
+  },
+  {
+    "name": "long_time_to_stop",
+    "zh": "有人长时间停留",
+    "ru": "Кто-то долго стоит",
+    "type": "string"
+  },
+  {
+    "name": "longitude",
+    "zh": ",经度=",
+    "ru": ",долгота=",
+    "type": "string"
+  },
+  {
+    "name": "max_angle_has_adjusted",
+    "zh": "最多支持六十度，已帮你调整到位了",
+    "ru": "Максимальный угол — 60°, уже скорректировано",
+    "type": "string"
+  },
+  {
+    "name": "media_recorder_info_in_background_reached",
+    "zh": "录制停止，视频已保存至相册",
+    "ru": "Запись остановлена, видео сохранено в альбом",
+    "type": "string"
+  },
+  {
+    "name": "media_recorder_info_in_save_failure",
+    "zh": "录制时间太短，视频保存失败",
+    "ru": "Длительность записи слишком мала, не удалось сохранить видео",
+    "type": "string"
+  },
+  {
+    "name": "media_recorder_info_max_duration_reached",
+    "zh": "录制时长到达1分钟，视频已保存至相册",
+    "ru": "Время записи достигло 1 минуты, видео сохранено в альбом",
+    "type": "string"
+  },
+  {
+    "name": "monitor_state_failed_battery_tips",
+    "zh": "当前电量低于20%，无法开启守护模式",
+    "ru": "Уровень заряда батареи ниже 20%, невозможно включить режим охраны",
+    "type": "string"
+  },
+  {
+    "name": "monitor_state_failed_checking_tips",
+    "zh": "当前相机正在自检，无法开启守护模式",
+    "ru": "Камера проходит самодиагностику, невозможно включить режим охраны",
+    "type": "string"
+  },
+  {
+    "name": "monitor_state_failed_gear_not_p_tips",
+    "zh": "当前车辆挡位处于非P挡，无法开启守护模式",
+    "ru": "Автомобиль не в положении P, невозможно включить режим охраны",
+    "type": "string"
+  },
+  {
+    "name": "next_day",
+    "zh": "次日",
+    "ru": "На следующий день",
+    "type": "string"
+  },
+  {
+    "name": "next_tip",
+    "zh": "下一条",
+    "ru": "Следующая",
+    "type": "string"
+  },
+  {
+    "name": "no",
+    "zh": "不要",
+    "ru": "Не надо",
+    "type": "string"
+  },
+  {
+    "name": "not_enough_memory",
+    "zh": "云台相机存储空间不足，请释放存储空间",
+    "ru": "Недостаточно места на поворотной камере, освободите место",
+    "type": "string"
+  },
+  {
+    "name": "not_need_retry_take_picture",
+    "zh": "不用了",
+    "ru": "Не нужно",
+    "type": "string"
+  },
+  {
+    "name": "not_open_protected_model",
+    "zh": "守护模式暂未开启",
+    "ru": "Режим защиты пока не активирован",
+    "type": "string"
+  },
+  {
+    "name": "not_shotting_tips",
+    "zh": "您当前没有在拍摄哦",
+    "ru": "Сейчас вы не снимаете",
+    "type": "string"
+  },
+  {
+    "name": "not_support",
+    "zh": "暂不支持云台相机哦",
+    "ru": "PTZ-камеры пока не поддерживаются",
+    "type": "string"
+  },
+  {
+    "name": "not_support_set_filter",
+    "zh": "4K视频画质暂不支持设置滤镜",
+    "ru": "Фильтры для 4K-видео пока не поддерживаются",
+    "type": "string"
+  },
+  {
+    "name": "not_tips_anymore",
+    "zh": "不再提示",
+    "ru": "Больше не показывать",
+    "type": "string"
+  },
+  {
+    "name": "notips",
+    "zh": "不再提醒",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "now_model_ban_to_use_lapse_camera",
+    "zh": "当前模式禁止旋转云台相机！",
+    "ru": "В текущем режиме вращение PTZ-камеры запрещено!",
+    "type": "string"
+  },
+  {
+    "name": "now_state_ban_to_use_camera",
+    "zh": "语音正在执行中禁止方控操作！",
+    "ru": "Выполняется голосовая команда, управление с руля запрещено!",
+    "type": "string"
+  },
+  {
+    "name": "now_state_ban_to_use_lapse_camera",
+    "zh": "当前状态禁止旋转云台相机！",
+    "ru": "В текущем состоянии поворот камеры на гироподвесе запрещён!",
+    "type": "string"
+  },
+  {
+    "name": "num_has_shot",
+    "zh": "已拍摄%d段",
+    "ru": "Снято %d фрагментов",
+    "type": "string"
+  },
+  {
+    "name": "num_recorded",
+    "zh": "已拍摄%d段",
+    "ru": "Снято %d фрагментов",
+    "type": "string"
+  },
+  {
+    "name": "num_recording",
+    "zh": "正在拍摄第%d段",
+    "ru": "Идёт съёмка фрагмента №%d",
+    "type": "string"
+  },
+  {
+    "name": "num_seconds",
+    "zh": "%d秒",
+    "ru": "%d секунд",
+    "type": "string"
+  },
+  {
+    "name": "num_video",
+    "zh": "第%d段视频",
+    "ru": "Видеофрагмент №%d",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "ok_ready",
+    "zh": "好的请准备",
+    "ru": "Хорошо, будьте готовы",
+    "type": "string"
+  },
+  {
+    "name": "one_key_shot",
+    "zh": "一键成片%ds",
+    "ru": "Быстрый ролик %ds",
+    "type": "string"
+  },
+  {
+    "name": "one_key_shot_setting",
+    "zh": "一键成片",
+    "ru": "Быстрый ролик",
+    "type": "string"
+  },
+  {
+    "name": "open_cloud_camera_app",
+    "zh": "打开云台相机APP",
+    "ru": "Откройте приложение камеры на стабилизаторе",
+    "type": "string"
+  },
+  {
+    "name": "open_recording_faild",
+    "zh": "启动录像失败",
+    "ru": "Не удалось начать запись",
+    "type": "string"
+  },
+  {
+    "name": "panorama_hint_info",
+    "zh": "为了保证拍摄效果，建议拍摄主体不要超出参考线框",
+    "ru": "Для обеспечения качества съёмки рекомендуется не выводить объект съёмки за пределы направляющей рамки",
+    "type": "string"
+  },
+  {
+    "name": "panorama_shot",
+    "zh": "全景拍摄",
+    "ru": "Панорамная съёмка",
+    "type": "string"
+  },
+  {
+    "name": "panoramic_photography",
+    "zh": "全景拍照",
+    "ru": "Панорамное фото",
+    "type": "string"
+  },
+  {
+    "name": "panoramic_shooting_effect",
+    "zh": "全景拍摄效果",
+    "ru": "Эффект панорамной съёмки",
+    "type": "string"
+  },
+  {
+    "name": "pause_recording",
+    "zh": "暂停录像",
+    "ru": "Приостановить запись",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_search",
+    "zh": "设备搜索中...",
+    "ru": "Поиск устройств...",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_content1",
+    "zh": "选择以下方式完成连接后，可使用手机深蓝汽车App进行云台相机拍摄",
+    "ru": "После подключения одним из способов, указанных ниже, вы сможете снимать на PTZ-камеру через приложение Deepal на смартфоне.",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_content2",
+    "zh": "打开手机深蓝汽车App，使用云台相机",
+    "ru": "Откройте приложение Deepal на смартфоне и используйте PTZ-камеру",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way1",
+    "zh": "连接车机热点",
+    "ru": "Подключить к Wi-Fi авто",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way1_name",
+    "zh": "车机热点: %s",
+    "ru": "Точка доступа автомобиля: %s",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way1_password",
+    "zh": "连接密码: %s",
+    "ru": "Пароль подключения: %s",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way1_title",
+    "zh": "方式1:",
+    "ru": "Способ 1:",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way2",
+    "zh": "\"打开手机深蓝汽车App扫描\n⼆维码连接\"",
+    "ru": "\"Откройте приложение Deepal на телефоне и отсканируйте\\nQR-код для подключения\"",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step2_way2_title",
+    "zh": "方式2:",
+    "ru": "Способ 2:",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3",
+    "zh": "%1$s已连接成功",
+    "ru": "%1$s успешно подключен",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3_button",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3_content1",
+    "zh": "使用手机App操作时，请保持在拍摄界面，请勿关闭车机热点和手机WIFI，保持网络畅通。",
+    "ru": "При использовании приложения оставайтесь на экране съёмки, не отключайте точку доступа головного устройства и Wi-Fi на телефоне, чтобы поддерживать стабильное сетевое соединение.",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3_content2",
+    "zh": "请勿关闭车机热点和手机WIFI，保持网络畅通。",
+    "ru": "Не отключайте точку доступа головного устройства и Wi-Fi на телефоне, чтобы поддерживать стабильное сетевое соединение.",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3_content3",
+    "zh": "拍摄结束后，可在状态栏或系统设置内关闭车机热点。",
+    "ru": "После завершения съёмки вы можете отключить точку доступа головного устройства в панели состояния или в настройках системы.",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_step3_tips",
+    "zh": "温馨提醒：",
+    "ru": "Подсказка:",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_title",
+    "zh": "连接手机",
+    "ru": "Подключить телефон",
+    "type": "string"
+  },
+  {
+    "name": "phone_connect_to_cloud_camera",
+    "zh": "手机连接云台相机",
+    "ru": "Подключение телефона к поворотной камере",
+    "type": "string"
+  },
+  {
+    "name": "photo_pixel_ettings",
+    "zh": "照片像素设置",
+    "ru": "Настройки разрешения фото",
+    "type": "string"
+  },
+  {
+    "name": "picture_pixel",
+    "zh": "照片像素",
+    "ru": "Разрешение фото",
+    "type": "string"
+  },
+  {
+    "name": "pixel_setting_failed",
+    "zh": "像素设置失败",
+    "ru": "Не удалось настроить пиксели.",
+    "type": "string"
+  },
+  {
+    "name": "plz_using_camera_when_low_speed",
+    "zh": "请在车速低于40km/h时使用",
+    "ru": "Используйте при скорости ниже 40 км/ч",
+    "type": "string"
+  },
+  {
+    "name": "previous_tip",
+    "zh": "上一条",
+    "ru": "Предыдущая",
+    "type": "string"
+  },
+  {
+    "name": "qr_code_identification",
+    "zh": "二维码识别",
+    "ru": "Распознавание QR-кодов",
+    "type": "string"
+  },
+  {
+    "name": "qr_code_identification_exit",
+    "zh": "二维码识别-退出",
+    "ru": "Распознавание QR-кода — выход",
+    "type": "string"
+  },
+  {
+    "name": "qr_code_identification_save",
+    "zh": "二维码识别-下载保存相册",
+    "ru": "Распознавание QR-кода — скачать и сохранить в галерею",
+    "type": "string"
+  },
+  {
+    "name": "qr_code_identification_try",
+    "zh": "二维码识别-重新扫描",
+    "ru": "Распознавание QR-кода — повторное сканирование",
+    "type": "string"
+  },
+  {
+    "name": "ratio_16_9",
+    "zh": "常规画幅 16 : 9",
+    "ru": "Стандартный формат 16:9",
+    "type": "string"
+  },
+  {
+    "name": "ratio_4_3",
+    "zh": "电影画幅 2.35 : 1",
+    "ru": "Кинематографический формат 2,35:1",
+    "type": "string"
+  },
+  {
+    "name": "recording_cruise_monitor",
+    "zh": "巡航监控录制中",
+    "ru": "Идёт запись мониторинга в движении",
+    "type": "string"
+  },
+  {
+    "name": "recording_fixed_point_monitor",
+    "zh": "定点监控录制中",
+    "ru": "Запись: фикс. точка",
+    "type": "string"
+  },
+  {
+    "name": "recording_video",
+    "zh": "正在拍摄视频",
+    "ru": "Запись видео",
+    "type": "string"
+  },
+  {
+    "name": "remote_take_picture_permission",
+    "zh": "远程查看权限",
+    "ru": "Удалённый просмотр",
+    "type": "string"
+  },
+  {
+    "name": "remote_view",
+    "zh": "远程查看车内",
+    "ru": "Удалённый просмотр салона",
+    "type": "string"
+  },
+  {
+    "name": "remote_view_content",
+    "zh": "开启后，可通过“智慧云控”APP获取车内图像",
+    "ru": "После включения вы сможете получать изображения из салона через приложение «Умное облачное управление».",
+    "type": "string"
+  },
+  {
+    "name": "repeat_scan_tips",
+    "zh": "云台相机正在扫码，无法重复执行",
+    "ru": "Идёт сканирование кода PTZ-камерой, повторное выполнение невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "repeat_video_tips",
+    "zh": "云台相机正在录制，无法重复执行",
+    "ru": "Идёт запись PTZ-камерой, повторное выполнение невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "retry_take_picture",
+    "zh": "重拍",
+    "ru": "Переснять",
+    "type": "string"
+  },
+  {
+    "name": "return_the_gimbal_to_its_original_position",
+    "zh": "云台回正",
+    "ru": "Сброс PTZ",
+    "type": "string"
+  },
+  {
+    "name": "right",
+    "zh": "右边",
+    "ru": "Справа",
+    "type": "string"
+  },
+  {
+    "name": "right_max_limit",
+    "zh": "已经转到最右边啦",
+    "ru": "Уже повёрнута до самого правого края.",
+    "type": "string"
+  },
+  {
+    "name": "rotate_record_complete",
+    "zh": "视频已保存，摄像头回归正前方",
+    "ru": "Видео сохранено, камера возвращается вперёд.",
+    "type": "string"
+  },
+  {
+    "name": "rotation_shot",
+    "zh": "旋转拍摄",
+    "ru": "Съёмка с вращением",
+    "type": "string"
+  },
+  {
+    "name": "rotation_state_shot",
+    "zh": "旋转拍",
+    "ru": "Поворотная съёмка",
+    "type": "string"
+  },
+  {
+    "name": "scanning_qr_code",
+    "zh": "正在搜寻二维码",
+    "ru": "Поиск QR-кода...",
+    "type": "string"
+  },
+  {
+    "name": "scanning_to_you",
+    "zh": "正在为您扫码",
+    "ru": "Сканируем для вас.",
+    "type": "string"
+  },
+  {
+    "name": "sdcard_space_fulled",
+    "zh": "相册储存空间已满，保存失败",
+    "ru": "Хранилище альбома заполнено, сохранение не удалось.",
+    "type": "string"
+  },
+  {
+    "name": "set_factory_recovery_button",
+    "zh": "恢复出厂",
+    "ru": "Заводской сброс",
+    "type": "string"
+  },
+  {
+    "name": "set_formatting_button",
+    "zh": "格式化",
+    "ru": "Форматирование",
+    "type": "string"
+  },
+  {
+    "name": "set_reset",
+    "zh": "校准",
+    "ru": "Калибровка",
+    "type": "string"
+  },
+  {
+    "name": "setting_factory_recovery_tips",
+    "zh": "确定恢复云台相机为出厂设置吗",
+    "ru": "Вы уверены, что хотите сбросить PTZ-камеру до заводских настроек?",
+    "type": "string"
+  },
+  {
+    "name": "setting_formatted_memory_tips",
+    "zh": "确定清空云台相机所拍摄的照片和视频吗",
+    "ru": "Вы уверены, что хотите удалить все фотографии и видео, снятые PTZ-камерой?",
+    "type": "string"
+  },
+  {
+    "name": "setting_guardian_mode",
+    "zh": "守护模式",
+    "ru": "Режим защиты",
+    "type": "string"
+  },
+  {
+    "name": "settings",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "shot_left",
+    "zh": "拍左边",
+    "ru": "Съёмка левой стороны",
+    "type": "string"
+  },
+  {
+    "name": "shot_right",
+    "zh": "拍右边",
+    "ru": "Снять справа",
+    "type": "string"
+  },
+  {
+    "name": "shotting_in_lapse",
+    "zh": "正在延时拍摄中",
+    "ru": "Идёт съёмка в режиме таймлапса",
+    "type": "string"
+  },
+  {
+    "name": "slide_too_fast_tips",
+    "zh": "滑动太快了，摄像头要跟不上啦！",
+    "ru": "Свайп слишком быстрый, камера не успевает!",
+    "type": "string"
+  },
+  {
+    "name": "snap",
+    "zh": "抓拍",
+    "ru": "Снимок",
+    "type": "string"
+  },
+  {
+    "name": "sources",
+    "zh": "), 来源=",
+    "ru": "), Источник=",
+    "type": "string"
+  },
+  {
+    "name": "speed_over_40km",
+    "zh": "车速大于等于40km/h，无法拍照",
+    "ru": "Скорость 40 км/ч и выше, съёмка недоступна",
+    "type": "string"
+  },
+  {
+    "name": "stop_capturing_video_failed",
+    "zh": "停止抓拍录像失败",
+    "ru": "Не удалось остановить запись видео",
+    "type": "string"
+  },
+  {
+    "name": "stop_recording_failed",
+    "zh": "停止录像失败",
+    "ru": "Не удалось остановить запись",
+    "type": "string"
+  },
+  {
+    "name": "stop_shot",
+    "zh": "不拍了",
+    "ru": "Не снимать",
+    "type": "string"
+  },
+  {
+    "name": "str_already_exit_protect_model_tips",
+    "zh": "您已退出守护模式，您可在相册中查看【录像】",
+    "ru": "Вы вышли из режима охраны, просмотреть [видеозаписи] можно в альбоме.",
+    "type": "string"
+  },
+  {
+    "name": "str_appointment_for_filming",
+    "zh": "预约拍摄",
+    "ru": "Запланировать съёмку",
+    "type": "string"
+  },
+  {
+    "name": "str_cannot_lapse_shoot_by_phone_connecting",
+    "zh": "手机连接中不能进行延时拍",
+    "ru": "При подключении телефона съемка в режиме таймлапс невозможна.",
+    "type": "string"
+  },
+  {
+    "name": "str_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "str_content_desc_cancel_select",
+    "zh": "取消选中^取消选择^取消",
+    "ru": "Снять выделение^Отменить выбор^Отмена",
+    "type": "string"
+  },
+  {
+    "name": "str_content_desc_close_filter",
+    "zh": "^关闭滤镜^取消滤镜^原图",
+    "ru": "^Отключить фильтр^Убрать фильтр^Оригинал",
+    "type": "string"
+  },
+  {
+    "name": "str_count_time",
+    "zh": "确认(%ds）",
+    "ru": "Подтверждение (%ds)",
+    "type": "string"
+  },
+  {
+    "name": "str_count_time_start_60s",
+    "zh": "确认（60s）",
+    "ru": "Подтвердить (60 с)",
+    "type": "string"
+  },
+  {
+    "name": "str_counter_to_lapse_shoot",
+    "zh": "开始拍摄（%ss)",
+    "ru": "Начать съёмку (%ss)",
+    "type": "string"
+  },
+  {
+    "name": "str_earth_gps",
+    "zh": "WGS84坐标(GPS坐标, 地球坐标)",
+    "ru": "Координаты WGS84 (GPS-координаты, геоцентрические координаты)",
+    "type": "string"
+  },
+  {
+    "name": "str_exit_protect_model",
+    "zh": "已退出守护模式",
+    "ru": "Вы вышли из режима охраны",
+    "type": "string"
+  },
+  {
+    "name": "str_factory_recovery",
+    "zh": "正在恢复出厂设置，请稍后...",
+    "ru": "Идёт восстановление заводских настроек, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "str_failed_save_picture",
+    "zh": "图片保存失败",
+    "ru": "Ошибка сохранения",
+    "type": "string"
+  },
+  {
+    "name": "str_failed_to_exit_protect_model",
+    "zh": "退出守护模式失败",
+    "ru": "Не удалось выйти из режима охраны",
+    "type": "string"
+  },
+  {
+    "name": "str_format_memory",
+    "zh": "正在格式化内存，请稍后...",
+    "ru": "Идёт форматирование памяти, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "str_illegal_coordinates",
+    "zh": "非法坐标",
+    "ru": "Недопустимые координаты",
+    "type": "string"
+  },
+  {
+    "name": "str_lapse_time_to_shooting",
+    "zh": "您可提前预约好拍摄时间和场景，云台相机届时将自动进行拍摄",
+    "ru": "Вы можете заранее запланировать время и сцену съёмки, поворотная камера автоматически произведёт съёмку в назначенное время.",
+    "type": "string"
+  },
+  {
+    "name": "str_last_tips",
+    "zh": "上一步",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "str_left",
+    "zh": "左",
+    "ru": "Левый",
+    "type": "string"
+  },
+  {
+    "name": "str_left_behind",
+    "zh": "左前",
+    "ru": "Передний левый",
+    "type": "string"
+  },
+  {
+    "name": "str_loading",
+    "zh": "正在为您加载，请稍候...",
+    "ru": "Идёт загрузка, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "str_location_failed",
+    "zh": "定位失败: location ： %s ,error: %s ,reason:%s",
+    "ru": "Ошибка определения местоположения: location: %s, error: %s, reason: %s",
+    "type": "string"
+  },
+  {
+    "name": "str_mars_coordinates",
+    "zh": "国测局坐标(火星坐标)",
+    "ru": "Координаты GCJ-02 (марсианские координаты)",
+    "type": "string"
+  },
+  {
+    "name": "str_next_tips",
+    "zh": "下一步",
+    "ru": "Следующий шаг",
+    "type": "string"
+  },
+  {
+    "name": "str_no_filter",
+    "zh": "无滤镜",
+    "ru": "Без фильтра",
+    "type": "string"
+  },
+  {
+    "name": "str_no_limit",
+    "zh": "不限",
+    "ru": "Без ограничений",
+    "type": "string"
+  },
+  {
+    "name": "str_no_name_place",
+    "zh": "未知地点",
+    "ru": "Неизвестное место",
+    "type": "string"
+  },
+  {
+    "name": "str_not_scan_qr_code_to_retry",
+    "zh": "未获取到二维码，请重新识别",
+    "ru": "Не удалось распознать QR-код. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "str_not_support_4800w",
+    "zh": "当前模式不支持4800W像素",
+    "ru": "Текущий режим не поддерживает 48 Мп.",
+    "type": "string"
+  },
+  {
+    "name": "str_open_camera_tips",
+    "zh": "开启云台之旅",
+    "ru": "Поехали с PTZ",
+    "type": "string"
+  },
+  {
+    "name": "str_out_memory_clear_to_photo",
+    "zh": "存储空间不足，请清理后拍照",
+    "ru": "Недостаточно места. Освободите хранилище перед съёмкой.",
+    "type": "string"
+  },
+  {
+    "name": "str_out_memory_clear_to_record",
+    "zh": "存储空间不足，请清理后录像",
+    "ru": "Недостаточно места для хранения. Очистите хранилище перед записью.",
+    "type": "string"
+  },
+  {
+    "name": "str_out_of_shooting_range",
+    "zh": "您不在拍摄范围内哦",
+    "ru": "Вы вне зоны съёмки.",
+    "type": "string"
+  },
+  {
+    "name": "str_phone_to_scan_piture_and_video",
+    "zh": "您可以通过手机APP查看当天所拍摄的照片和视频",
+    "ru": "Вы можете просматривать фотографии и видео, снятые в этот день, в мобильном приложении.",
+    "type": "string"
+  },
+  {
+    "name": "str_ready_protect_model",
+    "zh": "已为您开启云台守护模式，我会一直守护您",
+    "ru": "Для вас включён режим защиты поворотной камеры. Я всегда буду вас защищать.",
+    "type": "string"
+  },
+  {
+    "name": "str_right",
+    "zh": "右",
+    "ru": "Правый",
+    "type": "string"
+  },
+  {
+    "name": "str_right_behind",
+    "zh": "右前",
+    "ru": "Правый передний",
+    "type": "string"
+  },
+  {
+    "name": "str_second_five",
+    "zh": "5秒",
+    "ru": "5 секунд",
+    "type": "string"
+  },
+  {
+    "name": "str_seconds_ten",
+    "zh": "10秒",
+    "ru": "10 секунд",
+    "type": "string"
+  },
+  {
+    "name": "str_set_temprature",
+    "zh": "温度:%d℃",
+    "ru": "Температура:%d℃",
+    "type": "string"
+  },
+  {
+    "name": "str_start_to_shoot",
+    "zh": "开始拍摄",
+    "ru": "Начать съёмку",
+    "type": "string"
+  },
+  {
+    "name": "str_start_trails_content_desc",
+    "zh": "星轨^光影",
+    "ru": "Следы звёзд^Светотень",
+    "type": "string"
+  },
+  {
+    "name": "str_sure",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cancel_scan_qr_code",
+    "zh": "取消二维码扫描",
+    "ru": "Отменить сканирование QR-кода",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cannot_use_by_camera_connecting",
+    "zh": "云台正在校准中无法使用该功能",
+    "ru": "Подвес калибруется, функция недоступна",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cannot_use_by_factory_recovery",
+    "zh": "云台正在恢复出厂设置中无法使用该功能",
+    "ru": "Подвес восстанавливает заводские настройки, функция недоступна",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cannot_use_by_formatting",
+    "zh": "云台正在格式化中无法使用该功能",
+    "ru": "Подвес форматируется, функция недоступна",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cannot_use_by_phone_connecting",
+    "zh": "手机连接中无法使用该功能",
+    "ru": "Эта функция недоступна при подключении телефона",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_cannot_use_by_protect_model",
+    "zh": "云台正在执行守护模式无法使用该功能",
+    "ru": "Подвес камеры находится в режиме охраны, данная функция недоступна",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_car_stop_to_use",
+    "zh": "请在车辆静止状态使用该功能!",
+    "ru": "Пожалуйста, используйте эту функцию только при остановленном автомобиле!",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_exit_by_low_battery_exception",
+    "zh": "车辆电量不足，已为您退出守护模式",
+    "ru": "Низкий заряд батареи, режим охраны отключён",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_exit_by_temperature_exception",
+    "zh": "云台相机温度异常，已为您退出守护模式",
+    "ru": "Температура поворотной камеры вышла за допустимые пределы, режим охраны отключён",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_failed_factory_recovery",
+    "zh": "恢复出厂设置失败",
+    "ru": "Не удалось сбросить до заводских настроек",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_failed_formatting",
+    "zh": "格式化失败",
+    "ru": "Сбой форматирования",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_formatting",
+    "zh": "格式化成功",
+    "ru": "Форматировано",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_frequent_operation",
+    "zh": "不要频繁操作哦",
+    "ru": "Не повторяйте это слишком часто",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_has_exit__scan_qr_code",
+    "zh": "已退出二维码扫描",
+    "ru": "Сканирование QR-кода завершено",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_out_of_memory",
+    "zh": "云台相机存储空间不足，请释放存储空间",
+    "ru": "Недостаточно памяти на поворотной камере. Освободите место",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_shooting_max_limit",
+    "zh": "拍摄片段已达上限",
+    "ru": "Достигнут лимит отснятых фрагментов",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_shooting_to_connect",
+    "zh": "\"当前正在拍摄，需停止后才能连接，\n是否停止拍摄\"",
+    "ru": "\"Идёт запись. Для подключения необходимо остановить запись.\\nОстановить запись?\"",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_stop_lapase_by_low_battery",
+    "zh": "当前电量不足20%，已为您停止延时拍摄",
+    "ru": "Заряд батареи менее 20%. Съёмка в режиме таймлапс остановлена",
+    "type": "string"
+  },
+  {
+    "name": "str_tips_success_factory_recovery",
+    "zh": "恢复出厂设置成功",
+    "ru": "Заводские настройки успешно восстановлены",
+    "type": "string"
+  },
+  {
+    "name": "str_tts_no_qr_code",
+    "zh": "未获取到二维码 , 将重新识别",
+    "ru": "QR-код не получен, будет произведена повторная попытка распознавания",
+    "type": "string"
+  },
+  {
+    "name": "str_update_location",
+    "zh": "开始定位: %s, 坐标系=",
+    "ru": "Начало позиционирования: %s, система координат=",
+    "type": "string"
+  },
+  {
+    "name": "take_picture_complete",
+    "zh": "照片生成完成",
+    "ru": "Создание фото завершено",
+    "type": "string"
+  },
+  {
+    "name": "three_no_name_space",
+    "zh": "未知地点-未知地点-未知地点",
+    "ru": "Неизвестное место-неизвестное место-неизвестное место",
+    "type": "string"
+  },
+  {
+    "name": "time_tick_text",
+    "zh": "知道了%ds",
+    "ru": "Понятно %ds",
+    "type": "string"
+  },
+  {
+    "name": "tip_camera_connect_phone",
+    "zh": "画面已切换到手机端......",
+    "ru": "Экран переключён на телефон......",
+    "type": "string"
+  },
+  {
+    "name": "tip_camera_error",
+    "zh": "摄像头异常 , 请检查后重新启动",
+    "ru": "Сбой камеры. Проверьте и перезапустите.",
+    "type": "string"
+  },
+  {
+    "name": "tips",
+    "zh": "温馨提示",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "tips_cancel_follow",
+    "zh": "取消跟随",
+    "ru": "Отменить следование",
+    "type": "string"
+  },
+  {
+    "name": "tips_follow",
+    "zh": "智能跟随",
+    "ru": "Умное слежение",
+    "type": "string"
+  },
+  {
+    "name": "tips_select_an_object_to_follow",
+    "zh": "请选择一个跟随的对象吧！",
+    "ru": "Пожалуйста, выберите объект для слежения!",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay",
+    "zh": "轨迹延时",
+    "ru": "Таймлапс по траектории",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting",
+    "zh": "轨迹延时拍摄",
+    "ru": "Съёмка таймлапса по траектории",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_cancel_reservation",
+    "zh": "轨迹延时-预约拍取消预约",
+    "ru": "Таймлапс по траектории — Запланированная съёмка — Отмена записи",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_module",
+    "zh": "轨迹延时拍摄-使用模版",
+    "ru": "Съёмка таймлапса по траектории — Использование шаблона",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_reservation",
+    "zh": "轨迹延时-预约拍设置完成",
+    "ru": "Таймлапс по траектории — Настройки запланированной съёмки завершены",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_reservation_cancel",
+    "zh": "轨迹延时-预约拍-取消拍摄",
+    "ru": "Таймлапс по траектории — Запланированная съёмка — Отмена съёмки",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_reservation_shot",
+    "zh": "轨迹延时-预约拍-拍摄",
+    "ru": "Таймлапс по траектории — Запланированная съёмка — Съёмка",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_update_reservation",
+    "zh": "轨迹延时-预约拍修改预约",
+    "ru": "Таймлапс по траектории — Изменение записи",
+    "type": "string"
+  },
+  {
+    "name": "trajectory_delay_shooting_zhadian",
+    "zh": "轨迹延时拍摄-扎点",
+    "ru": "Таймлапс по траектории — Установка точек",
+    "type": "string"
+  },
+  {
+    "name": "try_again",
+    "zh": "请重新描述一下",
+    "ru": "Пожалуйста, опишите ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "txt_arc_res_loading",
+    "zh": "资源加载中,请稍后重试",
+    "ru": "Загрузка ресурсов, повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "txt_capture",
+    "zh": "照 相",
+    "ru": "Сделать фото",
+    "type": "string"
+  },
+  {
+    "name": "txt_capture_way",
+    "zh": "拍照方式：",
+    "ru": "Способ съёмки:",
+    "type": "string"
+  },
+  {
+    "name": "txt_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "txt_complete",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "txt_continue_capture",
+    "zh": "连拍",
+    "ru": "Серийная съёмка",
+    "type": "string"
+  },
+  {
+    "name": "txt_continue_times",
+    "zh": "连拍次数",
+    "ru": "Серия",
+    "type": "string"
+  },
+  {
+    "name": "txt_delay_capture",
+    "zh": "延时拍摄",
+    "ru": "Таймлапс",
+    "type": "string"
+  },
+  {
+    "name": "txt_delay_time",
+    "zh": "延迟时间(s)",
+    "ru": "Время задержки (с)",
+    "type": "string"
+  },
+  {
+    "name": "txt_happy_content",
+    "zh": "欢乐拍，自动抓拍您的欢乐一刻",
+    "ru": "Радостный кадр — автоматически запечатлевает ваши счастливые мгновения",
+    "type": "string"
+  },
+  {
+    "name": "txt_lapse_custom",
+    "zh": "1张/%s秒，持续拍摄%s分钟",
+    "ru": "1 кадр/%s с, непрерывная съёмка %s мин",
+    "type": "string"
+  },
+  {
+    "name": "txt_out_body_capture",
+    "zh": "体态拍照",
+    "ru": "Съёмка позы",
+    "type": "string"
+  },
+  {
+    "name": "txt_out_body_taking",
+    "zh": "\"1.设置在该模式下，如图所示，在车外举起单手或双手（超过120°），倒计时3s后自动拍照；\n2.建议在车前方2m-6m的距离拍照，识别效果更加；\n3.拍照结束后，可以进入“长安inCall-云端相册”查看拍照效果\"",
+    "ru": "\"1. В этом режиме, как показано на рисунке, поднимите одну или обе руки (под углом более 120°) за пределами автомобиля — через 3 с сработает автоматическая съёмка;\\n2. Рекомендуется делать снимки на расстоянии 2–6 м впереди автомобиля для лучшего распознавания;\\n3. По завершении съёмки перейдите в «Changan inCall — Облачная галерея», чтобы просмотреть результат\"",
+    "type": "string"
+  },
+  {
+    "name": "txt_record",
+    "zh": "摄 像",
+    "ru": "Видеосъёмка",
+    "type": "string"
+  },
+  {
+    "name": "txt_time_interval",
+    "zh": "时间间隔",
+    "ru": "Интервал времени",
+    "type": "string"
+  },
+  {
+    "name": "txt_vlog_content_taking",
+    "zh": "\"1. 最多可连续拍摄10段视频，每段视频最短3秒、最⻓1分钟;\n2. 单段视频若拍摄满1分钟未停止录制，相机将继续录制，直至上限;\n3. 拍摄过程中，若对视频不满意可点击屏幕上方预览框进行删除;\n4. VLOG 拍摄完成后点击「完成」，一键成片记录您的美好时光。\"",
+    "ru": "\"1. Можно последовательно снять до 10 видеороликов, каждый от 3 с до 1 мин;\\n2. Если съёмка одного ролика достигла 1 мин и не была остановлена, камера продолжит запись до достижения лимита;\\n3. Во время съёмки, если результат не устраивает, нажмите на превью в верхней части экрана для удаления;\\n4. После завершения съёмки VLOG нажмите «Готово», чтобы автоматически собрать ролик и сохранить ваши лучшие моменты.\"",
+    "type": "string"
+  },
+  {
+    "name": "use_filter",
+    "zh": "滤镜使用",
+    "ru": "Использование фильтров",
+    "type": "string"
+  },
+  {
+    "name": "use_slide_track",
+    "zh": "滑轨使用",
+    "ru": "Использование ползунка",
+    "type": "string"
+  },
+  {
+    "name": "video_load_exception",
+    "zh": "视频加载异常",
+    "ru": "Ошибка загрузки видео",
+    "type": "string"
+  },
+  {
+    "name": "video_quality_settings",
+    "zh": "视频画质设置",
+    "ru": "Настройки качества видео",
+    "type": "string"
+  },
+  {
+    "name": "video_resolution",
+    "zh": "视频输出",
+    "ru": "Видеовыход",
+    "type": "string"
+  },
+  {
+    "name": "video_resolution_setting_failed",
+    "zh": "视频分辨率设置失败",
+    "ru": "Не удалось установить разрешение видео",
+    "type": "string"
+  },
+  {
+    "name": "view_ratio",
+    "zh": "画面比例",
+    "ru": "Соотношение сторон",
+    "type": "string"
+  },
+  {
+    "name": "vlog_error_tips_video_short",
+    "zh": "拍摄时长不足3秒，请重新拍摄",
+    "ru": "Длительность записи менее 3 секунд. Повторите запись.",
+    "type": "string"
+  },
+  {
+    "name": "vlog_has_opened",
+    "zh": "VLOG已经开启了",
+    "ru": "VLOG уже запущен.",
+    "type": "string"
+  },
+  {
+    "name": "vlog_has_pause_take_picture_fail",
+    "zh": "我忙不过来啦，请取消拍摄后重试",
+    "ru": "Я не справляюсь. Отмените съёмку и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "vlog_is_being_made",
+    "zh": "VLOG制作中，请稍后再试！",
+    "ru": "VLOG в процессе создания. Попробуйте позже!",
+    "type": "string"
+  },
+  {
+    "name": "vlog_make_video_window",
+    "zh": "VLOG已经拍摄完成，是否进入相册生成VLOG",
+    "ru": "Съёмка VLOG завершена. Перейти в галерею для создания VLOG?",
+    "type": "string"
+  },
+  {
+    "name": "vlog_shot",
+    "zh": "Vlog拍摄",
+    "ru": "Съёмка влога",
+    "type": "string"
+  },
+  {
+    "name": "window_lapse_order_content",
+    "zh": "【云台相机-延时拍】，您的预约拍摄时间已到， 是否需要开始拍摄?",
+    "ru": "【Камера на штативе — интервальная съёмка】, пришло время вашей запланированной съёмки. Начать съёмку?",
+    "type": "string"
+  },
+  {
+    "name": "window_panorama_full_hint_content",
+    "zh": "云台相机从左往右拍三张照片后，合成一张全景图像",
+    "ru": "После того как камера на штативе сделает три снимка слева направо, они объединяются в одну панорамную фотографию.",
+    "type": "string"
+  },
+  {
+    "name": "window_panorama_part_hint_content",
+    "zh": "为了保证拍摄效果，建议拍摄主体不要超出参考线",
+    "ru": "Для обеспечения качества съёмки рекомендуется не выводить основной объект за пределы направляющей линии.",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Зажмите любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "yyyy_mm_dd_hh_mm_ss",
+    "zh": "yyyy年MM月dd日 HH:mm:ss",
+    "ru": "dd.MM.yyyy HH:mm:ss",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_disabled_description",
+    "zh": "启用字幕",
+    "ru": "Включить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_enabled_description",
+    "zh": "停用字幕",
+    "ru": "Отключить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_description",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_enter_description",
+    "zh": "进入全屏模式",
+    "ru": "Войти в полноэкранный режим",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_exit_description",
+    "zh": "退出全屏模式",
+    "ru": "Выйти из полноэкранного режима",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_hide",
+    "zh": "隐藏播放器控件",
+    "ru": "Скрыть элементы управления плеером",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_next_description",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_hide_description",
+    "zh": "隐藏其他设置",
+    "ru": "Скрыть другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_show_description",
+    "zh": "显示其他设置",
+    "ru": "Показать другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_pause_description",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_play_description",
+    "zh": "播放",
+    "ru": "Проигрывать",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed",
+    "zh": "速度",
+    "ru": "Скорость",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed_normal",
+    "zh": "正常",
+    "ru": "Обычная",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_previous_description",
+    "zh": "上一首",
+    "ru": "Предыдущий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_all_description",
+    "zh": "全部重复播放",
+    "ru": "Повторять всё",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_off_description",
+    "zh": "不重复播放",
+    "ru": "Не повторять",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_one_description",
+    "zh": "重复播放一项",
+    "ru": "Повторять один элемент",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_rewind_description",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_seek_bar_description",
+    "zh": "播放进度",
+    "ru": "Прогресс",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_settings_description",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_show",
+    "zh": "显示播放器控件",
+    "ru": "Показать контролы плеера",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_off_description",
+    "zh": "随机播放功能已关闭",
+    "ru": "Случайное воспроизведение отключено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_on_description",
+    "zh": "随机播放功能已开启",
+    "ru": "Случайное воспроизведение включено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_stop_description",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_vr_description",
+    "zh": "VR 模式",
+    "ru": "Режим VR",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_completed",
+    "zh": "下载完毕",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_description",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_downloading",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_notification_channel_name",
+    "zh": "下载内容",
+    "ru": "Скачиваемый контент",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused",
+    "zh": "下载已暂停",
+    "ru": "Загрузка приостановлена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_network",
+    "zh": "正在等待连接到网络以进行下载",
+    "ru": "Ожидание подключения к сети для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_wifi",
+    "zh": "正在等待连接到 WLAN 网络以进行下载",
+    "ru": "Ожидание подключения к сети WLAN для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_removing",
+    "zh": "正在移除下载内容",
+    "ru": "Удаление загруженного содержимого",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_mono",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_alternate",
+    "zh": "替用轨",
+    "ru": "Запасная дорожка",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_closed_captions",
+    "zh": "字幕",
+    "ru": "Субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_commentary",
+    "zh": "旁白",
+    "ru": "Закадровый голос",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_supplementary",
+    "zh": "补充轨",
+    "ru": "Дополнительная дорожка",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_auto",
+    "zh": "自动",
+    "ru": "Авто",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_audio",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_text",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_stereo",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround",
+    "zh": "环绕声",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_5_point_1",
+    "zh": "5.1 环绕声",
+    "ru": "Объёмный звук 5.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_7_point_1",
+    "zh": "7.1 环绕声",
+    "ru": "Объёмный звук 7.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_unknown",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите утро или вечер",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Часы",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "ПМ",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Прошлый месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала – Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "zxing_app_name",
+    "zh": "条码扫描器",
+    "ru": "Сканер штрих-кодов",
+    "type": "string"
+  },
+  {
+    "name": "zxing_button_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_camera_framework_bug",
+    "zh": "抱歉，Android相机出现问题。您可能需要重启设备。",
+    "ru": "К сожалению, в камере Android возникла проблема. Возможно, вам потребуется перезагрузить устройство.",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_default_status",
+    "zh": "请将条码置于取景框内扫描。",
+    "ru": "Поместите штрих-код в рамку для сканирования.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "arc_texture_array_0",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_1",
+    "zh": "铃铛猫",
+    "ru": "Кошка с колокольчиком",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_2",
+    "zh": "生日",
+    "ru": "День рождения",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_3",
+    "zh": "黑猫",
+    "ru": "Чёрная кошка",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_4",
+    "zh": "卡通兔子",
+    "ru": "Мультяшный кролик",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_5",
+    "zh": "猫装饰",
+    "ru": "Украшение в виде кошки",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_6",
+    "zh": "厨师",
+    "ru": "Повар",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_7",
+    "zh": "发带",
+    "ru": "Повязка на голову",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_8",
+    "zh": "头盔猫",
+    "ru": "Кот в шлеме",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_9",
+    "zh": "小丑",
+    "ru": "Клоун",
+    "type": "arrays"
+  },
+  {
+    "name": "arc_texture_array_10",
+    "zh": "兔子",
+    "ru": "Кролик",
+    "type": "arrays"
+  },
+  {
+    "name": "day_arr_items_0",
+    "zh": "当日",
+    "ru": "Сегодня",
+    "type": "arrays"
+  },
+  {
+    "name": "day_arr_items_1",
+    "zh": "次日",
+    "ru": "На следующий день",
+    "type": "arrays"
+  },
+  {
+    "name": "location_items_0",
+    "zh": "起点",
+    "ru": "Начало",
+    "type": "arrays"
+  },
+  {
+    "name": "location_items_1",
+    "zh": "途径",
+    "ru": "Промежуточная точка",
+    "type": "arrays"
+  },
+  {
+    "name": "location_items_2",
+    "zh": "终点",
+    "ru": "Точка назначения",
+    "type": "arrays"
+  },
+  {
+    "name": "monitor_items_0",
+    "zh": "定点监控",
+    "ru": "Стационарный мониторинг",
+    "type": "arrays"
+  },
+  {
+    "name": "monitor_items_1",
+    "zh": "巡航监控",
+    "ru": "Круизный мониторинг",
+    "type": "arrays"
+  },
+  {
+    "name": "name_str_items_0",
+    "zh": "时空穿梭",
+    "ru": "Путешествие во времени",
+    "type": "arrays"
+  },
+  {
+    "name": "name_str_items_1",
+    "zh": "车流车往",
+    "ru": "Непрерывный поток машин",
+    "type": "arrays"
+  },
+  {
+    "name": "name_str_items_2",
+    "zh": "风卷云舒",
+    "ru": "Ветер и облака",
+    "type": "arrays"
+  },
+  {
+    "name": "name_str_items_3",
+    "zh": "日出日落",
+    "ru": "Восход и закат",
+    "type": "arrays"
+  },
+  {
+    "name": "name_str_items_4",
+    "zh": "星轨/光影",
+    "ru": "Звёзды / Свет-тень",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_0",
+    "zh": "延时拍",
+    "ru": "Таймлапс",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_1",
+    "zh": "全景拍",
+    "ru": "Панорамный кадр",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_2",
+    "zh": "拍照",
+    "ru": "Фото",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_3",
+    "zh": "录像",
+    "ru": "Видеозапись",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_4",
+    "zh": "旋转拍",
+    "ru": "Вращающийся кадр",
+    "type": "arrays"
+  },
+  {
+    "name": "navi_picker_5",
+    "zh": "拍VLOG",
+    "ru": "Съёмка VLOG",
+    "type": "arrays"
+  },
+  {
+    "name": "orientation_items_0",
+    "zh": "从左向右",
+    "ru": "Слева направо",
+    "type": "arrays"
+  },
+  {
+    "name": "orientation_items_1",
+    "zh": "从右向左",
+    "ru": "Справа налево",
+    "type": "arrays"
+  },
+  {
+    "name": "pixel_item_desc_0",
+    "zh": "1200W^1200万^一千两百万",
+    "ru": "12 Мп^12 млн^Двенадцать миллионов",
+    "type": "arrays"
+  },
+  {
+    "name": "pixel_item_desc_1",
+    "zh": "4800W^4800万^四千八百万",
+    "ru": "48 Мп^48 млн^Сорок восемь миллионов",
+    "type": "arrays"
+  },
+  {
+    "name": "ratio_items_0",
+    "zh": "常规画幅 16 : 10",
+    "ru": "Стандартное соотношение сторон 16:10",
+    "type": "arrays"
+  },
+  {
+    "name": "ratio_items_1",
+    "zh": "电影画幅 2.35 ：1",
+    "ru": "Кинематографическое соотношение сторон 2,35:1",
+    "type": "arrays"
+  },
+  {
+    "name": "ratio_items_desc_0",
+    "zh": "常规画幅^16比10",
+    "ru": "Стандартное соотношение сторон^16:10",
+    "type": "arrays"
+  },
+  {
+    "name": "ratio_items_desc_1",
+    "zh": "电影画幅",
+    "ru": "Киноформат",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_0",
+    "zh": "自然",
+    "ru": "Природа",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_1",
+    "zh": "人像",
+    "ru": "Портрет",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_2",
+    "zh": "佳能",
+    "ru": "Кэнон",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_3",
+    "zh": "尼康",
+    "ru": "Никон",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_4",
+    "zh": "柯达",
+    "ru": "Кодак",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_5",
+    "zh": "富士",
+    "ru": "Фудзи",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_6",
+    "zh": "日记",
+    "ru": "Дневник",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_7",
+    "zh": "港风电影",
+    "ru": "Гонконгский фильм",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_8",
+    "zh": "绿橙",
+    "ru": "Зелёно-оранжевый",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_9",
+    "zh": "天蓝",
+    "ru": "Небесно-голубой",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_10",
+    "zh": "鲜冷色",
+    "ru": "Яркие холодные цвета",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_11",
+    "zh": "鲜暖色",
+    "ru": "Яркие тёплые цвета",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_12",
+    "zh": "玉椿",
+    "ru": "Юйчунь",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_13",
+    "zh": "港风",
+    "ru": "Гонконгский стиль",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_14",
+    "zh": "鼓浪屿",
+    "ru": "Гуланьюй",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_15",
+    "zh": "纸牌屋",
+    "ru": "Карточный домик",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_16",
+    "zh": "筑地",
+    "ru": "Цукидзи",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_17",
+    "zh": "复古棕调",
+    "ru": "Ретро-коричневый",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_18",
+    "zh": "复古黄调",
+    "ru": "Винтажный жёлтый",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_19",
+    "zh": "黑金",
+    "ru": "Чёрное золото",
+    "type": "arrays"
+  },
+  {
+    "name": "s_beautiful_mode_20",
+    "zh": "过往",
+    "ru": "Прошлое",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_0",
+    "zh": "无滤镜",
+    "ru": "Без фильтра",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_1",
+    "zh": "自然",
+    "ru": "Естественный",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_2",
+    "zh": "人像",
+    "ru": "Портрет",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_3",
+    "zh": "佳能",
+    "ru": "Кэнон",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_4",
+    "zh": "尼康",
+    "ru": "Никон",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_5",
+    "zh": "柯达",
+    "ru": "Кодак",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_6",
+    "zh": "富士",
+    "ru": "Фудзи",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_7",
+    "zh": "日记",
+    "ru": "Дневник",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_8",
+    "zh": "港风电影",
+    "ru": "Гонконгский фильм",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_9",
+    "zh": "绿橙",
+    "ru": "Зелёный апельсин",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_10",
+    "zh": "天蓝",
+    "ru": "Небесно-голубой",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_11",
+    "zh": "鲜冷色",
+    "ru": "Яркие холодные цвета",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_12",
+    "zh": "鲜暖色",
+    "ru": "Яркие тёплые цвета",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_13",
+    "zh": "玉椿",
+    "ru": "Юйчунь",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_14",
+    "zh": "港风",
+    "ru": "Гонконгский стиль",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_15",
+    "zh": "鼓浪屿",
+    "ru": "Гуланьюй",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_16",
+    "zh": "纸牌屋",
+    "ru": "Карточный домик",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_17",
+    "zh": "筑地",
+    "ru": "Цукидзи",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_18",
+    "zh": "复古棕调",
+    "ru": "Ретро-коричневый",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_19",
+    "zh": "复古黄调",
+    "ru": "Ретро-жёлтый",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_20",
+    "zh": "黑金",
+    "ru": "Чёрное золото",
+    "type": "arrays"
+  },
+  {
+    "name": "s_lapse_mode_21",
+    "zh": "过往",
+    "ru": "Прошлое",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_0",
+    "zh": "3",
+    "ru": "3",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_1",
+    "zh": "5",
+    "ru": "5",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_2",
+    "zh": "20",
+    "ru": "20",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_3",
+    "zh": "30",
+    "ru": "30",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_4",
+    "zh": "60",
+    "ru": "60",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_5",
+    "zh": "120",
+    "ru": "120",
+    "type": "arrays"
+  },
+  {
+    "name": "time_items_6",
+    "zh": "不限",
+    "ru": "Без ограничений",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_one",
+    "zh": "快进 %d 秒",
+    "ru": "Пропустить %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_other",
+    "zh": "快进 %d 秒",
+    "ru": "Пропустить %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_one",
+    "zh": "快退 %d 秒",
+    "ru": "Назад %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_other",
+    "zh": "快退 %d 秒",
+    "ru": "Назад %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

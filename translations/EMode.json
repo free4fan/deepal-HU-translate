@@ -1,0 +1,518 @@
+[
+  {
+    "name": "app_name",
+    "zh": "工程模式",
+    "ru": "Инженерный режим",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "clean_fota",
+    "zh": "清除fota",
+    "ru": "Очистить FOTA",
+    "type": "string"
+  },
+  {
+    "name": "close_mcu_heart",
+    "zh": "关闭MCU心跳机制",
+    "ru": "Отключить механизм heartbeat MCU",
+    "type": "string"
+  },
+  {
+    "name": "close_mcu_log",
+    "zh": "关闭MCU LOG存储",
+    "ru": "Отключить хранение логов MCU",
+    "type": "string"
+  },
+  {
+    "name": "close_soc_power",
+    "zh": "关闭上电超时复位功能的心跳",
+    "ru": "Отключить heartbeat функции сброса по таймауту включения питания",
+    "type": "string"
+  },
+  {
+    "name": "debug_incall_evs",
+    "zh": "EVS调试",
+    "ru": "Отладка EVS",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "input_ip",
+    "zh": "请输入IP地址",
+    "ru": "Введите IP-адрес",
+    "type": "string"
+  },
+  {
+    "name": "item_audio_test",
+    "zh": "音频测试",
+    "ru": "Аудиотест",
+    "type": "string"
+  },
+  {
+    "name": "item_certificate_copy",
+    "zh": "证书拷贝",
+    "ru": "Копирование сертификата",
+    "type": "string"
+  },
+  {
+    "name": "item_clean_fota",
+    "zh": "初始化fota",
+    "ru": "Инициализация FOTA",
+    "type": "string"
+  },
+  {
+    "name": "item_cpu_info",
+    "zh": "CPU信息",
+    "ru": "Информация о процессоре",
+    "type": "string"
+  },
+  {
+    "name": "item_debug_tool",
+    "zh": "调试工具",
+    "ru": "Средство отладки",
+    "type": "string"
+  },
+  {
+    "name": "item_encrypt_chen",
+    "zh": "为辰加密",
+    "ru": "Шифрование для Чэня",
+    "type": "string"
+  },
+  {
+    "name": "item_gain_adjust",
+    "zh": "增益调节",
+    "ru": "Регулировка усиления",
+    "type": "string"
+  },
+  {
+    "name": "item_gps_test",
+    "zh": "GPS测试",
+    "ru": "Тест GPS",
+    "type": "string"
+  },
+  {
+    "name": "item_init_fota",
+    "zh": "初始化fota",
+    "ru": "Инициализация FOTA",
+    "type": "string"
+  },
+  {
+    "name": "item_log_out",
+    "zh": "日志导出",
+    "ru": "Экспорт журнала",
+    "type": "string"
+  },
+  {
+    "name": "item_netWork",
+    "zh": "车联网",
+    "ru": "Телематика",
+    "type": "string"
+  },
+  {
+    "name": "item_offline_line",
+    "zh": "下线配置",
+    "ru": "Отключение",
+    "type": "string"
+  },
+  {
+    "name": "item_origin_setting",
+    "zh": "打开原始设置",
+    "ru": "Открыть исходные настройки",
+    "type": "string"
+  },
+  {
+    "name": "item_ota_emode",
+    "zh": "OTA工程模式",
+    "ru": "OTA-инженерный режим",
+    "type": "string"
+  },
+  {
+    "name": "item_other_test",
+    "zh": "其他测试",
+    "ru": "Другие тесты",
+    "type": "string"
+  },
+  {
+    "name": "item_partition_info",
+    "zh": "分区信息",
+    "ru": "Сведения о разделе",
+    "type": "string"
+  },
+  {
+    "name": "item_qr_code",
+    "zh": "二维码信息",
+    "ru": "Информация о QR-коде",
+    "type": "string"
+  },
+  {
+    "name": "item_res_update",
+    "zh": "资源更新",
+    "ru": "Обновление ресурсов",
+    "type": "string"
+  },
+  {
+    "name": "item_screen_test",
+    "zh": "屏幕测试",
+    "ru": "Тест экрана",
+    "type": "string"
+  },
+  {
+    "name": "item_sda",
+    "zh": "读取到sda/sdb",
+    "ru": "SDA/SDB прочитаны",
+    "type": "string"
+  },
+  {
+    "name": "item_tbox_register",
+    "zh": "车机备案",
+    "ru": "Регистрация",
+    "type": "string"
+  },
+  {
+    "name": "item_tbox_test",
+    "zh": "Tbox测试",
+    "ru": "Тестирование T-Box",
+    "type": "string"
+  },
+  {
+    "name": "item_version_info",
+    "zh": "版本信息",
+    "ru": "Информация о версии",
+    "type": "string"
+  },
+  {
+    "name": "keep_on_record",
+    "zh": "一键备案",
+    "ru": "Регистрация в один клик",
+    "type": "string"
+  },
+  {
+    "name": "log_copying_data",
+    "zh": "正在拷贝,请勿对车机进行操作!!!",
+    "ru": "Идёт копирование, не трогайте мультимедийную систему!!!",
+    "type": "string"
+  },
+  {
+    "name": "open_aiservice",
+    "zh": "AIService 工程模式",
+    "ru": "Инженерный режим AIService",
+    "type": "string"
+  },
+  {
+    "name": "open_dvr",
+    "zh": "打开倒车影像",
+    "ru": "Включить камеру заднего вида",
+    "type": "string"
+  },
+  {
+    "name": "open_soc_power",
+    "zh": "打开上电超时复位功能的心跳",
+    "ru": "Включить heartbeat функции сброса по таймауту подачи питания",
+    "type": "string"
+  },
+  {
+    "name": "partion_info",
+    "zh": "分区信息",
+    "ru": "Сведения о разделе",
+    "type": "string"
+  },
+  {
+    "name": "prohibit_modifications",
+    "zh": "禁止修改",
+    "ru": "Изменение запрещено.",
+    "type": "string"
+  },
+  {
+    "name": "sda_state",
+    "zh": "SDA/SDB存在状态:",
+    "ru": "Наличие SDA/SDB:",
+    "type": "string"
+  },
+  {
+    "name": "selfcheck_cloud_service",
+    "zh": "云服务自检",
+    "ru": "Проверка облака",
+    "type": "string"
+  },
+  {
+    "name": "selfcheck_net_service",
+    "zh": "4G自检",
+    "ru": "Самодиагностика 4G",
+    "type": "string"
+  },
+  {
+    "name": "set_dark_current",
+    "zh": "低功耗暗电流测试",
+    "ru": "Испытание темнового тока при низком энергопотреблении",
+    "type": "string"
+  },
+  {
+    "name": "update_cpu",
+    "zh": "更新CPU信息",
+    "ru": "Обновить CPU",
+    "type": "string"
+  },
+  {
+    "name": "update_mcu_boot",
+    "zh": "升级MCU boot",
+    "ru": "Обновить загрузчик MCU",
+    "type": "string"
+  },
+  {
+    "name": "update_partioninfo",
+    "zh": "更新分区信息",
+    "ru": "Обновить информацию о разделах",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Зажмите клавиатуру в любом месте для перемещения (включая область подбора символов)",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到主屏幕",
+    "ru": "Перейти на главный экран",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享方式",
+    "ru": "Способ обмена",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "使用%s分享",
+    "ru": "Поделиться через %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "net_evns_name_0",
+    "zh": "测试环境",
+    "ru": "Тестовая среда",
+    "type": "arrays"
+  },
+  {
+    "name": "net_evns_name_1",
+    "zh": "预生产环境",
+    "ru": "Предсерийная среда",
+    "type": "arrays"
+  },
+  {
+    "name": "net_evns_name_2",
+    "zh": "正式环境",
+    "ru": "Серийная среда",
+    "type": "arrays"
+  },
+  {
+    "name": "wt_evns_name_0",
+    "zh": "正式环境",
+    "ru": "Серийная среда",
+    "type": "arrays"
+  },
+  {
+    "name": "wt_evns_name_1",
+    "zh": "预生产环境",
+    "ru": "Предсерийная среда",
+    "type": "arrays"
+  },
+  {
+    "name": "wt_evns_name_2",
+    "zh": "测试环境",
+    "ru": "Тестовая среда",
+    "type": "arrays"
+  }
+]

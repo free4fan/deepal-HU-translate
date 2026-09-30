@@ -1,0 +1,2378 @@
+[
+  {
+    "name": "accessibility_service_description",
+    "zh": "自定义无障碍服务，用于监听方控自定义按键",
+    "ru": "Пользовательская служба специальных возможностей для отслеживания настраиваемых кнопок на руле",
+    "type": "string"
+  },
+  {
+    "name": "agree",
+    "zh": "同意",
+    "ru": "Согласен",
+    "type": "string"
+  },
+  {
+    "name": "ai_wallpaper",
+    "zh": "AI壁纸",
+    "ru": "AI-обои",
+    "type": "string"
+  },
+  {
+    "name": "ai_wallpaper_network_error",
+    "zh": "网络异常，请检查网络设置或重试",
+    "ru": "Ошибка сети. Проверьте настройки сети или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "ai_wallpaper_waiting",
+    "zh": "正在排队中…，当前",
+    "ru": "Ожидание в очереди…, текущий",
+    "type": "string"
+  },
+  {
+    "name": "alert_wifi_hint",
+    "zh": "建议在WIFI环境下上传",
+    "ru": "Рекомендуется загружать в сети Wi-Fi",
+    "type": "string"
+  },
+  {
+    "name": "already_save_to_picture",
+    "zh": "已保存至图库",
+    "ru": "Сохранено в галерею",
+    "type": "string"
+  },
+  {
+    "name": "already_set_wallpaper",
+    "zh": "已设为壁纸",
+    "ru": "Установлено как обои",
+    "type": "string"
+  },
+  {
+    "name": "angle_big_tip",
+    "zh": "当前座椅位置角度过大",
+    "ru": "Текущий угол наклона сиденья слишком велик",
+    "type": "string"
+  },
+  {
+    "name": "angle_little_tip",
+    "zh": "当前座椅位置角度过小",
+    "ru": "Текущий угол наклона сиденья слишком мал",
+    "type": "string"
+  },
+  {
+    "name": "app_title",
+    "zh": "日志上传",
+    "ru": "Загрузка логов",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "auto_close",
+    "zh": "%1$ds后页面将自动关闭...",
+    "ru": "Страница будет автоматически закрыта через %1$ds...",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_disconnected",
+    "zh": "蓝牙连接已断开",
+    "ru": "Соединение Bluetooth отключено",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_connect_success",
+    "zh": "蓝牙连接成功",
+    "ru": "Подключение Bluetooth успешно",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_had_connected",
+    "zh": "蓝牙已连接",
+    "ru": "Bluetooth подключён",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_had_disconnected",
+    "zh": "蓝牙已断开",
+    "ru": "Bluetooth отключен",
+    "type": "string"
+  },
+  {
+    "name": "bluetooth_turned_off",
+    "zh": "蓝牙未开启",
+    "ru": "Bluetooth не включен",
+    "type": "string"
+  },
+  {
+    "name": "call_ended_or_answer",
+    "zh": "结束&amp;接听",
+    "ru": "Завершить & Ответить",
+    "type": "string"
+  },
+  {
+    "name": "call_hold_or_answer",
+    "zh": "保留&amp;接听",
+    "ru": "Удержание & Ответить",
+    "type": "string"
+  },
+  {
+    "name": "call_mute",
+    "zh": "静音",
+    "ru": "Без звука",
+    "type": "string"
+  },
+  {
+    "name": "call_name_network_caller",
+    "zh": "网络通话",
+    "ru": "Интернет-звонок",
+    "type": "string"
+  },
+  {
+    "name": "call_phone",
+    "zh": "拨号",
+    "ru": "Набирать",
+    "type": "string"
+  },
+  {
+    "name": "call_ringer",
+    "zh": "铃声",
+    "ru": "Мелодия звонка",
+    "type": "string"
+  },
+  {
+    "name": "call_state_by_phone_answer",
+    "zh": "手机接听",
+    "ru": "Ответить на звонок",
+    "type": "string"
+  },
+  {
+    "name": "call_state_call_ended",
+    "zh": "通话结束",
+    "ru": "Вызов завершён",
+    "type": "string"
+  },
+  {
+    "name": "call_state_hold",
+    "zh": "挂起中",
+    "ru": "На удержании",
+    "type": "string"
+  },
+  {
+    "name": "call_toast_network_caller_tip",
+    "zh": "已切换到手机端，网络通话请在手机端操作",
+    "ru": "Переключено на мобильный телефон. Сетевой звонок выполняйте на телефоне.",
+    "type": "string"
+  },
+  {
+    "name": "call_window_text_press",
+    "zh": "按",
+    "ru": "Нажмите",
+    "type": "string"
+  },
+  {
+    "name": "call_zoom_out_window",
+    "zh": "缩小大弹窗",
+    "ru": "Уменьшить окно",
+    "type": "string"
+  },
+  {
+    "name": "calling_hint",
+    "zh": "通话中",
+    "ru": "Идёт разговор",
+    "type": "string"
+  },
+  {
+    "name": "cancel_str",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_upload",
+    "zh": "取消上传",
+    "ru": "Отменить загрузку",
+    "type": "string"
+  },
+  {
+    "name": "charge_end",
+    "zh": "充电结束，可返回能量界面查看详情",
+    "ru": "Зарядка завершена. Вы можете вернуться на экран энергии, чтобы просмотреть подробности.",
+    "type": "string"
+  },
+  {
+    "name": "charge_stop",
+    "zh": "充电中止，可返回能量界面查看详情",
+    "ru": "Зарядка прервана. Для просмотра подробностей вернитесь на экран энергии.",
+    "type": "string"
+  },
+  {
+    "name": "choose_wallpaper",
+    "zh": "壁纸选择",
+    "ru": "Выбор обоев",
+    "type": "string"
+  },
+  {
+    "name": "click_too_fast",
+    "zh": "点击太快了",
+    "ru": "Слишком быстрые клики",
+    "type": "string"
+  },
+  {
+    "name": "close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "confirm_cancel",
+    "zh": "确认取消日志上传",
+    "ru": "Подтвердить отмену загрузки журнала",
+    "type": "string"
+  },
+  {
+    "name": "continue_upload",
+    "zh": "继续上传",
+    "ru": "Продолжить загрузку",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_calling",
+    "zh": "请您在通话结束后拨号",
+    "ru": "После завершения разговора наберите номер",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_low_electric_quantity",
+    "zh": "动力电池电量低，无法开启哨兵模式",
+    "ru": "Низкий заряд тяговой батареи, невозможно включить режим охраны",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_low_speed_sounds_off",
+    "zh": "关闭车外低速提示音",
+    "ru": "Отключить внешний звуковой сигнал низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_low_speed_sounds_on",
+    "zh": "开启车外低速提示音",
+    "ru": "Включить внешний звуковой сигнал низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_not_set_completed",
+    "zh": "快捷电话未设置完成",
+    "ru": "Быстрый вызов не настроен полностью",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_sentinel_mode_off",
+    "zh": "哨兵模式已关闭",
+    "ru": "Режим охраны отключен",
+    "type": "string"
+  },
+  {
+    "name": "custom_key_tip_sentinel_mode_on",
+    "zh": "哨兵模式已开启，锁车开始监控",
+    "ru": "Режим охраны включен, после блокировки начнётся мониторинг",
+    "type": "string"
+  },
+  {
+    "name": "custom_tip",
+    "zh": "请将电源档位打到 ON 档再试",
+    "ru": "Переведите переключатель питания в положение ON и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "delete_success",
+    "zh": "删除成功",
+    "ru": "Успешно удалено",
+    "type": "string"
+  },
+  {
+    "name": "dialing",
+    "zh": "正在呼叫...",
+    "ru": "Вызов...",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title",
+    "zh": "是否查看COS本地日志",
+    "ru": "Просмотреть локальные логи COS?",
+    "type": "string"
+  },
+  {
+    "name": "enable_count_today",
+    "zh": "今日剩余生成次数：",
+    "ru": "Оставшееся количество генераций на сегодня:",
+    "type": "string"
+  },
+  {
+    "name": "energy_preheat_active_message",
+    "zh": "\"已为您开启微核高频脉冲加热功能，\n可在车辆中心-能量界面查看详情\"",
+    "ru": "\"Для вас активирована функция высокочастотного импульсного нагрева микро-ядра.\\nПодробнее — в Центре автомобиля в разделе «Энергия»\"",
+    "type": "string"
+  },
+  {
+    "name": "energy_preheat_active_title",
+    "zh": "电池温度低",
+    "ru": "Низкая темп. батареи",
+    "type": "string"
+  },
+  {
+    "name": "energy_preheat_request_message",
+    "zh": "\"可能影响驾驶体验，建议开启“电池脉冲加热”，\n开启前，须将档位置于P档并松开制动踏板，\n是否确认开启?\n(若取消，可在车辆中心-能量界面重新开启)\"",
+    "ru": "\"Может повлиять на опыт вождения. Рекомендуется включить «импульсный подогрев батареи». Перед включением необходимо перевести селектор передач в положение «P» и отпустить педаль тормоза. Подтвердить включение?\\n(Если отменено, функцию можно включить повторно в разделе «Энергия» Центра автомобиля)\"",
+    "type": "string"
+  },
+  {
+    "name": "enter_tip_string",
+    "zh": "正在进入零重力位置，请注意后排乘客、物品",
+    "ru": "Идёт переход в положение «нулевая гравитация». Обратите внимание на пассажиров заднего ряда и предметы.",
+    "type": "string"
+  },
+  {
+    "name": "file_compress",
+    "zh": "文件压缩中...",
+    "ru": "Сжатие файла...",
+    "type": "string"
+  },
+  {
+    "name": "file_size_units",
+    "zh": "文件大小约%1$s",
+    "ru": "Размер файла: около %1$s",
+    "type": "string"
+  },
+  {
+    "name": "filename_too_long",
+    "zh": "名字太长了",
+    "ru": "Имя слишком длинное",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "gallery",
+    "zh": "图库",
+    "ru": "Галерея",
+    "type": "string"
+  },
+  {
+    "name": "generate_error",
+    "zh": "生成失败",
+    "ru": "Генерация не удалась",
+    "type": "string"
+  },
+  {
+    "name": "generate_no_show",
+    "zh": "图片内容暂无法显示",
+    "ru": "Содержимое изображения временно не отображается",
+    "type": "string"
+  },
+  {
+    "name": "generate_now",
+    "zh": "立即生成",
+    "ru": "Сгенерировать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "generating",
+    "zh": "生成中…",
+    "ru": "Генерация…",
+    "type": "string"
+  },
+  {
+    "name": "go_look",
+    "zh": "去查看",
+    "ru": "Посмотреть",
+    "type": "string"
+  },
+  {
+    "name": "go_open",
+    "zh": "去开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "go_set_up",
+    "zh": "去设置",
+    "ru": "Перейти в настройки",
+    "type": "string"
+  },
+  {
+    "name": "good",
+    "zh": "良好",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "have_a_try",
+    "zh": "试一试推荐词",
+    "ru": "Попробовать подсказки",
+    "type": "string"
+  },
+  {
+    "name": "heat_error_tip",
+    "zh": "休眠时间储存失败，电池保温功能开启失败",
+    "ru": "Не удалось сохранить время перехода в спящий режим, не удалось активировать функцию подогрева аккумулятора.",
+    "type": "string"
+  },
+  {
+    "name": "incoming_hint_call",
+    "zh": "来电...",
+    "ru": "Входящий звонок...",
+    "type": "string"
+  },
+  {
+    "name": "input_word",
+    "zh": "请输入相关描述词",
+    "ru": "Введите соответствующие описательные слова",
+    "type": "string"
+  },
+  {
+    "name": "iv_wallpaper_selection",
+    "zh": "点击勾选后，所选壁纸将直接应用于壁纸桌面，用于可开启壁纸轮播或手势滑动切换",
+    "ru": "После установки галочки выбранные обои будут применены на домашнем экране. Можно включить автоматическую смену обоев или переключение жестом",
+    "type": "string"
+  },
+  {
+    "name": "last_upload_time",
+    "zh": "最后一次上传：%1$s",
+    "ru": "Последняя отправка: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "log_upload_failed",
+    "zh": "日志上传失败, 点击重新上传",
+    "ru": "Не удалось отправить журнал. Нажмите для повторной отправки",
+    "type": "string"
+  },
+  {
+    "name": "log_upload_success",
+    "zh": "日志上传成功",
+    "ru": "Журнал успешно отправлен",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_close_tip",
+    "zh": "低速提示音已关闭",
+    "ru": "Звуковой сигнал при низкой скорости отключен",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_open_tip",
+    "zh": "低速提示音已开启",
+    "ru": "Звуковой сигнал при низкой скорости включен",
+    "type": "string"
+  },
+  {
+    "name": "mobile_data_traffic",
+    "zh": "当前应用移动网络权限关闭，是否开启权限",
+    "ru": "Разрешение на использование мобильной сети для этого приложения отключено. Включить?",
+    "type": "string"
+  },
+  {
+    "name": "network_set",
+    "zh": "网络设置",
+    "ru": "Настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "network_status",
+    "zh": "当前网络状态:",
+    "ru": "Текущее состояние сети:",
+    "type": "string"
+  },
+  {
+    "name": "no",
+    "zh": "否",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "no_img_content",
+    "zh": "无自定义图片",
+    "ru": "Нет своих фото",
+    "type": "string"
+  },
+  {
+    "name": "no_internet",
+    "zh": "无网",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "no_net_work",
+    "zh": "当前无网络",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "no_network_retry",
+    "zh": "当前无网络，请稍后再试",
+    "ru": "Нет подключения к сети. Попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "not_full_message",
+    "zh": "\"动力电池长时间未充满，\n建议您定期充满以确保电池处于最优状态\"",
+    "ru": "\"Тяговая батарея длительное время не заряжалась полностью.\\nРекомендуем регулярно заряжать до полной зарядки для поддержания оптимального состояния.\"",
+    "type": "string"
+  },
+  {
+    "name": "notify_notagin",
+    "zh": "不再提醒",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_main_position",
+    "zh": "主驾位置",
+    "ru": "Место водителя",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_more",
+    "zh": "更多",
+    "ru": "Больше",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_position_backup",
+    "zh": "备用",
+    "ru": "Резервная",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_position_common",
+    "zh": "常用",
+    "ru": "Часто используемая",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_position_drive",
+    "zh": "驾驶",
+    "ru": "Вождение",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_position_rest",
+    "zh": "休息",
+    "ru": "Отдых",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_position_zero_gravity",
+    "zh": "零重力模式",
+    "ru": "Режим нулевой гравитации",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_second_position",
+    "zh": "副驾位置",
+    "ru": "Пассажирское сиденье",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_second_position_zero_gravity",
+    "zh": "副驾零重力座椅",
+    "ru": "Сиденье 0G",
+    "type": "string"
+  },
+  {
+    "name": "other",
+    "zh": "其他壁纸",
+    "ru": "Другие обои",
+    "type": "string"
+  },
+  {
+    "name": "other_wallpaper_full",
+    "zh": "图库已达上限，无法设置和保存",
+    "ru": "Достигнут лимит галереи, невозможно установить и сохранить",
+    "type": "string"
+  },
+  {
+    "name": "ph_pls_heat_close",
+    "zh": "电池脉冲加热已关闭",
+    "ru": "Импульсный нагрев аккумулятора отключен",
+    "type": "string"
+  },
+  {
+    "name": "ph_text_view",
+    "zh": "查看(%ds)",
+    "ru": "Просмотр(%ds)",
+    "type": "string"
+  },
+  {
+    "name": "photo_is_exits",
+    "zh": "部分图片已存在",
+    "ru": "Часть фото уже есть",
+    "type": "string"
+  },
+  {
+    "name": "picture_full",
+    "zh": "图库已满，可生成图片但无法保存和设置为壁纸",
+    "ru": "Галерея заполнена, изображения можно генерировать, но сохранить и установить в качестве обоев нельзя.",
+    "type": "string"
+  },
+  {
+    "name": "pls_wait",
+    "zh": ",请稍等…",
+    "ru": ", подождите…",
+    "type": "string"
+  },
+  {
+    "name": "preheat_end",
+    "zh": "电池脉冲加热已完成，可返回能量界面查看详情",
+    "ru": "Импульсный нагрев батареи завершён. Для просмотра деталей вернитесь на экран «Энергия».",
+    "type": "string"
+  },
+  {
+    "name": "prompt_word",
+    "zh": "有违规词汇，请检查后再试。违法汇包括但不限于",
+    "ru": "Обнаружены запрещённые слова, проверьте и попробуйте снова. Запрещённые слова включают, но не ограничиваются:",
+    "type": "string"
+  },
+  {
+    "name": "prompt_word_nokeywords",
+    "zh": "有违规词汇，请检查后再试。",
+    "ru": "Обнаружены запрещённые слова. Пожалуйста, проверьте и попробуйте снова.",
+    "type": "string"
+  },
+  {
+    "name": "re_generate",
+    "zh": "重新生成",
+    "ru": "Перегенерировать",
+    "type": "string"
+  },
+  {
+    "name": "re_upload",
+    "zh": "重新上传",
+    "ru": "Загрузить повторно",
+    "type": "string"
+  },
+  {
+    "name": "read_upload",
+    "zh": "准备上传",
+    "ru": "Подготовка к загрузке",
+    "type": "string"
+  },
+  {
+    "name": "refuse",
+    "zh": "拒绝",
+    "ru": "Отказ",
+    "type": "string"
+  },
+  {
+    "name": "retry",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "safety_dialog_message",
+    "zh": "当前零重力座椅靠背角度过大行车过程中存在安全风险",
+    "ru": "Текущий угол наклона спинки сиденья в режиме «нулевой гравитации» слишком велик и создаёт риск для безопасности при движении.",
+    "type": "string"
+  },
+  {
+    "name": "safety_tts_message",
+    "zh": "当前零重力座椅靠背角度过大，行车过程中存在安全风险",
+    "ru": "Угол наклона спинки сиденья в режиме «нулевой гравитации» слишком велик, что создаёт риск для безопасности во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "save_fail",
+    "zh": "保存失败",
+    "ru": "Не удалось сохранить",
+    "type": "string"
+  },
+  {
+    "name": "save_success_tip",
+    "zh": "零重力位置保存成功",
+    "ru": "Позиция «нулевая гравитация» успешно сохранена.",
+    "type": "string"
+  },
+  {
+    "name": "save_to_picture",
+    "zh": "保存至图库",
+    "ru": "Сохранить в галерею",
+    "type": "string"
+  },
+  {
+    "name": "saving_wallpaper",
+    "zh": "有壁纸正在保存中..",
+    "ru": "Обои сохраняются...",
+    "type": "string"
+  },
+  {
+    "name": "scene_des",
+    "zh": "画面描述",
+    "ru": "Описание сцены",
+    "type": "string"
+  },
+  {
+    "name": "screen_lock_gear_not_p_tips",
+    "zh": "为了您的驾驶安全，非P档不支持关屏",
+    "ru": "В целях безопасности вождения отключение экрана недоступно, когда селектор КПП не в положении «P».",
+    "type": "string"
+  },
+  {
+    "name": "seat_adjust",
+    "zh": "主驾位置调节与记忆",
+    "ru": "Регулировка положения водительского сиденья и функция памяти",
+    "type": "string"
+  },
+  {
+    "name": "seat_memory_backup",
+    "zh": "备用位置",
+    "ru": "Резервная позиция",
+    "type": "string"
+  },
+  {
+    "name": "seat_memory_comity",
+    "zh": "礼让位置",
+    "ru": "Позиция уступки",
+    "type": "string"
+  },
+  {
+    "name": "seat_memory_drive",
+    "zh": "驾驶位置",
+    "ru": "Место водителя",
+    "type": "string"
+  },
+  {
+    "name": "seat_memory_drive_vice",
+    "zh": "位置1",
+    "ru": "Позиция 1",
+    "type": "string"
+  },
+  {
+    "name": "seat_memory_rest",
+    "zh": "休息位置",
+    "ru": "Место отдыха",
+    "type": "string"
+  },
+  {
+    "name": "seat_passenger_adjust",
+    "zh": "副驾位置调节与记忆",
+    "ru": "Регулировка и память пассажирского сиденья",
+    "type": "string"
+  },
+  {
+    "name": "select_log_type_hint",
+    "zh": "选择日志类型并上传",
+    "ru": "Выберите тип журнала и загрузите",
+    "type": "string"
+  },
+  {
+    "name": "selection_wallpaper_least",
+    "zh": "壁纸选择至少为1张，不可空白",
+    "ru": "Выберите не менее 1 обоев, пустой выбор недопустим",
+    "type": "string"
+  },
+  {
+    "name": "selection_wallpaper_most",
+    "zh": "壁纸选择最多为12张",
+    "ru": "Можно выбрать не более 12 обоев.",
+    "type": "string"
+  },
+  {
+    "name": "set_fail",
+    "zh": "设置失败",
+    "ru": "Сбой настройки",
+    "type": "string"
+  },
+  {
+    "name": "set_wallpaper",
+    "zh": "设为壁纸",
+    "ru": "Установить обои",
+    "type": "string"
+  },
+  {
+    "name": "setopen",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "show_number_clock_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "show_number_clock_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "skip",
+    "zh": "跳过 >",
+    "ru": "Пропустить >",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_change_bluetooth",
+    "zh": "切换蓝牙设备",
+    "ru": "Переключить BT",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_close",
+    "zh": "关闭电话",
+    "ru": "Завершить вызов",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_dial_call",
+    "zh": "拨打^呼叫",
+    "ru": "Позвонить^Вызвать",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_dial_delete",
+    "zh": "删除^回删",
+    "ru": "Удалить^Backspace",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_switch_on_bluetooth",
+    "zh": "连接蓝牙",
+    "ru": "Подключить Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_sync_again",
+    "zh": "立即同步",
+    "ru": "Синхронизировать сейчас",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_button_try_again",
+    "zh": "再试一次",
+    "ru": "Попробуй ещё раз",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_call_window_call_answer",
+    "zh": "接听",
+    "ru": "Ответить",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_call_window_call_hangup",
+    "zh": "挂断",
+    "ru": "Положить трубку",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_call_window_ring_mute_off",
+    "zh": "关闭静音^解除静音^恢复铃声",
+    "ru": "Выключить беззвучный режим^Включить звук^Восстановить мелодию",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_call_window_ring_mute_on",
+    "zh": "静音^铃声静音^来电静音",
+    "ru": "Без звука^Мелодия: без звука^Вызов: без звука",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_call_window_zoom_out",
+    "zh": "缩小大弹窗",
+    "ru": "Уменьшить окно",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_edit_delete_all",
+    "zh": "清空^清空搜索^清空搜索内容",
+    "ru": "Очистить^Очистить поиск^Очистить содержимое поиска",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_edit_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_sidebar_dial",
+    "zh": "拨号",
+    "ru": "Набирать",
+    "type": "string"
+  },
+  {
+    "name": "speech_text_sidebar_phonebook",
+    "zh": "通讯录",
+    "ru": "Контакты",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_game_enter_hint",
+    "zh": "\"为了您的安全，行车过程中无法玩游戏,\n倒计时后将自动关闭！\"",
+    "ru": "\"В целях вашей безопасности во время движения играть в игры невозможно.\\nПосле обратного отсчёта она будет автоматически закрыта!\"",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_game_ing_toast",
+    "zh": "为了您的安全，行车过程中无法玩游戏",
+    "ru": "В целях вашей безопасности во время движения играть в игры невозможно",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_game_sure",
+    "zh": "立即关闭",
+    "ru": "Немедленно закрыть",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_video_exit",
+    "zh": "退出播放",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_video_hint",
+    "zh": "为了您的安全，建议您行车中不要播放视频",
+    "ru": "В целях вашей безопасности рекомендуем не воспроизводить видео во время движения.",
+    "type": "string"
+  },
+  {
+    "name": "speed_limited_video_play",
+    "zh": "继续播放",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "start_upload",
+    "zh": "开始上传",
+    "ru": "Начать загрузку",
+    "type": "string"
+  },
+  {
+    "name": "style",
+    "zh": "风格",
+    "ru": "Стиль",
+    "type": "string"
+  },
+  {
+    "name": "system_log",
+    "zh": "系统日志",
+    "ru": "Журнал системы",
+    "type": "string"
+  },
+  {
+    "name": "takes_time",
+    "zh": "文件大小%1$s, 大约需要%2$s",
+    "ru": "Размер файла: %1$s, примерно %2$s",
+    "type": "string"
+  },
+  {
+    "name": "text_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "text_cancel_start",
+    "zh": "取消(0s)",
+    "ru": "Отмена (0 с)",
+    "type": "string"
+  },
+  {
+    "name": "text_file_size_calculate",
+    "zh": "文件大小计算中,请稍等...",
+    "ru": "Вычисление размера файла, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "text_file_zip_failed",
+    "zh": "文件压缩失败！",
+    "ru": "Не удалось сжать файл!",
+    "type": "string"
+  },
+  {
+    "name": "text_load_data_failed",
+    "zh": "加载数据失败",
+    "ru": "Не удалось загрузить данные",
+    "type": "string"
+  },
+  {
+    "name": "text_network_error",
+    "zh": "当前网络不可用,请检查网络",
+    "ru": "Сеть недоступна. Проверьте подключение.",
+    "type": "string"
+  },
+  {
+    "name": "text_ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "text_ok_start",
+    "zh": "好的(0s)",
+    "ru": "Хорошо (0 с)",
+    "type": "string"
+  },
+  {
+    "name": "text_service_connect_error",
+    "zh": "服务器连接异常！",
+    "ru": "Ошибка подключения к серверу!",
+    "type": "string"
+  },
+  {
+    "name": "text_to_open",
+    "zh": "去开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "text_to_view",
+    "zh": "去查看",
+    "ru": "Посмотреть",
+    "type": "string"
+  },
+  {
+    "name": "text_upload_need_time",
+    "zh": "两分钟",
+    "ru": "Две минуты",
+    "type": "string"
+  },
+  {
+    "name": "text_view",
+    "zh": "查看",
+    "ru": "Посмотреть",
+    "type": "string"
+  },
+  {
+    "name": "tip_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "tip_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "tip_know",
+    "zh": "知道了(%1$ds)",
+    "ru": "Понятно (%1$d с)",
+    "type": "string"
+  },
+  {
+    "name": "tip_know_str",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_adjust_error",
+    "zh": "位置调用失败",
+    "ru": "Ошибка позиции",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_adjust_fail",
+    "zh": "座椅运动中，座椅位置调用失败",
+    "ru": "Сиденье в движении, не удалось вызвать положение сиденья",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_adjust_moving",
+    "zh": "座椅运动中，座椅位置记忆失败",
+    "ru": "Сиденье в движении, не удалось запомнить положение сиденья",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_adjust_prohibit",
+    "zh": "为保障行驶安全，请使用物理按键调节",
+    "ru": "Для безопасности движения используйте физические кнопки для регулировки.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_adjust_success",
+    "zh": "位置调用成功",
+    "ru": "Позиция вызвана",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_apply_moving",
+    "zh": "座椅运动中，位置调用失败",
+    "ru": "Сиденье в движении, вызов позиции не выполнен.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_apply_prohibit",
+    "zh": "车辆未处于P挡，位置调用失败",
+    "ru": "Автомобиль не в режиме P, вызов позиции не выполнен.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_memory_fail",
+    "zh": "位置记忆失败",
+    "ru": "Не удалось запомнить позицию.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_memory_moving",
+    "zh": "座椅运动中，位置记忆失败",
+    "ru": "Сиденье в движении, не удалось запомнить позицию.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_memory_no_data",
+    "zh": "当前位置无数据，请先保存座椅位置",
+    "ru": "Нет данных для текущей позиции, сначала сохраните положение сиденья.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_memory_refresh_success",
+    "zh": "零重力位置已复位至默认位置",
+    "ru": "Положение «нулевая гравитация» сброшено до положения по умолчанию.",
+    "type": "string"
+  },
+  {
+    "name": "tip_toast_seat_memory_success",
+    "zh": "位置保存成功",
+    "ru": "Положение сохранено",
+    "type": "string"
+  },
+  {
+    "name": "tip_warn",
+    "zh": "温馨提醒",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "tips_pls_heating",
+    "zh": "\"已为您开启微核脉冲加热功能。\n可在车辆中心-能量界面查看详情。\"",
+    "ru": "\"Функция микроядерного импульсного нагрева включена.\\nПодробную информацию можно посмотреть в разделе «Центр автомобиля» — «Энергия».\"",
+    "type": "string"
+  },
+  {
+    "name": "tips_pls_suggest_open",
+    "zh": "\"可能影响驾驶体验。建议开启“电池脉冲加热”。\n（若取消，可在车辆中心-能量界面重新开启）\"",
+    "ru": "\"Может повлиять на опыт вождения. Рекомендуется включить «импульсный нагрев батареи».\\n(Если отменено, можно включить повторно в разделе «Центр автомобиля» — «Энергия».\"",
+    "type": "string"
+  },
+  {
+    "name": "title_heat_finish",
+    "zh": "电池脉冲加热已完成，去能量界面查看详情。",
+    "ru": "Импульсный нагрев батареи завершён. Перейдите на экран «Энергия» для просмотра деталей.",
+    "type": "string"
+  },
+  {
+    "name": "title_temper_low",
+    "zh": "电池温度低",
+    "ru": "Холодная батарея",
+    "type": "string"
+  },
+  {
+    "name": "unknown",
+    "zh": "未知号码",
+    "ru": "Неизвестный номер",
+    "type": "string"
+  },
+  {
+    "name": "upload_button",
+    "zh": "立即上传",
+    "ru": "Загрузить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "upload_failed",
+    "zh": "上传失败",
+    "ru": "Ошибка загрузки",
+    "type": "string"
+  },
+  {
+    "name": "upload_picture_full",
+    "zh": "图库已满",
+    "ru": "Галерея заполнена",
+    "type": "string"
+  },
+  {
+    "name": "upload_success",
+    "zh": "上传成功",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "upload_title",
+    "zh": "日志文件大小为%1$s，是否同意上传?",
+    "ru": "Размер файла журнала составляет %1$s. Согласны на загрузку?",
+    "type": "string"
+  },
+  {
+    "name": "uploading",
+    "zh": "日志上传中，请保持网络畅通",
+    "ru": "Идёт загрузка журнала, не прерывайте соединение",
+    "type": "string"
+  },
+  {
+    "name": "virtual_number",
+    "zh": "本机号码",
+    "ru": "Номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "visible_spoken_close_windows",
+    "zh": "关闭^关闭弹窗",
+    "ru": "Закрыть^Закрыть всплывающее окно",
+    "type": "string"
+  },
+  {
+    "name": "voice",
+    "zh": "语音来电播报",
+    "ru": "Голос: звонок",
+    "type": "string"
+  },
+  {
+    "name": "voice_input",
+    "zh": "语音输入",
+    "ru": "Голосовой ввод",
+    "type": "string"
+  },
+  {
+    "name": "waiting_upload",
+    "zh": "正在压缩，请稍等",
+    "ru": "Идёт сжатие, подождите…",
+    "type": "string"
+  },
+  {
+    "name": "wallpaper_edit",
+    "zh": "壁纸编辑",
+    "ru": "Редактор обоев",
+    "type": "string"
+  },
+  {
+    "name": "wallpaper_full",
+    "zh": "已超出壁纸设置上限，请删除后重试",
+    "ru": "Превышен лимит установки обоев. Удалите лишние и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "wallpaper_set",
+    "zh": "壁纸设置",
+    "ru": "Настройки обоев",
+    "type": "string"
+  },
+  {
+    "name": "weaker",
+    "zh": "较弱",
+    "ru": "Слабый",
+    "type": "string"
+  },
+  {
+    "name": "wifi_traffic",
+    "zh": "当前应用WLAN权限关闭，是否开启权限",
+    "ru": "Разрешение на использование Wi-Fi для текущего приложения отключено. Включить?",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любой участок клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "yes",
+    "zh": "是",
+    "ru": "Да",
+    "type": "string"
+  },
+  {
+    "name": "your_idea",
+    "zh": "秋天的湖泊，水面上有一艘船在前行秋天的湖泊~",
+    "ru": "Осеннее озеро, по воде плывёт лодка, осеннее озеро~",
+    "type": "string"
+  },
+  {
+    "name": "zero_g_model_str_tip",
+    "zh": "星际般舒适体验，尽享极致放松",
+    "ru": "Комфорт межзвёздного уровня — наслаждайтесь абсолютным расслаблением",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Получатель",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "first_gear",
+    "zh": "低档",
+    "ru": "Низкая передача",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "След. месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к году %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на календарный режим ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим ввода в текстовое поле",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "second_gear",
+    "zh": "高档",
+    "ru": "Высокая передача",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_crop",
+    "zh": "裁切",
+    "ru": "Обрезка",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_error_input_data_is_absent",
+    "zh": "必須指定輸入以及輸出的 Uri",
+    "ru": "Необходимо указать URI для ввода и вывода.",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_label_edit_photo",
+    "zh": "裁切",
+    "ru": "Обрезка",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_label_original",
+    "zh": "原始比例",
+    "ru": "Исходное соотношение",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_menu_crop",
+    "zh": "裁切",
+    "ru": "Обрезка",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_mutate_exception_hint",
+    "zh": "在你的 App 內覆寫顏色資源檔 (ucrop_color_toolbar_widget) 使 5.0 以前裝置正常運作",
+    "ru": "Переопределите цветовой ресурс (ucrop_color_toolbar_widget) в вашем приложении, чтобы устройства до версии 5.0 работали корректно.",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_rotate",
+    "zh": "旋轉",
+    "ru": "Вращение",
+    "type": "string"
+  },
+  {
+    "name": "ucrop_scale",
+    "zh": "縮放",
+    "ru": "Масштабирование",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "brightness",
+    "zh": "亮度",
+    "ru": "Яркость",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "check_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "co_location_first",
+    "zh": "副驾位置1",
+    "ru": "Поз. 1 пассажира",
+    "type": "string"
+  },
+  {
+    "name": "co_location_second",
+    "zh": "副驾位置2",
+    "ru": "Поз. 2 пассажира",
+    "type": "string"
+  },
+  {
+    "name": "co_location_zero",
+    "zh": "零重力位置",
+    "ru": "Нулевая гравитация",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_again_content",
+    "zh": "授权后，使用该对象的功能才能启用，并且授权后可到“车辆中心-系统-授权管理”修改",
+    "ru": "Функции данного объекта станут доступны только после предоставления разрешений. Изменить разрешения можно в разделе «Центр автомобиля — Система — Управление разрешениями».",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_again_title",
+    "zh": "确认不同意所有授权",
+    "ru": "Подтвердить отказ от всех разрешений",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_basic_private_protocol",
+    "zh": "《基础隐私协议》",
+    "ru": "«Базовая политика конфиденциальности»",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_basic_private_protocol_title",
+    "zh": "基础隐私协议",
+    "ru": "Базовая политика",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_cam",
+    "zh": "摄像头",
+    "ru": "Камера",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_expired_title",
+    "zh": "授权已过期，请重新授权",
+    "ru": "Срок действия разрешения истёк. Повторно предоставьте разрешение.",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_i_know",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_location",
+    "zh": "位置",
+    "ru": "Местоположение",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_look_protocol",
+    "zh": "授权后可到“车辆中心-系统-授权管理”修改，了解更多可阅读",
+    "ru": "После авторизации можно изменить в «Центр ТС — Система — Управление авторизацией». Подробнее — в...",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_mic",
+    "zh": "麦克风",
+    "ru": "Микрофон",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_not",
+    "zh": "不同意",
+    "ru": "Не согласен",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_object",
+    "zh": "授权管理",
+    "ru": "Доступ",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_ok",
+    "zh": "同意授权",
+    "ru": "Согласиться",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_ok_and_open",
+    "zh": "同意授权并开启",
+    "ru": "Согласиться и включить",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_save_setting_tip_common",
+    "zh": "点击“保存”后，所有已授权对象有效期重新计算",
+    "ru": "После нажатия «Сохранить» срок действия пересчитывается.",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_save_setting_tip_date",
+    "zh": "已授权对象有效期至",
+    "ru": "Срок доступа до ",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_save_setting_tip_single",
+    "zh": "下次上电前",
+    "ru": "До след. включения",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_single_content",
+    "zh": "应国家数据安全法规的要求以及对您隐私的保护，需要授权%s才能启用%s功能",
+    "ru": "В соответствии с требованиями законодательства о безопасности данных и в целях защиты вашей конфиденциальности, необходимо авторизовать %s для активации функции %s.",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_sub_title",
+    "zh": "应国家数据安全法规的要求以及对您隐私的保护，需要对以下对象授权；授权后，使用该对象的功能才能启用",
+    "ru": "В соответствии с требованиями законодательства о безопасности данных и в целях защиты вашей конфиденциальности необходимо предоставить разрешение на следующие объекты. После предоставления разрешения функции соответствующих объектов станут доступны",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_time_limit",
+    "zh": "授权有效期",
+    "ru": "Срок действия авторизации",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_time_limit_will_be_update",
+    "zh": "同意授权后，使用该对象的其他功能可启用，且所有已授权对象有效期重新计算",
+    "ru": "После подтверждения авторизации станут доступны другие функции данного объекта, а срок действия всех авторизованных объектов будет пересчитан.",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_title",
+    "zh": "授权管理",
+    "ru": "Управление авторизацией",
+    "type": "string"
+  },
+  {
+    "name": "fun_author_toast_nothing_checked",
+    "zh": "请至少选择1个授权对象",
+    "ru": "Пожалуйста, выберите хотя бы 1 объект авторизации",
+    "type": "string"
+  },
+  {
+    "name": "one_month",
+    "zh": "1个月",
+    "ru": "1 месяц",
+    "type": "string"
+  },
+  {
+    "name": "one_year",
+    "zh": "1年",
+    "ru": "1 год",
+    "type": "string"
+  },
+  {
+    "name": "osd_ac_cycle_in",
+    "zh": "开启内循环",
+    "ru": "Вкл. внутр. циркуляцию",
+    "type": "string"
+  },
+  {
+    "name": "osd_ac_cycle_out",
+    "zh": "开启外循环",
+    "ru": "Вкл. внешн. циркуляцию",
+    "type": "string"
+  },
+  {
+    "name": "osd_already_mute",
+    "zh": "已静音",
+    "ru": "Звук выключен",
+    "type": "string"
+  },
+  {
+    "name": "osd_cancel_mute",
+    "zh": "取消静音",
+    "ru": "Включить звук",
+    "type": "string"
+  },
+  {
+    "name": "osd_cue_volume",
+    "zh": "提示音",
+    "ru": "Звук уведомления",
+    "type": "string"
+  },
+  {
+    "name": "osd_driving_position",
+    "zh": "驾驶位置",
+    "ru": "Место водителя",
+    "type": "string"
+  },
+  {
+    "name": "osd_fun_level_current",
+    "zh": "当前风量",
+    "ru": "Текущая сила обдува",
+    "type": "string"
+  },
+  {
+    "name": "osd_fun_mode",
+    "zh": "出风模式",
+    "ru": "Режим обдува",
+    "type": "string"
+  },
+  {
+    "name": "osd_media_volume",
+    "zh": "媒体",
+    "ru": "Медиа",
+    "type": "string"
+  },
+  {
+    "name": "osd_mute",
+    "zh": "静音",
+    "ru": "Без звука",
+    "type": "string"
+  },
+  {
+    "name": "osd_navi_volume",
+    "zh": "导航",
+    "ru": "Навигация",
+    "type": "string"
+  },
+  {
+    "name": "osd_phone_volume",
+    "zh": "电话",
+    "ru": "Телефон",
+    "type": "string"
+  },
+  {
+    "name": "osd_position_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "osd_resting_position",
+    "zh": "休息位置",
+    "ru": "Положение отдыха",
+    "type": "string"
+  },
+  {
+    "name": "osd_ringtone_volume",
+    "zh": "铃声",
+    "ru": "Мелодия звонка",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_adjust_apply_fail_tip",
+    "zh": "位置调用失败",
+    "ru": "Ошибка применения",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_adjust_apply_success_tip",
+    "zh": "位置调用成功",
+    "ru": "Положение восстановлено",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_adjust_save_fail_tip",
+    "zh": "位置保存失败",
+    "ru": "Не удалось сохранить положение",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_adjust_save_success_tip",
+    "zh": "位置保存成功",
+    "ru": "Положение сохранено",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_main_check_gear_p",
+    "zh": "车辆未处于P挡，位置调用失败",
+    "ru": "Автомобиль не в положении P, не удалось восстановить положение",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_main_check_no_data",
+    "zh": "当前位置无数据，请先保存位置",
+    "ru": "Нет данных для текущего положения, сначала сохраните положение",
+    "type": "string"
+  },
+  {
+    "name": "osd_seat_main_check_seat_moving",
+    "zh": "座椅运动中，请稍后再试",
+    "ru": "Сиденье движется, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "osd_speech_volume",
+    "zh": "语音",
+    "ru": "Голос",
+    "type": "string"
+  },
+  {
+    "name": "osd_standby_position",
+    "zh": "备用位置",
+    "ru": "Резервная позиция",
+    "type": "string"
+  },
+  {
+    "name": "osd_temp_current",
+    "zh": "当前温度",
+    "ru": "Текущая температура",
+    "type": "string"
+  },
+  {
+    "name": "osd_volume",
+    "zh": "音量",
+    "ru": "Громкость",
+    "type": "string"
+  },
+  {
+    "name": "save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "save_setting",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "seat_heating",
+    "zh": "座椅加热",
+    "ru": "Подогрев сидений",
+    "type": "string"
+  },
+  {
+    "name": "seat_ventilation",
+    "zh": "座椅通风",
+    "ru": "Вентиляция сиденья",
+    "type": "string"
+  },
+  {
+    "name": "single_time",
+    "zh": "单次",
+    "ru": "Разовый",
+    "type": "string"
+  },
+  {
+    "name": "six_month",
+    "zh": "6个月",
+    "ru": "6 месяцев",
+    "type": "string"
+  },
+  {
+    "name": "text_copilot_seat_adjust_backup",
+    "zh": "备用",
+    "ru": "Резервный",
+    "type": "string"
+  },
+  {
+    "name": "text_copilot_seat_adjust_frequent",
+    "zh": "常用",
+    "ru": "Часто используемый",
+    "type": "string"
+  },
+  {
+    "name": "text_copilot_seat_adjust_tip",
+    "zh": "副驾零重力座椅",
+    "ru": "Кресло пассажира 0G",
+    "type": "string"
+  },
+  {
+    "name": "text_frequent_backup_local_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "text_open_zero_gravity",
+    "zh": "零重力模式",
+    "ru": "Режим нулевой гравитации",
+    "type": "string"
+  },
+  {
+    "name": "third_gear",
+    "zh": "三档",
+    "ru": "3-я скорость",
+    "type": "string"
+  },
+  {
+    "name": "three_month",
+    "zh": "3个月",
+    "ru": "3 месяца",
+    "type": "string"
+  },
+  {
+    "name": "usb_insert",
+    "zh": "USB 已连接",
+    "ru": "USB подключен",
+    "type": "string"
+  },
+  {
+    "name": "usb_pull_out",
+    "zh": "USB 已断开",
+    "ru": "USB отключен",
+    "type": "string"
+  },
+  {
+    "name": "precast_ideas_0",
+    "zh": "落日与晚霞 | 夕阳西下…",
+    "ru": "Закат и вечернее зарево | Солнце клонится к западу…",
+    "type": "arrays"
+  },
+  {
+    "name": "precast_ideas_1",
+    "zh": "阳光与沙滩 | 阳光洒在…",
+    "ru": "Солнечный свет и пляж | Лучи солнца ложатся на…",
+    "type": "arrays"
+  },
+  {
+    "name": "precast_ideas_2",
+    "zh": "雪中的木屋 | 在白雪覆…",
+    "ru": "Деревянный домик в снегу | Под белоснежным снегом…",
+    "type": "arrays"
+  },
+  {
+    "name": "precast_ideas_all_0",
+    "zh": "落日与晚霞 夕阳西下，天边余晖如金，映照在湖面上，波光粼粼。红霞染云，如绯红的锦缎，点缀着天空。",
+    "ru": "«Закат и вечернее зарево\\nСолнце клонится к западу, закатное сияние на горизонте словно золото, отражаясь в озере, вода мерцает. Багровое зарево окрашивает облака, словно пурпурная парча, украшая небо.»",
+    "type": "arrays"
+  },
+  {
+    "name": "precast_ideas_all_1",
+    "zh": "阳光与沙滩 阳光洒在金黄的沙滩上，海浪轻拍着岸边，留下一串串泡沫。椰树低垂，微风拂过，带来阵阵清凉。",
+    "ru": "Солнце и пляж. Солнечный свет льётся на золотистый песок, волны нежно плещутся о берег, оставляя за собой цепочки пены. Кокосовые пальмы низко склоняются, лёгкий ветерок скользит мимо, принося освежающую прохладу.",
+    "type": "arrays"
+  },
+  {
+    "name": "precast_ideas_all_2",
+    "zh": "雪中的木屋 在白雪覆盖的森林中，有一座充满温暖的木屋。灯火通明，孤独地矗立在远处。",
+    "ru": "Деревянный дом в снегу. В лесу, покрытом белым снегом, стоит наполненный теплом деревянный дом. Он ярко освещён и одиноко возвышается вдали.",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

@@ -1,0 +1,1616 @@
+[
+  {
+    "name": "app_name",
+    "zh": "智能保养",
+    "ru": "Умное ТО",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "car_check_text_finished_checked",
+    "zh": "已检查",
+    "ru": "Проверено",
+    "type": "string"
+  },
+  {
+    "name": "car_check_text_finished_itemsAndFound",
+    "zh": "项，发现",
+    "ru": "пунктов, обнаружено",
+    "type": "string"
+  },
+  {
+    "name": "car_check_text_finished_problems",
+    "zh": "个问题",
+    "ru": "проблем",
+    "type": "string"
+  },
+  {
+    "name": "car_check_txt",
+    "zh": "全车诊断中，请稍等……",
+    "ru": "Идёт диагностика автомобиля, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "car_check_txt_finished",
+    "zh": "已检查33项，发现 5 个问题",
+    "ru": "Проверено 33 пункта, обнаружено 5 проблем",
+    "type": "string"
+  },
+  {
+    "name": "dialog_edit_time_loading_text",
+    "zh": "正在为您加载内容，请稍等…",
+    "ru": "Идёт загрузка контента, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "dialog_edit_time_no_data_bt",
+    "zh": "重新加载",
+    "ru": "Перезагрузить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_edit_time_no_data_text",
+    "zh": "加载失败，请检查网络或重新加载",
+    "ru": "Не удалось загрузить. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "dialog_edit_time_no_net_text",
+    "zh": "无数据",
+    "ru": "Нет данных",
+    "type": "string"
+  },
+  {
+    "name": "dialog_fault_bluetooth_message",
+    "zh": "是否需要连接蓝牙电话",
+    "ru": "Нужно ли подключать Bluetooth-телефон?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_fault_phone_message",
+    "zh": "是否需要拨打电话",
+    "ru": "Позвонить?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_address_title",
+    "zh": "地址：",
+    "ru": "Адрес:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_id_title",
+    "zh": "订单编号：",
+    "ru": "Номер заказа:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_mile_text",
+    "zh": "%s公里",
+    "ru": "%s км",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_miles_title",
+    "zh": "维保里程：",
+    "ru": "Пробег при ТО:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_personal",
+    "zh": "个人",
+    "ru": "Личный",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_phone_title",
+    "zh": "门店电话：",
+    "ru": "Телефон СТО:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_programs_title",
+    "zh": "维保项目：",
+    "ru": "Работы по ТО:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_shop_title",
+    "zh": "门店：",
+    "ru": "СТО:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_system",
+    "zh": "系统",
+    "ru": "Система",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_time_title",
+    "zh": "维保时间：",
+    "ru": "Дата ТО:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_title_text",
+    "zh": "维保详情",
+    "ru": "Детали ТО",
+    "type": "string"
+  },
+  {
+    "name": "dialog_maintain_record_type_title",
+    "zh": "维保类型：",
+    "ru": "Тип обслуживания:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_negative_bt_text",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_fail_content",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_fail_default_content",
+    "zh": "\"1、请填写预约姓名或联系方式 \n2、请选择预约时间\"",
+    "ru": "\"1. Введите имя или контактные данные для записи \\n2. Выберите время записи\"",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_fail_net_content",
+    "zh": "提交失败，请检查网络后再次提交",
+    "ru": "Не удалось отправить. Проверьте подключение к сети и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_fail_title",
+    "zh": "操作失败",
+    "ru": "Операция не выполнена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_fail_title_text",
+    "zh": "预约失败",
+    "ru": "Не удалось записаться",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_name_title",
+    "zh": "预约姓名",
+    "ru": "Имя для записи",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_phone_title",
+    "zh": "联系方式",
+    "ru": "Контактная информация",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_address_title",
+    "zh": "地址：",
+    "ru": "Адрес:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_cancel",
+    "zh": "已取消",
+    "ru": "Отменено",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_cancel_title",
+    "zh": "请选择取消原因",
+    "ru": "Выберите причину отмены",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_consult_title",
+    "zh": "服务顾问：",
+    "ru": "Сервис-консультант:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_finish",
+    "zh": "已完成",
+    "ru": "Завершено",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_id_title",
+    "zh": "订单编号：",
+    "ru": "Номер заказа:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_maintain",
+    "zh": "待到店",
+    "ru": "Ожидается в сервисе",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_order_name_title",
+    "zh": "预约姓名：",
+    "ru": "Имя для записи:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_order_phone_title",
+    "zh": "联系方式：",
+    "ru": "Контактные данные:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_order_time_title",
+    "zh": "下单时间：",
+    "ru": "Время заказа:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_phone_title",
+    "zh": "门店电话：",
+    "ru": "Телефон дилера:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_project_title",
+    "zh": "维保项目：",
+    "ru": "Пункты ТО и ремонта:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_remark_title",
+    "zh": "备注：",
+    "ru": "Примечание:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_shop_title",
+    "zh": "门店：",
+    "ru": "Сервисный центр:",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_record_title_text",
+    "zh": "订单详情",
+    "ru": "Детали заказа",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_remark_title",
+    "zh": "备注",
+    "ru": "Примечание",
+    "type": "string"
+  },
+  {
+    "name": "dialog_order_shop_message",
+    "zh": "是否确定规划线路",
+    "ru": "Подтвердить спланированный маршрут?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_cycle_text",
+    "zh": "%d公里/%d天更换",
+    "ru": "Замена каждые %d км / %d дн",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_default_text",
+    "zh": "待配置",
+    "ru": "Не настроено",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_health_percent",
+    "zh": "剩余健康度",
+    "ru": "Остаточный ресурс",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_huohuasai_text",
+    "zh": "火花塞超期未更换可能会导致积碳、增加油耗，动力下降。",
+    "ru": "Незаменённые вовремя свечи зажигания могут привести к образованию нагара, повышенному расходу топлива и снижению мощности.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_huohuasai_title_text",
+    "zh": "火花塞",
+    "ru": "Свеча зажигания",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_jiansuqiyou_title_text",
+    "zh": "减速器油",
+    "ru": "Редукторное масло",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_jiyou_text",
+    "zh": "机油超期未更换可能会降低润滑效果，增加发动机磨损。机油滤清器超期未更换可能无法滤除机油中的有害物质。",
+    "ru": "Несвоевременная замена моторного масла может снизить эффективность смазки и увеличить износ двигателя. Несвоевременная замена масляного фильтра может привести к тому, что он не сможет очищать масло от вредных примесей.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_jiyou_title_text",
+    "zh": "机油机滤",
+    "ru": "Масло и масляный фильтр",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_kongqilvqing_text",
+    "zh": "空气滤清器芯超期未更换可能会导致杂物进入发动机，增加发动机磨损和油耗。",
+    "ru": "Несвоевременная замена фильтрующего элемента воздушного фильтра может привести к попаданию посторонних частиц в двигатель, что увеличивает его износ и расход топлива.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_kongqilvqing_title_text",
+    "zh": "空气滤芯",
+    "ru": "Воздушный фильтр",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_kongqilvxin1_text",
+    "zh": "空调滤芯更换不及时，会丧失过滤效果，堆积的杂物还会引起空调滤芯发霉、细菌滋生，从而污染车内空气。",
+    "ru": "Несвоевременная замена салонного фильтра приводит к потере его фильтрующих свойств. Накопившиеся загрязнения вызывают появление плесени и размножение бактерий, что загрязняет воздух в салоне.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_kongtiaolvqing_title_text",
+    "zh": "空调滤芯",
+    "ru": "Салонный фильтр",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_lengqueye_text",
+    "zh": "冷却液超期未更换可能损伤冷却系统，影响发动机使用寿命。",
+    "ru": "Несвоевременная замена охлаждающей жидкости может повредить систему охлаждения и сократить срок службы двигателя.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_lengqueye_title_text",
+    "zh": "冷却液",
+    "ru": "Охлаждающая жидкость",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_lengqueye_title_text2",
+    "zh": "发动机冷却液",
+    "ru": "Охлаждающая жидкость",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_ranyoulvqing_text",
+    "zh": "汽油滤清器如不及时更换会损害燃油泵和发动机，影响车辆的正常运转。",
+    "ru": "Топливный фильтр, если его своевременно не заменить, повредит топливный насос и двигатель, что нарушит нормальную работу автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_zhidongye_text",
+    "zh": "制动液超期未更换可能导致制动活塞腐蚀，降低制动性能。",
+    "ru": "Несвоевременная замена тормозной жидкости может привести к коррозии тормозных поршней и снижению тормозной эффективности.",
+    "type": "string"
+  },
+  {
+    "name": "dialog_part_zhidongye_title_text",
+    "zh": "制动液",
+    "ru": "Тормозная жидкость",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_bluetooth_bt_text",
+    "zh": "去连接",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_bt_text",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_know_cancel_text",
+    "zh": "确定取消",
+    "ru": "Подтвердить отмену",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_know_text",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_phone_bt_text",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "dialog_positive_set_text",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "dialog_project_title_text",
+    "zh": "选择项目",
+    "ru": "Выбор проекта",
+    "type": "string"
+  },
+  {
+    "name": "dialog_service_title_text",
+    "zh": "选择服务顾问",
+    "ru": "Выбор сервисного консультанта",
+    "type": "string"
+  },
+  {
+    "name": "dialog_time_title_text",
+    "zh": "选择时间",
+    "ru": "Выбор времени",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_advice_title",
+    "zh": "【建议】",
+    "ru": "【Рекомендация】",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_ca_phone_title",
+    "zh": "长安汽车客服电话：",
+    "ru": "Телефон службы поддержки «Чанъань»:",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_near_shop",
+    "zh": "附近4s店",
+    "ru": "4S-салон рядом",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_not_open_text",
+    "zh": "经销商预约功能即将开放，敬请期待！",
+    "ru": "Функция записи к дилеру скоро станет доступна, следите за обновлениями!",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_title",
+    "zh": "故障详情",
+    "ru": "Детали неисправности",
+    "type": "string"
+  },
+  {
+    "name": "fault_detail_unknow",
+    "zh": "未知故障",
+    "ru": "Неизвестный сбой",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "high_speed_phone",
+    "zh": "高速道路救援：",
+    "ru": "Дорожная помощь на трассе:",
+    "type": "string"
+  },
+  {
+    "name": "loading",
+    "zh": "正在为您加载内容，请稍等…",
+    "ru": "Идёт загрузка контента, пожалуйста, подождите…",
+    "type": "string"
+  },
+  {
+    "name": "main_auth_tip",
+    "zh": "鉴权未通过，暂时无法获得车辆保养信息，请联系951999",
+    "ru": "Аутентификация не пройдена. Временно недоступна информация о техническом обслуживании автомобиля. Обратитесь по номеру 951999",
+    "type": "string"
+  },
+  {
+    "name": "main_car_status_title1",
+    "zh": "车辆检查",
+    "ru": "Проверка автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "main_car_status_title2",
+    "zh": "零件详情",
+    "ru": "Информация о запчастях",
+    "type": "string"
+  },
+  {
+    "name": "main_day_left_unit",
+    "zh": "天",
+    "ru": "дн.",
+    "type": "string"
+  },
+  {
+    "name": "main_driving_tip",
+    "zh": "行驶过程中可能存在偏差",
+    "ru": "В процессе движения возможны отклонения.",
+    "type": "string"
+  },
+  {
+    "name": "main_maintain_cycle_capsule_title1",
+    "zh": "每天",
+    "ru": "Каждый день",
+    "type": "string"
+  },
+  {
+    "name": "main_maintain_cycle_capsule_title2",
+    "zh": "每7天",
+    "ru": "Каждые 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "main_maintain_cycle_capsule_title3",
+    "zh": "每30天",
+    "ru": "Каждые 30 дней",
+    "type": "string"
+  },
+  {
+    "name": "main_mile_left_title",
+    "zh": "剩余保养里程",
+    "ru": "Оставшийся пробег до ТО",
+    "type": "string"
+  },
+  {
+    "name": "main_miles_left_unit",
+    "zh": "公里",
+    "ru": "км",
+    "type": "string"
+  },
+  {
+    "name": "main_net_tip",
+    "zh": "网络开小差，请在信息良好区域重试",
+    "ru": "Сеть нестабильна, повторите попытку в зоне с хорошим сигналом",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_noData_text",
+    "zh": "当前无预约信息",
+    "ru": "Нет информации о записи",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_no_login_bt_text",
+    "zh": "点击登录",
+    "ru": "Нажмите, чтобы войти",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_not_open_text",
+    "zh": "暂未开放",
+    "ru": "Пока не доступно",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_tag_text",
+    "zh": "待到店",
+    "ru": "Ожидается визит",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_title_text",
+    "zh": "维保预约",
+    "ru": "Запись на обслуживание",
+    "type": "string"
+  },
+  {
+    "name": "main_order_card_user_no_login_text",
+    "zh": "账号未登录无法查看信息",
+    "ru": "Невозможно просмотреть информацию: не выполнен вход в аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "main_order_maintain_title1",
+    "zh": "预约到店",
+    "ru": "Запись на визит",
+    "type": "string"
+  },
+  {
+    "name": "main_order_maintain_title2",
+    "zh": "预约记录",
+    "ru": "История записей",
+    "type": "string"
+  },
+  {
+    "name": "main_record_card_noData_text",
+    "zh": "暂无维保记录",
+    "ru": "Нет записей ТО",
+    "type": "string"
+  },
+  {
+    "name": "main_record_card_title_text",
+    "zh": "维保记录",
+    "ru": "История ТО",
+    "type": "string"
+  },
+  {
+    "name": "main_record_oil_miles_title_text",
+    "zh": "燃油里程：",
+    "ru": "Пробег (топливо):",
+    "type": "string"
+  },
+  {
+    "name": "main_status_card_main_late_text",
+    "zh": "及时更换",
+    "ru": "Заменить вовремя",
+    "type": "string"
+  },
+  {
+    "name": "main_status_card_title_text",
+    "zh": "车辆状况",
+    "ru": "Состояние автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "main_top_tip",
+    "zh": "保养时间：%s 地点：%s",
+    "ru": "Время обслуживания: %s Место: %s",
+    "type": "string"
+  },
+  {
+    "name": "maintain_abnormal_tip_auth_text",
+    "zh": "暂时无法获得车辆保养信息",
+    "ru": "Временно недоступна информация о техническом обслуживании автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "maintain_abnormal_tip_net_text",
+    "zh": "网络开小差，请在信号良好区域重试",
+    "ru": "Сбой сети. Повторите попытку в зоне с хорошим сигналом.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_auth_exception_text",
+    "zh": "鉴权未通过，暂时无法获得车辆保养信息，请联系951999",
+    "ru": "Авторизация не пройдена, временно недоступна информация о техническом обслуживании автомобиля. Пожалуйста, свяжитесь с 951999.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_car_status_again_text",
+    "zh": "重新体检",
+    "ru": "Повторная диагностика",
+    "type": "string"
+  },
+  {
+    "name": "maintain_car_status_order_text",
+    "zh": "维保预约",
+    "ru": "Запись на обслуживание",
+    "type": "string"
+  },
+  {
+    "name": "maintain_close_text_voice",
+    "zh": "退出^关闭",
+    "ru": "Выйти^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_count_text",
+    "zh": "%s项",
+    "ru": "%s шт.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_day_text",
+    "zh": "剩余保养天数",
+    "ru": "Дней до ТО",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_day_unit_text",
+    "zh": "天",
+    "ru": "дн.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_mile_text",
+    "zh": "剩余保养里程",
+    "ru": "Оставшийся пробег до ТО",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_mile_unit_text",
+    "zh": "公里",
+    "ru": "км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_oil_mile_tip",
+    "zh": "*按照燃油里程建议，行车过程中存在偏差",
+    "ru": "*Расчёт по пробегу на топливе; в процессе движения возможны отклонения.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_condition_card_total_mile_tip",
+    "zh": "*按照总里程建议，行车过程中存在偏差",
+    "ru": "*Расчёт по общему пробегу; в процессе движения возможны отклонения.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_day_abnormal_text",
+    "zh": "已超期%s天",
+    "ru": "Просрочено на %s дней",
+    "type": "string"
+  },
+  {
+    "name": "maintain_day_normal_default_text",
+    "zh": "剩余 - - 天",
+    "ru": "Осталось - - дней",
+    "type": "string"
+  },
+  {
+    "name": "maintain_day_normal_text",
+    "zh": "剩余%s天",
+    "ru": "Осталось %s дн.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_deepal_tip_text",
+    "zh": "若出现数据异常，请及时联系深蓝维保中⼼或线上管家951998！",
+    "ru": "При аномалиях в данных обратитесь в сервис-центр Deepal или к менеджеру: 951998!",
+    "type": "string"
+  },
+  {
+    "name": "maintain_fault_find_problems",
+    "zh": "发现 %d 个问题",
+    "ru": "Найдено %d проблем",
+    "type": "string"
+  },
+  {
+    "name": "maintain_fault_no_problems",
+    "zh": "车辆健康",
+    "ru": "Здоровье автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "maintain_fault_notice_more_text",
+    "zh": "%d个零件故障告警，建议及时到店检查",
+    "ru": "Предупреждения о неисправностях %d компонентов. Рекомендуется своевременно обратиться в сервисный центр для проверки.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_fault_notice_new_text",
+    "zh": "存在零件故障告警，建议及时到店检查",
+    "ru": "Обнаружено предупреждение о неисправности детали. Рекомендуется своевременно обратиться в сервисный центр для диагностики.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_fault_text",
+    "zh": "故障",
+    "ru": "Неисправность",
+    "type": "string"
+  },
+  {
+    "name": "maintain_health_text",
+    "zh": "正常",
+    "ru": "В норме",
+    "type": "string"
+  },
+  {
+    "name": "maintain_in_sync_text",
+    "zh": "保养信息同步中，请等待！",
+    "ru": "Идет синхронизация данных о техническом обслуживании, пожалуйста, подождите!",
+    "type": "string"
+  },
+  {
+    "name": "maintain_mile_abnormal_text",
+    "zh": "已超出%skm",
+    "ru": "Превышено %s км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_mile_normal_default_text",
+    "zh": "剩余 - - km",
+    "ru": "Осталось - - км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_mile_normal_text",
+    "zh": "剩余%skm",
+    "ru": "Осталось %s км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_net_exception_text",
+    "zh": "网络开小差，请在信号良好区域重试",
+    "ru": "Сеть подвела. Повторите попытку в зоне с хорошим покрытием.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_more_overdue_content_dp",
+    "zh": "%d个零件保养周期到达，请及时保养车辆。",
+    "ru": "Срок обслуживания %d деталей наступил. Пожалуйста, своевременно проведите ТО автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_more_text",
+    "zh": "%d个零件保养超期,建议及时到店保养",
+    "ru": "Срок обслуживания %d деталей истёк. Рекомендуем своевременно обратиться в сервис.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_more_title",
+    "zh": "%d个零件保养超期",
+    "ru": "Просроченное ТО: %d деталей",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_more_warning_content_dp",
+    "zh": "%d个零部件保养周期即将到达，请及时保养车辆。",
+    "ru": "Срок ТО %d деталей подходит к концу. Пожалуйста, своевременно проведите обслуживание.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_one_overdue_content_dp",
+    "zh": "%s零部件保养周期到达，请及时保养车辆。",
+    "ru": "Срок обслуживания детали %s наступил. Пожалуйста, своевременно проведите ТО автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_one_text",
+    "zh": "%s零件保养超期,建议及时到店保养",
+    "ru": "Срок обслуживания %s истёк, рекомендуем своевременно посетить сервисный центр",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_one_title",
+    "zh": "%s零件保养超期",
+    "ru": "Срок обслуживания %s истёк",
+    "type": "string"
+  },
+  {
+    "name": "maintain_notice_one_warning_content_dp",
+    "zh": "%s零部件保养周期即将到达，请及时保养车辆。",
+    "ru": "Срок обслуживания %s подходит к концу. Пожалуйста, своевременно проведите ТО автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "maintain_order_cancel_reason1",
+    "zh": "选择其他汽车店保养",
+    "ru": "Выберите другой автосервис для обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "maintain_order_cancel_reason2",
+    "zh": "想去其他经销商",
+    "ru": "Хочу к другому дилеру",
+    "type": "string"
+  },
+  {
+    "name": "maintain_order_cancel_reason3",
+    "zh": "临时有其他安排",
+    "ru": "Возникли другие планы",
+    "type": "string"
+  },
+  {
+    "name": "maintain_order_cancel_reason4",
+    "zh": "费用价格不合适",
+    "ru": "Стоимость не подходит",
+    "type": "string"
+  },
+  {
+    "name": "maintain_overdue_text",
+    "zh": "更换",
+    "ru": "Заменить",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_address_text",
+    "zh": "地址：%s",
+    "ru": "Адрес: %s",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_card_mile_text",
+    "zh": "%s公里",
+    "ru": "%s км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_card_mile_title",
+    "zh": "上次里程：",
+    "ru": "Предыдущий пробег:",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_card_time_title",
+    "zh": "上次时间：",
+    "ru": "Последний раз:",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_mile_text",
+    "zh": "里程：%s公里",
+    "ru": "Пробег: %s км",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_person_text",
+    "zh": "个人",
+    "ru": "Личный",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_phone_text",
+    "zh": "电话：%s",
+    "ru": "Телефон: %s",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_system_text",
+    "zh": "系统",
+    "ru": "Системный",
+    "type": "string"
+  },
+  {
+    "name": "maintain_record_time_text",
+    "zh": "时间：%s",
+    "ru": "Время: %s",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_cancel_voice",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_confirm",
+    "zh": "同意并重置",
+    "ru": "Согласиться и сбросить",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_confirm_voice",
+    "zh": "同意并重置",
+    "ru": "Согласиться и сбросить",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_content",
+    "zh": "\"重置保养周期会更新保养信息。重置保养周期前，请确认车辆已完成空调滤芯的更换。若到期未更换空调滤芯，可能会导致空调滤芯无法过滤细菌、粉尘，可能会对车辆、驾驶人、乘车人产生安全隐患，请按照保养提醒及时保养。\n\n本人已知晓上述风险，同意此操作，并承担未按照上述操作执行产生的风险。\"",
+    "ru": "«Сброс цикла ТО обновит информацию об обслуживании. Перед сбросом цикла ТО убедитесь, что фильтр салона заменён. Если фильтр салона не был заменён в установленный срок, он может не обеспечивать фильтрацию бактерий и пыли, что создаёт угрозу безопасности для автомобиля, водителя и пассажиров. Выполняйте ТО своевременно в соответствии с напоминаниями.\\n\\nЯ осознаю вышеуказанные риски, согласен с выполнением данной операции и беру на себя ответственность за риски, возникшие в результате несоблюдения указанных требований.»",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_remind_title",
+    "zh": "重置须知",
+    "ru": "Важно знать",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_text",
+    "zh": "重置",
+    "ru": "Сброс",
+    "type": "string"
+  },
+  {
+    "name": "maintain_reset_text_voice",
+    "zh": "重置",
+    "ru": "Сброс",
+    "type": "string"
+  },
+  {
+    "name": "maintain_sync_fail_text",
+    "zh": "保养信息同步失败",
+    "ru": "Не удалось синхронизировать информацию о техническом обслуживании",
+    "type": "string"
+  },
+  {
+    "name": "maintain_sync_success_text",
+    "zh": "保养信息同步成功",
+    "ru": "Информация о техническом обслуживании успешно синхронизирована",
+    "type": "string"
+  },
+  {
+    "name": "maintain_sync_timeout_text",
+    "zh": "保养信息更新超时，请稍后再试！",
+    "ru": "Истекло время ожидания при обновлении информации о техническом обслуживании. Повторите попытку позже!",
+    "type": "string"
+  },
+  {
+    "name": "maintain_update_text",
+    "zh": "更新：%s",
+    "ru": "Обновление: %s",
+    "type": "string"
+  },
+  {
+    "name": "maintain_upkeep_text",
+    "zh": "检查",
+    "ru": "Проверка",
+    "type": "string"
+  },
+  {
+    "name": "maintain_vpa_bt_text",
+    "zh": "查看",
+    "ru": "Просмотр",
+    "type": "string"
+  },
+  {
+    "name": "maintain_vpa_more_overdue_content_dp",
+    "zh": "%d个零件保养超期",
+    "ru": "%d деталей с просроченным сроком обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "maintain_vpa_more_warning_content_dp",
+    "zh": "%d个零件保养即将到期",
+    "ru": "Срок обслуживания %d деталей скоро истечёт",
+    "type": "string"
+  },
+  {
+    "name": "maintain_vpa_one_overdue_content_dp",
+    "zh": "%s保养超期",
+    "ru": "%s: ТО просрочено",
+    "type": "string"
+  },
+  {
+    "name": "maintain_vpa_one_warning_content_dp",
+    "zh": "%s保养即将到期",
+    "ru": "%s: ТО истекает",
+    "type": "string"
+  },
+  {
+    "name": "no_data",
+    "zh": "暂无记录",
+    "ru": "Записей пока нет",
+    "type": "string"
+  },
+  {
+    "name": "no_data_maintain_record",
+    "zh": "您的爱车很新，暂无维保记录～",
+    "ru": "Ваш автомобиль очень новый, записей о техническом обслуживании пока нет.",
+    "type": "string"
+  },
+  {
+    "name": "no_data_order_record",
+    "zh": "您的爱车很新，暂无预约记录～",
+    "ru": "Ваш автомобиль очень новый, записей на обслуживание пока нет.",
+    "type": "string"
+  },
+  {
+    "name": "no_net_load_failure",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "no_net_loading_bt",
+    "zh": "重新加载",
+    "ru": "Перезагрузить",
+    "type": "string"
+  },
+  {
+    "name": "no_net_setting_bt",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "no_net_text_failure",
+    "zh": "加载失败，请检查网络或重新加载",
+    "ru": "Не удалось загрузить. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "no_net_try_again",
+    "zh": "请检查网络设置或重试",
+    "ru": "Проверьте настройки сети или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "no_permission_bt_text",
+    "zh": "去授权",
+    "ru": "Разрешить",
+    "type": "string"
+  },
+  {
+    "name": "no_permission_text",
+    "zh": "位置权限未授权，信息无法展示",
+    "ru": "Доступ к местоположению не предоставлен. Информация недоступна",
+    "type": "string"
+  },
+  {
+    "name": "not_login_text",
+    "zh": "账号未登录",
+    "ru": "Аккаунт не авторизован",
+    "type": "string"
+  },
+  {
+    "name": "notification_detail",
+    "zh": "查看详情",
+    "ru": "Подробнее",
+    "type": "string"
+  },
+  {
+    "name": "notification_next",
+    "zh": "下次提醒",
+    "ru": "Следующее напоминание",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_is_phone",
+    "zh": "请检查联系方式输入是否正确",
+    "ru": "Проверьте правильность введённых контактных данных",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_name_text",
+    "zh": "姓名：%s",
+    "ru": "ФИО: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_phone_text",
+    "zh": "电话：%s",
+    "ru": "Телефон: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_time_default_text",
+    "zh": "选择日期、选择时间段",
+    "ru": "Выбрать дату, выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_time_empty",
+    "zh": "请选择时间",
+    "ru": "Выберите время",
+    "type": "string"
+  },
+  {
+    "name": "order_edit_title",
+    "zh": "预约",
+    "ru": "Запись",
+    "type": "string"
+  },
+  {
+    "name": "order_num",
+    "zh": "剩余：%1$d",
+    "ru": "Осталось: %1$d",
+    "type": "string"
+  },
+  {
+    "name": "order_record_address_text",
+    "zh": "地址：%s",
+    "ru": "Адрес: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_record_navi_bt_text",
+    "zh": "导航",
+    "ru": "Навигация",
+    "type": "string"
+  },
+  {
+    "name": "order_record_order_again_text",
+    "zh": "再次预约",
+    "ru": "Снова записаться",
+    "type": "string"
+  },
+  {
+    "name": "order_record_order_cancel_tab",
+    "zh": "已取消",
+    "ru": "Отменено",
+    "type": "string"
+  },
+  {
+    "name": "order_record_order_cancel_text",
+    "zh": "取消预约",
+    "ru": "Отменить запись",
+    "type": "string"
+  },
+  {
+    "name": "order_record_order_finish_tab",
+    "zh": "已完成",
+    "ru": "Завершено",
+    "type": "string"
+  },
+  {
+    "name": "order_record_order_maintain_tab",
+    "zh": "待到店",
+    "ru": "Ожидает визита",
+    "type": "string"
+  },
+  {
+    "name": "order_record_phone_bt_text",
+    "zh": "电话",
+    "ru": "Телефон",
+    "type": "string"
+  },
+  {
+    "name": "order_record_phone_text",
+    "zh": "电话：%s",
+    "ru": "Телефон: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_record_refresh_load_text",
+    "zh": "上拉加载更多...",
+    "ru": "Потяните вверх, чтобы загрузить ещё...",
+    "type": "string"
+  },
+  {
+    "name": "order_record_refresh_net_fail",
+    "zh": "网络未连接",
+    "ru": "Сеть не подключена",
+    "type": "string"
+  },
+  {
+    "name": "order_record_refresh_no_data",
+    "zh": "已经到底啦",
+    "ru": "Это всё",
+    "type": "string"
+  },
+  {
+    "name": "order_record_refresh_pull",
+    "zh": "下拉刷新",
+    "ru": "Потяните вниз",
+    "type": "string"
+  },
+  {
+    "name": "order_record_refreshing",
+    "zh": "正在刷新中",
+    "ru": "Обновление...",
+    "type": "string"
+  },
+  {
+    "name": "order_record_time_text",
+    "zh": "预约时间：%s",
+    "ru": "Время записи: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_address_no_distance_text",
+    "zh": "地址：%s",
+    "ru": "Адрес: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_address_text",
+    "zh": "地址：%s | %skm",
+    "ru": "Адрес: %s | %s км",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_distance",
+    "zh": "| %1$.1f公里",
+    "ru": "| %1$.1f км",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_no_address_no_distance_text",
+    "zh": "地址：暂无地址",
+    "ru": "Адрес: не указан",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_no_address_text",
+    "zh": "地址：暂无地址 | %skm",
+    "ru": "Адрес: не указан | %skm",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_no_phone_text",
+    "zh": "电话：暂无电话",
+    "ru": "Телефон: не указан",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_phone_text",
+    "zh": "电话：%s",
+    "ru": "Телефон: %s",
+    "type": "string"
+  },
+  {
+    "name": "order_shop_score_text",
+    "zh": "%s分",
+    "ru": "%s баллов",
+    "type": "string"
+  },
+  {
+    "name": "order_title",
+    "zh": "维保预约",
+    "ru": "Запись на обслуживание",
+    "type": "string"
+  },
+  {
+    "name": "record_maintain_time",
+    "zh": "保养时间：%s",
+    "ru": "Время обслуживания: %s",
+    "type": "string"
+  },
+  {
+    "name": "record_order_time",
+    "zh": "预计时间：%s",
+    "ru": "Ожидаемое время: %s",
+    "type": "string"
+  },
+  {
+    "name": "status_title",
+    "zh": "车辆状况",
+    "ru": "Состояние автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "toast_fault_text",
+    "zh": "无故障详情！",
+    "ru": "Нет данных о сбое!",
+    "type": "string"
+  },
+  {
+    "name": "toast_maintain_item_navi_tip",
+    "zh": "门店未提供地址或地址对应的经纬度",
+    "ru": "Сервисный центр не указал адрес или его координаты (широта/долгота)",
+    "type": "string"
+  },
+  {
+    "name": "toast_maintain_no_net",
+    "zh": "请检查网络",
+    "ru": "Проверьте сеть",
+    "type": "string"
+  },
+  {
+    "name": "toast_maintain_phone_tip",
+    "zh": "门店未提供电话",
+    "ru": "Телефон не указан",
+    "type": "string"
+  },
+  {
+    "name": "toast_maintain_text",
+    "zh": "易损件详情！",
+    "ru": "Расходники!",
+    "type": "string"
+  },
+  {
+    "name": "toast_order_cancel_success",
+    "zh": "取消成功",
+    "ru": "Успешно отменено",
+    "type": "string"
+  },
+  {
+    "name": "trailer_service",
+    "zh": "拖车服务：",
+    "ru": "Буксировка:",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие параметры",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

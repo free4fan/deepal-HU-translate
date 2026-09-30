@@ -1,0 +1,1724 @@
+[
+  {
+    "name": "RecoverDialog_text1",
+    "zh": "立即重启",
+    "ru": "Перезагрузить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "RecoverDialog_text2",
+    "zh": "稍后",
+    "ru": "Позже",
+    "type": "string"
+  },
+  {
+    "name": "RecoverDialog_title",
+    "zh": "云端配置文件已经更新，是否重启语音助手",
+    "ru": "Облачный конфигурационный файл обновлён, перезапустить голосового помощника?",
+    "type": "string"
+  },
+  {
+    "name": "agent_3d_north_not_support",
+    "zh": "还不支持3D正北朝上视图",
+    "ru": "Пока не поддерживается 3D-вид «север вверх»",
+    "type": "string"
+  },
+  {
+    "name": "agent_ahead_cond_info",
+    "zh": "前方有%s%s，预计需要%s",
+    "ru": "Впереди %s%s, расчётное время — %s",
+    "type": "string"
+  },
+  {
+    "name": "agent_ahead_not_cond",
+    "zh": "前方道路畅通",
+    "ru": "Впереди дорога свободна",
+    "type": "string"
+  },
+  {
+    "name": "agent_along_search",
+    "zh": "即将为你搜索顺路的%s，确定还是取消",
+    "ru": "Сейчас найду %s по вашему маршруту. Подтвердить или отменить?",
+    "type": "string"
+  },
+  {
+    "name": "agent_along_search_title",
+    "zh": "即将为你搜索顺路的%s",
+    "ru": "Ищу %s по маршруту",
+    "type": "string"
+  },
+  {
+    "name": "agent_ask_exit_fleet",
+    "zh": "退出集结？",
+    "ru": "Покинуть сбор?",
+    "type": "string"
+  },
+  {
+    "name": "agent_can_not_find_location_try_again",
+    "zh": "我没有找到%s，请再说一次",
+    "ru": "Я не нашёл %s, повторите, пожалуйста",
+    "type": "string"
+  },
+  {
+    "name": "agent_can_not_turn_page",
+    "zh": "已经翻不动了",
+    "ru": "Прокрутить дальше невозможно",
+    "type": "string"
+  },
+  {
+    "name": "agent_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "agent_cancel_quit_word",
+    "zh": "有需要再叫我",
+    "ru": "Зовите, если нужно.",
+    "type": "string"
+  },
+  {
+    "name": "agent_cannot_switch_preference_not_in_navi",
+    "zh": "你没有在导航，无法更改导航偏好",
+    "ru": "Навигация не активна, изменить параметры маршрута невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "agent_cannot_turn_page",
+    "zh": "已经翻不动了",
+    "ru": "Прокрутить дальше невозможно",
+    "type": "string"
+  },
+  {
+    "name": "agent_city_poi_count",
+    "zh": "%1$d个结果",
+    "ru": "%1$d результатов",
+    "type": "string"
+  },
+  {
+    "name": "agent_close_app",
+    "zh": "正在导航中，确定关闭地图吗？",
+    "ru": "Навигация активна. Закрыть карту?",
+    "type": "string"
+  },
+  {
+    "name": "agent_delete_fleet_point_done",
+    "zh": "集结点删掉了",
+    "ru": "Точка сбора удалена.",
+    "type": "string"
+  },
+  {
+    "name": "agent_delete_fleet_point_no_fleet_point_warning",
+    "zh": "当前没有集结点，不需要这么做",
+    "ru": "На данный момент нет точки сбора, делать это не нужно.",
+    "type": "string"
+  },
+  {
+    "name": "agent_delete_fleet_point_warning",
+    "zh": "是否删除当前集结点，请说确定或取消",
+    "ru": "Удалить текущую точку сбора? Скажите «Подтвердить» или «Отменить»",
+    "type": "string"
+  },
+  {
+    "name": "agent_direct_navi_or_set_fleet",
+    "zh": "您需要将这里设为集结点，还是直接导航？",
+    "ru": "Установить эту точку как точку сбора или сразу начать навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_direct_navi_or_set_new_fleet",
+    "zh": "您需要将这里设置为新的集结点，还是直接导航？",
+    "ru": "Установить эту точку как новую точку сбора или сразу начать навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_distance_time_not_in_navi",
+    "zh": "你没有在导航，无法查询",
+    "ru": "Навигация не активна, запрос невозможен.",
+    "type": "string"
+  },
+  {
+    "name": "agent_distance_time_not_in_navi_new",
+    "zh": "你没有在导航无法查询",
+    "ru": "Навигация не активна, невозможно выполнить запрос.",
+    "type": "string"
+  },
+  {
+    "name": "agent_distance_time_query",
+    "zh": "路程时间查询中...",
+    "ru": "Расчёт времени в пути...",
+    "type": "string"
+  },
+  {
+    "name": "agent_do_not_find_poi_in_current_city_tts",
+    "zh": "我没有在当前城市找到%s这条路",
+    "ru": "Я не нашёл эту дорогу %s в текущем городе",
+    "type": "string"
+  },
+  {
+    "name": "agent_do_not_find_surround_keyword",
+    "zh": "很抱歉，我没有在%1$s附近找到%2$s",
+    "ru": "К сожалению, вблизи %1$s я не нашёл %2$s",
+    "type": "string"
+  },
+  {
+    "name": "agent_exit_familiary_navi_status",
+    "zh": "即将结束本次行程？",
+    "ru": "Завершить эту поездку?",
+    "type": "string"
+  },
+  {
+    "name": "agent_exit_navi",
+    "zh": "即将关闭导航？",
+    "ru": "Завершить навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_exit_navi_status",
+    "zh": "即将结束本次导航？",
+    "ru": "Завершить текущую навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_exist_add_new_address_tts",
+    "zh": "当前的集结点是%1$s，你需要把%2$s设置为新的集结点吗？",
+    "ru": "Текущая точка сбора — %1$s. Установить %2$s в качестве новой точки сбора?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_exist_add_new_tts",
+    "zh": "当前的集结点是%s,你要把哪里设置为新的集结点",
+    "ru": "Текущая точка сбора — %s, куда вы хотите установить новую точку сбора?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_exit_cannot_share_tts",
+    "zh": "退出后将会与他人停止位置共享，确定还是取消",
+    "ru": "После выхода совместное использование местоположения с другими будет остановлено. Подтвердить или отменить?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_joined_no_need",
+    "zh": "已经在集结中了",
+    "ru": "Уже в процессе сбора.",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_not_exist_add_new_address_tts",
+    "zh": "当前没有集结点，你需要把%2$s设置为新的集结点吗？",
+    "ru": "Сборного пункта нет. Хотите установить %2$s в качестве нового сборного пункта?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_start_interrupt_others",
+    "zh": "发起集结需要先退出当前页面，需要退出吗",
+    "ru": "Для начала сбора необходимо покинуть текущую страницу. Покинуть?",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_started_launch_new",
+    "zh": "已经在集结中，不需要再发起集结",
+    "ru": "Сбор уже идёт, не нужно его повторять.",
+    "type": "string"
+  },
+  {
+    "name": "agent_fleet_started_no_need",
+    "zh": "已经在集结中，不需要再发起集结",
+    "ru": "Сбор уже идёт, не нужно его повторять.",
+    "type": "string"
+  },
+  {
+    "name": "agent_has_close_app",
+    "zh": "地图已关闭，请打开地图在操作哦 !",
+    "ru": "Карта закрыта. Откройте карту, чтобы продолжить!",
+    "type": "string"
+  },
+  {
+    "name": "agent_is_x_page",
+    "zh": "已经是%1$s了",
+    "ru": "Уже %1$s",
+    "type": "string"
+  },
+  {
+    "name": "agent_join_last_fleet_success",
+    "zh": "已经加入上次集结了",
+    "ru": "Уже присоединился к прошлому сбору.",
+    "type": "string"
+  },
+  {
+    "name": "agent_join_team_trip_success",
+    "zh": "已经加入集结了",
+    "ru": "Уже присоединился к сбору.",
+    "type": "string"
+  },
+  {
+    "name": "agent_launch_team_trip_failed",
+    "zh": "集结发起失败，请检查网络设置",
+    "ru": "Не удалось начать сбор. Проверьте настройки сети.",
+    "type": "string"
+  },
+  {
+    "name": "agent_launch_team_trip_success",
+    "zh": "已经发起集结了",
+    "ru": "Сбор уже начался.",
+    "type": "string"
+  },
+  {
+    "name": "agent_login_wechat_then_join_fleet",
+    "zh": "请先登陆账号，再加入集结",
+    "ru": "Сначала войдите в аккаунт, затем присоединяйтесь к сбору.",
+    "type": "string"
+  },
+  {
+    "name": "agent_login_wechat_then_set_fleet_point",
+    "zh": "请先登陆账号，再设置集结点",
+    "ru": "Сначала войдите в аккаунт, затем установите точку сбора.",
+    "type": "string"
+  },
+  {
+    "name": "agent_login_wechat_then_set_start_fleet",
+    "zh": "请先登陆账号，再发起集结",
+    "ru": "Сначала войдите в аккаунт, затем начните сбор.",
+    "type": "string"
+  },
+  {
+    "name": "agent_m1811",
+    "zh": "没有找到第%1$s个",
+    "ru": "Не найдено %1$s-й",
+    "type": "string"
+  },
+  {
+    "name": "agent_m1812",
+    "zh": "没有找到最后一个",
+    "ru": "Не нашлось последнее.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_failed_default_tts",
+    "zh": "执行失败了，稍后再呼唤我吧",
+    "ru": "Не получилось. Попробуй попросить меня позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_no_activate",
+    "zh": "你还未激活导航，请激活后再试试哦",
+    "ru": "Навигация ещё не активирована. Активируйте и попробуйте снова.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_not_start_for_switch_night_mode_tts",
+    "zh": "导航未启动，无法为您切换%s",
+    "ru": "Навигация не запущена, переключение на %s невозможно",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_along_search_no_navi",
+    "zh": "你忘了嘛，我们还没有规划路线|还没有要导航的路线呢",
+    "ru": "Ты что, забыл? Мы ещё не проложили маршрут|Маршрута для навигации пока нет",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_along_search_no_result",
+    "zh": "我没找到这个地方，换一个说法吧|啊哦，没找到诶，重新说一个吧|你是在考察我的想象力吗？不存在这个地点哦",
+    "ru": "Я не нашёл это место, попробуй сказать по-другому|Ой, не нашлось, попробуй другое|Ты проверяешь мою фантазию? Такого места не существует",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_along_search_not_support",
+    "zh": "抱歉，没有找到这个分类哎",
+    "ru": "Извините, не нашлась такая категория.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_along_search_result",
+    "zh": "为你找到以下结果，请手动选择吧",
+    "ru": "Нашёл для вас следующие результаты, выберите вручную.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_ask_company_address",
+    "zh": "请先设置公司的位置哦|啊哦，我还不知道公司在哪里呢|请先告诉我，公司在哪里",
+    "ru": "Сначала укажите, пожалуйста, где находится компания|Ой, я пока не знаю, где ваша компания|Скажите мне, пожалуйста, где находится компания",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_ask_home_address",
+    "zh": "请先设置家的位置哦|啊哦，我还不知道你家在哪里呢|请先告诉我，你家在哪里|你还没有告诉我，你家在哪里，难道在小安的心里吗",
+    "ru": "Сначала укажите, пожалуйста, где находится ваш дом|Ой, я ещё не знаю, где ваш дом|Скажите мне, пожалуйста, где ваш дом|Вы ещё не сказали мне, где ваш дом. Неужели он живёт только в сердце Сяо Ань?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_close_overview_not_open",
+    "zh": "当前不是全览视图，不需要这样做",
+    "ru": "Сейчас не включён обзорный режим, это не требуется",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_close_overview_success",
+    "zh": "好的, 已退出全览路线",
+    "ru": "Хорошо, режим обзора маршрута выключен",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_no_net",
+    "zh": "现在的网络还有点问题，稍微等等吧|我发现网络出问题了，等一下再试吧|现在网络信号差，小安暂时帮不了你，晚点再找我吧|网络开小差了，小安在隧道、车库等地方暂时不能服务你了，稍后再呼唤我吧",
+    "ru": "Сейчас с сетью ещё небольшие проблемы, подождите немного|Я заметил проблемы с сетью, попробуйте чуть позже|Сейчас слабый сигнал сети, Сяо Ань временно не может помочь, вернитесь позже|Сеть немного сбоит, Сяо Ань временно не может работать в тоннелях, гаражах и подобных местах, позовите меня чуть позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_open_overview_in_navi",
+    "zh": "好的，全览路线打开啦",
+    "ru": "Хорошо, режим обзора маршрута включён!",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_open_overview_not_navi",
+    "zh": "好的，已切换为鹰眼图",
+    "ru": "Хорошо, переключено на обзорную карту",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_refresh_route_not_navi",
+    "zh": "你忘了嘛，我们还没有规划路线|还没有要导航的路线呢",
+    "ru": "Ты что, забыл? Мы ещё не проложили маршрут|Пока нет маршрута для навигации",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_refresh_route_success",
+    "zh": "路线已刷新",
+    "ru": "Маршрут обновлён",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_route_planning_fail",
+    "zh": "路线规划失败啦，要不要重新试一下",
+    "ru": "Не удалось проложить маршрут. Хотите попробовать ещё раз?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_last_page_fail",
+    "zh": "已经是第一页了",
+    "ru": "Это уже первая страница",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_last_page_success",
+    "zh": "好的，已翻到上一页",
+    "ru": "Хорошо, перелистнул на предыдущую страницу",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_multiple_result",
+    "zh": "请选择第几个",
+    "ru": "Какой по счёту?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_next_page_fail",
+    "zh": "已经是最后一页了",
+    "ru": "Это уже последняя страница",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_next_page_success",
+    "zh": "好的，已翻到下一页",
+    "ru": "Хорошо, перелистнул на следующую страницу",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_not_result",
+    "zh": "我没找到这个地方，换一个说法吧|啊哦，没找到诶，重新说一个吧|你是在考察我的想象力吗？不存在这个地点哦",
+    "ru": "Я не нашёл это место, попробуй сказать по-другому|Ой, не нашёл, попробуй другое|Ты проверяешь мою фантазию? Такого места не существует",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_one_result",
+    "zh": "确定要去%s吗",
+    "ru": "Едем в %s?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_poi_one_result_by_road",
+    "zh": "确定要去%s吗|是要去这里吗",
+    "ru": "Уверены, что хотите поехать в %s?|Вы хотите поехать сюда?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_route_multiple_",
+    "zh": "没有对应的序号，换一个说法好吗|就是没有你说的这个，快重新选|你是在考察我的想象力吗？重新选一个吧",
+    "ru": "Нет подходящего номера, сформулируйте по-другому?|Такого варианта, который вы назвали, просто нет, выберите другой|Вы что, проверяете мою фантазию? Выберите что-нибудь другое",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_route_multiple_result",
+    "zh": "为你找到以下结果，请选择第几个",
+    "ru": "Найдены следующие результаты, укажите номер",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_route_no_result",
+    "zh": "搜索失败啦，要不要重新试一下",
+    "ru": "Поиск не удался. Хотите попробовать ещё раз?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_select_route_one_result",
+    "zh": "只有一个结果哦，要直接开始导航吗",
+    "ru": "Найден только один результат, сразу начать навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_start_navi_no_address",
+    "zh": "请问要去哪里呢|我们要去哪里呢|请说目的地|先告诉我要去哪里，好吗|还不知道你要去哪里呢",
+    "ru": "Куда вам нужно?|Куда мы едем?|Назовите, пожалуйста, пункт назначения|Скажите сначала, куда вам нужно, хорошо?|Я ещё не знаю, куда вам нужно",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_route_strategy_fail",
+    "zh": "网络不太好，请检查下设置吧",
+    "ru": "Сеть работает плохо, проверьте настройки",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_route_strategy_no_net",
+    "zh": "网络不太好，请检查下设置吧",
+    "ru": "Сеть работает нестабильно, проверьте настройки.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_route_strategy_not_support",
+    "zh": "网络不太好，请检查下设置吧",
+    "ru": "Сеть работает нестабильно, проверьте настройки.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_route_strategy_success",
+    "zh": "偏好已切换为%s",
+    "ru": "Предпочтения переключены на %s",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_2d_success",
+    "zh": "好的，当前已是2D视角",
+    "ru": "Хорошо, сейчас уже 2D-вид.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_3d_success",
+    "zh": "好的，当前已是3D视角",
+    "ru": "Хорошо, сейчас уже 3D-вид.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_fail",
+    "zh": "概览路线时无法切换视图哦",
+    "ru": "В режиме обзора маршрута переключение вида недоступно.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_head_up_success",
+    "zh": "好的，当前已是2D头上视角",
+    "ru": "Хорошо, уже установлен 2D-вид сверху.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_north_up_success",
+    "zh": "好的，当前已是2D北上视角",
+    "ru": "Хорошо, сейчас включён 2D-вид, север сверху.",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_switch_visual_not_support",
+    "zh": "抱歉，当前页面不支持切换视图",
+    "ru": "К сожалению, текущая страница не поддерживает переключение вида",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_traffic_report_close_already",
+    "zh": "当前路况已经关闭状态",
+    "ru": "Дорожная обстановка уже отключена",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_traffic_report_close_success",
+    "zh": "实时路况已关闭",
+    "ru": "Трафик отключён",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_traffic_report_open_already",
+    "zh": "当前路况已经开启状态",
+    "ru": "Дорожная обстановка уже включена",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_traffic_report_open_success",
+    "zh": "实时路况已打开",
+    "ru": "Трафик включён",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_zoom_in_already_min",
+    "zh": "地图已缩小至最小，再小就要用放大镜咯",
+    "ru": "Карта уже уменьшена до минимума, если ещё меньше — только лупой",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_zoom_in_success",
+    "zh": "地图已缩小",
+    "ru": "Карта уменьшена",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_zoom_not_support",
+    "zh": "抱歉，当前页面不支持调节比例尺",
+    "ru": "К сожалению, на этой странице невозможно изменить масштаб",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_zoom_out_already_max",
+    "zh": "地图已放大至最大，都能看到水里的小金鱼了",
+    "ru": "Карта увеличена до максимума, теперь можно разглядеть даже маленьких золотых рыбок в воде",
+    "type": "string"
+  },
+  {
+    "name": "agent_navi_tts_zoom_out_success",
+    "zh": "地图已放大",
+    "ru": "Карта увеличена",
+    "type": "string"
+  },
+  {
+    "name": "agent_network_not_connect",
+    "zh": "当前网络似乎不好，请稍后重试",
+    "ru": "Похоже, сейчас плохое подключение к сети, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_fleet_exist_add_new_tts",
+    "zh": "当前没有集结点,你要把哪里设置为新的集结点",
+    "ru": "Сейчас нет точки сбора, куда хотите установить новую?",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_location",
+    "zh": "我获取不到当前位置，请稍后再试",
+    "ru": "Не удалось определить текущее местоположение, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network",
+    "zh": "网络不给力，等下再试试吧",
+    "ru": "Интернет подлагивает, попробуй позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_fleet_1",
+    "zh": "网络不给力，没有办法使用集结相关功能，等下再试试吧",
+    "ru": "Сеть слабовата, функции точки сбора недоступны, попробуй позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_fleet_2",
+    "zh": "网络遇到问题，暂时不能使用集结的相关功能，网络好点后再试试",
+    "ru": "Проблемы с сетью, функции точки сбора временно недоступны, попробуй, когда соединение улучшится",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_fleet_3",
+    "zh": "亲的网络信号有点差，没有办法使用集结的相关功能，请稍后再试下",
+    "ru": "Сигнал сети слабый, функции ралли недоступны. Попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_query_traffic_1",
+    "zh": "网络不给力，暂时不能查询路况信息，等下再试试吧",
+    "ru": "Сеть работает нестабильно. Временно невозможно запросить информацию о дорожной обстановке. Попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_query_traffic_2",
+    "zh": "网络遇到问题，暂时无法帮你查询路况信息，等网络好点后再试试。",
+    "ru": "Возникла проблема с сетью, поэтому временно не могу запросить информацию о дорожной обстановке. Попробуйте ещё раз, когда связь улучшится.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_query_traffic_3",
+    "zh": "亲的网络信号有点差，暂时无法查询路况信息，请稍后再试下。",
+    "ru": "К сожалению, у вас слабый сигнал сети, поэтому временно невозможно запросить информацию о дорожной обстановке. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_route_time_1",
+    "zh": "网络不给力，暂时查不到路线路程时间信息，等下再试试",
+    "ru": "Сеть работает нестабильно, временно не удаётся получить информацию о маршруте, расстоянии и времени в пути. Попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_route_time_2",
+    "zh": "网络遇到问题，没有办法帮你查询路线路程时间，网络好点后再试试",
+    "ru": "Возникли проблемы с сетью, не могу рассчитать маршрут, расстояние и время в пути. Попробуйте ещё раз, когда связь улучшится",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_route_time_3",
+    "zh": "亲的网络信号有点差，暂时不能查询路线路程时间，请稍后再试下",
+    "ru": "К сожалению, у вас слабый сигнал сети, поэтому пока невозможно получить информацию о маршруте, расстоянии и времени в пути. Повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_switch_preference_1",
+    "zh": "网络不给力，没有办法%s，等下再试试吧",
+    "ru": "Слабое интернет-соединение, нет возможности %s. Попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_switch_preference_2",
+    "zh": "网络遇到问题，暂时无法帮你%s，等网络好点后再试试",
+    "ru": "Возникла проблема с сетью, временно не могу %s. Попробуйте позже, когда соединение улучшится.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_switch_preference_3",
+    "zh": "亲的网络信号有点差，暂时无法%s，请稍后再试下",
+    "ru": "У вас слабый сигнал сети, временно не могу %s. Пожалуйста, попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_to_query_traffic",
+    "zh": "无法获取实时路况，请检查网络设置",
+    "ru": "Не удалось получить данные о дорожной обстановке в реальном времени. Проверьте настройки сети.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_traffic_restriction_1",
+    "zh": "网络不给力，暂时不能查询限号情况哦，等下再试试吧",
+    "ru": "Сеть работает нестабильно, пока не могу проверить информацию об ограничениях по номерам. Попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_traffic_restriction_2",
+    "zh": "网络遇到问题，暂时无法帮你查询限号情况，等网络好点后再试试",
+    "ru": "Возникла проблема с сетью, временно не могу проверить информацию об ограничениях по номерам. Попробуйте позже, когда соединение улучшится.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_network_traffic_restriction_3",
+    "zh": "亲的网络信号有点差，暂时无法查询限号情况，请稍后再试下",
+    "ru": "Сигнал сети слабый, пока не могу проверить информацию об ограничениях по номерам. Пожалуйста, попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_no_poi_item_tts",
+    "zh": "没有找到%s，换个地方试试",
+    "ru": "Не найдено %s. Попробуйте другой запрос.",
+    "type": "string"
+  },
+  {
+    "name": "agent_not_in_navi_cant_change_prefer",
+    "zh": "你没有在导航，无法更改导航偏好",
+    "ru": "Вы не находитесь в режиме навигации, не могу изменить предпочтения навигации.",
+    "type": "string"
+  },
+  {
+    "name": "agent_not_in_navi_for_add_poi",
+    "zh": "当前没有导航路线，将为你直接导航到%s",
+    "ru": "Сейчас маршрут не проложен, навигирую напрямую до %s",
+    "type": "string"
+  },
+  {
+    "name": "agent_noting_to_cancel_favorite",
+    "zh": "没有可以取消收藏的地点",
+    "ru": "Нет мест, которые можно убрать из избранного",
+    "type": "string"
+  },
+  {
+    "name": "agent_noting_to_favorite",
+    "zh": "没有可以收藏的地点",
+    "ru": "Нет мест, которые можно добавить в избранное",
+    "type": "string"
+  },
+  {
+    "name": "agent_only_support_query_traffic_curent_to_destination",
+    "zh": "只支持查询当前位置到目的地的路况哦",
+    "ru": "Дорожную ситуацию можно узнать только по маршруту от текущего местоположения до пункта назначения",
+    "type": "string"
+  },
+  {
+    "name": "agent_open_map_tts",
+    "zh": "您已经在导航中,我好像不需要这么做",
+    "ru": "Вы уже в навигаторе, мне, кажется, не нужно так делать",
+    "type": "string"
+  },
+  {
+    "name": "agent_open_map_tts_background",
+    "zh": "好的，正在为您打开导航",
+    "ru": "Хорошо, включаю навигацию",
+    "type": "string"
+  },
+  {
+    "name": "agent_please_speak_sure_or_cancel",
+    "zh": "请说确定或取消",
+    "ru": "Скажите «Ок» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "agent_poi_timeout_hint_word",
+    "zh": "你可以跟我说第几个或取消",
+    "ru": "Скажите номер или «Отменить»",
+    "type": "string"
+  },
+  {
+    "name": "agent_poi_timeout_hint_word2",
+    "zh": "请先选择地点，然后再做其他事情",
+    "ru": "Пожалуйста, сначала выберите место, а затем выполняйте другие действия.",
+    "type": "string"
+  },
+  {
+    "name": "agent_preference_gas_station_sinopec_petrochina",
+    "zh": "中石油#中石化",
+    "ru": "CNPC#Sinopec",
+    "type": "string"
+  },
+  {
+    "name": "agent_road_search_gas_station_name",
+    "zh": "加油站",
+    "ru": "Заправка",
+    "type": "string"
+  },
+  {
+    "name": "agent_road_search_routeplan",
+    "zh": "路线规划中…",
+    "ru": "Построение маршрута…",
+    "type": "string"
+  },
+  {
+    "name": "agent_route_cond_info",
+    "zh": "去%s有%s拥堵，预计需要%s",
+    "ru": "До %s — %s пробка, в пути %s",
+    "type": "string"
+  },
+  {
+    "name": "agent_route_not_cond",
+    "zh": "去%s不堵车",
+    "ru": "Без пробок до %s",
+    "type": "string"
+  },
+  {
+    "name": "agent_search_poi_hint_word",
+    "zh": "%1$s位于%2$s，需要为你导航到这里吗？",
+    "ru": "%1$s находится в %2$s, начать навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_search_poi_hint_word_no_address",
+    "zh": "需要为你导航到这里吗？",
+    "ru": "Начать навигацию?",
+    "type": "string"
+  },
+  {
+    "name": "agent_search_poi_hint_word_not_in_city",
+    "zh": "%1$s位于%2$s",
+    "ru": "%1$s находится в %2$s",
+    "type": "string"
+  },
+  {
+    "name": "agent_search_poi_retry_hint_word",
+    "zh": "我听不懂你在说什么，需要为你导航到%s吗？",
+    "ru": "Я не понимаю, что вы говорите. Проложить маршрут до %s?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_add_poi_item_tts",
+    "zh": "找到多个%s，你要把第几个设为途经点？",
+    "ru": "Найдено несколько %s. Какой из них вы хотите сделать промежуточной точкой?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_city_item_tts",
+    "zh": "在以下城市找到相关结果，你想选第几个？",
+    "ru": "В следующих городах найдены соответствующие результаты. Какой из них вы хотите выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_add_poi_in_navi",
+    "zh": "你要把第几个设为途经点",
+    "ru": "Какой из них вы хотите сделать промежуточной точкой?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_as_destination_tts",
+    "zh": "找到多个%s，你要把第几个设为目的地",
+    "ru": "Найдено несколько %s, какой из них вы хотите установить в качестве пункта назначения?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_company_tts",
+    "zh": "你要把第几个设为公司",
+    "ru": "Какой из них вы хотите установить в качестве компании?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_dest",
+    "zh": "目的地",
+    "ru": "Пункт назначения",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_exception_final_duplex",
+    "zh": "有需要再叫我",
+    "ru": "Зовите, если нужно.",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_exception_final_single",
+    "zh": "我先退下了",
+    "ru": "Я пока откланяюсь.",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_exception_usual",
+    "zh": "请选择路线，然后再做其他事情",
+    "ru": "Пожалуйста, выберите маршрут, а затем займитесь другими делами.",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_first",
+    "zh": "第一条",
+    "ru": "Первый",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_fleet_tts",
+    "zh": "你要把第几个设为集结点",
+    "ru": "Какой из них ты хочешь сделать местом сбора?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_for_destination_tts",
+    "zh": "找到多个%s，你要把第几个设为终点",
+    "ru": "Найдено несколько %s, какой из них вы хотите установить в качестве конечной точки?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_for_start_tts",
+    "zh": "找到多个%s，你要把第几个设为起点",
+    "ru": "Найдено несколько %s. Какой из них установить в качестве начальной точки?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_home_tts",
+    "zh": "你要把第几个设为家",
+    "ru": "Какой из них сделать домом?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_in_city_tts",
+    "zh": "在%1$s找到多个%2$s，你想选第几个",
+    "ru": "В %1$s найдено несколько %2$s. Какой из них вы хотите выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_only",
+    "zh": "已经规划到%1$s的路线，全程%2$s，大约需要%3$s",
+    "ru": "Маршрут до %1$s проложен, расстояние %2$s, время в пути — %3$s",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_only_with_via",
+    "zh": "已经规划到%1$s途经%2$s路线，全程%3$s，大约需要%4$s",
+    "ru": "Маршрут до %1$s через %2$s построен. Общая дистанция %3$s, ориентировочное время в пути %4$s",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_poi_exception_usual",
+    "zh": "请选择地点，然后再做其他事情",
+    "ru": "Пожалуйста, выберите место, а затем мы продолжим.",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_start_navi",
+    "zh": "好的，即将按照第%1$d条路线开始导航",
+    "ru": "Хорошо, скоро начну навигацию по маршруту №%1$d.",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_tts",
+    "zh": "找到多个%s，你想选第几个",
+    "ru": "Найдено несколько %s, какой из них вы хотите выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_tts_not_in_distance",
+    "zh": "%1$s附近%2$s没有%3$s，我扩大搜索范围后找到一些，你要去第几个",
+    "ru": "Рядом с %1$s в %2$s нет %3$s. Я расширил поиск и нашёл несколько вариантов. Какое из них вы хотите выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_tts_with_distance",
+    "zh": "在%1$s附近%2$s找到多个%3$s，你想选第几个",
+    "ru": "Рядом с %1$s %2$s нашёл несколько %3$s. Какой из них вы хотите выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_item_tts_with_distance2",
+    "zh": "找到多个%s，你想选第几个",
+    "ru": "Найдено несколько %s, какой из них выбрать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_select_traffic_poi_tts",
+    "zh": "在%1$s找到多条%2$s，你要查询第几个？",
+    "ru": "В %1$s найдено несколько %2$s, какой из них вы хотите посмотреть?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_company_timeout_tts",
+    "zh": "请告诉我公司的地址",
+    "ru": "Пожалуйста, сообщите адрес компании.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_company_tts",
+    "zh": "我还不知道公司的地址,需要设置在哪里？",
+    "ru": "Я ещё не знаю адрес компании, куда его указать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_dest_as_fleet_point",
+    "zh": "已经发起集结了，需要将目的地设置为集结点吗？",
+    "ru": "Сбор уже инициирован, нужно установить пункт сбора в качестве пункта назначения?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_dest_for_fleet_point",
+    "zh": "已经将目的地设置为集结点",
+    "ru": "Пункт назначения уже установлен в качестве пункта сбора.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_favorite_timeout_tts",
+    "zh": "请告诉你要收藏的的地址",
+    "ru": "Пожалуйста, сообщите адрес, который вы хотите добавить в избранное.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_favorite_tts",
+    "zh": "你要收藏哪里",
+    "ru": "Куда в избранное?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_fleet_error_tts",
+    "zh": "集结号错误或已过期，请再说一次吧",
+    "ru": "Код сбора неверен или устарел, повторите, пожалуйста",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_fleet_point_already",
+    "zh": "已经把%s设为集结点了",
+    "ru": "Точка сбора %s уже установлена.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_fleet_point_then_navi_to_fleet_point",
+    "zh": "请先设置集结点，再导航到集结点",
+    "ru": "Сначала задайте точку сбора, затем перейдите к навигации на неё.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_fleet_point_tts",
+    "zh": "你要把哪里设为集结点",
+    "ru": "Какое место ты хочешь назначить точкой сбора?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_fleet_tts",
+    "zh": "你要加入的六位集结号是多少",
+    "ru": "Какой шестизначный код сбора вы хотите ввести?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_home_or_company",
+    "zh": "你好像没有设置%1$s的地址，请设置",
+    "ru": "Похоже, вы не указали адрес для %1$s, пожалуйста, укажите его.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_home_or_company_exception_tts",
+    "zh": "请先设置%1$s的地址，然后在做其他事情",
+    "ru": "Пожалуйста, сначала укажите адрес %1$s, а затем переходите к другим действиям.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_home_timeout_tts",
+    "zh": "请告诉我家的地址",
+    "ru": "Пожалуйста, скажите адрес вашего дома.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_home_tts",
+    "zh": "我还不知道家的地址,需要设置在哪里？",
+    "ru": "Я пока не знаю адрес дома. Куда его указать?",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_no_poi_destenaton_tts",
+    "zh": "请先设置目的地，然后在做其他事情",
+    "ru": "Сначала укажите пункт назначения, а потом займёмся остальным.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_no_poi_tts",
+    "zh": "请先设置地点，然后在做其他事情",
+    "ru": "Сначала укажите место, а потом займёмся остальным.",
+    "type": "string"
+  },
+  {
+    "name": "agent_set_not_fleet_point_and_set_tts",
+    "zh": "你好像没有设置集结点，你要把哪里设置为集结点",
+    "ru": "Похоже, точка сбора не указана. Куда хотите её установить?",
+    "type": "string"
+  },
+  {
+    "name": "agent_speak_out_your_add_poi_in_navi",
+    "zh": "请说出你要添加的途经点",
+    "ru": "Назовите промежуточную точку, которую хотите добавить.",
+    "type": "string"
+  },
+  {
+    "name": "agent_speak_out_your_add_poi_not_navi",
+    "zh": "当前没有导航路线，请说出你要前往的目的地",
+    "ru": "Сейчас нет активного маршрута. Назовите пункт назначения.",
+    "type": "string"
+  },
+  {
+    "name": "agent_speech_quit_word",
+    "zh": "我先退下了，有需要再叫我吧",
+    "ru": "Я пока отойду, если понадобится — зовите.",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_fleet_then_navi_to_fleet_point",
+    "zh": "请先发起集结，再导航到集结点",
+    "ru": "Сначала запустите сбор, а затем настройте навигацию до точки сбора.",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_fleet_then_set_fleet_point",
+    "zh": "请先发起集结，再设置集结点",
+    "ru": "Сначала начните сбор, затем установите точку сбора",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_navi",
+    "zh": "确定路线后请说开始导航",
+    "ru": "После прокладки маршрута скажите «Начать навигацию»",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_navi_new",
+    "zh": "好的，按照第%d条路线为您导航",
+    "ru": "Хорошо, навигация по %d-му маршруту",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_navigation_no_slot",
+    "zh": "您不在导航中，无法开始导航",
+    "ru": "Вы не в режиме навигации, поэтому не можете её запустить",
+    "type": "string"
+  },
+  {
+    "name": "agent_start_navigation_soon",
+    "zh": "好的，即将开始导航",
+    "ru": "Хорошо, навигация скоро начнётся",
+    "type": "string"
+  },
+  {
+    "name": "agent_sure",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "agent_tell_me_your_dest_point",
+    "zh": "请告诉我终点",
+    "ru": "Куда едем?",
+    "type": "string"
+  },
+  {
+    "name": "agent_tell_me_your_destination",
+    "zh": "请告诉我目的地",
+    "ru": "Назовите пункт назначения",
+    "type": "string"
+  },
+  {
+    "name": "agent_tell_me_your_fleet_point",
+    "zh": "请告诉我集结点",
+    "ru": "Скажите мне точку сбора",
+    "type": "string"
+  },
+  {
+    "name": "agent_tell_me_your_start_poi",
+    "zh": "请告诉我起点",
+    "ru": "Скажите мне точку отправления",
+    "type": "string"
+  },
+  {
+    "name": "agent_time_distance_request_fail",
+    "zh": "现在的网络似乎不好，请稍后重试",
+    "ru": "Похоже, сейчас плохое подключение к сети. Попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "agent_tips_sug_empty",
+    "zh": "抱歉，没有找到结果",
+    "ru": "К сожалению, ничего не найдено.",
+    "type": "string"
+  },
+  {
+    "name": "agent_trip_tip_target_message_tts",
+    "zh": "这样会更改当前导航的终点，请说确定或取消",
+    "ru": "Это изменит точку назначения текущего маршрута. Скажите «Подтвердить» или «Отмена»",
+    "type": "string"
+  },
+  {
+    "name": "agent_tts_not_in_navi_for_overview",
+    "zh": "你没有在导航，无法查看全览",
+    "ru": "Вы не в режиме навигации, поэтому просмотр обзора недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "agent_tts_time_out_add_poi",
+    "zh": "请告诉我途经点",
+    "ru": "Скажите мне промежуточные точки",
+    "type": "string"
+  },
+  {
+    "name": "agent_tts_time_out_search_poi",
+    "zh": "请告诉我地点",
+    "ru": "Скажите мне местоположение",
+    "type": "string"
+  },
+  {
+    "name": "agent_where_you_go",
+    "zh": "我还不知道目的地,需要导航去哪里？",
+    "ru": "Я пока не знаю, куда мы едем. Куда вам нужно?",
+    "type": "string"
+  },
+  {
+    "name": "agent_you_are_in_navi",
+    "zh": "你已经在导航中",
+    "ru": "Вы уже в навигации.",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "语音助手",
+    "ru": "Голосовой помощник",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "command_not_match",
+    "zh": "这个我还不懂，要先学一下|你说的我还不会，我学习去啦|我没有听懂，换个说法好吗|抱歉，这个问题超纲了|抱歉，我还不会这项技能",
+    "ru": "Пока не понимаю, нужно сначала разобраться|Я ещё не умею этого, пойду учиться!|Не понял, можно сказать по-другому?|Извините, этот вопрос выходит за рамки программы|Извините, я пока не освоил этот навык",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "data_error",
+    "zh": "语音数据异常",
+    "ru": "Ошибка голосовых данных",
+    "type": "string"
+  },
+  {
+    "name": "dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_sure",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "duplex_open_now",
+    "zh": "现在开启",
+    "ru": "Включить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "duplex_switch_opened",
+    "zh": "已为你打开连续对话开关",
+    "ru": "Режим непрерывного диалога включён.",
+    "type": "string"
+  },
+  {
+    "name": "duplex_tip_1",
+    "zh": "只需唤醒一次，语音就可进行连续对话，快去打开开关吧。",
+    "ru": "Достаточно одного пробуждения, и голосовой ассистент сможет вести непрерывный диалог. Включите переключатель!",
+    "type": "string"
+  },
+  {
+    "name": "duplex_tip_2",
+    "zh": "我们的连续对话，还支持实时打断喔，快去打开开关吧。",
+    "ru": "Наш режим непрерывного диалога также поддерживает прерывание в реальном времени. Скорее включите переключатель!",
+    "type": "string"
+  },
+  {
+    "name": "duplex_tip_title_1",
+    "zh": "诚邀你体验全新功能",
+    "ru": "Приглашаем вас попробовать совершенно новые функции",
+    "type": "string"
+  },
+  {
+    "name": "duplex_tip_title_2",
+    "zh": "诚邀你体验全新功能",
+    "ru": "Приглашаем вас попробовать совершенно новые функции",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "hint",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "m1004",
+    "zh": "有需要再叫我吧",
+    "ru": "Если что нужно, просто скажи.",
+    "type": "string"
+  },
+  {
+    "name": "m1042",
+    "zh": "我要先学一下才能回答你|换个说法再和我说一次吧|超出我的知识范围了",
+    "ru": "Мне нужно сначала разобраться, чтобы ответить тебе|Перефразируй, пожалуйста, и скажи мне снова|Это выходит за рамки моих знаний",
+    "type": "string"
+  },
+  {
+    "name": "m1104",
+    "zh": "没有安装这个应用呦",
+    "ru": "Это приложение не установлено",
+    "type": "string"
+  },
+  {
+    "name": "m1508",
+    "zh": "我没有%1$s的电话信息，无法拨打电话",
+    "ru": "У меня нет контактных данных для %1$s, поэтому я не могу позвонить.",
+    "type": "string"
+  },
+  {
+    "name": "m2011",
+    "zh": "现在出发,到%1$s，全程%2$s，预计花费%3$s，%4$s到达，路况%5$s",
+    "ru": "Выезжаем сейчас, до %1$s, весь путь %2$s, в пути %3$s, прибудем в %4$s, дорожная обстановка %5$s",
+    "type": "string"
+  },
+  {
+    "name": "m2012",
+    "zh": "现在出发,去%1$s，全程%2$s，预计花费%3$s，%4$s到达，路况%5$s",
+    "ru": "Выезжаем сейчас, в %1$s, весь путь %2$s, в пути %3$s, прибудем в %4$s, дорожная обстановка %5$s",
+    "type": "string"
+  },
+  {
+    "name": "m2404",
+    "zh": "这个应用还不能这样操作哦",
+    "ru": "В этом приложении пока так нельзя",
+    "type": "string"
+  },
+  {
+    "name": "m2502",
+    "zh": "这个应用不支持语音操作",
+    "ru": "Это приложение не поддерживает голосовое управление",
+    "type": "string"
+  },
+  {
+    "name": "main_wakeupword_closed_role_tip",
+    "zh": "已为您切换到%1$s",
+    "ru": "Переключено на %1$s",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_cur_road_limit_speed_tip",
+    "zh": "当前道路限速%s公里/小时",
+    "ru": "Ограничение скорости на текущем участке: %s км/ч",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_cur_speed",
+    "zh": ", 当前车速",
+    "ru": ", текущая скорость",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_limit_no_speed_tip",
+    "zh": "当前道路没有明确限速，还是不要超速哦",
+    "ru": "На этом участке дороги нет чёткого ограничения скорости, так что лучше не превышать",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_limit_speed",
+    "zh": "限速",
+    "ru": "Ограничение скорости",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_limit_speed_tip",
+    "zh": ", 请谨慎驾驶",
+    "ru": ", будьте осторожны",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_net_error",
+    "zh": "服务错误，请重试",
+    "ru": "Ошибка сервиса. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "n_agent_speed_unit",
+    "zh": "公里/小时",
+    "ru": "Километры в час",
+    "type": "string"
+  },
+  {
+    "name": "n_asr_cannt_exit",
+    "zh": "无法为您退出",
+    "ru": "Не могу выполнить выход.",
+    "type": "string"
+  },
+  {
+    "name": "n_asr_navi_close",
+    "zh": "好的，已为您关闭",
+    "ru": "Хорошо, закрыто.",
+    "type": "string"
+  },
+  {
+    "name": "n_asr_not_in_navi",
+    "zh": "您现在不在导航中",
+    "ru": "Вы сейчас не в навигации.",
+    "type": "string"
+  },
+  {
+    "name": "n_maphome_data_tip_no_net_no_data",
+    "zh": "缺少离线数据，请下载或使用在线导航",
+    "ru": "Отсутствуют офлайн-данные. Скачайте их или используйте онлайн-навигацию",
+    "type": "string"
+  },
+  {
+    "name": "n_poi_detail_duplicate_collection",
+    "zh": "您已经收藏过该地点了",
+    "ru": "Вы уже добавили это место в избранное.",
+    "type": "string"
+  },
+  {
+    "name": "n_team_trip_dialog_delete_target",
+    "zh": "是否删除当前集结点",
+    "ru": "Удалить текущую точку сбора?",
+    "type": "string"
+  },
+  {
+    "name": "n_team_trip_dialog_delete_target_text",
+    "zh": "这会影响其他集结队员",
+    "ru": "Это повлияет на других участников сбора",
+    "type": "string"
+  },
+  {
+    "name": "n_team_trip_join_fail_for_num_error",
+    "zh": "集结号错误或集结已过期",
+    "ru": "Код сбора неверен или срок действия истёк",
+    "type": "string"
+  },
+  {
+    "name": "n_team_trip_tip_rg_target",
+    "zh": "导航到集结点",
+    "ru": "Навигация к точке сбора",
+    "type": "string"
+  },
+  {
+    "name": "n_team_trip_tip_target_message",
+    "zh": "这样会更改当前导航的终点",
+    "ru": "Это изменит пункт назначения текущей навигации",
+    "type": "string"
+  },
+  {
+    "name": "network_is_unavailable",
+    "zh": "[em3]现在的网络还有点问题，稍微等等吧|[em3]我发现网络出问题了，等一下再试吧|[em2]现在网络信号差，深蓝暂时帮不了你，晚点再找我吧|[em2]网络开小差了，深蓝在隧道、车库等地方暂时不能服务你了，稍后再呼唤我吧",
+    "ru": "[em3]Сеть пока работает нестабильно, подождите немного|[em3]Похоже, сеть работает со сбоями, попробуйте позже|[em2]Сейчас слабый сигнал, Deepal пока не может помочь, попробуйте позже|[em2]Сеть немного сбоит, Deepal не может работать в тоннелях, гаражах и подобных местах, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "network_is_weak",
+    "zh": "[em3]网络出小差了，稍后再试吧|[em1]哎呀，网络出走了，等一下再试吧|[em7]网络好像消失在宇宙中啦，稍后再试吧",
+    "ru": "[em3]Сеть немного сбоит, попробуйте позже|[em1]Ой, сеть куда-то убежала, подождите немного и попробуйте снова|[em7]Сеть, похоже, исчезла во вселенной, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "permission_overlay_request",
+    "zh": "语音运行时需要显示在其他应用上层，请授予相关权限",
+    "ru": "Для работы голосового помощника требуется отображение поверх других приложений. Предоставьте соответствующие разрешения.",
+    "type": "string"
+  },
+  {
+    "name": "s1004",
+    "zh": "网络不佳，晚点再试试吧。|网络不太好，稍后再试试吧",
+    "ru": "Плохое подключение к сети, попробуйте позже. | Подключение к сети не очень стабильно, попробуйте чуть позже",
+    "type": "string"
+  },
+  {
+    "name": "sdk_rg_refresh_tip_no_network",
+    "zh": "无网络连接，请检查网络或重试",
+    "ru": "Нет подключения к сети. Проверьте соединение или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "start_load_apk_resource_fail_msg",
+    "zh": "配置加载错误，部分功能可能出现异常",
+    "ru": "Ошибка загрузки конфигурации, возможны сбои в работе отдельных функций",
+    "type": "string"
+  },
+  {
+    "name": "status_data_failed",
+    "zh": "语音数据异常",
+    "ru": "Ошибка речевых данных",
+    "type": "string"
+  },
+  {
+    "name": "status_data_preparing",
+    "zh": "正在准备语音数据",
+    "ru": "Идёт подготовка речевых данных",
+    "type": "string"
+  },
+  {
+    "name": "status_launching",
+    "zh": "语音引擎启动中",
+    "ru": "Речевой движок запускается",
+    "type": "string"
+  },
+  {
+    "name": "status_ready",
+    "zh": "语音引擎启动完毕",
+    "ru": "Запуск речевого движка завершён",
+    "type": "string"
+  },
+  {
+    "name": "storage_not_enough",
+    "zh": "系统存储空间不足，请清理至少200M空间后再使用",
+    "ru": "Недостаточно места в системном хранилище. Освободите не менее 200 МБ перед использованием",
+    "type": "string"
+  },
+  {
+    "name": "toast_permission_not_granted",
+    "zh": "语音需要必要的权限以保证正常运行",
+    "ru": "Для нормальной работы голосового помощника требуются необходимые разрешения.",
+    "type": "string"
+  },
+  {
+    "name": "try_text_header",
+    "zh": "试试说",
+    "ru": "Попробуйте сказать",
+    "type": "string"
+  },
+  {
+    "name": "voice_network_is_unavailable2",
+    "zh": "当前网络连接异常，请检查网络",
+    "ru": "Сбой подключения к сети. Проверьте подключение к интернету.",
+    "type": "string"
+  },
+  {
+    "name": "voice_not_support",
+    "zh": "暂不支持该功能",
+    "ru": "Эта функция пока не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "voice_tencent_video_had_opened",
+    "zh": "腾讯视频已打开",
+    "ru": "Tencent Video уже открыто.",
+    "type": "string"
+  },
+  {
+    "name": "voice_video_children_shentandui",
+    "zh": "一起来探索世界动物之谜吧。",
+    "ru": "Давайте вместе откроем тайны животного мира!",
+    "type": "string"
+  },
+  {
+    "name": "voice_video_children_wangwangdui",
+    "zh": "汪汪队来啦，没有困难的工作，只有勇敢的狗狗，相信你也是个勇敢的小朋友。",
+    "ru": "«Щенячий патруль» пришёл! Нет сложных задач, есть только смелые щенки. Я верю, что ты тоже смелый ребёнок.",
+    "type": "string"
+  },
+  {
+    "name": "voice_video_children_xiaozhupeiqi",
+    "zh": "大家都喜欢在泥坑里跳来跳去，小朋友你呢？",
+    "ru": "Все любят прыгать по лужам, а ты, малыш?",
+    "type": "string"
+  },
+  {
+    "name": "voice_video_children_xiongchumo",
+    "zh": "来一起看看熊大熊二又发生了什么吧。",
+    "ru": "Давайте посмотрим, что же снова приключилось с Бумом и Бэмом.",
+    "type": "string"
+  },
+  {
+    "name": "voice_video_children_xiyangyang",
+    "zh": "猜猜这次灰太狼抓到羊了吗？",
+    "ru": "Угадай, поймал ли Серый Волк овцу на этот раз?",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "name": "app_label",
+    "zh": "输入设备",
+    "ru": "Устройство ввода",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_arabic",
+    "zh": "阿拉伯语",
+    "ru": "Арабский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_azerbaijani",
+    "zh": "阿塞拜疆语",
+    "ru": "Азербайджанский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_belgian",
+    "zh": "比利时语",
+    "ru": "Бельгийский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_brazilian",
+    "zh": "巴西语",
+    "ru": "Бразильский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_bulgarian",
+    "zh": "保加利亚语",
+    "ru": "Болгарский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_croatian",
+    "zh": "克罗地亚语",
+    "ru": "Хорватский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_czech",
+    "zh": "捷克语",
+    "ru": "Чешский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_danish",
+    "zh": "丹麦语",
+    "ru": "Датский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_uk_label",
+    "zh": "英语（英国）",
+    "ru": "Английский (Великобритания)",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_us_colemak_label",
+    "zh": "英语（美国），Colemak 风格",
+    "ru": "Английский (США), раскладка Colemak",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_us_dvorak_label",
+    "zh": "英语（美国），Dvorak 风格",
+    "ru": "Английский (США), раскладка Dvorak",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_us_intl",
+    "zh": "英语（美国），国际风格",
+    "ru": "Английский (США), раскладка International",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_us_label",
+    "zh": "英语（美国）",
+    "ru": "Английский (США)",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_english_us_workman_label",
+    "zh": "英语（美国），Workman 风格",
+    "ru": "Английский (США), раскладка Workman",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_estonian",
+    "zh": "爱沙尼亚语",
+    "ru": "Эстонский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_finnish",
+    "zh": "芬兰语",
+    "ru": "Финский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_french_ca_label",
+    "zh": "法语（加拿大）",
+    "ru": "Французский (Канада)",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_french_label",
+    "zh": "法语",
+    "ru": "Французский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_german_label",
+    "zh": "德语",
+    "ru": "Немецкий язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_greek",
+    "zh": "希腊语",
+    "ru": "Греческий",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_hebrew",
+    "zh": "希伯来语",
+    "ru": "Иврит",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_hungarian",
+    "zh": "匈牙利语",
+    "ru": "Венгерский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_icelandic",
+    "zh": "冰岛语",
+    "ru": "Исландский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_italian",
+    "zh": "意大利语",
+    "ru": "Итальянский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_latvian",
+    "zh": "拉脱维亚语",
+    "ru": "Латышский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_lithuanian",
+    "zh": "立陶宛语",
+    "ru": "Литовский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_norwegian",
+    "zh": "挪威语",
+    "ru": "Норвежский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_persian",
+    "zh": "波斯语",
+    "ru": "Персидский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_polish",
+    "zh": "波兰语",
+    "ru": "Польский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_portuguese",
+    "zh": "葡萄牙语",
+    "ru": "Португальский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_russian_label",
+    "zh": "俄语",
+    "ru": "Русский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_russian_mac_label",
+    "zh": "俄语，Mac 风格",
+    "ru": "Русский, стиль Mac",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_slovak",
+    "zh": "斯洛伐克语",
+    "ru": "Словацкий язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_slovenian",
+    "zh": "斯洛文尼亚语",
+    "ru": "Словенский язык",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_spanish_label",
+    "zh": "西班牙语",
+    "ru": "Испанский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_spanish_latin",
+    "zh": "西班牙语（拉丁美洲）",
+    "ru": "Испанский (Латинская Америка)",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_swedish",
+    "zh": "瑞典语",
+    "ru": "Шведский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_swiss_french_label",
+    "zh": "瑞士法语",
+    "ru": "Швейцарский французский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_swiss_german_label",
+    "zh": "瑞士德语",
+    "ru": "Швейцарский немецкий",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_turkish",
+    "zh": "土耳其语",
+    "ru": "Турецкий",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layout_ukrainian",
+    "zh": "乌克兰语",
+    "ru": "Украинский",
+    "type": "string"
+  },
+  {
+    "name": "keyboard_layouts_label",
+    "zh": "Android键盘",
+    "ru": "Клавиатура Android",
+    "type": "string"
+  }
+]

@@ -1,0 +1,2264 @@
+[
+  {
+    "name": "UCard_upload_tip",
+    "zh": "U盘上传提示",
+    "ru": "Загрузка с USB",
+    "type": "string"
+  },
+  {
+    "name": "all",
+    "zh": "全部",
+    "ru": "Все",
+    "type": "string"
+  },
+  {
+    "name": "already_closed",
+    "zh": "已关闭",
+    "ru": "Закрыто",
+    "type": "string"
+  },
+  {
+    "name": "already_open",
+    "zh": "已打开",
+    "ru": "Открыто",
+    "type": "string"
+  },
+  {
+    "name": "already_opened",
+    "zh": "已经打开了哦",
+    "ru": "Уже открыто",
+    "type": "string"
+  },
+  {
+    "name": "already_turned_off_sound",
+    "zh": "已经是关闭音效了",
+    "ru": "Звуковые эффекты уже отключены",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "个性化声效",
+    "ru": "Свои звуки",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "banner_purchase",
+    "zh": "购买",
+    "ru": "Купить",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_complete",
+    "zh": "点击加载更多",
+    "ru": "Загрузить ещё",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_end",
+    "zh": "没有更多数据",
+    "ru": "Нет больше данных",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_failed",
+    "zh": "加载失败，请点我重试",
+    "ru": "Загрузка не удалась. Нажмите, чтобы повторить.",
+    "type": "string"
+  },
+  {
+    "name": "brvah_loading",
+    "zh": "正在加载中...",
+    "ru": "Идёт загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "buy_or_use",
+    "zh": "购买^使用",
+    "ru": "Купить | Использовать",
+    "type": "string"
+  },
+  {
+    "name": "card_use",
+    "zh": "使用",
+    "ru": "Использовать",
+    "type": "string"
+  },
+  {
+    "name": "cheack",
+    "zh": "查看",
+    "ru": "Посмотреть",
+    "type": "string"
+  },
+  {
+    "name": "choose",
+    "zh": "选择",
+    "ru": "Выбор",
+    "type": "string"
+  },
+  {
+    "name": "classic",
+    "zh": "经典",
+    "ru": "Классика",
+    "type": "string"
+  },
+  {
+    "name": "co_pilot_seat",
+    "zh": "副驾",
+    "ru": "Пассажирское сиденье",
+    "type": "string"
+  },
+  {
+    "name": "common_text_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "cornering",
+    "zh": "转向提示音",
+    "ru": "Звук указателя поворота",
+    "type": "string"
+  },
+  {
+    "name": "cornering_dynamic",
+    "zh": "动态",
+    "ru": "Динамика",
+    "type": "string"
+  },
+  {
+    "name": "cuckoo",
+    "zh": "布谷布谷",
+    "ru": "Ку-ку",
+    "type": "string"
+  },
+  {
+    "name": "current_network_not_connect",
+    "zh": "当前网络不佳，请稍后重试",
+    "ru": "Слабое подключение к сети. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "current_school_xiha",
+    "zh": "当前流派：嘻哈",
+    "ru": "Текущий жанр: хип-хоп",
+    "type": "string"
+  },
+  {
+    "name": "current_sound_effect_not_support_equalizer",
+    "zh": "当前音效不支持均衡调节",
+    "ru": "Текущий звуковой эффект не поддерживает настройку эквалайзера",
+    "type": "string"
+  },
+  {
+    "name": "current_sound_not_support_custom_sound_settings",
+    "zh": "当前音效不支持自定义声场设置",
+    "ru": "Текущий звуковой эффект не поддерживает настройку пользовательского звукового поля",
+    "type": "string"
+  },
+  {
+    "name": "current_sound_not_support_settings",
+    "zh": "当前音效不支持%1$s声场设置",
+    "ru": "Текущий звуковой эффект не поддерживает настройки звукового поля %1$s",
+    "type": "string"
+  },
+  {
+    "name": "current_sound_not_support_x_sound",
+    "zh": "当前音效不支持切换到%1$s音效",
+    "ru": "Текущий звуковой эффект не поддерживает переключение на эффект %1$s",
+    "type": "string"
+  },
+  {
+    "name": "current_sound_type_is_closed",
+    "zh": "当前音效模式是关闭的哦",
+    "ru": "Режим звуковых эффектов в данный момент отключен",
+    "type": "string"
+  },
+  {
+    "name": "custom_record",
+    "zh": "我创建的",
+    "ru": "Созданное мной",
+    "type": "string"
+  },
+  {
+    "name": "customize",
+    "zh": "自定义",
+    "ru": "Настройка",
+    "type": "string"
+  },
+  {
+    "name": "db0",
+    "zh": "0分贝",
+    "ru": "0 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db100",
+    "zh": "100分贝",
+    "ru": "100 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db110",
+    "zh": "110分贝",
+    "ru": "110 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db120",
+    "zh": "120分贝",
+    "ru": "120 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db50",
+    "zh": "50分贝",
+    "ru": "50 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db75",
+    "zh": "75分贝",
+    "ru": "75 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db80",
+    "zh": "80分贝",
+    "ru": "80 децибел",
+    "type": "string"
+  },
+  {
+    "name": "db90",
+    "zh": "90分贝",
+    "ru": "90 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_record_title",
+    "zh": "录音名称",
+    "ru": "Название записи",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_1",
+    "zh": "75分贝",
+    "ru": "75 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_2",
+    "zh": "80分贝",
+    "ru": "80 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_3",
+    "zh": "90分贝",
+    "ru": "90 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_4",
+    "zh": "100分贝",
+    "ru": "100 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_5",
+    "zh": "110分贝",
+    "ru": "110 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_6",
+    "zh": "120分贝",
+    "ru": "120 децибел",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_1",
+    "zh": "127小时/7天",
+    "ru": "127 ч / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_2",
+    "zh": "40小时/7天",
+    "ru": "40 ч / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_3",
+    "zh": "4小时/7天",
+    "ru": "4 ч / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_4",
+    "zh": "24分钟/7天",
+    "ru": "24 мин / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_5",
+    "zh": "2分钟/7天",
+    "ru": "2 мин / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_cycle_6",
+    "zh": "23秒/7天",
+    "ru": "23 сек / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_1",
+    "zh": "使用吸尘器",
+    "ru": "Работа пылесоса",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_2",
+    "zh": "嘈杂的办公室",
+    "ru": "Шумный офис",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_3",
+    "zh": "重型卡车通过",
+    "ru": "Проезд тяжёлых грузовиков",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_4",
+    "zh": "切割中的电器",
+    "ru": "Работающий электроинструмент",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_5",
+    "zh": "摇滚音乐会现场",
+    "ru": "Живой рок-концерт",
+    "type": "string"
+  },
+  {
+    "name": "dialog_report_item_decibel_hint_6",
+    "zh": "近距离放爆竹",
+    "ru": "Взрыв петард вблизи",
+    "type": "string"
+  },
+  {
+    "name": "dongtai",
+    "zh": "动态",
+    "ru": "Динамика",
+    "type": "string"
+  },
+  {
+    "name": "download_fail",
+    "zh": "下载失败，请稍后重试",
+    "ru": "Не удалось загрузить, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "download_in_progress",
+    "zh": "下载中",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "download_no_net",
+    "zh": "网络异常，请联网重试",
+    "ru": "Сбой сети, подключитесь к интернету и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "download_success",
+    "zh": "下载成功",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "downloading",
+    "zh": "下载中",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "driver_seat",
+    "zh": "主驾",
+    "ru": "Сиденье водителя",
+    "type": "string"
+  },
+  {
+    "name": "edit_clear_description",
+    "zh": "清除^清空^删除",
+    "ru": "Очистить^Очистить^Удалить",
+    "type": "string"
+  },
+  {
+    "name": "edit_name_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "edit_name_please_input",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "edit_name_title",
+    "zh": "重命名",
+    "ru": "Переименовать",
+    "type": "string"
+  },
+  {
+    "name": "edit_warn",
+    "zh": "请输入有效字符",
+    "ru": "Введите допустимые символы",
+    "type": "string"
+  },
+  {
+    "name": "ethereal",
+    "zh": "空灵",
+    "ru": "Эфирный",
+    "type": "string"
+  },
+  {
+    "name": "expanse_of_sky",
+    "zh": "天空之瀚",
+    "ru": "Бескрайность небес",
+    "type": "string"
+  },
+  {
+    "name": "explose_hear",
+    "zh": "暴露量限制",
+    "ru": "Лимит воздействия",
+    "type": "string"
+  },
+  {
+    "name": "explose_hear_two",
+    "zh": "长期、持续暴露于高噪音环境中可能会导致听力永久损伤",
+    "ru": "Длительное и постоянное воздействие высокого уровня шума может привести к необратимому повреждению слуха.",
+    "type": "string"
+  },
+  {
+    "name": "exposure_prompt",
+    "zh": "长期、持续暴露于高噪声环境中可能会导致听力永久损伤",
+    "ru": "Длительное и постоянное воздействие высокого уровня шума может привести к необратимому повреждению слуха.",
+    "type": "string"
+  },
+  {
+    "name": "exposure_prompt_dialog_time",
+    "zh": "127小时/7天",
+    "ru": "127 ч / 7 дней",
+    "type": "string"
+  },
+  {
+    "name": "exposure_prompt_dialog_title",
+    "zh": "暴露量限制",
+    "ru": "Лимит воздействия",
+    "type": "string"
+  },
+  {
+    "name": "farewell_switch_explanation",
+    "zh": "当主驾开门下车时，播放欢送音效",
+    "ru": "При открытии двери и выходе водителя из автомобиля воспроизводится звук прощания.",
+    "type": "string"
+  },
+  {
+    "name": "file_name_non_standard",
+    "zh": "下载失败：资源名称不符合协议",
+    "ru": "Ошибка загрузки: имя ресурса не соответствует протоколу",
+    "type": "string"
+  },
+  {
+    "name": "full_car",
+    "zh": "全车",
+    "ru": "Весь автомобиль",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "get_off_car",
+    "zh": "下车",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "get_on_car",
+    "zh": "上车",
+    "ru": "В салоне",
+    "type": "string"
+  },
+  {
+    "name": "hand_off",
+    "zh": "切换",
+    "ru": "Переключение",
+    "type": "string"
+  },
+  {
+    "name": "hand_off_to",
+    "zh": "切换到",
+    "ru": "Переключить на",
+    "type": "string"
+  },
+  {
+    "name": "have_pay",
+    "zh": "已购%1$s",
+    "ru": "Куплено %1$s",
+    "type": "string"
+  },
+  {
+    "name": "healthy",
+    "zh": "正常",
+    "ru": "В норме",
+    "type": "string"
+  },
+  {
+    "name": "hearing_report",
+    "zh": "音量检测",
+    "ru": "Измерение громкости",
+    "type": "string"
+  },
+  {
+    "name": "hearing_report_content",
+    "zh": "这是一份计算后的声音报告，让您了解车内声音环境是否有利于健康",
+    "ru": "Это расчётный акустический отчёт, который поможет вам понять, благоприятна ли звуковая среда в салоне автомобиля для здоровья.",
+    "type": "string"
+  },
+  {
+    "name": "hearing_report_date",
+    "zh": "%1$d年%2$d月%3$d日-%4$d年%5$d月%6$d日",
+    "ru": "%1$d г. %2$d мес. %3$d дн. — %4$d г. %5$d мес. %6$d дн.",
+    "type": "string"
+  },
+  {
+    "name": "hifi_original_sound",
+    "zh": "HiFi原声",
+    "ru": "Оригинальный звук HiFi",
+    "type": "string"
+  },
+  {
+    "name": "hour",
+    "zh": "%1$d小时",
+    "ru": "%1$d часов",
+    "type": "string"
+  },
+  {
+    "name": "information_tip",
+    "zh": "信息提示音",
+    "ru": "Звук уведомления",
+    "type": "string"
+  },
+  {
+    "name": "low_speed",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_close",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_open",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_tab",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "low_speed_tip",
+    "zh": "\"根据国家相关法规要求，车辆低速行驶时，车外扬声器应发声提示行人注意车辆。\n若关闭此功能，下次开机时，仍会自动开启。\"",
+    "ru": "\"Согласно требованиям национальных нормативных актов, при движении автомобиля на низкой скорости внешняя акустическая система должна издавать звуковой сигнал, предупреждающий пешеходов об автомобиле.\\nЕсли отключить эту функцию, при следующем включении она будет активирована автоматически.\"",
+    "type": "string"
+  },
+  {
+    "name": "max_supported_5_seconds",
+    "zh": "最多支持5s时长",
+    "ru": "До 5 с",
+    "type": "string"
+  },
+  {
+    "name": "mechanical",
+    "zh": "机械",
+    "ru": "Механический",
+    "type": "string"
+  },
+  {
+    "name": "media_effect",
+    "zh": "媒体音效",
+    "ru": "Звуковые эффекты медиа",
+    "type": "string"
+  },
+  {
+    "name": "mine",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "mine_already_create",
+    "zh": "已创建%1$s",
+    "ru": "Создано %1$s",
+    "type": "string"
+  },
+  {
+    "name": "minute",
+    "zh": "%1$d分",
+    "ru": "%1$d мин",
+    "type": "string"
+  },
+  {
+    "name": "more_content",
+    "zh": "更多内容",
+    "ru": "Больше контента",
+    "type": "string"
+  },
+  {
+    "name": "mute_switch_explanation",
+    "zh": "当车辆闭锁成功时，车外扬声器发出提示音",
+    "ru": "При успешной блокировке автомобиля внешний динамик издает звуковой сигнал",
+    "type": "string"
+  },
+  {
+    "name": "my_pay",
+    "zh": "我购买的",
+    "ru": "Мои покупки",
+    "type": "string"
+  },
+  {
+    "name": "name_already_exits",
+    "zh": "此名称已被占用，请输入其他名称",
+    "ru": "Это имя уже занято, введите другое",
+    "type": "string"
+  },
+  {
+    "name": "no_content",
+    "zh": "无添加记录",
+    "ru": "Нет добавленных записей",
+    "type": "string"
+  },
+  {
+    "name": "no_pay_content",
+    "zh": "无购买记录",
+    "ru": "Нет истории покупок",
+    "type": "string"
+  },
+  {
+    "name": "no_safedai",
+    "zh": "安全带未系",
+    "ru": "Ремень не пристегнут",
+    "type": "string"
+  },
+  {
+    "name": "not_supported_this_function",
+    "zh": "暂不支持此功能哦",
+    "ru": "Эта функция пока не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "not_turned_on_farewell_sound",
+    "zh": "还没有打开下车欢送音开关哦",
+    "ru": "Вы ещё не включили звук прощания при выходе из автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "not_turned_on_low_speed_sound",
+    "zh": "还没有打开低速提示音开关哦",
+    "ru": "Вы ещё не включили звуковое оповещение при низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "not_turned_on_mute_sound",
+    "zh": "还没有打开闭锁音开关哦",
+    "ru": "Вы ещё не включили звук блокировки",
+    "type": "string"
+  },
+  {
+    "name": "not_turned_on_welcome_sound",
+    "zh": "还没有打开上车问候音开关哦",
+    "ru": "Вы ещё не включили звук приветствия при посадке в автомобиль",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "ok_already_switch",
+    "zh": "好的，已切换",
+    "ru": "ОК, переключено",
+    "type": "string"
+  },
+  {
+    "name": "only_headrest_sound_other_muted",
+    "zh": "只有头枕扬声器发声，其余扬声器静音",
+    "ru": "Звук воспроизводится только через динамик подголовника, остальные динамики заглушены",
+    "type": "string"
+  },
+  {
+    "name": "pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "pay",
+    "zh": "支付",
+    "ru": "Оплата",
+    "type": "string"
+  },
+  {
+    "name": "pay_record",
+    "zh": "购买记录",
+    "ru": "История покупок",
+    "type": "string"
+  },
+  {
+    "name": "pay_success",
+    "zh": "付款成功",
+    "ru": "Оплата успешна",
+    "type": "string"
+  },
+  {
+    "name": "phone_call_toast",
+    "zh": "通话中，暂不支持操作",
+    "ru": "Действие временно недоступно во время разговора",
+    "type": "string"
+  },
+  {
+    "name": "play",
+    "zh": "播放",
+    "ru": "Проиграть",
+    "type": "string"
+  },
+  {
+    "name": "play_sound_effects",
+    "zh": "玩转音效",
+    "ru": "Звуковые эффекты",
+    "type": "string"
+  },
+  {
+    "name": "plz_input",
+    "zh": "音效名称",
+    "ru": "Название эффекта",
+    "type": "string"
+  },
+  {
+    "name": "plz_login",
+    "zh": "请在驾驶员中心登录",
+    "ru": "Войдите в Центр водителя",
+    "type": "string"
+  },
+  {
+    "name": "popmart",
+    "zh": "泡泡玛特",
+    "ru": "Pop Mart",
+    "type": "string"
+  },
+  {
+    "name": "price_tip_them_card",
+    "zh": "%1$d购买",
+    "ru": "Купить за %1$d",
+    "type": "string"
+  },
+  {
+    "name": "qrload_expired",
+    "zh": "\"二维码已失效\n请点击重试\"",
+    "ru": "\"QR-код недействителен\\nНажмите, чтобы повторить попытку\"",
+    "type": "string"
+  },
+  {
+    "name": "qrload_failed",
+    "zh": "\"加载失败\n请点击重试\"",
+    "ru": "\"Загрузка не удалась\\nНажмите, чтобы повторить попытку\"",
+    "type": "string"
+  },
+  {
+    "name": "recommend",
+    "zh": "推荐",
+    "ru": "Рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "recommend_banner_purchase",
+    "zh": "购买",
+    "ru": "Купить",
+    "type": "string"
+  },
+  {
+    "name": "recommend_use",
+    "zh": "使用",
+    "ru": "Использовать",
+    "type": "string"
+  },
+  {
+    "name": "record_del_dialog_title",
+    "zh": "是否录音删除？",
+    "ru": "Удалить запись?",
+    "type": "string"
+  },
+  {
+    "name": "record_edite",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "record_playing",
+    "zh": "播放中",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "record_save_dialog_title",
+    "zh": "是否保存录音？",
+    "ru": "Сохранить запись?",
+    "type": "string"
+  },
+  {
+    "name": "record_save_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "record_tip",
+    "zh": "录音提示",
+    "ru": "Уведомление о записи",
+    "type": "string"
+  },
+  {
+    "name": "record_tip_content",
+    "zh": "最多支持5s的时长，最多支持5个录音",
+    "ru": "Максимальная длительность — 5 секунд, максимальное количество записей — 5",
+    "type": "string"
+  },
+  {
+    "name": "res_upload",
+    "zh": "音频上传",
+    "ru": "Загрузка аудио",
+    "type": "string"
+  },
+  {
+    "name": "return_home",
+    "zh": "后返回首页",
+    "ru": "На главную",
+    "type": "string"
+  },
+  {
+    "name": "root_main_nav_title",
+    "zh": "个性化声效",
+    "ru": "Персональные эффекты",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_car_farewell",
+    "zh": "下车欢送音",
+    "ru": "Звук прощания при выходе",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_car_welcome",
+    "zh": "上车问候音",
+    "ru": "Звук приветствия",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_low_speed_tip",
+    "zh": "低速提示音",
+    "ru": "Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_media_effect",
+    "zh": "媒体音效",
+    "ru": "Звуковые эффекты медиа",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_mine",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_mute",
+    "zh": "闭锁音",
+    "ru": "Звук блокировки",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_recommend",
+    "zh": "推荐",
+    "ru": "Рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "root_nav_tip_sound",
+    "zh": "提示音主题",
+    "ru": "Тема звуков уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "school_name",
+    "zh": "当前流派：%s",
+    "ru": "Текущий стиль: %s",
+    "type": "string"
+  },
+  {
+    "name": "search_empty_text_hint",
+    "zh": "抱歉，没有找到相关内容",
+    "ru": "К сожалению, ничего не найдено.",
+    "type": "string"
+  },
+  {
+    "name": "search_empty_tip",
+    "zh": "未搜到任何内容",
+    "ru": "Ничего не найдено",
+    "type": "string"
+  },
+  {
+    "name": "see_speech_add",
+    "zh": "添加^增加",
+    "ru": "Добавить^Увеличить",
+    "type": "string"
+  },
+  {
+    "name": "see_speech_close",
+    "zh": "返回^退出^关闭",
+    "ru": "Назад^Выйти^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "see_speech_more",
+    "zh": "更多信息^提示",
+    "ru": "Подробнее ^ Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "slow_sequence",
+    "zh": "缓速序列",
+    "ru": "Замедление",
+    "type": "string"
+  },
+  {
+    "name": "smart_equalizer_switch_explain",
+    "zh": "开启后，自动匹配均衡效果",
+    "ru": "После включения автоматически подбирается эффект эквалайзера.",
+    "type": "string"
+  },
+  {
+    "name": "smart_equalizer_text",
+    "zh": "智能均衡",
+    "ru": "Умный эквалайзер",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_change_cover",
+    "zh": "更换封面",
+    "ru": "Заменить обложку",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_change_cover_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_delete_sure",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_delete_title",
+    "zh": "确定删除此音效？",
+    "ru": "Удалить этот звуковой эффект?",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_rename",
+    "zh": "重命名",
+    "ru": "Переименовать",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_custom",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_free",
+    "zh": "免费",
+    "ru": "Бесплатно",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_free_discount_new",
+    "zh": "限时免费 %1$s",
+    "ru": "Временно бесплатно %1$s",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_free_new",
+    "zh": "已拥有 免费",
+    "ru": "Уже приобретено · Бесплатно",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_purchase",
+    "zh": "%1$s购买",
+    "ru": "Купить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_purchase_discount_new",
+    "zh": "限时￥%1$s %2$s",
+    "ru": "Только сейчас ￥%1$s %2$s",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_purchased",
+    "zh": "已购买",
+    "ru": "Куплено",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_type_purchased_new",
+    "zh": "已拥有 ￥%1$s",
+    "ru": "Приобретено ￥%1$s",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_use",
+    "zh": "使用",
+    "ru": "Использовать",
+    "type": "string"
+  },
+  {
+    "name": "sound_card_using",
+    "zh": "使用中",
+    "ru": "В использовании",
+    "type": "string"
+  },
+  {
+    "name": "sound_equalizer",
+    "zh": "均衡器",
+    "ru": "Эквалайзер",
+    "type": "string"
+  },
+  {
+    "name": "sound_field_customize",
+    "zh": "自定义",
+    "ru": "Пользовательские",
+    "type": "string"
+  },
+  {
+    "name": "sound_field_main_driver",
+    "zh": "主驾",
+    "ru": "Сиденье водителя",
+    "type": "string"
+  },
+  {
+    "name": "sound_field_whole_car",
+    "zh": "全车",
+    "ru": "Весь автомобиль",
+    "type": "string"
+  },
+  {
+    "name": "sound_head_pillow",
+    "zh": "头枕",
+    "ru": "Подголовник",
+    "type": "string"
+  },
+  {
+    "name": "sound_headrest_aid",
+    "zh": "头枕辅助",
+    "ru": "Ассист подголовника",
+    "type": "string"
+  },
+  {
+    "name": "sound_headrest_aid_reminder",
+    "zh": "导航和蓝牙电话仅由头枕扬声器发声",
+    "ru": "Звук навигации и Bluetooth-звонка воспроизводится только через динамики в подголовниках.",
+    "type": "string"
+  },
+  {
+    "name": "sound_headrest_mode_close",
+    "zh": "头枕关闭",
+    "ru": "Отключить подголовник",
+    "type": "string"
+  },
+  {
+    "name": "sound_headrest_mode_open",
+    "zh": "头枕模式",
+    "ru": "Режим подголовника",
+    "type": "string"
+  },
+  {
+    "name": "sound_headrest_open_reminder",
+    "zh": "只有头枕扬声器发声，其余扬声器静音",
+    "ru": "Звук воспроизводится только через динамик подголовника, остальные динамики отключены.",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_alipay",
+    "zh": "支付宝",
+    "ru": "Alipay",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_btn_refresh",
+    "zh": "刷新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_code_expired",
+    "zh": "二维码过期",
+    "ru": "QR-код истёк",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_loading",
+    "zh": "加载中",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_loading_failure",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_loading_timeout",
+    "zh": "加载超时",
+    "ru": "Таймаут загрузки",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_reminder",
+    "zh": "请用手机%s扫描上方二维码支付",
+    "ru": "Отсканируйте QR-код выше приложением %s на телефоне для оплаты",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_reminder_default",
+    "zh": "请使用微信扫码支付",
+    "ru": "Сканируйте QR-код через WeChat для оплаты",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_dialog_wechat",
+    "zh": "微信",
+    "ru": "WeChat",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_fail",
+    "zh": "购买失败",
+    "ru": "Покупка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_success",
+    "zh": "购买成功",
+    "ru": "Покупка успешна",
+    "type": "string"
+  },
+  {
+    "name": "sound_pay_text",
+    "zh": "支付",
+    "ru": "Оплата",
+    "type": "string"
+  },
+  {
+    "name": "sound_switch",
+    "zh": "开关",
+    "ru": "Переключатель",
+    "type": "string"
+  },
+  {
+    "name": "speech_stop_please",
+    "zh": "请先暂停与深蓝的对话",
+    "ru": "Пожалуйста, временно приостановите диалог с Deepal.",
+    "type": "string"
+  },
+  {
+    "name": "speech_stop_please_318",
+    "zh": "请先暂停与深蓝的对话",
+    "ru": "Пожалуйста, временно приостановите диалог с Deepal.",
+    "type": "string"
+  },
+  {
+    "name": "star_trek",
+    "zh": "星际巡航",
+    "ru": "Межзвёздный круиз",
+    "type": "string"
+  },
+  {
+    "name": "switch_already_closed",
+    "zh": "开关已经关闭了哦",
+    "ru": "Переключатель уже выключен",
+    "type": "string"
+  },
+  {
+    "name": "switch_low_speed",
+    "zh": "开关^低速提示音",
+    "ru": "Переключатель^Звук низкой скорости",
+    "type": "string"
+  },
+  {
+    "name": "take_picture",
+    "zh": "截屏拍照提示音",
+    "ru": "Звук снимка",
+    "type": "string"
+  },
+  {
+    "name": "text_default",
+    "zh": "默认",
+    "ru": "По умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "text_more",
+    "zh": "更多",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "the_vastness_of_the_sky",
+    "zh": "天空之瀚",
+    "ru": "Бескрайность небес",
+    "type": "string"
+  },
+  {
+    "name": "them_tip",
+    "zh": "提试音主题",
+    "ru": "Тема звуков уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "theme",
+    "zh": "提示音主题",
+    "ru": "Тема звуков уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "tip_sound_theme",
+    "zh": "提示音主题",
+    "ru": "Тема звуков уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "tip_theme",
+    "zh": "提示音主题",
+    "ru": "Тема звуков уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "tip_theme_des",
+    "zh": "可以选择喜欢的提示音主题，每个主题包含：信息提示音，安全带未系提示音，轻微警告音，转向提示音",
+    "ru": "Можно выбрать тему звуков уведомлений на свой вкус. Каждая тема включает: звук информационного уведомления, звук предупреждения о непристёгнутом ремне безопасности, звук незначительного предупреждения, звук указателя поворота",
+    "type": "string"
+  },
+  {
+    "name": "tips_them_type_default",
+    "zh": "经典",
+    "ru": "Классика",
+    "type": "string"
+  },
+  {
+    "name": "title_debug",
+    "zh": "工程配置",
+    "ru": "Инженерная конфигурация",
+    "type": "string"
+  },
+  {
+    "name": "toast_during_the_call",
+    "zh": "通话中，暂不支持试听播放",
+    "ru": "Во время звонка предпрослушивание временно недоступно",
+    "type": "string"
+  },
+  {
+    "name": "toast_file_fail",
+    "zh": "文件保存失败",
+    "ru": "Не удалось сохранить файл",
+    "type": "string"
+  },
+  {
+    "name": "toast_open_mic_power",
+    "zh": "请先开启麦克风权限",
+    "ru": "Пожалуйста, сначала предоставьте доступ к микрофону",
+    "type": "string"
+  },
+  {
+    "name": "toast_record_fail",
+    "zh": "录音失败",
+    "ru": "Запись не удалась",
+    "type": "string"
+  },
+  {
+    "name": "toast_record_short_fail",
+    "zh": "录音时间过短，无法保存录音",
+    "ru": "Время записи слишком короткое, невозможно сохранить запись",
+    "type": "string"
+  },
+  {
+    "name": "toast_upload_fail",
+    "zh": "上传失败",
+    "ru": "Ошибка загрузки",
+    "type": "string"
+  },
+  {
+    "name": "touch_tip",
+    "zh": "触摸提示音",
+    "ru": "Звук при касании",
+    "type": "string"
+  },
+  {
+    "name": "treble_exposure",
+    "zh": "高音暴露量：%1$s分贝",
+    "ru": "Воздействие высоких частот: %1$s дБ",
+    "type": "string"
+  },
+  {
+    "name": "treble_exposure_no_data",
+    "zh": "高音暴露量：近期无高音量使用记录",
+    "ru": "Воздействие высоких частот: в последнее время не зафиксировано использование на высокой громкости",
+    "type": "string"
+  },
+  {
+    "name": "trees",
+    "zh": "森林",
+    "ru": "Лес",
+    "type": "string"
+  },
+  {
+    "name": "try_listen",
+    "zh": "试听",
+    "ru": "Прослушать",
+    "type": "string"
+  },
+  {
+    "name": "turn_on_volume_detection",
+    "zh": "音量检测^打开音量检测",
+    "ru": "Обнаружение громкости^Включить обнаружение громкости",
+    "type": "string"
+  },
+  {
+    "name": "unhealthy",
+    "zh": "不健康",
+    "ru": "Неисправен",
+    "type": "string"
+  },
+  {
+    "name": "upload",
+    "zh": "上传",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "upload_success",
+    "zh": "上传成功",
+    "ru": "Загрузка завершена.",
+    "type": "string"
+  },
+  {
+    "name": "usb_disconnect",
+    "zh": "U盘已拔出",
+    "ru": "USB-накопитель извлечён",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_click_ensure",
+    "zh": "点击上传^上传",
+    "ru": "Нажмите, загрузить^Загрузить",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_ensure",
+    "zh": "上传",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_exit_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_exit_save",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_exit_title",
+    "zh": "退出前是否保存音频并上传？",
+    "ru": "Сохранить аудио и загрузить перед выходом?",
+    "type": "string"
+  },
+  {
+    "name": "usb_edit_title",
+    "zh": "创作",
+    "ru": "Создать",
+    "type": "string"
+  },
+  {
+    "name": "usb_empty",
+    "zh": "无符合条件的音频文件",
+    "ru": "Нет аудиофайлов, соответствующих критериям.",
+    "type": "string"
+  },
+  {
+    "name": "usb_init_loading_text",
+    "zh": "文件读取中",
+    "ru": "Чтение файла...",
+    "type": "string"
+  },
+  {
+    "name": "usb_loading",
+    "zh": "加载中",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "usb_next_step",
+    "zh": "下一步",
+    "ru": "Следующий шаг",
+    "type": "string"
+  },
+  {
+    "name": "usb_not_connected",
+    "zh": "请插入U盘",
+    "ru": "Вставьте USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_click_play",
+    "zh": "点击播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_completed",
+    "zh": "松开完成",
+    "ru": "Отпустите",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_max_long_time",
+    "zh": "最多支持5S的时长",
+    "ru": "Максимальная поддерживаемая длительность — 5 с",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_name",
+    "zh": "录音",
+    "ru": "Запись",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_playing",
+    "zh": "播放中",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_press",
+    "zh": "按住录音",
+    "ru": "Удерживайте для записи",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_save_false",
+    "zh": "保存失败",
+    "ru": "Не удалось сохранить",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_save_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_use",
+    "zh": "使用",
+    "ru": "Использовать",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_use_fail",
+    "zh": "使用失败",
+    "ru": "Не удалось использовать",
+    "type": "string"
+  },
+  {
+    "name": "usb_record_used",
+    "zh": "使用成功",
+    "ru": "Успешно использовано",
+    "type": "string"
+  },
+  {
+    "name": "usb_support_format_new",
+    "zh": "插入U盘上传喜欢的声音，仅支持上传*wav，*MP3格式，仅支持48kHz采样率，单段素材最长支持5s，最多支持上传生成10张卡片",
+    "ru": "Вставьте USB-накопитель для загрузки любимых звуков. Поддерживается только загрузка файлов форматов *wav и *MP3 с частотой дискретизации 48 кГц. Максимальная длительность одного фрагмента — 5 секунд. Максимум можно загрузить и сгенерировать 10 карточек.",
+    "type": "string"
+  },
+  {
+    "name": "usb_title",
+    "zh": "U盘上传",
+    "ru": "Загрузка с USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_title_new",
+    "zh": "U盘上传",
+    "ru": "Загрузка с USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_file",
+    "zh": "正在上传文件",
+    "ru": "Загрузка файла...",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_file_with_progress",
+    "zh": "正在上传文件（%s%S）",
+    "ru": "Загрузка файла（%s%S）",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_to_limit",
+    "zh": "添加内容已达上限，请删除后再使用",
+    "ru": "Достигнут лимит добавления контента. Удалите часть и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "use",
+    "zh": "使用",
+    "ru": "Использовать",
+    "type": "string"
+  },
+  {
+    "name": "user_switching",
+    "zh": "切换中",
+    "ru": "Переключение...",
+    "type": "string"
+  },
+  {
+    "name": "using",
+    "zh": "使用中",
+    "ru": "В использовании",
+    "type": "string"
+  },
+  {
+    "name": "value_reset",
+    "zh": "复位",
+    "ru": "Сброс",
+    "type": "string"
+  },
+  {
+    "name": "voice",
+    "zh": "语音",
+    "ru": "Голос",
+    "type": "string"
+  },
+  {
+    "name": "voice_check_tips",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "volume_detection",
+    "zh": "音量检测",
+    "ru": "Определение громкости",
+    "type": "string"
+  },
+  {
+    "name": "weak_tip",
+    "zh": "轻微警告音",
+    "ru": "Слабое предупреждение",
+    "type": "string"
+  },
+  {
+    "name": "welcome_switch_explanation",
+    "zh": "当打开主驾车门时，车内播放问候音效",
+    "ru": "При открытии водительской двери в салоне воспроизводится приветственный звуковой эффект",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Зажмите любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "your_id",
+    "zh": "这是你的ID",
+    "ru": "Это ваш ID",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть на половину высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего: %1$d, лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_navigate_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_open_drawer_description",
+    "zh": "打开抽屉式导航栏",
+    "ru": "Открыть выдвижную панель навигации",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "мес",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "pay_way_both_0",
+    "zh": "微信",
+    "ru": "Вичат",
+    "type": "arrays"
+  },
+  {
+    "name": "pay_way_both_1",
+    "zh": "支付宝",
+    "ru": "Алипей",
+    "type": "arrays"
+  },
+  {
+    "name": "week_0",
+    "zh": "周日",
+    "ru": "Воскресенье",
+    "type": "arrays"
+  },
+  {
+    "name": "week_1",
+    "zh": "周一",
+    "ru": "Понедельник",
+    "type": "arrays"
+  },
+  {
+    "name": "week_2",
+    "zh": "周二",
+    "ru": "Вторник",
+    "type": "arrays"
+  },
+  {
+    "name": "week_3",
+    "zh": "周三",
+    "ru": "Среда",
+    "type": "arrays"
+  },
+  {
+    "name": "week_4",
+    "zh": "周四",
+    "ru": "Четверг",
+    "type": "arrays"
+  },
+  {
+    "name": "week_5",
+    "zh": "周五",
+    "ru": "Пятница",
+    "type": "arrays"
+  },
+  {
+    "name": "week_6",
+    "zh": "周六",
+    "ru": "Суббота",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

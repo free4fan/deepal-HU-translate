@@ -1,0 +1,1610 @@
+[
+  {
+    "name": "app_name",
+    "zh": "场景积木",
+    "ru": "Сценарные блоки",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Зона",
+    "type": "string"
+  },
+  {
+    "name": "conflict_please_select",
+    "zh": "运行条件冲突，同一条件下仅能自动触发一个场景",
+    "ru": "Конфликт условий выполнения: при одинаковых условиях может быть автоматически запущен только один сценарий.",
+    "type": "string"
+  },
+  {
+    "name": "create_scene_text",
+    "zh": "新建场景",
+    "ru": "Создать сценарий",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_execute_selected_normal_text",
+    "zh": "就依次执行",
+    "ru": "Поочерёдно",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_exit_dialog_cancel_text",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_exit_dialog_content",
+    "zh": "场景未保存，仍要退出吗？",
+    "ru": "Сценарий не сохранён. Всё равно выйти?",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_exit_dialog_exit_text",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_provided_selected_normal_text",
+    "zh": "添加条件",
+    "ru": "Добавить условие",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_satisfy_selected_normal_text",
+    "zh": "添加状态",
+    "ru": "Добавить состояние",
+    "type": "string"
+  },
+  {
+    "name": "custom_scene_trigger_reminder_selected_text",
+    "zh": "\"1.自动触发开启,满足预设条件和状态时,自动运行所设功能。 \n2.自动触发关闭,仅点击“运行”或语音触发场景卡时,才会运行所设功能\"",
+    "ru": "\"1. Автоматический запуск включён: при выполнении предустановленных условий и состояний заданные функции запускаются автоматически. \\n2. Автоматический запуск выключен: заданные функции запускаются только при нажатии «Запустить» или голосовом срабатывании карточки сценария\"",
+    "type": "string"
+  },
+  {
+    "name": "edit_input_edit_description_hint",
+    "zh": "请输入场景描述",
+    "ru": "Введите описание сценария",
+    "type": "string"
+  },
+  {
+    "name": "edit_input_edit_enter",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "edit_input_edit_name_default_content",
+    "zh": "场景一",
+    "ru": "Сценарий 1",
+    "type": "string"
+  },
+  {
+    "name": "edit_input_edit_name_hint",
+    "zh": "给场景起个名字吧~",
+    "ru": "Придумайте название для сценария~",
+    "type": "string"
+  },
+  {
+    "name": "edit_scene_text",
+    "zh": "编辑场景",
+    "ru": "Изменить сценарий",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_1",
+    "zh": "点击查看场景详情。",
+    "ru": "Нажмите, чтобы просмотреть детали сцены.",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_2",
+    "zh": "点击添加此场景至“我的场景”。",
+    "ru": "Нажмите, чтобы добавить эту сцену в «Мои сцены».",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_3",
+    "zh": "点击或唤醒语⾳说“执⾏ XXXX”，执⾏该场景。",
+    "ru": "Нажмите или активируйте голосовое управление и скажите «Выполнить XXXX», чтобы запустить данный сценарий.",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_4",
+    "zh": "开启⾃动模式的卡⽚，到达预设条件时将⾃动执⾏该场景。",
+    "ru": "Карточки с включённым автоматическим режимом будут автоматически запускать данный сценарий при достижении заданных условий.",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_5",
+    "zh": "点击管理我的场景卡数量及排序。",
+    "ru": "Нажмите, чтобы управлять количеством и порядком сортировки моих карточек сцен.",
+    "type": "string"
+  },
+  {
+    "name": "guide_des_6",
+    "zh": "将场景添加至快捷面板，点击场景积木卡片编辑按钮调出快捷场景编辑窗。",
+    "ru": "Добавьте сцену на панель быстрого доступа, нажмите кнопку редактирования на карточке блока сцены, чтобы открыть окно быстрого редактирования сцен.",
+    "type": "string"
+  },
+  {
+    "name": "guide_skip",
+    "zh": "跳过 >",
+    "ru": "Пропустить >",
+    "type": "string"
+  },
+  {
+    "name": "guide_start_experience",
+    "zh": "开始体验",
+    "ru": "Попробовать",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_1",
+    "zh": "查看推荐场景",
+    "ru": "Рекомендуемые сценарии",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_2",
+    "zh": "添加场景",
+    "ru": "Добавить сценарий",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_3",
+    "zh": "执行场景",
+    "ru": "Выполнить сценарий",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_4",
+    "zh": "自动场景",
+    "ru": "Автоматический сценарий",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_5",
+    "zh": "场景管理",
+    "ru": "Управление сценариями",
+    "type": "string"
+  },
+  {
+    "name": "guide_title_6",
+    "zh": "添加快捷场景",
+    "ru": "Добавить быстрый сценарий",
+    "type": "string"
+  },
+  {
+    "name": "main_create_scene",
+    "zh": "新建场景",
+    "ru": "Создать сценарий",
+    "type": "string"
+  },
+  {
+    "name": "please_manually_operate_on_the_open_page",
+    "zh": "请在打开的页面手动操作吧",
+    "ru": "Пожалуйста, выполните действие вручную на открытой странице",
+    "type": "string"
+  },
+  {
+    "name": "scene_added_look",
+    "zh": "查看",
+    "ru": "Просмотреть",
+    "type": "string"
+  },
+  {
+    "name": "scene_added_success",
+    "zh": "“%s” 已添加",
+    "ru": "«%s» добавлено",
+    "type": "string"
+  },
+  {
+    "name": "scene_bind_result",
+    "zh": "抽取结果",
+    "ru": "Результат извлечения",
+    "type": "string"
+  },
+  {
+    "name": "scene_bind_running",
+    "zh": "抽取中",
+    "ru": "Извлечение...",
+    "type": "string"
+  },
+  {
+    "name": "scene_capacity_data_tip",
+    "zh": "场景数量已达上限，请删除部分场景后再试",
+    "ru": "Количество сцен достигло лимита, удалите часть сцен и повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "scene_condition_dialog_delay_title",
+    "zh": "添加延时",
+    "ru": "Добавить задержку",
+    "type": "string"
+  },
+  {
+    "name": "scene_condition_dialog_negative",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "scene_condition_dialog_positive",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "scene_condition_happen_overshoot_max",
+    "zh": "数量已达上限,请删除后再添加",
+    "ru": "Достигнут лимит количества. Удалите элемент и повторите добавление.",
+    "type": "string"
+  },
+  {
+    "name": "scene_create_save_fail",
+    "zh": "保存失败",
+    "ru": "Не удалось сохранить",
+    "type": "string"
+  },
+  {
+    "name": "scene_create_save_fail_to_local",
+    "zh": "网络不佳，场景将在网络恢复后自动同步",
+    "ru": "Соединение с сетью нестабильно. Сцена будет автоматически синхронизирована после восстановления соединения.",
+    "type": "string"
+  },
+  {
+    "name": "scene_create_scene",
+    "zh": "创建",
+    "ru": "Создать",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_add_operate_content",
+    "zh": "添加操作",
+    "ru": "Добавить действие",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_event_tip",
+    "zh": "点击“ ”或者拖动拖动左侧卡片到此处添加为运行操作,最多可添加3个。",
+    "ru": "Нажмите « » или перетащите карточку слева в это место, чтобы добавить как действие выполнения. Максимум 3.",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_pre_tip",
+    "zh": "点击“ ”或者拖动拖动左侧卡片到此处添加为运行操作,最多可添加1个。",
+    "ru": "Нажмите « » или перетащите карточку слева в это место, чтобы добавить как действие выполнения. Максимум 1.",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_pre_title",
+    "zh": "且提前满足(选填)",
+    "ru": "И выполнить заранее (необязательно)",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_selected_tip",
+    "zh": "点击“ ”或者拖动拖动左侧卡片到此处添加为运行操作,最多可添加30个。",
+    "ru": "Нажмите « » или перетащите карточку слева в это место, чтобы добавить как действие выполнения. Максимум 30.",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_trigger_clash_tip",
+    "zh": "冲突:",
+    "ru": "Конфликт:",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_condition_trigger_title",
+    "zh": "如果",
+    "ru": "Если",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_edit_view_text",
+    "zh": "*请输⼊3~8字的中⽂场景名",
+    "ru": "*Введите название сценария на китайском языке от 3 до 8 символов",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_name_repeat_prompt",
+    "zh": "*场景名称重复",
+    "ru": "* Имя занято",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_save_edited_title",
+    "zh": "保存已编辑内容",
+    "ru": "Сохранить внесённые изменения",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_save_scene_card",
+    "zh": "保存场景卡片",
+    "ru": "Сохранить карточку сценария",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_title",
+    "zh": "场景名称",
+    "ru": "Название сцены",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_trigger_auto_text",
+    "zh": "自动",
+    "ru": "Автоматический",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_trigger_hand_text",
+    "zh": "手动",
+    "ru": "Ручной",
+    "type": "string"
+  },
+  {
+    "name": "scene_edit_create_trigger_title_text",
+    "zh": "触发方式",
+    "ru": "Способ срабатывания",
+    "type": "string"
+  },
+  {
+    "name": "scene_exe_finish_exit_prompt",
+    "zh": "执行%s，可去消息中心退出场景",
+    "ru": "Выполняется %s. Для выхода из сцены перейдите в центр уведомлений.",
+    "type": "string"
+  },
+  {
+    "name": "scene_exe_finish_not_prompt_again",
+    "zh": "不再提示",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "scene_exe_finish_prompt_exit_btn",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "scene_exec_cancel",
+    "zh": "取消%ds",
+    "ru": "Отмена %d с",
+    "type": "string"
+  },
+  {
+    "name": "scene_exec_exit_ing",
+    "zh": "场景退出中",
+    "ru": "Выход из сцены...",
+    "type": "string"
+  },
+  {
+    "name": "scene_exec_exit_no_data",
+    "zh": "场景无可恢复项",
+    "ru": "Нет восстанавливаемых",
+    "type": "string"
+  },
+  {
+    "name": "scene_input_des_title_bar",
+    "zh": "场景描述",
+    "ru": "Описание сцены",
+    "type": "string"
+  },
+  {
+    "name": "scene_input_name_title_bar",
+    "zh": "输入场景名称",
+    "ru": "Введите название сцены",
+    "type": "string"
+  },
+  {
+    "name": "scene_like",
+    "zh": "猜你喜欢",
+    "ru": "Рекомендуем",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading1",
+    "zh": "加载中, 请稍后",
+    "ru": "Загрузка, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_error",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_error_sub",
+    "zh": "请检查⽹络设置或稍后重试",
+    "ru": "Проверьте настройки сети или повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_net_setting",
+    "zh": "网络设置",
+    "ru": "Настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_no_net",
+    "zh": "网络未连接，请检查⽹络设置",
+    "ru": "Нет подключения к сети, проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_no_net_connect",
+    "zh": "无网络连接",
+    "ru": "Нет подключения к сети",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_no_net_simple",
+    "zh": "⽹络未连接",
+    "ru": "Сеть не подключена",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_no_net_sub",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "scene_loading_try",
+    "zh": "重试",
+    "ru": "Повторить попытку",
+    "type": "string"
+  },
+  {
+    "name": "scene_main_title",
+    "zh": "场景积木",
+    "ru": "Сценарные блоки",
+    "type": "string"
+  },
+  {
+    "name": "scene_more_thanks",
+    "zh": "更多内容",
+    "ru": "Больше контента",
+    "type": "string"
+  },
+  {
+    "name": "scene_my_scene_edit_finish",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_auto_trigger",
+    "zh": "自动触发",
+    "ru": "Автозапуск",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_blind_box_confirm_text",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_blind_box_replace_text",
+    "zh": "换一批",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_delete_failed",
+    "zh": "场景删除失败",
+    "ru": "Не удалось удалить сцену",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_delete_message1",
+    "zh": "删除后将不可恢复,仍要删除\\\"",
+    "ru": "После удаления восстановление будет невозможно. Всё равно удалить?",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_delete_message2",
+    "zh": "\\\"吗?",
+    "ru": "\\\"?",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_delete_negative_btn_text",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_delete_positive_btn_text",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_deleted",
+    "zh": "已删除",
+    "ru": "Удалено",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_edit_delete_text",
+    "zh": "删除场景卡",
+    "ru": "Удалить карточку сцены",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_edit_text",
+    "zh": "编辑主界面",
+    "ru": "Редактировать экран",
+    "type": "string"
+  },
+  {
+    "name": "scene_myself_hand_trigger",
+    "zh": "手动触发",
+    "ru": "Ручной запуск",
+    "type": "string"
+  },
+  {
+    "name": "scene_net_work_error",
+    "zh": "当前网络不佳,请稍后重试",
+    "ru": "Слабое сетевое подключение. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "scene_net_work_error_illegal_param",
+    "zh": "参数非法",
+    "ru": "Недопустимый параметр",
+    "type": "string"
+  },
+  {
+    "name": "scene_net_work_error_retry",
+    "zh": "当前网络不佳，请检查网络或重试",
+    "ru": "Сеть работает нестабильно, проверьте подключение или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "scene_no_data_text",
+    "zh": "点击 猜盲盒 或 发现 添加场景",
+    "ru": "Нажмите «Угадай сюрприз» или «Обнаружить», чтобы добавить сценарий",
+    "type": "string"
+  },
+  {
+    "name": "scene_notify_exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "scene_notify_ignore",
+    "zh": "忽略",
+    "ru": "Игнорировать",
+    "type": "string"
+  },
+  {
+    "name": "scene_notify_not_support",
+    "zh": "此场景不支持退出",
+    "ru": "Выход в этом сценарии не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_add_to_my",
+    "zh": "添加此场景",
+    "ru": "Добавить этот сценарий",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_added_execute",
+    "zh": "立即执行",
+    "ru": "Выполнить немедленно",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_added_execute_cancel",
+    "zh": "取消%ds",
+    "ru": "Отмена %d с",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_added_look_know",
+    "zh": "知道了%ds",
+    "ru": "Понял %d с",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_added_tip",
+    "zh": "已添加到我的场景，是否立即运行该场景卡片",
+    "ru": "Добавлено в «Мои сценарии». Запустить эту карточку сценария сейчас?",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_break",
+    "zh": "中断",
+    "ru": "Прервать",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_edit_scene",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_execute",
+    "zh": "执行",
+    "ru": "Выполнить",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_restore",
+    "zh": "恢复",
+    "ru": "Восстановить",
+    "type": "string"
+  },
+  {
+    "name": "scene_pre_try_used",
+    "zh": "试用",
+    "ru": "Попробовать",
+    "type": "string"
+  },
+  {
+    "name": "scene_preview_pre_title",
+    "zh": "且提前满足",
+    "ru": "И выполнены заранее",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_create",
+    "zh": "新建",
+    "ru": "Создать",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_data_full",
+    "zh": "添加个数已达上限",
+    "ru": "Достигнут лимит добавлений",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_data_layout_select_self_tip",
+    "zh": "点击 新建 或 发现 添加场景",
+    "ru": "Нажмите «Создать» или «Обзор», чтобы добавить сценарий",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_find",
+    "zh": "发现",
+    "ru": "Обзор",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_select_layout_title",
+    "zh": "快捷场景编辑",
+    "ru": "Быстрое редактирование сцен",
+    "type": "string"
+  },
+  {
+    "name": "scene_quick_card_view_position_wrong",
+    "zh": "请将卡片移至对应区域",
+    "ru": "Переместите карточку в соответствующую область",
+    "type": "string"
+  },
+  {
+    "name": "scene_recommend",
+    "zh": "发现",
+    "ru": "Обзор",
+    "type": "string"
+  },
+  {
+    "name": "scene_refreshing_net_error",
+    "zh": "网络未连接",
+    "ru": "Сеть не подключена",
+    "type": "string"
+  },
+  {
+    "name": "scene_refreshing_normal",
+    "zh": "正在刷新",
+    "ru": "Обновление...",
+    "type": "string"
+  },
+  {
+    "name": "scene_save_scene",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "scene_saved_success",
+    "zh": "“%s” 已保存",
+    "ru": "«%s» сохранено",
+    "type": "string"
+  },
+  {
+    "name": "scene_status_recover",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "scene_status_run",
+    "zh": "试用",
+    "ru": "Пробный режим",
+    "type": "string"
+  },
+  {
+    "name": "scene_status_running",
+    "zh": "停止执行",
+    "ru": "Остановить выполнение",
+    "type": "string"
+  },
+  {
+    "name": "scene_un_upload_cant_run",
+    "zh": "场景未同步，无法执行",
+    "ru": "Сцена не синхронизирована, выполнение невозможно",
+    "type": "string"
+  },
+  {
+    "name": "scene_wu_data_text",
+    "zh": "暂无场景",
+    "ru": "Пока нет сценариев",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_year_month",
+    "zh": "%tY年%tm月",
+    "ru": "%tY г. %tm мес.",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint_mobile_number",
+    "zh": "手机号",
+    "ru": "Номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_input_view_btn_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "wt_input_view_clear_history",
+    "zh": "清除历史",
+    "ru": "Очистить историю",
+    "type": "string"
+  },
+  {
+    "name": "wt_input_view_header_view_clear_history",
+    "zh": "清空历史",
+    "ru": "Очистить историю",
+    "type": "string"
+  },
+  {
+    "name": "wt_input_view_recommend_text",
+    "zh": "推荐：",
+    "ru": "Рекомендация:",
+    "type": "string"
+  },
+  {
+    "name": "wt_input_view_search_history",
+    "zh": "搜索历史:",
+    "ru": "История поиска:",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любой участок клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text2",
+    "zh": "按住键盘任意位置可拖动",
+    "ru": "Зажмите любую область клавиатуры для перетаскивания",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_anhui_wan",
+    "zh": "皖",
+    "ru": "Аньхой",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_beijing_jing",
+    "zh": "京",
+    "ru": "Пекин",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_chongqing_yu",
+    "zh": "渝",
+    "ru": "Чунцин",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_fujian_min",
+    "zh": "闽",
+    "ru": "Фучжэнь",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_gansu_gan",
+    "zh": "甘",
+    "ru": "Ганьсу",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_guangdong_yue",
+    "zh": "粤",
+    "ru": "Yue",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_guangxi_gui",
+    "zh": "桂",
+    "ru": "Gui",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_guizhou_gui",
+    "zh": "贵",
+    "ru": "Gui",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_hainan_qiong",
+    "zh": "琼",
+    "ru": "Qiong",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_hebei_ji",
+    "zh": "冀",
+    "ru": "Ji",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_heilongjiang_hei",
+    "zh": "黑",
+    "ru": "Hei",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_henan_yu",
+    "zh": "豫",
+    "ru": "Yu",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_hubei_e",
+    "zh": "鄂",
+    "ru": "E",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_hunan_xiang",
+    "zh": "湘",
+    "ru": "Сян",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_jiangsu_su",
+    "zh": "苏",
+    "ru": "Су",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_jiangxi_gan",
+    "zh": "赣",
+    "ru": "Гань",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_jilin_ji",
+    "zh": "吉",
+    "ru": "Цзи",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_liaoning_liao",
+    "zh": "辽",
+    "ru": "Ляо",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_neimenggu_meng",
+    "zh": "蒙",
+    "ru": "Мэн",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_ningxia_ning",
+    "zh": "宁",
+    "ru": "Нин",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_qinghai_qing",
+    "zh": "青",
+    "ru": "Цин",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_shandong_lu",
+    "zh": "鲁",
+    "ru": "Шаньдун",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_shanghai_hu",
+    "zh": "沪",
+    "ru": "Шанхай",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_shanxi_jin",
+    "zh": "晋",
+    "ru": "Шаньси",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_shanxi_shan",
+    "zh": "陕",
+    "ru": "Сяаньси",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_sichuan_chuan",
+    "zh": "川",
+    "ru": "Сычуань",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_tianjin_jin",
+    "zh": "津",
+    "ru": "Тяньцзинь",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_xinjiang_xin",
+    "zh": "新",
+    "ru": "Синьцзян",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_xizang_zang",
+    "zh": "藏",
+    "ru": "Тибет",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_yunnan_yun",
+    "zh": "云",
+    "ru": "Юньнань",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_province_zhejiang_zhe",
+    "zh": "浙",
+    "ru": "Чжэцзян",
+    "type": "string"
+  },
+  {
+    "name": "wt_language_name",
+    "zh": "汉语",
+    "ru": "Китайский язык",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wt_text_picker_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "wt_time_picker_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "wt_title_bar_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_default_btn_name",
+    "zh": "添加",
+    "ru": "Добавить",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "ПМ",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_timepicker_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_timepicker_confirm",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_time_period_0",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "arrays"
+  },
+  {
+    "name": "wt_date_picker_time_period_1",
+    "zh": "下午",
+    "ru": "После полудня",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

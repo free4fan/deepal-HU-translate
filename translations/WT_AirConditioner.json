@@ -1,0 +1,1550 @@
+[
+  {
+    "name": "activeVentilation",
+    "zh": "解锁自动换气",
+    "ru": "Вкл. автопроветривание",
+    "type": "string"
+  },
+  {
+    "name": "airDrying",
+    "zh": "空调自干燥",
+    "ru": "Автоосушение",
+    "type": "string"
+  },
+  {
+    "name": "air_control_pm_level_excellent",
+    "zh": "优",
+    "ru": "Отличный",
+    "type": "string"
+  },
+  {
+    "name": "air_level_calculating",
+    "zh": "计算中...",
+    "ru": "Вычисляется...",
+    "type": "string"
+  },
+  {
+    "name": "air_level_excellent",
+    "zh": "优",
+    "ru": "Отличный",
+    "type": "string"
+  },
+  {
+    "name": "air_level_good",
+    "zh": "良",
+    "ru": "Хороший",
+    "type": "string"
+  },
+  {
+    "name": "air_level_middle_pollution",
+    "zh": "中度",
+    "ru": "Умеренный",
+    "type": "string"
+  },
+  {
+    "name": "air_level_severity_pollution",
+    "zh": "严重",
+    "ru": "Серьёзный",
+    "type": "string"
+  },
+  {
+    "name": "air_level_slight_pollution",
+    "zh": "轻度",
+    "ru": "Лёгкий",
+    "type": "string"
+  },
+  {
+    "name": "air_level_very_severity_pollution",
+    "zh": "重度",
+    "ru": "Сильный",
+    "type": "string"
+  },
+  {
+    "name": "air_off_description",
+    "zh": "空调",
+    "ru": "Кондиционер",
+    "type": "string"
+  },
+  {
+    "name": "air_set_introduction_engine_heat",
+    "zh": "当环境温度低于设定值时，空调可以启动发动机进⾏采暖",
+    "ru": "При температуре окружающей среды ниже заданного значения климат-контроль может запускать двигатель для обогрева.",
+    "type": "string"
+  },
+  {
+    "name": "air_set_title",
+    "zh": "空调设置",
+    "ru": "Настройки климата",
+    "type": "string"
+  },
+  {
+    "name": "air_set_title_drive",
+    "zh": "安心驾驶",
+    "ru": "Комфортное вождение",
+    "type": "string"
+  },
+  {
+    "name": "air_set_title_engine_heat",
+    "zh": "⾃动起动发动机采暖的最低温度设置",
+    "ru": "Настройка минимальной температуры автозапуска двигателя для обогрева",
+    "type": "string"
+  },
+  {
+    "name": "animWarning",
+    "zh": "空气净化动画提示",
+    "ru": "Подсказка для анимации очистки воздуха",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Область",
+    "type": "string"
+  },
+  {
+    "name": "autoDefogErrorTip",
+    "zh": "自动除雾功能异常！",
+    "ru": "Неисправность системы автоматического антизапотевания!",
+    "type": "string"
+  },
+  {
+    "name": "auto_defog_tip",
+    "zh": "自动除雾已开启！",
+    "ru": "Автоматическое антизапотевание включено!",
+    "type": "string"
+  },
+  {
+    "name": "auto_defog_tts",
+    "zh": "车内相对湿度较高，自动除雾已开启！",
+    "ru": "В салоне повышена относительная влажность, автоматическая система антизапотевания включена!",
+    "type": "string"
+  },
+  {
+    "name": "auto_description",
+    "zh": "auto^自动空调",
+    "ru": "auto^Автоклимат",
+    "type": "string"
+  },
+  {
+    "name": "cold_heat_description",
+    "zh": "制冷^制热^通风^制冷制热通风",
+    "ru": "Охлаждение^Обогрев^Вентиляция^Охлаждение обогрев вентиляция",
+    "type": "string"
+  },
+  {
+    "name": "comfortMode",
+    "zh": "座舱新风系统",
+    "ru": "Система свежего воздуха салона",
+    "type": "string"
+  },
+  {
+    "name": "demisting",
+    "zh": "自动除雾",
+    "ru": "Автодефрост",
+    "type": "string"
+  },
+  {
+    "name": "description_activeVentilation",
+    "zh": "遥控解锁时，空调⾃动通⻛换⽓",
+    "ru": "При дистанционной разблокировке климат-контроль автоматически проветривает салон",
+    "type": "string"
+  },
+  {
+    "name": "description_airDrying",
+    "zh": "停⻋前使⽤过空调，锁⻋后空调会⾃动通⻛换⽓",
+    "ru": "Если климат-контроль использовался перед парковкой, после запирания автомобиля он автоматически проветривает салон",
+    "type": "string"
+  },
+  {
+    "name": "description_animWarning",
+    "zh": "一键空气净化时进行动画提示",
+    "ru": "Показ анимации при активации однокнопочной очистки воздуха",
+    "type": "string"
+  },
+  {
+    "name": "description_comfortMode",
+    "zh": "锁车后也可以进行外循环通风",
+    "ru": "После запирания автомобиля также доступна приточная вентиляция",
+    "type": "string"
+  },
+  {
+    "name": "description_demisting",
+    "zh": "前挡风玻璃将要起雾时，自动开启除雾",
+    "ru": "При угрозе запотевания лобового стекла автоматически включается антизапотевание",
+    "type": "string"
+  },
+  {
+    "name": "description_smartOpt",
+    "zh": "车内PM值过高，自动进行空气净化",
+    "ru": "При повышенном уровне PM в салоне автоматически включается очистка воздуха",
+    "type": "string"
+  },
+  {
+    "name": "description_voiceWarning",
+    "zh": "监测到空气污染时进行语音提示",
+    "ru": "При обнаружении загрязнения воздуха выдаётся голосовое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "description_windowVentilation",
+    "zh": "长按钥匙解锁降窗时，空调自动通风换气",
+    "ru": "При длительном нажатии кнопки на ключе для разблокировки и опускания стёкол климат-контроль автоматически проветривает салон",
+    "type": "string"
+  },
+  {
+    "name": "fan_big_description",
+    "zh": "风量加",
+    "ru": "Увеличить обдув",
+    "type": "string"
+  },
+  {
+    "name": "fan_face_description",
+    "zh": "吹脸",
+    "ru": "Обдувать лицо",
+    "type": "string"
+  },
+  {
+    "name": "fan_foot_description",
+    "zh": "吹脚",
+    "ru": "Обдувать ноги",
+    "type": "string"
+  },
+  {
+    "name": "fan_small_description",
+    "zh": "风量减",
+    "ru": "Уменьшить обдув",
+    "type": "string"
+  },
+  {
+    "name": "fan_window_description",
+    "zh": "吹窗",
+    "ru": "Обдувать стёкла",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "low_battery_unable_heat",
+    "zh": "电量过低，无法使用座椅加热",
+    "ru": "Заряд батареи слишком низкий, подогрев сидений недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "low_battery_unable_mass",
+    "zh": "电量过低，无法使用座椅按摩",
+    "ru": "Заряд батареи слишком низкий, функция массажа сиденья недоступна.",
+    "type": "string"
+  },
+  {
+    "name": "low_battery_unable_vent",
+    "zh": "电量过低，无法使用座椅通风",
+    "ru": "Уровень заряда слишком низкий, вентиляция сиденья недоступна",
+    "type": "string"
+  },
+  {
+    "name": "max_ac_description",
+    "zh": "MAX AC^最大制冷",
+    "ru": "MAX AC^Максимальное охлаждение",
+    "type": "string"
+  },
+  {
+    "name": "recycler_description",
+    "zh": "内外循环",
+    "ru": "Рециркуляция",
+    "type": "string"
+  },
+  {
+    "name": "seat_co_pilot",
+    "zh": "副驾",
+    "ru": "Пасс.",
+    "type": "string"
+  },
+  {
+    "name": "seat_main_driver",
+    "zh": "主驾",
+    "ru": "Водит.",
+    "type": "string"
+  },
+  {
+    "name": "setting_close",
+    "zh": "关闭^退出",
+    "ru": "Закрыть^Выйти",
+    "type": "string"
+  },
+  {
+    "name": "setting_description",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "smartOpt",
+    "zh": "自动空气净化",
+    "ru": "Автоматическая очистка воздуха",
+    "type": "string"
+  },
+  {
+    "name": "system_failure_unable_heat",
+    "zh": "系统故障，无法使用座椅加热",
+    "ru": "Сбой системы, подогрев сиденья недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "system_failure_unable_vent",
+    "zh": "系统故障，无法使用座椅通风",
+    "ru": "Сбой системы, вентиляция сиденья недоступна.",
+    "type": "string"
+  },
+  {
+    "name": "text_air_self_define",
+    "zh": "锁车后，空调每隔4小时进行一次外循环通风，最多通风3次。",
+    "ru": "После блокировки автомобиля кондиционер осуществляет проветривание с подачей наружного воздуха каждые 4 часа, не более 3 раз.",
+    "type": "string"
+  },
+  {
+    "name": "text_deputy_seat_massage_finish_tip",
+    "zh": "座椅按摩循环已结束",
+    "ru": "Цикл массажа сиденья завершён.",
+    "type": "string"
+  },
+  {
+    "name": "text_lbdeputy_seat_massage_finish_tip",
+    "zh": "座椅按摩循环已结束",
+    "ru": "Цикл массажа сиденья завершён.",
+    "type": "string"
+  },
+  {
+    "name": "text_lbmain_seat_massage_finish_tip",
+    "zh": "座椅按摩循环已结束",
+    "ru": "Цикл массажа сиденья завершён.",
+    "type": "string"
+  },
+  {
+    "name": "text_main_seat_massage_finish_tip",
+    "zh": "座椅按摩循环已结束",
+    "ru": "Цикл массажа сиденья завершён.",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_cancel_tip",
+    "zh": "按摩功能暂停使用，请再次开启",
+    "ru": "Функция массажа приостановлена. Включите её снова.",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_finish_tip",
+    "zh": "座椅按摩循环已结束",
+    "ru": "Цикл массажа сиденья завершён",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_nobody_tip",
+    "zh": "主驾座椅无人，按摩关闭",
+    "ru": "На водительском сиденье никого нет, массаж выключен",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_p_state_tip",
+    "zh": "请在车辆静止且挡位 P 挡时操作",
+    "ru": "Выполняйте операцию только при неподвижном автомобиле и включённой передаче P",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_safe_tip",
+    "zh": "检测到后排座椅有人，座椅禁止放倒",
+    "ru": "Обнаружен пассажир на заднем сиденье, складывание сиденья запрещено",
+    "type": "string"
+  },
+  {
+    "name": "voiceWarning",
+    "zh": "空气净化语音提示",
+    "ru": "Голосовое уведомление об очистке воздуха",
+    "type": "string"
+  },
+  {
+    "name": "windowVentilation",
+    "zh": "解锁降窗通风",
+    "ru": "Разблокировать проветривание",
+    "type": "string"
+  },
+  {
+    "name": "window_description",
+    "zh": "后除霜",
+    "ru": "Обогрев заднего стекла",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие варианты",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Кому",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "airPurgeErrorTip",
+    "zh": "空气净化异常，请检查离子发生器",
+    "ru": "Сбой очистки воздуха, проверьте генератор ионов",
+    "type": "string"
+  },
+  {
+    "name": "air_purge_is_open",
+    "zh": "您已打开空气净化",
+    "ru": "Очистка воздуха включена",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "空调",
+    "ru": "Климат-контроль",
+    "type": "string"
+  },
+  {
+    "name": "auto_air_purge_complete_tts",
+    "zh": "空气净化已完成，当前空气质量优",
+    "ru": "Очистка воздуха завершена, текущее качество воздуха отличное",
+    "type": "string"
+  },
+  {
+    "name": "auto_air_purge_open_tts",
+    "zh": "车内PM2.5超标，已为您开启智能净化",
+    "ru": "Превышен уровень PM2.5 в салоне, для вас включена интеллектуальная очистка воздуха",
+    "type": "string"
+  },
+  {
+    "name": "automaticCycle",
+    "zh": "内外循环自动切换",
+    "ru": "Автоматическое переключение внутреннего и наружного режима",
+    "type": "string"
+  },
+  {
+    "name": "automaticCycleErrorTip",
+    "zh": "自动内外循环功能异常",
+    "ru": "Неисправность автоматического режима рециркуляции воздуха",
+    "type": "string"
+  },
+  {
+    "name": "back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть на половину высоты",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_level_high",
+    "zh": "三档",
+    "ru": "3-я ступень",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_level_low",
+    "zh": "一档",
+    "ru": "1-я ступень",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_level_medium",
+    "zh": "二档",
+    "ru": "2-я ступень",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_time_15m",
+    "zh": "15分钟",
+    "ru": "15 минут",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_time_20m",
+    "zh": "20分钟",
+    "ru": "20 минут",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_time_30m",
+    "zh": "30分钟",
+    "ru": "30 минут",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "description_automaticCycle",
+    "zh": "开启时，根据车内车外空气质量，自动切换内外循环。",
+    "ru": "При включении автоматически переключает внутреннюю и внешнюю циркуляцию в зависимости от качества воздуха в салоне и снаружи.",
+    "type": "string"
+  },
+  {
+    "name": "error_aromatic",
+    "zh": "香氛系统功能异常！",
+    "ru": "Сбой системы ароматизации!",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "inside_pm25",
+    "zh": "车内",
+    "ru": "В салоне",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "know",
+    "zh": "知道了",
+    "ru": "Понял",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться в режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "outside_pm25",
+    "zh": "车外",
+    "ru": "Снаружи автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "seat_control",
+    "zh": "舒适座椅",
+    "ru": "Комфортное сиденье",
+    "type": "string"
+  },
+  {
+    "name": "seat_massage",
+    "zh": "座椅按摩",
+    "ru": "Массаж сиденья",
+    "type": "string"
+  },
+  {
+    "name": "seat_massage_mode_select",
+    "zh": "模式选择",
+    "ru": "Выбор режима",
+    "type": "string"
+  },
+  {
+    "name": "seat_vent_heat",
+    "zh": "通风加热",
+    "ru": "Вентиляция и обогрев",
+    "type": "string"
+  },
+  {
+    "name": "setUp",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "setting_seat_massage_level",
+    "zh": "挡位选择",
+    "ru": "Выбор уровня",
+    "type": "string"
+  },
+  {
+    "name": "setting_seat_massage_mode",
+    "zh": "模式",
+    "ru": "Режим",
+    "type": "string"
+  },
+  {
+    "name": "setting_seat_massage_time",
+    "zh": "时间选择",
+    "ru": "Выбор времени",
+    "type": "string"
+  },
+  {
+    "name": "settings",
+    "zh": "空调设置",
+    "ru": "Настройки климата",
+    "type": "string"
+  },
+  {
+    "name": "step",
+    "zh": "档",
+    "ru": "Уровень",
+    "type": "string"
+  },
+  {
+    "name": "text_air_afternoon",
+    "zh": "下午",
+    "ru": "После полудня",
+    "type": "string"
+  },
+  {
+    "name": "text_air_comfort",
+    "zh": "舒适",
+    "ru": "Комфорт",
+    "type": "string"
+  },
+  {
+    "name": "text_air_evening",
+    "zh": "晚上",
+    "ru": "Вечер",
+    "type": "string"
+  },
+  {
+    "name": "text_air_forenoon",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "text_air_purification",
+    "zh": "净化",
+    "ru": "Очистка",
+    "type": "string"
+  },
+  {
+    "name": "text_air_sync_temperature",
+    "zh": "同步温度",
+    "ru": "Синхр. темп.",
+    "type": "string"
+  },
+  {
+    "name": "text_air_vent",
+    "zh": "通风",
+    "ru": "Вентиляция",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_buffer",
+    "zh": "缓冲",
+    "ru": "Смягчение",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_cat_walk",
+    "zh": "猫步",
+    "ru": "Кошачий шаг",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_massage",
+    "zh": "推拿",
+    "ru": "Туина",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_pulse",
+    "zh": "脉冲",
+    "ru": "Импульс",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_shoulder",
+    "zh": "肩部",
+    "ru": "Плечи",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_snakelike",
+    "zh": "蛇形",
+    "ru": "Змеевидный",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_waist",
+    "zh": "腰部",
+    "ru": "Поясница",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_mode_wave",
+    "zh": "波浪",
+    "ru": "Волны",
+    "type": "string"
+  },
+  {
+    "name": "text_massage_stop_tip",
+    "zh": "按摩已结束，已为您关闭按摩",
+    "ru": "Массаж завершён, массаж отключён",
+    "type": "string"
+  },
+  {
+    "name": "text_start_massager",
+    "zh": "开始按摩",
+    "ru": "Начать массаж",
+    "type": "string"
+  },
+  {
+    "name": "text_stop_massager",
+    "zh": "停止按摩",
+    "ru": "Прекратить массаж",
+    "type": "string"
+  },
+  {
+    "name": "time_afternoon_prefix",
+    "zh": "下午",
+    "ru": "После полудня",
+    "type": "string"
+  },
+  {
+    "name": "time_evening_prefix",
+    "zh": "夜晚",
+    "ru": "Ночь",
+    "type": "string"
+  },
+  {
+    "name": "time_morning_prefix",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "time_setting_title",
+    "zh": "设置时间",
+    "ru": "Установить время",
+    "type": "string"
+  },
+  {
+    "name": "user_guide_air_flow",
+    "zh": "试试左右滑动调节风量",
+    "ru": "Попробуйте смахнуть влево или вправо, чтобы отрегулировать скорость обдува",
+    "type": "string"
+  },
+  {
+    "name": "user_guide_fan_direction",
+    "zh": "试试点击切换吹风模式",
+    "ru": "Попробуйте нажать, чтобы переключить режим обдува",
+    "type": "string"
+  },
+  {
+    "name": "windowVentilationTip",
+    "zh": "请到 4S 店开通该功能",
+    "ru": "Пожалуйста, обратитесь в 4S-салон для активации этой функции.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "massage_mode_group_0",
+    "zh": "波浪按摩",
+    "ru": "Волновой",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_1",
+    "zh": "猫步按摩",
+    "ru": "«Кошачий шаг»",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_2",
+    "zh": "腰部按摩",
+    "ru": "Поясница",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_3",
+    "zh": "肩部按摩",
+    "ru": "Плечи",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_4",
+    "zh": "蛇形按摩",
+    "ru": "Змеиный",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_5",
+    "zh": "脉冲按摩",
+    "ru": "Импульсный",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_6",
+    "zh": "缓冲按摩",
+    "ru": "Мягкий",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_mode_group_7",
+    "zh": "推拿按摩",
+    "ru": "Точечный",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_level_group_0",
+    "zh": "一档",
+    "ru": "Уровень 1",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_level_group_1",
+    "zh": "二档",
+    "ru": "Уровень 2",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_level_group_2",
+    "zh": "三档",
+    "ru": "Уровень 3",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_time_group_0",
+    "zh": "15分钟",
+    "ru": "15 минут",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_time_group_1",
+    "zh": "20分钟",
+    "ru": "20 минут",
+    "type": "arrays"
+  },
+  {
+    "name": "massage_time_group_2",
+    "zh": "30分钟",
+    "ru": "30 минут",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_0",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_1",
+    "zh": "12:30",
+    "ru": "12:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_2",
+    "zh": "13:00",
+    "ru": "13:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_3",
+    "zh": "13:30",
+    "ru": "13:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_4",
+    "zh": "14:00",
+    "ru": "14:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_5",
+    "zh": "14:30",
+    "ru": "14:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_6",
+    "zh": "15:00",
+    "ru": "15:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_7",
+    "zh": "15:30",
+    "ru": "15:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_8",
+    "zh": "16:00",
+    "ru": "16:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_9",
+    "zh": "16:30",
+    "ru": "16:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_10",
+    "zh": "17:00",
+    "ru": "17:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_11",
+    "zh": "17:30",
+    "ru": "17:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_12",
+    "zh": "18:00",
+    "ru": "18:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeAfternoon_array_13",
+    "zh": "18:30",
+    "ru": "18:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_0",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_1",
+    "zh": "19:00",
+    "ru": "19:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_2",
+    "zh": "19:30",
+    "ru": "19:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_3",
+    "zh": "20:00",
+    "ru": "20:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_4",
+    "zh": "20:30",
+    "ru": "20:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_5",
+    "zh": "21:00",
+    "ru": "21:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_6",
+    "zh": "21:30",
+    "ru": "21:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_7",
+    "zh": "22:00",
+    "ru": "22:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeEven_array_8",
+    "zh": "22:30",
+    "ru": "22:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_0",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_1",
+    "zh": "06:30",
+    "ru": "06:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_2",
+    "zh": "07:00",
+    "ru": "07:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_3",
+    "zh": "07:30",
+    "ru": "07:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_4",
+    "zh": "08:00",
+    "ru": "08:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_5",
+    "zh": "08:30",
+    "ru": "08:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_6",
+    "zh": "09:00",
+    "ru": "09:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_7",
+    "zh": "09:30",
+    "ru": "09:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_8",
+    "zh": "10:00",
+    "ru": "10:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_9",
+    "zh": "10:30",
+    "ru": "10:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_10",
+    "zh": "11:00",
+    "ru": "11:00",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_11",
+    "zh": "11:30",
+    "ru": "11:30",
+    "type": "arrays"
+  },
+  {
+    "name": "timeMorning_array_12",
+    "zh": "12:00",
+    "ru": "12:00",
+    "type": "arrays"
+  },
+  {
+    "name": "time_vent_mode_0",
+    "zh": "自动",
+    "ru": "Авто",
+    "type": "arrays"
+  },
+  {
+    "name": "time_vent_mode_1",
+    "zh": "自定义通风时间",
+    "ru": "Настраиваемое время проветривания",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

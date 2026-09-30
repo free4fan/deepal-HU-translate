@@ -1,0 +1,656 @@
+[
+  {
+    "name": "TF_card",
+    "zh": "TF卡",
+    "ru": "microSD-карта",
+    "type": "string"
+  },
+  {
+    "name": "USB_Disk",
+    "zh": "U盘",
+    "ru": "USB-флешка",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Зона",
+    "type": "string"
+  },
+  {
+    "name": "background_copy",
+    "zh": "退出后台复制",
+    "ru": "Прервать фоновое копирование",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "capacity",
+    "zh": "容量",
+    "ru": "Ёмкость",
+    "type": "string"
+  },
+  {
+    "name": "capacity_no_enough_dialog_Tip",
+    "zh": "%1$s的%2$不够复制，请整理或更换%3$s",
+    "ru": "На %1$s не хватает %2$ для копирования. Освободите место или замените %3$s",
+    "type": "string"
+  },
+  {
+    "name": "change_class_ten_tf_card",
+    "zh": "请更换读写速度为CLASS 10以上的%1$s",
+    "ru": "Замените %1$s на карту с классом скорости CLASS 10 или выше",
+    "type": "string"
+  },
+  {
+    "name": "change_storage_error",
+    "zh": "紧急视频空间不足，文件转存失败",
+    "ru": "Недостаточно места для аварийного видео, перенос файла не выполнен",
+    "type": "string"
+  },
+  {
+    "name": "change_storage_error_clear_video_or_small_video",
+    "zh": "请清理紧急视频文件或减少转存文件",
+    "ru": "Очистите файлы аварийной записи или уменьшите количество переносимых файлов",
+    "type": "string"
+  },
+  {
+    "name": "change_storage_error_toast",
+    "zh": "转存失败",
+    "ru": "Не удалось перенести.",
+    "type": "string"
+  },
+  {
+    "name": "change_to_tf_path",
+    "zh": "检测到TF卡，是否直接切换到TF卡存储",
+    "ru": "Обнаружена TF-карта. Переключиться на хранение на TF-карту?",
+    "type": "string"
+  },
+  {
+    "name": "check_the_tf_usb",
+    "zh": "检测到您插入了%1$s",
+    "ru": "Обнаружено подключение %1$s",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "copy_fail",
+    "zh": "行车记录仪文件复制失败",
+    "ru": "Не удалось скопировать файлы видеорегистратора",
+    "type": "string"
+  },
+  {
+    "name": "copy_file",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "copy_file_tip",
+    "zh": "注：请勿拔出TF卡/U盘",
+    "ru": "Примечание: не извлекайте TF-карту/USB-накопитель",
+    "type": "string"
+  },
+  {
+    "name": "copy_success",
+    "zh": "行车记录仪文件复制完成",
+    "ru": "Копирование файлов видеорегистратора завершено",
+    "type": "string"
+  },
+  {
+    "name": "copying_file_process",
+    "zh": "正在复制中，请稍后（%1$s）",
+    "ru": "Идёт копирование, подождите (%1$s)",
+    "type": "string"
+  },
+  {
+    "name": "das_capacity",
+    "zh": "辅助驾驶容量",
+    "ru": "Ёмкость ADAS",
+    "type": "string"
+  },
+  {
+    "name": "delete_fail",
+    "zh": "行车记录仪文件删除失败",
+    "ru": "Не удалось удалить файлы видеорегистратора",
+    "type": "string"
+  },
+  {
+    "name": "delete_file",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_no_recover",
+    "zh": "删除后文件不可恢复，是否继续删除？",
+    "ru": "После удаления файл невозможно восстановить. Продолжить удаление?",
+    "type": "string"
+  },
+  {
+    "name": "delete_success",
+    "zh": "行车记录仪文件删除成功",
+    "ru": "Файлы видеорегистратора успешно удалены",
+    "type": "string"
+  },
+  {
+    "name": "deleting_file_text",
+    "zh": "正在删除中，请稍后…",
+    "ru": "Идёт удаление, подождите…",
+    "type": "string"
+  },
+  {
+    "name": "dvr_camera_error",
+    "zh": "摄像头故障",
+    "ru": "Неисправность камеры",
+    "type": "string"
+  },
+  {
+    "name": "dvr_capture_fail",
+    "zh": "拍照失败",
+    "ru": "Не удалось сделать фото",
+    "type": "string"
+  },
+  {
+    "name": "dvr_capture_success",
+    "zh": "拍照成功",
+    "ru": "Фото сделано",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_keep_close_text",
+    "zh": "保持关闭",
+    "ru": "Оставить закрытым",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_keep_close_text_toast",
+    "zh": "已保持关闭",
+    "ru": "Оставлено закрытым",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_mem_operation_text",
+    "zh": "勾选后记忆操作，下次上电不再弹出",
+    "ru": "При отметке выбор запоминается, при следующем включении окно не появится",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_open_function_text",
+    "zh": "已知晓，开启功能",
+    "ru": "Понятно, включить функцию",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_open_function_toast_text",
+    "zh": "行车记录仪已开启",
+    "ru": "Видеорегистратор включён",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_tip_text",
+    "zh": "\"1.行车记录仪为您可使⽤的⼀项车载功能，现处于关闭状态；行车记录仪所有录制的视频都存储在车机系统中，不会传输给深蓝汽车，我们也不会访问或通过其他⽅式收集这些存储视频。在启⽤此功能前，请记住查阅您所在国家/地区与行车记录仪相关的当地法律，并遵守所有法规和财产限制。若您所在国家法规要求禁⽤行车记录仪，您可点击下⽅的“保持关闭”按钮，若您点击“已知晓，开启功能”按钮，则代表您已了解相关法律法规，并选择使⽤本功能； \n2.若您选择关闭⾏车记录仪功能，则驾驶辅助、紧急录制等功能将无法使用，哨兵模式仅灯光警示无法录制视频，对您的⽤车安全将存在⼀定的风险。\"",
+    "ru": "\"1. Видеорегистратор — функция бортового оборудования, в настоящее время отключена. Все видео, записанные видеорегистратором, хранятся в системе головного устройства и не передаются в Deepal. Мы не имеем к ним доступа и не собираем их каким-либо иным способом. Перед включением этой функции убедитесь, что вы ознакомились с местным законодательством вашей страны/региона в отношении видеорегистраторов, и соблюдаете все нормативные требования и ограничения. Если законодательство вашей страны запрещает использование видеорегистратора, нажмите кнопку «Оставить выключенным» ниже. Нажатие кнопки «Понятно, включить функцию» означает, что вы ознакомились с соответствующими нормативными актами и выбрали использование данной функции; \\n2. Если вы отключите функцию видеорегистратора, функции помощи водителю, экстренной записи и др. станут недоступны. В режиме охраны будет работать только световое оповещение без записи видео, что может представлять определённый риск для вашей безопасности.\"",
+    "type": "string"
+  },
+  {
+    "name": "dvr_permission_title_tip_text",
+    "zh": "隐私告知与同意",
+    "ru": "Приватность и согласие",
+    "type": "string"
+  },
+  {
+    "name": "dvr_system_error",
+    "zh": "影像系统异常，行车记录仪暂不可用",
+    "ru": "Сбой системы видеозаписи, видеорегистратор временно недоступен",
+    "type": "string"
+  },
+  {
+    "name": "emergency_and_photo_memory_over",
+    "zh": "紧急视频和照片空间不足",
+    "ru": "Недостаточно места для экстренных видео и фотографий",
+    "type": "string"
+  },
+  {
+    "name": "emergency_and_photo_memory_over_text",
+    "zh": "请及时清理储存空间。哨兵⼯作期间系统不能为您保存视频，但仍将向⼊侵者发出⽰警信息。建议您及时到⾏车记录仪中清理紧急视频",
+    "ru": "Пожалуйста, своевременно освободите место в хранилище. Во время работы режима охраны система не может сохранять видео, но будет продолжать отправлять предупреждения нарушителям. Рекомендуем своевременно удалять экстренные видеозаписи в меню видеорегистратора",
+    "type": "string"
+  },
+  {
+    "name": "emergency_memory_over",
+    "zh": "紧急视频空间不足",
+    "ru": "Недостаточно места для экстренных видео",
+    "type": "string"
+  },
+  {
+    "name": "emergency_video_save_fail",
+    "zh": "紧急视频保存失败",
+    "ru": "Не удалось сохранить экстренную видеозапись",
+    "type": "string"
+  },
+  {
+    "name": "emergency_video_save_success",
+    "zh": "紧急视频保存成功",
+    "ru": "Аварийное видео успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "emergency_video_saving",
+    "zh": "紧急视频录制中…",
+    "ru": "Идёт аварийная видеозапись…",
+    "type": "string"
+  },
+  {
+    "name": "error_ejecting",
+    "zh": "检测到%1$s拔出，可能会造成复制的文件损坏",
+    "ru": "Обнаружено извлечение %1$s, это может привести к повреждению копируемых файлов",
+    "type": "string"
+  },
+  {
+    "name": "evt_capacity",
+    "zh": "紧急视频容量",
+    "ru": "Ёмкость аварийного видео",
+    "type": "string"
+  },
+  {
+    "name": "format",
+    "zh": "格式化",
+    "ru": "Форматирование",
+    "type": "string"
+  },
+  {
+    "name": "format_fail",
+    "zh": "格式化失败",
+    "ru": "Сбой форматирования",
+    "type": "string"
+  },
+  {
+    "name": "format_finish",
+    "zh": "格式化成功",
+    "ru": "Форматирование завершено",
+    "type": "string"
+  },
+  {
+    "name": "format_immediately",
+    "zh": "是否立即格式化?",
+    "ru": "Форматировать немедленно?",
+    "type": "string"
+  },
+  {
+    "name": "format_to_cancel_data",
+    "zh": "此操作会清空存储卡数据，是否继续格式化",
+    "ru": "Это действие удалит все данные с карты памяти. Продолжить форматирование?",
+    "type": "string"
+  },
+  {
+    "name": "format_to_record_normal",
+    "zh": "为保证行车视频录制功能正常，需对TF卡车机进行格式化。哨兵工作期间系统不能为您保存视频，但仍将向入侵者发出示警信息",
+    "ru": "Для обеспечения нормальной работы функции видеозаписи при движении необходимо отформатировать TF-карту в головном устройстве автомобиля. Во время работы режима «Сторож» система не сможет сохранять видеозаписи, но будет продолжать отправлять предупреждения нарушителям.",
+    "type": "string"
+  },
+  {
+    "name": "formating",
+    "zh": "格式化中",
+    "ru": "Форматирование...",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "know_ok",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "low_Velocity",
+    "zh": "%1$s速度过低",
+    "ru": "%1$s скорость слишком низкая",
+    "type": "string"
+  },
+  {
+    "name": "mic_error",
+    "zh": "录音功能故障",
+    "ru": "Сбой записи звука",
+    "type": "string"
+  },
+  {
+    "name": "no_tf_memory",
+    "zh": "无%1$s或%2$s不可用",
+    "ru": "Нет %1$s или %2$s недоступен",
+    "type": "string"
+  },
+  {
+    "name": "nor_capacity",
+    "zh": "循环视频容量",
+    "ru": "Объём циклической записи",
+    "type": "string"
+  },
+  {
+    "name": "over_catacity",
+    "zh": "%1$s容量过大",
+    "ru": "%1$s: объём велик",
+    "type": "string"
+  },
+  {
+    "name": "p_input_storage_string",
+    "zh": "P档下再次插入%1$s可进行相关操作",
+    "ru": "В положении P повторно вставьте %1$s для выполнения соответствующих операций",
+    "type": "string"
+  },
+  {
+    "name": "pho_capacity",
+    "zh": "图片容量",
+    "ru": "Объём для изображений",
+    "type": "string"
+  },
+  {
+    "name": "pho_memory_over",
+    "zh": "照片空间不足",
+    "ru": "Мало места для фото",
+    "type": "string"
+  },
+  {
+    "name": "please_car_power_on",
+    "zh": "请将车辆上电",
+    "ru": "Включите питание автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "please_change_tf",
+    "zh": "请更换%1$s，哨兵工作期间系统不能为您保存视频，但仍将向入侵者发出示警信息",
+    "ru": "Замените %1$s. Во время работы «Сторожевого режима» система не может сохранять видео, но продолжит подавать предупреждающие сигналы",
+    "type": "string"
+  },
+  {
+    "name": "please_chose_old_storage_operation",
+    "zh": "请选择对行车记录仪原存储文件进行何种操作？",
+    "ru": "Выберите, какую операцию выполнить с исходными файлами видеорегистратора?",
+    "type": "string"
+  },
+  {
+    "name": "please_clear_TF_card",
+    "zh": "请及时清理TF卡",
+    "ru": "Очистите TF-карту вовремя",
+    "type": "string"
+  },
+  {
+    "name": "please_clear_emergency",
+    "zh": "请清理紧急视频⽂件。哨兵⼯作期间系统不能为您保存视频，但仍将向⼊侵者发出⽰警信息。建议您及时到⾏车记录仪中清理紧急视频",
+    "ru": "Пожалуйста, очистите файлы экстренных видеозаписей. Во время работы Сторожевого режима система не может сохранять видео, но будет продолжать отправлять предупреждения нарушителям. Рекомендуем своевременно очищать экстренные видеозаписи в видеорегистраторе",
+    "type": "string"
+  },
+  {
+    "name": "please_clear_pho",
+    "zh": "请清理照片文件",
+    "ru": "Очистите фотофайлы",
+    "type": "string"
+  },
+  {
+    "name": "please_insert_tf_card",
+    "zh": "请插入容量为8GB~128GB，速度CLASS 10以上的%1$s，系统监测到无%2$s，哨兵工作期间系统不能为您保存视频，但仍将向入侵者发出示警信息",
+    "ru": "Пожалуйста, вставьте %1$s объёмом 8 ГБ–128 ГБ со скоростью не ниже CLASS 10. Система не обнаружила %2$s. Во время работы Сторожевого режима система не сможет сохранять видео, но продолжит отправлять сигналы тревоги",
+    "type": "string"
+  },
+  {
+    "name": "please_insert_tf_card_8_to_128",
+    "zh": "请插入容量为8GB-128GB 的%1$s",
+    "ru": "Пожалуйста, вставьте %1$s объёмом 8–128 ГБ",
+    "type": "string"
+  },
+  {
+    "name": "power_low_error",
+    "zh": "当前电量不⾜，已进⼊预开启状态，如您接入充电则系统将自动开始执行哨兵模式。",
+    "ru": "Недостаточный заряд батареи. Система переведена в режим предварительной активации. При подключении к зарядке Сторожевой режим будет активирован автоматически.",
+    "type": "string"
+  },
+  {
+    "name": "sentinel_warning_toast",
+    "zh": "周身视频录制中",
+    "ru": "Идёт круговая видеозапись",
+    "type": "string"
+  },
+  {
+    "name": "tf_catacity_low",
+    "zh": "%1$s可用容量不足",
+    "ru": "%1$s: недостаточно доступного объёма",
+    "type": "string"
+  },
+  {
+    "name": "tf_write_error",
+    "zh": "%1$s写入故障",
+    "ru": "Ошибка записи на %1$s",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любой участок клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательская",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша пробела",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]

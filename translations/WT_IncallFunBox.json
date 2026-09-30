@@ -1,0 +1,1496 @@
+[
+  {
+    "name": "app_name",
+    "zh": "彩蛋箱",
+    "ru": "Коробка сюрпризов",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "battery_notice",
+    "zh": "请保证蓄电池电量超过65%之后再启动此功能",
+    "ru": "Убедитесь, что заряд аккумулятора превышает 65 %, прежде чем активировать эту функцию.",
+    "type": "string"
+  },
+  {
+    "name": "brake_notice",
+    "zh": "请松开制动踏板后再启动此功能",
+    "ru": "Отпустите педаль тормоза, прежде чем активировать эту функцию.",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "click_fast_notice",
+    "zh": "请勿频繁点击",
+    "ru": "Не нажимайте слишком часто.",
+    "type": "string"
+  },
+  {
+    "name": "close_hot_word",
+    "zh": "关闭^关掉",
+    "ru": "Выключить^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "driving_notice",
+    "zh": "请将挡位位置于P挡后在启动此功能",
+    "ru": "Перед активацией этой функции переведите селектор передач в положение P.",
+    "type": "string"
+  },
+  {
+    "name": "emergency_notice",
+    "zh": "请关闭应急报警灯后再开启此功能",
+    "ru": "Пожалуйста, выключите аварийную сигнализацию, а затем включите эту функцию.",
+    "type": "string"
+  },
+  {
+    "name": "engine_notice",
+    "zh": "请将发动机熄火后再启动此功能",
+    "ru": "Пожалуйста, заглушите двигатель перед включением этой функции.",
+    "type": "string"
+  },
+  {
+    "name": "exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "full_dialog_title",
+    "zh": "如何开始音乐灯光秀",
+    "ru": "Как запустить музыкальное световое шоу",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "here_content",
+    "zh": "小伙伴,我在这儿;小伙伴,我在这儿",
+    "ru": "Друг, я здесь; Друг, я здесь",
+    "type": "string"
+  },
+  {
+    "name": "light_effect_custom_music",
+    "zh": "自定义音乐",
+    "ru": "Пользовательская музыка",
+    "type": "string"
+  },
+  {
+    "name": "light_effect_one_music_1_name",
+    "zh": "动感炫酷",
+    "ru": "Динамичный и эффектный",
+    "type": "string"
+  },
+  {
+    "name": "light_effect_one_music_2_name",
+    "zh": "清新灵动",
+    "ru": "Свежий и живой",
+    "type": "string"
+  },
+  {
+    "name": "light_show_exit_dialog_title",
+    "zh": "退出音乐灯光秀",
+    "ru": "Выйти из музыкально-светового шоу",
+    "type": "string"
+  },
+  {
+    "name": "light_show_exit_notice",
+    "zh": "音乐灯光秀已退出",
+    "ru": "Музыкально-световое шоу отключено",
+    "type": "string"
+  },
+  {
+    "name": "light_show_open_fail_notice",
+    "zh": "音乐灯光秀打开失败",
+    "ru": "Не удалось открыть музыкально-световое шоу",
+    "type": "string"
+  },
+  {
+    "name": "light_show_tip_outtime",
+    "zh": "超时未下车按下解锁键将退出",
+    "ru": "При истечении времени без выхода из автомобиля нажатие кнопки разблокировки выведет из шоу",
+    "type": "string"
+  },
+  {
+    "name": "light_show_tip_volume",
+    "zh": "系统将为您降低车窗，调大音量",
+    "ru": "Система опустит стёкла и увеличит громкость",
+    "type": "string"
+  },
+  {
+    "name": "main_name",
+    "zh": "彩蛋箱",
+    "ru": "Коробка с сюрпризами",
+    "type": "string"
+  },
+  {
+    "name": "main_page_musiclight_show_item",
+    "zh": "音乐灯光秀",
+    "ru": "Музыкально-световое шоу",
+    "type": "string"
+  },
+  {
+    "name": "main_page_personal_speaker_item",
+    "zh": "个性喇叭",
+    "ru": "Свой гудок",
+    "type": "string"
+  },
+  {
+    "name": "main_page_shouting_outside_item",
+    "zh": "车外喊话",
+    "ru": "Голос наружу",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_five",
+    "zh": "应急报警灯未点亮时",
+    "ru": "Когда аварийная сигнализация не включена",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_four",
+    "zh": "车辆制动踏板未踩下",
+    "ru": "Педаль тормоза не нажата",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_one",
+    "zh": "车辆处于P挡",
+    "ru": "Автомобиль в P",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_six",
+    "zh": "小电池电压低报警未激活",
+    "ru": "Предупреждение о низком напряжении вспомогательной батареи не активировано",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_three",
+    "zh": "蓄电池电量状态正常",
+    "ru": "Заряд аккумулятора в норме",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_title",
+    "zh": "请确认开启条件",
+    "ru": "Подтвердите условия включения",
+    "type": "string"
+  },
+  {
+    "name": "music_light_open_require_case_two",
+    "zh": "电源处于非OFF挡",
+    "ru": "Питание не в положении OFF",
+    "type": "string"
+  },
+  {
+    "name": "music_light_show_lock_bt_tips",
+    "zh": "%s 超时未下车按下解锁键将退出",
+    "ru": "По истечении %s без выхода из автомобиля нажатие кнопки разблокировки завершит сессию",
+    "type": "string"
+  },
+  {
+    "name": "no_playing_while_driving",
+    "zh": "请在⻋速低于7Km/h时使⽤该功能",
+    "ru": "Используйте эту функцию при скорости менее 7 км/ч",
+    "type": "string"
+  },
+  {
+    "name": "oil_type_content",
+    "zh": "%s号汽油请加%s元;%s号汽油请加%s元",
+    "ru": "Залить %s-й бензин на %s юаней; залить %s-й бензин на %s юаней",
+    "type": "string"
+  },
+  {
+    "name": "oil_type_top_content",
+    "zh": "%s号汽油请加满;%s号汽油请加满",
+    "ru": "Заправьте %s-й бензин до полного бака; заправьте %s-й бензин до полного бака",
+    "type": "string"
+  },
+  {
+    "name": "only_play_inside_switch_text",
+    "zh": "仅车内播放",
+    "ru": "Только в салоне",
+    "type": "string"
+  },
+  {
+    "name": "open",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "open_music_light_tip",
+    "zh": "\"按下解锁键即可开启⾳乐灯光秀\n将降下⻋窗，并调⾼⾳量，建议下⻋体验\"",
+    "ru": "\"Нажмите кнопку разблокировки, чтобы запустить музыкально-световое шоу\\nСтёкла опустятся, громкость увеличится. Рекомендуем выйти из автомобиля, чтобы насладиться шоу в полной мере.\"",
+    "type": "string"
+  },
+  {
+    "name": "open_qq_music",
+    "zh": "去选择音乐",
+    "ru": "Выбрать музыку",
+    "type": "string"
+  },
+  {
+    "name": "open_qq_music_explain",
+    "zh": "选择音乐，进入播放详情页点击“秀”，立即开始灯光秀",
+    "ru": "Выберите музыку, на странице деталей воспроизведения нажмите «Шоу» — световое шоу начнётся сразу.",
+    "type": "string"
+  },
+  {
+    "name": "page_one",
+    "zh": "页面一",
+    "ru": "Страница 1",
+    "type": "string"
+  },
+  {
+    "name": "page_two",
+    "zh": "页面二",
+    "ru": "Страница 2",
+    "type": "string"
+  },
+  {
+    "name": "payattention_content",
+    "zh": "请抬头看路,注意安全;请抬头看路,注意安全",
+    "ru": "Смотрите на дорогу, будьте внимательны;Смотрите на дорогу, будьте внимательны",
+    "type": "string"
+  },
+  {
+    "name": "please_pass_first_content",
+    "zh": "请您先过;请您先过",
+    "ru": "Проходите, пожалуйста;Проходите, пожалуйста",
+    "type": "string"
+  },
+  {
+    "name": "power_notice",
+    "zh": "请将车辆上电后，再启动此功能",
+    "ru": "Перед активацией этой функции включите питание автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "preparing_music_light",
+    "zh": "灯光秀准备中",
+    "ru": "Световое шоу готовится",
+    "type": "string"
+  },
+  {
+    "name": "reboot_engine",
+    "zh": "为防止蓄电池电量不足，请启动发动机后开启本功能",
+    "ru": "Во избежание разряда аккумулятора включайте эту функцию после запуска двигателя.",
+    "type": "string"
+  },
+  {
+    "name": "recoding_is_not_available",
+    "zh": "正在录音中，请结束录音再使用",
+    "ru": "Идёт запись. Завершите запись перед использованием.",
+    "type": "string"
+  },
+  {
+    "name": "recording_dialog_stop_recording_text",
+    "zh": "点击结束录音",
+    "ru": "Остановить запись",
+    "type": "string"
+  },
+  {
+    "name": "shouting_animation_card_name",
+    "zh": "车外喊话",
+    "ru": "Громкая связь наружу",
+    "type": "string"
+  },
+  {
+    "name": "shouting_animation_card_shouting",
+    "zh": "车外喊话中",
+    "ru": "Идёт громкая связь наружу",
+    "type": "string"
+  },
+  {
+    "name": "shouting_is_not_available",
+    "zh": "来电或通话时,当前功能不可用",
+    "ru": "Функция недоступна при входящем звонке или во время звонка",
+    "type": "string"
+  },
+  {
+    "name": "shouting_name_dialog_not_empty",
+    "zh": "名称不能为空",
+    "ru": "Имя не может быть пустым",
+    "type": "string"
+  },
+  {
+    "name": "shouting_name_max_twelve",
+    "zh": "最多输入12个字",
+    "ru": "Не более 12 символов",
+    "type": "string"
+  },
+  {
+    "name": "shouting_out_press_and_shouting",
+    "zh": "按住喊话",
+    "ru": "Удерживать",
+    "type": "string"
+  },
+  {
+    "name": "shouting_out_press_layout_tip",
+    "zh": "或⻓按⽅向盘语⾳按键直接喊话",
+    "ru": "Или нажмите и удерживайте кнопку голосового управления на руле для прямого разговора",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_add_card",
+    "zh": "添加喊话",
+    "ru": "Добавить запись",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_audio_input_default_name",
+    "zh": "录音%1$s",
+    "ru": "Запись %1$s",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_audio_input_max_count_tips",
+    "zh": "最多添加五个语音卡片",
+    "ru": "Добавьте не более пяти голосовых карточек",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_backcar",
+    "zh": "倒车注意",
+    "ru": "Осторожно, задний ход",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_backcar_tips",
+    "zh": "挂入倒挡时车外将发出声音",
+    "ru": "При включении задней передачи снаружи автомобиля будет издаваться звук",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_backcar_title",
+    "zh": "自动播放",
+    "ru": "Автовоспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_bluetooth_speaker_tips",
+    "zh": "车外喊话暂不可用，请断开蓝牙设备后重试",
+    "ru": "Внешний громкоговоритель временно недоступен. Отключите Bluetooth-устройство и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_custom_set",
+    "zh": "自定义",
+    "ru": "Пользовательский",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_edit_drop_menu_delete_card",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_edit_drop_menu_update_name",
+    "zh": "重命名",
+    "ru": "Переименовать",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_error_play",
+    "zh": "文件损坏，请重新上传",
+    "ru": "Файл повреждён. Загрузите его заново.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_here",
+    "zh": "我在这里",
+    "ru": "Я здесь",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_input_fail_tips",
+    "zh": "保存失败，请重试",
+    "ru": "Не удалось сохранить. Попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_input_success_tips",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_jump_dialog_left_msg",
+    "zh": "短按自定义按键将喊话预设音频",
+    "ru": "Короткое нажатие настраиваемой кнопки воспроизведёт предустановленное аудио-оповещение.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_jump_dialog_msg",
+    "zh": "进入“车辆中心-方向盘自定义按键”界面，可选择将“车外喊话”功能设置为自定义按键功能。",
+    "ru": "Перейдите в раздел «Центр автомобиля — Настраиваемые кнопки рулевого колеса», где можно назначить функцию «Внешний вызов» на настраиваемую кнопку.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_jump_dialog_ok",
+    "zh": "去设置",
+    "ru": "Перейти в настройки",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_jump_dialog_right_msg",
+    "zh": "长按语音键则触发“按住喊话”功能",
+    "ru": "Долгое нажатие на кнопку голосового управления активирует функцию «Удержание для вызова».",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_jump_dialog_title",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_no_usb_tips",
+    "zh": "请插入U盘",
+    "ru": "Вставьте USB-накопитель",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_oil_money_title",
+    "zh": "金额",
+    "ru": "Сумма",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_oil_set",
+    "zh": "加油设置",
+    "ru": "Настройки заправки",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_oil_type_title",
+    "zh": "油号",
+    "ru": "Марка топлива",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_pay_attention",
+    "zh": "别看手机",
+    "ru": "Не смотри в телефон",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol",
+    "zh": "我要加油",
+    "ru": "Мне нужно заправиться",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_dialog_money_five_hundred",
+    "zh": "500元",
+    "ru": "500 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_dialog_money_hundred",
+    "zh": "100元",
+    "ru": "100 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_dialog_money_top_up",
+    "zh": "加满",
+    "ru": "Заправить доверху",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_dialog_money_two_hundred",
+    "zh": "200元",
+    "ru": "200 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_money_five_hundred",
+    "zh": "500元",
+    "ru": "500 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_money_hundred",
+    "zh": "100元",
+    "ru": "100 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_money_top_up",
+    "zh": "加满",
+    "ru": "Заправить",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_money_two_hundred",
+    "zh": "200元",
+    "ru": "200 юаней",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_type_nity_eight",
+    "zh": "98#汽油",
+    "ru": "АИ-98",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_type_nity_five",
+    "zh": "95#汽油",
+    "ru": "АИ-95",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_type_nity_three",
+    "zh": "93#汽油",
+    "ru": "АИ-93",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_petrol_type_nity_two",
+    "zh": "92#汽油",
+    "ru": "АИ-92",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_please_pass_first",
+    "zh": "礼让行人",
+    "ru": "Уступите пешеходам",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_record_less_one",
+    "zh": "录音时间过短，请重新录制",
+    "ru": "Длительность записи слишком мала, повторите запись",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_set_menu_title",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_set_menu_tone_set",
+    "zh": "音色设置",
+    "ru": "Настройки тембра",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_set_menu_vehicle_set",
+    "zh": "方向盘自定义",
+    "ru": "Настройка руля",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_default_name",
+    "zh": "文本输入%1$s",
+    "ru": "Ввод текста%1$s",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_empty_name_tips",
+    "zh": "请输入名称",
+    "ru": "Введите название",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_empty_toast_tips",
+    "zh": "请输入喊话内容",
+    "ru": "Введите текст сообщения",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_exist_name_tips",
+    "zh": "名称重复，请修改",
+    "ru": "Имя уже используется, измените его",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_max_count_tips",
+    "zh": "最多添加五个文字卡片,请删除后再添加",
+    "ru": "Максимум пять текстовых карточек. Удалите лишние перед добавлением новых.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_text_input_text",
+    "zh": "文字输入",
+    "ru": "Ввод текста",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tone_doudou",
+    "zh": "可爱童声",
+    "ru": "Милый детский голос",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tone_feichen",
+    "zh": "暖心男声",
+    "ru": "Душевный мужской голос",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tone_wenzhu",
+    "zh": "巴适川语",
+    "ru": "Сычуаньский диалект",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tone_xiaoqi",
+    "zh": "温柔女声",
+    "ru": "Нежный женский голос",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tone_xiaoyueyu",
+    "zh": "猴赛雷粤语",
+    "ru": "Кантонский диалект",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_tts_input_text",
+    "zh": "录音",
+    "ru": "Запись",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_update_card_info_dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_update_card_info_dialog_sure",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_update_card_info_dialog_title",
+    "zh": "确认删除“%1$s”",
+    "ru": "Подтвердить удаление «%1$s»",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_input_max_count_tips",
+    "zh": "最多添加五个U盘文件，请删除后再添加",
+    "ru": "Можно добавить не более 5 файлов с USB-накопителя. Удалите лишние, чтобы добавить новые.",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_upload_no_data_text",
+    "zh": "无音频文件",
+    "ru": "Нет аудиофайлов",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_upload_notice",
+    "zh": "可上传10M以内音频文件（MP3\\\\APE\\\\FLAC等格式）",
+    "ru": "Можно загружать аудиофайлы размером до 10 МБ (форматы MP3, APE, FLAC и др.)",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_upload_select",
+    "zh": "已选择%1$d首",
+    "ru": "Выбрано %1$d песен",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_upload_text",
+    "zh": "U盘上传",
+    "ru": "Загрузка с USB",
+    "type": "string"
+  },
+  {
+    "name": "shouting_outside_usb_upload_warning",
+    "zh": "音频不得大于10M",
+    "ru": "Размер аудиофайла не должен превышать 10 МБ",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_applause",
+    "zh": "掌声",
+    "ru": "Аплодисменты",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_auto_play",
+    "zh": "自动开启",
+    "ru": "Автозапуск",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_auto_play_tips",
+    "zh": "开启音效后，挡位变为D挡时，车外扬声器发出3s声音",
+    "ru": "После включения звуковых эффектов при переключении в положение D внешние динамики воспроизводят звук длительностью 3 с",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_awkward_sheep",
+    "zh": "尴尬绵羊",
+    "ru": "Неловкая овца",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_cough",
+    "zh": "咳嗽",
+    "ru": "Кашель",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_crow_awkwardness",
+    "zh": "无语乌鸦",
+    "ru": "Ошеломлённая ворона",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_hiccup",
+    "zh": "打嗝",
+    "ru": "Икота",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_mighty_lion",
+    "zh": "威武狮子",
+    "ru": "Величественный лев",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_single_cylinder_tractors",
+    "zh": "单抗拖拉机",
+    "ru": "Одноцилиндровый трактор",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_surprise",
+    "zh": "吃惊",
+    "ru": "Удивление",
+    "type": "string"
+  },
+  {
+    "name": "shouting_prumpet_yawn",
+    "zh": "哈欠",
+    "ru": "Зевота",
+    "type": "string"
+  },
+  {
+    "name": "shouting_recording_countDown",
+    "zh": "”后录音结束",
+    "ru": "” — запись завершится",
+    "type": "string"
+  },
+  {
+    "name": "sohuting_out_release_end_shouting",
+    "zh": "松手结束喊话",
+    "ru": "Отпустите для завершения",
+    "type": "string"
+  },
+  {
+    "name": "speech_play_notice",
+    "zh": "请在语音助手退出后使用",
+    "ru": "Используйте после выхода из голосового помощника",
+    "type": "string"
+  },
+  {
+    "name": "text_input_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "text_input_card_title",
+    "zh": "名称",
+    "ru": "Название",
+    "type": "string"
+  },
+  {
+    "name": "text_input_card_title_hint",
+    "zh": "请输入名称",
+    "ru": "Введите название",
+    "type": "string"
+  },
+  {
+    "name": "text_input_content_tips",
+    "zh": "请输入“非符号”喊话内容",
+    "ru": "Введите текст обращения без специальных символов",
+    "type": "string"
+  },
+  {
+    "name": "text_input_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "text_input_save_fail",
+    "zh": "保存失败，请重试",
+    "ru": "Не удалось сохранить. Попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "text_input_save_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "text_input_shouting_content",
+    "zh": "喊话内容",
+    "ru": "Текст обращения",
+    "type": "string"
+  },
+  {
+    "name": "text_input_shouting_content_hint",
+    "zh": "输入文字，为您转为音频",
+    "ru": "Введите текст, он будет преобразован в аудио",
+    "type": "string"
+  },
+  {
+    "name": "text_input_shouting_outside",
+    "zh": "喊话",
+    "ru": "Громкая связь",
+    "type": "string"
+  },
+  {
+    "name": "text_input_title",
+    "zh": "文字输入",
+    "ru": "Ввод текста",
+    "type": "string"
+  },
+  {
+    "name": "text_input_title_tips",
+    "zh": "请输入名称",
+    "ru": "Введите название",
+    "type": "string"
+  },
+  {
+    "name": "text_input_try_inside",
+    "zh": "试听",
+    "ru": "Прослушать",
+    "type": "string"
+  },
+  {
+    "name": "tone_set_describe",
+    "zh": "切换音色后，语音助手音色也会随之变化。但【自定义录音】及【按住喊话】功能不受音色设置影响，只会播放您录入的真实声音。",
+    "ru": "После смены голоса голос голосового помощника также изменится. Однако функции «Пользовательская запись» и «Речь при удержании» не зависят от настроек голоса и воспроизводят только ваш реальный записанный голос.",
+    "type": "string"
+  },
+  {
+    "name": "usb_check_hot_word",
+    "zh": "勾选%s^选择%s",
+    "ru": "Отметить %s^Выбрать %s",
+    "type": "string"
+  },
+  {
+    "name": "usb_copying_msg",
+    "zh": "正在上传文件",
+    "ru": "Загрузка файла...",
+    "type": "string"
+  },
+  {
+    "name": "usb_default_author",
+    "zh": "未知作者",
+    "ru": "Неизвестный автор",
+    "type": "string"
+  },
+  {
+    "name": "usb_exist_name_tips",
+    "zh": "该文件已存在",
+    "ru": "Файл уже существует",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_button_text",
+    "zh": "上传",
+    "ru": "Загрузка",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_copy_usb_dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_no_usb_dialog_msg",
+    "zh": "您可插入U盘上传自定义音频，文件大小不得超过10MB",
+    "ru": "Вы можете вставить USB-накопитель для загрузки пользовательского аудио, размер файла не должен превышать 10 МБ",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_no_usb_dialog_ok",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_tip_text",
+    "zh": "可上传10M以内的音频文件（MP3APEFLAC等格式）",
+    "ru": "Можно загружать аудиофайлы размером до 10 МБ (форматы MP3, APE, FLAC и др.)",
+    "type": "string"
+  },
+  {
+    "name": "usb_upload_title",
+    "zh": "U盘音频文件",
+    "ru": "Аудио на USB",
+    "type": "string"
+  },
+  {
+    "name": "voltage_notice",
+    "zh": "请解除小电池电压低报警后再启动此功能",
+    "ru": "Снимите предупреждение о низком напряжении резервной батареи перед включением этой функции",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие параметры",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, максимум %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "Вторая половина дня",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календаря",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться в режим ввода текста",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Мес.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

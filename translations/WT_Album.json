@@ -1,0 +1,2342 @@
+[
+  {
+    "name": "accept",
+    "zh": "接收",
+    "ru": "Принять",
+    "type": "string"
+  },
+  {
+    "name": "accept_interrupt",
+    "zh": "文件接收中断",
+    "ru": "Приём файла прерван",
+    "type": "string"
+  },
+  {
+    "name": "accept_or_refuse_file_from_phone",
+    "zh": "是否接收来自%s设备的%d个文件",
+    "ru": "Принять файлы с устройства %s (%d)?",
+    "type": "string"
+  },
+  {
+    "name": "accept_success",
+    "zh": "文件接收成功",
+    "ru": "Файл успешно получен",
+    "type": "string"
+  },
+  {
+    "name": "album",
+    "zh": "相簿",
+    "ru": "Фотоальбом",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "相册",
+    "ru": "Фотоальбом",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "audio_focus_conflict",
+    "zh": "音频焦点冲突，播放失败",
+    "ru": "Конфликт фокуса аудио, воспроизведение не удалось",
+    "type": "string"
+  },
+  {
+    "name": "back_previous_level",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_complete",
+    "zh": "点击加载更多",
+    "ru": "Загрузить ещё",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_end",
+    "zh": "没有更多数据",
+    "ru": "Нет больше данных",
+    "type": "string"
+  },
+  {
+    "name": "brvah_load_failed",
+    "zh": "加载失败，请点我重试",
+    "ru": "Загрузка не удалась. Нажмите, чтобы повторить.",
+    "type": "string"
+  },
+  {
+    "name": "brvah_loading",
+    "zh": "正在加载中...",
+    "ru": "Идёт загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_check_all",
+    "zh": "取消全选",
+    "ru": "Снять выделение",
+    "type": "string"
+  },
+  {
+    "name": "cancel_collection",
+    "zh": "取消收藏",
+    "ru": "Убрать из избранного",
+    "type": "string"
+  },
+  {
+    "name": "cancel_create",
+    "zh": "取消创建",
+    "ru": "Отменить создание",
+    "type": "string"
+  },
+  {
+    "name": "cancel_load",
+    "zh": "取消加载",
+    "ru": "Отменить загрузку",
+    "type": "string"
+  },
+  {
+    "name": "cancel_share",
+    "zh": "取消分享",
+    "ru": "Отменить обмен",
+    "type": "string"
+  },
+  {
+    "name": "check_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "check_photo_first",
+    "zh": "请先选择照片",
+    "ru": "Сначала выберите фотографию",
+    "type": "string"
+  },
+  {
+    "name": "check_time_memory_first",
+    "zh": "请先选择时光印象",
+    "ru": "Пожалуйста, сначала выберите «Впечатление времени»",
+    "type": "string"
+  },
+  {
+    "name": "choose_a_period_of_time",
+    "zh": "选择一段时间",
+    "ru": "Выберите период времени",
+    "type": "string"
+  },
+  {
+    "name": "close_album",
+    "zh": "关闭^关掉",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "close_ann_recommendation",
+    "zh": "关闭深蓝推荐",
+    "ru": "Откл. рекомендации Deep Blue",
+    "type": "string"
+  },
+  {
+    "name": "close_ann_recommendation_des",
+    "zh": "如果你需要推荐的时光印象，可以点击这里",
+    "ru": "Если вам нужны рекомендованные «Впечатления о времени», нажмите здесь.",
+    "type": "string"
+  },
+  {
+    "name": "close_ann_recommendation_option",
+    "zh": "关闭推荐",
+    "ru": "Отключить рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "collection",
+    "zh": "收藏",
+    "ru": "Избранное",
+    "type": "string"
+  },
+  {
+    "name": "collectioned",
+    "zh": "已收藏",
+    "ru": "В избранном",
+    "type": "string"
+  },
+  {
+    "name": "complete",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "complete_create_trip",
+    "zh": "完成创建",
+    "ru": "Завершить создание",
+    "type": "string"
+  },
+  {
+    "name": "confirm_cancel_upload",
+    "zh": "确认取消上传？",
+    "ru": "Подтвердить отмену загрузки?",
+    "type": "string"
+  },
+  {
+    "name": "confirm_to_delete",
+    "zh": "确认删除当前照片",
+    "ru": "Подтвердить удаление текущего фото",
+    "type": "string"
+  },
+  {
+    "name": "confirm_to_delete_these",
+    "zh": "确认删除%d项？",
+    "ru": "Подтвердить удаление %d элементов?",
+    "type": "string"
+  },
+  {
+    "name": "confirm_to_delete_video",
+    "zh": "确认删除当前视频",
+    "ru": "Подтвердить удаление текущего видео",
+    "type": "string"
+  },
+  {
+    "name": "connect_error",
+    "zh": "连接异常中断",
+    "ru": "Сбой соединения",
+    "type": "string"
+  },
+  {
+    "name": "create",
+    "zh": "创建",
+    "ru": "Создать",
+    "type": "string"
+  },
+  {
+    "name": "create_failed",
+    "zh": "创建失败",
+    "ru": "Не удалось создать",
+    "type": "string"
+  },
+  {
+    "name": "create_success",
+    "zh": "创建成功",
+    "ru": "Успешно создано",
+    "type": "string"
+  },
+  {
+    "name": "create_time_memory",
+    "zh": "创建时光印象",
+    "ru": "Создать воспоминания",
+    "type": "string"
+  },
+  {
+    "name": "create_time_memory_cancel",
+    "zh": "时光印象创建失败",
+    "ru": "Не удалось создать «Впечатления времени»",
+    "type": "string"
+  },
+  {
+    "name": "create_trip_notes",
+    "zh": "创建旅图记",
+    "ru": "Создать путевой журнал",
+    "type": "string"
+  },
+  {
+    "name": "create_vlog",
+    "zh": "创建VLOG",
+    "ru": "Создать VLOG",
+    "type": "string"
+  },
+  {
+    "name": "date_format",
+    "zh": "MM月dd日 HH:mm",
+    "ru": "dd.MM HH:mm",
+    "type": "string"
+  },
+  {
+    "name": "date_format_yyyy",
+    "zh": "yyyy年",
+    "ru": "yyyy",
+    "type": "string"
+  },
+  {
+    "name": "date_format_yyyyMM",
+    "zh": "yyyy年MM月",
+    "ru": "yyyy-MM",
+    "type": "string"
+  },
+  {
+    "name": "date_format_yyyyMMdd",
+    "zh": "yyyy年MM月dd日",
+    "ru": "yyyy-MM-dd",
+    "type": "string"
+  },
+  {
+    "name": "delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_confirm",
+    "zh": "删除当前视频",
+    "ru": "Удалить текущее видео",
+    "type": "string"
+  },
+  {
+    "name": "delete_succeeded",
+    "zh": "删除成功",
+    "ru": "Успешно удалено",
+    "type": "string"
+  },
+  {
+    "name": "deleting",
+    "zh": "正在删除...",
+    "ru": "Удаление...",
+    "type": "string"
+  },
+  {
+    "name": "deleting_percent",
+    "zh": "正在删除文件（%d/%d）",
+    "ru": "Удаление файла (%d/%d)",
+    "type": "string"
+  },
+  {
+    "name": "deleting_process",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "edit_name",
+    "zh": "编辑^修改",
+    "ru": "Редактировать^Изменять",
+    "type": "string"
+  },
+  {
+    "name": "edit_vlog_name",
+    "zh": "修改^编辑^重命名",
+    "ru": "Изменить^Редактировать^Переименовать",
+    "type": "string"
+  },
+  {
+    "name": "empty_time_memory_ann_tips",
+    "zh": "暂无深蓝推荐内容",
+    "ru": "Пока нет рекомендаций Deep Blue",
+    "type": "string"
+  },
+  {
+    "name": "empty_time_memory_tips",
+    "zh": "您还没有时光印象，快来创建属于自己的美好时光吧!",
+    "ru": "У вас ещё нет «Моментов времени». Создайте свои прекрасные воспоминания!",
+    "type": "string"
+  },
+  {
+    "name": "empty_trip_notes_tips",
+    "zh": "您还没有旅图记，快来创建属于自己的旅途回忆吧！",
+    "ru": "У вас ещё нет «Дневника путешествий» — создайте свои воспоминания о поездках!",
+    "type": "string"
+  },
+  {
+    "name": "end_time",
+    "zh": "结束时间",
+    "ru": "Время окончания",
+    "type": "string"
+  },
+  {
+    "name": "enter_audio_mode",
+    "zh": "已进入音频播放模式",
+    "ru": "Режим воспроизведения аудио активирован",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "i_known",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "input_cannot_be_empty",
+    "zh": "旅图记名字不能为空！",
+    "ru": "Имя «Дневника путешествий» не может быть пустым!",
+    "type": "string"
+  },
+  {
+    "name": "input_tips_10",
+    "zh": "最多输入10个字",
+    "ru": "Не более 10 символов",
+    "type": "string"
+  },
+  {
+    "name": "input_trip_note_name",
+    "zh": "输入旅图记名称",
+    "ru": "Введите название",
+    "type": "string"
+  },
+  {
+    "name": "lately",
+    "zh": "最近项目",
+    "ru": "Недавние проекты",
+    "type": "string"
+  },
+  {
+    "name": "list_template",
+    "zh": "列表",
+    "ru": "Список",
+    "type": "string"
+  },
+  {
+    "name": "loading",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "loading_share_to_huoshan",
+    "zh": "分享中，请稍后...",
+    "ru": "Идёт обмен, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "location",
+    "zh": "地点",
+    "ru": "Место",
+    "type": "string"
+  },
+  {
+    "name": "main",
+    "zh": "主页",
+    "ru": "Главная страница",
+    "type": "string"
+  },
+  {
+    "name": "map_loading",
+    "zh": "地图加载中...",
+    "ru": "Карта загружается...",
+    "type": "string"
+  },
+  {
+    "name": "maxsharesize",
+    "zh": "单次最多可分享%d张照片",
+    "ru": "За один раз можно поделиться не более чем %d фотографиями",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_method1",
+    "zh": "方式1:",
+    "ru": "Способ 1:",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_method1_action",
+    "zh": "热点连接并打开深蓝汽车App",
+    "ru": "Подключитесь к точке доступа и откройте приложение Deepal",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_method2",
+    "zh": "方式2:",
+    "ru": "Способ 2:",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_method2_action",
+    "zh": "打开深蓝汽车App，扫码连接",
+    "ru": "Откройте приложение Deepal, отсканируйте QR-код для подключения.",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_note_text",
+    "zh": "\"温馨提醒:\n 在文件传输过程中，中控屏和手机App请保持在传输界面，以免中断;\n 请勿关闭⻋机热点和手机WIFI，保持网络通畅;\n 文件传输结束后，可在状态栏或系统设置内关闭⻋机热点。\"",
+    "ru": "\"Напоминание:\\n Во время передачи файлов оставьте центральный экран и приложение на телефоне на экране передачи, чтобы избежать прерывания;\\n Не отключайте точку доступа мультимедийной системы и Wi-Fi телефона, поддерживайте стабильное соединение;\\n После завершения передачи файлов точку доступа мультимедийной системы можно отключить в строке состояния или в системных настройках.\"",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_success_note_accept_text",
+    "zh": "请进入深蓝汽车App接收文件",
+    "ru": "Пожалуйста, откройте приложение Deepal для получения файлов.",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_success_note_text",
+    "zh": "%1$s已连接成功",
+    "ru": "%1$s успешно подключен",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_text",
+    "zh": "选择以下方式进行连接后，打开手机深蓝汽车App接收文件",
+    "ru": "После выбора способа подключения из перечисленных ниже откройте приложение Deepal на смартфоне для получения файлов.",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_wlan",
+    "zh": "WLAN热点: %s",
+    "ru": "Точка доступа WLAN: %s",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_connect_wlan_password",
+    "zh": "连接密码: %s",
+    "ru": "Пароль подключения: %s",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_file_accept_text",
+    "zh": "接收至",
+    "ru": "Сохранить в",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_file_shareing_text",
+    "zh": "分享至",
+    "ru": "Поделиться в",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_dialog_title_select",
+    "zh": "共%s个文件",
+    "ru": "Всего %s файлов",
+    "type": "string"
+  },
+  {
+    "name": "near_trans_searching_text",
+    "zh": "搜索设备中...",
+    "ru": "Поиск устройств...",
+    "type": "string"
+  },
+  {
+    "name": "near_transmission",
+    "zh": "近程传输",
+    "ru": "Ближний перенос",
+    "type": "string"
+  },
+  {
+    "name": "next_location",
+    "zh": "下一个地点：",
+    "ru": "Следующее место:",
+    "type": "string"
+  },
+  {
+    "name": "next_month",
+    "zh": "下个月",
+    "ru": "В следующем месяце",
+    "type": "string"
+  },
+  {
+    "name": "next_step",
+    "zh": "下一步",
+    "ru": "Следующий шаг",
+    "type": "string"
+  },
+  {
+    "name": "no_collection_content",
+    "zh": "暂无收藏内容",
+    "ru": "Список избранного пуст.",
+    "type": "string"
+  },
+  {
+    "name": "no_location_content",
+    "zh": "暂无地点内容",
+    "ru": "Нет данных о месте",
+    "type": "string"
+  },
+  {
+    "name": "no_network",
+    "zh": "网络异常,请检查网络后重试",
+    "ru": "Ошибка сети. Проверьте подключение и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "no_network_upload",
+    "zh": "上传失败！请检查网络后重试",
+    "ru": "Загрузка не удалась! Проверьте подключение к сети и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "no_photos",
+    "zh": "暂无照片内容",
+    "ru": "Фотографий пока нет.",
+    "type": "string"
+  },
+  {
+    "name": "no_photos_in_this_time_period",
+    "zh": "该时间段内无照片！",
+    "ru": "В этот период фотографий нет!",
+    "type": "string"
+  },
+  {
+    "name": "no_video_content",
+    "zh": "暂无视频内容",
+    "ru": "Видео пока отсутствует.",
+    "type": "string"
+  },
+  {
+    "name": "no_videos",
+    "zh": "这里的视频空空如也！",
+    "ru": "Здесь нет видео!",
+    "type": "string"
+  },
+  {
+    "name": "not_support",
+    "zh": "暂不支持此格式生成VLOG",
+    "ru": "Генерация VLOG в этом формате пока не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "not_support_file",
+    "zh": "暂不支持打开此类文件",
+    "ru": "Открытие файлов этого типа пока не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "one_click_tablet",
+    "zh": "一键成片",
+    "ru": "Видео в один клик",
+    "type": "string"
+  },
+  {
+    "name": "one_key_vlog",
+    "zh": "一键成片",
+    "ru": "Видео в один клик",
+    "type": "string"
+  },
+  {
+    "name": "open_ann_recommendation",
+    "zh": "开启深蓝推荐",
+    "ru": "Вкл. рекомендации Deep Blue",
+    "type": "string"
+  },
+  {
+    "name": "open_ann_recommendation_des",
+    "zh": "如果你不再需要推荐的时光印象，可以点击这里",
+    "ru": "Если вам больше не нужны рекомендованные «Впечатления о времени», нажмите здесь",
+    "type": "string"
+  },
+  {
+    "name": "open_ann_recommendation_option",
+    "zh": "开启推荐",
+    "ru": "Включить рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "other",
+    "zh": "其他",
+    "ru": "Другое",
+    "type": "string"
+  },
+  {
+    "name": "past_15_days",
+    "zh": "近15天",
+    "ru": "За последние 15 дней",
+    "type": "string"
+  },
+  {
+    "name": "past_30_days",
+    "zh": "近30天",
+    "ru": "За последние 30 дней",
+    "type": "string"
+  },
+  {
+    "name": "past_three_days",
+    "zh": "近三天",
+    "ru": "За последние три дня",
+    "type": "string"
+  },
+  {
+    "name": "past_week",
+    "zh": "近一周",
+    "ru": "За последнюю неделю",
+    "type": "string"
+  },
+  {
+    "name": "past_year",
+    "zh": "近一年",
+    "ru": "За последний год",
+    "type": "string"
+  },
+  {
+    "name": "pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "phone_interconnection",
+    "zh": "手机互联",
+    "ru": "Подключение смартфона",
+    "type": "string"
+  },
+  {
+    "name": "photo",
+    "zh": "照片",
+    "ru": "Фото",
+    "type": "string"
+  },
+  {
+    "name": "photo_too_small",
+    "zh": "图片太小，贴图失败",
+    "ru": "Изображение слишком маленькое, вставка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "play",
+    "zh": "播放",
+    "ru": "Воспроизвести",
+    "type": "string"
+  },
+  {
+    "name": "play_thumbnail_preview",
+    "zh": "缩略图预览",
+    "ru": "Предпросмотр миниатюр",
+    "type": "string"
+  },
+  {
+    "name": "please_select_trip_notes_to_delete",
+    "zh": "请选择需要删除的旅图记",
+    "ru": "Пожалуйста, выберите записи путешествия, которые нужно удалить.",
+    "type": "string"
+  },
+  {
+    "name": "plz_auth_1",
+    "zh": "您尚未实名认证，车联网基础服务无",
+    "ru": "Вы не прошли верификацию личности, базовые услуги подключённого автомобиля недоступны.",
+    "type": "string"
+  },
+  {
+    "name": "plz_auth_2",
+    "zh": "法使用，请在手机完成实名认证",
+    "ru": "Невозможно использовать. Завершите верификацию личности на телефоне.",
+    "type": "string"
+  },
+  {
+    "name": "pre_month",
+    "zh": "上个月",
+    "ru": "Прошлый месяц",
+    "type": "string"
+  },
+  {
+    "name": "preview",
+    "zh": "预览",
+    "ru": "Предпросмотр",
+    "type": "string"
+  },
+  {
+    "name": "previous_location",
+    "zh": "上一个地点：",
+    "ru": "Предыдущее место:",
+    "type": "string"
+  },
+  {
+    "name": "recommend_ann_failed",
+    "zh": "深蓝推荐生成失败",
+    "ru": "Не удалось сгенерировать рекомендации Deepal",
+    "type": "string"
+  },
+  {
+    "name": "refuse",
+    "zh": "拒绝",
+    "ru": "Отказ",
+    "type": "string"
+  },
+  {
+    "name": "reupload",
+    "zh": "重新上传",
+    "ru": "Повторно загрузить",
+    "type": "string"
+  },
+  {
+    "name": "save_time_memory_loading",
+    "zh": "正在创建时光印象...",
+    "ru": "Создание воспоминаний...",
+    "type": "string"
+  },
+  {
+    "name": "screenshot",
+    "zh": "截屏",
+    "ru": "Скриншот",
+    "type": "string"
+  },
+  {
+    "name": "select_album_for_create",
+    "zh": "请选择需要创建的相簿！",
+    "ru": "Пожалуйста, выберите альбом, который нужно создать!",
+    "type": "string"
+  },
+  {
+    "name": "select_end_date",
+    "zh": "选择结束日期",
+    "ru": "Выберите дату окончания",
+    "type": "string"
+  },
+  {
+    "name": "select_start_date",
+    "zh": "选择开始日期",
+    "ru": "Выберите дату начала",
+    "type": "string"
+  },
+  {
+    "name": "selected_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "sending",
+    "zh": "正在上传%1$d/%2$d张",
+    "ru": "Загрузка %1$d/%2$d фото",
+    "type": "string"
+  },
+  {
+    "name": "share",
+    "zh": "分享",
+    "ru": "Поделиться",
+    "type": "string"
+  },
+  {
+    "name": "share_max_tips",
+    "zh": "最多可分享9个文件",
+    "ru": "Можно отправить максимум 9 файлов",
+    "type": "string"
+  },
+  {
+    "name": "share_net_tips",
+    "zh": "分享照片到深蓝汽车App需要消耗%s流量",
+    "ru": "Отправка фото в приложение Deepal потребует %s мобильного трафика",
+    "type": "string"
+  },
+  {
+    "name": "share_num",
+    "zh": "正在分享%d张",
+    "ru": "Идёт отправка %d фото",
+    "type": "string"
+  },
+  {
+    "name": "share_title",
+    "zh": "分享至",
+    "ru": "Поделиться в",
+    "type": "string"
+  },
+  {
+    "name": "shared_fail",
+    "zh": "文件分享失败",
+    "ru": "Не удалось поделиться файлом",
+    "type": "string"
+  },
+  {
+    "name": "shared_interrupt",
+    "zh": "文件分享中断，您可在手机相册内进行查看",
+    "ru": "Передача файла прервана, вы можете просмотреть его в галерее на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "shared_success",
+    "zh": "文件分享成功，您可在手机相册内进行查看",
+    "ru": "Файл успешно отправлен, вы можете просмотреть его в галерее на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "shared_successful",
+    "zh": "分享完成，请到手机深蓝汽车App查看",
+    "ru": "Поделиться завершено. Просмотрите в приложении Deepal Auto на смартфоне",
+    "type": "string"
+  },
+  {
+    "name": "shareertry",
+    "zh": "上传成功%d张，上传失败%d张",
+    "ru": "Успешно загружено %d фото, не удалось загрузить %d фото",
+    "type": "string"
+  },
+  {
+    "name": "sharesucess",
+    "zh": "分享成功",
+    "ru": "Поделиться успешно",
+    "type": "string"
+  },
+  {
+    "name": "start_time",
+    "zh": "开始时间",
+    "ru": "Время начала",
+    "type": "string"
+  },
+  {
+    "name": "switch_to_video",
+    "zh": "切换至视频",
+    "ru": "Переключиться на видео",
+    "type": "string"
+  },
+  {
+    "name": "text_time_memory_ann_first",
+    "zh": "开启深蓝推荐，将自动为你生成旅途中回忆视频",
+    "ru": "Включите рекомендации Deepal, и видео с воспоминаниями о поездке будет создано автоматически",
+    "type": "string"
+  },
+  {
+    "name": "the_end_time_cannot_be_earlier_than_the_start_time",
+    "zh": "结束时间不能小于开始时间",
+    "ru": "Время окончания не может быть раньше времени начала",
+    "type": "string"
+  },
+  {
+    "name": "the_start_time_cannot_be_later_than_the_end_time",
+    "zh": "开始时间不能大于结束时间",
+    "ru": "Время начала не может превышать время окончания",
+    "type": "string"
+  },
+  {
+    "name": "time_memory",
+    "zh": "时光印象",
+    "ru": "Впечатления времени",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_ann_recommend",
+    "zh": "深蓝推荐",
+    "ru": "Рекомендации Deepal",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_ann_tips",
+    "zh": "深蓝推荐将⾃动筛选出上⼀⽉度/年度中的精彩照⽚，为您⽣成回忆短视频",
+    "ru": "Рекомендации Deepal: автоматический отбор лучших фотографий за предыдущий месяц/год и создание короткого видео-воспоминания",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_in_the_init",
+    "zh": "时光印象初始化中，请稍后",
+    "ru": "Инициализация «Впечатления времени», подождите...",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_in_the_save",
+    "zh": "时光印象保存中，请稍后",
+    "ru": "Сохранение «Впечатления времени», подождите...",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_init_fail",
+    "zh": "时光印象引擎初始化中失败",
+    "ru": "Ошибка инициализации движка «Впечатления времени»",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_initing",
+    "zh": "时光印象引擎初始化中...",
+    "ru": "Инициализация движка «Впечатления времени»...",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_input_cannot_be_empty",
+    "zh": "名字不能为空",
+    "ru": "Имя не может быть пустым",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_making",
+    "zh": "正在为您加载内容，请稍后...",
+    "ru": "Загружаем контент, пожалуйста, подождите...",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_name_already_exist",
+    "zh": "当前名称已存在",
+    "ru": "Имя уже существует.",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_select_image_size",
+    "zh": "最少应选择3个文件",
+    "ru": "Необходимо выбрать не менее 3 файлов.",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_select_image_size_max",
+    "zh": "最多可选择24个文件",
+    "ru": "Можно выбрать не более 24 файлов.",
+    "type": "string"
+  },
+  {
+    "name": "time_memory_select_video_less_than_3",
+    "zh": "请选择更多文件，效果更好哦",
+    "ru": "Выберите больше файлов — результат будет лучше!",
+    "type": "string"
+  },
+  {
+    "name": "tips_for_safety",
+    "zh": "为确保驾驶安全，车辆行驶中关闭视频显示，请在停车时观看。",
+    "ru": "В целях безопасности видеодисплей отключается во время движения. Просмотр видео допускается только при стоянке автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "title_share_photo",
+    "zh": "照片分享",
+    "ru": "Обмен фотографиями",
+    "type": "string"
+  },
+  {
+    "name": "trip_notes",
+    "zh": "旅图记",
+    "ru": "Путевые записи",
+    "type": "string"
+  },
+  {
+    "name": "txt_WLAN_hotspot",
+    "zh": "WLAN热点：",
+    "ru": "Точка доступа WLAN:",
+    "type": "string"
+  },
+  {
+    "name": "txt_WLAN_password",
+    "zh": "连接密码：",
+    "ru": "Пароль подключения:",
+    "type": "string"
+  },
+  {
+    "name": "txt_WLAN_tips1",
+    "zh": "第一步：打开 “近程传输” 开关，并查看当前的WLAN热点名称和密码;",
+    "ru": "Шаг 1: включите «Ближний обмен» и проверьте текущие имя и пароль точки доступа WLAN;",
+    "type": "string"
+  },
+  {
+    "name": "txt_WLAN_tips2",
+    "zh": "第二步：操作手机，连接车机WLAN热点;",
+    "ru": "Шаг 2: на телефоне подключитесь к точке доступа WLAN автомобиля;",
+    "type": "string"
+  },
+  {
+    "name": "txt_WLAN_tips3",
+    "zh": "第三步：在(手机App)“近程传输” 模块选择需要同步的内容进行下载。",
+    "ru": "Шаг 3: в модуле «Ближний обмен» приложения на телефоне выберите контент для синхронизации и загрузите.",
+    "type": "string"
+  },
+  {
+    "name": "txt_beautify",
+    "zh": "美化",
+    "ru": "Улучшение",
+    "type": "string"
+  },
+  {
+    "name": "txt_cancel_remove",
+    "zh": "取消移除",
+    "ru": "Отменить удаление",
+    "type": "string"
+  },
+  {
+    "name": "txt_choose_photo",
+    "zh": "选择照片",
+    "ru": "Выбрать фото",
+    "type": "string"
+  },
+  {
+    "name": "txt_choose_time_memory_template",
+    "zh": "选择模板",
+    "ru": "Выбрать шаблон",
+    "type": "string"
+  },
+  {
+    "name": "txt_confirm_cancel_create",
+    "zh": "确定取消创建吗？",
+    "ru": "Вы уверены, что хотите отменить создание?",
+    "type": "string"
+  },
+  {
+    "name": "txt_day",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "txt_edit_fail",
+    "zh": "编辑失败",
+    "ru": "Ошибка редактирования",
+    "type": "string"
+  },
+  {
+    "name": "txt_edit_name",
+    "zh": "一键成片命名",
+    "ru": "Название автовидео",
+    "type": "string"
+  },
+  {
+    "name": "txt_edit_success",
+    "zh": "编辑成功",
+    "ru": "Редактирование успешно",
+    "type": "string"
+  },
+  {
+    "name": "txt_free",
+    "zh": "自由",
+    "ru": "Свободный",
+    "type": "string"
+  },
+  {
+    "name": "txt_input_time_memory_name",
+    "zh": "一键成片命名",
+    "ru": "Название автовидео",
+    "type": "string"
+  },
+  {
+    "name": "txt_input_time_memory_name_title",
+    "zh": "输入VLOG名称",
+    "ru": "Введите название VLOG",
+    "type": "string"
+  },
+  {
+    "name": "txt_input_trip_note_name",
+    "zh": "为自己新的旅程取个名字吧！",
+    "ru": "Придумайте название для нового путешествия!",
+    "type": "string"
+  },
+  {
+    "name": "txt_mask",
+    "zh": "贴图",
+    "ru": "Стикер",
+    "type": "string"
+  },
+  {
+    "name": "txt_month",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "txt_mosaic",
+    "zh": "马赛克",
+    "ru": "Мозаика",
+    "type": "string"
+  },
+  {
+    "name": "txt_near_transmission_close_tips",
+    "zh": "离开相册，近程传输将会中断",
+    "ru": "При выходе из альбома локальная передача будет прервана",
+    "type": "string"
+  },
+  {
+    "name": "txt_near_transmission_close_tips_title",
+    "zh": "确定退出",
+    "ru": "Подтвердить выход",
+    "type": "string"
+  },
+  {
+    "name": "txt_net_error",
+    "zh": "网络异常",
+    "ru": "Ошибка сети",
+    "type": "string"
+  },
+  {
+    "name": "txt_no_tips",
+    "zh": "不再提示",
+    "ru": "Больше не показывать",
+    "type": "string"
+  },
+  {
+    "name": "txt_one_click_beautification",
+    "zh": "一键美化",
+    "ru": "Улучшение в один клик",
+    "type": "string"
+  },
+  {
+    "name": "txt_original",
+    "zh": "原图",
+    "ru": "Оригинал",
+    "type": "string"
+  },
+  {
+    "name": "txt_photo_editor_init_failed",
+    "zh": "图片编辑引擎初始化失败",
+    "ru": "Не удалось инициализировать движок редактирования изображений",
+    "type": "string"
+  },
+  {
+    "name": "txt_photo_editor_init_loading",
+    "zh": "图片编辑引擎初始化中，需连接网络",
+    "ru": "Инициализация движка редактирования изображений, требуется подключение к сети",
+    "type": "string"
+  },
+  {
+    "name": "txt_photo_saveing",
+    "zh": "保存中，请稍后",
+    "ru": "Сохранение, подождите",
+    "type": "string"
+  },
+  {
+    "name": "txt_photo_voice_complete",
+    "zh": "自画像完成啦",
+    "ru": "Автопортрет готов!",
+    "type": "string"
+  },
+  {
+    "name": "txt_photo_voice_failed",
+    "zh": "啊呀 出错啦",
+    "ru": "Ой, ошибка!",
+    "type": "string"
+  },
+  {
+    "name": "txt_remove",
+    "zh": "移除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "txt_reshoot",
+    "zh": "重新拍摄",
+    "ru": "Переснять",
+    "type": "string"
+  },
+  {
+    "name": "txt_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "txt_selected",
+    "zh": "已选择(%s/%s)",
+    "ru": "Выбрано (%s/%s)",
+    "type": "string"
+  },
+  {
+    "name": "txt_selected1",
+    "zh": "已选择%s/%s",
+    "ru": "Выбрано %s/%s",
+    "type": "string"
+  },
+  {
+    "name": "txt_selected2",
+    "zh": "已选择",
+    "ru": "Выбрано",
+    "type": "string"
+  },
+  {
+    "name": "txt_tags",
+    "zh": "文字贴图",
+    "ru": "Текстовые стикеры",
+    "type": "string"
+  },
+  {
+    "name": "txt_tailor",
+    "zh": "裁剪",
+    "ru": "Обрезать",
+    "type": "string"
+  },
+  {
+    "name": "txt_trip_note_save_tips",
+    "zh": "\"您还未保存修改，若点击确认，编辑的内\n容将不会保存\"",
+    "ru": "\"Вы ещё не сохранили изменения, и если нажмёте «Подтвердить», отредактированный контент\\nне будет сохранён\"",
+    "type": "string"
+  },
+  {
+    "name": "txt_word_mask",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "txt_year",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "unselected",
+    "zh": "未选",
+    "ru": "Не выбрано",
+    "type": "string"
+  },
+  {
+    "name": "upload_failed_40000",
+    "zh": "服务异常，请稍后再试",
+    "ru": "Ошибка сервиса, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "upload_failed_40005",
+    "zh": "分享失败,请到深蓝汽车App的“服务”中开通云端相册",
+    "ru": "Не удалось поделиться, перейдите в раздел «Сервисы» приложения Deepal и активируйте облачный альбом",
+    "type": "string"
+  },
+  {
+    "name": "upload_failed_43003",
+    "zh": "请下载手机深蓝汽车App或联系经销商完成车辆实名认证",
+    "ru": "Скачайте приложение Deepal на телефон или обратитесь к дилеру для завершения верификации владельца автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "upload_failed_43005",
+    "zh": "分享失败，请到深蓝汽车App的“服务”中开通云端相册",
+    "ru": "Не удалось поделиться, перейдите в раздел «Сервисы» приложения Deepal и активируйте облачный альбом",
+    "type": "string"
+  },
+  {
+    "name": "video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "video_can_not_share",
+    "zh": "视频无法分享",
+    "ru": "Невозможно поделиться видео",
+    "type": "string"
+  },
+  {
+    "name": "video_duration_is_over_60",
+    "zh": "抖音：分享失败，仅支持大于3到60秒的视频分享",
+    "ru": "TikTok: Не удалось поделиться. Поддерживается только обмен видео длительностью от 3 до 60 секунд.",
+    "type": "string"
+  },
+  {
+    "name": "view_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "vlog_name_char_limit",
+    "zh": "VLOG名不能包含此特殊字符",
+    "ru": "Название VLOG не может содержать этот специальный символ",
+    "type": "string"
+  },
+  {
+    "name": "vlog_preview_failed",
+    "zh": "预览失败，请稍后重试",
+    "ru": "Не удалось выполнить предпросмотр. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "vlog_words_limit",
+    "zh": "最多输入10个字",
+    "ru": "Не более 10 символов",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Другие варианты",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_disabled_description",
+    "zh": "启用字幕",
+    "ru": "Включить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_enabled_description",
+    "zh": "停用字幕",
+    "ru": "Отключить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_description",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_enter_description",
+    "zh": "进入全屏模式",
+    "ru": "Перейти в полноэкранный режим",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_exit_description",
+    "zh": "退出全屏模式",
+    "ru": "Выйти из полноэкранного режима",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_hide",
+    "zh": "隐藏播放器控件",
+    "ru": "Скрыть элементы управления плеером",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_next_description",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_hide_description",
+    "zh": "隐藏其他设置",
+    "ru": "Скрыть другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_show_description",
+    "zh": "显示其他设置",
+    "ru": "Показать другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_pause_description",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_play_description",
+    "zh": "播放",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed",
+    "zh": "速度",
+    "ru": "Скорость",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_previous_description",
+    "zh": "上一首",
+    "ru": "Предыдущий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_all_description",
+    "zh": "当前模式：重复播放所有项目。切换重复播放模式。",
+    "ru": "Текущий режим: повтор всех элементов. Переключить режим повтора.",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_off_description",
+    "zh": "当前模式：不重复。切换重复播放模式。",
+    "ru": "Текущий режим: повтор выключен. Переключить режим повтора.",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_one_description",
+    "zh": "当前模式：重复播放当前项目。切换重复播放模式。",
+    "ru": "Текущий режим: повтор текущего элемента. Переключить режим повтора.",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_rewind_description",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_seek_bar_description",
+    "zh": "播放进度",
+    "ru": "Прогресс",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_settings_description",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_show",
+    "zh": "显示播放器控件",
+    "ru": "Показать управление",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_off_description",
+    "zh": "启用随机播放模式",
+    "ru": "Включить режим случайного воспроизведения",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_on_description",
+    "zh": "停用随机播放模式",
+    "ru": "Отключить режим случайного воспроизведения",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_stop_description",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_vr_description",
+    "zh": "VR 模式",
+    "ru": "Режим VR",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_completed",
+    "zh": "下载完毕",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_description",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_downloading",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_notification_channel_name",
+    "zh": "下载内容",
+    "ru": "Скачиваемый контент",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused",
+    "zh": "下载已暂停",
+    "ru": "Загрузка приостановлена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_network",
+    "zh": "正在等待连接到网络以进行下载",
+    "ru": "Ожидание подключения к сети для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_wifi",
+    "zh": "正在等待连接到 WLAN 网络以进行下载",
+    "ru": "Ожидание подключения к сети WLAN для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_removing",
+    "zh": "正在移除下载内容",
+    "ru": "Удаление загруженного содержимого...",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_mono",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_alternate",
+    "zh": "替用轨",
+    "ru": "Запасной трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_closed_captions",
+    "zh": "字幕",
+    "ru": "Субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_commentary",
+    "zh": "旁白",
+    "ru": "Комментарий",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_supplementary",
+    "zh": "补充轨",
+    "ru": "Дополнительный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_auto",
+    "zh": "自动",
+    "ru": "Автоматический",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_audio",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_text",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_stereo",
+    "zh": "立体声",
+    "ru": "Стереозвук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround",
+    "zh": "环绕声",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_5_point_1",
+    "zh": "5.1 环绕声",
+    "ru": "Объёмный звук 5.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_7_point_1",
+    "zh": "7.1 环绕声",
+    "ru": "Объёмный звук 7.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_unknown",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "ПМ",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_navigate_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_open_drawer_description",
+    "zh": "打开抽屉式导航栏",
+    "ru": "Открыть выдвижную панель навигации",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "zxing_app_name",
+    "zh": "条码扫描器",
+    "ru": "Сканер штрих-кодов",
+    "type": "string"
+  },
+  {
+    "name": "zxing_button_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_camera_framework_bug",
+    "zh": "抱歉，Android相机出现问题。您可能需要重启设备。",
+    "ru": "К сожалению, в камере Android возникла проблема. Возможно, вам потребуется перезагрузить устройство.",
+    "type": "string"
+  },
+  {
+    "name": "zxing_msg_default_status",
+    "zh": "请将条码置于取景框内扫描。",
+    "ru": "Поместите штрих-код в рамку для сканирования.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Мес",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "normal_vlog_template_names_0",
+    "zh": "唯美",
+    "ru": "Эстетика",
+    "type": "arrays"
+  },
+  {
+    "name": "normal_vlog_template_names_1",
+    "zh": "旅行",
+    "ru": "Путешествие",
+    "type": "arrays"
+  },
+  {
+    "name": "normal_vlog_template_names_2",
+    "zh": "时光",
+    "ru": "Время",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_0",
+    "zh": "一起嗨皮",
+    "ru": "Вместе весело",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_1",
+    "zh": "流光浮影",
+    "ru": "Свет и тени",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_2",
+    "zh": "旅行手札",
+    "ru": "Путевые записки",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_3",
+    "zh": "诗意时光",
+    "ru": "Поэтичные мгновения",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_4",
+    "zh": "旅行记忆",
+    "ru": "Путешествие",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_5",
+    "zh": "旅行碎片",
+    "ru": "Фрагменты путешествия",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_6",
+    "zh": "温暖时光",
+    "ru": "Тёплые мгновения",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_7",
+    "zh": "城市幻影",
+    "ru": "Фантом города",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_8",
+    "zh": "赛博夜晚",
+    "ru": "Киберночь",
+    "type": "arrays"
+  },
+  {
+    "name": "pan_tilt_vlog_template_names_9",
+    "zh": "飞驰人生",
+    "ru": "Бешеная жизнь",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_0",
+    "zh": "0.25 倍",
+    "ru": "0,25×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_1",
+    "zh": "0.5 倍",
+    "ru": "0,5×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_2",
+    "zh": "0.75 倍",
+    "ru": "0,75×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_3",
+    "zh": "正常",
+    "ru": "Обычная",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_4",
+    "zh": "1.25 倍",
+    "ru": "1,25×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_5",
+    "zh": "1.5 倍",
+    "ru": "1,5×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_playback_speeds_6",
+    "zh": "2 倍",
+    "ru": "2×",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_one",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать %d сек",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_other",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать %d сек",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_one",
+    "zh": "快退 %d 秒",
+    "ru": "Назад %d сек",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_other",
+    "zh": "快退 %d 秒",
+    "ru": "Назад %d сек",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

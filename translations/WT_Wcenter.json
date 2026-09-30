@@ -1,0 +1,1292 @@
+[
+  {
+    "name": "about_txt",
+    "zh": "关于我们",
+    "ru": "О нас",
+    "type": "string"
+  },
+  {
+    "name": "app_name_",
+    "zh": "服务中心",
+    "ru": "Центр обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "car_License_input_hint",
+    "zh": "请输入车牌号",
+    "ru": "Введите номерной знак",
+    "type": "string"
+  },
+  {
+    "name": "car_License_modify_title",
+    "zh": "车牌号",
+    "ru": "Номерной знак",
+    "type": "string"
+  },
+  {
+    "name": "car_License_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "car_frame_num_input_hint",
+    "zh": "请输入车架号",
+    "ru": "Введите VIN",
+    "type": "string"
+  },
+  {
+    "name": "car_frame_num_modify_title",
+    "zh": "车架号",
+    "ru": "VIN",
+    "type": "string"
+  },
+  {
+    "name": "car_frame_num_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "car_num_change_success",
+    "zh": "保存成功",
+    "ru": "Успешно сохранено",
+    "type": "string"
+  },
+  {
+    "name": "check_net",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "empty_schedules",
+    "zh": "暂无日程",
+    "ru": "Пока нет расписания",
+    "type": "string"
+  },
+  {
+    "name": "feedback_t",
+    "zh": "意见反馈",
+    "ru": "Обратная связь",
+    "type": "string"
+  },
+  {
+    "name": "horoscopes_card_name",
+    "zh": "今日运势",
+    "ru": "Гороскоп на сегодня",
+    "type": "string"
+  },
+  {
+    "name": "loading",
+    "zh": "数据加载中...",
+    "ru": "Загрузка данных...",
+    "type": "string"
+  },
+  {
+    "name": "login",
+    "zh": "请登录",
+    "ru": "Войдите",
+    "type": "string"
+  },
+  {
+    "name": "login_now",
+    "zh": "立即登录",
+    "ru": "Войти сейчас",
+    "type": "string"
+  },
+  {
+    "name": "logout",
+    "zh": "退出账号",
+    "ru": "Выйти из аккаунта",
+    "type": "string"
+  },
+  {
+    "name": "net_error",
+    "zh": "无数据请检查网络设置",
+    "ru": "Нет данных. Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "no_date",
+    "zh": "无数据",
+    "ru": "Нет данных",
+    "type": "string"
+  },
+  {
+    "name": "notify",
+    "zh": "消息通知",
+    "ru": "Уведомления",
+    "type": "string"
+  },
+  {
+    "name": "notify_allow_notify",
+    "zh": "允许通知",
+    "ru": "Разрешить уведомления",
+    "type": "string"
+  },
+  {
+    "name": "notify_event_notify",
+    "zh": "活动通知",
+    "ru": "События",
+    "type": "string"
+  },
+  {
+    "name": "notify_serve_notify",
+    "zh": "服务通知",
+    "ru": "Уведомления о сервисе",
+    "type": "string"
+  },
+  {
+    "name": "notify_sys_notify",
+    "zh": "系统通知",
+    "ru": "Системные уведомления",
+    "type": "string"
+  },
+  {
+    "name": "notify_title",
+    "zh": "通知",
+    "ru": "Уведомление",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_bind_commit",
+    "zh": "绑定",
+    "ru": "Привязка",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_bind_title",
+    "zh": "绑定手机号",
+    "ru": "Привязать номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_change_success",
+    "zh": "修改成功",
+    "ru": "Успешно изменено",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_error_hint",
+    "zh": "请输入正确手机号",
+    "ru": "Введите корректный номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_get_code",
+    "zh": "获取验证码",
+    "ru": "Получить код",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_get_code_fail",
+    "zh": "获取验证码失败",
+    "ru": "Ошибка получения кода",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_input_phone_code_hint",
+    "zh": "请输验证码",
+    "ru": "Введите код подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_input_phone_num_hint",
+    "zh": "请输入电话号码",
+    "ru": "Введите номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_modify_commit",
+    "zh": "更换",
+    "ru": "Заменить",
+    "type": "string"
+  },
+  {
+    "name": "phone_num_modify_title",
+    "zh": "更换手机号",
+    "ru": "Сменить номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "schedule_card_name",
+    "zh": "今日行程",
+    "ru": "Расписание на сегодня",
+    "type": "string"
+  },
+  {
+    "name": "set_horoscopes",
+    "zh": "设置星座，掌握专属运势",
+    "ru": "Укажите знак зодиака, чтобы получить персональный гороскоп.",
+    "type": "string"
+  },
+  {
+    "name": "setting",
+    "zh": "常用信息",
+    "ru": "Основная информация",
+    "type": "string"
+  },
+  {
+    "name": "setting_car_frame_num",
+    "zh": "车架号",
+    "ru": "VIN-код",
+    "type": "string"
+  },
+  {
+    "name": "setting_car_license_num",
+    "zh": "车牌号",
+    "ru": "Государственный номер",
+    "type": "string"
+  },
+  {
+    "name": "setting_get_car_frame_num",
+    "zh": "获取车架号",
+    "ru": "Получить VIN-номер",
+    "type": "string"
+  },
+  {
+    "name": "setting_phone_num",
+    "zh": "手机号",
+    "ru": "Телефон",
+    "type": "string"
+  },
+  {
+    "name": "setting_unset",
+    "zh": "未设置",
+    "ru": "Не задано",
+    "type": "string"
+  },
+  {
+    "name": "user_name",
+    "zh": "用户名",
+    "ru": "Имя пользователя",
+    "type": "string"
+  },
+  {
+    "name": "versions",
+    "zh": "版本记录",
+    "ru": "История версий",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры, чтобы переместить (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Клавиша Space",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "all_service",
+    "zh": "全部",
+    "ru": "Всё",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "小程序",
+    "ru": "Мини-приложение",
+    "type": "string"
+  },
+  {
+    "name": "app_name_old",
+    "zh": "服务中心",
+    "ru": "Центр обслуживания",
+    "type": "string"
+  },
+  {
+    "name": "audio_service",
+    "zh": "音频服务",
+    "ru": "Аудиосервис",
+    "type": "string"
+  },
+  {
+    "name": "binding_later",
+    "zh": "后",
+    "ru": "Позже",
+    "type": "string"
+  },
+  {
+    "name": "binding_phone_success",
+    "zh": "手机号绑定成功",
+    "ru": "Номер телефона успешно привязан",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "btn_binding",
+    "zh": "绑定",
+    "ru": "Привязать",
+    "type": "string"
+  },
+  {
+    "name": "cancel_check_all",
+    "zh": "取消全选",
+    "ru": "Снять выделение",
+    "type": "string"
+  },
+  {
+    "name": "cancel_collection",
+    "zh": "取消收藏",
+    "ru": "Убрать из избранного",
+    "type": "string"
+  },
+  {
+    "name": "car_license_title",
+    "zh": "设置车牌号",
+    "ru": "Номер авто",
+    "type": "string"
+  },
+  {
+    "name": "car_license_title_set",
+    "zh": "输入车牌号",
+    "ru": "Введите номер автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "car_service",
+    "zh": "车主服务",
+    "ru": "Сервис авто",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит — %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "collect",
+    "zh": "收藏",
+    "ru": "Избранное",
+    "type": "string"
+  },
+  {
+    "name": "collection_ok",
+    "zh": "收藏成功",
+    "ru": "Добавлено в избранное",
+    "type": "string"
+  },
+  {
+    "name": "correct_phone",
+    "zh": "手机号错误",
+    "ru": "Неверный номер",
+    "type": "string"
+  },
+  {
+    "name": "current_loading",
+    "zh": "正在加载请稍等",
+    "ru": "Загрузка, подождите",
+    "type": "string"
+  },
+  {
+    "name": "dialog_content",
+    "zh": "确定删除此消息?",
+    "ru": "Вы уверены, что хотите удалить это сообщение?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_loading",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "display_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "display_dialog_reminder",
+    "zh": "不在提醒",
+    "ru": "Не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "display_title_master",
+    "zh": "这个应用已经在副驾屏上打开,要移动过来吗？",
+    "ru": "Это приложение уже открыто на экране пассажира. Переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "display_title_second",
+    "zh": "这个应用已经在主驾屏上打开,要移动过来吗？",
+    "ru": "Это приложение уже открыто на экране водителя. Переместить его сюда?",
+    "type": "string"
+  },
+  {
+    "name": "empty_collcect",
+    "zh": "暂无收藏",
+    "ru": "Нет избранных",
+    "type": "string"
+  },
+  {
+    "name": "end_page_now",
+    "zh": "已经是尾页了",
+    "ru": "Вы уже на последней странице.",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "front_page_now",
+    "zh": "已经是首页了",
+    "ru": "Вы уже на первой странице.",
+    "type": "string"
+  },
+  {
+    "name": "game_service",
+    "zh": "游戏娱乐",
+    "ru": "Игры и развлечения",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "life_service",
+    "zh": "生活服务",
+    "ru": "Бытовые услуги",
+    "type": "string"
+  },
+  {
+    "name": "loading_completed",
+    "zh": "加载完成",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "loading_failed",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "main_action",
+    "zh": "消息",
+    "ru": "Сообщения",
+    "type": "string"
+  },
+  {
+    "name": "main_discounts",
+    "zh": "领劵",
+    "ru": "Получить купон",
+    "type": "string"
+  },
+  {
+    "name": "main_mine",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "main_recommend",
+    "zh": "推荐",
+    "ru": "Рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "main_servie",
+    "zh": "服务",
+    "ru": "Сервис",
+    "type": "string"
+  },
+  {
+    "name": "manul_enter_security",
+    "zh": "请输入验证码",
+    "ru": "Введите код подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "manul_get_security",
+    "zh": "获取验证码",
+    "ru": "Получить код",
+    "type": "string"
+  },
+  {
+    "name": "manul_write_phone",
+    "zh": "请输入手机号",
+    "ru": "Введите номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минут",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "message_delete_unselect",
+    "zh": "没有选中的消息",
+    "ru": "Нет выбранных сообщений",
+    "type": "string"
+  },
+  {
+    "name": "message_login_btn",
+    "zh": "立即登录",
+    "ru": "Войти сейчас",
+    "type": "string"
+  },
+  {
+    "name": "message_no_login",
+    "zh": "登录后查看消息",
+    "ru": "Войдите для просмотра",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_btn",
+    "zh": "登录",
+    "ru": "Войти",
+    "type": "string"
+  },
+  {
+    "name": "msg_all",
+    "zh": "全部标为已读",
+    "ru": "Отметить все как прочитанные",
+    "type": "string"
+  },
+  {
+    "name": "msg_batch",
+    "zh": "批量删除",
+    "ru": "Массовое удаление",
+    "type": "string"
+  },
+  {
+    "name": "msg_btn_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "msg_btn_delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "msg_check_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "msg_no_content",
+    "zh": "暂无消息通知",
+    "ru": "Нет уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "msg_no_permission_content",
+    "zh": "无法接收到通知,请打开通知开关",
+    "ru": "Не удается получать уведомления, включите уведомления",
+    "type": "string"
+  },
+  {
+    "name": "msg_setting",
+    "zh": "去设置",
+    "ru": "Перейти в настройки",
+    "type": "string"
+  },
+  {
+    "name": "msg_to_setting",
+    "zh": "去设置",
+    "ru": "Перейти в настройки",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключить на режим календаря",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы выбрать день",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключить на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_navigate_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "nav_app_bar_open_drawer_description",
+    "zh": "打开抽屉式导航栏",
+    "ru": "Открыть выдвижную панель навигации",
+    "type": "string"
+  },
+  {
+    "name": "no_content",
+    "zh": "暂无活动",
+    "ru": "Нет мероприятий",
+    "type": "string"
+  },
+  {
+    "name": "no_net_not_uses",
+    "zh": "网络不可用",
+    "ru": "Сеть недоступна",
+    "type": "string"
+  },
+  {
+    "name": "no_network_btn",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "no_network_tv",
+    "zh": "网络不可用,请联网后重试",
+    "ru": "Нет подключения к интернету. Подключитесь к сети и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "nodata_content",
+    "zh": "精彩内容,即将上线",
+    "ru": "Захватывающий контент — скоро!",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "personal_affirm",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "personal_binding",
+    "zh": "绑定手机号",
+    "ru": "Привязать номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "personal_change",
+    "zh": "更换",
+    "ru": "Заменить",
+    "type": "string"
+  },
+  {
+    "name": "personal_change_title",
+    "zh": "更换手机号",
+    "ru": "Сменить номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "personal_logout",
+    "zh": "确定退出登录么?",
+    "ru": "Вы уверены, что хотите выйти из учётной записи?",
+    "type": "string"
+  },
+  {
+    "name": "personal_out",
+    "zh": "退出登录",
+    "ru": "Выйти",
+    "type": "string"
+  },
+  {
+    "name": "personal_phone",
+    "zh": "手机号 ：",
+    "ru": "Номер телефона:",
+    "type": "string"
+  },
+  {
+    "name": "reacquire_security",
+    "zh": "重新获取",
+    "ru": "Получить заново",
+    "type": "string"
+  },
+  {
+    "name": "recommend_modify_fail",
+    "zh": "修改失败",
+    "ru": "Не удалось изменить",
+    "type": "string"
+  },
+  {
+    "name": "recommend_modify_success",
+    "zh": "修改成功",
+    "ru": "Успешно изменено",
+    "type": "string"
+  },
+  {
+    "name": "reloadIn",
+    "zh": "重新进入服务",
+    "ru": "Повторный вход в сервис",
+    "type": "string"
+  },
+  {
+    "name": "revalidat_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "samePhone",
+    "zh": "该手机号为当前绑定手机号",
+    "ru": "Этот номер телефона — текущий привязанный номер.",
+    "type": "string"
+  },
+  {
+    "name": "save_fail_retry",
+    "zh": "保存失败,请重试",
+    "ru": "Не удалось сохранить. Попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "search_tv_confirm",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "send_failed",
+    "zh": "验证码发送失败",
+    "ru": "Ошибка отправки кода",
+    "type": "string"
+  },
+  {
+    "name": "send_security",
+    "zh": "验证码已发送",
+    "ru": "Код подтверждения отправлен",
+    "type": "string"
+  },
+  {
+    "name": "service_nonet",
+    "zh": "请检查网络设置",
+    "ru": "Проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "url_not_white",
+    "zh": "访问地址不在白名单中",
+    "ru": "Адрес доступа не входит в белый список",
+    "type": "string"
+  },
+  {
+    "name": "video_audio_service",
+    "zh": "音频视频",
+    "ru": "Аудио и видео",
+    "type": "string"
+  },
+  {
+    "name": "video_service",
+    "zh": "视频服务",
+    "ru": "Видеосервис",
+    "type": "string"
+  },
+  {
+    "name": "wx_scan",
+    "zh": "微信扫码登录服务",
+    "ru": "Сервис входа по QR-коду WeChat",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "М",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Г",
+    "type": "string"
+  },
+  {
+    "name": "tai_app_names_0",
+    "zh": "腾讯地图",
+    "ru": "Tencent Карты",
+    "type": "arrays"
+  },
+  {
+    "name": "tai_app_names_1",
+    "zh": "腾讯语音",
+    "ru": "Голос Tencent",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

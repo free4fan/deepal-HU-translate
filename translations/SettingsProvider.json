@@ -1,0 +1,20 @@
+[
+  {
+    "name": "app_label",
+    "zh": "设置存储",
+    "ru": "Настройки хранилища",
+    "type": "string"
+  },
+  {
+    "name": "wifi_softap_config_change",
+    "zh": "热点设置已更改",
+    "ru": "Настройки точки доступа изменены",
+    "type": "string"
+  },
+  {
+    "name": "wifi_softap_config_change_summary",
+    "zh": "点按即可查看详细信息",
+    "ru": "Нажмите, чтобы просмотреть подробности",
+    "type": "string"
+  }
+]

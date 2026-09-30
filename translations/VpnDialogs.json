@@ -1,0 +1,98 @@
+[
+  {
+    "name": "always_on_disconnected_message",
+    "zh": "%1$s已设为始终保持连接状态，但目前无法连接。您的手机将使用公共网络，直到能够重新连接到%1$s。",
+    "ru": "%1$s настроен на постоянное подключение, но в данный момент подключиться не удается. Ваш телефон будет использовать общедоступную сеть, пока не сможет переподключиться к %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "always_on_disconnected_message_lockdown",
+    "zh": "%1$s已设为始终保持连接状态，但目前无法连接。您将无法连接到网络，直到您能够重新连接该 VPN。",
+    "ru": "%1$s настроен на постоянное подключение, но в данный момент подключиться не удается. Вы не сможете подключиться к сети, пока не восстановите подключение к этому VPN.",
+    "type": "string"
+  },
+  {
+    "name": "always_on_disconnected_message_settings_link",
+    "zh": "更改 VPN 设置",
+    "ru": "Изменить настройки VPN",
+    "type": "string"
+  },
+  {
+    "name": "always_on_disconnected_title",
+    "zh": "无法连接到始终开启的 VPN",
+    "ru": "Не удается подключиться к всегда включенному VPN",
+    "type": "string"
+  },
+  {
+    "name": "configure",
+    "zh": "配置",
+    "ru": "Настройка",
+    "type": "string"
+  },
+  {
+    "name": "data_received",
+    "zh": "已接收：",
+    "ru": "Получено:",
+    "type": "string"
+  },
+  {
+    "name": "data_transmitted",
+    "zh": "已发送：",
+    "ru": "Отправлено:",
+    "type": "string"
+  },
+  {
+    "name": "data_value_format",
+    "zh": "%1$s 字节/%2$s 个数据包",
+    "ru": "%1$s байт / %2$s пакетов",
+    "type": "string"
+  },
+  {
+    "name": "disconnect",
+    "zh": "断开连接",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "dismiss",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "duration",
+    "zh": "时长：",
+    "ru": "Длительность:",
+    "type": "string"
+  },
+  {
+    "name": "legacy_title",
+    "zh": "已连接VPN",
+    "ru": "VPN подключен",
+    "type": "string"
+  },
+  {
+    "name": "open_app",
+    "zh": "打开应用",
+    "ru": "Открыть приложение",
+    "type": "string"
+  },
+  {
+    "name": "prompt",
+    "zh": "网络连接请求",
+    "ru": "Запрос на подключение к сети",
+    "type": "string"
+  },
+  {
+    "name": "session",
+    "zh": "会话：",
+    "ru": "Сессия:",
+    "type": "string"
+  },
+  {
+    "name": "warning",
+    "zh": "“%s”想要设置一个 VPN 连接，以便监控网络流量。除非您信任该来源，否则请勿接受此请求。&lt;br /> &lt;br />启用 VPN 后，屏幕顶部会出现一个 &lt;img src=vpn_icon /> 图标。",
+    "ru": "«%s» хочет установить VPN-соединение для мониторинга сетевого трафика. Не принимайте этот запрос, если вы не доверяете источнику. <br /> <br />После включения VPN в верхней части экрана появится значок <img src=vpn_icon />.",
+    "type": "string"
+  }
+]

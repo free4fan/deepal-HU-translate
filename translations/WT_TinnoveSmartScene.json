@@ -1,0 +1,4904 @@
+[
+  {
+    "name": "air_condition_setting",
+    "zh": "空调联动",
+    "ru": "Связка с климатом",
+    "type": "string"
+  },
+  {
+    "name": "air_title_tip",
+    "zh": "打开开关，进入休憩模式时将自动调节空调，关闭开关，进入休憩模式时不调节空调状态。",
+    "ru": "При включённом переключателе климат-контроль будет автоматически регулироваться при входе в режим отдыха. При выключенном — климат-контроль не будет регулироваться.",
+    "type": "string"
+  },
+  {
+    "name": "air_title_tip_fugue",
+    "zh": "打开开关，进入神游模式时将自动调节空调，关闭开关，进入神游模式时不调节空调状态。",
+    "ru": "При включённом переключателе климат-контроль будет автоматически регулироваться при входе в режим «Шэньюй». При выключенном — климат-контроль не будет регулироваться.",
+    "type": "string"
+  },
+  {
+    "name": "air_title_tip_meditation",
+    "zh": "打开开关，进入冥想模式时将自动调节空调，关闭开关，进入冥想模式时不调节空调状态。",
+    "ru": "При включённом переключателе климат-контроль будет автоматически регулироваться при входе в режим медитации. При выключенном — климат-контроль не будет регулироваться.",
+    "type": "string"
+  },
+  {
+    "name": "air_title_tip_movie",
+    "zh": "打开开关，进入观影模式时将自动调节空调；关闭开关，进入观影模式时不调节空调状态。",
+    "ru": "При включённом переключателе климат-контроль будет автоматически регулироваться при входе в режим просмотра. При выключенном — климат-контроль не будет регулироваться.",
+    "type": "string"
+  },
+  {
+    "name": "alarm_switch_close",
+    "zh": "关闭闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "alarm_switch_open",
+    "zh": "打开闹钟",
+    "ru": "Включить будильник",
+    "type": "string"
+  },
+  {
+    "name": "alarm_text_continue_sleep",
+    "zh": "再眯十分钟",
+    "ru": "Подремать 10 мин",
+    "type": "string"
+  },
+  {
+    "name": "alarm_text_hint",
+    "zh": "休息时间结束，起床啦~",
+    "ru": "Время отдыха закончилось, пора вставать~",
+    "type": "string"
+  },
+  {
+    "name": "alarm_volume_title",
+    "zh": "闹钟音量",
+    "ru": "Громкость будильника",
+    "type": "string"
+  },
+  {
+    "name": "always_open_alwaysopen",
+    "zh": "始终^开启^始终开启",
+    "ru": "Всегда^включено^Всегда включено",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "情景模式",
+    "ru": "Режим сценария",
+    "type": "string"
+  },
+  {
+    "name": "app_name_scene",
+    "zh": "情景模式",
+    "ru": "Режим сценария",
+    "type": "string"
+  },
+  {
+    "name": "app_store",
+    "zh": "应用商店",
+    "ru": "Магазин приложений",
+    "type": "string"
+  },
+  {
+    "name": "app_widget_rest_mode",
+    "zh": "小憩模式",
+    "ru": "Режим короткого отдыха",
+    "type": "string"
+  },
+  {
+    "name": "app_widget_sub_title",
+    "zh": "副标题",
+    "ru": "Подзаголовок",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Область",
+    "type": "string"
+  },
+  {
+    "name": "back_driver_seat",
+    "zh": "后排",
+    "ru": "Задний ряд",
+    "type": "string"
+  },
+  {
+    "name": "base_camp_mode_alarm_clock",
+    "zh": "露营模式闹钟",
+    "ru": "Будильник в режиме кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "base_camp_mode_alarm_clock_close",
+    "zh": "关闭闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "base_camp_mode_alarm_clock_ten_min_tip",
+    "zh": "10分钟后提醒",
+    "ru": "Напоминание через 10 минут",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_air",
+    "zh": "空调",
+    "ru": "Климат-контроль",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_alarm_clock_volume",
+    "zh": "闹钟音量",
+    "ru": "Громкость будильника",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_atom_music_switch",
+    "zh": "音乐律动开关",
+    "ru": "Муз. ритм",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_fragrance",
+    "zh": "香氛",
+    "ru": "Аромат",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_inner_light",
+    "zh": "氛围灯",
+    "ru": "Атмосферная подсветка",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_music_duration",
+    "zh": "音乐时长",
+    "ru": "Длительность музыки",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_open",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_screen_bright",
+    "zh": "屏幕亮度",
+    "ru": "Яркость экрана",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_seat_adjust",
+    "zh": "座椅调节",
+    "ru": "Регулировка сиденья",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_seat_massage",
+    "zh": "座椅按摩",
+    "ru": "Массаж сиденья",
+    "type": "string"
+  },
+  {
+    "name": "base_mode_window_control",
+    "zh": "车窗控制",
+    "ru": "Управление окнами",
+    "type": "string"
+  },
+  {
+    "name": "base_rest_mode_alarm_clock_closed",
+    "zh": "好的，已关闭闹钟",
+    "ru": "Хорошо, будильник выключен",
+    "type": "string"
+  },
+  {
+    "name": "base_rest_mode_rest_alarm_clock",
+    "zh": "休憩闹钟",
+    "ru": "Будильник перерыва",
+    "type": "string"
+  },
+  {
+    "name": "base_rest_mode_rest_alarm_clock_close_describe",
+    "zh": "^关闭^关闭弹窗^返回^闹钟^关闭闹钟^结束^取消",
+    "ru": "^Закрыть^Закрыть всплывающее окно^Назад^Будильник^Выключить будильник^Завершить^Отмена",
+    "type": "string"
+  },
+  {
+    "name": "camp_alarm_clock_setting_duration",
+    "zh": "露营时长 %s 时 %s 分",
+    "ru": "Длительность режима кемпинга: %s ч %s мин",
+    "type": "string"
+  },
+  {
+    "name": "camp_alarm_set",
+    "zh": "闹钟",
+    "ru": "Будильник",
+    "type": "string"
+  },
+  {
+    "name": "camp_exit_ready",
+    "zh": "露营模式已开启，已自动退出ready模式",
+    "ru": "Режим кемпинга включён, режим Ready автоматически отключён.",
+    "type": "string"
+  },
+  {
+    "name": "camp_low_battery_tip",
+    "zh": "\"电池电量较低，已为您退出露营模式，请及时给车\n辆补能，并注意保持车内空气清新。\"",
+    "ru": "\"Низкий заряд батареи. Режим кемпинга отключён. Пожалуйста, своевременно зарядите автомобиль\\nи поддерживайте свежий воздух в салоне.\"",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_alarm_clock_close",
+    "zh": "关闭闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_alarm_clock_setting_closed",
+    "zh": "闹钟已关闭",
+    "ru": "Будильник выключен",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_alarm_clock_ten_min_tip",
+    "zh": "10分钟后提醒",
+    "ru": "Напоминание через 10 минут",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_alarm_clock_title",
+    "zh": "露营闹钟",
+    "ru": "Кемпинговый будильник",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_alarm_clock_title_describe",
+    "zh": "您可以唤醒语音说“结束露营模式”直接退出模式",
+    "ru": "Вы можете активировать голосового помощника и сказать «Завершить режим кемпинга», чтобы напрямую выйти из режима.",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_desc",
+    "zh": "\"自动调节座舱环境，营造舒适的露营睡眠环境\n开启将调节座椅，建议后排无人时使用\"",
+    "ru": "Автоматическая регулировка параметров салона для создания комфортных условий сна в режиме кемпинга\\nПри включении регулируются сиденья, рекомендуется использовать при пустом заднем ряду",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_end",
+    "zh": "结束",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_has_exit",
+    "zh": "露营模式已退出",
+    "ru": "Режим кемпинга завершён",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_name",
+    "zh": "露营模式",
+    "ru": "Режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_name_simple",
+    "zh": "露营模式",
+    "ru": "Режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_no_alarm_clock",
+    "zh": "无闹钟",
+    "ru": "Без будильника",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_start",
+    "zh": "开始",
+    "ru": "Начать",
+    "type": "string"
+  },
+  {
+    "name": "camp_mode_success_toast",
+    "zh": "正在为您开启露营模式，请注意后排乘客安全",
+    "ru": "Активирую режим кемпинга. Пожалуйста, следите за безопасностью пассажиров на заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "camp_speech_close_alarm_clock",
+    "zh": "^关闭^关闭弹窗^返回^闹钟^关闭闹钟^结束^取消^结束闹钟^停止闹钟",
+    "ru": "^закрыть^закрыть всплывающее окно^назад^будильник^отключить будильник^завершить^отмена^остановить будильник^остановить будильник",
+    "type": "string"
+  },
+  {
+    "name": "camp_user_hint_dialog_message",
+    "zh": "即将移动座椅位置，请确认后排无人时使用",
+    "ru": "Сиденье будет перемещено. Перед использованием убедитесь, что на заднем ряду никого нет.",
+    "type": "string"
+  },
+  {
+    "name": "cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_back_close",
+    "zh": "返回^取消^关闭",
+    "ru": "Назад^Отмена^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "cancel_no",
+    "zh": "取消^否",
+    "ru": "Отмена^Нет",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_five",
+    "zh": "音效5",
+    "ru": "Звуковой эффект 5",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_four",
+    "zh": "音效4",
+    "ru": "Звуковой эффект 4",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_one",
+    "zh": "音效1",
+    "ru": "Звуковой эффект 1",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_six",
+    "zh": "音效6",
+    "ru": "Звуковой эффект 6",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_three",
+    "zh": "音效3",
+    "ru": "Звуковой эффект 3",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_title",
+    "zh": "音效选择",
+    "ru": "Выбор звуковых эффектов",
+    "type": "string"
+  },
+  {
+    "name": "car_sound_setting_two",
+    "zh": "音效2",
+    "ru": "Звуковой эффект 2",
+    "type": "string"
+  },
+  {
+    "name": "car_window_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "car_window_open",
+    "zh": "开启",
+    "ru": "Открыть",
+    "type": "string"
+  },
+  {
+    "name": "car_window_open_little",
+    "zh": "通风",
+    "ru": "Проветривание",
+    "type": "string"
+  },
+  {
+    "name": "car_window_title",
+    "zh": "车窗设置",
+    "ru": "Настройки окон",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_type_five",
+    "zh": "猫步模式",
+    "ru": "Режим дефиле",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_type_four",
+    "zh": "背部舒缓",
+    "ru": "Расслабление спины",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_type_one",
+    "zh": "经典模式",
+    "ru": "Классический режим",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_type_three",
+    "zh": "腰部舒缓",
+    "ru": "Расслабление поясницы",
+    "type": "string"
+  },
+  {
+    "name": "chair_massage_type_two",
+    "zh": "松弛模式",
+    "ru": "Расслабленный режим",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_name",
+    "zh": "主驾座椅按摩",
+    "ru": "Массаж водительского сиденья",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_strength_high",
+    "zh": "高",
+    "ru": "Высокий",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_strength_low",
+    "zh": "低",
+    "ru": "Низкий",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_strength_middle",
+    "zh": "中",
+    "ru": "Средний",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_strength_title",
+    "zh": "按摩强度",
+    "ru": "Интенсивность массажа",
+    "type": "string"
+  },
+  {
+    "name": "chair_setting_type_name_title",
+    "zh": "按摩类型",
+    "ru": "Тип массажа",
+    "type": "string"
+  },
+  {
+    "name": "charging_failed_toast",
+    "zh": "请在电量20%%及以上，再打开休憩模式",
+    "ru": "Включайте режим отдыха только при заряде батареи 20%% и выше",
+    "type": "string"
+  },
+  {
+    "name": "child_mode_desc",
+    "zh": "\"为同行儿童提供便捷、丰富的多媒\n体内容\"",
+    "ru": "Удобный и разнообразный мультимедийный\\nконтент для детей в салоне",
+    "type": "string"
+  },
+  {
+    "name": "child_mode_fail_electric_toast",
+    "zh": "请将车辆上电后，再开启儿童模式哦",
+    "ru": "Пожалуйста, включите питание автомобиля, а затем активируйте детский режим.",
+    "type": "string"
+  },
+  {
+    "name": "child_mode_name",
+    "zh": "儿童模式",
+    "ru": "Детский режим",
+    "type": "string"
+  },
+  {
+    "name": "child_mode_name_simple",
+    "zh": "儿童模式",
+    "ru": "Детский режим",
+    "type": "string"
+  },
+  {
+    "name": "child_mode_toast_bye",
+    "zh": "Bye！小朋友下次再见哦！",
+    "ru": "Пока! До встречи в следующий раз, малыш!",
+    "type": "string"
+  },
+  {
+    "name": "children_close",
+    "zh": "已关闭儿童模式",
+    "ru": "Детский режим отключен",
+    "type": "string"
+  },
+  {
+    "name": "children_open_success",
+    "zh": "已成功启动儿童模式",
+    "ru": "Детский режим успешно включен",
+    "type": "string"
+  },
+  {
+    "name": "children_window_camera_error",
+    "zh": "摄像头链接异常",
+    "ru": "Ошибка подключения камеры",
+    "type": "string"
+  },
+  {
+    "name": "children_window_camera_not_open",
+    "zh": "摄像头未开启",
+    "ru": "Камера не включена",
+    "type": "string"
+  },
+  {
+    "name": "children_window_confirm_bt",
+    "zh": "知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "children_window_guide_tv",
+    "zh": "\"点击切换窗口大小\n长按拖动浮窗\"",
+    "ru": "\"Нажмите для изменения размера окна\\nУдерживайте для перетаскивания плавающего окна\"",
+    "type": "string"
+  },
+  {
+    "name": "city_beijing",
+    "zh": "北京",
+    "ru": "Пекин",
+    "type": "string"
+  },
+  {
+    "name": "city_dubai",
+    "zh": "迪拜",
+    "ru": "Дубай",
+    "type": "string"
+  },
+  {
+    "name": "city_new_york",
+    "zh": "纽约",
+    "ru": "Нью-Йорк",
+    "type": "string"
+  },
+  {
+    "name": "city_paris",
+    "zh": "巴黎",
+    "ru": "Париж",
+    "type": "string"
+  },
+  {
+    "name": "city_seoul",
+    "zh": "首尔",
+    "ru": "Сеул",
+    "type": "string"
+  },
+  {
+    "name": "city_sydney",
+    "zh": "悉尼",
+    "ru": "Сидней",
+    "type": "string"
+  },
+  {
+    "name": "city_tokyo",
+    "zh": "东京",
+    "ru": "Токио",
+    "type": "string"
+  },
+  {
+    "name": "close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "close_do_not_disturb_mode",
+    "zh": "关闭勿扰模式^勿扰模式^勿扰睡眠",
+    "ru": "Отключить «Не беспокоить»^«Не беспокоить»^Не беспокоить: сон",
+    "type": "string"
+  },
+  {
+    "name": "common_alarm_clock_rest_closed",
+    "zh": "小憩闹钟已关闭",
+    "ru": "Будильник отдыха выкл.",
+    "type": "string"
+  },
+  {
+    "name": "common_alarm_clock_rest_time_select",
+    "zh": "将在 %s 提醒您",
+    "ru": "Мы напомним вам в %s",
+    "type": "string"
+  },
+  {
+    "name": "common_alarm_clock_rest_tip_closed",
+    "zh": "小憩提醒已关闭",
+    "ru": "Напоминание отдыха выкл.",
+    "type": "string"
+  },
+  {
+    "name": "common_alarm_clock_rest_tip_title",
+    "zh": "休憩提醒",
+    "ru": "Напоминание о перерыве",
+    "type": "string"
+  },
+  {
+    "name": "common_dialog_tip_title",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "common_image_stabilization_toast",
+    "zh": "操作过于频繁，请稍后再试",
+    "ru": "Слишком частые операции. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_door_open_tts",
+    "zh": "请关闭全车车门后，再打开%s",
+    "ru": "Пожалуйста, закройте все двери автомобиля, а затем откройте %s",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_elception_no_over_heated",
+    "zh": "电池异常，无法打开%s",
+    "ru": "Неисправность батареи, невозможно включить %s",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_electric_trouble_tts",
+    "zh": "请确认您的电池温度正常，再打开%s",
+    "ru": "Пожалуйста, убедитесь, что температура батареи в норме, а затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_low_electron_tts",
+    "zh": "请在电量大于%s，再打开%s",
+    "ru": "Пожалуйста, включайте %s только при заряде батареи выше %s.",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_noGearWash_tts",
+    "zh": "请在P挡或N挡时进入%s",
+    "ru": "Вход в %s доступен только на передаче P или N",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_noP_tts",
+    "zh": "请在P挡下，再打开%s",
+    "ru": "Пожалуйста, включите %s только в положении «P».",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_power_state_tts",
+    "zh": "请将电源置于ON挡后，再打开%s",
+    "ru": "Пожалуйста, переведите переключатель питания в положение ON, а затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_ready_no_tts",
+    "zh": "请手动退出Ready状态后，再打开%s",
+    "ru": "Пожалуйста, вручную выйдите из состояния Ready, а затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_ready_yes_tts",
+    "zh": "请在Ready状态，再打开%s",
+    "ru": "Включите %s только после перехода в состояние Ready",
+    "type": "string"
+  },
+  {
+    "name": "common_mode_fail_unlink_tts",
+    "zh": "请拔掉充电枪后，再打开%s",
+    "ru": "Сначала отключите зарядный пистолет, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "common_music_time_title",
+    "zh": "播放时长",
+    "ru": "Время воспроизв.",
+    "type": "string"
+  },
+  {
+    "name": "common_no_alarm_clock",
+    "zh": "无闹钟",
+    "ru": "Нет будильника",
+    "type": "string"
+  },
+  {
+    "name": "common_not_remind",
+    "zh": "不提醒",
+    "ru": "Не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "common_open_terms",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "common_rest_mode_describe",
+    "zh": "休憩模式简介",
+    "ru": "Описание режима отдыха",
+    "type": "string"
+  },
+  {
+    "name": "common_rest_tip_title",
+    "zh": "小憩提醒",
+    "ru": "Напоминание отдыха",
+    "type": "string"
+  },
+  {
+    "name": "common_scene_mode",
+    "zh": "情景模式",
+    "ru": "Режим сценария",
+    "type": "string"
+  },
+  {
+    "name": "common_view_inner_light_switch",
+    "zh": "氛围灯开关",
+    "ru": "Подсветка",
+    "type": "string"
+  },
+  {
+    "name": "common_view_music_volume",
+    "zh": "音乐音量",
+    "ru": "Громкость музыки",
+    "type": "string"
+  },
+  {
+    "name": "common_view_one_gear",
+    "zh": "1档",
+    "ru": "1-я передача",
+    "type": "string"
+  },
+  {
+    "name": "common_view_seat_heating",
+    "zh": "座椅加热",
+    "ru": "Подогрев сидений",
+    "type": "string"
+  },
+  {
+    "name": "common_view_seat_ventilation",
+    "zh": "座椅通风",
+    "ru": "Вентиляция сидений",
+    "type": "string"
+  },
+  {
+    "name": "common_view_three_gear",
+    "zh": "3档",
+    "ru": "3-я передача",
+    "type": "string"
+  },
+  {
+    "name": "common_view_two_gear",
+    "zh": "2档",
+    "ru": "2-я передача",
+    "type": "string"
+  },
+  {
+    "name": "common_window_left_down",
+    "zh": "左后车窗",
+    "ru": "Левое заднее окно",
+    "type": "string"
+  },
+  {
+    "name": "common_window_left_up",
+    "zh": "主驾车窗",
+    "ru": "Окно водителя",
+    "type": "string"
+  },
+  {
+    "name": "common_window_right_down",
+    "zh": "右后车窗",
+    "ru": "Правое заднее окно",
+    "type": "string"
+  },
+  {
+    "name": "common_window_right_up",
+    "zh": "副驾车窗",
+    "ru": "Окно пассажира",
+    "type": "string"
+  },
+  {
+    "name": "confirm",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "continue_yes",
+    "zh": "继续^是",
+    "ru": "Продолжить^да",
+    "type": "string"
+  },
+  {
+    "name": "copilot_driver_seat",
+    "zh": "副驾",
+    "ru": "Пассажирское сиденье",
+    "type": "string"
+  },
+  {
+    "name": "dialog_alarm_tip",
+    "zh": "闹钟提醒",
+    "ru": "Напоминание будильника",
+    "type": "string"
+  },
+  {
+    "name": "dialog_cancel_button_name",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "dialog_context",
+    "zh": "将恢复座椅，氛围灯等设置，您确定要退出吗",
+    "ru": "Будут восстановлены настройки сидений, атмосферной подсветки и другие параметры. Вы уверены, что хотите выйти?",
+    "type": "string"
+  },
+  {
+    "name": "dialog_exit_button_name",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title",
+    "zh": "退出休憩模式",
+    "ru": "Выйти из режима отдыха",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_fugue",
+    "zh": "退出神游模式",
+    "ru": "Выйти из режима мечтаний",
+    "type": "string"
+  },
+  {
+    "name": "dialog_title_meditation",
+    "zh": "退出冥想模式",
+    "ru": "Выйти из режима медитации",
+    "type": "string"
+  },
+  {
+    "name": "disabling",
+    "zh": "正在关闭",
+    "ru": "Отключение...",
+    "type": "string"
+  },
+  {
+    "name": "disabling_finish",
+    "zh": "已关闭",
+    "ru": "Отключено",
+    "type": "string"
+  },
+  {
+    "name": "door_failed_toast",
+    "zh": "请关闭全车车门后，再打开休憩模式",
+    "ru": "Закройте все двери автомобиля, а затем включите режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "dream_valley_mode_name",
+    "zh": "眠谧梦谷模式",
+    "ru": "Режим «Спокойная долина снов»",
+    "type": "string"
+  },
+  {
+    "name": "electric_fail_exception",
+    "zh": "您的电池温度低，正在为您退出%s",
+    "ru": "Температура батареи низкая, выполняется выход из %s.",
+    "type": "string"
+  },
+  {
+    "name": "electric_failed_toast",
+    "zh": "当前电量低于20%，无法开启休憩模式",
+    "ru": "Уровень заряда батареи ниже 20 %, невозможно включить режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "electric_overheated_exception",
+    "zh": "车辆有严重故障，请远离车辆并联系服务站",
+    "ru": "В автомобиле возникла серьёзная неисправность. Отойдите от автомобиля и обратитесь в сервисный центр.",
+    "type": "string"
+  },
+  {
+    "name": "enable",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "enabling",
+    "zh": "正在开启",
+    "ru": "Включается...",
+    "type": "string"
+  },
+  {
+    "name": "enabling_finish",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "et_dialog_recommend",
+    "zh": "推荐",
+    "ru": "Рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "et_dialog_title_hint",
+    "zh": "输入提示语",
+    "ru": "Введите подсказку",
+    "type": "string"
+  },
+  {
+    "name": "exception_electric_overheated",
+    "zh": "检测到电池热失控，系统将为您强制关闭露营模式",
+    "ru": "Обнаружен тепловой разгон аккумулятора, система принудительно отключит режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "exception_fail_by_electric_not_full",
+    "zh": "电池电量不足，正在为您退出%s",
+    "ru": "Недостаточный заряд батареи. Выход из %s...",
+    "type": "string"
+  },
+  {
+    "name": "exception_fail_by_not_p",
+    "zh": "检测到您连续踩了两次刹车，系统将为您强制关闭%s!",
+    "ru": "Обнаружено два нажатия на педаль тормоза подряд, система принудительно отключит %s!",
+    "type": "string"
+  },
+  {
+    "name": "exception_power_off",
+    "zh": "车辆已下电，正在为您退出露营模式",
+    "ru": "Автомобиль обесточен, завершается режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "exception_trouble_lamp_on",
+    "zh": "您的电池温度低，正在为您退出（露营）睡眠模式",
+    "ru": "Температура батареи низкая. Выполняется выход из режима сна (кемпинга)…",
+    "type": "string"
+  },
+  {
+    "name": "exception_two_press_brake",
+    "zh": "检测到您连续踩了两次刹车，系统将为您强制关闭露营模式",
+    "ru": "Обнаружено двойное нажатие педали тормоза — система принудительно отключит режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "exit_camp_by_no_p",
+    "zh": "您已进入非P挡，正在为您退出露营模式",
+    "ru": "Вы вышли из положения P. Режим кемпинга отключается.",
+    "type": "string"
+  },
+  {
+    "name": "exit_camp_mode",
+    "zh": "是否退出露营模式",
+    "ru": "Выйти из режима кемпинга?",
+    "type": "string"
+  },
+  {
+    "name": "exit_camp_mode_tip",
+    "zh": "是否退出露营模式？",
+    "ru": "Выйти из режима кемпинга?",
+    "type": "string"
+  },
+  {
+    "name": "exit_camp_mode_with_low_battery",
+    "zh": "电池电量不足,正在为您退出露营模式,请及时给车辆补能,并注意保持车内空气流通",
+    "ru": "Низкий заряд батареи. Режим кемпинга отключается. Пожалуйста, своевременно зарядите автомобиль и обеспечьте вентиляцию салона.",
+    "type": "string"
+  },
+  {
+    "name": "exit_fugue_by_no_p",
+    "zh": "您已进入非P挡，正在为您退出神游模式",
+    "ru": "Вы вышли из положения P. Режим автопилота отключается.",
+    "type": "string"
+  },
+  {
+    "name": "exit_pet_by_exit_ready_failed",
+    "zh": "退出ready失败，正在为您退出宠物模式",
+    "ru": "Не удалось выйти из режима Ready. Выполняется выход из режима для питомца.",
+    "type": "string"
+  },
+  {
+    "name": "exit_pet_by_no_p",
+    "zh": "您已进入非P挡，正在为您退出宠物模式",
+    "ru": "Вы переключили передачу из режима P. Режим «Питомец» отключается.",
+    "type": "string"
+  },
+  {
+    "name": "exit_pet_mode_tip",
+    "zh": "是否退出宠物模式？",
+    "ru": "Выйти из режима «Питомец»?",
+    "type": "string"
+  },
+  {
+    "name": "exit_ready_has",
+    "zh": "露营模式开启，已⾃动退出READY状态",
+    "ru": "Режим кемпинга включён, состояние READY автоматически отключено.",
+    "type": "string"
+  },
+  {
+    "name": "exit_ready_tip",
+    "zh": "请手动退出Ready状态后，再打开露营模式哦",
+    "ru": "Сначала вручную выйдите из состояния Ready, затем включите режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "exit_tts_page_leaving",
+    "zh": "您已离开休憩模式界面，正在为您退出此模式",
+    "ru": "Вы покинули экран режима отдыха. Режим отключается.",
+    "type": "string"
+  },
+  {
+    "name": "float_menu_icar_mode_exit",
+    "zh": "结束手车娱乐",
+    "ru": "Завершить режим «Телефон-авто»",
+    "type": "string"
+  },
+  {
+    "name": "float_menu_icar_mode_open",
+    "zh": "打开手车娱乐",
+    "ru": "Запустить режим «Телефон-авто»",
+    "type": "string"
+  },
+  {
+    "name": "forest_oxygen_bar",
+    "zh": "森林氧吧",
+    "ru": "Лесной кислородный бар",
+    "type": "string"
+  },
+  {
+    "name": "forestoxygen_mode_name",
+    "zh": "森林氧吧模式",
+    "ru": "Режим «Лесной кислородный бар»",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_concentration",
+    "zh": "香氛浓度",
+    "ru": "Концентрация аромата",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_concentration_high",
+    "zh": "高",
+    "ru": "Высокий",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_concentration_low",
+    "zh": "低",
+    "ru": "Низкий",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_concentration_middle",
+    "zh": "中",
+    "ru": "Средний",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_name_one",
+    "zh": "臻",
+    "ru": "Премиум",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_name_three",
+    "zh": "致",
+    "ru": "Истинный",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_name_two",
+    "zh": "悦",
+    "ru": "Радость",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_switch_title",
+    "zh": "香氛开关",
+    "ru": "Переключатель аромата",
+    "type": "string"
+  },
+  {
+    "name": "fragrance_type",
+    "zh": "香氛类型",
+    "ru": "Тип аромата",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_desc",
+    "zh": "打造极致城市氛围，感受不一样的喧嚣",
+    "ru": "Создайте идеальную городскую атмосферу, почувствуйте неповторимую суету.",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_fail_electric_toast",
+    "zh": "请将车辆上电后，再开启神游模式哦",
+    "ru": "Пожалуйста, сначала включите питание автомобиля, а затем активируйте режим «Мечтания».",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_fail_electron_low_toast",
+    "zh": "当前电量低于20%，无法开启神游模式",
+    "ru": "Заряд батареи ниже 20 %, невозможно включить режим «Мечтания».",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_fail_p_toast",
+    "zh": "请将车辆置于P挡后，再开启神游模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем активируйте режим «Мечтания».",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_name",
+    "zh": "神游模式",
+    "ru": "Режим мечтаний",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_name_simple",
+    "zh": "神游模式",
+    "ru": "Режим мечтаний",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_open_toast",
+    "zh": "正在为您开启神游模式，请注意后排乘客安全",
+    "ru": "Активирую режим «Шэньюй», следите за безопасностью пассажиров на заднем сиденье",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_open_toast_no_move",
+    "zh": "正在为您开启神游模式",
+    "ru": "Активирую режим «Шэньюй»",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_prepare_text",
+    "zh": "享受城市喧嚣，体验不同城市氛围~",
+    "ru": "Наслаждайся городской суетой, почувствуй атмосферу разных городов~",
+    "type": "string"
+  },
+  {
+    "name": "fugue_mode_start_button",
+    "zh": "结束",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "fugue_slide_name",
+    "zh": "神游",
+    "ru": "Шэньюй",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "fw_item_setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "gear_failed_toast",
+    "zh": "请将车辆置于P挡后，再打开休憩模式",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем включите режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "home_app_store_already_open",
+    "zh": "应用商店已打开",
+    "ru": "Магазин приложений открыт",
+    "type": "string"
+  },
+  {
+    "name": "home_currently_not_in_mode",
+    "zh": "当前不在%s中哦",
+    "ru": "Сейчас вы не в %s",
+    "type": "string"
+  },
+  {
+    "name": "home_enter_app_store_tip_title",
+    "zh": "无%s，快去应用商店下载吧",
+    "ru": "%s отсутствует, загрузите из магазина приложений.",
+    "type": "string"
+  },
+  {
+    "name": "home_loostone_app",
+    "zh": "酷狗K歌",
+    "ru": "Кугу Караоке",
+    "type": "string"
+  },
+  {
+    "name": "home_mgtv_video",
+    "zh": "芒果TV",
+    "ru": "Манго ТВ",
+    "type": "string"
+  },
+  {
+    "name": "home_minute",
+    "zh": "%s 分钟",
+    "ru": "%s минут",
+    "type": "string"
+  },
+  {
+    "name": "home_not_support_speech_close_pet_mode",
+    "zh": "暂不支持语音关闭宠物模式哦",
+    "ru": "Пока не поддерживается отключение режима питомца голосом.",
+    "type": "string"
+  },
+  {
+    "name": "home_open_mode_will_close_other_mode",
+    "zh": "打开%s将中断%s，是否继续？",
+    "ru": "Открытие %s прервёт %s, продолжить?",
+    "type": "string"
+  },
+  {
+    "name": "home_open_store_describe_content",
+    "zh": "打开应用商店^应用商店^商店",
+    "ru": "Открыть магазин приложений^Магазин приложений^Магазин",
+    "type": "string"
+  },
+  {
+    "name": "home_sohu_video",
+    "zh": "搜狐视频",
+    "ru": "Соху Видео",
+    "type": "string"
+  },
+  {
+    "name": "home_time_out",
+    "zh": "时间到",
+    "ru": "Время вышло",
+    "type": "string"
+  },
+  {
+    "name": "home_youku_video",
+    "zh": "优酷视频",
+    "ru": "Юку Видео",
+    "type": "string"
+  },
+  {
+    "name": "hour_name",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "i_car_link_remind_dialog_message",
+    "zh": "即将进入手车娱乐空间，进入后座椅位置、音效等将进行调整，是否继续？",
+    "ru": "Вы собираетесь войти в пространство развлечений (телефон-автомобиль). После входа положение сиденья, звук и другие параметры будут скорректированы. Продолжить?",
+    "type": "string"
+  },
+  {
+    "name": "icar_gear_change_restore_the_seat",
+    "zh": "挡位变化，自动为你恢复座椅",
+    "ru": "При смене передачи положение сиденья будет автоматически восстановлено.",
+    "type": "string"
+  },
+  {
+    "name": "icar_mode_already_exit",
+    "zh": "手车娱乐模式已退出",
+    "ru": "Режим развлечений (телефон-автомобиль) завершён.",
+    "type": "string"
+  },
+  {
+    "name": "icar_mode_already_open",
+    "zh": "手车娱乐模式已开启",
+    "ru": "Режим развлечений «телефон-автомобиль» включён",
+    "type": "string"
+  },
+  {
+    "name": "icar_mode_first_tip_pop",
+    "zh": "开启手车娱乐模式，感受沉浸娱乐体验。",
+    "ru": "Включите режим развлечений «телефон-автомобиль» и наслаждайтесь полным погружением.",
+    "type": "string"
+  },
+  {
+    "name": "icarlink_mode_desc",
+    "zh": "\"手机投屏联动车辆硬件等，畅享无限内容\n驻车使用时，将移动座椅，请注意安全\"",
+    "ru": "\"Проекция экрана смартфона с управлением оборудованием автомобиля — наслаждайтесь неограниченным контентом.\\nПри использовании в режиме стоянки сиденье будет перемещаться — соблюдайте осторожность\"",
+    "type": "string"
+  },
+  {
+    "name": "icarlink_mode_name",
+    "zh": "手车娱乐模式",
+    "ru": "Режим Carlink",
+    "type": "string"
+  },
+  {
+    "name": "icarlink_mode_name_simple",
+    "zh": "手车娱乐",
+    "ru": "Развлечения Carlink",
+    "type": "string"
+  },
+  {
+    "name": "imgview_des_next",
+    "zh": "下一个",
+    "ru": "Следующий",
+    "type": "string"
+  },
+  {
+    "name": "imgview_des_pre",
+    "zh": "上一个",
+    "ru": "Предыдущий",
+    "type": "string"
+  },
+  {
+    "name": "imgview_des_xiuqi_settings",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "inner_car_light_color_title",
+    "zh": "氛围灯颜色",
+    "ru": "Цвет подсветки",
+    "type": "string"
+  },
+  {
+    "name": "inner_car_light_light_title",
+    "zh": "氛围灯亮度",
+    "ru": "Яркость подсветки",
+    "type": "string"
+  },
+  {
+    "name": "inner_car_light_title",
+    "zh": "氛围灯联动",
+    "ru": "Связь подсветки",
+    "type": "string"
+  },
+  {
+    "name": "inner_car_light_title_hint",
+    "zh": "提示^氛围灯联动提示",
+    "ru": "Подсказка^Подсказка о синхронизации атмосферной подсветки",
+    "type": "string"
+  },
+  {
+    "name": "inner_light_music_title_tip",
+    "zh": "打开开关，进入嗨歌模式将自动调节氛围灯；关闭开关，进入嗨歌模式不自动调节氛围灯。",
+    "ru": "При включённом переключателе вход в режим «Музыкальная вечеринка» автоматически регулирует подсветку. При выключенном переключателе вход в режим «Музыкальная вечеринка» не регулирует подсветку автоматически.",
+    "type": "string"
+  },
+  {
+    "name": "inner_light_title_tip",
+    "zh": "开启该开关，将按休憩模式主题色彩律动30s。",
+    "ru": "При включении этого переключателя цвета темы режима отдыха будут пульсировать в течение 30 с.",
+    "type": "string"
+  },
+  {
+    "name": "introduce_title_text",
+    "zh": "%s介绍",
+    "ru": "Описание %s",
+    "type": "string"
+  },
+  {
+    "name": "invalid",
+    "zh": "不可用",
+    "ru": "Недоступно",
+    "type": "string"
+  },
+  {
+    "name": "item_music_alpha_wave",
+    "zh": "阿尔法波浪",
+    "ru": "Альфа-волна",
+    "type": "string"
+  },
+  {
+    "name": "item_music_mindfulness_focused_meditation_female",
+    "zh": "专注冥想（女）",
+    "ru": "Медитация на концентрацию (жен.)",
+    "type": "string"
+  },
+  {
+    "name": "item_music_mindfulness_focused_meditation_male",
+    "zh": "专注冥想（男）",
+    "ru": "Медитация на концентрацию (муж.)",
+    "type": "string"
+  },
+  {
+    "name": "item_music_mindfulness_meditation_female",
+    "zh": "正念冥想（女）",
+    "ru": "Медитация осознанности (жен.)",
+    "type": "string"
+  },
+  {
+    "name": "item_music_mindfulness_meditation_male",
+    "zh": "正念冥想（男）",
+    "ru": "Медитация осознанности (муж.)",
+    "type": "string"
+  },
+  {
+    "name": "item_music_songbo",
+    "zh": "颂钵",
+    "ru": "Поющая чаша",
+    "type": "string"
+  },
+  {
+    "name": "item_music_spa_lab",
+    "zh": "声音SPA",
+    "ru": "Звуковое СПА",
+    "type": "string"
+  },
+  {
+    "name": "low_battery_level_fail",
+    "zh": "请在电量大于20%，再开启露营模式",
+    "ru": "Пожалуйста, включайте режим кемпинга только при заряде батареи выше 20%.",
+    "type": "string"
+  },
+  {
+    "name": "main_driver_seat",
+    "zh": "主驾",
+    "ru": "Сиденье водителя",
+    "type": "string"
+  },
+  {
+    "name": "media_name",
+    "zh": "名称",
+    "ru": "Название",
+    "type": "string"
+  },
+  {
+    "name": "mediation_mode_desc",
+    "zh": "\"静享冥想空间，一键释放压力，身心归宁\n开启将调节座椅、车窗，建议后排无人时使用\"",
+    "ru": "\"Наслаждайтесь атмосферой медитации, снимайте стресс одним нажатием, обретая покой телом и душой.\\nПри включении регулируются сиденья и окна. Рекомендуется использовать только при пустом заднем ряду.\"",
+    "type": "string"
+  },
+  {
+    "name": "mediation_mode_inner_light_title_tip",
+    "zh": "开启该开关，将按冥想模式色彩律动30s。",
+    "ru": "Включите этот переключатель, и цвета будут пульсировать в режиме медитации в течение 30 секунд.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_desc",
+    "zh": "打造自然界氛围，寻求心灵治愈",
+    "ru": "Создайте атмосферу природы, обретите душевное исцеление.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_fail_electric_toast",
+    "zh": "请将车辆上电后，再开启冥想模式哦",
+    "ru": "Пожалуйста, сначала включите питание автомобиля, а затем активируйте режим медитации.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_fail_electron_low_toast",
+    "zh": "当前电量低于20%，无法开启冥想模式",
+    "ru": "Уровень заряда ниже 20%, невозможно включить режим медитации.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_fail_p_toast",
+    "zh": "请将车辆置于P挡后，再开启冥想模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем включите режим медитации.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_list_play",
+    "zh": "列表播放",
+    "ru": "Плейлист",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_name",
+    "zh": "冥想模式",
+    "ru": "Режим медитации",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_name_simple",
+    "zh": "冥想模式",
+    "ru": "Режим медитации",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_open_toast",
+    "zh": "正在为您开启冥想模式，请注意后排乘客安全",
+    "ru": "Включаю режим медитации. Пожалуйста, следите за безопасностью пассажиров на заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_open_toast_no_move",
+    "zh": "正在为您开启冥想模式",
+    "ru": "Включаю для вас режим медитации",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_prepare_text",
+    "zh": "聆听自然白噪音，治愈浮躁心灵~",
+    "ru": "Слушайте природный белый шум и исцелите свою беспокойную душу~",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_single_once",
+    "zh": "单曲一次",
+    "ru": "Разовое",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_single_play",
+    "zh": "单曲播放",
+    "ru": "Повтор одного трека",
+    "type": "string"
+  },
+  {
+    "name": "meditation_mode_start_button",
+    "zh": "结束",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "meditation_slide_name",
+    "zh": "冥想",
+    "ru": "Медитация",
+    "type": "string"
+  },
+  {
+    "name": "min_name",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "mode_auto__ask",
+    "zh": "自动触发时询问",
+    "ru": "Спрашивать при автозапуске",
+    "type": "string"
+  },
+  {
+    "name": "mode_auto_trigger",
+    "zh": "模式自动触发",
+    "ru": "Автозапуск режима",
+    "type": "string"
+  },
+  {
+    "name": "mode_button_loading",
+    "zh": "启动中",
+    "ru": "Запуск...",
+    "type": "string"
+  },
+  {
+    "name": "mode_button_open",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "mode_button_stop",
+    "zh": "结束",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "mode_close_status",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "mode_exit_not_p",
+    "zh": "您已进入非P挡，正在为您退出%s",
+    "ru": "Автомобиль не в положении P, режим %s отключается…",
+    "type": "string"
+  },
+  {
+    "name": "mode_exit_not_p_v2",
+    "zh": "您已退出P挡，正在退出%s",
+    "ru": "Вы вышли из положения P, режим %s отключается…",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_all_door_close",
+    "zh": "请关闭全车车门后，再打开休憩模式",
+    "ru": "Закройте все двери, затем включите режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_default",
+    "zh": "条件不满足，打开%s失败",
+    "ru": "Условия не выполнены, не удалось открыть %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_door_close",
+    "zh": "请关闭全车车门后，再打开休憩模式",
+    "ru": "Закройте все двери, затем включите режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_electric_trouble",
+    "zh": "电池温度低，打开%s失败",
+    "ru": "Низкая температура батареи, не удалось открыть %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_electron_low",
+    "zh": "请保持充足电量，再打开该模式",
+    "ru": "Обеспечьте достаточный заряд батареи, затем включите этот режим.",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_electron_low_append",
+    "zh": "请保持充足电量，再打开%s",
+    "ru": "Обеспечьте достаточный заряд батареи, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_engine_open",
+    "zh": "请将发动机熄灭后，再打开该模式",
+    "ru": "Выключите двигатель, затем включите этот режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_engine_phev_close",
+    "zh": "请将发动机开启后，再打开露营模式",
+    "ru": "Запустите двигатель, затем включите режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_engine_phev_open",
+    "zh": "请将增程器关闭后，再打开露营模式",
+    "ru": "Выключите дополнительный генератор, затем включите режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_engine_phev_open_append",
+    "zh": "请将增程器关闭后，再打开%s",
+    "ru": "Выключите дополнительный генератор, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_fail_p",
+    "zh": "请将车辆置于P挡后，再打开该模式",
+    "ru": "Поставьте автомобиль в положение P, затем включите этот режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_fugue_power_low",
+    "zh": "请在电量20%%及以上，再打开神游模式",
+    "ru": "Включайте режим «Шэньёу» только при заряде батареи 20%% и выше",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_meditation_power_low",
+    "zh": "请在电量20%%及以上，再打开冥想模式",
+    "ru": "Включайте режим медитации только при заряде батареи 20%% и выше",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_no_charging",
+    "zh": "请先连接充电枪，再打开该模式",
+    "ru": "Сначала подключите зарядный пистолет, затем включите этот режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_no_charging_append",
+    "zh": "请先连接充电枪，再打开%s",
+    "ru": "Сначала подключите зарядный пистолет, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_no_engin",
+    "zh": "请将发动机开启后，再打开%s",
+    "ru": "Сначала запустите двигатель, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_no_need_link",
+    "zh": "请先拔出充电枪或放电枪后，再打开该模式",
+    "ru": "Сначала отсоедините зарядный пистолет или пистолет отбора мощности, затем включите этот режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_no_p2",
+    "zh": "请在P挡下，再打开%s",
+    "ru": "Включите %s в положении «P»",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_over_heated",
+    "zh": "车辆有严重故障，请远离车辆并联系服务站",
+    "ru": "В автомобиле возникла серьезная неисправность. Отойдите от автомобиля и обратитесь в сервисный центр",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_p_or_n_default",
+    "zh": "请在P挡或N挡下，再打开洗车模式",
+    "ru": "Включите передачу P или N перед включением режима мойки",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_power_off",
+    "zh": "请将车辆上电后，再打开该模式",
+    "ru": "Включите питание автомобиля, затем активируйте этот режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_power_off2",
+    "zh": "请在电源ON挡，再打开%s",
+    "ru": "Переведите переключатель питания в положение ON, затем включите %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_ready_tip",
+    "zh": "请手动退出Ready状态后，再打开模式",
+    "ru": "После ручного выхода из состояния Ready включите режим.",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_rest_power_low",
+    "zh": "请在电量20%%及以上，再打开休憩模式",
+    "ru": "Включайте режим отдыха только при заряде батареи 20%% и выше",
+    "type": "string"
+  },
+  {
+    "name": "mode_fail_rest_power_low2",
+    "zh": "请在电量大于20%%，再打开%s",
+    "ru": "Пожалуйста, при заряде батареи более 20%% откройте %s",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_camp",
+    "zh": "1.该模式为长时间在车内停留睡眠而设计。开启后，车辆将保证电量大于20%时，不会自动下电，同时车辆自动上锁。车外灯光关闭，空调开启并设置到外循环。_2.电量低于20%时或者连续踩两次刹车，将自动退出该模式，退出后，灯光将恢复到进入前的状态。",
+    "ru": "1. Данный режим предназначен для длительного сна в салоне. После включения при заряде батареи выше 20 % питание не будет автоматически отключено, а автомобиль будет автоматически заблокирован. Наружное освещение выключается, климат-контроль включается в режиме наружной циркуляции. _2. При заряде батареи ниже 20 % или при двух последовательных нажатиях на педаль тормоза режим будет автоматически отключён. После отключения освещение вернётся к состоянию до включения режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_car_link",
+    "zh": "1.手车娱乐式将为你提供高效、舒适的娱乐环境。连接手车互联应用后可开启，开启后座椅移动到您习惯的位置；音效个性化调节；氛围灯自动调节*。（*为部分车型配置搭载）。_2.您可通过点击界面上的结束按钮、语音控制等退出手车娱乐模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим развлечений «Телефон–Автомобиль» создаёт для вас эффективную и комфортную среду для развлечений. После подключения приложения связи телефона с автомобилем режим активируется: сиденья перемещаются в ваше привычное положение; персональная настройка звука; автоматическая регулировка подсветки салона* (*доступно на отдельных моделях)._2. Для выхода из режима развлечений «Телефон–Автомобиль» нажмите кнопку «Завершить» на экране, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_mediation",
+    "zh": "1.冥想模式通过声音spa和导师引导帮助您进入冥想状态，有助于释放压力、放松身心。_2.开启后，将自动调节座椅、车窗到您习惯的休息位置，同时氛围灯*、灯光等将自动调节。（*为部分车型配置搭载）。_3.您可通过连续踩2次刹车、语音控制等退出冥想模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим медитации с помощью звукового спа и наставника помогает вам войти в состояние медитации, способствует снятию стресса и расслаблению тела и разума._2. После активации сиденья и стёкла автоматически перемещаются в ваше привычное положение для отдыха, а подсветка салона*, освещение и т. д. регулируются автоматически (*доступно на отдельных моделях)._3. Для выхода из режима медитации нажмите на педаль тормоза 2 раза подряд, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_movie",
+    "zh": "1.观影模式将为你提供高效、舒适的观影环境。开启后，座椅*移动到您习惯的位置，车窗根据您设置的状态自动调节；观影应用联动打开，音效自动变为影院音效*；氛围灯*、空调等联动调节。（*为部分车型配置搭载）。_2.您可通过连续踩2次刹车、语音控制等退出观影模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим просмотра фильмов создаёт для вас эффективную и комфортную среду для просмотра. После активации сиденья* перемещаются в ваше привычное положение, стёкла автоматически регулируются в соответствии с вашими настройками; приложение для просмотра фильмов запускается автоматически, звук переключается на режим «Кинотеатр»*; подсветка салона*, климат-контроль и т. д. регулируются автоматически (*доступно на отдельных моделях)._2. Для выхода из режима просмотра фильмов нажмите на педаль тормоза 2 раза подряд, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_music",
+    "zh": "1.嗨歌模式适用于K歌场景。开启后，氛围灯*、车窗根据您设置的状态自动调节；嗨歌应用联动打开，并自动开启无麦K歌（无需专用麦克风，使用车载麦克风直接嗨唱）。（*为部分车型配置搭载）。_2.您可通过退出K歌APP、语音控制等退出嗨歌模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим караоке предназначен для сценария вокала. После активации подсветка салона*, стёкла автоматически регулируются в соответствии с вашими настройками; приложение караоке синхронно запускается, включается режим караоке без микрофона (не требуется специальный микрофон — пойте напрямую через штатный микрофон автомобиля) (*доступно на отдельных моделях)._2. Для выхода из режима караоке закройте приложение караоке, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_pet",
+    "zh": "1.该模式为暂时将宠物独立留在车内设计。开启后，将进入宠物模式界面，空调自动调节，支持设置离车后的提示语和背景图；同时在离车锁车后，车内将保持恒温，中控屏将展示提示语和当前空调温度。_2.电量过低时，将自动退出该模式，退出后，后排车窗将自动留缝。",
+    "ru": "1. Данный режим предназначен для временного оставления питомца в автомобиле. После активации откроется интерфейс режима для питомца, климат-контроль будет автоматически регулироваться; поддерживается настройка сообщения и фонового изображения после выхода из автомобиля; после выхода из автомобиля и блокировки в салоне поддерживается постоянная температура, на центральном дисплее отображается сообщение и текущая температура климат-контроля._2. При низком уровне заряда режим будет автоматически отключён, после чего задние стёкла автоматически приоткроются.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_pure",
+    "zh": "提神模式可以在您行车疲劳时开启，开启后，将联动空调循环吹风，打开座椅通风*，播放激昂的在线音乐，助您提神醒脑。（*为部分车型配置搭载）。",
+    "ru": "Режим бодрости можно активировать при усталости за рулём. После активации климат-контроль переключается на режим рециркуляции, включается вентиляция сидений*, воспроизводится энергичная онлайн-музыка для бодрости и концентрации (*доступно на отдельных моделях).",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_rest",
+    "zh": "1.休憩模式中包含三个场景。小憩，包含舒适视频与白噪音，适用于休息、缓解疲劳；冥想，可以听颂钵声和导师引导，有助于释放压力、放松身心；神游，可以领略不同城市风景，愉悦心情。_2.开启后，将自动调节座椅到您习惯的休息位置；车窗根据您设置的状态自动调节；同时氛围灯*、空调、灯光、天窗等将自动调节。（*为部分车型配置搭载）若在小憩沉浸页面内30s无操作，屏幕自动熄灭，点击屏幕可重新点亮。_3.您可通过连续踩2次刹车、语音控制等退出休憩模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим отдыха включает три сценария. Короткий отдых — включает комфортные видео и белый шум, подходит для отдыха и снятия усталости; Медитация — прослушивание звуков поющих чаш и руководство инструктора, способствует снятию стресса и расслаблению; Мечтание — наслаждение пейзажами разных городов, поднимает настроение._2. После активации сиденья автоматически перемещаются в ваше привычное положение для отдыха; стёкла автоматически регулируются в соответствии с вашими настройками; подсветка салона*, климат-контроль, освещение, люк и т. д. регулируются автоматически (*доступно на отдельных моделях). При отсутствии действий на странице полного погружения «Короткий отдых» в течение 30 с экран автоматически гаснет, нажмите на экран для повторного включения._3. Для выхода из режима отдыха нажмите на педаль тормоза 2 раза подряд, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_rest_v2",
+    "zh": "1.休憩模式中包含三个主题：眠谧梦谷、温暖方居、森林氧吧，每个主题下都包含了与动效匹配的白噪音，适用于休息、缓解疲劳。_2.开启后，将自动调节座椅、车窗到您习惯的休息位置，同时氛围灯*、灯光等将自动调节。（*为部分车型配置搭载），开启后如果您在30s内无操作，屏幕和氛围灯将自动熄灭直到闹钟响起。_3.您可通过连续踩2次刹车、语音控制等退出休憩模式，退出后，各项设置将恢复到进入前的状态。",
+    "ru": "1. Режим отдыха включает три темы: «Долина тихих снов», «Тёплая гавань», «Лесной кислородный бар». Каждая тема содержит белый шум, соответствующий визуальным эффектам, подходит для отдыха и снятия усталости._2. После активации сиденья и стёкла автоматически перемещаются в ваше привычное положение для отдыха, а подсветка салона*, освещение и т. д. регулируются автоматически (*доступно на отдельных моделях). Если в течение 30 с не было никаких действий, экран и подсветка салона автоматически погаснут до срабатывания будильника._3. Для выхода из режима отдыха нажмите на педаль тормоза 2 раза подряд, воспользуйтесь голосовым управлением и т. д. После выхода все настройки вернутся к состоянию до активации режима.",
+    "type": "string"
+  },
+  {
+    "name": "mode_introduce_wash",
+    "zh": "该模式为用户洗车场景设计。开启模式时将自动关闭所有车窗、收起门把手、禁用自动雨刮、关闭雷达检测蜂鸣等，避免洗车过程对车辆造成损坏，如果车速超过 10km/h 将会退出洗车模式。",
+    "ru": "Этот режим предназначен для мойки автомобиля. При активации режима автоматически закрываются все стёкла, складываются дверные ручки, отключается автоматический стеклоочиститель и звуковой сигнал парктроника, чтобы избежать повреждений автомобиля в процессе мойки. При скорости свыше 10 км/ч режим мойки будет автоматически выключен.",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_camp",
+    "zh": "露营模式",
+    "ru": "Режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_child",
+    "zh": "儿童模式",
+    "ru": "Детский режим",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_link_car",
+    "zh": "手车娱乐模式",
+    "ru": "Режим телефон-авто",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_movie",
+    "zh": "观影模式",
+    "ru": "Режим кино",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_music",
+    "zh": "嗨歌模式",
+    "ru": "Режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_none",
+    "zh": "无模式",
+    "ru": "Без режима",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_pet",
+    "zh": "宠物模式",
+    "ru": "Режим питомца",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_pure",
+    "zh": "提神模式",
+    "ru": "Режим бодрости",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_rest",
+    "zh": "休憩模式",
+    "ru": "Режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_smoke",
+    "zh": "抽烟模式",
+    "ru": "Режим курения",
+    "type": "string"
+  },
+  {
+    "name": "mode_name_wash",
+    "zh": "洗车模式",
+    "ru": "Режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "mode_not_support_toast",
+    "zh": "暂不支持该模式哦",
+    "ru": "Этот режим пока не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "mode_not_support_toast2",
+    "zh": "暂不支持%s哦",
+    "ru": "%s пока не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "mode_open_status",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "mode_speech_open_success_tips",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "mode_start_dialog_message",
+    "zh": "\"1.即将移动所选座椅位置，请确认后排⽆⼈时使⽤。\n 2.露营模式中，当整⻋电量＜ 20%或踩2次刹⻋时，将⾃动退出此模式。\"",
+    "ru": "\"1. Положение выбранного сиденья будет изменено. Убедитесь, что на заднем сиденье нет пассажиров.\\n 2. В режиме кемпинга при заряде батареи < 20% или при нажатии на педаль тормоза 2 раза режим будет автоматически отключён.\"",
+    "type": "string"
+  },
+  {
+    "name": "movie_alert_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "movie_alert_exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "movie_alert_exit_message",
+    "zh": "将恢复座椅，氛围灯等设置，您确定要退出吗？",
+    "ru": "Настройки сидений, атмосферной подсветки и др. будут восстановлены. Вы уверены, что хотите выйти?",
+    "type": "string"
+  },
+  {
+    "name": "movie_alert_exit_title",
+    "zh": "退出观影模式",
+    "ru": "Выйти из режима просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_aleady_open",
+    "zh": "观影模式已打开",
+    "ru": "Режим просмотра включён",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_already_closed",
+    "zh": "观影模式已关闭",
+    "ru": "Режим просмотра выключен",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_already_opened",
+    "zh": "观影模式已开启",
+    "ru": "Режим просмотра включён",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_desc",
+    "zh": "\"联动观影app和车内硬件，座舱秒变影院\n开启将调节座椅、车窗，建议后排无人时使用\"",
+    "ru": "\"Синхронизация приложения для просмотра и бортового оборудования превращает салон в кинотеатр\\nПри активации регулируются сиденья и стёкла. Рекомендуется использовать при отсутствии пассажиров на заднем ряду\"",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_exit",
+    "zh": "结束观影模式",
+    "ru": "Завершить режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_exit_by_not_page",
+    "zh": "您已离开腾讯视频，正在为您退出观影模式。",
+    "ru": "Вы покинули Tencent Video. Режим просмотра закрывается.",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_exit_toast",
+    "zh": "观影模式已退出",
+    "ru": "Режим просмотра завершён",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_first_open_tip_pop",
+    "zh": "开启观影模式，一键模拟影院环境。",
+    "ru": "Включите режим просмотра — одним нажатием имитируйте атмосферу кинотеатра.",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_gear_n_p_hint",
+    "zh": "请将车辆置于P挡后，再开启观影模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем включите режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_name",
+    "zh": "观影模式",
+    "ru": "Режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_name_simple",
+    "zh": "观影模式",
+    "ru": "Режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_power_off_hint",
+    "zh": "请将电源置于ON挡后，再开启观影模式哦",
+    "ru": "Пожалуйста, переведите переключатель питания в положение «ВКЛ», а затем включите режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_speech_back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_star",
+    "zh": "打开观影模式",
+    "ru": "Включить режим просмотра",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_start_hint",
+    "zh": "正在为您开启观影模式，请注意后排乘客安全",
+    "ru": "Включаем режим просмотра. Обратите внимание на безопасность пассажиров на заднем ряду",
+    "type": "string"
+  },
+  {
+    "name": "movie_mode_stop_hint",
+    "zh": "踩 2 次刹车即可退出观影模式哦～",
+    "ru": "Дважды нажмите на тормоз, чтобы выйти из режима просмотра",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_distract_message",
+    "zh": "驾驶中唱歌容易分心哦，您确认要继续嗨歌吗？",
+    "ru": "Пение за рулём может отвлекать, вы уверены, что хотите продолжить караоке?",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_distract_title",
+    "zh": "继续使用嗨歌模式",
+    "ru": "Продолжить использование режима караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_exit_message",
+    "zh": "将恢复香氛、氛围灯等设置，您确定要退出吗？",
+    "ru": "Настройки ароматизации, атмосферного освещения и другие будут восстановлены. Вы уверены, что хотите выйти?",
+    "type": "string"
+  },
+  {
+    "name": "music_alert_exit_title",
+    "zh": "结束嗨歌模式",
+    "ru": "Завершить режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_desc",
+    "zh": "\"营造K歌氛围，打造移动K歌房，让快乐随行\n开启将调节车窗、开启无麦K歌等\"",
+    "ru": "\"Создайте атмосферу караоке, превратите салон в мобильную караоке-комнату, пусть радость будет с вами\\nПри включении: регулировка окон, караоке без микрофона и другое\"",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_disconnect_microphone_again_open_k_song",
+    "zh": "请断开麦克风连接后，再开启⽆⻨K歌",
+    "ru": "Отключите микрофон, а затем включите караоке без микрофона",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_exit",
+    "zh": "结束嗨歌模式",
+    "ru": "Завершить режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_exit_toast",
+    "zh": "嗨歌模式已退出",
+    "ru": "Режим караоке завершён",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_first_tip_bubble",
+    "zh": "开启嗨歌模式，畅享无麦K歌。",
+    "ru": "Включите режим караоке — наслаждайтесь пением без микрофона.",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_hi_song_mode_already_open",
+    "zh": "嗨歌模式已开启",
+    "ru": "Режим караоке включён",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_name",
+    "zh": "嗨歌模式",
+    "ru": "Режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_name_simple",
+    "zh": "嗨歌模式",
+    "ru": "Режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_no_wheat_k_song",
+    "zh": "无麦K歌",
+    "ru": "Караоке без микрофона",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_open_hi_song",
+    "zh": "开启嗨歌模式",
+    "ru": "Включить режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_power_off_hint",
+    "zh": "请将电源置于ON挡后后，再打开嗨歌模式哦",
+    "ru": "Пожалуйста, сначала включите питание, а затем активируйте режим караоке.",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_star",
+    "zh": "打开嗨歌模式",
+    "ru": "Включить режим караоке",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_try_no_wheat_k_song",
+    "zh": "试试⽆⻨K歌氛围?",
+    "ru": "Попробовать караоке без микрофона?",
+    "type": "string"
+  },
+  {
+    "name": "music_mode_yes",
+    "zh": "是",
+    "ru": "Да",
+    "type": "string"
+  },
+  {
+    "name": "music_time_always",
+    "zh": "始终开启",
+    "ru": "Всегда включено",
+    "type": "string"
+  },
+  {
+    "name": "music_time_one",
+    "zh": "15分钟",
+    "ru": "15 минут",
+    "type": "string"
+  },
+  {
+    "name": "music_time_three",
+    "zh": "60分钟",
+    "ru": "60 минут",
+    "type": "string"
+  },
+  {
+    "name": "music_time_title",
+    "zh": "播放时长",
+    "ru": "Время воспроизведения",
+    "type": "string"
+  },
+  {
+    "name": "music_time_two",
+    "zh": "30分钟",
+    "ru": "30 минут",
+    "type": "string"
+  },
+  {
+    "name": "music_volume_title",
+    "zh": "音乐音量",
+    "ru": "Громкость музыки",
+    "type": "string"
+  },
+  {
+    "name": "natural_bamboo",
+    "zh": "竹林",
+    "ru": "Бамбуковая роща",
+    "type": "string"
+  },
+  {
+    "name": "natural_ml",
+    "zh": "麦浪",
+    "ru": "Волны пшеницы",
+    "type": "string"
+  },
+  {
+    "name": "natural_rain",
+    "zh": "绵雨",
+    "ru": "Морось",
+    "type": "string"
+  },
+  {
+    "name": "natural_snow",
+    "zh": "雪山",
+    "ru": "Снежная гора",
+    "type": "string"
+  },
+  {
+    "name": "natural_summer",
+    "zh": "夏夜",
+    "ru": "Летняя ночь",
+    "type": "string"
+  },
+  {
+    "name": "no",
+    "zh": "否",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "no_mic_close_toast",
+    "zh": "“⽆⻨K歌”已关闭",
+    "ru": "«Безмикрофонное K» отключено",
+    "type": "string"
+  },
+  {
+    "name": "no_mic_open_toast",
+    "zh": "“⽆⻨K歌”已开启，随时随地，想唱就唱！",
+    "ru": "«Караоке без микрофона» включено. Пойте, где и когда захочется!",
+    "type": "string"
+  },
+  {
+    "name": "no_mic_open_toast_no_permit",
+    "zh": "请先授权麦克风后，再开启无麦K歌",
+    "ru": "Сначала разрешите доступ к микрофону, затем включите караоке без микрофона",
+    "type": "string"
+  },
+  {
+    "name": "no_mic_tip",
+    "zh": "使⽤⻋载⻨克⻛，让您的爱⻋变⾝为移动的⻋载K歌房，\\\"唱\\\"快出⾏",
+    "ru": "Используйте автомобильный микрофон, превратите свой автомобиль в мобильную караоке-студию и наслаждайтесь «поющей» поездкой!",
+    "type": "string"
+  },
+  {
+    "name": "off",
+    "zh": "点击开启",
+    "ru": "Нажмите, чтобы включить",
+    "type": "string"
+  },
+  {
+    "name": "on",
+    "zh": "已开启",
+    "ru": "Включено",
+    "type": "string"
+  },
+  {
+    "name": "open_app_store",
+    "zh": "打开应用商店",
+    "ru": "Открыть магазин приложений",
+    "type": "string"
+  },
+  {
+    "name": "open_auto_trigger_tip",
+    "zh": "开启自动触发开关，满足触发条件后将自动开启该模式",
+    "ru": "Включите переключатель автоматического срабатывания: при выполнении условий срабатывания данный режим будет включён автоматически",
+    "type": "string"
+  },
+  {
+    "name": "open_do_not_disturb_mode",
+    "zh": "开启勿扰模式^勿扰模式^勿扰睡眠",
+    "ru": "Включить «Не беспокоить»^«Не беспокоить»^«Не беспокоить» (сон)",
+    "type": "string"
+  },
+  {
+    "name": "over_heated_failed_toast",
+    "zh": "车辆有严重故障，请远离车辆并联系服务站",
+    "ru": "В автомобиле возникла серьёзная неисправность, отойдите от автомобиля и обратитесь в сервисный центр",
+    "type": "string"
+  },
+  {
+    "name": "pano_notification_channel",
+    "zh": "情景模式-全景窗",
+    "ru": "Режим сценария — панорамное окно",
+    "type": "string"
+  },
+  {
+    "name": "pet_air_temp_tip",
+    "zh": "当前车内温度",
+    "ru": "Температура в салоне",
+    "type": "string"
+  },
+  {
+    "name": "pet_app_name",
+    "zh": "宠物模式",
+    "ru": "Режим питомца",
+    "type": "string"
+  },
+  {
+    "name": "pet_charge_trouble_exption",
+    "zh": "当前充电中断，请即时处理!",
+    "ru": "Зарядка прервана. Примите меры немедленно!",
+    "type": "string"
+  },
+  {
+    "name": "pet_content_tip",
+    "zh": "我的家人很快回来，请不用担心",
+    "ru": "Моя семья скоро вернётся, не волнуйся!",
+    "type": "string"
+  },
+  {
+    "name": "pet_content_tip1",
+    "zh": "请放心，我的主人只是离开一小会呢",
+    "ru": "Не волнуйся, мой хозяин всего лишь ненадолго отлучился.",
+    "type": "string"
+  },
+  {
+    "name": "pet_edit_fast_tip",
+    "zh": "快捷语:",
+    "ru": "Быстрые фразы:",
+    "type": "string"
+  },
+  {
+    "name": "pet_edit_hint",
+    "zh": "请输入提示告知车外行人",
+    "ru": "Введите сообщение для оповещения пешеходов за пределами автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "pet_exception_overheated",
+    "zh": "车辆有严重故障，请远离车辆并联系服务站",
+    "ru": "Серьёзная неисправность автомобиля. Отойдите от автомобиля и обратитесь в сервисный центр.",
+    "type": "string"
+  },
+  {
+    "name": "pet_exception_power_off",
+    "zh": "车辆已下电，正在为您退出宠物模式",
+    "ru": "Питание автомобиля отключено. Завершение режима «Питомец».",
+    "type": "string"
+  },
+  {
+    "name": "pet_exist_tip",
+    "zh": "是否退出宠物模式？",
+    "ru": "Выйти из режима питомца?",
+    "type": "string"
+  },
+  {
+    "name": "pet_gear_brake_exception",
+    "zh": "检测到您连续踩了两次刹车，系统将为您强制关闭宠物模式！",
+    "ru": "Система зафиксировала два последовательных нажатия на педаль тормоза и принудительно отключит режим «Питомец»!",
+    "type": "string"
+  },
+  {
+    "name": "pet_low_battery_tip",
+    "zh": "电池电量不足,正在为您退出宠物模式,请及时给车辆补能,并注意保持车内空气流通",
+    "ru": "Заряд батареи недостаточен. Режим «Питомец» отключается. Пожалуйста, как можно скорее зарядите автомобиль и следите за циркуляцией воздуха в салоне.",
+    "type": "string"
+  },
+  {
+    "name": "pet_low_battery_toast",
+    "zh": "电池电量不足,正在退出宠物模式",
+    "ru": "Недостаточный заряд батареи, режим «Питомец» отключается",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_button_exit",
+    "zh": "结束",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_charge_interruption_please_deal_with",
+    "zh": "当前充电中断，请即时处理！",
+    "ru": "Зарядка прервана. Пожалуйста, примите меры!",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_desc",
+    "zh": "\"给您的爱宠创造一个安全舒适的恒温空间\n开启模式，离车锁车时保持车内恒温环境\"",
+    "ru": "\"Создайте безопасное и комфортное пространство с постоянной температурой для вашего питомца\\nАктивируйте режим для поддержания постоянной температуры в салоне при уходе из автомобиля и его блокировке\"",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_input_prompt_notify_layman",
+    "zh": "请输入提示语告知车外行人",
+    "ru": "Введите текст сообщения для пешеходов снаружи автомобиля.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_input_ten_forty_prompt",
+    "zh": "请输入10-40字的提示语",
+    "ru": "Введите подсказку от 10 до 40 символов.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_loading_speech",
+    "zh": "宠物模式开启中，暂不支持语音开启其他模式",
+    "ru": "Режим питомца включается. Голосовое включение других режимов пока не поддерживается.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_name",
+    "zh": "宠物模式",
+    "ru": "Режим питомца",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_name_simple",
+    "zh": "宠物模式",
+    "ru": "Режим питомца",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_only_input_forty_words",
+    "zh": "最多只能输入40个字哦",
+    "ru": "Можно ввести не более 40 символов.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_please_fill_in_content",
+    "zh": "请填写内容哦",
+    "ru": "Пожалуйста, введите текст.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_start",
+    "zh": "宠物模式已开启",
+    "ru": "Режим питомца включён",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_tip_no_text",
+    "zh": "点击上方文字，可自动填入相关内容哦",
+    "ru": "Нажмите на текст выше для автозаполнения.",
+    "type": "string"
+  },
+  {
+    "name": "pet_mode_tip_size_text",
+    "zh": "请输入10-40个字符的相关内容哦",
+    "ru": "Пожалуйста, введите от 10 до 40 символов.",
+    "type": "string"
+  },
+  {
+    "name": "pet_question_tip",
+    "zh": "\"1.模式中，闭锁后车内会维持舒适状态\n2.若电量低于25%或连续踩2次刹车，将退出该模式\"",
+    "ru": "\"1. В этом режиме после блокировки в салоне поддерживается комфортный климат.\\n2. При заряде батареи ниже 25% или при нажатии на педаль тормоза 2 раза подряд режим будет завершён\"",
+    "type": "string"
+  },
+  {
+    "name": "pet_trigger_is_not_all",
+    "zh": "请在电量充足时，将车辆置于 P 挡使用该模式",
+    "ru": "Пожалуйста, при достаточном заряде батареи переведите автомобиль на передачу P и используйте этот режим.",
+    "type": "string"
+  },
+  {
+    "name": "pet_trigger_is_not_electricity",
+    "zh": "电量不足，无法打开宠物模式",
+    "ru": "Недостаточно заряда батареи для включения режима питомца",
+    "type": "string"
+  },
+  {
+    "name": "pet_trigger_is_not_p",
+    "zh": "请将车辆置于P挡后，再打开宠物模式哦",
+    "ru": "Пожалуйста, переведите автомобиль на передачу P, а затем включите режим питомца.",
+    "type": "string"
+  },
+  {
+    "name": "pet_trigger_is_not_power",
+    "zh": "请将车辆上电后，再开启宠物模式哦",
+    "ru": "Пожалуйста, сначала подайте питание на автомобиль, а затем включите режим питомца.",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_all",
+    "zh": "全车播放",
+    "ru": "Все динамики",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_car_and_head",
+    "zh": "头枕辅助",
+    "ru": "Динамики подголовников",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_driver_head",
+    "zh": "主驾头枕",
+    "ru": "Подголовник водителя",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_entire_car",
+    "zh": "全车播放",
+    "ru": "Весь авто",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_head",
+    "zh": "主驾头枕",
+    "ru": "Подголовник водителя",
+    "type": "string"
+  },
+  {
+    "name": "play_setting_title",
+    "zh": "播放设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "power_failed_toast",
+    "zh": "请将车辆上电后，再开启休憩模式",
+    "ru": "Сначала включите питание автомобиля, затем активируйте режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "power_off_exception",
+    "zh": "已退出ON挡，正在退出%s",
+    "ru": "Выход из положения ON завершён, выполняется выход из %s",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_air_fail",
+    "zh": "前除霜开启，提神模式暂不能开启",
+    "ru": "Включён обогрев лобового стекла, режим «Свежесть» временно недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_desc",
+    "zh": "\"多感官联动，提神醒脑，一扫疲劳状态\n开启将自动设置空调、播放醒神音乐等\"",
+    "ru": "Комплексное воздействие на органы чувств: бодрит, освежает и полностью снимает усталость.\\nПри включении автоматически настраивается кондиционер, включается бодрящая музыка и т. д.",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_exit",
+    "zh": "提神模式已退出",
+    "ru": "Режим бодрости отключён",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_fail_electron_toast",
+    "zh": "请将电源置于ON挡后，再打开提神模式哦",
+    "ru": "Пожалуйста, переведите переключатель питания в положение «ON», а затем включите режим бодрости",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_fail_p_toast",
+    "zh": "请将车辆置于P挡后，再开启提神模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем включите режим бодрости",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_happy",
+    "zh": "悦",
+    "ru": "Радость",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_name",
+    "zh": "提神模式",
+    "ru": "Режим бодрости",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_name_simple",
+    "zh": "提神模式",
+    "ru": "Режим бодрости",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_open",
+    "zh": "提神模式已开启",
+    "ru": "Режим бодрости включён",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_scene_night_club",
+    "zh": "场景,夜店",
+    "ru": "Сценарий, ночной клуб",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_scene_party",
+    "zh": "场景,派对",
+    "ru": "Сценарий, вечеринка",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_scene_sport",
+    "zh": "场景,运动",
+    "ru": "Сценарий, спорт",
+    "type": "string"
+  },
+  {
+    "name": "pure_mode_school_rock_and_roll",
+    "zh": "流派,摇滚",
+    "ru": "Жанр, рок",
+    "type": "string"
+  },
+  {
+    "name": "pure_open_fail_by_phone",
+    "zh": "通话中,暂不支持操作",
+    "ru": "Во время звонка операция временно недоступна",
+    "type": "string"
+  },
+  {
+    "name": "remember_screen_delight",
+    "zh": "即将为您熄灭屏幕，是否继续？",
+    "ru": "Экран скоро будет выключен. Продолжить?",
+    "type": "string"
+  },
+  {
+    "name": "remind_dialog_message",
+    "zh": "即将调节主驾座椅状态，请在后排无人时使用",
+    "ru": "Будет изменено положение сиденья водителя. Используйте только при пустом заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "remind_dialog_negative_text",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "remind_dialog_positive_text",
+    "zh": "继续",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "remind_dialog_title",
+    "zh": "安全贴士",
+    "ru": "Советы по безопасности",
+    "type": "string"
+  },
+  {
+    "name": "reset_time_confirm",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "rest_dreamvalley_desc",
+    "zh": "\"一键营造舒适的休憩空间，感受极致放松解压\n开启将调节座椅、车窗，建议后排无人时使用\"",
+    "ru": "\"Одним нажатием создайте комфортное пространство для отдыха, ощутите максимальное расслабление и снятие стресса.\\nПри активации будут отрегулированы сиденья и окна. Рекомендуется использовать, когда на заднем ряду никого нет.\"",
+    "type": "string"
+  },
+  {
+    "name": "rest_forestoxygenbar_desc",
+    "zh": "\"打造极致城市氛围，感受不一样的喧嚣\n开启将调节座椅、车窗，建议后排无人时使用\"",
+    "ru": "\"Создайте идеальную городскую атмосферу, ощутите неповторимую суету.\\nПри включении регулируются сиденья и окна. Рекомендуется использовать только при отсутствии пассажиров на заднем ряду.\"",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_desc",
+    "zh": "一键营造舒适的休憩空间，感受极致放松解压",
+    "ru": "Создайте уютное пространство для отдыха одним нажатием и ощутите максимальное расслабление и снятие стресса.",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_fail_electric_toast",
+    "zh": "请将车辆上电后，再开启休憩模式哦",
+    "ru": "Пожалуйста, сначала включите питание автомобиля, а затем активируйте режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_fail_electron_low_toast",
+    "zh": "当前电量低于20%，无法开启休憩模式",
+    "ru": "Заряд батареи ниже 20% — невозможно включить режим отдыха.",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_fail_electron_low_tts",
+    "zh": "当前电量较低，请确保电量充足的情况开启该功能",
+    "ru": "Заряд батареи низкий. Убедитесь, что заряд достаточен, прежде чем включать эту функцию.",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_fail_p_toast",
+    "zh": "请将车辆置于P挡后，再开启休憩模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение P, затем включите режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_name",
+    "zh": "休憩模式",
+    "ru": "Режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_name_simple",
+    "zh": "休憩模式",
+    "ru": "Режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_success_toast",
+    "zh": "正在为您开启休憩模式，请注意后排乘客安全",
+    "ru": "Включаю режим отдыха. Пожалуйста, следите за безопасностью пассажиров заднего ряда",
+    "type": "string"
+  },
+  {
+    "name": "rest_mode_success_toast_no_move",
+    "zh": "正在为您开启休憩模式",
+    "ru": "Включаю режим отдыха",
+    "type": "string"
+  },
+  {
+    "name": "rest_slide_name",
+    "zh": "小憩",
+    "ru": "Короткий отдых",
+    "type": "string"
+  },
+  {
+    "name": "rest_warmlivingtheme_desc",
+    "zh": "\"打造自然界氛围，寻求心灵治愈\n开启将调节座椅、车窗，建议后排无人时使用\"",
+    "ru": "\"Создайте атмосферу природы для внутреннего покоя\\nПри включении регулируются сиденья и окна. Рекомендуется использовать, когда на заднем ряду никого нет\"",
+    "type": "string"
+  },
+  {
+    "name": "save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "scene_ac_open",
+    "zh": "打开",
+    "ru": "Открыть",
+    "type": "string"
+  },
+  {
+    "name": "scene_exit",
+    "zh": "退出",
+    "ru": "Выход",
+    "type": "string"
+  },
+  {
+    "name": "scene_exiting",
+    "zh": "正在退出",
+    "ru": "Выход...",
+    "type": "string"
+  },
+  {
+    "name": "scene_filed",
+    "zh": "田园",
+    "ru": "Пастораль",
+    "type": "string"
+  },
+  {
+    "name": "scene_fire",
+    "zh": "篝火",
+    "ru": "Костёр",
+    "type": "string"
+  },
+  {
+    "name": "scene_foxygen_bar_jungle_vitality",
+    "zh": "密林生机",
+    "ru": "Жизнь леса",
+    "type": "string"
+  },
+  {
+    "name": "scene_foxygen_bar_murmur_stream",
+    "zh": "潺潺溪流",
+    "ru": "Журчащий ручей",
+    "type": "string"
+  },
+  {
+    "name": "scene_mode",
+    "zh": "情景模式",
+    "ru": "Режим сценария",
+    "type": "string"
+  },
+  {
+    "name": "scene_mode_open_already",
+    "zh": "当前已是%s中哦",
+    "ru": "Вы уже в %s.",
+    "type": "string"
+  },
+  {
+    "name": "scene_mode_open_sleep_more_tts",
+    "zh": "好的，%d分钟后深蓝再叫你哦",
+    "ru": "Хорошо, через %d минут Deepal снова тебя позовёт.",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_bamboo_forest",
+    "zh": "竹林",
+    "ru": "Бамбуковая роща",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_beijing",
+    "zh": "北京",
+    "ru": "Пекин",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_billowing_wheat",
+    "zh": "麦浪",
+    "ru": "Пшеничные волны",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_continuous_rain",
+    "zh": "绵雨",
+    "ru": "Затяжные дожди",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_dubai",
+    "zh": "迪拜",
+    "ru": "Дубай",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_new_york",
+    "zh": "纽约",
+    "ru": "Нью-Йорк",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_paris",
+    "zh": "巴黎",
+    "ru": "Париж",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_reduce_pressure",
+    "zh": "冥想练习",
+    "ru": "Практика медитации",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_relieve_anxiety",
+    "zh": "颂钵疗愈",
+    "ru": "Поющие чаши",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_seoul",
+    "zh": "首尔",
+    "ru": "Сеул",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_snow_mountain",
+    "zh": "雪山",
+    "ru": "Снежная гора",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_summer_night",
+    "zh": "夏夜",
+    "ru": "Летняя ночь",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_sydney",
+    "zh": "悉尼",
+    "ru": "Сидней",
+    "type": "string"
+  },
+  {
+    "name": "scene_name_tokyo",
+    "zh": "东京",
+    "ru": "Токио",
+    "type": "string"
+  },
+  {
+    "name": "scene_night_listen_rain",
+    "zh": "夜阑听雨",
+    "ru": "Ночной дождь",
+    "type": "string"
+  },
+  {
+    "name": "scene_ocean",
+    "zh": "海洋",
+    "ru": "Океан",
+    "type": "string"
+  },
+  {
+    "name": "scene_rain",
+    "zh": "春雨",
+    "ru": "Весенний дождь",
+    "type": "string"
+  },
+  {
+    "name": "scene_ranran_fire",
+    "zh": "冉冉篝火",
+    "ru": "Тлеющий костёр",
+    "type": "string"
+  },
+  {
+    "name": "scene_see_say_name_reduce_pressure",
+    "zh": "冥想练习^冥想^练习",
+    "ru": "Практика медитации^медитация^практика",
+    "type": "string"
+  },
+  {
+    "name": "scene_see_say_name_relieve_anxiety",
+    "zh": "颂钵疗愈^颂钵^疗愈",
+    "ru": "Исцеление поющими чашами^поющая чаша^исцеление",
+    "type": "string"
+  },
+  {
+    "name": "scene_snow_mountain",
+    "zh": "雪山",
+    "ru": "Снежная гора",
+    "type": "string"
+  },
+  {
+    "name": "scene_switched",
+    "zh": "已切换到",
+    "ru": "Переключено на",
+    "type": "string"
+  },
+  {
+    "name": "scene_switching",
+    "zh": "正在切换",
+    "ru": "Переключение...",
+    "type": "string"
+  },
+  {
+    "name": "scene_warm_ear_stroke",
+    "zh": "耳畔轻抚",
+    "ru": "Нежное касание у уха",
+    "type": "string"
+  },
+  {
+    "name": "scene_warm_make_tea",
+    "zh": "围炉煮茶",
+    "ru": "Чай у очага",
+    "type": "string"
+  },
+  {
+    "name": "scene_warm_read",
+    "zh": "阅读时刻",
+    "ru": "Время чтения",
+    "type": "string"
+  },
+  {
+    "name": "scene_warm_soak",
+    "zh": "泡澡放松",
+    "ru": "Расслабляющая ванна",
+    "type": "string"
+  },
+  {
+    "name": "scene_warm_wind_chime",
+    "zh": "风铃叮叮",
+    "ru": "Колокольчики",
+    "type": "string"
+  },
+  {
+    "name": "scene_wheat",
+    "zh": "麦浪",
+    "ru": "Волны пшеницы",
+    "type": "string"
+  },
+  {
+    "name": "scene_white_frog",
+    "zh": "一片蛙声",
+    "ru": "Лягушачий хор",
+    "type": "string"
+  },
+  {
+    "name": "scene_white_lake",
+    "zh": "湖水拍岸",
+    "ru": "Волны озера",
+    "type": "string"
+  },
+  {
+    "name": "scene_wind_pine_forest",
+    "zh": "风吹松林",
+    "ru": "Ветер в сосновом лесу",
+    "type": "string"
+  },
+  {
+    "name": "set_time_confirm",
+    "zh": "结束",
+    "ru": "Конец",
+    "type": "string"
+  },
+  {
+    "name": "single_page_off",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "sleep_quietly_dream_valley",
+    "zh": "眠谧梦谷",
+    "ru": "Долина тихих снов",
+    "type": "string"
+  },
+  {
+    "name": "smoke_mode_desc",
+    "zh": "抽烟时保持空气清晰，不再烟雾缭绕",
+    "ru": "Курите — и воздух остаётся свежим, дым больше не стелется.",
+    "type": "string"
+  },
+  {
+    "name": "smoke_mode_name",
+    "zh": "抽烟模式",
+    "ru": "Режим курения",
+    "type": "string"
+  },
+  {
+    "name": "smoke_mode_name_simple",
+    "zh": "抽烟模式",
+    "ru": "Режим курения",
+    "type": "string"
+  },
+  {
+    "name": "speech_air_inline",
+    "zh": "关闭空调联动^空调联动^空调^联动",
+    "ru": "Отключить связку кондиционера^Связка кондиционера^Кондиционер^Связка",
+    "type": "string"
+  },
+  {
+    "name": "speech_air_inline_closed",
+    "zh": "打开空调联动^空调联动^空调^联动",
+    "ru": "Включить связку кондиционера^Связка кондиционера^Кондиционер^Связка",
+    "type": "string"
+  },
+  {
+    "name": "speech_air_title_tip",
+    "zh": "空调联动提示",
+    "ru": "Связка климата",
+    "type": "string"
+  },
+  {
+    "name": "speech_already_first_page",
+    "zh": "已经是第一页了哦",
+    "ru": "Вы уже на первой странице.",
+    "type": "string"
+  },
+  {
+    "name": "speech_already_last_page",
+    "zh": "已经是最后一页了哦",
+    "ru": "Вы уже на последней странице.",
+    "type": "string"
+  },
+  {
+    "name": "speech_atom_music_close",
+    "zh": "音乐律动开关",
+    "ru": "Ритм музыки",
+    "type": "string"
+  },
+  {
+    "name": "speech_atom_music_open",
+    "zh": "音乐律动开关",
+    "ru": "Ритм музыки",
+    "type": "string"
+  },
+  {
+    "name": "speech_back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "speech_back_or_close",
+    "zh": "返回^关闭",
+    "ru": "Назад^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "speech_btn_cancel",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "speech_btn_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "speech_clear",
+    "zh": "清除^删除",
+    "ru": "Очистить^Удалить",
+    "type": "string"
+  },
+  {
+    "name": "speech_clock_close",
+    "zh": "闹钟^关闭闹钟",
+    "ru": "Будильник^Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_clock_late",
+    "zh": "十分钟后提醒^提醒^稍后提醒",
+    "ru": "Напомни через 10 минут^Напомни^Напомни позже",
+    "type": "string"
+  },
+  {
+    "name": "speech_clock_open",
+    "zh": "闹钟^开启闹钟^打开闹钟^打开",
+    "ru": "Будильник^включить будильник^включить будильник^открыть",
+    "type": "string"
+  },
+  {
+    "name": "speech_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_alarm",
+    "zh": "关闭闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_alarm1",
+    "zh": "结束闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_alarm2",
+    "zh": "停止闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_camp",
+    "zh": "您可以唤醒语音说“结束露营模式”直接退出模式",
+    "ru": "Вы можете активировать голосового помощника и сказать «Завершить режим кемпинга», чтобы напрямую выйти из режима",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_chair_setting",
+    "zh": "主驾座椅按摩",
+    "ru": "Массаж водительского сиденья",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_dialog",
+    "zh": "关闭弹窗^关闭",
+    "ru": "Закрыть всплывающее окно^Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_dialog_all",
+    "zh": "关闭^返回^关闭弹窗",
+    "ru": "Закрыть^Назад^Закрыть всплывающее окно",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_dialog_rest",
+    "zh": "关闭^返回^关闭弹窗^小憩提醒",
+    "ru": "Закрыть^Назад^Закрыть всплывающее окно^Напоминание о коротком отдыхе",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_fragrance",
+    "zh": "香氛开关",
+    "ru": "Переключатель аромата",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_inner",
+    "zh": "氛围灯开关^氛围灯联动^氛围灯^联动",
+    "ru": "Переключатель атмосферной подсветки^Синхронизация атмосферной подсветки^Атмосферная подсветка^Синхронизация",
+    "type": "string"
+  },
+  {
+    "name": "speech_close_rest",
+    "zh": "您可以唤醒语音说“结束休憩模式”直接退出模式",
+    "ru": "Вы можете сказать голосовому помощнику «Завершить режим отдыха», чтобы сразу выйти из режима.",
+    "type": "string"
+  },
+  {
+    "name": "speech_detach_microphone_again_open",
+    "zh": "请移除外接麦克风后，再打开哦",
+    "ru": "Пожалуйста, сначала отсоедините внешний микрофон, затем откройте.",
+    "type": "string"
+  },
+  {
+    "name": "speech_do_ok",
+    "zh": "好的",
+    "ru": "Хорошо",
+    "type": "string"
+  },
+  {
+    "name": "speech_download_movie_app_from_app_store",
+    "zh": "请先在应用商店下载观影应用呦",
+    "ru": "Сначала скачайте приложение для просмотра фильмов в магазине приложений!",
+    "type": "string"
+  },
+  {
+    "name": "speech_download_music_app_from_app_store",
+    "zh": "请先在应用商店下载K歌应用呦",
+    "ru": "Сначала скачайте приложение для караоке в магазине приложений!",
+    "type": "string"
+  },
+  {
+    "name": "speech_edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "speech_exit_mode_and_enter_mode_tip",
+    "zh": "是否需要先退出%s,再进入%s",
+    "ru": "Необходимо ли сначала выйти из %s, а затем войти в %s?",
+    "type": "string"
+  },
+  {
+    "name": "speech_fragrance_close",
+    "zh": "香氛",
+    "ru": "Аромат",
+    "type": "string"
+  },
+  {
+    "name": "speech_fragrance_open",
+    "zh": "香氛",
+    "ru": "Аромат",
+    "type": "string"
+  },
+  {
+    "name": "speech_home_icarlinkmode_not_open",
+    "zh": "手车娱乐未开启",
+    "ru": "Режим связи с телефоном не включён",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_back_mirror",
+    "zh": "后视镜折叠",
+    "ru": "Складывание зеркал",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_des",
+    "zh": "详情",
+    "ru": "Подробности",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_end",
+    "zh": "结束",
+    "ru": "Конец",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_hu_light_off",
+    "zh": "熄屏^关屏^关闭屏幕",
+    "ru": "Выключить экран^Отключить экран^Выключить дисплей",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_hu_light_on",
+    "zh": "点亮",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_loading_tip",
+    "zh": "%s 正在启动中，请稍后再试哦！",
+    "ru": "%s запускается, попробуйте позже!",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_start",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "speech_mode_tip",
+    "zh": "提示",
+    "ru": "Подсказка",
+    "type": "string"
+  },
+  {
+    "name": "speech_music_pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "speech_music_play",
+    "zh": "播放",
+    "ru": "Играть",
+    "type": "string"
+  },
+  {
+    "name": "speech_next_page",
+    "zh": "下一页",
+    "ru": "Следующая страница",
+    "type": "string"
+  },
+  {
+    "name": "speech_no_mic_close",
+    "zh": "无麦K歌^无麦^K歌",
+    "ru": "Караоке без микрофона^Без микрофона^Караоке",
+    "type": "string"
+  },
+  {
+    "name": "speech_no_mic_open",
+    "zh": "无麦K歌^无麦^K歌",
+    "ru": "Караоке без микрофона^Без микрофона^Караоке",
+    "type": "string"
+  },
+  {
+    "name": "speech_open_chair_setting",
+    "zh": "主驾座椅按摩",
+    "ru": "Массаж водительского сиденья",
+    "type": "string"
+  },
+  {
+    "name": "speech_open_fragrance",
+    "zh": "香氛开关",
+    "ru": "Переключатель аромата",
+    "type": "string"
+  },
+  {
+    "name": "speech_open_inner",
+    "zh": "氛围灯开关^氛围灯联动^氛围灯^联动",
+    "ru": "Переключатель атмосферной подсветки^Синхронизация атмосферной подсветки^Атмосферная подсветка^Синхронизация",
+    "type": "string"
+  },
+  {
+    "name": "speech_open_shop",
+    "zh": "打开应用商店",
+    "ru": "Открыть магазин приложений",
+    "type": "string"
+  },
+  {
+    "name": "speech_pre_page",
+    "zh": "上一页",
+    "ru": "Предыдущая страница",
+    "type": "string"
+  },
+  {
+    "name": "speech_screen_clean",
+    "zh": "清洁屏幕",
+    "ru": "Очистка экрана",
+    "type": "string"
+  },
+  {
+    "name": "speech_sure",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "speech_switch_close_alarm",
+    "zh": "关闭闹钟",
+    "ru": "Выключить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_switch_open_alarm",
+    "zh": "打开闹钟",
+    "ru": "Включить будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_time_set",
+    "zh": "闹钟",
+    "ru": "Будильник",
+    "type": "string"
+  },
+  {
+    "name": "speech_wash_mode_enter_tip_toast",
+    "zh": "即将进入洗车模式，请注意车辆状态",
+    "ru": "Скоро будет включён режим мойки, обратите внимание на состояние автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "speech_window_left_down",
+    "zh": "左后车窗",
+    "ru": "Левое заднее окно",
+    "type": "string"
+  },
+  {
+    "name": "speech_window_left_up",
+    "zh": "主驾车窗",
+    "ru": "Окно водителя",
+    "type": "string"
+  },
+  {
+    "name": "speech_window_right_down",
+    "zh": "右后车窗",
+    "ru": "Правое заднее окно",
+    "type": "string"
+  },
+  {
+    "name": "speech_window_right_up",
+    "zh": "副驾车窗",
+    "ru": "Окно пассажира",
+    "type": "string"
+  },
+  {
+    "name": "store",
+    "zh": "商店",
+    "ru": "Магазин",
+    "type": "string"
+  },
+  {
+    "name": "sure",
+    "zh": "确定",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "switching",
+    "zh": "，车控状态调节中...",
+    "ru": ", Регулировка состояния управления автомобилем...",
+    "type": "string"
+  },
+  {
+    "name": "time_hint",
+    "zh": "唤醒您",
+    "ru": "Пробудить вас",
+    "type": "string"
+  },
+  {
+    "name": "tips",
+    "zh": "小贴士",
+    "ru": "Полезные советы",
+    "type": "string"
+  },
+  {
+    "name": "toast_close_do_not_disturb_mode",
+    "zh": "勿扰模式关闭，车载电话已恢复正常",
+    "ru": "Режим «Не беспокоить» отключен, автомобильный телефон восстановлен.",
+    "type": "string"
+  },
+  {
+    "name": "toast_open_do_not_disturb_mode",
+    "zh": "勿扰模式已开启，车载电话已屏蔽",
+    "ru": "Режим «Не беспокоить» включен, автомобильный телефон заблокирован.",
+    "type": "string"
+  },
+  {
+    "name": "trigger_is_not_all",
+    "zh": "请在电量充足时，将车辆置于 P 挡使用该模式",
+    "ru": "Пожалуйста, при достаточном заряде батареи переведите автомобиль в положение «P» для использования этого режима",
+    "type": "string"
+  },
+  {
+    "name": "trigger_is_not_electricity",
+    "zh": "电量不足，无法使用该模式",
+    "ru": "Недостаточно заряда батареи, чтобы использовать этот режим",
+    "type": "string"
+  },
+  {
+    "name": "trigger_is_not_p",
+    "zh": "请将车辆置于 P 挡后再使用该模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P» перед использованием этого режима",
+    "type": "string"
+  },
+  {
+    "name": "trigger_is_not_power",
+    "zh": "请将车辆上电后，再开启宠物哦",
+    "ru": "Пожалуйста, сначала включите питание автомобиля, а затем активируйте режим «Питомец»",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_door_fail",
+    "zh": "请关闭全车车门后，再打开露营模式哦",
+    "ru": "Закройте все двери автомобиля, а затем включите режим кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_electric_fail",
+    "zh": "请在电量充足时，再打开露营模式哦",
+    "ru": "Пожалуйста, включайте режим кемпинга только при достаточном заряде батареи",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_engine_fail",
+    "zh": "请将发动机熄灭后，再打开露营模式哦",
+    "ru": "Пожалуйста, выключите двигатель перед включением режима кемпинга",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_no_p_gear_fail",
+    "zh": "请在P挡下，再打开露营模式",
+    "ru": "Пожалуйста, включайте режим кемпинга только в положении «P»",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_p_fail",
+    "zh": "请将车辆置于P挡后，再打开露营模式哦",
+    "ru": "Пожалуйста, переведите автомобиль в положение «P», а затем включите режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_power_fail",
+    "zh": "请将车辆上电后，再开启露营模式哦",
+    "ru": "Пожалуйста, сначала включите питание автомобиля, а затем активируйте режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "trigger_tip_power_on_fail",
+    "zh": "请在电源ON挡，再打开露营模式",
+    "ru": "Пожалуйста, сначала переведите переключатель питания в положение ON, а затем включите режим кемпинга.",
+    "type": "string"
+  },
+  {
+    "name": "try_later",
+    "zh": "，请稍后再试",
+    "ru": ", попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "unenabled",
+    "zh": "未开启",
+    "ru": "Не включено",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message",
+    "zh": "即将调节主驾座椅状态，请在后排无人时使用",
+    "ru": "Положение сиденья водителя будет изменено. Используйте эту функцию только при пустом заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message_fugue",
+    "zh": "\"1.即将移动座椅位置，请确认后排无人时使用。\n2.神游模式中，当电量＜20%或踩2次刹车时，将自动退出此模式\"",
+    "ru": "\"1. Позиция сиденья будет изменена. Убедитесь, что на заднем ряду нет пассажиров.\\n2. В режиме «Шэньюй» при заряде батареи < 20% или при нажатии на педаль тормоза 2 раза режим будет автоматически выключен\"",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message_meditation",
+    "zh": "即将移动座椅位置，请确认后排无人时使用",
+    "ru": "Сиденье будет перемещено. Перед использованием убедитесь, что на заднем ряду никого нет.",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message_movie",
+    "zh": "即将调节主驾座椅状态，请在后排无人时使用",
+    "ru": "Положение водительского сиденья будет изменено. Используйте эту функцию только при отсутствии пассажиров на заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message_movie_copilot",
+    "zh": "即将调节副驾座椅状态，请在后排无人时使用",
+    "ru": "Положение переднего пассажирского сиденья будет изменено. Используйте эту функцию только при отсутствии пассажиров на заднем ряду.",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_message_v2",
+    "zh": "即将调节主驾座椅状态，请后排乘客注意安全",
+    "ru": "Положение водительского сиденья будет изменено. Пассажирам заднего ряда следует быть осторожными.",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_negative_button_name",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_positive_button_name",
+    "zh": "继续",
+    "ru": "Продолжать",
+    "type": "string"
+  },
+  {
+    "name": "user_hint_dialog_title",
+    "zh": "安全贴士",
+    "ru": "Советы по безопасности",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_immersive_sound_effects",
+    "zh": "沉浸式音效",
+    "ru": "Иммерсивный звук",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_movie",
+    "zh": "影院",
+    "ru": "Кинотеатр",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_music_hall",
+    "zh": "音乐厅",
+    "ru": "Концертный зал",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_original_sound",
+    "zh": "HiFi原声",
+    "ru": "HiFi-оригинальный звук",
+    "type": "string"
+  },
+  {
+    "name": "v_hifi_super_bass",
+    "zh": "超重低音",
+    "ru": "Ультрабас",
+    "type": "string"
+  },
+  {
+    "name": "v_mas_type_7",
+    "zh": "缓冲",
+    "ru": "Буфер",
+    "type": "string"
+  },
+  {
+    "name": "v_play_setting_car_and_head",
+    "zh": "头枕辅助",
+    "ru": "Аудио подголовника",
+    "type": "string"
+  },
+  {
+    "name": "v_play_setting_driver_head",
+    "zh": "主驾头枕",
+    "ru": "Подголовник водителя",
+    "type": "string"
+  },
+  {
+    "name": "v_play_setting_entire_car",
+    "zh": "全车播放",
+    "ru": "Весь салон",
+    "type": "string"
+  },
+  {
+    "name": "v_surge_sound_effects",
+    "zh": "澎湃音效",
+    "ru": "Потрясающий звук",
+    "type": "string"
+  },
+  {
+    "name": "video_pause",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "video_play",
+    "zh": "播放",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "voice_hint",
+    "zh": "你也可以直接说：“再眯十分钟”",
+    "ru": "Вы также можете просто сказать: «ещё десять минут подремать».",
+    "type": "string"
+  },
+  {
+    "name": "warm_fang_ju",
+    "zh": "温暖方居",
+    "ru": "Уютный дом",
+    "type": "string"
+  },
+  {
+    "name": "warm_scene_name_relieve_anxiety",
+    "zh": "颂钵疗愈",
+    "ru": "Поющие чаши",
+    "type": "string"
+  },
+  {
+    "name": "warmfangju_mode_name",
+    "zh": "温暖方居模式",
+    "ru": "Режим уютного дома",
+    "type": "string"
+  },
+  {
+    "name": "wash_alert_dialog_message",
+    "zh": "即将关闭所有车窗，收起门把手，禁用自动雨刮，关闭感应解闭锁等功能",
+    "ru": "Скоро будут закрыты все окна, убраны ручки дверей, отключены автоматические стеклоочистители, бесключевой доступ и другие функции.",
+    "type": "string"
+  },
+  {
+    "name": "wash_clean_btn_exit_str",
+    "zh": "长按3秒结束屏幕清洁",
+    "ru": "Удерживайте нажатие 3 секунды, чтобы завершить очистку экрана",
+    "type": "string"
+  },
+  {
+    "name": "wash_engine_open_again_open_wash_mode",
+    "zh": "请将发动机开启后，再打开洗车模式哦",
+    "ru": "Пожалуйста, сначала запустите двигатель, а затем включите режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "wash_enter_no_p_gear_exit_wash",
+    "zh": "您已进入非P挡，正在为您退出洗车模式",
+    "ru": "Вы перевели селектор из положения «P», режим мойки отключается",
+    "type": "string"
+  },
+  {
+    "name": "wash_left_rear",
+    "zh": "左后、",
+    "ru": "Левый задний,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_after",
+    "zh": "后、",
+    "ru": "Зад,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_already_exit",
+    "zh": "洗车模式已退出",
+    "ru": "Режим мойки завершён",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_back",
+    "zh": "后背、",
+    "ru": "Задняя часть,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_back_window",
+    "zh": "后背、",
+    "ru": "Задняя часть,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_car_doors_and_back_doors",
+    "zh": "车门及背门",
+    "ru": "Двери и задняя дверь",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_car_window",
+    "zh": "车窗",
+    "ru": "Стекло",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_car_window_not_close",
+    "zh": "%s车窗未关闭",
+    "ru": "%s стекло не закрыто",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_check_door",
+    "zh": "%s门未关闭",
+    "ru": "%s дверь не закрыта",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_check_induction_separate_lock",
+    "zh": "感应解闭锁",
+    "ru": "Бесконтактный замок",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_check_not_closed",
+    "zh": "未关闭",
+    "ru": "Не закрыт",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_desc",
+    "zh": "\"一键设置车辆状态，轻松进入洗车时刻\n开启后将自动关闭车窗、禁用自动雨刮等\"",
+    "ru": "\"Одним нажатием кнопки настройте состояние автомобиля и легко войдите в режим мойки.\\nПосле включения автоматически закроются стёкла, будет отключён автоматический режим дворников и т. д.\"",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_fail_electron_toast",
+    "zh": "请在电源ON挡，再打开洗车模式",
+    "ru": "Пожалуйста, сначала переведите переключатель питания в положение «ON», а затем включите режим мойки.",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_front",
+    "zh": "前、",
+    "ru": "Перед",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_front_seat",
+    "zh": "副驾、",
+    "ru": "Пассажир,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_induction_lock",
+    "zh": "感应闭锁",
+    "ru": "Бесконтактный замок",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_induction_unlock",
+    "zh": "感应解锁",
+    "ru": "Разблокировка",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_left_rear",
+    "zh": "左后、",
+    "ru": "Левый задний",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_main_driver",
+    "zh": "主驾、",
+    "ru": "Сиденье водителя",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_name",
+    "zh": "洗车模式",
+    "ru": "Режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_name_simple",
+    "zh": "洗车模式",
+    "ru": "Режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_open",
+    "zh": "洗车模式已开启",
+    "ru": "Режим мойки включён",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_radar_tip",
+    "zh": "雷达提示音",
+    "ru": "Звук оповещения радара",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_rearview_mirror_expand",
+    "zh": "后视镜展开",
+    "ru": "Разложить боковые зеркала",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_rearview_mirror_fold",
+    "zh": "后视镜折叠",
+    "ru": "Сложить боковые зеркала",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_right_rear",
+    "zh": "右后、",
+    "ru": "Правый задний,",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_something_not_closed",
+    "zh": "%s未关闭",
+    "ru": "%s не закрыто",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_something_swiper_not_turned_off",
+    "zh": "%s雨刮未关闭",
+    "ru": "%s дворники не выключены",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_speed_size",
+    "zh": "车速",
+    "ru": "Скорость автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_swiper_not_turned_off",
+    "zh": "雨刮未关闭",
+    "ru": "Дворники не выключены",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_toast_open",
+    "zh": "洗车模式已开启",
+    "ru": "Режим мойки активирован",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_trap_door",
+    "zh": "天窗",
+    "ru": "Люк",
+    "type": "string"
+  },
+  {
+    "name": "wash_mode_windshield_wiper",
+    "zh": "雨刮",
+    "ru": "Щётка стеклоочистителя",
+    "type": "string"
+  },
+  {
+    "name": "wash_right_rear",
+    "zh": "右后、",
+    "ru": "Правый задний",
+    "type": "string"
+  },
+  {
+    "name": "wash_screen_clean",
+    "zh": "屏幕清洁",
+    "ru": "Очистка экрана",
+    "type": "string"
+  },
+  {
+    "name": "weak_up_button_text",
+    "zh": "起床",
+    "ru": "Вставать",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте клавиатуру в любом месте для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_door_open",
+    "zh": "当前处于洗车模式中，请注意%s门已打开哦",
+    "ru": "Включён режим мойки, обратите внимание: дверь %s открыта",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_fail_charging",
+    "zh": "请先拔出充电枪或放电枪后，再打开洗车模式",
+    "ru": "Сначала отключите зарядный коннектор или коннектор раздачи питания, затем активируйте режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_fail_p_or_n",
+    "zh": "请在P挡或N挡下，再打开洗车模式",
+    "ru": "Переключитесь в положение P или N, затем включите режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_fail_ready",
+    "zh": "请在Ready状态，再打开洗车模式",
+    "ru": "Переведите автомобиль в состояние Ready, затем включите режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_fail_speed",
+    "zh": "请在车速≤3KM/h后，再打开洗车模式",
+    "ru": "Дождитесь, пока скорость будет ≤ 3 км/ч, затем включите режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_name",
+    "zh": "洗车模式",
+    "ru": "Режим мойки",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_window_open",
+    "zh": "当前处于洗车模式中，请注意车窗已打开哦",
+    "ru": "Включён режим мойки, обратите внимание, что окна открыты",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_mode_wiper_open",
+    "zh": "当前处于洗车模式中，请注意雨刮已开启",
+    "ru": "Включён режим мойки, обратите внимание, что дворники включены",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_sub_title",
+    "zh": "若在传送带上自动洗车，请挂入N挡",
+    "ru": "Если автомобиль проходит мойку на конвейере, переведите в положение N",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_tips",
+    "zh": "当前处于勿扰状态，蓝牙电话将会转移到手机",
+    "ru": "Включён режим «Не беспокоить», Bluetooth-звонки будут перенаправлены на телефон",
+    "type": "string"
+  },
+  {
+    "name": "xi_che_top_tips",
+    "zh": "\"1.洗车模式中，蓝牙电话将会转移到手机。\n2.请保持车速≤10km/h，且挡位为P挡或N挡，否则将自动退出洗车模式。\"",
+    "ru": "\"1. В режиме мойки Bluetooth-связь будет переключена на телефон.\\n2. Убедитесь, что скорость ≤10 км/ч, а рычаг в положении P или N, иначе режим мойки будет автоматически отключён.\"",
+    "type": "string"
+  },
+  {
+    "name": "yes",
+    "zh": "是",
+    "ru": "Да",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Получатель",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть наполовину",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d симв. (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_disabled_description",
+    "zh": "启用字幕",
+    "ru": "Включить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_cc_enabled_description",
+    "zh": "停用字幕",
+    "ru": "Отключить субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fastforward_description",
+    "zh": "快进",
+    "ru": "Перемотка вперёд",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_enter_description",
+    "zh": "进入全屏模式",
+    "ru": "Войти в полноэкранный режим",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_fullscreen_exit_description",
+    "zh": "退出全屏模式",
+    "ru": "Выйти из полноэкранного режима",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_hide",
+    "zh": "隐藏播放器控件",
+    "ru": "Скрыть элементы управления плеером",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_next_description",
+    "zh": "下一首",
+    "ru": "Следующий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_hide_description",
+    "zh": "隐藏其他设置",
+    "ru": "Скрыть другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_overflow_show_description",
+    "zh": "显示其他设置",
+    "ru": "Показать другие настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_pause_description",
+    "zh": "暂停",
+    "ru": "Пауза",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_play_description",
+    "zh": "播放",
+    "ru": "Воспроизведение",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed",
+    "zh": "速度",
+    "ru": "Скорость",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_playback_speed_normal",
+    "zh": "正常",
+    "ru": "Нормальная",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_previous_description",
+    "zh": "上一首",
+    "ru": "Предыдущий трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_all_description",
+    "zh": "全部重复播放",
+    "ru": "Повторять всё",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_off_description",
+    "zh": "不重复播放",
+    "ru": "Не повторять",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_repeat_one_description",
+    "zh": "重复播放一项",
+    "ru": "Повторять один элемент",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_rewind_description",
+    "zh": "快退",
+    "ru": "Перемотка назад",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_seek_bar_description",
+    "zh": "播放进度",
+    "ru": "Прогресс",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_settings_description",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_show",
+    "zh": "显示播放器控件",
+    "ru": "Показать панель",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_off_description",
+    "zh": "随机播放功能已关闭",
+    "ru": "Случайное воспроизведение отключено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_shuffle_on_description",
+    "zh": "随机播放功能已开启",
+    "ru": "Случайное воспроизведение включено",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_stop_description",
+    "zh": "停止",
+    "ru": "Стоп",
+    "type": "string"
+  },
+  {
+    "name": "exo_controls_vr_description",
+    "zh": "VR 模式",
+    "ru": "Режим VR",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_completed",
+    "zh": "下载完毕",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_description",
+    "zh": "下载",
+    "ru": "Скачать",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_downloading",
+    "zh": "正在下载",
+    "ru": "Загружается",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_notification_channel_name",
+    "zh": "下载内容",
+    "ru": "Скачиваемый контент",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused",
+    "zh": "下载已暂停",
+    "ru": "Загрузка приостановлена",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_network",
+    "zh": "正在等待连接到网络以进行下载",
+    "ru": "Ожидание подключения к сети для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_paused_for_wifi",
+    "zh": "正在等待连接到 WLAN 网络以进行下载",
+    "ru": "Ожидание подключения к сети WLAN для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "exo_download_removing",
+    "zh": "正在移除下载内容",
+    "ru": "Удаление загруженного контента...",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_mono",
+    "zh": "单声道",
+    "ru": "Моно",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_alternate",
+    "zh": "替用轨",
+    "ru": "Альтернативный трек",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_closed_captions",
+    "zh": "字幕",
+    "ru": "Субтитры",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_commentary",
+    "zh": "旁白",
+    "ru": "Закадровый голос",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_role_supplementary",
+    "zh": "补充轨",
+    "ru": "Дополнительная дорожка",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_auto",
+    "zh": "自动",
+    "ru": "Авто",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_audio",
+    "zh": "音频",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_text",
+    "zh": "文字",
+    "ru": "Текст",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_selection_title_video",
+    "zh": "视频",
+    "ru": "Видео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_stereo",
+    "zh": "立体声",
+    "ru": "Стерео",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround",
+    "zh": "环绕声",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_5_point_1",
+    "zh": "5.1 环绕声",
+    "ru": "Объёмный звук 5.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_surround_7_point_1",
+    "zh": "7.1 环绕声",
+    "ru": "Объёмный звук 7.1",
+    "type": "string"
+  },
+  {
+    "name": "exo_track_unknown",
+    "zh": "未知",
+    "ru": "Неизвестный",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выбор минуты",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "Утро",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "PM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "След. месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыд. месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец, указывающий день недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на режим календарного ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим текстового ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "День",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_0",
+    "zh": "波浪",
+    "ru": "Волны",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_1",
+    "zh": "猫步",
+    "ru": "Кошачий шаг",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_2",
+    "zh": "腰部",
+    "ru": "Поясница",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_3",
+    "zh": "肩部",
+    "ru": "Плечи",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_4",
+    "zh": "蛇形",
+    "ru": "Змей",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_5",
+    "zh": "脉冲",
+    "ru": "Импульс",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_6",
+    "zh": "缓冲",
+    "ru": "Амортизация",
+    "type": "arrays"
+  },
+  {
+    "name": "s_mode_vcar_massageTypes_7",
+    "zh": "推拿",
+    "ru": "Туина",
+    "type": "arrays"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_one",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать +%d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_fastforward_by_amount_description_other",
+    "zh": "快进 %d 秒",
+    "ru": "Перемотать +%d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_one",
+    "zh": "快退 %d 秒",
+    "ru": "Перемотка %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "exo_controls_rewind_by_amount_description_other",
+    "zh": "快退 %d 秒",
+    "ru": "Перемотка %d с",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

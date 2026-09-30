@@ -1,0 +1,416 @@
+[
+  {
+    "name": "action_missing_private_key",
+    "zh": "需要提供私钥才能安装证书",
+    "ru": "Для установки сертификата требуется закрытый ключ.",
+    "type": "string"
+  },
+  {
+    "name": "action_missing_user_cert",
+    "zh": "需要提供证书才能安装私钥",
+    "ru": "Для установки закрытого ключа необходимо предоставить сертификат.",
+    "type": "string"
+  },
+  {
+    "name": "app_name",
+    "zh": "证书安装程序",
+    "ru": "Установщик сертификатов",
+    "type": "string"
+  },
+  {
+    "name": "ca_cert_is_added",
+    "zh": "已安装 CA 证书",
+    "ru": "CA-сертификат установлен",
+    "type": "string"
+  },
+  {
+    "name": "ca_certificate",
+    "zh": "CA 证书",
+    "ru": "CA-сертификат",
+    "type": "string"
+  },
+  {
+    "name": "cert_missing_error",
+    "zh": "无法安装该证书，因为找不到证书文件。",
+    "ru": "Не удалось установить данный сертификат, так как не найден файл сертификата.",
+    "type": "string"
+  },
+  {
+    "name": "cert_not_saved",
+    "zh": "未安装该证书。",
+    "ru": "Сертификат не установлен.",
+    "type": "string"
+  },
+  {
+    "name": "cert_read_error",
+    "zh": "无法安装该证书，因为无法读取证书文件。",
+    "ru": "Не удалось установить сертификат, так как невозможно прочитать файл сертификата.",
+    "type": "string"
+  },
+  {
+    "name": "cert_temp_error",
+    "zh": "出现临时错误。请稍后重试。",
+    "ru": "Произошла временная ошибка. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "cert_too_large_error",
+    "zh": "无法安装该证书，因为证书尺寸过大。",
+    "ru": "Не удается установить данный сертификат, так как размер сертификата слишком велик.",
+    "type": "string"
+  },
+  {
+    "name": "certificate",
+    "zh": "证书",
+    "ru": "Сертификат",
+    "type": "string"
+  },
+  {
+    "name": "certificate_capabilities_warning",
+    "zh": "注：此证书的颁发者可能会检查进出设备的所有流量。",
+    "ru": "Примечание: Издатель этого сертификата может просматривать весь трафик, поступающий на устройство и исходящий с него.",
+    "type": "string"
+  },
+  {
+    "name": "certificate_name",
+    "zh": "证书名称",
+    "ru": "Имя сертификата",
+    "type": "string"
+  },
+  {
+    "name": "credential_info",
+    "zh": "该数据包包含：",
+    "ru": "Данный пакет данных содержит:",
+    "type": "string"
+  },
+  {
+    "name": "credential_password",
+    "zh": "键入密码以提取证书。",
+    "ru": "Введите пароль для извлечения сертификата.",
+    "type": "string"
+  },
+  {
+    "name": "credential_usage_label",
+    "zh": "凭据用途：",
+    "ru": "Назначение:",
+    "type": "string"
+  },
+  {
+    "name": "done_label",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "extracting_pkcs12",
+    "zh": "正在提取...",
+    "ru": "Извлечение...",
+    "type": "string"
+  },
+  {
+    "name": "install_done",
+    "zh": "%1$s凭据已添加到 WLAN 已保存的网络。",
+    "ru": "Учетные данные для «%1$s» добавлены в сохраненные сети WLAN.",
+    "type": "string"
+  },
+  {
+    "name": "install_done_title",
+    "zh": "已安装凭据",
+    "ru": "Установленные данные",
+    "type": "string"
+  },
+  {
+    "name": "invalid_cert",
+    "zh": "该证书无效。",
+    "ru": "Сертификат недействителен.",
+    "type": "string"
+  },
+  {
+    "name": "invalid_certificate_close_button",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "invalid_certificate_message",
+    "zh": "无法将此文件用作%1$s",
+    "ru": "Невозможно использовать этот файл в качестве %1$s",
+    "type": "string"
+  },
+  {
+    "name": "invalid_certificate_title",
+    "zh": "无法使用此文件",
+    "ru": "Невозможно использовать этот файл",
+    "type": "string"
+  },
+  {
+    "name": "n_cacrts",
+    "zh": "%d 个 CA 证书",
+    "ru": "%d сертификатов CA",
+    "type": "string"
+  },
+  {
+    "name": "name_char_error",
+    "zh": "键入仅包含字母和数字的名称。",
+    "ru": "Введите имя, состоящее только из букв и цифр.",
+    "type": "string"
+  },
+  {
+    "name": "name_credential_dialog_title",
+    "zh": "为此证书命名",
+    "ru": "Имя сертификата",
+    "type": "string"
+  },
+  {
+    "name": "name_empty_error",
+    "zh": "键入名称。",
+    "ru": "Введите имя.",
+    "type": "string"
+  },
+  {
+    "name": "no_cert_to_saved",
+    "zh": "没有可安装的证书。",
+    "ru": "Нет сертификатов для установки.",
+    "type": "string"
+  },
+  {
+    "name": "one_cacrt",
+    "zh": "1 个 CA 证书",
+    "ru": "1 сертификат CA",
+    "type": "string"
+  },
+  {
+    "name": "one_usercrt",
+    "zh": "一个用户证书",
+    "ru": "Сертификат пользователя",
+    "type": "string"
+  },
+  {
+    "name": "one_userkey",
+    "zh": "一个用户密钥",
+    "ru": "Ключ пользователя",
+    "type": "string"
+  },
+  {
+    "name": "only_primary_user_allowed",
+    "zh": "只有设备的机主才能安装证书。",
+    "ru": "Только владелец устройства может установить сертификат.",
+    "type": "string"
+  },
+  {
+    "name": "p12_description",
+    "zh": "PKCS12 密钥库中的证书。",
+    "ru": "Сертификаты в хранилище ключей PKCS12.",
+    "type": "string"
+  },
+  {
+    "name": "password_empty_error",
+    "zh": "键入密码。",
+    "ru": "Введите пароль.",
+    "type": "string"
+  },
+  {
+    "name": "password_error",
+    "zh": "键入正确的密码。",
+    "ru": "Введите правильный пароль.",
+    "type": "string"
+  },
+  {
+    "name": "pick_file_title",
+    "zh": "选择证书",
+    "ru": "Выбрать сертификат",
+    "type": "string"
+  },
+  {
+    "name": "pkcs12_file_password_dialog_title",
+    "zh": "从 %s 提取",
+    "ru": "Извлечь из %s",
+    "type": "string"
+  },
+  {
+    "name": "pkcs12_password_dialog_title",
+    "zh": "提取证书",
+    "ru": "Извлечь сертификат",
+    "type": "string"
+  },
+  {
+    "name": "redirect_ca_certificate_close_button",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "redirect_ca_certificate_title",
+    "zh": "在“设置”中安装 CA 证书",
+    "ru": "Установить CA-сертификат в «Настройках»",
+    "type": "string"
+  },
+  {
+    "name": "redirect_ca_certificate_with_app_info_message",
+    "zh": "必须在“设置”中安装这个由%1$s提供的证书。请只安装您信任的机构所提供的 CA 证书。",
+    "ru": "Необходимо установить этот сертификат, предоставленный %1$s, в «Настройках». Устанавливайте только CA-сертификаты от доверенных организаций.",
+    "type": "string"
+  },
+  {
+    "name": "select_certificate_usage_title",
+    "zh": "选择证书类型",
+    "ru": "Выберите тип сертификата",
+    "type": "string"
+  },
+  {
+    "name": "unable_to_save_cert",
+    "zh": "无法保存该证书。未启用或未正确初始化凭据存储。",
+    "ru": "Не удалось сохранить сертификат. Хранилище учётных данных не включено или не было корректно инициализировано.",
+    "type": "string"
+  },
+  {
+    "name": "user_cert_is_added",
+    "zh": "已安装用户证书",
+    "ru": "Сертификат пользователя установлен",
+    "type": "string"
+  },
+  {
+    "name": "user_certificate",
+    "zh": "VPN 和应用用户证书",
+    "ru": "Сертификаты пользователей VPN и приложений",
+    "type": "string"
+  },
+  {
+    "name": "userkey_type",
+    "zh": "算法：",
+    "ru": "Алгоритм:",
+    "type": "string"
+  },
+  {
+    "name": "wifi_cancel_label",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "wifi_cert_is_added",
+    "zh": "已安装 WLAN 证书",
+    "ru": "Сертификат WLAN установлен",
+    "type": "string"
+  },
+  {
+    "name": "wifi_certificate",
+    "zh": "WLAN 证书",
+    "ru": "Сертификат WLAN",
+    "type": "string"
+  },
+  {
+    "name": "wifi_config_text",
+    "zh": "\"名称：%1$s\nFQDN：%2$s\nRoaming Consortiums：%3$s\nRealm：%4$s\n身份验证方式：EAP-%5$s\n\"",
+    "ru": "\"Имя: %1$s\\nFQDN: %2$s\\nКонсорциумы роуминга: %3$s\\nRealm: %4$s\\nМетод аутентификации: EAP-%5$s\\n\"",
+    "type": "string"
+  },
+  {
+    "name": "wifi_detail_label",
+    "zh": "详细信息",
+    "ru": "Подробная информация",
+    "type": "string"
+  },
+  {
+    "name": "wifi_detail_title",
+    "zh": "%s的详细信息",
+    "ru": "Подробная информация о %s",
+    "type": "string"
+  },
+  {
+    "name": "wifi_dismiss_label",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "wifi_install_label",
+    "zh": "安装",
+    "ru": "Установить",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_detail",
+    "zh": "安装 WLAN 凭据即可通过%1$s连接到可用网络。",
+    "ru": "Установите учетные данные WLAN, чтобы подключиться к доступным сетям через %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_download_error",
+    "zh": "下载的文件存在问题，无法安装。请确保您是从正确的来源下载文件。",
+    "ru": "В загруженном файле обнаружены проблемы, установить его невозможно. Убедитесь, что вы скачали файл из правильного источника.",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_fail",
+    "zh": "无法安装 WLAN 凭据。请尝试重新下载文件。",
+    "ru": "Не удалось установить учетные данные WLAN. Попробуйте загрузить файл повторно.",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_fail_no_wifi",
+    "zh": "请开启 WLAN，然后重试。",
+    "ru": "Включите WLAN и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_fail_no_wifi_title",
+    "zh": "安装已取消",
+    "ru": "Установка отменена",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installer_fail_title",
+    "zh": "无法安装",
+    "ru": "Невозможно установить",
+    "type": "string"
+  },
+  {
+    "name": "wifi_installing_label",
+    "zh": "正在安装",
+    "ru": "Устанавливается...",
+    "type": "string"
+  },
+  {
+    "name": "wifi_no_config",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "wifi_title",
+    "zh": "WLAN 配置文件",
+    "ru": "Профиль WLAN",
+    "type": "string"
+  },
+  {
+    "name": "wifi_tls_config_text",
+    "zh": "\"客户端证书：\n%1$s\n密钥：%2$s\n\"",
+    "ru": "\"Сертификат клиента:\\n%1$s\\nКлюч:\\n%2$s\\n\"",
+    "type": "string"
+  },
+  {
+    "name": "wifi_trust_config_text",
+    "zh": "\"信任证书：\n%s\n\"",
+    "ru": "\"Доверенный сертификат:\\n%s\\n\"",
+    "type": "string"
+  },
+  {
+    "name": "wifi_ttls_config_text",
+    "zh": "\"用户名：%s\n\"",
+    "ru": "\"Имя пользователя: %s\\n\"",
+    "type": "string"
+  },
+  {
+    "name": "credential_usage_0",
+    "zh": "VPN和应用",
+    "ru": "VPN и приложения",
+    "type": "arrays"
+  },
+  {
+    "name": "credential_usage_1",
+    "zh": "WLAN",
+    "ru": "WLAN",
+    "type": "arrays"
+  }
+]

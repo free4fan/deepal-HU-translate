@@ -1,0 +1,1269 @@
+[
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Адресат",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "accept_and_continue",
+    "zh": "接受并继续",
+    "ru": "Принять и продолжить",
+    "type": "string"
+  },
+  {
+    "name": "access_links",
+    "zh": "查看链接",
+    "ru": "Просмотреть ссылку",
+    "type": "string"
+  },
+  {
+    "name": "access_list_of_links",
+    "zh": "查看链接列表",
+    "ru": "Просмотреть список ссылок",
+    "type": "string"
+  },
+  {
+    "name": "access_terms",
+    "zh": "查看条款",
+    "ru": "Просмотреть условия",
+    "type": "string"
+  },
+  {
+    "name": "admin_has_ability_to_monitor_device",
+    "zh": "您的 IT 管理员可以监控和管理与此设备相关的设置、企业权限、应用、权限以及数据（其中包括您的网络活动以及您设备的位置信息、通话记录和联系人搜索记录）。&lt;br>&lt;br>如需了解详情（包括贵组织的隐私权政策），请与您的 IT 管理员联系。",
+    "ru": "Ваш IT-администратор может контролировать и управлять настройками, корпоративными правами, приложениями, разрешениями и данными, связанными с этим устройством (в том числе вашей сетевой активностью, геолокацией устройства, историей звонков и историей поиска контактов).<br><br>Для получения дополнительной информации (включая политику конфиденциальности вашей организации) обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "admin_has_ability_to_monitor_profile",
+    "zh": "您的 IT 管理员可以监控和管理与此资料相关的设置、企业权限、应用、权限以及数据（其中包括您的网络活动以及您设备的位置信息、通话记录和联系人搜索记录）。&lt;br>&lt;br>如需了解详情（包括贵组织的隐私权政策），请与您的 IT 管理员联系。",
+    "ru": "Ваш IT-администратор может контролировать и управлять настройками, корпоративными правами, приложениями, разрешениями и данными, связанными с этим профилем (в том числе вашей сетевой активностью, геолокацией устройства, историей звонков и историей поиска контактов).<br><br>Для получения дополнительной информации (включая политику конфиденциальности вашей организации) обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "app_label",
+    "zh": "工作设置",
+    "ru": "Настройки работы",
+    "type": "string"
+  },
+  {
+    "name": "back",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "brand_screen_header",
+    "zh": "此设备归贵单位所有",
+    "ru": "Данное устройство принадлежит вашей организации",
+    "type": "string"
+  },
+  {
+    "name": "brand_screen_subheader",
+    "zh": "以下应用将用于管理和监控此手机",
+    "ru": "Эти приложения будут использоваться для управления и мониторинга этого телефона",
+    "type": "string"
+  },
+  {
+    "name": "cancel_delete_profile",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_provisioning",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_setup",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_setup_and_factory_reset_dialog_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "cancel_setup_and_factory_reset_dialog_msg",
+    "zh": "如果您取消这项设置，设备将恢复出厂设置，而且您会返回首屏画面。",
+    "ru": "Если вы отмените эту настройку, устройство будет сброшено до заводских настроек, и вы вернётесь на главный экран.",
+    "type": "string"
+  },
+  {
+    "name": "cancel_setup_and_factory_reset_dialog_ok",
+    "zh": "重置设备",
+    "ru": "Сбросить устройство",
+    "type": "string"
+  },
+  {
+    "name": "cancel_setup_and_factory_reset_dialog_title",
+    "zh": "要取消这项设置并恢复出厂设置吗？",
+    "ru": "Отменить настройку и восстановить заводские настройки?",
+    "type": "string"
+  },
+  {
+    "name": "cant_add_work_profile",
+    "zh": "无法添加工作资料",
+    "ru": "Невозможно добавить рабочий профиль",
+    "type": "string"
+  },
+  {
+    "name": "cant_replace_or_remove_work_profile",
+    "zh": "无法替换或移除工作资料",
+    "ru": "Невозможно заменить или удалить рабочий профиль",
+    "type": "string"
+  },
+  {
+    "name": "cant_set_up_device",
+    "zh": "无法设置设备",
+    "ru": "Не удалось настроить",
+    "type": "string"
+  },
+  {
+    "name": "cant_set_up_profile",
+    "zh": "无法设置资料",
+    "ru": "Не удалось установить профиль",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_alert_dialog_default_button",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_preference_switch_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_preference_switch_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_restricted_while_driving",
+    "zh": "驾车时无法使用此功能",
+    "ru": "Эта функция недоступна во время вождения",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrollbar_page_down_button",
+    "zh": "向下滚动",
+    "ru": "Прокрутить вниз",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrollbar_page_up_button",
+    "zh": "向上滚动",
+    "ru": "Прокрутить вверх",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_scrolling_limited_message",
+    "zh": "驾车时滚动操作受限",
+    "ru": "При движении прокрутка ограничена",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_default_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_overflow_title",
+    "zh": "溢出菜单",
+    "ru": "Меню",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_search_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_menu_item_settings_title",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "car_ui_toolbar_nav_icon_content_description",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "change_device_launcher",
+    "zh": "请更改设备启动器",
+    "ru": "Пожалуйста, измените лаунчер устройства",
+    "type": "string"
+  },
+  {
+    "name": "close_list",
+    "zh": "关闭列表",
+    "ru": "Закрыть список",
+    "type": "string"
+  },
+  {
+    "name": "collapse",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "comp_profile_benefits_description",
+    "zh": "借助工作资料，您可以在一个位置集中存放您的工作应用",
+    "ru": "С помощью рабочего профиля вы можете хранить все рабочие приложения в одном месте.",
+    "type": "string"
+  },
+  {
+    "name": "company_controls_device",
+    "zh": "您的单位将控制此设备，并确保其安全无虞。",
+    "ru": "Ваша организация будет управлять этим устройством и обеспечит его безопасность.",
+    "type": "string"
+  },
+  {
+    "name": "company_controls_workspace",
+    "zh": "您的单位可控制此资料，并确保其安全。您可以控制设备上的所有其他内容。",
+    "ru": "Ваша организация может управлять этим профилем и обеспечивать его безопасность. Вы можете управлять всем остальным на устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "contact_device_provider",
+    "zh": "如需了解详情，请与您的%1$s联系。",
+    "ru": "Для получения дополнительной информации свяжитесь с вашим %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "contact_your_admin_for_help",
+    "zh": "请与您的 IT 管理员联系以获取帮助",
+    "ru": "Обратитесь к вашему IT-администратору за помощь",
+    "type": "string"
+  },
+  {
+    "name": "contact_your_admin_for_more_info",
+    "zh": "如需了解详情（包括贵组织的隐私权政策），请与您的 IT 管理员联系。",
+    "ru": "Для получения дополнительной информации (включая политику конфиденциальности вашей организации) обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "continue_button",
+    "zh": "继续",
+    "ru": "Продолжать",
+    "type": "string"
+  },
+  {
+    "name": "continue_provisioning_notify_text",
+    "zh": "点按即可继续设置您的工作资料",
+    "ru": "Нажмите, чтобы продолжить настройку рабочего профиля",
+    "type": "string"
+  },
+  {
+    "name": "continue_provisioning_notify_title",
+    "zh": "加密已完成",
+    "ru": "Шифрование завершено",
+    "type": "string"
+  },
+  {
+    "name": "cope_provisioning_step_1_header",
+    "zh": "工作应用会保存在您的工作资料中，并由您的 IT 管理员管理",
+    "ru": "Рабочие приложения сохраняются в вашем рабочем профиле и управляются вашим IT-администратором.",
+    "type": "string"
+  },
+  {
+    "name": "cope_provisioning_step_2_header",
+    "zh": "个人应用与工作应用相互独立，两者不会同时显示",
+    "ru": "Личные и рабочие приложения независимы друг от друга и не отображаются одновременно.",
+    "type": "string"
+  },
+  {
+    "name": "cope_provisioning_step_3_header",
+    "zh": "您的 IT 管理员可以控制此设备并屏蔽特定应用",
+    "ru": "Ваш IT-администратор может управлять этим устройством и блокировать определённые приложения.",
+    "type": "string"
+  },
+  {
+    "name": "cope_provisioning_summary",
+    "zh": "工作应用会保存在您的工作资料中，并由您的 IT 管理员管理。个人应用与工作应用相互独立，两者不会同时显示。您的 IT 管理员可以控制此设备并屏蔽特定应用。",
+    "ru": "Рабочие приложения сохраняются в вашем рабочем профиле и управляются вашим IT-администратором. Личные и рабочие приложения независимы друг от друга и не отображаются одновременно. Ваш IT-администратор может управлять этим устройством и блокировать определённые приложения.",
+    "type": "string"
+  },
+  {
+    "name": "copy",
+    "zh": "复制",
+    "ru": "Копировать",
+    "type": "string"
+  },
+  {
+    "name": "copying_certs",
+    "zh": "正在设置 CA 证书",
+    "ru": "Настройка сертификата ЦС",
+    "type": "string"
+  },
+  {
+    "name": "couldnt_set_up_device",
+    "zh": "无法设置设备。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "Не удалось настроить устройство. Если вам нужна помощь, обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "creditor_capabilities_header",
+    "zh": "%1$s可以执行以下操作：",
+    "ru": "%1$s может выполнять следующие операции:",
+    "type": "string"
+  },
+  {
+    "name": "default_first_meat_user_name",
+    "zh": "主用户",
+    "ru": "Главный пользователь",
+    "type": "string"
+  },
+  {
+    "name": "default_managed_profile_name",
+    "zh": "工作资料",
+    "ru": "Рабочий профиль",
+    "type": "string"
+  },
+  {
+    "name": "default_owned_device_username",
+    "zh": "工作设备的用户",
+    "ru": "Пользователь рабочего устройства",
+    "type": "string"
+  },
+  {
+    "name": "delete_profile",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "delete_profile_title",
+    "zh": "要删除现有的工作资料吗？",
+    "ru": "Удалить существующий рабочий профиль?",
+    "type": "string"
+  },
+  {
+    "name": "device_already_set_up",
+    "zh": "设备已经过设置",
+    "ru": "Устройство уже настроено",
+    "type": "string"
+  },
+  {
+    "name": "device_doesnt_allow_encryption_contact_admin",
+    "zh": "此设备不支持加密功能，但如果不进行加密就无法完成设置。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "Это устройство не поддерживает функцию шифрования, но без шифрования завершение настройки невозможно. Если вам нужна помощь, обратитесь к администратору ИТ.",
+    "type": "string"
+  },
+  {
+    "name": "device_has_reset_protection_contact_admin",
+    "zh": "您的设备已开启恢复出厂设置保护功能。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "На вашем устройстве включена функция защиты от сброса к заводским настройкам. Если вам нужна помощь, обратитесь к IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_cancel_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_cancel_message",
+    "zh": "要停止设置并清除您设备上的数据吗？",
+    "ru": "Хотите остановить настройку и очистить данные на устройстве?",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_description",
+    "zh": "此设备将由贵单位确保其安全并负责管理",
+    "ru": "Ваша организация обеспечит безопасность данного устройства и будет нести ответственность за его управление.",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_error_ok",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_info",
+    "zh": "此设备将由%1$s负责管理、监控，并确保其安全。相应行为受相关条款约束。%2$s",
+    "ru": "Управление, мониторинг и обеспечение безопасности данного устройства будут осуществляться %1$s. Соответствующие действия регулируются указанными условиями. %2$s",
+    "type": "string"
+  },
+  {
+    "name": "device_owner_info_with_terms_headers",
+    "zh": "此设备将由%1$s负责管理、监控，并确保其安全。相应行为受%2$s的相关条款约束。%3$s",
+    "ru": "За управление, мониторинг и обеспечение безопасности данного устройства отвечает %1$s. Соответствующие действия регулируются условиями %2$s. %3$s",
+    "type": "string"
+  },
+  {
+    "name": "device_provisioning_finished",
+    "zh": "您的设备已准备就绪！",
+    "ru": "Ваше устройство готово!",
+    "type": "string"
+  },
+  {
+    "name": "dismiss",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "done",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "downloading_administrator_header",
+    "zh": "正在准备工作设置…",
+    "ru": "Подготовка рабочего профиля…",
+    "type": "string"
+  },
+  {
+    "name": "encrypt",
+    "zh": "加密",
+    "ru": "Шифрование",
+    "type": "string"
+  },
+  {
+    "name": "encrypt_device_text_for_device_owner_setup",
+    "zh": "要设置此设备，首先需要对其进行加密，这可能需要一段时间。",
+    "ru": "Чтобы настроить это устройство, сначала его необходимо зашифровать, что может занять некоторое время.",
+    "type": "string"
+  },
+  {
+    "name": "encrypt_device_text_for_profile_owner_setup",
+    "zh": "要设置您的工作资料，需要对您的设备进行加密，这可能需要一段时间。",
+    "ru": "Чтобы настроить рабочий профиль, необходимо зашифровать устройство. Это может занять некоторое время.",
+    "type": "string"
+  },
+  {
+    "name": "encrypt_this_device_question",
+    "zh": "要加密此设备吗？",
+    "ru": "Зашифровать это устройство?",
+    "type": "string"
+  },
+  {
+    "name": "error_download_failed",
+    "zh": "无法下载管理应用",
+    "ru": "Не удалось загрузить приложение управления",
+    "type": "string"
+  },
+  {
+    "name": "error_hash_mismatch",
+    "zh": "发生校验和错误，因此无法使用此管理应用。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "Произошла ошибка контрольной суммы, поэтому невозможно использовать данное управляемое приложение. Если вам нужна помощь, обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "error_installation_failed",
+    "zh": "无法安装管理应用",
+    "ru": "Не удалось установить управляемое приложение",
+    "type": "string"
+  },
+  {
+    "name": "error_package_invalid",
+    "zh": "无法使用此管理应用，因为此应用缺少组件或已损坏。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "Невозможно использовать данное управляемое приложение, поскольку в нём отсутствуют компоненты или оно повреждено. Для получения помощи обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "error_wifi",
+    "zh": "无法连接到 WLAN",
+    "ru": "Не удалось подключиться к WLAN",
+    "type": "string"
+  },
+  {
+    "name": "expand",
+    "zh": "展开",
+    "ru": "Развернуть",
+    "type": "string"
+  },
+  {
+    "name": "expand_button_title",
+    "zh": "高级",
+    "ru": "Расширенные",
+    "type": "string"
+  },
+  {
+    "name": "financed_device_screen_header",
+    "zh": "此设备是您向%1$s赊购的",
+    "ru": "Это устройство, которое вы приобрели в кредит у %1$s.",
+    "type": "string"
+  },
+  {
+    "name": "for_help_contact_admin",
+    "zh": "如需帮助，请与您的 IT 管理员联系",
+    "ru": "Если вам нужна помощь, обратитесь к вашему IT-администратору",
+    "type": "string"
+  },
+  {
+    "name": "frp_clear_progress_text",
+    "zh": "请稍候…",
+    "ru": "Подождите…",
+    "type": "string"
+  },
+  {
+    "name": "frp_clear_progress_title",
+    "zh": "正在清除",
+    "ru": "Очистка",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_accept_header",
+    "zh": "请设置您的工作用设备",
+    "ru": "Пожалуйста, настройте ваше рабочее устройство",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_privacy_body",
+    "zh": "您的 IT 管理员或许可以查看您在此设备上的数据和活动",
+    "ru": "Ваш IT-администратор может просматривать данные и активность на этом устройстве",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_privacy_title",
+    "zh": "隐私权提醒",
+    "ru": "Конфиденциальность",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_progress_label",
+    "zh": "正在设置您的设备…",
+    "ru": "Настройка вашего устройства…",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_step_1_header",
+    "zh": "让您的工作应用触手可及",
+    "ru": "Ваши рабочие приложения всегда под рукой",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_step_2_header",
+    "zh": "此设备并非私人设备",
+    "ru": "Это не личное устройство",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_step_2_subheader",
+    "zh": "您的 IT 管理员或许可以查看您在此设备上的数据和活动。",
+    "ru": "Ваш IT-администратор, возможно, может просматривать ваши данные и активность на этом устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "fully_managed_device_provisioning_summary",
+    "zh": "使用此设备可轻松访问您的工作应用。此设备并非私人设备，因此，您的 IT 管理员或许可以查看您的数据和活动。如需了解详情，请与您的 IT 管理员联系。",
+    "ru": "С помощью этого устройства вы можете легко получить доступ к рабочим приложениям. Это устройство не является личным, поэтому ваш IT-администратор, возможно, может просматривать ваши данные и активность. Для получения дополнительной информации обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "if_questions_contact_admin",
+    "zh": "如有任何疑问，请与您的 IT 管理员联系",
+    "ru": "Если у вас возникнут вопросы, обратитесь к вашему IT-администратору",
+    "type": "string"
+  },
+  {
+    "name": "info_anim_title_0",
+    "zh": "改变您的工作方式",
+    "ru": "Измените ваш подход к работе",
+    "type": "string"
+  },
+  {
+    "name": "info_anim_title_1",
+    "zh": "将工作数据与个人数据隔离开",
+    "ru": "Изолировать рабочие данные от личных",
+    "type": "string"
+  },
+  {
+    "name": "info_anim_title_2",
+    "zh": "在您完成操作后关闭工作应用",
+    "ru": "Закройте рабочее приложение после завершения операции",
+    "type": "string"
+  },
+  {
+    "name": "install_creditor_app_description",
+    "zh": "在此设备上安装%1$s应用，以便您付款",
+    "ru": "Установите приложение %1$s на этом устройстве для оплаты",
+    "type": "string"
+  },
+  {
+    "name": "join_many_items_last",
+    "zh": "%1$s和%2$s",
+    "ru": "%1$s и %2$s",
+    "type": "string"
+  },
+  {
+    "name": "join_two_items",
+    "zh": "%1$s和%2$s",
+    "ru": "%1$s и %2$s",
+    "type": "string"
+  },
+  {
+    "name": "just_a_sec",
+    "zh": "请稍候…",
+    "ru": "Подождите…",
+    "type": "string"
+  },
+  {
+    "name": "launcher_app_cant_be_used_by_work_profile",
+    "zh": "此启动器应用不能用于您的工作资料",
+    "ru": "Это приложение-лаунчер нельзя использовать в вашем рабочем профиле.",
+    "type": "string"
+  },
+  {
+    "name": "learn_more_label",
+    "zh": "“了解详情”按钮",
+    "ru": "Кнопка «Подробнее»",
+    "type": "string"
+  },
+  {
+    "name": "learn_more_link",
+    "zh": "了解详情",
+    "ru": "Подробнее",
+    "type": "string"
+  },
+  {
+    "name": "link_isnt_secure_and_cant_be_opened_until_device_setup_finished",
+    "zh": "下面这个链接不安全，在设备设置完成之前都无法打开：%1$s",
+    "ru": "Ссылка ниже небезопасна, её нельзя открыть до завершения настройки устройства: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "lock_device_description",
+    "zh": "如果您未付款，就会限制您使用此设备",
+    "ru": "Если вы не оплатите, использование этого устройства будет ограничено.",
+    "type": "string"
+  },
+  {
+    "name": "managed_device_info",
+    "zh": "受管理设备的信息",
+    "ru": "Информация об управляемом устройстве",
+    "type": "string"
+  },
+  {
+    "name": "managed_provisioning_error_text",
+    "zh": "无法设置您的工作资料，请与您公司的IT部门联系或稍后重试。",
+    "ru": "Не удалось настроить ваш рабочий профиль. Обратитесь в IT-отдел вашей организации или повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "mdm_icon_label",
+    "zh": "“%1$s”图标",
+    "ru": "«%1$s» иконка",
+    "type": "string"
+  },
+  {
+    "name": "next",
+    "zh": "下一步",
+    "ru": "Далее",
+    "type": "string"
+  },
+  {
+    "name": "not_set",
+    "zh": "未设置",
+    "ru": "Не задано",
+    "type": "string"
+  },
+  {
+    "name": "now_lets_set_up_everything_else",
+    "zh": "添加个人帐号即可更充分地利用您的设备",
+    "ru": "Добавьте личный аккаунт, чтобы в полной мере использовать ваше устройство",
+    "type": "string"
+  },
+  {
+    "name": "now_lets_set_up_everything_else_explanation",
+    "zh": "您的工作资料已设置完毕，您还可以添加个人 Google 帐号，以便访问您的应用和内容。",
+    "ru": "Ваш рабочий профиль готов. Вы также можете добавить личный аккаунт Google, чтобы получить доступ к своим приложениям и контенту.",
+    "type": "string"
+  },
+  {
+    "name": "ok_setup",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "one_place_for_work_apps",
+    "zh": "工作应用尽汇于此",
+    "ru": "Здесь собраны все рабочие приложения",
+    "type": "string"
+  },
+  {
+    "name": "opening_paragraph_delete_profile",
+    "zh": "您已拥有可通过以下应用管理的工作资料：",
+    "ru": "У вас уже есть рабочий профиль, которым можно управлять с помощью следующих приложений:",
+    "type": "string"
+  },
+  {
+    "name": "organization_admin",
+    "zh": "IT 管理员",
+    "ru": "ИТ-администратор",
+    "type": "string"
+  },
+  {
+    "name": "pick_launcher",
+    "zh": "确定",
+    "ru": "OK",
+    "type": "string"
+  },
+  {
+    "name": "preference_copied",
+    "zh": "已将“%1$s”复制到剪贴板。",
+    "ru": "«%1$s» скопировано в буфер обмена.",
+    "type": "string"
+  },
+  {
+    "name": "profile_benefits_description",
+    "zh": "借助工作资料，您可以将工作数据与个人数据分开存放",
+    "ru": "С помощью рабочего профиля вы можете хранить рабочие и личные данные отдельно.",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_cancel_cancel",
+    "zh": "否",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_cancel_message",
+    "zh": "要停止设置吗？",
+    "ru": "Прервать настройку?",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_cancel_ok",
+    "zh": "是",
+    "ru": "Да",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_cancelling",
+    "zh": "正在取消…",
+    "ru": "Отменяется…",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_info",
+    "zh": "您即将创建工作资料，该工作资料将由您所在的单位管理和监控。相应行为受相关条款约束。",
+    "ru": "Вы создаете рабочий профиль, который будет управляться и контролироваться вашей организацией. Ваши действия регулируются соответствующими условиями.",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_info_comp",
+    "zh": "系统将为您的工作应用创建工作资料。该工作资料和您设备的其他内容将由您所在的单位管理和监控。相应行为受相关条款约束。",
+    "ru": "Система создаст рабочий профиль для вашего рабочего приложения. Этот рабочий профиль и другие данные на вашем устройстве будут управляться и контролироваться вашей организацией. Ваши действия регулируются соответствующими условиями.",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_info_with_terms_headers",
+    "zh": "您即将创建工作资料，该工作资料将由您所在的单位管理和监控。相应行为受“%1$s”的相关条款约束。",
+    "ru": "Вы создаете рабочий профиль, которым будет управлять и контролировать ваша организация. Ваши действия регулируются соответствующими условиями «%1$s».",
+    "type": "string"
+  },
+  {
+    "name": "profile_owner_info_with_terms_headers_comp",
+    "zh": "系统将为您的工作应用创建工作资料。此工作资料和您设备的其他内容将由您所在的单位管理和监控。相应行为受“%1$s”的相关条款约束。",
+    "ru": "Система создаст рабочий профиль для вашего рабочего приложения. Этот рабочий профиль и другие данные на вашем устройстве будут управляться и контролироваться вашей организацией. Ваши действия регулируются соответствующими условиями «%1$s».",
+    "type": "string"
+  },
+  {
+    "name": "progress_connect_to_mobile_network",
+    "zh": "正在连接到移动网络…",
+    "ru": "Подключение к мобильной сети…",
+    "type": "string"
+  },
+  {
+    "name": "progress_connect_to_wifi",
+    "zh": "正在连接到 WLAN 网络…",
+    "ru": "Подключение к сети WLAN…",
+    "type": "string"
+  },
+  {
+    "name": "progress_data_process",
+    "zh": "正在处理设置数据…",
+    "ru": "Обработка данных настроек…",
+    "type": "string"
+  },
+  {
+    "name": "progress_delete_non_required_apps",
+    "zh": "正在移除不需要的系统应用…",
+    "ru": "Удаление ненужных системных приложений…",
+    "type": "string"
+  },
+  {
+    "name": "progress_download",
+    "zh": "正在下载管理应用…",
+    "ru": "Загрузка приложения управления…",
+    "type": "string"
+  },
+  {
+    "name": "progress_finishing_touches",
+    "zh": "正在进行最后几项设置…",
+    "ru": "Выполнение последних настроек…",
+    "type": "string"
+  },
+  {
+    "name": "progress_initialize",
+    "zh": "正在初始化设备…",
+    "ru": "Инициализация устройства…",
+    "type": "string"
+  },
+  {
+    "name": "progress_install",
+    "zh": "正在安装管理应用…",
+    "ru": "Установка приложения управления…",
+    "type": "string"
+  },
+  {
+    "name": "progress_set_owner",
+    "zh": "正在设置设备所有者…",
+    "ru": "Настройка владельца устройства…",
+    "type": "string"
+  },
+  {
+    "name": "provisioning",
+    "zh": "正在配置",
+    "ru": "Настройка…",
+    "type": "string"
+  },
+  {
+    "name": "provisioning_error_title",
+    "zh": "糟糕，出错了！",
+    "ru": "Ой, ошибка!",
+    "type": "string"
+  },
+  {
+    "name": "read_terms",
+    "zh": "阅读条款",
+    "ru": "Прочитать условия",
+    "type": "string"
+  },
+  {
+    "name": "reset",
+    "zh": "重置",
+    "ru": "Сброс",
+    "type": "string"
+  },
+  {
+    "name": "reset_device",
+    "zh": "请重置此设备，然后尝试重新进行设置",
+    "ru": "Пожалуйста, сбросьте это устройство, а затем попробуйте выполнить настройку заново",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "section_content",
+    "zh": "“%1$s”章节内容：%2$s",
+    "ru": "Содержание главы «%1$s»: %2$s",
+    "type": "string"
+  },
+  {
+    "name": "section_heading",
+    "zh": "“%1$s”章节标题。",
+    "ru": "Заголовок главы «%1$s».",
+    "type": "string"
+  },
+  {
+    "name": "set_up_everything_else",
+    "zh": "设置所有其他内容",
+    "ru": "Настроить всё остальное",
+    "type": "string"
+  },
+  {
+    "name": "set_up_your_device",
+    "zh": "设置设备",
+    "ru": "Настроить устройство",
+    "type": "string"
+  },
+  {
+    "name": "setting_up_workspace",
+    "zh": "正在设置工作资料…",
+    "ru": "Настройка рабочего профиля…",
+    "type": "string"
+  },
+  {
+    "name": "setup_device",
+    "zh": "设置您的设备",
+    "ru": "Настройте устройство",
+    "type": "string"
+  },
+  {
+    "name": "setup_device_encryption",
+    "zh": "设置您的设备。加密",
+    "ru": "Настройте устройство. Шифрование",
+    "type": "string"
+  },
+  {
+    "name": "setup_device_progress",
+    "zh": "设置您的设备。当前显示的是进程",
+    "ru": "Настройте устройство. Отображается ход процесса",
+    "type": "string"
+  },
+  {
+    "name": "setup_isnt_finished_contact_admin",
+    "zh": "设置尚未完成。如需帮助，请与您的 IT 管理员联系。",
+    "ru": "Настройка не завершена. Если вам нужна помощь, обратитесь к вашему IT-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "setup_profile",
+    "zh": "设置您的资料",
+    "ru": "Настройте свой профиль",
+    "type": "string"
+  },
+  {
+    "name": "setup_profile_encryption",
+    "zh": "设置您的个人资料。加密",
+    "ru": "Настройте свой профиль. Шифрование",
+    "type": "string"
+  },
+  {
+    "name": "setup_profile_progress",
+    "zh": "设置您的个人资料。当前显示的是进程",
+    "ru": "Настройте свой профиль. Отображается ход процесса",
+    "type": "string"
+  },
+  {
+    "name": "setup_provisioning_header",
+    "zh": "正在准备设置工作设备…",
+    "ru": "Подготовка к настройке рабочего устройства…",
+    "type": "string"
+  },
+  {
+    "name": "setup_provisioning_header_description",
+    "zh": "设置管理应用",
+    "ru": "Настройка приложений",
+    "type": "string"
+  },
+  {
+    "name": "setup_work_device",
+    "zh": "正在设置工作设备…",
+    "ru": "Настройка рабочего устройства…",
+    "type": "string"
+  },
+  {
+    "name": "setup_work_profile",
+    "zh": "设置工作资料",
+    "ru": "Настройка рабочего профиля",
+    "type": "string"
+  },
+  {
+    "name": "something_went_wrong",
+    "zh": "出了点问题",
+    "ru": "Что-то пошло не так",
+    "type": "string"
+  },
+  {
+    "name": "stop_setup_reset_device_question",
+    "zh": "要停止设置并重置设备吗？",
+    "ru": "Прервать настройку и сбросить устройство?",
+    "type": "string"
+  },
+  {
+    "name": "sure_you_want_to_delete_profile",
+    "zh": "如果您继续，系统将删除此工作资料中的所有应用和数据。",
+    "ru": "Если вы продолжите, система удалит все приложения и данные в этом рабочем профиле.",
+    "type": "string"
+  },
+  {
+    "name": "take_a_few_minutes",
+    "zh": "这可能需要几分钟的时间",
+    "ru": "Это может занять несколько минут",
+    "type": "string"
+  },
+  {
+    "name": "terms",
+    "zh": "条款",
+    "ru": "Условия",
+    "type": "string"
+  },
+  {
+    "name": "the_following_is_your_mdm",
+    "zh": "以下应用需要此资料的访问权限：",
+    "ru": "Следующие приложения требуют доступа к этим данным:",
+    "type": "string"
+  },
+  {
+    "name": "the_following_is_your_mdm_for_device",
+    "zh": "以下应用将管理您的设备：",
+    "ru": "Следующие приложения будут управлять вашим устройством:",
+    "type": "string"
+  },
+  {
+    "name": "theft_protection_disabled_warning",
+    "zh": "要使用防盗保护功能，您必须为您的设备设置一种采用密码保护的屏幕锁定方式。",
+    "ru": "Для использования функции защиты от кражи вам необходимо установить на устройстве блокировку экрана с защитой паролем.",
+    "type": "string"
+  },
+  {
+    "name": "this_will_reset_take_back_first_screen",
+    "zh": "此操作将重置您的设备，您将会回到首屏画面",
+    "ru": "Это действие сбросит ваше устройство, и вы вернетесь на главный экран",
+    "type": "string"
+  },
+  {
+    "name": "url_error",
+    "zh": "无法显示此链接。",
+    "ru": "Не удалось отобразить эту ссылку.",
+    "type": "string"
+  },
+  {
+    "name": "user_consent_msg",
+    "zh": "我同意",
+    "ru": "Я согласен",
+    "type": "string"
+  },
+  {
+    "name": "user_setup_incomplete",
+    "zh": "用户设置未完成",
+    "ru": "Настройка пользователя не завершена",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_off",
+    "zh": "关闭",
+    "ru": "Отключить",
+    "type": "string"
+  },
+  {
+    "name": "v7_preference_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "view_terms",
+    "zh": "查看条款",
+    "ru": "Просмотреть условия",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_cant_be_added_contact_admin",
+    "zh": "无法将工作资料添加到此设备。如有任何疑问，请与您的 IT 管理员联系。",
+    "ru": "Не удалось добавить рабочий профиль на это устройство. Если у вас возникнут вопросы, обратитесь к вашему ИТ-администратору.",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_description",
+    "zh": "您的工作应用将保存在此工作资料中，并由贵单位管理",
+    "ru": "Ваши рабочие приложения будут сохранены в этом рабочем профиле и управляться вашей организацией.",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_info",
+    "zh": "工作资料信息",
+    "ru": "Информация о рабочем профиле",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_accept_header_post_suw",
+    "zh": "请设置您的工作资料",
+    "ru": "Настройте рабочий профиль",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_progress_label",
+    "zh": "正在设置您的工作资料…",
+    "ru": "Настройка вашего рабочего профиля…",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_step_1_header",
+    "zh": "工作应用位于您的工作资料中",
+    "ru": "Рабочие приложения находятся в вашем рабочем профиле",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_step_2_header",
+    "zh": "完成一天的工作后暂停工作应用",
+    "ru": "Приостановить рабочие приложения после завершения рабочего дня",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_step_3_header",
+    "zh": "您的 IT 管理员可以查看您工作资料内的数据",
+    "ru": "Ваш ИТ-администратор может просматривать данные в вашем рабочем профиле",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_provisioning_summary",
+    "zh": "工作应用会保存在您的工作资料中。您可以在完成一天的工作之后暂停工作应用。您的 IT 管理员可以查看您工作资料内的数据。",
+    "ru": "Рабочие приложения будут сохранены в вашем рабочем профиле. После завершения рабочего дня вы можете приостановить работу рабочих приложений. Ваш ИТ-администратор может просматривать данные в вашем рабочем профиле.",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_setup_later_message",
+    "zh": "您稍后可以在您所在单位的设备管理应用中设置您的工作资料",
+    "ru": "Позже вы сможете настроить рабочий профиль в приложении управления устройствами вашей организации",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_setup_later_title",
+    "zh": "要停止资料设置吗？",
+    "ru": "Прервать настройку профиля?",
+    "type": "string"
+  },
+  {
+    "name": "work_profile_setup_stop",
+    "zh": "停止",
+    "ru": "Остановить",
+    "type": "string"
+  },
+  {
+    "name": "your_org_app_used",
+    "zh": "%1$s将使用以下应用管理和监控此设备：",
+    "ru": "%1$s будет использовать следующие приложения для управления и мониторинга этого устройства:",
+    "type": "string"
+  },
+  {
+    "name": "your_organization_beginning",
+    "zh": "您的单位",
+    "ru": "Ваша организация",
+    "type": "string"
+  },
+  {
+    "name": "your_organization_middle",
+    "zh": "您的单位",
+    "ru": "Ваша организация",
+    "type": "string"
+  },
+  {
+    "name": "read_more_delete_profile",
+    "zh": "请先<a href=\"#read_this_link\">阅读此文</a>，然后再继续。",
+    "ru": "Сначала <a href=\"#read_this_link\">прочитайте эту статью</a>, а затем продолжайте.",
+    "type": "string",
+    "styled": true
+  }
+]

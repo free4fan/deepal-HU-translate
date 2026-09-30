@@ -1,0 +1,3530 @@
+[
+  {
+    "name": "album_tab",
+    "zh": "专辑",
+    "ru": "Альбом",
+    "type": "string"
+  },
+  {
+    "name": "areaid",
+    "zh": "域",
+    "ru": "Домен",
+    "type": "string"
+  },
+  {
+    "name": "back_close_txt",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "banner_adapter_null_error",
+    "zh": "Adapter为空！请检查下参数",
+    "ru": "Адаптер пуст! Проверьте параметры.",
+    "type": "string"
+  },
+  {
+    "name": "broadcast_playing",
+    "zh": "直播中：%s",
+    "ru": "В эфире: %s",
+    "type": "string"
+  },
+  {
+    "name": "bt_is_playing_tip",
+    "zh": "蓝牙音乐正在播放",
+    "ru": "Bluetooth-музыка воспроизводится",
+    "type": "string"
+  },
+  {
+    "name": "bt_not_connected",
+    "zh": "蓝牙未连接",
+    "ru": "Bluetooth не подключен",
+    "type": "string"
+  },
+  {
+    "name": "cancel_open_qq_music_member",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "clear_history",
+    "zh": "清空历史",
+    "ru": "Очистить историю",
+    "type": "string"
+  },
+  {
+    "name": "collected_no_data",
+    "zh": "暂无收藏",
+    "ru": "Нет избранных",
+    "type": "string"
+  },
+  {
+    "name": "daily_recommend",
+    "zh": "每日推荐",
+    "ru": "Рекомендации дня",
+    "type": "string"
+  },
+  {
+    "name": "daily_recommend_description",
+    "zh": "\"用音乐\n唤醒美好一天\"",
+    "ru": "\"Музыкой\\nпробуди прекрасный день\"",
+    "type": "string"
+  },
+  {
+    "name": "dialog_privacy_policy_msg_start_up",
+    "zh": "\"感谢你选择QQ音乐！为保障您的权利，在继续使用我们的服务前，请通过&lt;a href='https://y.qq.com/y/static/protocol/car_service.html'>《QQ音乐服务许可协议》&lt;/a>和&lt;a href='https://privacy.qq.com/document/preview/240edaf9672d4df0a7060a38fc91fa1d'>《QQ音乐隐私保护指引》&lt;/a>了解我们对于个人信息的使用情况与您所享有的相关权利。我们将严格按照以上文件为你提供服务，并以专业的技术为你的信息安全保驾护航。&lt;br/>您可以通过阅读完整版&lt;a href='https://y.qq.com/y/static/protocol/car_service.html'>《QQ音乐服务许可协议》&lt;/a>和&lt;a href='https://privacy.qq.com/document/preview/240edaf9672d4df0a7060a38fc91fa1d'>《QQ音乐隐私保护指引》&lt;/a>了解详细信息。&lt;br/>如您同意，请点击“同意”开始接受我们的服务。\"",
+    "ru": "\"Спасибо, что выбрали QQ Музыка! В целях защиты ваших прав, перед продолжением использования наших услуг ознакомьтесь через <a href=’https://y.qq.com/y/static/protocol/car_service.html’>«Лицензионное соглашение QQ Музыка»</a> и <a href=’https://privacy.qq.com/document/preview/240edaf9672d4df0a7060a38fc91fa1d’>«Руководство по защите конфиденциальности QQ Музыка»</a> с информацией об использовании персональных данных и соответствующими правами. Мы будем оказывать услуги в строгом соответствии с указанными документами и обеспечивать безопасность ваших данных с помощью профессиональных технологий.<br/>Подробную информацию вы можете получить, прочитав полный текст <a href=’https://y.qq.com/y/static/protocol/car_service.html’>«Лицензионное соглашение QQ Музыка»</a> и <a href=’https://privacy.qq.com/document/preview/240edaf9672d4df0a7060a38fc91fa1d’>«Руководство по защите конфиденциальности QQ Музыка»</a>.<br/>Если вы согласны, нажмите «Согласен», чтобы начать пользоваться нашими услугами.\"",
+    "type": "string"
+  },
+  {
+    "name": "effect_list",
+    "zh": "银河音效",
+    "ru": "Звук «Галактика»",
+    "type": "string"
+  },
+  {
+    "name": "effect_list_top_off",
+    "zh": "开启专属音效",
+    "ru": "Включить эксклюзивный звук",
+    "type": "string"
+  },
+  {
+    "name": "effect_list_top_on",
+    "zh": "当前使用：",
+    "ru": "Используется:",
+    "type": "string"
+  },
+  {
+    "name": "european_new_songs",
+    "zh": "欧美最新",
+    "ru": "Новинки Запада",
+    "type": "string"
+  },
+  {
+    "name": "funcid",
+    "zh": "功能ID",
+    "ru": "ID функции",
+    "type": "string"
+  },
+  {
+    "name": "go_open_qq_music_member",
+    "zh": "去开通",
+    "ru": "Подключить",
+    "type": "string"
+  },
+  {
+    "name": "goto_sound_effect",
+    "zh": "前往个性化声效",
+    "ru": "Персональные звуки",
+    "type": "string"
+  },
+  {
+    "name": "guess_you_like",
+    "zh": "猜你喜欢",
+    "ru": "Вам может понравиться",
+    "type": "string"
+  },
+  {
+    "name": "hdd_is_playing_tip",
+    "zh": "本地音乐正在播放",
+    "ru": "Сейчас воспроизводится локальная музыка",
+    "type": "string"
+  },
+  {
+    "name": "hint_mine",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "history_no_data",
+    "zh": "暂无播放",
+    "ru": "Нет воспроизведения",
+    "type": "string"
+  },
+  {
+    "name": "home_qm_high_description",
+    "zh": "每天一张品质享受",
+    "ru": "Ежедневное наслаждение качественным звучанием",
+    "type": "string"
+  },
+  {
+    "name": "home_qm_singer_title",
+    "zh": "歌手推荐",
+    "ru": "Рекомендуемые артисты",
+    "type": "string"
+  },
+  {
+    "name": "home_qm_song_list_title",
+    "zh": "歌单广场",
+    "ru": "Каталог плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "home_qq_high_description",
+    "zh": "\"好音质\n每天一张高品享受\"",
+    "ru": "\"Отличное качество звука\\nЕжедневное наслаждение высоким качеством\"",
+    "type": "string"
+  },
+  {
+    "name": "home_rank_fragment_title",
+    "zh": "榜单推荐",
+    "ru": "Рекомендуемые чарты",
+    "type": "string"
+  },
+  {
+    "name": "hongkong_golden_songs",
+    "zh": "港台金曲",
+    "ru": "Хиты Гонконга/Тайваня",
+    "type": "string"
+  },
+  {
+    "name": "indicator_color_error",
+    "zh": "指示器的颜色只能设置成“@color/colorID or #000000”",
+    "ru": "Цвет индикатора может быть задан только в формате «@color/colorID or #000000»",
+    "type": "string"
+  },
+  {
+    "name": "japanese_new_songs",
+    "zh": "日语新作",
+    "ru": "Новые японские треки",
+    "type": "string"
+  },
+  {
+    "name": "karaoke_toast_close",
+    "zh": "唱歌模式已关闭",
+    "ru": "Режим караоке отключён.",
+    "type": "string"
+  },
+  {
+    "name": "karaoke_toast_not_support",
+    "zh": "当前车型不支持无麦K歌",
+    "ru": "Данная модель не поддерживает караоке без микрофона.",
+    "type": "string"
+  },
+  {
+    "name": "karaoke_toast_open",
+    "zh": "唱歌已开启，随时随地，想唱就唱",
+    "ru": "Караоке включено. Пой, где и когда захочешь.",
+    "type": "string"
+  },
+  {
+    "name": "karaoke_toast_take_off_mic",
+    "zh": "请先拔掉麦克风",
+    "ru": "Сначала отключите микрофон.",
+    "type": "string"
+  },
+  {
+    "name": "korean_new_songs",
+    "zh": "韩语速发",
+    "ru": "Новинки на корейском",
+    "type": "string"
+  },
+  {
+    "name": "kugou_high_quality",
+    "zh": "高品音质",
+    "ru": "Высокое качество звука",
+    "type": "string"
+  },
+  {
+    "name": "kugou_high_quality_vip",
+    "zh": "高品音质VIP",
+    "ru": "VIP: высокое качество звука",
+    "type": "string"
+  },
+  {
+    "name": "kugou_lossless_quality",
+    "zh": "无损音质",
+    "ru": "Качество без потерь",
+    "type": "string"
+  },
+  {
+    "name": "kugou_normal_quality",
+    "zh": "标准音质",
+    "ru": "Стандартное качество",
+    "type": "string"
+  },
+  {
+    "name": "load_complete",
+    "zh": "暂时没有更多了~",
+    "ru": "Пока больше нет~",
+    "type": "string"
+  },
+  {
+    "name": "load_end",
+    "zh": "我是底线···",
+    "ru": "Это всё···",
+    "type": "string"
+  },
+  {
+    "name": "load_end_line",
+    "zh": "我是底线···",
+    "ru": "Это всё···",
+    "type": "string"
+  },
+  {
+    "name": "load_fail_retry_text",
+    "zh": "重试",
+    "ru": "Повторить",
+    "type": "string"
+  },
+  {
+    "name": "load_fail_text",
+    "zh": "加载失败，请检查网络或重试",
+    "ru": "Ошибка загрузки. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "load_no_net_setting_text",
+    "zh": "去设置",
+    "ru": "Перейти в настройки",
+    "type": "string"
+  },
+  {
+    "name": "load_no_net_text",
+    "zh": "无网络连接，请检查网络设置",
+    "ru": "Нет подключения к сети, проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "loading_please_wait",
+    "zh": "加载中，请稍后",
+    "ru": "Загрузка, пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "loading_pls_wait",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_connected",
+    "zh": "已连接 %s",
+    "ru": "Подключено к %s",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_default_name",
+    "zh": "未知设备",
+    "ru": "Неизвестное устройство",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_default_tip",
+    "zh": "未知",
+    "ru": "Неизвестно",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_no_connected",
+    "zh": "蓝牙未连接",
+    "ru": "Bluetooth не подключен",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_song_default_title",
+    "zh": "请在手机上播放音乐",
+    "ru": "Пожалуйста, воспроизведите музыку на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_song_is_playing",
+    "zh": "正在播放中...",
+    "ru": "Сейчас воспроизводится...",
+    "type": "string"
+  },
+  {
+    "name": "local_bt_unavailable",
+    "zh": "手车互联连接中，蓝牙音乐不可用",
+    "ru": "Идёт подключение смартфона к автомобилю, воспроизведение музыки по Bluetooth недоступно",
+    "type": "string"
+  },
+  {
+    "name": "local_can_handle_bt_progress",
+    "zh": "暂不支持进度调节",
+    "ru": "Регулировка прогресса временно не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "local_change_bt_device",
+    "zh": "切换设备",
+    "ru": "Переключить устройство",
+    "type": "string"
+  },
+  {
+    "name": "local_connect_bt",
+    "zh": "连接蓝牙",
+    "ru": "Подключить Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "local_folder_null",
+    "zh": "暂无文件夹显示",
+    "ru": "Нет папок для отображения",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_no_content",
+    "zh": "没有本地存储内容",
+    "ru": "Нет локально сохранённых данных",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_no_music",
+    "zh": "设备内无音乐",
+    "ru": "В устройстве нет музыки",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_pause_all",
+    "zh": "暂停全部",
+    "ru": "Приостановить все",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_play_all",
+    "zh": "播放全部",
+    "ru": "Воспроизвести всё",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_total_num",
+    "zh": "共%d首",
+    "ru": "Всего %d песен",
+    "type": "string"
+  },
+  {
+    "name": "local_hdd_txt",
+    "zh": "本地存储",
+    "ru": "Локальное хранилище",
+    "type": "string"
+  },
+  {
+    "name": "local_no_lrcy",
+    "zh": "暂无歌词",
+    "ru": "Текст песни недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "local_search_default_hint",
+    "zh": "搜索歌曲",
+    "ru": "Поиск песен",
+    "type": "string"
+  },
+  {
+    "name": "local_search_empty_toast",
+    "zh": "请输入搜索内容",
+    "ru": "Введите поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "local_sound_effect",
+    "zh": "音效",
+    "ru": "Звуковые эффекты",
+    "type": "string"
+  },
+  {
+    "name": "local_txt_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "local_txt_search_nav_music",
+    "zh": "歌曲",
+    "ru": "Песня",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_folder_name",
+    "zh": "文件夹name",
+    "ru": "Имя папки",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_inserted",
+    "zh": "USB已插入",
+    "ru": "USB подключён",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_music_reading_over",
+    "zh": "U盘读取结束",
+    "ru": "Чтение USB завершено",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_no_connected",
+    "zh": "U盘未连接",
+    "ru": "USB не подключен",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_no_content",
+    "zh": "暂未有内容",
+    "ru": "Контент пока отсутствует",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_no_music",
+    "zh": "USB无音乐",
+    "ru": "Нет музыки на USB",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_reading",
+    "zh": "USB读取中…",
+    "ru": "Чтение USB…",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_song_name",
+    "zh": "歌曲name",
+    "ru": "Название песни",
+    "type": "string"
+  },
+  {
+    "name": "local_usb_unplugged",
+    "zh": "USB已拔出",
+    "ru": "USB извлечён",
+    "type": "string"
+  },
+  {
+    "name": "local_warn_txt_empty_search",
+    "zh": "抱歉，没有找到“%s”相关的内容",
+    "ru": "К сожалению, по запросу «%s» ничего не найдено.",
+    "type": "string"
+  },
+  {
+    "name": "login",
+    "zh": "登录",
+    "ru": "Войти",
+    "type": "string"
+  },
+  {
+    "name": "login_expire",
+    "zh": "登录过期，请重新登录",
+    "ru": "Срок действия сессии истёк, пожалуйста, войдите заново.",
+    "type": "string"
+  },
+  {
+    "name": "mainland_new_songs",
+    "zh": "内地新歌",
+    "ru": "Новые песни КНР",
+    "type": "string"
+  },
+  {
+    "name": "man",
+    "zh": "男",
+    "ru": "Мужчина",
+    "type": "string"
+  },
+  {
+    "name": "mine_QR_failure",
+    "zh": "二维码已失效点击刷新",
+    "ru": "QR-код истёк. Нажмите для обновления.",
+    "type": "string"
+  },
+  {
+    "name": "mine_accomplish",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "mine_account_management",
+    "zh": "账号管理",
+    "ru": "Управление аккаунтами",
+    "type": "string"
+  },
+  {
+    "name": "mine_account_not_Login",
+    "zh": "账号未登录",
+    "ru": "Аккаунт не авторизован",
+    "type": "string"
+  },
+  {
+    "name": "mine_agree_relevant_clause",
+    "zh": "请同意相关条款",
+    "ru": "Примите соответствующие условия",
+    "type": "string"
+  },
+  {
+    "name": "mine_agreement",
+    "zh": "用户中心",
+    "ru": "Личный кабинет",
+    "type": "string"
+  },
+  {
+    "name": "mine_album",
+    "zh": "专辑",
+    "ru": "Альбом",
+    "type": "string"
+  },
+  {
+    "name": "mine_already_download",
+    "zh": "已下载",
+    "ru": "Скачано",
+    "type": "string"
+  },
+  {
+    "name": "mine_audio",
+    "zh": "有声",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "mine_bindingText",
+    "zh": "同意媒体中心账号授权绑定以下服务账户",
+    "ru": "Согласиться на привязку аккаунта Media Center к следующим сервисным аккаунтам",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_collection",
+    "zh": "绑定后即可同步推荐及收藏内容",
+    "ru": "После привязки можно синхронизировать рекомендации и избранное",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_fail",
+    "zh": "绑定失败，请重试",
+    "ru": "Привязка не выполнена, попробуйте ещё раз",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_kugou",
+    "zh": "同意媒体中心账号绑定酷狗音乐",
+    "ru": "Согласиться на привязку аккаунта Media Center к Kugou Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_qq",
+    "zh": "您可以使用QQ、微信和QQ音乐扫码登录",
+    "ru": "Вы можете войти, отсканировав QR-код в QQ, WeChat и QQ Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_success",
+    "zh": "绑定成功",
+    "ru": "Привязка выполнена",
+    "type": "string"
+  },
+  {
+    "name": "mine_binding_xima",
+    "zh": "同意媒体中心账号绑定喜马拉雅",
+    "ru": "Согласиться на привязку аккаунта Media Center к Ximalaya",
+    "type": "string"
+  },
+  {
+    "name": "mine_broadcast",
+    "zh": "广播",
+    "ru": "Радио",
+    "type": "string"
+  },
+  {
+    "name": "mine_cancel",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "mine_cancel_clean",
+    "zh": "取消清理",
+    "ru": "Отменить очистку",
+    "type": "string"
+  },
+  {
+    "name": "mine_check_all",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "mine_check_authorization_service",
+    "zh": "请先勾选任一应用授权服务",
+    "ru": "Пожалуйста, сначала отметьте хотя бы одну услугу авторизации приложения",
+    "type": "string"
+  },
+  {
+    "name": "mine_cleaning_cache",
+    "zh": "清理缓存中",
+    "ru": "Идёт очистка кеша",
+    "type": "string"
+  },
+  {
+    "name": "mine_clear_cache",
+    "zh": "清理缓存",
+    "ru": "Очистить кеш",
+    "type": "string"
+  },
+  {
+    "name": "mine_clearing",
+    "zh": "清除中…",
+    "ru": "Очистка…",
+    "type": "string"
+  },
+  {
+    "name": "mine_click_jump_login",
+    "zh": "点击跳转登录",
+    "ru": "Нажмите, чтобы перейти к входу",
+    "type": "string"
+  },
+  {
+    "name": "mine_close_kugou_scan_login_page",
+    "zh": "关闭酷狗扫码登录页！",
+    "ru": "Закрыть страницу входа в Kugou по QR-коду!",
+    "type": "string"
+  },
+  {
+    "name": "mine_complete",
+    "zh": "完成",
+    "ru": "Завершить",
+    "type": "string"
+  },
+  {
+    "name": "mine_confirm",
+    "zh": "确认",
+    "ru": "Подтвердить",
+    "type": "string"
+  },
+  {
+    "name": "mine_confirm_exit",
+    "zh": "确认退出",
+    "ru": "Подтвердить выход",
+    "type": "string"
+  },
+  {
+    "name": "mine_confirm_next_step",
+    "zh": "确认进入下一步",
+    "ru": "Подтвердить следующий шаг",
+    "type": "string"
+  },
+  {
+    "name": "mine_continue",
+    "zh": "继续",
+    "ru": "Продолжить",
+    "type": "string"
+  },
+  {
+    "name": "mine_date_of_expiry",
+    "zh": "有效期至：%s",
+    "ru": "Действителен до: %s",
+    "type": "string"
+  },
+  {
+    "name": "mine_definite_change_account",
+    "zh": "确定并更换账号",
+    "ru": "Подтвердить и сменить аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "mine_definite_exit_account",
+    "zh": "确定退出当前账号",
+    "ru": "Вы уверены, что хотите выйти из текущего аккаунта?",
+    "type": "string"
+  },
+  {
+    "name": "mine_definite_exit_binding",
+    "zh": "确定退出授权绑定流程！",
+    "ru": "Вы уверены, что хотите выйти из процесса авторизации и привязки!",
+    "type": "string"
+  },
+  {
+    "name": "mine_delete",
+    "zh": "删除",
+    "ru": "Удалить",
+    "type": "string"
+  },
+  {
+    "name": "mine_delete_downloaded_singles",
+    "zh": "此操作将删除已下载单曲，删除后将不能再无网络状态下听此歌曲",
+    "ru": "Это действие удалит загруженные треки. После удаления вы не сможете прослушивать их без подключения к сети.",
+    "type": "string"
+  },
+  {
+    "name": "mine_deselect_all",
+    "zh": "取消全选",
+    "ru": "Снять выделение",
+    "type": "string"
+  },
+  {
+    "name": "mine_discount_coupon",
+    "zh": "优惠券",
+    "ru": "Скидочный купон",
+    "type": "string"
+  },
+  {
+    "name": "mine_download_failed",
+    "zh": "下载失败",
+    "ru": "Загрузка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "mine_edit",
+    "zh": "编辑",
+    "ru": "Редактировать",
+    "type": "string"
+  },
+  {
+    "name": "mine_exit_binding",
+    "zh": "如果退出您将无法享受推荐及收藏等功能",
+    "ru": "Если вы выйдете, рекомендации, избранное и другие функции станут недоступны.",
+    "type": "string"
+  },
+  {
+    "name": "mine_exit_kugou_account",
+    "zh": "退出酷狗账号",
+    "ru": "Выйти из аккаунта Kugou",
+    "type": "string"
+  },
+  {
+    "name": "mine_exit_xima_account",
+    "zh": "退出喜马拉雅账号",
+    "ru": "Выйти из аккаунта Ximalaya",
+    "type": "string"
+  },
+  {
+    "name": "mine_expire",
+    "zh": "到期",
+    "ru": "Срок истёк",
+    "type": "string"
+  },
+  {
+    "name": "mine_expired_order",
+    "zh": "订单过期",
+    "ru": "Заказ просрочен",
+    "type": "string"
+  },
+  {
+    "name": "mine_first_month_special",
+    "zh": "首月特惠",
+    "ru": "Скидка 1-й месяц",
+    "type": "string"
+  },
+  {
+    "name": "mine_i_see",
+    "zh": "我知道了",
+    "ru": "Понятно",
+    "type": "string"
+  },
+  {
+    "name": "mine_kugou_member_rights",
+    "zh": "酷狗车载会有权益，畅享千万曲库",
+    "ru": "В автомобильной версии Kugou вас ждут привилегии — наслаждайтесь библиотекой из десятков миллионов треков.",
+    "type": "string"
+  },
+  {
+    "name": "mine_kugou_no_login",
+    "zh": "当前未登录酷狗音乐账号",
+    "ru": "В настоящее время не выполнен вход в аккаунт Kugou Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_kugou_scan",
+    "zh": "酷狗APP扫码",
+    "ru": "Сканировать QR Kugou",
+    "type": "string"
+  },
+  {
+    "name": "mine_loading",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "mine_log_out",
+    "zh": "退出登录",
+    "ru": "Выйти",
+    "type": "string"
+  },
+  {
+    "name": "mine_login",
+    "zh": "立即登录",
+    "ru": "Войти сейчас",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_kugou_account",
+    "zh": "请登录酷狗音乐账号",
+    "ru": "Пожалуйста, войдите в аккаунт Kugou Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_privacy_qq_agreement",
+    "zh": "确认登录表示同意QQ音乐《用户服务协议》和《隐私协议》",
+    "ru": "Подтверждение входа означает согласие с «Условиями предоставления услуг» и «Политикой конфиденциальности» QQ Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_qq_account",
+    "zh": "请登录QQ音乐账号",
+    "ru": "Пожалуйста, войдите в аккаунт QQ Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_up",
+    "zh": "账号登录",
+    "ru": "Вход в аккаунт",
+    "type": "string"
+  },
+  {
+    "name": "mine_login_xima_account",
+    "zh": "请登录喜马拉雅账号",
+    "ru": "Пожалуйста, войдите в аккаунт Ximalaya",
+    "type": "string"
+  },
+  {
+    "name": "mine_member",
+    "zh": "成为会员",
+    "ru": "Стать участником",
+    "type": "string"
+  },
+  {
+    "name": "mine_membership",
+    "zh": "会员资格：",
+    "ru": "Членство:",
+    "type": "string"
+  },
+  {
+    "name": "mine_membership_opening_agreement",
+    "zh": "会员开通协议",
+    "ru": "Соглашение подписки",
+    "type": "string"
+  },
+  {
+    "name": "mine_membership_renewal",
+    "zh": "会员续费",
+    "ru": "Продление членства",
+    "type": "string"
+  },
+  {
+    "name": "mine_month_three",
+    "zh": "3个月",
+    "ru": "3 месяца",
+    "type": "string"
+  },
+  {
+    "name": "mine_month_twelve",
+    "zh": "12个月",
+    "ru": "12 месяцев",
+    "type": "string"
+  },
+  {
+    "name": "mine_more",
+    "zh": "更多",
+    "ru": "Больше",
+    "type": "string"
+  },
+  {
+    "name": "mine_music",
+    "zh": "歌曲",
+    "ru": "Песни",
+    "type": "string"
+  },
+  {
+    "name": "mine_music_list",
+    "zh": "歌单",
+    "ru": "Плейлист",
+    "type": "string"
+  },
+  {
+    "name": "mine_my_collection",
+    "zh": "我的收藏",
+    "ru": "Избранное",
+    "type": "string"
+  },
+  {
+    "name": "mine_my_download",
+    "zh": "我的下载",
+    "ru": "Мои загрузки",
+    "type": "string"
+  },
+  {
+    "name": "mine_my_purchased",
+    "zh": "我的已购",
+    "ru": "Мои покупки",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_buy_album_yet",
+    "zh": "暂无购买的专辑",
+    "ru": "Пока нет купленных альбомов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_collect",
+    "zh": "暂无收藏",
+    "ru": "Пока нет избранных",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_connection",
+    "zh": "无网络连接，点击重试",
+    "ru": "Нет подключения к сети. Нажмите, чтобы повторить",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_content",
+    "zh": "暂无内容",
+    "ru": "Пока нет содержимого",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_album_yet",
+    "zh": "暂无收藏专辑",
+    "ru": "Пока нет избранных альбомов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_music_list",
+    "zh": "暂无喜欢的歌单",
+    "ru": "Пока нет любимых плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_music_list_qq",
+    "zh": "暂无收藏歌单",
+    "ru": "Пока нет избранных плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_music_radio",
+    "zh": "暂无喜欢的音乐雷达",
+    "ru": "Пока нет избранных треков в Музыкальном радаре",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_music_yet",
+    "zh": "暂无收藏歌曲",
+    "ru": "Пока нет избранных песен",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_favorite_mv_yet",
+    "zh": "暂无收藏MV",
+    "ru": "Пока нет избранных MV",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_listen_in",
+    "zh": "暂无收听",
+    "ru": "Пока нет прослушиваний",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_login_kugou_account",
+    "zh": "如果退出您将无法登录酷狗音乐账号",
+    "ru": "При выходе вы не сможете войти в аккаунт Kugou Music",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_member",
+    "zh": "非会员",
+    "ru": "Не подписчик",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_more_text",
+    "zh": "我是底线···",
+    "ru": "Я — предел...",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_music_purchased_yet",
+    "zh": "暂无购买的歌曲",
+    "ru": "Пока нет купленных песен",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_music_purchased_yet_qq",
+    "zh": "暂无购买歌曲",
+    "ru": "Пока нет купленных песен",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_open_vip_membership",
+    "zh": "尚未开通会员",
+    "ru": "Подписка не подключена",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_album",
+    "zh": "暂无播放专辑",
+    "ru": "Пока нет прослушанных альбомов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_music",
+    "zh": "暂无播放歌曲",
+    "ru": "Нет воспроизводимых песен",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_music_list",
+    "zh": "暂无播放歌单",
+    "ru": "Нет активного плейлиста",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_music_mv",
+    "zh": "暂无播放MV",
+    "ru": "Нет клипов",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_music_qq",
+    "zh": "暂无播放歌曲",
+    "ru": "Нет воспроизводимых песен",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_play_radio",
+    "zh": "暂无播放雷达",
+    "ru": "Нет радио",
+    "type": "string"
+  },
+  {
+    "name": "mine_no_selfbuild_playlist",
+    "zh": "暂无自建歌单",
+    "ru": "Пока нет своих плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "mine_not_network_retry",
+    "zh": "无网络连接，点击重试",
+    "ru": "Нет подключения к сети. Нажмите, чтобы повторить.",
+    "type": "string"
+  },
+  {
+    "name": "mine_not_remind",
+    "zh": "不再提醒",
+    "ru": "Больше не напоминать",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_kugou_vip_member",
+    "zh": "开通酷狗车载VIP会员",
+    "ru": "Оформить VIP-подписку Kugou для автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_membership",
+    "zh": "开通会员",
+    "ru": "Оформить подписку",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_membership_effect_list",
+    "zh": "立即开通会员，专享银河音效",
+    "ru": "Оформите подписку прямо сейчас и получите эксклюзивный доступ к звуковым эффектам Galaxy",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_supper_membership_effect_list",
+    "zh": "立即开通超级会员，专享银河音效",
+    "ru": "Оформите премиум-подписку прямо сейчас и получите эксклюзивный доступ к звуковым эффектам Galaxy",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_vip_membership",
+    "zh": "开通会员VIP",
+    "ru": "Оформить VIP-подписку",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_xima_richscan",
+    "zh": "打开喜马拉雅APP扫一扫",
+    "ru": "Откройте приложение Ximalaya и отсканируйте",
+    "type": "string"
+  },
+  {
+    "name": "mine_open_xima_vip_member",
+    "zh": "开通喜马拉雅车载VIP会员",
+    "ru": "Оформить VIP-подписку Ximalaya для автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "mine_pay",
+    "zh": "付费",
+    "ru": "Оплата",
+    "type": "string"
+  },
+  {
+    "name": "mine_payment_represents_your_consent",
+    "zh": "支付代表您同意",
+    "ru": "Оплата означает ваше согласие",
+    "type": "string"
+  },
+  {
+    "name": "mine_present_not_login",
+    "zh": "点击跳转登录",
+    "ru": "Нажмите, чтобы перейти к входу",
+    "type": "string"
+  },
+  {
+    "name": "mine_present_pending",
+    "zh": "当前集数：%s",
+    "ru": "Текущая серия: %s",
+    "type": "string"
+  },
+  {
+    "name": "mine_privacy_agreement",
+    "zh": "《隐私协议》",
+    "ru": "Политика конфиденциальности",
+    "type": "string"
+  },
+  {
+    "name": "mine_privacy_kugou_agreement",
+    "zh": "\"支付代表您同意\n《会员开通协议》\n《连续包月协议》\"",
+    "ru": "\"Оплата означает ваше согласие\\n«Соглашение об активации подписки»\\n«Соглашение о ежемесячной автоподписке»\"",
+    "type": "string"
+  },
+  {
+    "name": "mine_purchase_notes",
+    "zh": "《购买须知》",
+    "ru": "Условия покупки",
+    "type": "string"
+  },
+  {
+    "name": "mine_purchased",
+    "zh": "我的已购",
+    "ru": "Мои покупки",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_QR_failure",
+    "zh": "二维码失效，点击重试",
+    "ru": "QR-код истёк, нажмите, чтобы повторить",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_QR_loading",
+    "zh": "加载中...",
+    "ru": "Загрузка...",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_vip_buy_green",
+    "zh": "微信扫码购买QQ音乐会员",
+    "ru": "Отсканируйте QR-код в WeChat для покупки подписки на QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_vip_current_account",
+    "zh": "请使用当前音乐账号购买",
+    "ru": "Пожалуйста, используйте текущий аккаунт музыкального сервиса для покупки.",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_vip_property_different",
+    "zh": "QQ与微信账号的资产与权限不互通",
+    "ru": "Активы и права доступа аккаунтов QQ и WeChat не являются общими.",
+    "type": "string"
+  },
+  {
+    "name": "mine_qq_vip_user_id",
+    "zh": "账号：%s",
+    "ru": "Аккаунт: %s",
+    "type": "string"
+  },
+  {
+    "name": "mine_qqmusic_no_login",
+    "zh": "当前未登录QQ音乐账号",
+    "ru": "Вход в аккаунт QQ Музыка не выполнен.",
+    "type": "string"
+  },
+  {
+    "name": "mine_qr_load_fail",
+    "zh": "二维码加载失败",
+    "ru": "Ошибка загрузки QR-кода.",
+    "type": "string"
+  },
+  {
+    "name": "mine_qr_overdue",
+    "zh": "二维码过期",
+    "ru": "QR-код истёк",
+    "type": "string"
+  },
+  {
+    "name": "mine_radio",
+    "zh": "雷达",
+    "ru": "Радар",
+    "type": "string"
+  },
+  {
+    "name": "mine_recent_played",
+    "zh": "最近播放",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "mine_recently_played",
+    "zh": "最近播放",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "mine_renew_immediately",
+    "zh": "立即续费",
+    "ru": "Продлить сейчас",
+    "type": "string"
+  },
+  {
+    "name": "mine_retry",
+    "zh": "重新加载",
+    "ru": "Перезагрузить",
+    "type": "string"
+  },
+  {
+    "name": "mine_select_text_music_infix",
+    "zh": "首歌曲",
+    "ru": "Песня",
+    "type": "string"
+  },
+  {
+    "name": "mine_selected",
+    "zh": "已选择%d%s",
+    "ru": "Выбрано %d %s",
+    "type": "string"
+  },
+  {
+    "name": "mine_setting",
+    "zh": "设置",
+    "ru": "Настройки",
+    "type": "string"
+  },
+  {
+    "name": "mine_subtract_10_yuan_from_50",
+    "zh": "满50减10元",
+    "ru": "Скидка 10 от 50",
+    "type": "string"
+  },
+  {
+    "name": "mine_top_up_success",
+    "zh": "充值成功",
+    "ru": "Пополнение успешно",
+    "type": "string"
+  },
+  {
+    "name": "mine_update_time",
+    "zh": "上次更新 HH:mm",
+    "ru": "Последнее обновление HH:mm",
+    "type": "string"
+  },
+  {
+    "name": "mine_user_agreement",
+    "zh": "《用户协议》",
+    "ru": "Пользовательское соглашение",
+    "type": "string"
+  },
+  {
+    "name": "mine_user_agreement_text",
+    "zh": "用户协议",
+    "ru": "Соглашение",
+    "type": "string"
+  },
+  {
+    "name": "mine_vip_expired",
+    "zh": "购买会员，VIP内容免费听",
+    "ru": "Оформите подписку, слушайте VIP-контент бесплатно",
+    "type": "string"
+  },
+  {
+    "name": "mine_vip_timing_tip",
+    "zh": "会员临期提示",
+    "ru": "Подписка истекает",
+    "type": "string"
+  },
+  {
+    "name": "mine_wechat_scan",
+    "zh": "微信扫码",
+    "ru": "Скан WeChat",
+    "type": "string"
+  },
+  {
+    "name": "mine_whether_continue_deleting",
+    "zh": "是否继续删除",
+    "ru": "Продолжить удаление?",
+    "type": "string"
+  },
+  {
+    "name": "mine_xima_no_login",
+    "zh": "当前未登录喜马拉雅账号",
+    "ru": "Не выполнен вход в аккаунт Ximalaya",
+    "type": "string"
+  },
+  {
+    "name": "more",
+    "zh": "更多",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "more_europe",
+    "zh": "更多欧美",
+    "ru": "Ещё западной",
+    "type": "string"
+  },
+  {
+    "name": "more_hirse",
+    "zh": "更多高品",
+    "ru": "Ещё качественного",
+    "type": "string"
+  },
+  {
+    "name": "more_hongkong",
+    "zh": "更多港台",
+    "ru": "Ещё HK/TW",
+    "type": "string"
+  },
+  {
+    "name": "more_japan",
+    "zh": "更多日语",
+    "ru": "Ещё японского",
+    "type": "string"
+  },
+  {
+    "name": "more_korea",
+    "zh": "更多韩语",
+    "ru": "Ещё корейского",
+    "type": "string"
+  },
+  {
+    "name": "more_mainland",
+    "zh": "更多内地",
+    "ru": "Ещё материк",
+    "type": "string"
+  },
+  {
+    "name": "more_playlist",
+    "zh": "更多歌单",
+    "ru": "Больше плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "more_radio",
+    "zh": "更多雷达",
+    "ru": "Больше радио",
+    "type": "string"
+  },
+  {
+    "name": "more_rank",
+    "zh": "更多榜单",
+    "ru": "Больше чартов",
+    "type": "string"
+  },
+  {
+    "name": "more_singer",
+    "zh": "更多歌手",
+    "ru": "Больше исполнителей",
+    "type": "string"
+  },
+  {
+    "name": "music_car",
+    "zh": "车载音乐会",
+    "ru": "Концерт в салоне",
+    "type": "string"
+  },
+  {
+    "name": "my_playlist",
+    "zh": "我的歌单",
+    "ru": "Мой плейлист",
+    "type": "string"
+  },
+  {
+    "name": "need_buy",
+    "zh": "付费内容，请至手机端APP购买后收听",
+    "ru": "Платный контент. Приобретите его в мобильном приложении для прослушивания.",
+    "type": "string"
+  },
+  {
+    "name": "need_buy_try",
+    "zh": "会员歌曲试听中，开通后畅听完整版",
+    "ru": "Идёт предпрослушивание трека. Оформите подписку, чтобы слушать полную версию.",
+    "type": "string"
+  },
+  {
+    "name": "need_copyright",
+    "zh": "当前内容无版权，无法播放",
+    "ru": "Этот контент не имеет лицензии, воспроизведение невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "need_download",
+    "zh": "应版权方要求不能在线播放，可下载后播放",
+    "ru": "По требованию правообладателя онлайн-воспроизведение невозможно. Скачайте файл для прослушивания.",
+    "type": "string"
+  },
+  {
+    "name": "need_vip",
+    "zh": "付费内容，请至手机端APP购买后收听",
+    "ru": "Платный контент. Приобретите его в мобильном приложении для прослушивания.",
+    "type": "string"
+  },
+  {
+    "name": "no_music_in_the_device",
+    "zh": "设备内无音乐",
+    "ru": "В устройстве нет музыки.",
+    "type": "string"
+  },
+  {
+    "name": "no_music_in_the_hdd",
+    "zh": "本地音乐无内容",
+    "ru": "В локальной библиотеке нет музыки.",
+    "type": "string"
+  },
+  {
+    "name": "no_music_in_the_usb",
+    "zh": "USB音乐无内容",
+    "ru": "На USB нет музыки.",
+    "type": "string"
+  },
+  {
+    "name": "no_permission",
+    "zh": "当前接口仅有浏览歌曲信息权限",
+    "ru": "Текущий интерфейс имеет только право просмотра информации о треках.",
+    "type": "string"
+  },
+  {
+    "name": "no_permission_to_play",
+    "zh": "当前推荐无权播放，请重试",
+    "ru": "Нет разрешения на воспроизведение рекомендуемого контента. Повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "no_source",
+    "zh": "歌曲暂无音频资源，正努力寻找中",
+    "ru": "Аудио для этой песни временно недоступно, но мы активно ищем.",
+    "type": "string"
+  },
+  {
+    "name": "no_support_area",
+    "zh": "应版权方要求，暂无法在当前国家或地区提供此歌曲服务",
+    "ru": "По требованию правообладателя эта песня временно недоступна в вашей стране или регионе",
+    "type": "string"
+  },
+  {
+    "name": "no_support_device",
+    "zh": "抱歉，该歌曲无法在设备上播放",
+    "ru": "К сожалению, эту песню невозможно воспроизвести на устройстве.",
+    "type": "string"
+  },
+  {
+    "name": "not_parking_not_open_lyric",
+    "zh": "为了您的驾驶安全，暂不能启动全屏歌词页",
+    "ru": "В целях безопасности вождения полноэкранный режим с текстом песни временно недоступен.",
+    "type": "string"
+  },
+  {
+    "name": "on_board_concerts",
+    "zh": "媒体中心",
+    "ru": "Медиацентр",
+    "type": "string"
+  },
+  {
+    "name": "open_qq_music_huge_member",
+    "zh": "开通QQ音乐超级会员",
+    "ru": "Оформить подписку на QQ Music Super VIP",
+    "type": "string"
+  },
+  {
+    "name": "open_qq_music_listen_member",
+    "zh": "开通QQ音乐听书会员",
+    "ru": "Оформить подписку на аудиокниги QQ Music",
+    "type": "string"
+  },
+  {
+    "name": "open_qq_music_member",
+    "zh": "开通QQ音乐会员",
+    "ru": "Оформить подписку QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "out_music_text",
+    "zh": "多媒体外放模式",
+    "ru": "Режим мультимедиа на динамиках",
+    "type": "string"
+  },
+  {
+    "name": "personal_play_list",
+    "zh": "AI歌单",
+    "ru": "AI-плейлист",
+    "type": "string"
+  },
+  {
+    "name": "personal_play_list_description",
+    "zh": "\"你的\n歌单补给站\"",
+    "ru": "\"Твоя\\nстанция пополнения плейлистов\"",
+    "type": "string"
+  },
+  {
+    "name": "phone_call_toast",
+    "zh": "通话中，暂不支持操作",
+    "ru": "Действие временно недоступно во время разговора.",
+    "type": "string"
+  },
+  {
+    "name": "play_all",
+    "zh": "播放全部",
+    "ru": "Воспроизвести всё",
+    "type": "string"
+  },
+  {
+    "name": "play_detail_buy_vip",
+    "zh": "VIP歌曲试听中，立即开通QQ音乐会员",
+    "ru": "VIP-трек в режиме превью. Оформите подписку QQ Музыка прямо сейчас.",
+    "type": "string"
+  },
+  {
+    "name": "play_detail_login_qq",
+    "zh": "登录QQ音乐账号，畅听完整歌曲",
+    "ru": "Войдите в аккаунт QQ Музыка, чтобы слушать полные треки.",
+    "type": "string"
+  },
+  {
+    "name": "play_detail_show_no_concordance",
+    "zh": "灯光秀未联调",
+    "ru": "Шоу не отлажено",
+    "type": "string"
+  },
+  {
+    "name": "playlist_already_collect",
+    "zh": "歌单已收藏",
+    "ru": "В избранном",
+    "type": "string"
+  },
+  {
+    "name": "qm_clear_cache",
+    "zh": "清理缓存",
+    "ru": "Очистить кеш",
+    "type": "string"
+  },
+  {
+    "name": "qm_high_quality_song_sheet",
+    "zh": "精选歌单｜开启乐航",
+    "ru": "Подборки плейлистов | Начни музыкальное путешествие",
+    "type": "string"
+  },
+  {
+    "name": "qm_high_quality_zone",
+    "zh": "高品专区",
+    "ru": "Зона премиум",
+    "type": "string"
+  },
+  {
+    "name": "qm_high_quality_zone_description",
+    "zh": "高品单曲｜一触乐享",
+    "ru": "Высококачественный трек | Насладитесь в одно касание",
+    "type": "string"
+  },
+  {
+    "name": "qm_high_quality_zone_more",
+    "zh": "更多高品",
+    "ru": "Ещё HQ",
+    "type": "string"
+  },
+  {
+    "name": "qm_hires_quality_text",
+    "zh": "Hi-Res品质",
+    "ru": "Качество Hi-Res",
+    "type": "string"
+  },
+  {
+    "name": "qm_hq_quality_text",
+    "zh": "HQ高品音质",
+    "ru": "HQ звук",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_green_member",
+    "zh": "豪华绿钻：%s",
+    "ru": "Зелёный алмаз: %s",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_green_member_expire",
+    "zh": "豪华绿钻：%s 已到期",
+    "ru": "Премиум «Зелёный алмаз»: %s — срок истёк",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_green_opening_time",
+    "zh": "豪华绿钻：%s 到期",
+    "ru": "Премиум «Зелёный алмаз»: истекает %s",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_my_members",
+    "zh": "成为会员",
+    "ru": "Оформить подписку",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_my_renewal",
+    "zh": "会员续费",
+    "ru": "Продление подписки",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_no_opening_member",
+    "zh": "未开通会员",
+    "ru": "Подписка не оформлена",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_qq_account",
+    "zh": "请登录QQ音乐账号",
+    "ru": "Пожалуйста, войдите в аккаунт QQ Music.",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_qq_agreement",
+    "zh": "个人中心",
+    "ru": "Личный кабинет",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_super_member",
+    "zh": "超级会员：%s",
+    "ru": "Суперподписка: %s",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_super_member_expire",
+    "zh": "超级会员：%s 已到期",
+    "ru": "Суперподписка: %s — срок истёк",
+    "type": "string"
+  },
+  {
+    "name": "qm_login_super_member_opening_time",
+    "zh": "超级会员：%s 到期",
+    "ru": "Суперподписка: истекает %s",
+    "type": "string"
+  },
+  {
+    "name": "qm_music_list_more",
+    "zh": "更多歌单",
+    "ru": "Больше плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "qm_my_collection",
+    "zh": "我的收藏",
+    "ru": "Избранное",
+    "type": "string"
+  },
+  {
+    "name": "qm_my_music_play_count",
+    "zh": "%s个歌单",
+    "ru": "%s плейлистов",
+    "type": "string"
+  },
+  {
+    "name": "qm_my_song_list",
+    "zh": "我的歌单",
+    "ru": "Мои плейлисты",
+    "type": "string"
+  },
+  {
+    "name": "qm_recent_played",
+    "zh": "最近播放",
+    "ru": "Недавние",
+    "type": "string"
+  },
+  {
+    "name": "qm_sq_quality_text",
+    "zh": "SQ无损音质",
+    "ru": "SQ без потерь",
+    "type": "string"
+  },
+  {
+    "name": "qm_standard_quality_text",
+    "zh": "标准音质",
+    "ru": "Стандартное качество",
+    "type": "string"
+  },
+  {
+    "name": "qm_tv_user_agreement",
+    "zh": "用户协议",
+    "ru": "Соглашение",
+    "type": "string"
+  },
+  {
+    "name": "qq_high_quality_zone",
+    "zh": "高品专区",
+    "ru": "Зона премиум",
+    "type": "string"
+  },
+  {
+    "name": "qq_home_permission_tip",
+    "zh": "未同意权限，暂不能使用",
+    "ru": "Разрешения не предоставлены, функция временно недоступна",
+    "type": "string"
+  },
+  {
+    "name": "qq_music_member_tip",
+    "zh": "尊享专业适配汽车音质",
+    "ru": "Премиальное профессиональное качество звука, адаптированное для автомобиля",
+    "type": "string"
+  },
+  {
+    "name": "quality_not_support",
+    "zh": "此歌曲不支持%s",
+    "ru": "Эта песня не поддерживает %s",
+    "type": "string"
+  },
+  {
+    "name": "quality_select_title",
+    "zh": "音质选择",
+    "ru": "Выбор качества звука",
+    "type": "string"
+  },
+  {
+    "name": "radio_fragment_title",
+    "zh": "音乐雷达",
+    "ru": "Музыкальный радар",
+    "type": "string"
+  },
+  {
+    "name": "rank_featured_list",
+    "zh": "特色榜",
+    "ru": "Особые чарты",
+    "type": "string"
+  },
+  {
+    "name": "rank_fragment_title",
+    "zh": "榜单推荐",
+    "ru": "Рекомендуемые чарты",
+    "type": "string"
+  },
+  {
+    "name": "rank_global_list",
+    "zh": "全球榜",
+    "ru": "Глобальный чарт",
+    "type": "string"
+  },
+  {
+    "name": "rank_regional_list",
+    "zh": "地区榜",
+    "ru": "Региональный чарт",
+    "type": "string"
+  },
+  {
+    "name": "rank_top_list",
+    "zh": "巅峰榜",
+    "ru": "Топ-чарт",
+    "type": "string"
+  },
+  {
+    "name": "repeat_all_notif",
+    "zh": "循环播放",
+    "ru": "Повтор всех",
+    "type": "string"
+  },
+  {
+    "name": "repeat_current_notif",
+    "zh": "单曲循环",
+    "ru": "Повтор одного трека",
+    "type": "string"
+  },
+  {
+    "name": "retry_later",
+    "zh": "未知错误，请稍后重试",
+    "ru": "Неизвестная ошибка, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "root_app_name",
+    "zh": "音乐",
+    "ru": "Музыка",
+    "type": "string"
+  },
+  {
+    "name": "root_bt",
+    "zh": "蓝牙音乐",
+    "ru": "Музыка по Bluetooth",
+    "type": "string"
+  },
+  {
+    "name": "root_chang_an_music",
+    "zh": "QQ音乐",
+    "ru": "QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "root_default_lyric",
+    "zh": "暂无歌词",
+    "ru": "Текст песни недоступен",
+    "type": "string"
+  },
+  {
+    "name": "root_hdd",
+    "zh": "本地音乐",
+    "ru": "Лок. музыка",
+    "type": "string"
+  },
+  {
+    "name": "root_load_fail_txt_search",
+    "zh": "加载失败，请检查网络或重试",
+    "ru": "Ошибка загрузки. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "root_mine_txt_logging",
+    "zh": "用户中心",
+    "ru": "Личный кабинет",
+    "type": "string"
+  },
+  {
+    "name": "root_no_mic_karaoke",
+    "zh": "无麦K歌",
+    "ru": "Караоке без микрофона",
+    "type": "string"
+  },
+  {
+    "name": "root_no_network_txt_search",
+    "zh": "无网络连接，请检查网络设置",
+    "ru": "Нет подключения к сети, проверьте настройки сети",
+    "type": "string"
+  },
+  {
+    "name": "root_retry_load_txt_search",
+    "zh": "重新加载",
+    "ru": "Перезагрузить",
+    "type": "string"
+  },
+  {
+    "name": "root_search_default_hint",
+    "zh": "搜索歌曲/专辑/歌手",
+    "ru": "Поиск песен/альбомов/исполнителей",
+    "type": "string"
+  },
+  {
+    "name": "root_search_empty_toast",
+    "zh": "请输入搜索内容",
+    "ru": "Введите поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "root_seting_txt_search",
+    "zh": "重新加载",
+    "ru": "Перезагрузить",
+    "type": "string"
+  },
+  {
+    "name": "root_soundeffect",
+    "zh": "媒体音效",
+    "ru": "Аудиоэффекты",
+    "type": "string"
+  },
+  {
+    "name": "root_tab_child",
+    "zh": "儿童频道",
+    "ru": "Детский канал",
+    "type": "string"
+  },
+  {
+    "name": "root_tab_himalaya",
+    "zh": "喜马拉雅",
+    "ru": "Ximalaya",
+    "type": "string"
+  },
+  {
+    "name": "root_tab_kg_music",
+    "zh": "酷狗音乐",
+    "ru": "KuGou Music",
+    "type": "string"
+  },
+  {
+    "name": "root_tab_mine",
+    "zh": "我的",
+    "ru": "Мой",
+    "type": "string"
+  },
+  {
+    "name": "root_tab_qq_music",
+    "zh": "QQ音乐",
+    "ru": "QQ Музыка",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_dialog_clear_history",
+    "zh": "您是要清空所有搜索历史吗？",
+    "ru": "Вы хотите очистить всю историю поиска?",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_dialog_clear_history_false",
+    "zh": "取消",
+    "ru": "Отмена",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_dialog_clear_history_true",
+    "zh": "清空",
+    "ru": "Очистить",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_album",
+    "zh": "专辑",
+    "ru": "Альбом",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_audio_book",
+    "zh": "有声",
+    "ru": "Аудио",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_broad_cast",
+    "zh": "广播",
+    "ru": "Вещание",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_music",
+    "zh": "歌曲",
+    "ru": "Песни",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_music_list",
+    "zh": "歌单",
+    "ru": "Плейлист",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_nav_singer",
+    "zh": "歌手",
+    "ru": "Исполнители",
+    "type": "string"
+  },
+  {
+    "name": "root_txt_search_sure",
+    "zh": "确定",
+    "ru": "ОК",
+    "type": "string"
+  },
+  {
+    "name": "root_warn_txt_empty_search",
+    "zh": "未搜索到%s%s相关内容",
+    "ru": "По запросу %s%s ничего не найдено",
+    "type": "string"
+  },
+  {
+    "name": "say_speech_close",
+    "zh": "关闭",
+    "ru": "Закрыть",
+    "type": "string"
+  },
+  {
+    "name": "search_entrance",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "search_history",
+    "zh": "搜索历史",
+    "ru": "История поиска",
+    "type": "string"
+  },
+  {
+    "name": "search_input_detail_all",
+    "zh": "删除^清空^清除",
+    "ru": "Удалить^Очистить^Очистить",
+    "type": "string"
+  },
+  {
+    "name": "search_input_limit",
+    "zh": "超出文字长度限制",
+    "ru": "Превышен лимит длины текста",
+    "type": "string"
+  },
+  {
+    "name": "search_load_footer_text",
+    "zh": "我是底线···",
+    "ru": "Это всё...",
+    "type": "string"
+  },
+  {
+    "name": "search_top_recommend",
+    "zh": "热门推荐",
+    "ru": "Популярные рекомендации",
+    "type": "string"
+  },
+  {
+    "name": "selfbuild_playlist",
+    "zh": "自建",
+    "ru": "Свои",
+    "type": "string"
+  },
+  {
+    "name": "shuffle_off_notif",
+    "zh": "随机播放",
+    "ru": "Перемешивание",
+    "type": "string"
+  },
+  {
+    "name": "shuffle_on_notif",
+    "zh": "随机播放",
+    "ru": "Перемешивание",
+    "type": "string"
+  },
+  {
+    "name": "singer_all_category",
+    "zh": "全部类别",
+    "ru": "Все категории",
+    "type": "string"
+  },
+  {
+    "name": "singer_all_category_before",
+    "zh": "全部全部",
+    "ru": "Всё",
+    "type": "string"
+  },
+  {
+    "name": "singer_else_all_category",
+    "zh": "其他综合",
+    "ru": "Прочее",
+    "type": "string"
+  },
+  {
+    "name": "singer_else_all_category_before",
+    "zh": "其他全部",
+    "ru": "Всё остальное",
+    "type": "string"
+  },
+  {
+    "name": "singer_fragment_title",
+    "zh": "歌手推荐",
+    "ru": "Рекомендуемые",
+    "type": "string"
+  },
+  {
+    "name": "song_list_fragment_square",
+    "zh": "歌单广场",
+    "ru": "Плейлисты",
+    "type": "string"
+  },
+  {
+    "name": "song_list_more_text",
+    "zh": "精选歌单｜唤醒一天好心情",
+    "ru": "Избранные плейлисты | Хорошее настроение на весь день",
+    "type": "string"
+  },
+  {
+    "name": "song_single_square_hot",
+    "zh": "热门",
+    "ru": "Популярное",
+    "type": "string"
+  },
+  {
+    "name": "song_tab",
+    "zh": "单曲",
+    "ru": "Треки",
+    "type": "string"
+  },
+  {
+    "name": "sort_asc",
+    "zh": "正序",
+    "ru": "По возрастанию",
+    "type": "string"
+  },
+  {
+    "name": "sort_desc",
+    "zh": "倒序",
+    "ru": "По убыванию",
+    "type": "string"
+  },
+  {
+    "name": "sound_effect_setting",
+    "zh": "音效设置需要跳转到个性化声效",
+    "ru": "Для настройки звуковых эффектов перейдите в раздел «Персональные звуковые эффекты»",
+    "type": "string"
+  },
+  {
+    "name": "string_login_qrcode_tips",
+    "zh": "使用QQ或者微信扫描下方二维码",
+    "ru": "Отсканируйте QR-код ниже с помощью QQ или WeChat",
+    "type": "string"
+  },
+  {
+    "name": "string_qrcode_refresh",
+    "zh": "刷新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_base_hint",
+    "zh": "适合摇滚、电子乐",
+    "ru": "Подходит для рока и электронной музыки",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_bass",
+    "zh": "超重低音",
+    "ru": "Ультрабас",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_extra",
+    "zh": "环境音效",
+    "ru": "Эффекты окружения",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_none",
+    "zh": "无",
+    "ru": "Нет",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_none_hint",
+    "zh": "无音效效果",
+    "ru": "Без звуковых эффектов",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_preset",
+    "zh": "精选音效",
+    "ru": "Избранные эффекты",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_retro",
+    "zh": "华丽复古",
+    "ru": "Роскошное ретро",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_retro_hint",
+    "zh": "适合古典、交响乐",
+    "ru": "Подходит для классической и симфонической музыки",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_smart",
+    "zh": "智能音效",
+    "ru": "Умные эффекты",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_studio",
+    "zh": "现场律动",
+    "ru": "Живой ритм",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_studio_hint",
+    "zh": "适合现场、舞曲",
+    "ru": "Живой звук, танцы",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_surround",
+    "zh": "全景环绕",
+    "ru": "Объёмный звук",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_surround_hint",
+    "zh": "球面立体声技术",
+    "ru": "Сферостерео",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_vocal",
+    "zh": "清澈人声",
+    "ru": "Чистый вокал",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_vocal_hint",
+    "zh": "适合流行、古典",
+    "ru": "Поп, классика",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_warm",
+    "zh": "温暖轻柔",
+    "ru": "Тёплый и нежный",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_warm_hint",
+    "zh": "适合流行、轻音乐",
+    "ru": "Подходит для поп- и лёгкой музыки",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_wide",
+    "zh": "开阔宽音",
+    "ru": "Открытый широкий звук",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_effect_wide_hint",
+    "zh": "开阔宽音",
+    "ru": "Открытый широкий звук",
+    "type": "string"
+  },
+  {
+    "name": "super_sound_introduction_text",
+    "zh": "QQ音乐联合全球顶级声学团队开发，QQ音乐独家专享，打造震撼的听觉体验。",
+    "ru": "Разработано QQ Музыка совместно с ведущими мировыми акустическими командами, эксклюзивно для QQ Музыка. Создаёт потрясающий звуковой опыт.",
+    "type": "string"
+  },
+  {
+    "name": "text_go_top",
+    "zh": "返回顶部",
+    "ru": "Наверх",
+    "type": "string"
+  },
+  {
+    "name": "toast_load_fail",
+    "zh": "加载失败，请检查网络或重试",
+    "ru": "Ошибка загрузки. Проверьте сеть или повторите попытку",
+    "type": "string"
+  },
+  {
+    "name": "toast_loading",
+    "zh": "加载中，请稍后",
+    "ru": "Загрузка… Пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "toast_message_full_storage",
+    "zh": "您的SD卡存储空间不足，请清理后重新尝试。",
+    "ru": "На вашей SD-карте недостаточно свободного места. Пожалуйста, освободите место и повторите попытку.",
+    "type": "string"
+  },
+  {
+    "name": "toast_no_network",
+    "zh": "暂无网络",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "toast_not_network",
+    "zh": "暂无网络",
+    "ru": "Нет сети",
+    "type": "string"
+  },
+  {
+    "name": "total_episode_count2",
+    "zh": "共%d集",
+    "ru": "Всего %d серий",
+    "type": "string"
+  },
+  {
+    "name": "tv_change_category",
+    "zh": "切换类别",
+    "ru": "Переключить категорию",
+    "type": "string"
+  },
+  {
+    "name": "txt_play_all",
+    "zh": "播放全部",
+    "ru": "Воспроизвести всё",
+    "type": "string"
+  },
+  {
+    "name": "unknown_singer",
+    "zh": "未知",
+    "ru": "Неизвестно",
+    "type": "string"
+  },
+  {
+    "name": "upload_success",
+    "zh": "QQ音乐日志上传成功",
+    "ru": "Лог QQ Музыки успешно загружен",
+    "type": "string"
+  },
+  {
+    "name": "usb_disconnected",
+    "zh": "U盘未连接",
+    "ru": "USB не подключён",
+    "type": "string"
+  },
+  {
+    "name": "usb_empty",
+    "zh": "U盘无音乐文件",
+    "ru": "Нет музыки на USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_is_playing_tip",
+    "zh": "usb音乐正在播放",
+    "ru": "Воспроизводится музыка с USB",
+    "type": "string"
+  },
+  {
+    "name": "usb_not_plugged",
+    "zh": "USB未插入",
+    "ru": "USB не подключен",
+    "type": "string"
+  },
+  {
+    "name": "user_center_buy_vip",
+    "zh": "购买会员",
+    "ru": "Купить подписку",
+    "type": "string"
+  },
+  {
+    "name": "view_more",
+    "zh": "更多",
+    "ru": "Больше",
+    "type": "string"
+  },
+  {
+    "name": "view_more_vehicle_content",
+    "zh": "更多车载内容",
+    "ru": "Больше автомобильного контента",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_speech_text_1",
+    "zh": "网络出小差了，稍后再试试吧",
+    "ru": "Небольшая проблема с сетью, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_speech_text_2",
+    "zh": "哎呀，网络出走了，等一下再试试吧",
+    "ru": "Ой, сеть сбежала, подождите немного и попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_speech_text_3",
+    "zh": "网络好像消失在宇宙中啦，稍后再试吧",
+    "ru": "Сеть, похоже, исчезла во Вселенной. Попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_speech_text_4",
+    "zh": "哎呀，网络出小差了，稍后再试试吧",
+    "ru": "Ой, у сети небольшая заминка, попробуйте позже.",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_speech_text_5",
+    "zh": "网络离开一会儿，等下再试试吧",
+    "ru": "Сеть ненадолго ушла, подождите и попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "weak_net_toast_text",
+    "zh": "当前网络不佳，请稍后重试",
+    "ru": "Слабое подключение к сети. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_0",
+    "zh": "操作失败，请稍后重试",
+    "ru": "Не удалось выполнить операцию. Повторите попытку позже.",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_1",
+    "zh": "绑定失败",
+    "ru": "Привязка не удалась",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_10",
+    "zh": "当前网络不可用，请检查网络设置",
+    "ru": "Подключение к сети недоступно. Проверьте настройки сети.",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_11",
+    "zh": "登录失败，请稍后重试",
+    "ru": "Не удалось войти. Повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_12",
+    "zh": "登录态异常，请重新登录",
+    "ru": "Состояние сессии нарушено. Повторите вход",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_13",
+    "zh": "短信验证失败",
+    "ru": "Ошибка верификации по SMS",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_14",
+    "zh": "发送激活邮件失败",
+    "ru": "Не удалось отправить письмо для активации",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_15",
+    "zh": "该版本异常，请更新到最新版本",
+    "ru": "Обнаружена ошибка в этой версии. Обновите до последней версии",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_16",
+    "zh": "该操作已过期",
+    "ru": "Срок действия операции истёк",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_17",
+    "zh": "该号码异常，存在安全风险，请定期修改密码",
+    "ru": "Обнаружена аномалия номера. Существует риск безопасности. Регулярно меняйте пароль",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_18",
+    "zh": "该昵称有敏感字，请重新填写",
+    "ru": "Никнейм содержит недопустимые слова. Введите другой",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_19",
+    "zh": "该手机号近期注册多次，请更换手机号或过段时间再来",
+    "ru": "Этот номер телефона был зарегистрирован несколько раз за последнее время. Используйте другой номер или повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_2",
+    "zh": "绑定邮箱失败",
+    "ru": "Не удалось привязать email",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_20",
+    "zh": "该网络异常，请一段时间后再试",
+    "ru": "Ошибка сети. Повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_21",
+    "zh": "该邮箱安全系数较低，请更换",
+    "ru": "Низкий уровень безопасности этого адреса электронной почты. Используйте другой адрес",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_22",
+    "zh": "该语言暂不支持",
+    "ru": "Этот язык пока не поддерживается",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_23",
+    "zh": "解绑失败",
+    "ru": "Не удалось отвязать",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_24",
+    "zh": "密码安全系数较低，可尝试用字母、数字、符号的组合",
+    "ru": "Уровень безопасности пароля низкий. Попробуйте использовать комбинацию букв, цифр и символов",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_25",
+    "zh": "密码错误",
+    "ru": "Неверный пароль",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_26",
+    "zh": "密码票据丢失或格式错误",
+    "ru": "Токен пароля отсутствует или имеет некорректный формат",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_27",
+    "zh": "密码已过期，请重新登录",
+    "ru": "Пароль истёк, войдите в систему заново",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_28",
+    "zh": "密码已修改，请重新输入密码",
+    "ru": "Пароль изменён, введите его заново",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_29",
+    "zh": "您的QQ号码服务已到期， 请尽快点击http://haoma.qq.com/expire/续费。 固定电话拨打16885886可快捷续费",
+    "ru": "Срок действия услуги вашего номера QQ истёк. Нажмите http://haoma.qq.com/expire/ для продления. Для быстрого продления позвоните по номеру 16885886 со стационарного телефона",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_3",
+    "zh": "操作超时，请稍后重试",
+    "ru": "Превышено время ожидания операции. Повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_30",
+    "zh": "您的帐号已锁定，解锁请查看http://aq.qq.com/mp?id=1&amp;source_id=2040",
+    "ru": "Ваш аккаунт заблокирован. Для разблокировки перейдите по ссылке: http://aq.qq.com/mp?id=1&source_id=2040",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_31",
+    "zh": "您的帐号由于存在安全风险，已启用临时登录限制，解除限制后即可正常登录。解除地址： http://aq.qq.com/xz",
+    "ru": "В вашем аккаунте обнаружена угроза безопасности, включено временное ограничение входа. После снятия ограничения вход будет доступен в обычном режиме. Ссылка для снятия ограничения: http://aq.qq.com/xz",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_32",
+    "zh": "您的帐号暂被冻结，请点击http://aq.qq.com/007查看详情",
+    "ru": "Ваш аккаунт временно заморожен. Нажмите http://aq.qq.com/007 для просмотра деталей",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_33",
+    "zh": "您的帐号长期未登录已经冻结，建议您到http://zc.qq.com 申请一个新号码使用。",
+    "ru": "Ваш аккаунт заморожен из-за длительного отсутствия входа. Рекомендуем перейти на http://zc.qq.com и запросить новый номер.",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_34",
+    "zh": "请输入短信验证码",
+    "ru": "Введите код подтверждения из SMS",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_35",
+    "zh": "请输入验证码",
+    "ru": "Введите код подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_36",
+    "zh": "请输入正确验证码",
+    "ru": "Введите правильный код подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_37",
+    "zh": "请输入正确用户名/密码",
+    "ru": "Введите корректное имя пользователя/пароль",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_38",
+    "zh": "手机号码错误",
+    "ru": "Неверный номер телефона",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_39",
+    "zh": "网络超时，请稍后重试",
+    "ru": "Превышено время ожидания соединения. Повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_4",
+    "zh": "成功",
+    "ru": "Успех",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_40",
+    "zh": "网络繁忙，请稍后重试",
+    "ru": "Сеть перегружена, повторите попытку позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_41",
+    "zh": "网络连接不可用，请重新连接",
+    "ru": "Сетевое соединение недоступно, подключитесь заново",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_42",
+    "zh": "无法识别的第三方",
+    "ru": "Неопознанный сторонний источник",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_43",
+    "zh": "下发短信验证码失败",
+    "ru": "Не удалось отправить SMS-код подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_44",
+    "zh": "长时间未操作，请重新登录",
+    "ru": "Из-за длительной неактивности войдите заново",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_45",
+    "zh": "账号异常，请登录QQ安全中心查看详情",
+    "ru": "Неисправность аккаунта. Подробности — в Центре безопасности QQ",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_46",
+    "zh": "注册失败，请稍后重试",
+    "ru": "Регистрация не удалась, попробуйте позже",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_47",
+    "zh": "注册失败：已经注册过帐号",
+    "ru": "Регистрация не удалась: аккаунт уже зарегистрирован",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_5",
+    "zh": "错误的国家地区",
+    "ru": "Неверная страна/регион",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_6",
+    "zh": "达到短信发送最大次数限制",
+    "ru": "Достигнут максимальный лимит на отправку SMS-сообщений",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_7",
+    "zh": "达到短信验证码最大次数限制",
+    "ru": "Достигнут максимальный лимит на отправку SMS-кода подтверждения",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_8",
+    "zh": "达到失败重试最大次数",
+    "ru": "Достигнуто максимальное количество повторных попыток при ошибке",
+    "type": "string"
+  },
+  {
+    "name": "wns_error_code_9",
+    "zh": "达到最大频率限制",
+    "ru": "Достигнут максимальный лимит частоты",
+    "type": "string"
+  },
+  {
+    "name": "wns_expire_time_msg_default",
+    "zh": "由于您长时间未登录，为保护账号安全请重新登录",
+    "ru": "Вы не входили в аккаунт длительное время, в целях безопасности войдите заново",
+    "type": "string"
+  },
+  {
+    "name": "wns_log",
+    "zh": "WNS日志",
+    "ru": "Журнал WNS",
+    "type": "string"
+  },
+  {
+    "name": "wns_login_person_profile_error",
+    "zh": "个人信息错误",
+    "ru": "Неверные личные данные",
+    "type": "string"
+  },
+  {
+    "name": "wns_network_unavailable",
+    "zh": "网络不可用，请检查网络链接",
+    "ru": "Сеть недоступна, проверьте подключение к сети.",
+    "type": "string"
+  },
+  {
+    "name": "wns_relogin_msg_default",
+    "zh": "由于您密码已修改或存在盗号风险，为保护账号安全请重新登录",
+    "ru": "Пароль был изменён или существует риск несанкционированного доступа. Для защиты аккаунта выполните повторный вход",
+    "type": "string"
+  },
+  {
+    "name": "woman",
+    "zh": "女",
+    "ru": "Женщина",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_friday",
+    "zh": "五",
+    "ru": "Пт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_monday",
+    "zh": "一",
+    "ru": "Пн",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_saturday",
+    "zh": "六",
+    "ru": "Сб",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_sunday",
+    "zh": "日",
+    "ru": "Вс",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_thursday",
+    "zh": "四",
+    "ru": "Чт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_tuesday",
+    "zh": "二",
+    "ru": "Вт",
+    "type": "string"
+  },
+  {
+    "name": "wt_date_picker_wednesday",
+    "zh": "三",
+    "ru": "Ср",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_hint",
+    "zh": "默认文字",
+    "ru": "Текст по умолчанию",
+    "type": "string"
+  },
+  {
+    "name": "wt_edit_text_prompt",
+    "zh": "提示文字",
+    "ru": "Текст подсказки",
+    "type": "string"
+  },
+  {
+    "name": "wt_keyboard_hint_bubble_text",
+    "zh": "按住键盘任意位置可拖动（包括候选字区域）",
+    "ru": "Удерживайте любую область клавиатуры для перемещения (включая область кандидатов)",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_app_back_text",
+    "zh": "返回",
+    "ru": "Назад",
+    "type": "string"
+  },
+  {
+    "name": "wt_navigation_group_search_hint",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "wtcapsule_item_default_name",
+    "zh": "自定义",
+    "ru": "Пользовательское",
+    "type": "string"
+  },
+  {
+    "name": "wtinput_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "wtsearch_text_hint",
+    "zh": "请输入",
+    "ru": "Введите",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到首页",
+    "ru": "Перейти на главную",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Ещё",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выключить",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享对象",
+    "ru": "Поделиться с",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "与%s分享",
+    "ru": "Поделиться с %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "bottomsheet_action_expand_halfway",
+    "zh": "展开到一半高度",
+    "ru": "Развернуть до половины высоты",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_content_description",
+    "zh": "输入了 %1$d 个字符（上限为 %2$d 个）",
+    "ru": "Введено %1$d символов (лимит: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "character_counter_overflowed_content_description",
+    "zh": "超出字符数限制（共 %1$d 个，上限为 %2$d 个）",
+    "ru": "Превышен лимит символов (всего %1$d, максимум: %2$d)",
+    "type": "string"
+  },
+  {
+    "name": "clear_text_end_icon_content_description",
+    "zh": "清除文字",
+    "ru": "Очистить текст",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_enable_button",
+    "zh": "启用",
+    "ru": "Включить",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_enable_text",
+    "zh": "您必须先启用 Google Play 服务，然后才能运行%1$s。",
+    "ru": "Для запуска %1$s необходимо сначала включить службу Google Play.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_enable_title",
+    "zh": "启用 Google Play 服务",
+    "ru": "Включить службы Google Play",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_install_button",
+    "zh": "安装",
+    "ru": "Установить",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_install_text",
+    "zh": "您的设备没有安装 Google Play 服务，因此无法运行%1$s。",
+    "ru": "На вашем устройстве не установлены службы Google Play, поэтому запустить %1$s невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_install_title",
+    "zh": "获取 Google Play 服务",
+    "ru": "Установить службы Google Play",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_notification_channel_name",
+    "zh": "Google Play 服务的适用范围",
+    "ru": "Область применения сервисов Google Play",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_notification_ticker",
+    "zh": "Google Play服务出错",
+    "ru": "Ошибка сервисов Google Play",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_unknown_issue",
+    "zh": "%1$s无法访问 Google Play 服务，请重试。",
+    "ru": "%1$s не может получить доступ к сервисам Google Play, попробуйте ещё раз.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_unsupported_text",
+    "zh": "您的设备不支持 Google Play 服务，因此无法运行%1$s。",
+    "ru": "Ваше устройство не поддерживает сервисы Google Play, поэтому запустить %1$s невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_update_button",
+    "zh": "更新",
+    "ru": "Обновить",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_update_text",
+    "zh": "您必须先更新 Google Play 服务，然后才能运行%1$s。",
+    "ru": "Чтобы запустить %1$s, сначала необходимо обновить сервисы Google Play.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_update_title",
+    "zh": "更新 Google Play 服务",
+    "ru": "Обновить сервисы Google Play",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_updating_text",
+    "zh": "Google Play 服务当前正在更新，因此您无法运行%1$s。",
+    "ru": "Сервисы Google Play в настоящее время обновляются, поэтому запустить %1$s невозможно.",
+    "type": "string"
+  },
+  {
+    "name": "common_google_play_services_wear_update_text",
+    "zh": "必须使用新版 Google Play 服务。该服务很快就会自行更新。",
+    "ru": "Для работы требуется новая версия Google Play Services. Эта служба скоро обновится автоматически.",
+    "type": "string"
+  },
+  {
+    "name": "common_open_on_phone",
+    "zh": "在手机上打开",
+    "ru": "Открыть на телефоне",
+    "type": "string"
+  },
+  {
+    "name": "common_signin_button_text",
+    "zh": "登录",
+    "ru": "Войти",
+    "type": "string"
+  },
+  {
+    "name": "common_signin_button_text_long",
+    "zh": "使用 Google 账号登录",
+    "ru": "Войти с помощью аккаунта Google",
+    "type": "string"
+  },
+  {
+    "name": "error_icon_content_description",
+    "zh": "错误",
+    "ru": "Ошибка",
+    "type": "string"
+  },
+  {
+    "name": "exposed_dropdown_menu_content_description",
+    "zh": "显示下拉菜单",
+    "ru": "Показать выпадающее меню",
+    "type": "string"
+  },
+  {
+    "name": "icon_content_description",
+    "zh": "对话框图标",
+    "ru": "Значок диалогового окна",
+    "type": "string"
+  },
+  {
+    "name": "item_view_role_description",
+    "zh": "标签页",
+    "ru": "Вкладка",
+    "type": "string"
+  },
+  {
+    "name": "material_clock_toggle_content_description",
+    "zh": "选择上午或下午",
+    "ru": "Выберите AM или PM",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_selection",
+    "zh": "选择小时",
+    "ru": "Выберите час",
+    "type": "string"
+  },
+  {
+    "name": "material_hour_suffix",
+    "zh": "%1$s 点",
+    "ru": "%1$s ч.",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_selection",
+    "zh": "选择分钟",
+    "ru": "Выберите минуту",
+    "type": "string"
+  },
+  {
+    "name": "material_minute_suffix",
+    "zh": "%1$s 分",
+    "ru": "%1$s мин",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_am",
+    "zh": "上午",
+    "ru": "AM",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_clock_mode_description",
+    "zh": "切换到时钟模式来输入时间。",
+    "ru": "Переключитесь в режим часов, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_hour",
+    "zh": "小时",
+    "ru": "Час",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_minute",
+    "zh": "分钟",
+    "ru": "Минута",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_pm",
+    "zh": "下午",
+    "ru": "Вторая половина дня",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_select_time",
+    "zh": "选择时间",
+    "ru": "Выбрать время",
+    "type": "string"
+  },
+  {
+    "name": "material_timepicker_text_input_mode_description",
+    "zh": "切换到文字输入模式来输入时间。",
+    "ru": "Переключитесь в режим текстового ввода, чтобы ввести время.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_badge_numberless_content_description",
+    "zh": "新通知",
+    "ru": "Новое уведомление",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_chip_close_icon_content_description",
+    "zh": "移除%1$s",
+    "ru": "Удалить %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_exceed_max_badge_number_content_description",
+    "zh": "有 %1$d 条以上的新通知",
+    "ru": "Более %1$d новых уведомлений",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_next_month",
+    "zh": "转到下个月",
+    "ru": "Следующий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_a11y_prev_month",
+    "zh": "转到上个月",
+    "ru": "Предыдущий месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_announce_current_selection",
+    "zh": "当前的选择是：%1$s",
+    "ru": "Текущий выбор: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_title",
+    "zh": "请选择日期",
+    "ru": "Выберите дату",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_date_header_unselected",
+    "zh": "选定的日期",
+    "ru": "Выбранная дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_day_of_week_column_header",
+    "zh": "表示周几的列：%1$s",
+    "ru": "Столбец дня недели: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format",
+    "zh": "格式无效。",
+    "ru": "Неверный формат.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_example",
+    "zh": "示例：%1$s",
+    "ru": "Пример: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_format_use",
+    "zh": "使用：%1$s",
+    "ru": "Использование: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_invalid_range",
+    "zh": "范围无效。",
+    "ru": "Недопустимый диапазон.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_navigate_to_year_description",
+    "zh": "转到 %1$s 年",
+    "ru": "Перейти к %1$s г.",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_out_of_range",
+    "zh": "不在允许的范围内：%1$s",
+    "ru": "Не входит в допустимый диапазон: %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_end_selected",
+    "zh": "开始日期 – %1$s",
+    "ru": "Дата начала – %1$s",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_only_start_selected",
+    "zh": "%1$s – 结束日期",
+    "ru": "%1$s – дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_title",
+    "zh": "请选择范围",
+    "ru": "Выберите диапазон",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_range_header_unselected",
+    "zh": "开始日期 - 结束日期",
+    "ru": "Дата начала - Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_save",
+    "zh": "保存",
+    "ru": "Сохранить",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_hint",
+    "zh": "日期",
+    "ru": "Дата",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_end_hint",
+    "zh": "结束日期",
+    "ru": "Дата окончания",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_date_range_start_hint",
+    "zh": "开始日期",
+    "ru": "Дата начала",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_calendar_input_mode",
+    "zh": "切换到日历输入模式",
+    "ru": "Переключиться на календарный режим ввода",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_day_selection",
+    "zh": "点按即可切换到选择某天",
+    "ru": "Нажмите, чтобы переключиться на выбор дня",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_text_input_mode",
+    "zh": "切换到文本字段输入模式",
+    "ru": "Переключиться на режим ввода в текстовое поле",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_toggle_to_year_selection",
+    "zh": "点按即可切换到选择某年",
+    "ru": "Нажмите, чтобы переключиться на выбор года",
+    "type": "string"
+  },
+  {
+    "name": "password_toggle_content_description",
+    "zh": "显示密码",
+    "ru": "Показать пароль",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_day_abbr",
+    "zh": "日",
+    "ru": "Д",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_month_abbr",
+    "zh": "月",
+    "ru": "Месяц",
+    "type": "string"
+  },
+  {
+    "name": "mtrl_picker_text_input_year_abbr",
+    "zh": "年",
+    "ru": "Год",
+    "type": "string"
+  },
+  {
+    "name": "srl_component_falsify",
+    "zh": "\"%s 虚假区域\n代表运行时拖动的高度【%.1fdp】 \n而不会显示任何东西\"",
+    "ru": "\"%s фантомная область\\nпредставляет высоту перетаскивания во время выполнения【%.1fdp】\\nне отображая при этом ничего\"",
+    "type": "string"
+  },
+  {
+    "name": "srl_content_empty",
+    "zh": "SmartRefreshLayout中没有找到内容视图。您是否忘记在xml布局文件中添加？",
+    "ru": "В SmartRefreshLayout не найдено представление содержимого. Вы забыли добавить его в файл XML-разметки?",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_failed",
+    "zh": "加载失败",
+    "ru": "Не удалось загрузить",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_finish",
+    "zh": "加载完成",
+    "ru": "Загрузка завершена",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_loading",
+    "zh": "正在加载…",
+    "ru": "Загрузка…",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_nothing",
+    "zh": "没有更多数据了",
+    "ru": "Больше нет данных",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_pulling",
+    "zh": "上拉加载更多",
+    "ru": "Потяните вверх",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_refreshing",
+    "zh": "等待头部刷新完成…",
+    "ru": "Ожидание завершения обновления…",
+    "type": "string"
+  },
+  {
+    "name": "srl_footer_release",
+    "zh": "释放立即加载",
+    "ru": "Отпустите для загрузки",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_failed",
+    "zh": "刷新失败",
+    "ru": "Не удалось обновить",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_finish",
+    "zh": "刷新完成",
+    "ru": "Обновление завершено",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_loading",
+    "zh": "等待底部加载完成…",
+    "ru": "Ожидание завершения загрузки…",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_pulling",
+    "zh": "下拉可以刷新",
+    "ru": "Потяните вниз для обновления",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_refreshing",
+    "zh": "正在刷新…",
+    "ru": "Обновление…",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_release",
+    "zh": "释放立即刷新",
+    "ru": "Отпустите для обновления",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_secondary",
+    "zh": "释放进入二楼",
+    "ru": "Отпустите — 2 этаж",
+    "type": "string"
+  },
+  {
+    "name": "srl_header_update",
+    "zh": "上次更新 M-d HH:mm",
+    "ru": "Последнее обновление M-d HH:mm",
+    "type": "string"
+  },
+  {
+    "name": "local_music_play_tts_0",
+    "zh": "好呀，好声音马上就到",
+    "ru": "Конечно, отличная музыка уже скоро!",
+    "type": "arrays"
+  },
+  {
+    "name": "local_music_play_tts_1",
+    "zh": "收到，一起欣赏吧",
+    "ru": "Принято, давайте наслаждаться вместе",
+    "type": "arrays"
+  },
+  {
+    "name": "local_music_play_tts_2",
+    "zh": "好的，跟我一起听听吧",
+    "ru": "Хорошо, давай послушаем вместе",
+    "type": "arrays"
+  },
+  {
+    "name": "tai_app_names_0",
+    "zh": "腾讯地图",
+    "ru": "Tencent Карты",
+    "type": "arrays"
+  },
+  {
+    "name": "tai_app_names_1",
+    "zh": "腾讯语音",
+    "ru": "Голос Tencent",
+    "type": "arrays"
+  },
+  {
+    "name": "mtrl_badge_content_description_one",
+    "zh": "%d 条新通知",
+    "ru": "%d новое уведомление",
+    "type": "plurals"
+  },
+  {
+    "name": "mtrl_badge_content_description_other",
+    "zh": "%d 条新通知",
+    "ru": "%d новых уведомлений",
+    "type": "plurals"
+  }
+]

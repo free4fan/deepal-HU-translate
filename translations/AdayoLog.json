@@ -1,0 +1,446 @@
+[
+  {
+    "name": "btsnoop_tips",
+    "zh": "\"BT HCI数据收集Tips：\n1.开始后需要重启蓝牙开关，否则无法收集；\n2.关闭蓝牙开关后会自动删除HCI数据，所以传输已收集数据前不要关闭蓝牙开关。\"",
+    "ru": "\"Советы по сбору данных BT HCI:\\n1. После начала сбора необходимо перезапустить Bluetooth, иначе сбор не будет выполнен.\\n2. При отключении Bluetooth данные HCI будут автоматически удалены, поэтому не отключайте Bluetooth до передачи собранных данных.\"",
+    "type": "string"
+  },
+  {
+    "name": "collect_status_end",
+    "zh": "收集完成",
+    "ru": "Сбор завершён",
+    "type": "string"
+  },
+  {
+    "name": "collect_status_error",
+    "zh": "收集失败",
+    "ru": "Сбор не удался",
+    "type": "string"
+  },
+  {
+    "name": "collect_status_start",
+    "zh": "收集进行中",
+    "ru": "Сбор в процессе",
+    "type": "string"
+  },
+  {
+    "name": "collect_status_wait",
+    "zh": "等待收集",
+    "ru": "Ожидание сбора",
+    "type": "string"
+  },
+  {
+    "name": "count_down_content",
+    "zh": "\"正在分离打包\n请在倒计时后再进行操作\"",
+    "ru": "\"Идёт разделение и упаковка.\\nДождитесь окончания обратного отсчёта перед выполнением операций.\"",
+    "type": "string"
+  },
+  {
+    "name": "data_type_4g",
+    "zh": "4G日志",
+    "ru": "4G-лог",
+    "type": "string"
+  },
+  {
+    "name": "data_type_anr",
+    "zh": "ANR数据",
+    "ru": "Данные ANR",
+    "type": "string"
+  },
+  {
+    "name": "data_type_btsnoop",
+    "zh": "BT HCI数据",
+    "ru": "Данные BT HCI",
+    "type": "string"
+  },
+  {
+    "name": "data_type_config",
+    "zh": "配置数据",
+    "ru": "Данные конфигурации",
+    "type": "string"
+  },
+  {
+    "name": "data_type_diagnostic_code",
+    "zh": "诊断码数据",
+    "ru": "Данные диагност. кодов",
+    "type": "string"
+  },
+  {
+    "name": "data_type_dropbox",
+    "zh": "DropBox数据",
+    "ru": "Данные Dropbox",
+    "type": "string"
+  },
+  {
+    "name": "data_type_kernel",
+    "zh": "Kernel数据",
+    "ru": "Данные ядра",
+    "type": "string"
+  },
+  {
+    "name": "data_type_logcat",
+    "zh": "Logcat数据",
+    "ru": "Данные Logcat",
+    "type": "string"
+  },
+  {
+    "name": "data_type_mfd",
+    "zh": "MFD故障信息",
+    "ru": "Неисправность MFD",
+    "type": "string"
+  },
+  {
+    "name": "data_type_qnx",
+    "zh": "qnx数据",
+    "ru": "Данные QNX",
+    "type": "string"
+  },
+  {
+    "name": "data_type_qvm",
+    "zh": "qvm数据",
+    "ru": "Данные QVM",
+    "type": "string"
+  },
+  {
+    "name": "data_type_resource",
+    "zh": "Resource数据",
+    "ru": "Данные о ресурсах",
+    "type": "string"
+  },
+  {
+    "name": "data_type_setting",
+    "zh": "Setting数据",
+    "ru": "Данные настроек",
+    "type": "string"
+  },
+  {
+    "name": "data_type_systemproperty",
+    "zh": "系统属性数据",
+    "ru": "Данные системных свойств",
+    "type": "string"
+  },
+  {
+    "name": "data_type_tombstones",
+    "zh": "Tombstones数据",
+    "ru": "Данные Tombstones",
+    "type": "string"
+  },
+  {
+    "name": "data_type_upgrade",
+    "zh": "预留数据",
+    "ru": "Резерв. данные",
+    "type": "string"
+  },
+  {
+    "name": "log_delete",
+    "zh": "清除日志选择器（谨慎使用）",
+    "ru": "Селектор очистки журнала (использовать с осторожностью)",
+    "type": "string"
+  },
+  {
+    "name": "log_delete_complete",
+    "zh": "日志删除完成",
+    "ru": "Удаление журналов завершено",
+    "type": "string"
+  },
+  {
+    "name": "log_delete_log_collecting",
+    "zh": "\"删除的数据类型日志正在收集中\n请在关闭这些日志收集后再试\"",
+    "ru": "\"Сбор данных журнала для удаляемого типа данных выполняется\\nПовторите попытку после остановки сбора этих журналов\"",
+    "type": "string"
+  },
+  {
+    "name": "log_delete_select",
+    "zh": "选择要删除的日志数据类型",
+    "ru": "Выберите тип данных журнала для удаления",
+    "type": "string"
+  },
+  {
+    "name": "log_deleting",
+    "zh": "日志正在删除中",
+    "ru": "Журналы удаляются",
+    "type": "string"
+  },
+  {
+    "name": "log_deleting_retry",
+    "zh": "\"日志正在删除中\n请在删除完成后再试\"",
+    "ru": "\"Журналы удаляются\\nПовторите попытку после завершения удаления\"",
+    "type": "string"
+  },
+  {
+    "name": "log_level",
+    "zh": "日志级别选择器",
+    "ru": "Селектор уровня журнала",
+    "type": "string"
+  },
+  {
+    "name": "log_level_title",
+    "zh": "当前级别:",
+    "ru": "Текущий уровень:",
+    "type": "string"
+  },
+  {
+    "name": "logcat_param_event",
+    "zh": "Event:已经过解释的二进制系统事件缓冲区信息",
+    "ru": "Event: декодированная информация о буфере событий системы (двоичный формат)",
+    "type": "string"
+  },
+  {
+    "name": "logcat_param_main",
+    "zh": "Main:主日志缓冲区信息",
+    "ru": "Main: информация об основном буфере журнала",
+    "type": "string"
+  },
+  {
+    "name": "logcat_param_radio",
+    "zh": "Radio:包含无线装置/电话相关消息的缓冲区信息",
+    "ru": "Radio: информация о буфере, содержащая сообщения, связанные с беспроводными устройствами/телефоном",
+    "type": "string"
+  },
+  {
+    "name": "logcat_param_system",
+    "zh": "System:系统日志缓冲区信息",
+    "ru": "System: информация о буфере системного журнала",
+    "type": "string"
+  },
+  {
+    "name": "logcat_param_tips",
+    "zh": "※注意: 无特殊需求则选择Main和System类型",
+    "ru": "※ Внимание: при отсутствии особых требований выбирайте типы Main и System.",
+    "type": "string"
+  },
+  {
+    "name": "selectall",
+    "zh": "全选",
+    "ru": "Выбрать все",
+    "type": "string"
+  },
+  {
+    "name": "start_collect",
+    "zh": "开始收集数据",
+    "ru": "Начать сбор данных",
+    "type": "string"
+  },
+  {
+    "name": "start_copy_usb",
+    "zh": "开始向USB设备传输数据",
+    "ru": "Начать передачу данных на USB-устройство",
+    "type": "string"
+  },
+  {
+    "name": "start_copy_usb_log_zip",
+    "zh": "\"日志正在打包中\n请在打包完成后再试\"",
+    "ru": "\"Логи упаковываются.\\nПожалуйста, повторите попытку после завершения упаковки.\"",
+    "type": "string"
+  },
+  {
+    "name": "start_unpack",
+    "zh": "开始打包数据",
+    "ru": "Начать упаковку данных",
+    "type": "string"
+  },
+  {
+    "name": "start_upgrade",
+    "zh": "开始向云端上传数据",
+    "ru": "Начата загрузка данных в облако",
+    "type": "string"
+  },
+  {
+    "name": "stop_collect",
+    "zh": "结束收集数据",
+    "ru": "Завершить сбор данных",
+    "type": "string"
+  },
+  {
+    "name": "tbox_4g",
+    "zh": "4G日志传输",
+    "ru": "Передача журналов по 4G",
+    "type": "string"
+  },
+  {
+    "name": "tbox_4g_empty",
+    "zh": "最新4G日志未成功收集，建议再次点击“开始收集数据”",
+    "ru": "Не удалось успешно собрать последние журналы 4G, рекомендуется повторно нажать «Начать сбор данных»",
+    "type": "string"
+  },
+  {
+    "name": "tbox_4g_upload",
+    "zh": "4G日志还在传输中，请等候",
+    "ru": "Журналы 4G всё ещё передаются, пожалуйста, подождите",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_conf_exsit",
+    "zh": "检测到adayo_log.conf文件",
+    "ru": "Обнаружен файл adayo_log.conf",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_conf_no_exsit",
+    "zh": "未检测到adayo_log.conf文件",
+    "ru": "Файл adayo_log.conf не обнаружен",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_end",
+    "zh": "传输完毕",
+    "ru": "Передача завершена",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_not_allow_conf",
+    "zh": "adayo_log.conf文件collectLog为false，不进行上传",
+    "ru": "В файле adayo_log.conf параметр collectLog установлен в false, загрузка не выполняется.",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_start",
+    "zh": "开始传输",
+    "ru": "Начать передачу",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_usb_exsit",
+    "zh": "检测到USB设备",
+    "ru": "Обнаружено USB-устройство",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_usb_no_exsit",
+    "zh": "未检测到USB设备",
+    "ru": "USB-устройство не обнаружено",
+    "type": "string"
+  },
+  {
+    "name": "trans_status_usb_path_empty",
+    "zh": "无法获取USB设备路径，请重新插拔",
+    "ru": "Не удалось получить путь к USB-устройству. Переподключите устройство.",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_home_description",
+    "zh": "转到主屏幕",
+    "ru": "Перейти на главный экран",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_bar_up_description",
+    "zh": "转到上一层级",
+    "ru": "Перейти на уровень выше",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_menu_overflow_description",
+    "zh": "更多选项",
+    "ru": "Больше вариантов",
+    "type": "string"
+  },
+  {
+    "name": "abc_action_mode_done",
+    "zh": "完成",
+    "ru": "Готово",
+    "type": "string"
+  },
+  {
+    "name": "abc_activity_chooser_view_see_all",
+    "zh": "查看全部",
+    "ru": "Показать все",
+    "type": "string"
+  },
+  {
+    "name": "abc_activitychooserview_choose_application",
+    "zh": "选择应用",
+    "ru": "Выбрать приложение",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_off",
+    "zh": "关闭",
+    "ru": "Выкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_capital_on",
+    "zh": "开启",
+    "ru": "Вкл.",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_delete_shortcut_label",
+    "zh": "Delete 键",
+    "ru": "Клавиша Delete",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_enter_shortcut_label",
+    "zh": "Enter 键",
+    "ru": "Клавиша Enter",
+    "type": "string"
+  },
+  {
+    "name": "abc_menu_space_shortcut_label",
+    "zh": "空格键",
+    "ru": "Пробел",
+    "type": "string"
+  },
+  {
+    "name": "abc_search_hint",
+    "zh": "搜索…",
+    "ru": "Поиск…",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_clear",
+    "zh": "清除查询",
+    "ru": "Очистить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_query",
+    "zh": "搜索查询",
+    "ru": "Поисковый запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_search",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_submit",
+    "zh": "提交查询",
+    "ru": "Отправить запрос",
+    "type": "string"
+  },
+  {
+    "name": "abc_searchview_description_voice",
+    "zh": "语音搜索",
+    "ru": "Голосовой поиск",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with",
+    "zh": "分享方式",
+    "ru": "Способ обмена",
+    "type": "string"
+  },
+  {
+    "name": "abc_shareactionprovider_share_with_application",
+    "zh": "使用%s分享",
+    "ru": "Поделиться через %s",
+    "type": "string"
+  },
+  {
+    "name": "abc_toolbar_collapse_description",
+    "zh": "收起",
+    "ru": "Свернуть",
+    "type": "string"
+  },
+  {
+    "name": "search_menu_title",
+    "zh": "搜索",
+    "ru": "Поиск",
+    "type": "string"
+  }
+]
