@@ -19,8 +19,9 @@ const (
 )
 
 // runDynamic — изменяющие режимы для dynamic RRO (manage.bat :DoOne*).
-// install: adb install -r apks_rro_min/<Name>_RRO.apk + enable
-//   (пауза 1.5с + 1 повтор — PMS-кейс WT_WtSystemUI, 22.09).
+//
+// install: adb install -r apks_rro_min/<Name>_RRO.apk + enable (пауза
+// 1.5с + 1 повтор — PMS-кейс WT_WtSystemUI, 22.09).
 //
 // enable/disable: cmd overlay enable|disable --user 0.
 // uninstall: disable + adb uninstall.
