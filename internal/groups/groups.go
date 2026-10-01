@@ -1,7 +1,9 @@
 // Package groups — справочник целей (группы 1-4, TOP8, EXCLUDE9),
-// пресеты и пути. Дублировался в manage.bat и manage_static.bat:
-// здесь единственный источник, различия динамического/статического
-// схем — в двух конструкторах.
+// пресеты и пути. ЕДИНСТВЕННЫЙ источник списков — файл targets.txt
+// (см. targets.go): bat-менеджеры читают его напрямую, Go — встроенную
+// копию (go:embed, build.sh копирует в каталог пакета) или внешний файл
+// (Load: env DEEPL_TARGETS / ./targets.txt). Списки в коде скриптов
+// НЕТ — для другой прошивки правится только targets.txt.
 //
 // ВАЖНОЕ РАЗЛИЧИЕ: GROUP1 статической схемы = GROUP1 динамической +
 // 9 AOSP-target (NetworkStack/Providers/…), т.к. в /vendor/overlay они
@@ -9,6 +11,8 @@
 package groups
 
 import (
+	"errors"
+	"fmt"
 	"os"
 	"path/filepath"
 	"sort"
@@ -50,43 +54,57 @@ type Config struct {
 	Exclude []string
 }
 
-// Dynamic — конф и manage.bat.
+// Dynamic — конф и manage.bat; списки целей — из targets.txt
+// (встроенная копия, см. targets.go).
 func Dynamic() *Config {
-	return &Config{
-		Scheme:  SchemeDynamic,
-		Prefix:  "com.android.vendor.translate.rro.",
-		ApkDir:  "apks_rro_min",
-		Filter:  "com.android.vendor",
-		LogsDir: "logs",
-		Groups: [4][]string{
-			{"CarService", "CarActivityResolver", "CarFrameworkPackageStubs", "SettingsProvider", "Shell", "WT_WtSystemUI", "PackageInstaller", "PowerManager", "InputDevices", "ExternalStorageProvider", "StorageWarn", "CertInstaller", "KeyChain", "VpnDialogs", "FusedLocation", "BackupRestoreConfirmation", "DynamicSystemInstallationService", "ManagedProvisioning", "ldm", "CarPlayView"},
-			{"WT_Launcher", "WT_MultiMediaCenter", "WT_VehicleCenter", "WT_BTPhone", "WT_AirConditioner", "Camera", "AdayoAPA", "AdayoDvr", "AdayoDvrLocalService", "WT_InputMethod", "WT_SystemService", "WT_ThemeResourcesDay", "WT_ThemeResourcesNight"},
-			{"WT_FusionNavigation", "WT_AppStore", "WT_Album", "WT_FileManager", "WT_AIAssistant", "WT_CarLink", "WT_Link", "PhoneLink", "WT_TSpeech", "WT_VisualizationService", "WT_TinnoveCoreService", "WT_TinnoveSmartScene", "WT_AISpace", "WT_AISceneMode", "WT_SmartSoundEffect", "WT_AutoMaintenance", "WT_ElectronicDirections", "WT_Customer", "WT_ECall", "WT_HDCloudCamera", "WT_GameCenter", "WT_GameZone", "WT_Wcenter", "WT_AccountServer", "WT_IncallPersonalCenter", "WT_LightSoundLab", "WT_MLWecarControl", "WT_MiniApp"},
-			{"AdayoAgnssService", "AdayoAlarm", "AdayoLog", "AutoTest", "deCoreApp", "DeepalDriveMode", "DeepalShowCarMode", "DynoMode", "EMode", "Fota", "fotaservice", "HiSight", "HiViewLite", "HwDMSDPDevice", "NaviManagerService", "Player857", "Puremic", "SensetimeAiService", "SystemUpdater", "Upgrade", "WT_BubblePop", "WT_DownloadLog", "WT_FiveChess", "WT_IncallFunBox", "WT_IncallLive", "WT_Spacecraft", "WT_SpeedRun", "WT_SweepMine", "WT_TinnoveCore3D", "WT_WTAISceneEngine"},
-		},
-		Top8:    []string{"AdayoAPA", "AdayoDvr", "Camera", "WT_AirConditioner", "WT_BTPhone", "WT_Launcher", "WT_MultiMediaCenter", "WT_VehicleCenter"},
-		Exclude: []string{"NetworkStack", "MediaProviderLegacy", "UserDictionaryProvider", "DownloadProvider", "DownloadProviderUi", "CompanionDeviceManager", "MtpService", "CaptivePortalLogin", "ContactsProvider"},
-	}
+	return Build(SchemeDynamic, defaultTargets)
 }
 
-// Static — конф и manage_static.bat.
+// Static — конф и manage_static.bat (GROUP1 = GROUP1 + EXCLUDE9).
 func Static() *Config {
-	c := Dynamic()
-	c.Scheme = SchemeStatic
-	c.Prefix = "com.deepal.translate.rro."
-	c.ApkDir = "apks_rro_static"
-	c.Filter = "com.deepal.translate"
-	c.OverlayBase = "/vendor/overlay"
-	// GROUP1 статической схемы = динамической + 9 AOSP-target.
-	base := c.Groups[0]
-	var g1 []string
-	for _, t := range base {
-		g1 = append(g1, t)
+	return Build(SchemeStatic, defaultTargets)
+}
+
+// Load — Config схемы из внешнего targets.txt. Приоритет выбора файла:
+//  1. path (явный аргумент, тесты);
+//  2. env DEEPL_TARGETS — абсолютный путь (например, общий файл для
+//     всех бинарников);
+//  3. ./targets.txt в CWD — обычный случай (deepl запускается из каталога
+//     с manage.bat);
+//  4. встроенный список (go:embed, копируется build.sh) — фолбэк, если
+//     внешних файлов нет; ошибка возвращается ТОЛЬКО если файл задан
+//     явно (1-3) и он бит (прочитался, но не распарсился).
+//
+// Возвращает также путь, из которого список реально взят (для вывода).
+func Load(scheme Scheme, path string) (*Config, string, error) {
+	if path != "" {
+		return loadFile(scheme, path, true)
 	}
-	g1 = append(g1, c.Exclude...)
-	c.Groups[0] = g1
-	c.Exclude = nil
-	return c
+	if p := os.Getenv("DEEPL_TARGETS"); p != "" {
+		return loadFile(scheme, p, true)
+	}
+	if _, err := os.Stat("targets.txt"); err == nil {
+		return loadFile(scheme, "targets.txt", false)
+	}
+	return Build(scheme, defaultTargets), "(встроенный targets.txt)", nil
+}
+
+// loadFile — Load + контроль: hard=true — битый файл = ошибка (прямой
+// аргумент / DEEPL_TARGETS); hard=false — битый ./targets.txt откатывается
+// на встроенный (source-строка это помечает).
+func loadFile(scheme Scheme, path string, hard bool) (*Config, string, error) {
+	t, err := ParseFile(path)
+	if err == nil {
+		return Build(scheme, t), path, nil
+	}
+	if errors.Is(err, os.ErrNotExist) {
+		return Build(scheme, defaultTargets), "(встроенный targets.txt)", nil
+	}
+	if !hard {
+		return Build(scheme, defaultTargets),
+			fmt.Sprintf("(! %s не распарсился (%v); использован встроенный)", path, err), nil
+	}
+	return nil, path, fmt.Errorf("%s: %w", path, err)
 }
 
 // GroupLabelHuman — человекочитаемое имя группы (подпись в меню).

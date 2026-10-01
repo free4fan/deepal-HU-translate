@@ -44,7 +44,11 @@ func run(args []string) error {
 	defer stop()
 
 	if len(args) == 0 {
-		return interactive(ctx, groups.Dynamic(), os.Stdout, os.Stdin)
+		cfg, err := groupsFor(groups.SchemeDynamic)
+		if err != nil {
+			return err
+		}
+		return interactive(cfg)
 	}
 
 	cmd := args[0]
@@ -58,36 +62,49 @@ func run(args []string) error {
 		fmt.Println("deepl version 1.0.0 (deepal-hu-translate)")
 		return nil
 	case "dyn":
-		cfg := groups.Dynamic()
-		if len(rest) == 0 {
-			return interactive(ctx, cfg, os.Stdout, os.Stdin)
+		cfg, err := groupsFor(groups.SchemeDynamic)
+		if err != nil {
+			return err
 		}
-		return cliMode(ctx, cfg, rest, os.Stdout, os.Stdin)
+		if len(rest) == 0 {
+			return interactive(cfg)
+		}
+		return cliMode(ctx, cfg, rest)
 	case "stat":
-		cfg := groups.Static()
-		if len(rest) == 0 {
-			return interactive(ctx, cfg, os.Stdout, os.Stdin)
+		cfg, err := groupsFor(groups.SchemeStatic)
+		if err != nil {
+			return err
 		}
-		return cliMode(ctx, cfg, rest, os.Stdout, os.Stdin)
+		if len(rest) == 0 {
+			return interactive(cfg)
+		}
+		return cliMode(ctx, cfg, rest)
 	case "stat-install-8":
-		return cliMode(ctx, groups.Static(), []string{"install", "8"}, os.Stdout, os.Stdin)
+		return statPreset("install", "8")
 	case "stat-install-36":
-		return cliMode(ctx, groups.Static(), []string{"install", "auto"}, os.Stdout, os.Stdin)
+		return statPreset("install", "auto")
 	case "stat-install-all":
-		return cliMode(ctx, groups.Static(), []string{"install", "A"}, os.Stdout, os.Stdin)
+		return statPreset("install", "A")
 	case "stat-uninstall-all":
-		return cliMode(ctx, groups.Static(), []string{"uninstall", "A"}, os.Stdout, os.Stdin)
+		return statPreset("uninstall", "A")
 	case "report":
 		scheme := groups.SchemeDynamic
 		if len(rest) > 0 && (rest[0] == "stat" || rest[0] == "static") {
 			scheme = groups.SchemeStatic
 		}
-		return cliMode(ctx, groupsFor(scheme), []string{"report"}, os.Stdout, os.Stdin)
+		cfg, err := groupsFor(scheme)
+		if err != nil {
+			return err
+		}
+		return cliMode(ctx, cfg, []string{"report"})
 	default:
 		// Совместимость с manage.bat <mode> [preset].
 		if isMode(cmd) {
-			arg := append([]string{cmd}, rest...)
-			return cliMode(ctx, groups.Dynamic(), arg, os.Stdout, os.Stdin)
+			cfg, err := groupsFor(groups.SchemeDynamic)
+			if err != nil {
+				return err
+			}
+			return cliMode(ctx, cfg, append([]string{cmd}, rest...))
 		}
 		fmt.Fprintf(os.Stderr, "неизвестная подкоманда %q\n\n", cmd)
 		usage()
@@ -95,29 +112,49 @@ func run(args []string) error {
 	}
 }
 
-func groupsFor(s groups.Scheme) *groups.Config {
-	if s == groups.SchemeStatic {
-		return groups.Static()
+// groupsFor — Config схемы из targets.txt: приоритет env DEEPL_TARGETS,
+// затем ./targets.txt в CWD, иначе встроенный список из бинарника.
+// Использованный файл (если не встроенный) сообщается в stderr.
+func groupsFor(s groups.Scheme) (*groups.Config, error) {
+	cfg, src, err := groups.Load(s, "")
+	if err != nil {
+		return nil, fmt.Errorf("%v (исправьте файл или unset DEEPL_TARGETS)", err)
 	}
-	return groups.Dynamic()
+	if src != "(встроенный targets.txt)" {
+		fmt.Fprintf(os.Stderr, "targets: %s\n", src)
+	}
+	return cfg, nil
+}
+
+// statPreset — ярлык "deepl stat <mode> <preset>" (как у manage_static).
+func statPreset(mode, preset string) error {
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
+	cfg, err := groupsFor(groups.SchemeStatic)
+	if err != nil {
+		return err
+	}
+	return cliMode(ctx, cfg, []string{mode, preset})
 }
 
 // interactive — интерактивное меню (manage.bat без аргументов).
 // Чистка экрана — нативная (cmd /c cls на Windows, clear на Unix), 1:1 с `cls` из bat.
-func interactive(ctx context.Context, cfg *groups.Config, out io.Writer, in io.Reader) error {
+func interactive(cfg *groups.Config) error {
+	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
+	defer stop()
 	a := app.New(ctx, cfg, adb.New())
-	a.Out = out
-	a.In = in
-	m := app.NewMenu(a, cfg.Scheme, out, in)
+	a.Out = os.Stdout
+	a.In = os.Stdin
+	m := app.NewMenu(a, cfg.Scheme, os.Stdout, os.Stdin)
 	m.Run()
 	return nil
 }
 
 // cliMode — один прогон режима (как CLI=1 в батниках): без меню,
 // после выполнения — пауза (если TTY) и exit.
-func cliMode(ctx context.Context, cfg *groups.Config, rest []string, out io.Writer, in io.Reader) error {
+func cliMode(ctx context.Context, cfg *groups.Config, rest []string) error {
 	if len(rest) == 0 {
-		return fmt.Errorf("не указан mode (install|enable|disable|uninstall|status|diag|report)")
+		return fmt.Errorf("не указан mode (install|enable|disable|uninstall|status|diag|report|reboot)")
 	}
 	modeStr := rest[0]
 	preset := ""
@@ -130,10 +167,10 @@ func cliMode(ctx context.Context, cfg *groups.Config, rest []string, out io.Writ
 	}
 
 	a := app.New(ctx, cfg, adb.New())
-	a.Out = out
-	a.In = in
+	a.Out = os.Stdout
+	a.In = os.Stdin
 	_, err := a.Run(mode, preset)
-	pause(out)
+	pause(os.Stdout)
 	return err
 }
 

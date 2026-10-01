@@ -21,6 +21,17 @@ command -v go >/dev/null 2>&1 || {
 }
 echo "Go: $(go version)"
 
+# --- targets.txt: синхронизация встроенной копии (go:embed) ---
+# Единственный источник списков целей — ./targets.txt (читают manage.bat,
+# manage_static.bat и deepl). go:embed берёт копию internal/groups/targets.txt
+# (требует файл в каталоге пакета), поэтому перед тестами/сборкой копируем.
+if [ ! -f targets.txt ]; then
+    echo "ERROR: нет targets.txt (список целей) — скрипты без списков невозможны."
+    exit 1
+fi
+cp -f targets.txt internal/groups/targets.txt
+echo "[OK] targets.txt -> internal/groups/targets.txt"
+
 # --- формат ---
 echo .
 echo "gofmt (проверка)..."

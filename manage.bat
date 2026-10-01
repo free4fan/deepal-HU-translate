@@ -31,30 +31,26 @@ REM
 REM  Статические оверлеи (/vendor/overlay) - manage_static.bat.
 REM ============================================================
 
-REM ================== данные (общие со статикой) ==================
-REM 22b/25.09: 9 AOSP-target (NetworkStack, MediaProviderLegacy,
-REM UserDictionaryProvider, DownloadProvider(+)Ui, CompanionDeviceManager,
-REM MtpService, CaptivePortalLogin, ContactsProvider) на этой сборке НЕ
-REM ставятся adb install ("signed with different certificates, and the
-REM overlay lacks <overlay android:targetName>") - ИСКЛЮЧЕНЫ из групп.
-REM Если нужны - manage_static.bat (/vendor/overlay, root+remount).
-set "GROUP1=CarService CarActivityResolver CarFrameworkPackageStubs SettingsProvider Shell WT_WtSystemUI PackageInstaller PowerManager InputDevices ExternalStorageProvider StorageWarn CertInstaller KeyChain VpnDialogs FusedLocation BackupRestoreConfirmation DynamicSystemInstallationService ManagedProvisioning ldm CarPlayView"
-
-set "GROUP2=WT_Launcher WT_MultiMediaCenter WT_VehicleCenter WT_BTPhone WT_AirConditioner Camera AdayoAPA AdayoDvr AdayoDvrLocalService WT_InputMethod WT_SystemService WT_ThemeResourcesDay WT_ThemeResourcesNight"
-
-set "GROUP3=WT_FusionNavigation WT_AppStore WT_Album WT_FileManager WT_AIAssistant WT_CarLink WT_Link PhoneLink WT_TSpeech WT_VisualizationService WT_TinnoveCoreService WT_TinnoveSmartScene WT_AISpace WT_AISceneMode WT_SmartSoundEffect WT_AutoMaintenance WT_ElectronicDirections WT_Customer WT_ECall WT_HDCloudCamera WT_GameCenter WT_GameZone WT_Wcenter WT_AccountServer WT_IncallPersonalCenter WT_LightSoundLab WT_MLWecarControl WT_MiniApp"
-
-set "GROUP4=AdayoAgnssService AdayoAlarm AdayoLog AutoTest deCoreApp DeepalDriveMode DeepalShowCarMode DynoMode EMode Fota fotaservice HiSight HiViewLite HwDMSDPDevice NaviManagerService Player857 Puremic SensetimeAiService SystemUpdater Upgrade WT_BubblePop WT_DownloadLog WT_FiveChess WT_IncallFunBox WT_IncallLive WT_Spacecraft WT_SpeedRun WT_SweepMine WT_TinnoveCore3D WT_WTAISceneEngine"
-
-REM Top-8 критичных (были в install_8.bat / disable_8.bat)
-set "TOP8=AdayoAPA AdayoDvr Camera WT_AirConditioner WT_BTPhone WT_Launcher WT_MultiMediaCenter WT_VehicleCenter"
-
-REM 9 AOSP-target, которые на этой сборке НЕ ставятся adb install
-REM ("signed with different certificates, and the overlay lacks
-REM <overlay android:targetName>"). Исключены из GROUP1/ауто, чтобы
-REM прогон не засорялся гарантированными ошибками.
-REM Путь перевода их строк: manage_static.bat (/vendor/overlay, root).
-set "EXCLUDE9=NetworkStack MediaProviderLegacy UserDictionaryProvider DownloadProvider DownloadProviderUi CompanionDeviceManager MtpService CaptivePortalLogin ContactsProvider"
+REM ================== список целей (внешний targets.txt) ==================
+REM Группы 1-4, TOP-8 и EXCLUDE9 - НЕ в коде скриптов, а в targets.txt
+REM (рядом со скриптом): единый источник для manage.bat, manage_static.bat
+REM и deepl. Другая прошивка (другие имена/набор APK) -> правится ТОЛЬКО
+REM targets.txt, формат секций - в шапке файла.
+REM (22b/25.09: 9 AOSP-target из EXCLUDE9 на этой сборке НЕ ставятся
+REM adb install - "signed with different certificates, and the overlay lacks
+REM <overlay android:targetName>"; для них - manage_static.bat,
+REM /vendor/overlay, root.)
+set "TARGETS_FILE=%~dp0targets.txt"
+call :LoadTargets
+if not "!LOAD_OK!"=="1" (
+    echo.
+    echo [ERROR] Не найден или нечитаем файл со списком целей:
+    echo   !TARGETS_FILE!
+    echo   Нужны секции: GROUP1 GROUP2 GROUP3 GROUP4 TOP8 EXCLUDE9
+    echo   (формат - в шапке файла; копию см. в git-репозитории)
+    pause
+    exit /b 1
+)
 
 set "PREFIX=com.android.vendor.translate.rro."
 set "APK_DIR=apks_rro_min"
@@ -394,6 +390,64 @@ echo.
 set "AGAIN="
 set /p "AGAIN=Вернуться в меню? [Y/N]: "
 if /i "%AGAIN%"=="Y" goto MENU
+exit /b 0
+
+REM ============================================================
+REM  :LoadTargets - читает !TARGETS_FILE! (targets.txt): секции
+REM  GROUP1..GROUP4, TOP8, EXCLUDE9. Заполняет одноимённые переменные
+REM  (имена через пробел); LOAD_OK=1 если найден хотя бы один пакет.
+REM  Формат файла (см. шапку targets.txt): имя секции на отдельной
+REM  строке, далее имена (по одному, или несколько через пробел);
+REM  # в начале строки - комментарий. Заголовок секции определяется
+REM  строкой без пробелов целиком (имена пакетов пробелов не имеют).
+REM  Чтение через type "!" (как в :DoOpAdb): usebackq in ("!var!")
+REM  в wine не экстендирует переменную (заметка 26.09) - портативно.
+REM  ФОРМА ПЛОСКАЯ: только set/if в теле for; накопление - ЯВНЫМ
+REM  set "VARIABLE=!VARIABLE! ..." на секцию (индиректный
+REM  set "!SEC!=..." пишет в переменную с ТЕМ ИМЕНЕМ, что совпало
+REM  - проверено wine 30.09).
+REM ============================================================
+:LoadTargets
+set "LOAD_OK=0"
+set "GROUP1="
+set "GROUP2="
+set "GROUP3="
+set "GROUP4="
+set "TOP8="
+set "EXCLUDE9="
+set "TGT_N=0"
+if not exist "!TARGETS_FILE!" exit /b 0
+set "TGT_SEC="
+for /f "eol=# delims=" %%i in ('type "!TARGETS_FILE!"') do (
+    set "TGT_LINE=%%i"
+    set "TGT_H=!TGT_LINE: =!"
+    REM TGT_V сбрасываем (флаг «строка-заголовок»); TGT_SEC НЕТ -
+    REM текущая секция сохранится до следующего заголовка.
+    set "TGT_V="
+    if /i "!TGT_H!"=="GROUP1"   set "TGT_V=1"
+    if /i "!TGT_H!"=="GROUP1"   set "TGT_SEC=G1"
+    if /i "!TGT_H!"=="GROUP2"   set "TGT_V=1"
+    if /i "!TGT_H!"=="GROUP2"   set "TGT_SEC=G2"
+    if /i "!TGT_H!"=="GROUP3"   set "TGT_V=1"
+    if /i "!TGT_H!"=="GROUP3"   set "TGT_SEC=G3"
+    if /i "!TGT_H!"=="GROUP4"   set "TGT_V=1"
+    if /i "!TGT_H!"=="GROUP4"   set "TGT_SEC=G4"
+    if /i "!TGT_H!"=="TOP8"     set "TGT_V=1"
+    if /i "!TGT_H!"=="TOP8"     set "TGT_SEC=T8"
+    if /i "!TGT_H!"=="EXCLUDE9" set "TGT_V=1"
+    if /i "!TGT_H!"=="EXCLUDE9" set "TGT_SEC=E9"
+    REM без /i: wine-баг - `if /i` в 3-й вложенности в теле for молча
+    REM не срабатывает (проверено 30.09); TGT_SEC - управляемый скриптом
+    REM код, case фиксированный, сравнение точное.
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="G1" set "GROUP1=!GROUP1! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="G2" set "GROUP2=!GROUP2! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="G3" set "GROUP3=!GROUP3! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="G4" set "GROUP4=!GROUP4! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="T8" set "TOP8=!TOP8! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="E9" set "EXCLUDE9=!EXCLUDE9! !TGT_LINE!"
+    if not defined TGT_V if not "!TGT_LINE!"=="" set /a TGT_N+=1
+)
+if !TGT_N! GTR 0 set "LOAD_OK=1"
 exit /b 0
 
 REM ============================================================
