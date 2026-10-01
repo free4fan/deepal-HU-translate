@@ -40,17 +40,33 @@ REM (22b/25.09: 9 AOSP-target из EXCLUDE9 на этой сборке НЕ ст
 REM adb install - "signed with different certificates, and the overlay lacks
 REM <overlay android:targetName>"; для них - manage_static.bat,
 REM /vendor/overlay, root.)
+REM Деплой в подпапку [dynamic_hide\ / static_hide\ на машине]: targets.txt
+REM может лежать рядом со скриптом ИЛИ на уровень выше - один общий файл
+REM для обеих папок схем [c:\...\targets.txt общий для dynamic_hide\ и
+REM static_hide\]. Поиск: %~dp0targets.txt -> %~dp0..\targets.txt.
 set "TARGETS_FILE=%~dp0targets.txt"
+if not exist "!TARGETS_FILE!" if exist "%~dp0..\targets.txt" set "TARGETS_FILE=%~dp0..\targets.txt"
 call :LoadTargets
 if not "!LOAD_OK!"=="1" (
     echo.
-    echo [ERROR] Не найден или нечитаем файл со списком целей:
-    echo   !TARGETS_FILE!
+    echo [ERROR] Не найден или пуст файл со списком целей:
+    echo   Искан: !TARGETS_FILE!
     echo   Нужны секции: GROUP1 GROUP2 GROUP3 GROUP4 TOP8 EXCLUDE9
-    echo   (формат - в шапке файла; копию см. в git-репозитории)
+    echo   Формат - в шапке файла; эталон - targets.txt в git-репозитории.
+    if not exist "!TARGETS_FILE!" (
+        echo   Файл НЕ НАЙДЕН рядом со скриптом и на уровень выше.
+        echo   Скопируйте targets.txt из git-репозитория в каталог со скриптом
+        echo   или в папку на уровень выше - общий для dynamic_hide и static_hide.
+    ) else (
+        echo   Файл найден, но ни одной секции не прочитано
+        echo   - битый формат, пустые/отсутствующие секции, CRLF/кодировка.
+        type "!TARGETS_FILE!" 2^>nul
+    )
     pause
     exit /b 1
 )
+REM на успех: видно, из каких именно списков работаем (важно при деплое).
+echo [TGT] !TARGETS_FILE! ^- строк с целями: !TGT_N!
 
 set "PREFIX=com.android.vendor.translate.rro."
 set "APK_DIR=apks_rro_min"
@@ -445,7 +461,9 @@ for /f "eol=# delims=" %%i in ('type "!TARGETS_FILE!"') do (
     if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="G4" set "GROUP4=!GROUP4! !TGT_LINE!"
     if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="T8" set "TOP8=!TOP8! !TGT_LINE!"
     if not defined TGT_V if not "!TGT_LINE!"=="" if "!TGT_SEC!"=="E9" set "EXCLUDE9=!EXCLUDE9! !TGT_LINE!"
-    if not defined TGT_V if not "!TGT_LINE!"=="" set /a TGT_N+=1
+    REM счётчик — только строки ВНУТРИ секции (иначе файл без заголовков
+    REM считался бы "загруженным" и все группы были бы пустые).
+    if not defined TGT_V if not "!TGT_LINE!"=="" if defined TGT_SEC set /a TGT_N+=1
 )
 if !TGT_N! GTR 0 set "LOAD_OK=1"
 exit /b 0

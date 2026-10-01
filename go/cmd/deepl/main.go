@@ -112,17 +112,17 @@ func run(args []string) error {
 	}
 }
 
-// groupsFor — Config схемы из targets.txt: приоритет env DEEPL_TARGETS,
-// затем ./targets.txt в CWD, иначе встроенный список из бинарника.
-// Использованный файл (если не встроенный) сообщается в stderr.
+// groupsFor — Config схемы: targets.txt читается ТОЛЬКО извне (в
+// бинарнике списка APK нет: ни go:embed, ни встроенной копии).
+// Приоритет: env DEEPL_TARGETS -> ./targets.txt в CWD; иначе ошибка с
+// подсказкой. Путь использованного файла печатается в stderr (на проде
+// видно, из чего реально работаем).
 func groupsFor(s groups.Scheme) (*groups.Config, error) {
 	cfg, src, err := groups.Load(s, "")
 	if err != nil {
-		return nil, fmt.Errorf("%v (исправьте файл или unset DEEPL_TARGETS)", err)
+		return nil, err
 	}
-	if src != "(встроенный targets.txt)" {
-		fmt.Fprintf(os.Stderr, "targets: %s\n", src)
-	}
+	fmt.Fprintf(os.Stderr, "targets: %s\n", src)
 	return cfg, nil
 }
 

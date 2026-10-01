@@ -1,9 +1,9 @@
 // Package groups — справочник целей (группы 1-4, TOP8, EXCLUDE9),
 // пресеты и пути. ЕДИНСТВЕННЫЙ источник списков — файл targets.txt
-// (см. targets.go): bat-менеджеры читают его напрямую, Go — встроенную
-// копию (go:embed, build.sh копирует в каталог пакета) или внешний файл
-// (Load: env DEEPL_TARGETS / ./targets.txt). Списки в коде скриптов
-// НЕТ — для другой прошивки правится только targets.txt.
+// (см. targets.go): bat-менеджеры читают его напрямую, Go — через
+// Load() (env DEEPL_TARGETS / ./targets.txt в CWD). Списков В КОДЕ И В
+// БИНАРНИКЕ НЕТ (ни go:embed, ни встроенной копии) — для другой прошивки
+// правится только targets.txt.
 //
 // ВАЖНОЕ РАЗЛИЧИЕ: GROUP1 статической схемы = GROUP1 динамической +
 // 9 AOSP-target (NetworkStack/Providers/…), т.к. в /vendor/overlay они
@@ -11,7 +11,6 @@
 package groups
 
 import (
-	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -55,56 +54,69 @@ type Config struct {
 }
 
 // Dynamic — конф и manage.bat; списки целей — из targets.txt
-// (встроенная копия, см. targets.go).
+// (Load: env DEEPL_TARGETS / ./targets.txt, см. targets.go).
 func Dynamic() *Config {
-	return Build(SchemeDynamic, defaultTargets)
+	c, _, err := Load(SchemeDynamic, "")
+	if err != nil {
+		panic(fmt.Sprintf("groups: нет читаемого targets.txt: %v", err))
+	}
+	return c
 }
 
 // Static — конф и manage_static.bat (GROUP1 = GROUP1 + EXCLUDE9).
 func Static() *Config {
-	return Build(SchemeStatic, defaultTargets)
+	c, _, err := Load(SchemeStatic, "")
+	if err != nil {
+		panic(fmt.Sprintf("groups: нет читаемого targets.txt: %v", err))
+	}
+	return c
 }
 
-// Load — Config схемы из внешнего targets.txt. Приоритет выбора файла:
+// Load — Config схемы из targets.txt. Встроенного списка НЕТ (бинарник
+// APK-списков не несёт): файл ищется и читается извне, при отсутствии /
+// битом — ошибка. Приоритет:
 //  1. path (явный аргумент, тесты);
-//  2. env DEEPL_TARGETS — абсолютный путь (например, общий файл для
-//     всех бинарников);
-//  3. ./targets.txt в CWD — обычный случай (deepl запускается из каталога
-//     с manage.bat);
-//  4. встроенный список (go:embed, копируется build.sh) — фолбэк, если
-//     внешних файлов нет; ошибка возвращается ТОЛЬКО если файл задан
-//     явно (1-3) и он бит (прочитался, но не распарсился).
+//  2. env DEEPL_TARGETS — путь (например, общий файл на уровне выше
+//     папок dynamic_hide/static_hide — как в bat);
+//  3. ./targets.txt в CWD, затем восхождение по папкам-родителям вверх
+//     (пока не найдётся или не упрёмся в корень ФС) — как у bat (%~dp0 и
+//     %~dp0..\), поэтому deepl запускается и из подпапки, и из глубины
+//     репозитория.
 //
 // Возвращает также путь, из которого список реально взят (для вывода).
 func Load(scheme Scheme, path string) (*Config, string, error) {
 	if path != "" {
-		return loadFile(scheme, path, true)
+		return loadTargets(scheme, path)
 	}
 	if p := os.Getenv("DEEPL_TARGETS"); p != "" {
-		return loadFile(scheme, p, true)
+		return loadTargets(scheme, p)
 	}
-	if _, err := os.Stat("targets.txt"); err == nil {
-		return loadFile(scheme, "targets.txt", false)
+	cwd, err := os.Getwd()
+	if err != nil {
+		return nil, "", err
 	}
-	return Build(scheme, defaultTargets), "(встроенный targets.txt)", nil
+	dir := cwd
+	for {
+		if _, err := os.Stat(filepath.Join(dir, "targets.txt")); err == nil {
+			return loadTargets(scheme, filepath.Join(dir, "targets.txt"))
+		}
+		parent := filepath.Dir(dir)
+		if parent == dir { // корень ФС — выше некуда
+			break
+		}
+		dir = parent
+	}
+	return nil, "", fmt.Errorf(
+		"не найден targets.txt (CWD=%s и все родительские папки) — положите targets.txt рядом / на уровень выше (общий для dynamic_hide и static_hide) или задайте DEEPL_TARGETS=/путь; эталон — корневой targets.txt в git-репозитории", cwd)
 }
 
-// loadFile — Load + контроль: hard=true — битый файл = ошибка (прямой
-// аргумент / DEEPL_TARGETS); hard=false — битый ./targets.txt откатывается
-// на встроенный (source-строка это помечает).
-func loadFile(scheme Scheme, path string, hard bool) (*Config, string, error) {
+// loadTargets — ParseFile + Build; битый/отсутствующий файл = ошибка.
+func loadTargets(scheme Scheme, path string) (*Config, string, error) {
 	t, err := ParseFile(path)
-	if err == nil {
-		return Build(scheme, t), path, nil
+	if err != nil {
+		return nil, "", fmt.Errorf("%s: %w", path, err)
 	}
-	if errors.Is(err, os.ErrNotExist) {
-		return Build(scheme, defaultTargets), "(встроенный targets.txt)", nil
-	}
-	if !hard {
-		return Build(scheme, defaultTargets),
-			fmt.Sprintf("(! %s не распарсился (%v); использован встроенный)", path, err), nil
-	}
-	return nil, path, fmt.Errorf("%s: %w", path, err)
+	return Build(scheme, t), path, nil
 }
 
 // GroupLabelHuman — человекочитаемое имя группы (подпись в меню).

@@ -2,15 +2,16 @@
 # Сборка deepl (Go) — проверяет, тестирует и собирает бинарники.
 #
 # Использование:
-#   ./build.sh              - gofmt + vet + тесты + сборка Linux и Windows
-#   ./build.sh --no-test    - без тестов (быстрее)
+#   go/build.sh             - gofmt + vet + тесты + сборка Linux и Windows
+#   go/build.sh --no-test   - без тестов (быстрее)
 #
-# Результат (в корне проекта):
+# Модуль лежит в go/ (где go.mod); результат — в корне проекта:
 #   deepl       - Linux amd64
 #   deepl.exe   - Windows amd64
 
 set -e
-cd "$(dirname "$0")"
+cd "$(dirname "$0")"            # go/ — корень Go-модуля (где go.mod)
+ROOT=$(cd .. && pwd)            # корень проекта (targets.txt, manage*.bat)
 
 CMD=./cmd/deepl
 
@@ -21,16 +22,15 @@ command -v go >/dev/null 2>&1 || {
 }
 echo "Go: $(go version)"
 
-# --- targets.txt: синхронизация встроенной копии (go:embed) ---
-# Единственный источник списков целей — ./targets.txt (читают manage.bat,
-# manage_static.bat и deepl). go:embed берёт копию internal/groups/targets.txt
-# (требует файл в каталоге пакета), поэтому перед тестами/сборкой копируем.
-if [ ! -f targets.txt ]; then
+# --- targets.txt: наличие корневого файла ---
+# Единственный источник списков целей — корневой targets.txt (читают
+# manage.bat, manage_static.bat и deepl; в бинарник НЕ встраивается:
+# deepl ищет его в CWD/родителях или по DEEPL_TARGETS в рантайме).
+# Тесты (go test) читают его напрямую, сборка без него бессмысленна.
+if [ ! -f "$ROOT/targets.txt" ]; then
     echo "ERROR: нет targets.txt (список целей) — скрипты без списков невозможны."
     exit 1
 fi
-cp -f targets.txt internal/groups/targets.txt
-echo "[OK] targets.txt -> internal/groups/targets.txt"
 
 # --- формат ---
 echo .
@@ -64,21 +64,21 @@ if [ "$1" != "--no-test" ]; then
     echo "[OK] тесты"
 fi
 
-# --- сборка ---
+# --- сборка (бинарники — в корень проекта) ---
 echo .
 echo "Сборка deepl (linux/amd64)..."
 echo .
-go build -o deepl "$CMD"
+go build -o "$ROOT/deepl" "$CMD"
 echo "[OK] deepl        (Linux amd64)"
 
 echo .
 echo "Сборка deepl.exe (windows/amd64)..."
 echo .
-GOOS=windows GOARCH=amd64 go build -o deepl.exe "$CMD"
+GOOS=windows GOARCH=amd64 go build -o "$ROOT/deepl.exe" "$CMD"
 echo "[OK] deepl.exe    (Windows amd64)"
 echo .
 echo "========================================================"
-echo "  ГОТОВО:"
+echo "  ГОТОВО (в корне проекта):"
 echo "    ./deepl       - Linux amd64"
 echo "    ./deepl.exe   - Windows amd64"
 echo "========================================================"

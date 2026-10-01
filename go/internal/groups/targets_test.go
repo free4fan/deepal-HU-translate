@@ -64,22 +64,18 @@ func TestParseEmpty(t *testing.T) {
 	}
 }
 
-// TestEmbeddedMatchesRoot — встроенная копия (go:embed) не расходитсся с
-// корневым targets.txt (build.sh синхронизирует; тест ловит ручную правку
-// без пересборки/пересинка).
-func TestEmbeddedMatchesRoot(t *testing.T) {
-	root, err := os.ReadFile(filepath.Join("..", "..", "targets.txt"))
+// TestRootFileData — жёсткая сверка: данные 3.1.2 из корневого targets.txt
+// (единственный источник; бинарным он не встраивается, читаем напрямую).
+// Путь: go/internal/groups -> корень (3 уровня).
+func TestRootFileData(t *testing.T) {
+	root, err := os.ReadFile(filepath.Join("..", "..", "..", "targets.txt"))
 	if err != nil {
 		t.Skipf("нестандартный CWD: %v", err)
 	}
-	if string(root) != embeddedTargets {
-		t.Fatalf("internal/groups/targets.txt отличается от корневого targets.txt — сделайте 'cp targets.txt internal/groups/targets.txt' (или ./build.sh)")
+	tt, err := Parse(root)
+	if err != nil {
+		t.Fatalf("Parse(root targets.txt): %v", err)
 	}
-}
-
-// TestEmbeddedData — жёсткая сверка: данные 3.1.2 из targets.txt.
-func TestEmbeddedData(t *testing.T) {
-	tt := defaultTargets
 	n := func(s []string) int { return len(s) }
 	if got := n(tt.Groups[0]) + n(tt.Groups[1]) + n(tt.Groups[2]) + n(tt.Groups[3]); got != 91 {
 		t.Errorf("динамических целей = %d, want 91", got)
@@ -130,16 +126,10 @@ func TestLoadExternal(t *testing.T) {
 		t.Errorf("Exclude = %v, want [Qux]", c.Exclude)
 	}
 
-	// нет файла -> fallback на встроенный (не ошибка)
-	c2, src2, err := Load(SchemeDynamic, filepath.Join(dir, "nope.txt"))
-	if err != nil {
-		t.Fatalf("Load(нет файла): %v", err)
-	}
-	if src2 != "(встроенный targets.txt)" {
-		t.Errorf("src = %q, want встроенный", src2)
-	}
-	if n2 := len(c2.Groups[0]) + len(c2.Groups[1]) + len(c2.Groups[2]) + len(c2.Groups[3]); n2 != 91 {
-		t.Errorf("fallback: целей %d, want 91", n2)
+	// нет файла -> ошибка (встроенного фолбэка нет: бинарник
+	// APK-списков не несёт)
+	if _, _, err := Load(SchemeDynamic, filepath.Join(dir, "nope.txt")); err == nil {
+		t.Error("Load(нет файла) = nil, want err")
 	}
 
 	// файл есть, но пуст -> ошибка

@@ -69,11 +69,14 @@ deepal-HU-translate/
 ├── create_app_pipeline.sh / export-to-db.sh
 │   # прогонщики: полный цикл сборки / create_db+validate
 ├── manage.bat                     # менеджер ДИНАМИЧЕСКИХ RRO
-│   # (install/enable/disable/uninstall/status/diag/report), CLI:
+│   # (install/enable/disable/uninstall/status/diag/report/reboot), CLI:
 │   #   manage.bat <mode> <preset>
 ├── manage_static.bat              # менеджер СТАТИЧЕСКИХ RRO (root, /vendor/overlay)
-│   # (install/uninstall/status/diag/report)
-└── collect_report.bat             # вызывается report из обоих: сборка zip-лога
+│   # (install/uninstall/status/diag/report/reboot)
+├── collect_report.bat             # вызывается report из обоих: сборка zip-лога
+└── go/                            # Go-менеджер deepl (go.mod, cmd/, internal/)
+    #   build.sh - gofmt+vet+тесты+сборка deepl/deepl.exe в корень
+    #   CLI: deepl dyn|stat <mode> <preset>, deepl reboot
 ```
 
 ---

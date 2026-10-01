@@ -2,7 +2,7 @@
 decompiled/
 original_apks/
 
-# Артефакты сборки (только в корне, чтобы не затронуть cmd/deepl/)
+# Артефакты сборки Go (бинарники — в корне; исходники и build.sh — в go/)
 /deepl
 /deepl.exe
 database/

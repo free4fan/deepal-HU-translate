@@ -1,29 +1,20 @@
 package groups
 
 import (
-	_ "embed"
 	"errors"
-	"fmt"
 	"os"
 	"strings"
 )
 
 // targets.txt — Единственный источник списков целей (группы 1-4, TOP-8,
 // EXCLUDE9) для ОБЕИХ схем: manage.bat / manage_static.bat читают его
-// напрямую, a Go-менеджер — через встраивание (см. embed ниже) или через
-// Load() из внешнего файла (env DEEPL_TARGETS / ./targets.txt).
+// напрямую, Go-менеджер — через Load() из внешнего файла (env
+// DEEPL_TARGETS / ./targets.txt в CWD).
 //
-// targets.txt НЕ правится из кода: для другой прошивки достаточно
-// заменить файл (батники подхватят сам; deepl: DEEPL_TARGETS или файл в
-// CWD), а для «зашить» в бинарник — пересобрать (build.sh копирует файл
-// в internal/groups/targets.txt перед go build; go:embed требует файл
-// в директории пакета).
-//
-// go:embed — сгенерированная копия корневого targets.txt (build.sh);
-// держится в репозитории, чтобы `go test`/`go build` работали без сборки.
-//
-//go:embed targets.txt
-var embeddedTargets string
+// Бинарник НЕСЁТ списка APK: нет ни go:embed, ни встроенной копии —
+// при отсутствии читаемого targets.txt Load() возвращает ошибку.
+// Для другой прошивки достаточно заменить файл (батники подхватят сами;
+// deepl: DEEPL_TARGETS или файл в CWD).
 
 // Targets — разобранные секции targets.txt.
 type Targets struct {
@@ -140,12 +131,3 @@ func Build(scheme Scheme, t *Targets) *Config {
 	}
 	return c
 }
-
-// defaultTargets — встроенный список (targets.txt из build.sh).
-var defaultTargets = func() *Targets {
-	t, err := Parse([]byte(embeddedTargets))
-	if err != nil {
-		panic(fmt.Sprintf("groups: встроенный targets.txt: %v", err))
-	}
-	return t
-}()

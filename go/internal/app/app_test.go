@@ -366,8 +366,7 @@ func TestRunDynamicEnable(t *testing.T) {
 
 func TestRunDynamicUninstall(t *testing.T) {
 	cfg, m, w := setupDyn(t)
-	_ = cfg
-	os.WriteFile(filepath.Join(groups.Dynamic().ApkDir, "x"), []byte("x"), 0o644)
+	os.WriteFile(filepath.Join(cfg.ApkDir, "x"), []byte("x"), 0o644)
 
 	o, err := w.Run(ModeUninstall, "8")
 	if err != nil {
