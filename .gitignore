@@ -2,9 +2,11 @@
 decompiled/
 original_apks/
 
-# Артефакты сборки Go (бинарники — в корне; исходники и build.sh — в go/)
+# Артефакты сборки Go (бинарники — в корне; исходники в go/ и logshot/)
 /deepl
 /deepl.exe
+/shot
+/shot.exe
 database/
 overlays/
 overlays_static/
