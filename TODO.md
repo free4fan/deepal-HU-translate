@@ -31,6 +31,18 @@ RRO-конвейеру для передекомпиляции, `scripts/decompi
   - `WT_TinnoveCoreService/res/raw/virtual_data.xml`; `WT_AISpace/assets/speech_skill*.yaml`.
   Решение (25.09): reпак-путь отклонён (см. закрытый блок выше) → задача
   ОТЛОЖЕНА; список фраз — `rg` по assets (собирали 22.09, отчёт «не покрыто»).
+- [x] **(30.09, ОТКЛОНЕНО решением пользователя) `即将执行主驾离车提醒` в "Camera":
+      НЕ строка ресурса — рантайм-конкатенация код+данные, вне зоны RRO.**
+      Фраза = `即将执行` (const-string в коде
+      `WT_AISceneMode/SceneScriptSnackBarHelper$showAskSnackBar$1.smali`)
+      + имя сцены из SQLite-БД `ScriptEntity.getScriptName()` (данные ГОСТ,
+      задаёт пользователь) — глобальный WTSnackBar WT_AISceneMode накладывается
+      поверх любого окна, отсюда и показалось «в Camera». Проверено: фраза/части
+      (`即将执行`, `主驾离车提醒`, `离车提醒`) отсутствуют во ВСЕХ 122 APK
+      (res/arsc/assets/dex/.so, UTF-8+UTF-16LE). Lечить нельзя RRO; smali-patch
+      preфикса не переводит имя из БД + `apktool b` на WT-* не собирается →
+      зафиксировано как «вне зоны RRO», НЕ ПЕРЕВОДИТЬ, повторные запросы —
+      отсылка сюда.
 - [ ] **git init** (проект не под git — *.py, bat'ы, overlays, apks_rro_* —
   защитить бэкапом; translations/*.json — главный актив).
 
