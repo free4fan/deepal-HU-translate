@@ -2024,7 +2024,7 @@
   {
     "name": "fun_author_save_setting_tip_date",
     "zh": "已授权对象有效期至",
-    "ru": "Срок доступа до ",
+    "ru": "Срок доступа до",
     "type": "string"
   },
   {
