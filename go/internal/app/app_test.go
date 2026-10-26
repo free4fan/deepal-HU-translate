@@ -2,6 +2,8 @@ package app
 
 import (
 	"context"
+	"fmt"
+	"io"
 	"os"
 	"path/filepath"
 	"strings"
@@ -22,6 +24,8 @@ type mockClient struct {
 	installOut string
 	rootErr    bool
 	remountOK  bool
+	// mockCheckResult подменяет результат CheckResult (nil = по deviceOK).
+	mockCheckResult *adb.CheckResult
 }
 
 func keyOf(args ...string) string { return strings.Join(args, " ") }
@@ -108,11 +112,44 @@ func (m *mockClient) CheckFast(ctx context.Context) bool {
 	m.calls = append(m.calls, "check-fast")
 	return m.deviceOK
 }
+func (m *mockClient) CheckResult(ctx context.Context, fast bool) adb.CheckResult {
+	if m.mockCheckResult != nil {
+		m.calls = append(m.calls, "check-result")
+		return *m.mockCheckResult
+	}
+	m.calls = append(m.calls, "check-result")
+	if m.deviceOK {
+		return adb.CheckResult{OK: true}
+	}
+	return adb.CheckResult{Err: fmt.Errorf("mock: устройство не найдено (deviceOK=false)")}
+}
 func (m *mockClient) DevicesState(ctx context.Context) adb.State {
 	if m.deviceOK {
 		return adb.StateDevice
 	}
 	return adb.StateNone
+}
+func (m *mockClient) ResolveBin() error { return nil }
+
+// MockADB — подставляемый *adb.Adb с тихим логгером (тесты меню [R]:
+// проверка пишется в Logger, а не на реальный stdout).
+type MockADB struct {
+	*adb.Adb
+	Seams *adb.TestSeams
+}
+
+func NewMockADB() *MockADB {
+	s := &adb.TestSeams{}
+	a := adb.ForTest(s)
+	s.Exec = func(_ context.Context, name string, args ...string) (string, string, int) {
+		return "List of devices attached\nDEV\tdevice\n", "", 0
+	}
+	s.Available = func() bool { return true }
+	a.CmdTimeout, a.UnauthWait, a.RetryDelay, a.WaitDevPoll = time.Second, time.Millisecond, time.Millisecond, time.Millisecond
+	var b strings.Builder
+	a.Logger = io.Writer(&b)
+	a.Bin = "/fake/adb"
+	return &MockADB{Adb: a, Seams: s}
 }
 
 func itoa(i int) string {

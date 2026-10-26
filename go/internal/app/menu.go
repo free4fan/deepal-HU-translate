@@ -42,9 +42,15 @@ func (m *Menu) Run() {
 		case "0":
 			return
 		case "R":
+			// [R] делает ПОЛНУЮ проверку (цикл 3 попытки + рестарт демона),
+			// а не одну fast-проверку. Вывод НЕ смахивается cls: до
+			// следующего экрана пауза на ввод (иначе «ничего не произошло»).
 			fmt.Fprintln(m.out)
-			m.a.Adb.Check(m.a.Ctx)
-			fmt.Fprintln(m.out)
+			res := m.a.Adb.CheckResult(m.a.Ctx, false)
+			if !res.OK && res.Err != nil {
+				fmt.Fprintln(m.out, "  Проверка ADB:", res.Err)
+			}
+			m.pauseAnyKey()
 			continue
 		case "1", "2", "3", "4", "5", "6", "7", "8":
 			mode = m.modeFor(choice)
@@ -87,6 +93,15 @@ func (m *Menu) askAgain() bool {
 	fmt.Fprintln(m.out)
 	m.print("Вернуться в меню? [Y/N]: ")
 	return m.readLine() == "Y"
+}
+
+// pauseAnyKey — «Нажмите любую клавишу...» до следующей очистки экрана.
+// Без неё вывод [R] (проверка ADB) мгновенно смахивается cls — симптом
+// «нажал R, НО ничего не происходит» (26.10). Любая клавиша = продолжить
+// (продолжить = следующее меню), EOF = продолжить (цикл меню и так завершит).
+func (m *Menu) pauseAnyKey() {
+	fmt.Fprint(m.out, "\nНажмите любую клавишу для продолжения...")
+	_ = m.sc.Scan()
 }
 
 func (m *Menu) readLine() string {

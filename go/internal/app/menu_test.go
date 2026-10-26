@@ -171,6 +171,58 @@ func TestMenuInvalidPresetNoAdb(t *testing.T) {
 	}
 }
 
+// [R] — вывод Check НЕ смахивается мгновенным cls: в конце пауза на ввод.
+func TestMenuRShowsResultAndPauses(t *testing.T) {
+	ma := NewMockADB()
+	cfg := groups.Dynamic()
+	cfg.Groups = [4][]string{{"Cam"}, nil, nil, nil}
+	cfg.Top8 = []string{"Cam"}
+	w := newCollectWriter(t)
+	a := New(context.Background(), cfg, ma)
+	a.Out = io.Discard
+	a.In = strings.NewReader("R\ny\n0\n") // R -> любая клавиша -> выход
+	ma.Logger = w                         // прогресс [R] (строки CheckResult) — в тот же writer, что меню
+	m := NewMenu(a, cfg.Scheme, w, a.In)
+	m.Clear = func(io.Writer) {}
+
+	m.Run()
+
+	if !strings.Contains(w.s, "[OK] ADB connected.") {
+		t.Errorf("R: нет результата проверки:\n%s", w.s)
+	}
+	if !strings.Contains(w.s, "Нажмите любую клавишу") {
+		t.Errorf("R: нет паузы перед следующим меню:\n%s", w.s)
+	}
+}
+
+// [R] с недоступным adb — тоже пауза (иначе видно ничего, симптом «R не работает»).
+func TestMenuRUnavailableShowsErrorAndPauses(t *testing.T) {
+	ma := NewMockADB()
+	ma.Seams.Available = func() bool { return false }
+	cfg := groups.Dynamic()
+	cfg.Groups = [4][]string{{"Cam"}, nil, nil, nil}
+	cfg.Top8 = []string{"Cam"}
+	w := newCollectWriter(t)
+	a := New(context.Background(), cfg, ma)
+	a.Out = io.Discard
+	a.In = strings.NewReader("R\ny\n0\n")
+	ma.Logger = w // прогресс [R] — в тот же writer, что меню
+	m := NewMenu(a, cfg.Scheme, w, a.In)
+	m.Clear = func(io.Writer) {}
+
+	m.Run()
+
+	if !strings.Contains(w.s, "adb not found") {
+		t.Errorf("R: нет ошибки про adb:\n%s", w.s)
+	}
+	if !strings.Contains(w.s, "DEEPL_ADB") {
+		t.Errorf("R: нет подсказки DEEPL_ADB:\n%s", w.s)
+	}
+	if !strings.Contains(w.s, "Нажмите любую клавишу") {
+		t.Errorf("R: нет паузы:\n%s", w.s)
+	}
+}
+
 // captureWriter — io.Writer, коллекция.
 type captureWriter struct{ s string }
 

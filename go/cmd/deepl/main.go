@@ -15,6 +15,10 @@
 //
 // modes:   install | enable | disable | uninstall | status | diag | report | reboot
 // presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <имена пакетов через пробел> | 0
+//
+// adb:     ищется в порядке: env DEEPL_ADB -> PATH -> рядом с бинарником
+//
+//	deepl (adb.exe в той же папке) - platform-tools в PATH не обязательны.
 package main
 
 import (
@@ -43,12 +47,19 @@ func run(args []string) error {
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
 
+	// adb ищем ОДИН РАЗ (env DEEPL_ADB -> PATH -> рядом с бинарником deepl);
+	// при отсутствии — понятная ошибка раньше меню/прогона.
+	adbClient, err := newAdbClient()
+	if err != nil {
+		return err
+	}
+
 	if len(args) == 0 {
 		cfg, err := groupsFor(groups.SchemeDynamic)
 		if err != nil {
 			return err
 		}
-		return interactive(cfg)
+		return interactive(ctx, adbClient, cfg)
 	}
 
 	cmd := args[0]
@@ -67,26 +78,26 @@ func run(args []string) error {
 			return err
 		}
 		if len(rest) == 0 {
-			return interactive(cfg)
+			return interactive(ctx, adbClient, cfg)
 		}
-		return cliMode(ctx, cfg, rest)
+		return cliMode(ctx, adbClient, cfg, rest)
 	case "stat":
 		cfg, err := groupsFor(groups.SchemeStatic)
 		if err != nil {
 			return err
 		}
 		if len(rest) == 0 {
-			return interactive(cfg)
+			return interactive(ctx, adbClient, cfg)
 		}
-		return cliMode(ctx, cfg, rest)
+		return cliMode(ctx, adbClient, cfg, rest)
 	case "stat-install-8":
-		return statPreset("install", "8")
+		return statPreset(ctx, adbClient, "install", "8")
 	case "stat-install-36":
-		return statPreset("install", "auto")
+		return statPreset(ctx, adbClient, "install", "auto")
 	case "stat-install-all":
-		return statPreset("install", "A")
+		return statPreset(ctx, adbClient, "install", "A")
 	case "stat-uninstall-all":
-		return statPreset("uninstall", "A")
+		return statPreset(ctx, adbClient, "uninstall", "A")
 	case "report":
 		scheme := groups.SchemeDynamic
 		if len(rest) > 0 && (rest[0] == "stat" || rest[0] == "static") {
@@ -96,7 +107,7 @@ func run(args []string) error {
 		if err != nil {
 			return err
 		}
-		return cliMode(ctx, cfg, []string{"report"})
+		return cliMode(ctx, adbClient, cfg, []string{"report"})
 	default:
 		// Совместимость с manage.bat <mode> [preset].
 		if isMode(cmd) {
@@ -104,7 +115,7 @@ func run(args []string) error {
 			if err != nil {
 				return err
 			}
-			return cliMode(ctx, cfg, append([]string{cmd}, rest...))
+			return cliMode(ctx, adbClient, cfg, append([]string{cmd}, rest...))
 		}
 		fmt.Fprintf(os.Stderr, "неизвестная подкоманда %q\n\n", cmd)
 		usage()
@@ -127,22 +138,18 @@ func groupsFor(s groups.Scheme) (*groups.Config, error) {
 }
 
 // statPreset — ярлык "deepl stat <mode> <preset>" (как у manage_static).
-func statPreset(mode, preset string) error {
-	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
-	defer stop()
+func statPreset(ctx context.Context, adbClient adb.Client, mode, preset string) error {
 	cfg, err := groupsFor(groups.SchemeStatic)
 	if err != nil {
 		return err
 	}
-	return cliMode(ctx, cfg, []string{mode, preset})
+	return cliMode(ctx, adbClient, cfg, []string{mode, preset})
 }
 
 // interactive — интерактивное меню (manage.bat без аргументов).
 // Чистка экрана — нативная (cmd /c cls на Windows, clear на Unix), 1:1 с `cls` из bat.
-func interactive(cfg *groups.Config) error {
-	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
-	defer stop()
-	a := app.New(ctx, cfg, adb.New())
+func interactive(ctx context.Context, adbClient adb.Client, cfg *groups.Config) error {
+	a := app.New(ctx, cfg, adbClient)
 	a.Out = os.Stdout
 	a.In = os.Stdin
 	m := app.NewMenu(a, cfg.Scheme, os.Stdout, os.Stdin)
@@ -150,9 +157,19 @@ func interactive(cfg *groups.Config) error {
 	return nil
 }
 
+// newAdbClient — единственный в процессе Adb: поиск бинарника (env DEEPL_ADB
+// -> PATH -> рядом с бинарником deepl) + лог на stderr.
+func newAdbClient() (adb.Client, error) {
+	a := adb.New()
+	if err := a.ResolveBin(); err != nil {
+		return nil, err
+	}
+	return a, nil
+}
+
 // cliMode — один прогон режима (как CLI=1 в батниках): без меню,
 // после выполнения — пауза (если TTY) и exit.
-func cliMode(ctx context.Context, cfg *groups.Config, rest []string) error {
+func cliMode(ctx context.Context, adbClient adb.Client, cfg *groups.Config, rest []string) error {
 	if len(rest) == 0 {
 		return fmt.Errorf("не указан mode (install|enable|disable|uninstall|status|diag|report|reboot)")
 	}
@@ -166,7 +183,7 @@ func cliMode(ctx context.Context, cfg *groups.Config, rest []string) error {
 		return fmt.Errorf("неизвестный mode %q (ожидается: install|enable|disable|uninstall|status|diag|report|reboot)", modeStr)
 	}
 
-	a := app.New(ctx, cfg, adb.New())
+	a := app.New(ctx, cfg, adbClient)
 	a.Out = os.Stdout
 	a.In = os.Stdin
 	_, err := a.Run(mode, preset)
@@ -246,5 +263,8 @@ presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <пакеты через пробе�
   deepl dyn install 8      - установить+включить TOP-8 динамических
   deepl stat install A     - установить все статические
   deepl stat uninstall A   - удалить все статические
-  deepl report dynamic     - отчёт по динамическим`)
+  deepl report dynamic     - отчёт по динамическим
+
+adb ищется в порядке: env DEEPL_ADB -> PATH -> рядом с бинарником deepl
+(adb.exe в той же папке) - platform-tools в PATH не обязательны.`)
 }

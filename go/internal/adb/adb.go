@@ -9,8 +9,11 @@ package adb
 import (
 	"context"
 	"fmt"
+	"io"
 	"os"
 	"os/exec"
+	"path/filepath"
+	"runtime"
 	"strconv"
 	"strings"
 	"time"
@@ -39,12 +42,23 @@ func (s State) String() string {
 // Client — интерфейс для потребителей (ui/flows/report), чтобы
 // тесты могли подменить выполнение команд на мок.
 type Client interface {
+	// ResolveBin — поиск бинарника adb: env DEEPL_ADB -> PATH -> рядом с
+	// бинарником вызывающей программы (deepl.exe/adb.exe в одной папке).
+	// error —
+	// adb не найден нигде (или DEEPL_ADB указывает на несуществующий файл).
+	// Печатает [ADB] using: <путь> в stderr. Вызывать 1 раз до Check/Shell.
+	ResolveBin() error
 	// Check — полная проверка подключения: до 3 попыток `adb devices`,
 	// рестарт демона при неудаче, ожидание авторизации (до 3×unauthWait).
 	// false — если подключиться не удалось; true — устройство доступно.
 	Check(ctx context.Context) bool
 	// CheckFast — одна `adb devices`, без ожиданий (для баннера в меню).
 	CheckFast(ctx context.Context) bool
+	// CheckResult — как Check/CheckFast, но возвращает результат:
+	// Ok — device доступен, Err — что не так (adb не найден / устройство
+	// не найдено / unauthorized после 3 проверок). Строки пишутся в лог
+	// (Logger/stdout) — вызывающий может показать их пользователю.
+	CheckResult(ctx context.Context, fast bool) CheckResult
 	// Shell выполняет `adb shell <args...>`.
 	Shell(ctx context.Context, args ...string) Result
 	// ShellOut — как Shell, но только stdout (без stderr).
@@ -74,14 +88,23 @@ type Client interface {
 	Version(ctx context.Context) Result
 }
 
+// CheckResult — результат проверки подключения (fast или полная Check).
+// Строки, какие уже напечатал вызов в лог (Logger/stdout).
+type CheckResult struct {
+	OK  bool
+	Err error // нет adb / устройство не найдено / unauthorized (3 проверки)
+}
+
 // Adb выполняет команды adb как подпроцесс.
 type Adb struct {
-	// Bin — путь к исполняемому файлу adb (по умолчанию ищется в PATH).
+	// Bin — путь к исполняемому файлу adb (заполняется ResolveBin:
+	// env DEEPL_ADB -> PATH -> рядом с бинарником deepl).
 	Bin string
 
 	// Logger — куда писать прогресс (по умолчанию os.Stdout).
-	// Для тестов и тихих режимов можно заменить.
-	Logger *strings.Builder
+	// io.Writer: меню подставляет свой out, чтобы строки [R] были
+	// видны в терминале; тесты — буфер.
+	Logger io.Writer
 
 	// Настройки таймингов (в проде значения по умолчанию).
 	UnauthWait  time.Duration // ожидание авторизации (по умолчанию 45s)
@@ -94,6 +117,65 @@ type Adb struct {
 	execFn func(ctx context.Context, name string, args ...string) (string, string, int)
 	// availableFn — точка подмены проверки наличия adb (тесты).
 	availableFn func() bool
+	// selfBin — путь к бинарнику вызывающей программы (тесты; прод —
+	// os.Executable).
+	selfBin func() (string, error)
+}
+
+// SelfBin — путь к бинарнику вызывающей программы.
+func selfBinFallback() (string, error) { return os.Executable() }
+
+// ResolveBin — поиск бинарника adb (приоритет — сверху вниз):
+//
+//  1. env DEEPL_ADB — явный путь (используется как есть; ошибка, если файла нет);
+//  2. PATH — `adb`/`adb.exe` из PATH (`exec.LookPath`);
+//  3. рядом с бинарником deepl (каталог `os.Executable()`) — `adb.exe`
+//     (Windows) или `adb` (прочие ОС).
+//
+// Найденный путь кладёт в a.Bin и печатает `[ADB] using: <путь>` в stderr
+// (чтобы было видно, каким adb работаем). a.Bin="" — инициализация без
+// поиска (тесты подставляют Bin/execFn сами).
+func (a *Adb) ResolveBin() error {
+	if p := os.Getenv("DEEPL_ADB"); p != "" {
+		if fi, err := os.Stat(p); err != nil || fi.IsDir() {
+			return fmt.Errorf("DEEPL_ADB указывает на несуществующий файл: %q", p)
+		}
+		a.Bin = p
+		a.showADB(p)
+		return nil
+	}
+	if p, err := exec.LookPath("adb"); err == nil {
+		a.Bin = p
+		a.showADB(p)
+		return nil
+	}
+	fn := a.selfBin
+	if fn == nil {
+		fn = selfBinFallback
+	}
+	if self, err := fn(); err == nil {
+		name := "adb"
+		if runtime.GOOS == "windows" {
+			name = "adb.exe"
+		}
+		if p := filepath.Join(filepath.Dir(self), name); isExecutable(p) {
+			a.Bin = p
+			a.showADB(p)
+			return nil
+		}
+	}
+	return fmt.Errorf("adb не найден: нет в PATH и нет рядом с бинарником deepl. " +
+		"Положите adb.exe в ту же папку или укажите путь: DEEPL_ADB=/путь/adb.exe")
+}
+
+func isExecutable(p string) bool {
+	fi, err := os.Stat(p)
+	return err == nil && !fi.IsDir()
+}
+
+// showADB — заметка, каким adb работаем (stderr: как строка targets в main).
+func (a *Adb) showADB(p string) {
+	fmt.Fprintf(os.Stderr, "[ADB] using: %s\n\n", p)
 }
 
 // New создаёт Adb с настройками по умолчанию.
@@ -199,57 +281,68 @@ func (a *Adb) DevicesState(ctx context.Context) State {
 	return devicesState(r.Out)
 }
 
-// CheckFast — быстрая проверка (одна `adb devices`), для баннера меню:
-// меню показывается всегда, независимо от статуса.
-func (a *Adb) CheckFast(ctx context.Context) bool {
-	if !a.Available() {
-		return false
-	}
-	return a.DevicesState(ctx) == StateDevice
-}
-
-// Check — полная проверка подключения. Логия повторяет manage.bat:ADB_CHECK:
+// CheckResult — один прогон проверки (быстрый или полный); все строки
+// печатаются в лог (Logger/stdout), результат в OK/Err.
+//
+// fast=true  — одна `adb devices` (баннер меню [R] не блокирует), без
+// ожиданий и рестарта демона;
+// fast=false — полный цикл из manage.bat:ADB_CHECK:
 //
 //	попытка 1..3:
-//	  device       -> [OK] ADB connected. -> true
-//	  unauthorized -> до 3×UnauthWait ожидания (Ctrl+C -> отмена); после 3 лож — стоп, false
-//	  none         -> 3-я попытка: список советов, false
-//	                 иначе: kill-server/start-server (1 раз), далее паузы RetryDelay
+//	  device       -> [OK] ADB connected.
+//	  unauthorized -> до 3×UnauthWait ожидания (Ctrl+C -> отмена); после 3 лож — стоп
+//	  none         -> 3-я попытка: список советов; иначе kill-server/start-server (1 раз)
 //
-// Функция никогда не прерывает вызывающий — только true/false.
-func (a *Adb) Check(ctx context.Context) bool {
+// Функция никогда не прерывает вызывающего — только OK/Err.
+func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 	logf := a.logf
 	if !a.Available() {
-		logf("ERROR: adb not found in PATH.")
-		logf("  Установите Android platform-tools и добавьте папку c adb в PATH.")
-		return false
+		logf("ERROR: adb not found: нет в PATH и нет рядом с бинарником deepl.")
+		logf("  Положите adb.exe в ту же папку, что deepl.exe, или укажите путь:")
+		logf("  set DEEPL_ADB=C:\\путь\\adb.exe  (или добавьте папку в PATH).")
+		return CheckResult{Err: fmt.Errorf("adb не найден: нет в PATH и рядом с бинарником deepl (укажите DEEPL_ADB=путь к adb)")}
+	}
+	if fast {
+		switch a.DevicesState(ctx) {
+		case StateDevice:
+			logf("[OK] ADB connected.")
+			return CheckResult{OK: true}
+		case StateUnauth:
+			logf("  Устройство подключено, но USB-отладка НЕ АВТОРИЗОВАНА.")
+			return CheckResult{Err: fmt.Errorf("не авторизовано: на устройстве нажмите «АВТОРИЗОВАТЬ» (USB-отладка)")}
+		default:
+			logf("  Устройство не найдено - нет строки с state=device.")
+			logf("  USB-кабель/режим передачи, «Для разработчиков» -> USB-отладка вкл,")
+			logf("  галочка «АВТОРИЗОВАТЬ» на экране устройства. Полная проверка - [R].")
+			return CheckResult{Err: fmt.Errorf("устройство не найдено: подключите USB и разрешите USB-отладку на ГУ")}
+		}
 	}
 	unauthTotal := 0
 	killed := false
 	for attempt := 1; attempt <= 3; attempt++ {
 		select {
 		case <-ctx.Done():
-			return false
+			return CheckResult{Err: ctx.Err()}
 		default:
 		}
 		logf("ADB: проверка подключения (попытка %d/3)...", attempt)
 		st := a.DevicesState(ctx)
 		if st == StateDevice {
 			logf("[OK] ADB connected.")
-			return true
+			return CheckResult{OK: true}
 		}
 		if st == StateUnauth {
 			unauthTotal++
 			if unauthTotal >= 3 {
 				logf("  Авторизации нет после 3 проверок - остановка.")
 				logf("  Разрешите USB-отладку на устройстве и повторите [R].")
-				return false
+				return CheckResult{Err: fmt.Errorf("USB-отладка не авторизована (3 проверки): разрешите на устройстве")}
 			}
 			logf("  Устройство подключено, но USB-отладка НЕ АВТОРИЗОВАНА.")
 			logf("  НА УСТРОЙСТВЕ: нажмите \"АВТОРИЗОВАТЬ\", желательна галка")
 			logf("  \"Всегда разрешать\". Ожидание %d сек... Ctrl+C - отмена.", int(a.UnauthWait.Seconds()))
 			if !sleepCtx(ctx, a.UnauthWait) {
-				return false
+				return CheckResult{Err: ctx.Err()}
 			}
 			continue
 		}
@@ -263,7 +356,7 @@ func (a *Adb) Check(ctx context.Context) bool {
 			logf("   - на устройстве: Параметры - Для разработчиков - USB-отладка - вкл;")
 			logf("   - галочка \"АВТОРИЗОВАТЬ\" на экране устройства;")
 			logf("   - вручную: adb kill-server, затем adb devices")
-			return false
+			return CheckResult{Err: fmt.Errorf("устройство не найдено после 3 попыток: USB-кабель/режим, USB-отладка, авторизация")}
 		}
 		if !killed {
 			logf("  Перезапуск adb-демона: adb kill-server, adb start-server")
@@ -272,10 +365,22 @@ func (a *Adb) Check(ctx context.Context) bool {
 			killed = true
 		}
 		if !sleepCtx(ctx, a.RetryDelay) {
-			return false
+			return CheckResult{Err: ctx.Err()}
 		}
 	}
-	return false
+	return CheckResult{Err: fmt.Errorf("устройство не найдено")}
+}
+
+// Check — полная проверка подключения. false — подключиться не удалось
+// (строки уже в логе).
+func (a *Adb) Check(ctx context.Context) bool {
+	return a.CheckResult(ctx, false).OK
+}
+
+// CheckFast — быстрая проверка (одна `adb devices`), для баннера меню:
+// меню показывается всегда, независимо от статуса.
+func (a *Adb) CheckFast(ctx context.Context) bool {
+	return a.CheckResult(ctx, true).OK
 }
 
 // SleepCtx — sleep с учётом отмены контекста. false — контекст отменён.
@@ -291,11 +396,10 @@ func sleepCtx(ctx context.Context, d time.Duration) bool {
 func (a *Adb) logf(format string, args ...any) {
 	var w strings.Builder
 	fmt.Fprintf(&w, format+"\n", args...)
-	if a.Logger != nil {
-		a.Logger.WriteString(w.String())
-		return
+	if a.Logger == nil {
+		a.Logger = os.Stdout
 	}
-	fmt.Fprint(os.Stdout, w.String())
+	_, _ = io.WriteString(a.Logger, w.String())
 }
 
 // --- команды (реализация Client) ---
