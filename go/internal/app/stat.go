@@ -15,6 +15,9 @@ func (a *App) runStatic(mode Mode, targets []string, ol *opslog.OpsLog, start ti
 	if mode.mutating() && !a.rootRemount() {
 		return Outcome{}
 	}
+	if mode.mutating() && mode == ModeInstall {
+		a.ensureRuLocale(ol)
+	}
 	var out Outcome
 	for _, name := range targets {
 		out.Total++

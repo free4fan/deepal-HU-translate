@@ -29,6 +29,9 @@ func (a *App) runDynamic(mode Mode, targets []string, ol *opslog.OpsLog, start t
 	var out Outcome
 	if mode.mutating() {
 		out.Root, _, _ = a.ensureRoot(ol)
+		if out.Root && (mode == ModeInstall || mode == ModeEnable) {
+			a.ensureRuLocale(ol)
+		}
 	}
 	for _, name := range targets {
 		out.Total++
