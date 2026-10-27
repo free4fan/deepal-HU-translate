@@ -21,8 +21,10 @@ deepl/deepl.exe (`adb.ResolveBin`, [ADB] using: <путь> в stderr) — platfo
 в консоль + ops-лог (важно: values-en/таргета с кит. значениями в разрешении
 конфига ВЫШЕ default values/, без ru в preferred RU-строки не видны). Сборка:
 `go/build.sh` (deepl), `logshot/build.sh` (shot) — оба в корень; тесты
-`go test` в `go/` и `logshot/`. Релизы: min-архив (deepl/deepl.exe +
-targets.txt + apks_rro_min/static), тег vn, GitHub REST uploads.
+`go test` в `go/` и `logshot/`. Релизы: архив (deepl/deepl.exe + targets.txt +
+**manage.bat + collect_report.bat** (динамические, v3.2.11, без collect_report.bat
+пункт [7] report падает) + apks_rro_min/static; без manage_static.bat — статика
+из git), тег vn, GitHub REST uploads (нет gh CLI: credential fill + uploads).
 
 ## ЯКОРЬ (02.10) — фразы вида «将执行+название сцены» и вообще СЦЕНАРНЫЕ тексты — ВНЕ ЗОНЫ RRO, не переводить
 

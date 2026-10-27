@@ -1,5 +1,32 @@
 # Changelog
 
+## [2026-10-27e] — релиз: в архив — `manage.bat` + `collect_report.bat` (динамические RRO на Windows-машине без deepl/deepl.exe)
+
+**Повод:** «для удобства добавь в релиз батник для динамических apk». `deepl`
+остаётся главным (поиск adb без platform-tools + новый текст советов), но bat —
+знакомый путь, не зависимый от бинарника.
+
+- **Валидация `manage.bat` перед релизом** (smoke под wine, фейковый adb.exe):
+  - статика: все `goto`/`call :X` на существующие лейблы; `LoadTargets`
+    читает реальный `targets.txt` (108 целей: GROUP1-4/TOP8/EXCLUDE9);
+    UTF-8 без BOM, CRLF, `chcp 65001`.
+  - проходы: `install 8` (`[ROOT] uid=0` → 2×`Success` + ops-лог + summary
+    «Всего 8 / ОК 2»), `enable A` (91 пакет), `disable 1`, `uninstall C`,
+    `status`, `report` — всё отрабатывает; `manage_static.bat install 8`
+    (root+remount+push в `/vendor/overlay`) — тоже.
+  - `report` (т.е. `collect_report.bat`): 15 raw-файлов + `summary.txt` +
+    реальный zip в `logs\`.
+  - Вино ограничено (не дефект bat): `findstr /R /C:"device$"` (анкор `$`
+    не мапится) и `set /p` под пайп (глотает весь поток) — в smoke-копии
+    заменён/обойдён, репозиторий не тронут; на живой Windows cmd идиомы
+    штатные (бат отработан live).
+- **Состав архива v3.2.11:** `deepl`, `deepl.exe`, `targets.txt`,
+  **`manage.bat`**, **`collect_report.bat`** (зависимость пункта [7] report —
+  без него report в manage.bat падает), `apks_rro_min/`, `apks_rro_static/`.
+  НЕ входит: `manage_static.bat` (статика — из репозитория), shot*, keys/.
+- Доки: README («Установка на ГУ» — что в архиве, откуда manage_static.bat),
+  WORKFLOW (структура — состав релиза).
+
 ## [2026-10-27d] — `deepl`: unauthorized ≠ «не найдено» — своё сообщение: добавить публичный ключ adb ПК через adbauth
 
 **Уточнение (реальный пользователь):** `unauthorized` = ADB на ГУ уже активен,

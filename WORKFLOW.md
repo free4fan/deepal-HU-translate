@@ -85,6 +85,11 @@ deepal-HU-translate/
 └── logshot/                       # Go-инструмент shot: снимок logcat + охота за
     #   runtime-фразой (-q/-cjk/-offline), не в APK (шина/TBOX/scene.db/TTS)
     #   build.sh - gofmt+vet+тесты+сборка shot/shot.exe в корень
+#   СОСТАВ АРХИВА РЕЛИЗА (deepal-HU-translate_v3.2.X.zip):
+#   deepl, deepl.exe, targets.txt, manage.bat + collect_report.bat
+#   (динамические; без collect_report.bat пункт [7] report падает),
+#   apks_rro_min/ (200 .apk+.idsig), apks_rro_static/ (200).
+#   НЕ входит: manage_static.bat (статика — из git), shot*, keys/.
 ```
 
 ---
@@ -572,6 +577,7 @@ adb shell settings get global DriveMode
 
 | Версия | Дата | Изменения |
 |--------|------------|---------------------------------------------------------------------|
+| 5.20 | 2026-10-27 | **`manage.bat` + `collect_report.bat` в архив релиза** (динамические RRO на Windows-машине, рядом с `deepl`/`deepl.exe`/`targets.txt`). Валидация перед релизом (smoke, wine 9 + фейковый adb.exe): `goto`/`call :X` все на лейблы; `LoadTargets` читает `targets.txt` (108 целей); проходы `install 8` (root→2×Success+ops-лог), `enable A` (91), `disable 1`, `uninstall C`, `status`, `report` (15 raw+summary+zip); `manage_static.bat install 8` (root+remount+push). Ограничение wine (не bat): `findstr /R /C:"device$"` + `set /p` под пайп — обойдены в smoke-копии, репозиторий не тронут. `manage_static.bat` в архив НЕ входит (статика — из git). v3.2.11 |
 | 5.19 | 2026-10-27 | **Документация актуализирована**: README (новый раздел «Использование Go-менеджера `deepl»`: запуск/режимы/предеты, поиск adb `DEEPL_ADB->PATH->рядом с бинарником`, `system_locales` ru-RU,en-US,zh-CN перед install/enable, логи; logshot в структуре и таблице скриптов; Go в зависимостях), WORKFLOW (шаги 6/8/9 с вариантами `deepl.exe`, структура проекта, FAQ: adb/targets). Код (v3.2.5–v3.2.7): Go-исходники в `go/`, `logshot/` (shot), `targets.txt` без go:embed (fallback вверх, честные ошибки), `deepl` — поиск adb (env/PATH/рядом, `[ADB] using:`), фикс [R] в меню (полная проверка + пауза, вывод не смахивается cls), `[LOCALE]` перед install/enable |
 | 5.18 | 2026-09-25 | **Отказ от reпак-варианта** (решение пользователя): файлы и данные шага 12 (axml.py, scan/translate/patch/verify, install_patched.bat, revert_patched.bat, layout_literals.json + логи) вынесены в `/home/user/projects/deepal-HU-translate-bak-repack/`; step 12 переведён в «ОТКЛОНЁН/архив»; TODO переписан; patched-APK на ГУ не были установлены (live-проверка не проводилась). `original_apks/` в бэкап НЕ отправлен (и туда не попал) — остался/вернулся в проект, т.к. нужен RRO-конвейеру (декомпиляция) |
 | 5.17 | 2026-09-24 | **Живой log `logs/bat/` (report 093642): `collect_report.bat` рвался на [7/9], отчёт обрывался пополам.** Корень: `collect_report.bat:270` — вторая строка многострочного `REM` в блоке дампа ANR **без приставки `REM`** (выпала при переносе) → cmd исполняет её как команду, неэкранированная `)` в `безвредно)` закрывает `if !N_ANR! GTR 0 (` досрочно, хвостовой `.` → `. was unexpected at this time.` → блок рвался до дампа трассы, [8/9]/[9/9]/`summary.txt`/zip не выполнялись. Wine-репро идентично живому обрыву. Починено: `REM` на :270. Второй (неблокирующий) дефект того же прогона — `The system cannot find the file specified.` в banner `:CollectReport`: литеральный `<TS>`/`<pkg>` в `echo` = input-redirection → экранировано `^<…^>` в `manage.bat:567`, `manage_static.bat:540`, `install_all_static.bat:50`. Установка в прогоне 24.09 в порядке: 91/100 (9 AOSP-target ожидаемо не ставятся), WT_WtSystemUI `[ ]` (vendor-баг enable), wecarspeech FATAL (не наш) |

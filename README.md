@@ -431,6 +431,8 @@ en/zh-локалью точное совпадение конфигурации 
 scp apks_rro_min/AdayoAPA_RRO.apk user@deepal-hu:/path/to/transfer/
 
 # Динамические RRO - один менеджер (Windows, adb):
+# В архиве релиза: manage.bat + collect_report.bat (его вызывает пункт [7]
+# report). manage_static.bat в архив не входит — из git-репозитория.
 manage.bat                  # интерактивное меню
 manage.bat install 8        # (install + enable, top-8)
 manage.bat install A        # (все группы 1+2+3+4)
@@ -455,6 +457,8 @@ deepl.exe reboot
 #   пункт [8] (dynamic) и [6] (static), в deepl — [8]/[6] соответственно.
 
 # Статические (root, /vendor/overlay) - второй менеджер:
+# manage_static.bat в архив релиза НЕ входит (только manage.bat +
+# collect_report.bat) — копируется из git-репозитория.
 manage_static.bat           # меню (или manage_static.bat install A / report / reboot)
 # то же через Go-менеджер:
 deepl.exe stat              # меню (статические)
