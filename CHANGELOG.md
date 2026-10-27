@@ -1,5 +1,25 @@
 # Changelog
 
+## [2026-10-27f] — `manage.bat`: ru в начале system_locales перед install/enable (`:EnsureRuLocale`) — релиз v3.2.12
+
+**Live-фикс (04.10, WT_VehicleCenter: главное меню было по-китайски).** При
+локали ГУ `en-US,zh-CN` (без ru) точное совпадение конфига (values-en/
+values-zh-rCN цели) бьёт values-ru/ нашего оверлея — RU не видно.
+
+- Новый `:EnsureRuLocale` (плоская форма: temp-файл + `for /f type`, как
+  `:DoOpAdb`): `settings get system system_locales`; если не
+  `ru-RU,en-US,zh-CN` — `settings put` + read-back.
+- Вызов в `:RUN` **до** прогона целей, только в режимах `install`/`enable`
+  (status/diag/report выше не дошли).
+- Строки `[LOCALE] сейчас/было/теперь/уже` — в консоль и в ops-лог.
+- Wine-smoke (fake adb): обе ветки — «уже» (`[LOCALE] уже: ru-RU,en-US,zh-CN`)
+  и put (get `en-US,zh-CN` → put → read-back); после `call` группа целей
+  идёт как раньше (install 8 → 2×Success, enable — группой). Дубли лейблов
+  нет, кодировка/CRLF без изменений.
+- **Релиз v3.2.12:** состав тот же, что v3.2.11 (deepl, deepl.exe, targets.txt,
+  manage.bat, collect_report.bat, apks_rro_{min,static}/) — manage.bat с
+  `:EnsureRuLocale`.
+
 ## [2026-10-27e] — релиз: в архив — `manage.bat` + `collect_report.bat` (динамические RRO на Windows-машине без deepl/deepl.exe)
 
 **Повод:** «для удобства добавь в релиз батник для динамических apk». `deepl`

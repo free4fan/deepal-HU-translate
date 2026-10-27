@@ -381,6 +381,13 @@ if "!UID_NEW!"=="0" (
     if defined OPS_LOG echo   [ROOT] uid=!UID_NEW! после adb root - не root ^(было !UID_NOW!^) >> "!OPS_LOG!"
 )
 
+REM ru в system_locales ДО установки/enable - иначе точное совпадение
+REM (values-en / values-zh-rCN цель) бьёт values-ru/ оверлея (см.
+REM :EnsureRuLocale). Только для изменяющих режимов (мы в них, статус/report
+REM выше не дошли).
+if /i "!MODE!"=="install"   call :EnsureRuLocale
+if /i "!MODE!"=="enable"    call :EnsureRuLocale
+
 set "TOTAL=0"
 set "OK_C=0"
 set "FAIL_C=0"
@@ -407,6 +414,49 @@ set "AGAIN="
 set /p "AGAIN=Вернуться в меню? [Y/N]: "
 if /i "%AGAIN%"=="Y" goto MENU
 exit /b 0
+
+REM ============================================================
+REM  :EnsureRuLocale - проверить и при необходимости добавить ru в НАЧАЛО
+REM  system_locales. 2026-10-04 (live-фикс по WT_VehicleCenter: главное меню
+REM  было по-китайски). RU лежат в оверлее в values-ru/ (+ значенийно
+REM  идентичные values/ и values-zh-rCN/). Порядок разрешения конфигураций:
+REM  точное совпадение (values-en / values-zh-rCN цель — у них кит. значения)
+REM  ВЫШЕ default values/ нашего оверлея; при локали ГУ "en-US,zh-CN" (без ru)
+REM  выигрывал values-en цели -> китайский. ru в начале списка -> значения из
+REM  наших values-ru/ (exact-match). Точные команды (проверено live):
+REM    settings get system system_locales
+REM    settings put system system_locales ru-RU,en-US,zh-CN
+REM  settings.db переживает reboot; уже запущенным процессам RU видно после
+REM  их перепуска (kill из recent / force-stop) или reboot ГУ.
+REM  ФОРМА ПЛОСКАЯ (temp-файл + for /f type, exit /b 0) - как :DoOpAdb:
+REM  вложенные call с for/exit ломали state парсера (см. заметку 26.09).
+REM ============================================================
+ :EnsureRuLocale
+ set "LOCALE_WANT=ru-RU,en-US,zh-CN"
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NOW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NOW set "LOC_NOW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NOW!"=="null" set "LOC_NOW="
+ if "!LOC_NOW!"=="!LOCALE_WANT!" (
+     echo [LOCALE] system_locales уже: !LOCALE_WANT!
+     if defined OPS_LOG echo   [LOCALE] уже: !LOCALE_WANT! >> "!OPS_LOG!"
+     goto LOCALE_DONE
+ )
+ echo [LOCALE] system_locales сейчас: "%LOC_NOW%" - выставляю "!LOCALE_WANT!"
+ if defined OPS_LOG echo   [LOCALE] было: "%LOC_NOW%" >> "!OPS_LOG!"
+ adb shell settings put system system_locales !LOCALE_WANT!
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NEW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NEW set "LOC_NEW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NEW!"=="null" set "LOC_NEW="
+ echo   [LOCALE] теперь: !LOC_NEW! (уже запущенные процессы увидят RU после своего перезапуска или reboot)
+ if defined OPS_LOG echo   [LOCALE] стало: !LOC_NEW! >> "!OPS_LOG!"
+ :LOCALE_DONE
+ exit /b 0
 
 REM ============================================================
 REM  :LoadTargets - читает !TARGETS_FILE! (targets.txt): секции
