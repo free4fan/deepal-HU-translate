@@ -142,7 +142,7 @@ func (m *Menu) adbBanner() string {
 	if m.a.Adb.CheckFast(m.a.Ctx) {
 		return " [OK] Устройство подключено"
 	}
-	return " [!!] Устройство не найдено. Подключите USB и разрешите отладку (кнопка «АВТОРИЗОВАТЬ» на HU). Повторная проверка - [R]"
+	return " [!!] Устройство не найдено. Подключите USB-кабель и активируйте ADB (инженерное меню ГУ или adbauth.apk). Повторная проверка - [R]"
 }
 
 func (m *Menu) actionMenu() string {

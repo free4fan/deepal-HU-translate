@@ -149,11 +149,19 @@ func TestCheckUnauthLimit(t *testing.T) {
 		t.Error("Check(перманентный unauthorized) = true, want false")
 	}
 	log := m.logBuf.String()
-	if !strings.Contains(log, "НЕ АВТОРИЗОВАНА") {
-		t.Errorf("нет сообщения об авторизации: %q", log)
+	if !strings.Contains(log, "НЕ АКТИВИРОВАН") {
+		t.Errorf("нет сообщения об активации ADB: %q", log)
+	}
+	if !strings.Contains(log, "инженерное меню") {
+		t.Errorf("нет подсказки (инженерное меню): %q", log)
 	}
 	if !strings.Contains(log, "остановка.") {
 		t.Errorf("нет 'остановка.': %q", log)
+	}
+	for _, bad := range []string{"АВТОРИЗОВАТЬ", "Для разработчиков"} {
+		if strings.Contains(log, bad) {
+			t.Errorf("полный цикл советует недоступное на ГУ: %q:\n%s", bad, log)
+		}
 	}
 	// devices должен быть запрошен 4 раза: 3 ожидания + финальные? Проверим >= 3
 	if n := countCalls(m.calls, "devices"); n < 3 {
@@ -334,6 +342,19 @@ func TestCheckResultFast(t *testing.T) {
 	res = m.CheckResult(ctx, true)
 	if res.OK {
 		t.Error("CheckResult(fast, none).OK=true, want false")
+	}
+	// ГУ автомобиля: советы «Для разработчиков»/«АВТОРИЗОВАТЬ» неактуальны
+	// (нет доступа к настройкам) — подсказка: кабель + инженерное меню/adbauth.
+	for _, bad := range []string{"Для разработчиков", "АВТОРИЗОВАТЬ", "USB-отладка"} {
+		if strings.Contains(m.logBuf.String(), bad) {
+			t.Errorf("fast(none) советует недоступное на ГУ: %q:\n%s", bad, m.logBuf.String())
+		}
+	}
+	if !strings.Contains(m.logBuf.String(), "инженерное меню") {
+		t.Errorf("fast(none): нет подсказки про инженерное меню:\n%s", m.logBuf.String())
+	}
+	if !strings.Contains(m.logBuf.String(), "adbauth") {
+		t.Errorf("fast(none): нет подсказки про adbauth:\n%s", m.logBuf.String())
 	}
 
 	m.available = false

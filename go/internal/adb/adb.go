@@ -308,13 +308,13 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 			logf("[OK] ADB connected.")
 			return CheckResult{OK: true}
 		case StateUnauth:
-			logf("  Устройство подключено, но USB-отладка НЕ АВТОРИЗОВАНА.")
-			return CheckResult{Err: fmt.Errorf("не авторизовано: на устройстве нажмите «АВТОРИЗОВАТЬ» (USB-отладка)")}
+			logf("  ADB-подключение НЕ АКТИВИРОВАНО (HU не разрешил подключение).")
+			return CheckResult{Err: fmt.Errorf("adb не активирован на ГУ: включите ADB в инженерном меню HU или в приложении adbauth.apk (на ПК)")}
 		default:
 			logf("  Устройство не найдено - нет строки с state=device.")
-			logf("  USB-кабель/режим передачи, «Для разработчиков» -> USB-отладка вкл,")
-			logf("  галочка «АВТОРИЗОВАТЬ» на экране устройства. Полная проверка - [R].")
-			return CheckResult{Err: fmt.Errorf("устройство не найдено: подключите USB и разрешите USB-отладку на ГУ")}
+			logf("  Подключите USB-кабель к ГУ и активируйте ADB: инженерное меню ГУ")
+			logf("  или adbauth.apk (приложение на ПК, принимает ключ USB-отладки).")
+			return CheckResult{Err: fmt.Errorf("устройство не найдено: подключите USB-кабель и активируйте ADB (инженерное меню ГУ или adbauth.apk)")}
 		}
 	}
 	unauthTotal := 0
@@ -334,13 +334,13 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 		if st == StateUnauth {
 			unauthTotal++
 			if unauthTotal >= 3 {
-				logf("  Авторизации нет после 3 проверок - остановка.")
-				logf("  Разрешите USB-отладку на устройстве и повторите [R].")
-				return CheckResult{Err: fmt.Errorf("USB-отладка не авторизована (3 проверки): разрешите на устройстве")}
+				logf("  ADB-подключения не появилось после 3 проверок - остановка.")
+				logf("  Активируйте ADB (инженерное меню ГУ или adbauth.apk) и повторите [R].")
+				return CheckResult{Err: fmt.Errorf("adb не активирован (3 проверки): инженерное меню ГУ или adbauth.apk")}
 			}
-			logf("  Устройство подключено, но USB-отладка НЕ АВТОРИЗОВАНА.")
-			logf("  НА УСТРОЙСТВЕ: нажмите \"АВТОРИЗОВАТЬ\", желательна галка")
-			logf("  \"Всегда разрешать\". Ожидание %d сек... Ctrl+C - отмена.", int(a.UnauthWait.Seconds()))
+			logf("  ГУ видно, но ADB НЕ АКТИВИРОВАН (подключение не разрешено).")
+			logf("  Активируйте ADB: инженерное меню ГУ или adbauth.apk (на ПК).")
+			logf("  Ожидание %d сек... Ctrl+C - отмена.", int(a.UnauthWait.Seconds()))
 			if !sleepCtx(ctx, a.UnauthWait) {
 				return CheckResult{Err: ctx.Err()}
 			}
@@ -352,11 +352,10 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 			logf("")
 			logf("ERROR: ADB device not available after 3 attempts.")
 			logf("  Попробуйте:")
-			logf("   - USB-кабель и режим передачи файлов, а не только зарядки;")
-			logf("   - на устройстве: Параметры - Для разработчиков - USB-отладка - вкл;")
-			logf("   - галочка \"АВТОРИЗОВАТЬ\" на экране устройства;")
+			logf("   - USB-кабель к ГУ (правильный порт, не через USB-хаб);")
+			logf("   - активировать ADB: инженерное меню ГУ или adbauth.apk (на ПК);")
 			logf("   - вручную: adb kill-server, затем adb devices")
-			return CheckResult{Err: fmt.Errorf("устройство не найдено после 3 попыток: USB-кабель/режим, USB-отладка, авторизация")}
+			return CheckResult{Err: fmt.Errorf("устройство не найдено после 3 попыток: подключите кабель и активируйте ADB (инженерное меню ГУ / adbauth.apk)")}
 		}
 		if !killed {
 			logf("  Перезапуск adb-демона: adb kill-server, adb start-server")
