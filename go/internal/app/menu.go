@@ -9,6 +9,7 @@ import (
 	"strings"
 	"time"
 
+	"deepal-hu-translate/internal/adb"
 	"deepal-hu-translate/internal/groups"
 )
 
@@ -137,12 +138,20 @@ func (m *Menu) modeFor(num string) Mode {
 
 func (m *Menu) print(s string) { fmt.Fprint(m.out, s) }
 
-// adbBanner — быстрая проверка (одна `adb devices`), ничего не блокирует.
+// adbBanner — статус ADB в шапке меню (одна быстрая `adb devices`,
+// молчаливая — строки прогресса не печатает, только свой текст).
 func (m *Menu) adbBanner() string {
 	if m.a.Adb.CheckFast(m.a.Ctx) {
 		return " [OK] Устройство подключено"
 	}
-	return " [!!] Устройство не найдено. Подключите USB-кабель и активируйте ADB (инженерное меню ГУ или adbauth.apk). Повторная проверка - [R]"
+	switch m.a.Adb.DevicesState(m.a.Ctx) {
+	case adb.StateUnauth:
+		// Устройство видят оба adb-server'а, но публичный ключ adb этого ПК
+		// не добавлен на ГУ — лечится adbauth (не «включите ADB»).
+		return " [!!] Устройство НЕ АВТОРИЗОВАНО. Запустите adbauth и добавьте публичный ключ adb этого ПК (adbkey.pub). Повторная проверка - [R]"
+	default:
+		return " [!!] Устройство не найдено. Подключите USB-кабель и включите ADB (инженерное меню ГУ или adbauth). Повторная проверка - [R]"
+	}
 }
 
 func (m *Menu) actionMenu() string {

@@ -149,18 +149,21 @@ func TestCheckUnauthLimit(t *testing.T) {
 		t.Error("Check(перманентный unauthorized) = true, want false")
 	}
 	log := m.logBuf.String()
-	if !strings.Contains(log, "НЕ АКТИВИРОВАН") {
-		t.Errorf("нет сообщения об активации ADB: %q", log)
+	if !strings.Contains(log, "ключ НЕ АВТОРИЗОВАН") {
+		t.Errorf("нет сообщения о ключе (unauthorized): %q", log)
 	}
-	if !strings.Contains(log, "инженерное меню") {
-		t.Errorf("нет подсказки (инженерное меню): %q", log)
+	if !strings.Contains(log, "публичный ключ") {
+		t.Errorf("нет подсказки про публичный ключ: %q", log)
+	}
+	if !strings.Contains(log, "adbauth") {
+		t.Errorf("нет подсказки про adbauth: %q", log)
 	}
 	if !strings.Contains(log, "остановка.") {
 		t.Errorf("нет 'остановка.': %q", log)
 	}
-	for _, bad := range []string{"АВТОРИЗОВАТЬ", "Для разработчиков"} {
+	for _, bad := range []string{"АВТОРИЗОВАТЬ", "Для разработчиков", "НЕ АКТИВИРОВАН"} {
 		if strings.Contains(log, bad) {
-			t.Errorf("полный цикл советует недоступное на ГУ: %q:\n%s", bad, log)
+			t.Errorf("unauth-цикл: устаревшая формулировка %q:\n%s", bad, log)
 		}
 	}
 	// devices должен быть запрошен 4 раза: 3 ожидания + финальные? Проверим >= 3
@@ -355,6 +358,20 @@ func TestCheckResultFast(t *testing.T) {
 	}
 	if !strings.Contains(m.logBuf.String(), "adbauth") {
 		t.Errorf("fast(none): нет подсказки про adbauth:\n%s", m.logBuf.String())
+	}
+
+	// unauth: ADB на ГУ уже активно, но публичный ключ adb этого ПК не
+	// добавлен — совет: adbauth (добавить ключ ноутбука), а не «включите ADB».
+	m.devices = devUnauth()
+	res = m.CheckResult(ctx, true)
+	if res.OK {
+		t.Error("CheckResult(fast, unauth).OK=true, want false")
+	}
+	if !strings.Contains(m.logBuf.String(), "публичный ключ adb") {
+		t.Errorf("fast(unauth): нет подсказки про публичный ключ adb:\n%s", m.logBuf.String())
+	}
+	if !strings.Contains(m.logBuf.String(), "adbauth") {
+		t.Errorf("fast(unauth): нет подсказки про adbauth:\n%s", m.logBuf.String())
 	}
 
 	m.available = false

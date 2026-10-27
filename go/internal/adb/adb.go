@@ -54,6 +54,9 @@ type Client interface {
 	Check(ctx context.Context) bool
 	// CheckFast — одна `adb devices`, без ожиданий (для баннера в меню).
 	CheckFast(ctx context.Context) bool
+	// DevicesState — состояние по одной `adb devices` (для баннера меню:
+	// none vs unauthorized — разный текст подсказки).
+	DevicesState(ctx context.Context) State
 	// CheckResult — как Check/CheckFast, но возвращает результат:
 	// Ok — device доступен, Err — что не так (adb не найден / устройство
 	// не найдено / unauthorized после 3 проверок). Строки пишутся в лог
@@ -308,13 +311,16 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 			logf("[OK] ADB connected.")
 			return CheckResult{OK: true}
 		case StateUnauth:
-			logf("  ADB-подключение НЕ АКТИВИРОВАНО (HU не разрешил подключение).")
-			return CheckResult{Err: fmt.Errorf("adb не активирован на ГУ: включите ADB в инженерном меню HU или в приложении adbauth.apk (на ПК)")}
+			logf("  ГУ подключен, но ADB-ключ НЕ АВТОРИЗОВАН: публичный ключ adb этого ПК")
+			logf("  не добавлен на ГУ (устройство «unauthorized»).")
+			logf("  Исправление: запустите adbauth (на этом ПК) и добавьте публичный")
+			logf("  ключ adb этого ПК (adbkey.pub).")
+			return CheckResult{Err: fmt.Errorf("устройство не авторизовано: публичный ключ adb этого ПК не добавлен на ГУ - добавьте его через adbauth (adbkey.pub)")}
 		default:
 			logf("  Устройство не найдено - нет строки с state=device.")
-			logf("  Подключите USB-кабель к ГУ и активируйте ADB: инженерное меню ГУ")
-			logf("  или adbauth.apk (приложение на ПК, принимает ключ USB-отладки).")
-			return CheckResult{Err: fmt.Errorf("устройство не найдено: подключите USB-кабель и активируйте ADB (инженерное меню ГУ или adbauth.apk)")}
+			logf("  Подключите USB-кабель к ГУ и включите ADB: инженерное меню ГУ")
+			logf("  или adbauth (программа, которая передаёт ключ USB-отладки).")
+			return CheckResult{Err: fmt.Errorf("устройство не найдено: подключите USB-кабель и включите ADB (инженерное меню ГУ или adbauth)")}
 		}
 	}
 	unauthTotal := 0
@@ -334,12 +340,15 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 		if st == StateUnauth {
 			unauthTotal++
 			if unauthTotal >= 3 {
-				logf("  ADB-подключения не появилось после 3 проверок - остановка.")
-				logf("  Активируйте ADB (инженерное меню ГУ или adbauth.apk) и повторите [R].")
-				return CheckResult{Err: fmt.Errorf("adb не активирован (3 проверки): инженерное меню ГУ или adbauth.apk")}
+				logf("  После 3 проверок устройство не авторизовано - остановка.")
+				logf("  Добавьте публичный ключ adb этого ПК через adbauth и повторите [R].")
+				return CheckResult{Err: fmt.Errorf("после 3 проверок устройство не авторизовано: публичный ключ adb этого ПК не добавлен на ГУ - добавьте его через adbauth")}
 			}
-			logf("  ГУ видно, но ADB НЕ АКТИВИРОВАН (подключение не разрешено).")
-			logf("  Активируйте ADB: инженерное меню ГУ или adbauth.apk (на ПК).")
+			logf("  ГУ подключен, но ADB-ключ НЕ АВТОРИЗОВАН: публичный ключ adb этого ПК")
+			logf("  не добавлен на ГУ (устройство «unauthorized»).")
+			logf("  Исправление: запустите adbauth (на этом ПК) и добавьте публичный")
+			logf("  ключ adb этого ПК (adbkey.pub).")
+			logf("  (Если ADB ещё не включён - включите в инженерном меню ГУ.)")
 			logf("  Ожидание %d сек... Ctrl+C - отмена.", int(a.UnauthWait.Seconds()))
 			if !sleepCtx(ctx, a.UnauthWait) {
 				return CheckResult{Err: ctx.Err()}
@@ -353,9 +362,9 @@ func (a *Adb) CheckResult(ctx context.Context, fast bool) CheckResult {
 			logf("ERROR: ADB device not available after 3 attempts.")
 			logf("  Попробуйте:")
 			logf("   - USB-кабель к ГУ (правильный порт, не через USB-хаб);")
-			logf("   - активировать ADB: инженерное меню ГУ или adbauth.apk (на ПК);")
+			logf("   - включить ADB на ГУ: инженерное меню (adbauth передаёт ключ USB-отладки);")
 			logf("   - вручную: adb kill-server, затем adb devices")
-			return CheckResult{Err: fmt.Errorf("устройство не найдено после 3 попыток: подключите кабель и активируйте ADB (инженерное меню ГУ / adbauth.apk)")}
+			return CheckResult{Err: fmt.Errorf("устройство не найдено после 3 попыток: подключите кабель и включите ADB (инженерное меню ГУ; ключ - через adbauth)")}
 		}
 		if !killed {
 			logf("  Перезапуск adb-демона: adb kill-server, adb start-server")
