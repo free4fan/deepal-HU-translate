@@ -378,8 +378,13 @@ func (a *Adb) Check(ctx context.Context) bool {
 }
 
 // CheckFast — быстрая проверка (одна `adb devices`), для баннера меню:
-// меню показывается всегда, независимо от статуса.
+// меню показывается всегда, независимо от статуса. ТИШАЯ: строки
+// CheckResult напечатал бы ПОД СТРОКОЙ БАННЕРА (дубль; симптом 27.10
+// «[OK] ADB connected. + ADB: [OK] ...»), баннер печатает своё.
 func (a *Adb) CheckFast(ctx context.Context) bool {
+	prev := a.Logger
+	a.Logger = io.Discard
+	defer func() { a.Logger = prev }()
 	return a.CheckResult(ctx, true).OK
 }
 

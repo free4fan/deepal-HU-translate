@@ -171,6 +171,31 @@ func TestMenuInvalidPresetNoAdb(t *testing.T) {
 	}
 }
 
+// Шапка меню: ровно ОДНА строка ADB-статуса, без двойного префикса «ADB: ADB:»
+// и без строки прогресса CheckFast под ней (молчаливая проверка).
+func TestMenuBannerSingleAdLine(t *testing.T) {
+	ma := NewMockADB()
+	cfg := groups.Dynamic()
+	cfg.Groups = [4][]string{{"Cam"}, nil, nil, nil}
+	cfg.Top8 = []string{"Cam"}
+	w := newCollectWriter(t)
+	a := New(context.Background(), cfg, ma)
+	a.Out = io.Discard
+	a.In = strings.NewReader("0\n") // сразу выход — один экран меню
+	ma.Logger = w
+	m := NewMenu(a, cfg.Scheme, w, a.In)
+	m.Clear = func(io.Writer) {}
+
+	m.Run()
+
+	if n := strings.Count(w.s, "ADB:"); n != 1 {
+		t.Errorf("строк с 'ADB:' в шапке %d, want 1:\n%s", n, w.s)
+	}
+	if strings.Contains(w.s, "[OK] ADB connected.") {
+		t.Errorf("строка прогресса CheckFast попала в шапку (дубль баннера):\n%s", w.s)
+	}
+}
+
 // [R] — вывод Check НЕ смахивается мгновенным cls: в конце пауза на ввод.
 func TestMenuRShowsResultAndPauses(t *testing.T) {
 	ma := NewMockADB()

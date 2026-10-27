@@ -361,3 +361,24 @@ func TestCheckResultFullUsesLog(t *testing.T) {
 		t.Errorf("нет строки 'попытка 1/3' (full): %q", m.logBuf.String())
 	}
 }
+
+// CheckFast — баннер меню: МОЛЧАЛИВ (строки прогресса дублировали бы
+// строку баннера "ADB: [OK] ..."; симптом 27.10: «[OK] ADB connected.
+// печатался под каждым меню»).
+func TestCheckFastSilent(t *testing.T) {
+	ctx := context.Background()
+	m := newMock()
+	m.devices = devDevice()
+	if got := m.CheckFast(ctx); got != true {
+		t.Fatalf("CheckFast(device)=%v", got)
+	}
+	m.devices = "List of devices attached\n"
+	_ = m.CheckFast(ctx)
+	m.devices = devUnauth()
+	_ = m.CheckFast(ctx)
+	m.available = false
+	_ = m.CheckFast(ctx)
+	if m.logBuf.Len() != 0 {
+		t.Errorf("CheckFast печатает строки (дубль баннера): %q", m.logBuf.String())
+	}
+}

@@ -140,9 +140,9 @@ func (m *Menu) print(s string) { fmt.Fprint(m.out, s) }
 // adbBanner — быстрая проверка (одна `adb devices`), ничего не блокирует.
 func (m *Menu) adbBanner() string {
 	if m.a.Adb.CheckFast(m.a.Ctx) {
-		return " [OK] ADB: устройство подключено"
+		return " [OK] Устройство подключено"
 	}
-	return " [!!] ADB: устройство не найдено. Подключите USB и разрешите отладку (кнопка «АВТОРИЗОВАТЬ» на HU). Повторная проверка - [R]"
+	return " [!!] Устройство не найдено. Подключите USB и разрешите отладку (кнопка «АВТОРИЗОВАТЬ» на HU). Повторная проверка - [R]"
 }
 
 func (m *Menu) actionMenu() string {
