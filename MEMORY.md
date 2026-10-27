@@ -3,6 +3,27 @@
 Оперативный статус. История — в `CHANGELOG.md`,
 шаги — в `WORKFLOW.md`.
 
+## ЯКОРЬ (27.10) — `deepl`: окружение (adb, targets, локаль) — как читать/чинить
+
+Симптом-триада на чужой машине (не наш баг, а окружение): (1) «adb не найден:
+нет в PATH и нет рядом с бинарником», (2) «adb devices пуст, хотя соседний
+терминал видит device», (3) «нажал [R] — ничего не происходит». Причины:
+(1) adb ищется ТОЛЬКО так: env `DEEPL_ADB` → PATH → `adb.exe` рядом с
+deepl/deepl.exe (`adb.ResolveBin`, [ADB] using: <путь> в stderr) — platform-tools
+в PATH не обязательны; (2) «соседнее окно adb devices» ≠ то, что видит `deepl`
+(разные бинарники/демоны) — после [R] (3) вывод видно: [R] делает ПОЛНУЮ
+проверку (3 попытки + kill-server) и **пауза «Нажмите любую клавишу...»** до
+следующего cls — раньше вывод мгновенно смахивался (симптом «ничего не
+происходит», фикс 27.10). targets.txt: CWD→родительские вверх, либо
+`DEEPL_TARGETS`; бинарник списков APK не несёт (go:embed убран, v3.2.5).
+`[LOCALE]`: перед install/enable (dyn) и install (stat) — `system_locales`
+→ `ru-RU,en-US,zh-CN` (как manage.bat :EnsureRuLocale), строки было/стало
+в консоль + ops-лог (важно: values-en/таргета с кит. значениями в разрешении
+конфига ВЫШЕ default values/, без ru в preferred RU-строки не видны). Сборка:
+`go/build.sh` (deepl), `logshot/build.sh` (shot) — оба в корень; тесты
+`go test` в `go/` и `logshot/`. Релизы: min-архив (deepl/deepl.exe +
+targets.txt + apks_rro_min/static), тег vn, GitHub REST uploads.
+
 ## ЯКОРЬ (02.10) — фразы вида «将执行+название сцены» и вообще СЦЕНАРНЫЕ тексты — ВНЕ ЗОНЫ RRO, не переводить
 
 `即将执行主驾离车提醒` («видна в Camera», запрос 02.10): это НЕ строка APK.

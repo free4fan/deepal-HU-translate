@@ -74,9 +74,17 @@ deepal-HU-translate/
 ├── manage_static.bat              # менеджер СТАТИЧЕСКИХ RRO (root, /vendor/overlay)
 │   # (install/uninstall/status/diag/report/reboot)
 ├── collect_report.bat             # вызывается report из обоих: сборка zip-лога
-└── go/                            # Go-менеджер deepl (go.mod, cmd/, internal/)
-    #   build.sh - gofmt+vet+тесты+сборка deepl/deepl.exe в корень
-    #   CLI: deepl dyn|stat <mode> <preset>, deepl reboot
+├── targets.txt                    # единый список целей (группы 1-4, TOP8, EXCLUDE9)
+│   # читают bat-менеджеры и deepl (бинарники/скрипты списков не несут)
+├── go/                            # Go-менеджер deepl (go.mod, cmd/, internal/)
+│   #   build.sh - gofmt+vet+тесты+сборка deepl/deepl.exe в корень
+│   #   CLI: deepl dyn|stat <mode> <preset>, deepl reboot, deepl report
+│   #   adb: DEEPL_ADB -> PATH -> рядом с бинарником ([ADB] using: <путь>)
+│   #   [LOCALE]: ru-RU,en-US,zh-CN перед install/enable (динам.) и install (стат.)
+│   #   [R] в меню — полная проверка ADB + пауза на клавишу (не смахивается cls)
+└── logshot/                       # Go-инструмент shot: снимок logcat + охота за
+    #   runtime-фразой (-q/-cjk/-offline), не в APK (шина/TBOX/scene.db/TTS)
+    #   build.sh - gofmt+vet+тесты+сборка shot/shot.exe в корень
 ```
 
 ---
@@ -95,6 +103,9 @@ Android SDK (android.jar):
   /opt/android-sdk/build-tools/34.0.0/aapt2
 
 Python:  pip3 install requests
+
+Go:  go + gofmt (1.22+)       — build.sh (deepl) и logshot/build.sh (shot);
+                                  готовые бинарники в корне/релизах
 ```
 
 ---
@@ -305,9 +316,27 @@ manage.bat enable 2 / disable 3 / uninstall A REM остальные режим�
 ```
 
 > В интерактивном меню всегда виден баннер статуса ADB (быстрая проверка) и
-> пункт **[R]** «проверить заново» (полная проверка + рестарт демона). Меню
-> появляется и без подключённого устройства — после подключения HU жмите [R].
+> пункт **[R]** «проверить заново» (полная проверка + рестарт демона; в
+> `deepl` результат [R] удерживается паузой «Нажмите любую клавишу...» —
+> без неё cls смахивал вывод). Меню появляется и без подключённого
+> устройства — после подключения HU жмите [R].
 > Установка/enable/disable/uninstall пишутся в `logs\ops_<mode>_<TS>.log`.
+
+**То же самое через Go-менеджер `deepl`** (бинарник из релиза/репозитория,
+читает тот же `targets.txt` и APK из тех же каталогов):
+
+```bat
+deepl.exe                 REM меню (динамические)
+deepl.exe dyn install 8   REM install + enable, top-8
+deepl.exe stat install A  REM статические, все группы
+deepl.exe report dynamic  REM zip-логи
+deepl.exe reboot          REM перезагрузить ГУ
+```
+
+Поиск adb у `deepl` (bat требует `where adb` — platform-tools в PATH):
+`DEEPL_ADB=C:\путь\adb.exe` → PATH → **adb.exe рядом с deepl.exe**; выбранный
+путь печатается `[ADB] using: <путь>`. Перед install/enable `deepl` сам
+выставляет `system_locales=ru-RU,en-US,zh-CN` (строки `[LOCALE] было/стало`).
 
 Или вручную (adb с любой ОС):
 ```bash
@@ -351,6 +380,11 @@ manage_static.bat install 8      REM 8 критичных (top-8)
 manage_static.bat install A      REM все группы
 manage_static.bat uninstall A
 manage_static.bat report         REM zip-логи для анализа
+
+REM или через Go-менеджер:
+deepl.exe stat                   REM меню (статические)
+deepl.exe stat install A
+deepl.exe stat report
 ```
 
 Или вручную:
@@ -371,6 +405,8 @@ adb reboot
 ```bat
 manage.bat report            REM динамические:  logs\deepal_dynamic_report_<TS>.zip
 manage_static.bat report     REM статические:   logs\deepal_static_report_<TS>.zip
+deepl.exe report             REM динамические (Go-менеджер)
+deepl.exe report stat        REM статические (Go-менеджер)
 ```
 
 `collect_report.bat` (вызывается обоими) собирает **только чтение** — ничего
@@ -519,12 +555,21 @@ adb shell settings get global DriveMode
 - Проверить конкретную строку: `grep -n "dialog_privacy_policy_msg_start_up" translations/WT_MultiMediaCenter.json`.
 - После ручной правки JSON прогоните `validate.py` и `test_improve_selftest.py`.
 
+### `deepl`: «adb не найден: нет в PATH и нет рядом с бинарником» / нет подключенных устройств
+- adb ищется в порядке: env `DEEPL_ADB=путь` → PATH → `adb.exe` рядом с `deepl`/`deepl.exe`; выбранный путь печатается `[ADB] using: <путь>`.
+- Положите `adb.exe` в ту же папку, что бинарник, или `set DEEPL_ADB=C:\путь\adb.exe && deepl.exe`, либо добавьте папку platform-tools в PATH.
+- Если adb поднят, но «Устройство не найдено» — USB-кабель/режим передачи, USB-отладка, галочка «АВТОРИЗОВАТЬ» на ГУ; в меню [R] — полная проверка (3 попытки + рестарт демона), вывод удерживается паузой «Нажмите любую клавишу...».
+
+### `deepl`: «не найден targets.txt»
+- Файл ищется в CWD и всех родительских папках (вверх) либо задаётся env `DEEPL_TARGETS=/путь`. Положите `targets.txt` рядом с бинарником — единый источник групп (91/8/9), эталон — корневой `targets.txt` из репозитория.
+
 ---
 
 ## История версий
 
 | Версия | Дата | Изменения |
 |--------|------------|---------------------------------------------------------------------|
+| 5.19 | 2026-10-27 | **Документация актуализирована**: README (новый раздел «Использование Go-менеджера `deepl»`: запуск/режимы/предеты, поиск adb `DEEPL_ADB->PATH->рядом с бинарником`, `system_locales` ru-RU,en-US,zh-CN перед install/enable, логи; logshot в структуре и таблице скриптов; Go в зависимостях), WORKFLOW (шаги 6/8/9 с вариантами `deepl.exe`, структура проекта, FAQ: adb/targets). Код (v3.2.5–v3.2.7): Go-исходники в `go/`, `logshot/` (shot), `targets.txt` без go:embed (fallback вверх, честные ошибки), `deepl` — поиск adb (env/PATH/рядом, `[ADB] using:`), фикс [R] в меню (полная проверка + пауза, вывод не смахивается cls), `[LOCALE]` перед install/enable |
 | 5.18 | 2026-09-25 | **Отказ от reпак-варианта** (решение пользователя): файлы и данные шага 12 (axml.py, scan/translate/patch/verify, install_patched.bat, revert_patched.bat, layout_literals.json + логи) вынесены в `/home/user/projects/deepal-HU-translate-bak-repack/`; step 12 переведён в «ОТКЛОНЁН/архив»; TODO переписан; patched-APK на ГУ не были установлены (live-проверка не проводилась). `original_apks/` в бэкап НЕ отправлен (и туда не попал) — остался/вернулся в проект, т.к. нужен RRO-конвейеру (декомпиляция) |
 | 5.17 | 2026-09-24 | **Живой log `logs/bat/` (report 093642): `collect_report.bat` рвался на [7/9], отчёт обрывался пополам.** Корень: `collect_report.bat:270` — вторая строка многострочного `REM` в блоке дампа ANR **без приставки `REM`** (выпала при переносе) → cmd исполняет её как команду, неэкранированная `)` в `безвредно)` закрывает `if !N_ANR! GTR 0 (` досрочно, хвостовой `.` → `. was unexpected at this time.` → блок рвался до дампа трассы, [8/9]/[9/9]/`summary.txt`/zip не выполнялись. Wine-репро идентично живому обрыву. Починено: `REM` на :270. Второй (неблокирующий) дефект того же прогона — `The system cannot find the file specified.` в banner `:CollectReport`: литеральный `<TS>`/`<pkg>` в `echo` = input-redirection → экранировано `^<…^>` в `manage.bat:567`, `manage_static.bat:540`, `install_all_static.bat:50`. Установка в прогоне 24.09 в порядке: 91/100 (9 AOSP-target ожидаемо не ставятся), WT_WtSystemUI `[ ]` (vendor-баг enable), wecarspeech FATAL (не наш) |
 | 5.16 | 2026-09-23 | **Итерация 2 по live-репорту 22.09 21:26.** Подтверждено: 22b-чинки работают (91/9, phonelink `[x]`, ver виден, 0 `---`). Новая волна починки: ops-логи были ПОТЕРЯНЫ (имя `ops_…_OTST:=_.log` — замена ПАРЫ `!X:=_!` в `:OpSTs` дала битое имя с `:`, файл не создавался) → таймстемп wmic/powershell `YYYYMMDDHHMMSS`; FATAL-счётчик (`find /C` = `---------- N C(S) FOUND`, токен1=дефисы → «---------- 0 - всё чисто» при 4 FATAL) → построчный счётчик как N_ANR; ANR-trace Permission denied (`anr_*`=system:system 600) → `adb root` ВСЕГДА перед дампом; `overlay enable` в install был скрыт (WT_WtSystemUI стоял `[ ]` без следов) → `:DoOpAdb` с выводом + retry + `[WARN]` в лог; хрупкий `"%%I"=="Success"` (хвостовой пробел/CR) → префикс-матч 7 символов. Summary: ровно 9 отсутствующих = «ОЖИДАЕМО» (9 AOSP-target) |

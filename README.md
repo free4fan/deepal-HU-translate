@@ -14,12 +14,15 @@ deepal-HU-translate/
 ├── decompiled/              # Декомпилированные APK (apktool 3.0.2)
 ├── translations/            # JSON с переводами (strings + arrays + plurals)
 ├── overlays/                # Структура RRO-оверлеев из translations/*.json
-├── apks_rro_min/            # Готовые подписанные APK-оверлеи
-├── keys/                    # platform.jks для подписи
+├── apks_rro_min/            # Готовые подписанные APK-оверлеи (динамические + .idsig)
+├── apks_rro_static/         # Готовые подписанные APK-оверлеи (статические + .idsig)
+├── keys/                    # platform.jks + IDSIG для подписи
 ├── go/                      # Go-менеджер deepl (go.mod, cmd/, internal/, build.sh)
+├── logshot/                 # Go-инструмент shot: снимок logcat + охота за runtime-фразой
 ├── targets.txt              # Список целевых приложений (группы 1-4, TOP8, EXCLUDE9)
 ├── manage.bat               # Менеджер ДИНАМИЧЕСКИХ RRO (читает targets.txt)
 ├── manage_static.bat        # Менеджер СТАТИЧЕСКИХ RRO (читает targets.txt)
+├── collect_report.bat       # Сборка zip-лога для анализа (вызывается из report)
 └── *.py                     # Основные скрипты
 ```
 
@@ -172,6 +175,10 @@ python3 validate.py && python3 generate_overlays.py && python3 create_rro_min.py
 ## Зависимости
 
 - **Java** 21+, **Python** 3.12+
+- **Go** 1.22+ — сборка `deepl` (Go-менеджер, `go/build.sh`) и `shot`
+  (`logshot/build.sh`); готовые бинарники `deepl`/`deepl.exe`/`shot`/
+  `shot.exe` лежат в корне проекта и в архиве релизов — для их работы
+  ничего не нужно
 - `aapt2`, `apksigner` — Android SDK Build Tools
 - `platform.jks` — подпись оверлеев
 - **Ollama** (host `10.0.0.128:11434`): `qwen3.8:27b` — улучшение/перевод через `improve_translations.py`
@@ -340,6 +347,76 @@ APK отличаются, достаточно отредактировать `t
   паузой («Нажмите любую клавишу...») до следующего экрана — без паузы
   его мгновенно смахивала `cls` (симптом «нажал R, ничего не произошло»).
 
+## Использование Go-менеджера (`deepl`)
+
+`deepl` (Linux `deepl` / Windows `deepl.exe`) — замена `manage.bat` /
+`manage_static.bat` / `collect_report.bat`: те же режимы, меню и CLI,
+читает тот же `targets.txt` и ставит те же APK из `apks_rro_min/` /
+`apks_rro_static/`.
+
+Что нужно для запуска (распакован архив релиза или папка из репозитория):
+
+- бинарник `deepl`/`deepl.exe`;
+- `targets.txt` — рядом / на уровень выше (общий для подпапок), либо
+  `DEEPL_TARGETS=/путь`;
+- каталог с APK относительно CWD: `apks_rro_min/` (динамические) и
+  `apks_rro_static/` (статические) — т.е. папку с бинарником лучше держать
+  так, чтобы они были видны от CWD;
+- adb — см. «Поиск adb» ниже (platform-tools в PATH не обязательны).
+
+```bash
+deepl                       # меню ДИНАМИЧЕСКИХ RRO
+deepl dyn [mode] [preset]   # динамические (CLI)
+deepl stat [mode] [preset]  # статические (без args -> меню)
+deepl stat-install-8        # установить TOP-8 (static)
+deepl stat-install-36       # установить все доступные (static)
+deepl stat-install-all      # установить все группы (static)
+deepl stat-uninstall-all    # удалить все группы (static)
+deepl report [dyn|stat]     # собрать zip-отчёт
+deepl reboot                # перезагрузить ГУ (adb reboot)
+
+# modes:   install | enable | disable | uninstall | status | diag | report | reboot
+# presets: 1 | 2 | 3 | 4 | 8 (top-8) | A (все) | C (2+3) | auto (все *_RRO.apk
+#          из каталога APK) | <имена пакетов через пробел> | 0 (меню)
+
+deepl dyn install 8         # установить+включить TOP-8
+deepl dyn install Camera    # один пакет (не только из групп)
+deepl dyn enable Camera WT_Launcher
+```
+
+В меню: пункты [1..8] действия, [R] — полная проверка ADB (вывод
+удерживается паузой «Нажмите любую клавишу...» до следующего экрана),
+[L] в выборе цели — список пакетов с выбором по номерам.
+
+### Поиск adb (без platform-tools в PATH)
+
+`deepl` находит бинарник adb один раз при старте, в порядке:
+
+1. env **`DEEPL_ADB=/путь/adb.exe`** — явный путь (`set DEEPL_ADB=... && deepl.exe`);
+2. `adb` в **PATH** (platform-tools);
+3. **`adb.exe`/`adb` в той же папке, что `deepl`/`deepl.exe`** — просто
+   положите рядом и запускайте.
+
+Найденный путь печатает при старте: `[ADB] using: <путь>` — сразу видно,
+каким adb работаем. Нет нигде — понятная ошибка с подсказкой до меню
+(exit 1). Если adb уже в PATH — ничего указывать не нужно.
+
+### Локаль ГУ
+
+Перед `install`/`enable` (динамические) и `install` (статические) `deepl`
+проверяет `system_locales` и при несовпадении выставляет
+`ru-RU,en-US,zh-CN` (то же значение, что `manage.bat :EnsureRuLocale`) —
+строки `[LOCALE] было/стало` в консоль и ops-лог. Без этого на ГУ с
+en/zh-локалью точное совпадение конфигурации («values-en/» таргета с
+кит. значениями, разрешается выше default-`values/`) могло молча скрывать
+наши `values-ru/`.
+
+### Где лежат логи
+
+`logs/` (относительно CWD) — как у bat-менеджеров:
+`ops_<mode>_YYYYMMDDHHMMSS.log` (каждый изменяющий прогон) и
+`deepal_<scheme>_report_TS.zip` (отчёт, см. ниже).
+
 ## Установка на ГУ
 
 ```bash
@@ -354,17 +431,27 @@ manage.bat disable 8
 manage.bat diag
 manage.bat report           # собрать zip-логи для анализа (см. ниже)
 manage.bat reboot           # перезагрузить ГУ (adb reboot)
+
+# То же самое через Go-менеджер (бинарник из релиза/репозитория):
+deepl.exe                   # меню (динамические)
+deepl.exe dyn install 8
+deepl.exe stat install A    # статические (все группы)
+deepl.exe report dynamic
+deepl.exe reboot
 # modes: install | enable | disable | uninstall | status | diag | report | reboot
 # presets: 1 | 2 | 3 | 4 | 8 (top-8) | A (все) | C (2+3) | auto (все *_RRO.apk) | 0 (меню)
 #   A и auto дают 91 пакет: 9 AOSP-target (EXCLUDE9) исключены — не
 #   ставятся adb install (см. ограничение устройства ниже).
-#   ВАЖНО: после install или uninstall перезагрузите ГУ (manage.bat reboot) —
-#   статические оверлеи применяются только при старте, динамические reboot
-#   гарантированно чистит кэш/состояние PMS. В меню это пункт [8] (dynamic)
-#   и [6] (static).
+#   ВАЖНО: после install или uninstall перезагрузите ГУ (manage.bat reboot
+#   или deepl reboot) — статические оверлеи применяются только при старте,
+#   динамические reboot гарантированно чистит кэш/состояние PMS. В меню это
+#   пункт [8] (dynamic) и [6] (static), в deepl — [8]/[6] соответственно.
 
 # Статические (root, /vendor/overlay) - второй менеджер:
 manage_static.bat           # меню (или manage_static.bat install A / report / reboot)
+# то же через Go-менеджер:
+deepl.exe stat              # меню (статические)
+deepl.exe stat report       # отчёт по статическим
 ```
 
 > **Ограничение устройства (проверено по живым логам 22.09, см.
@@ -441,6 +528,7 @@ install/enable/disable/uninstall (см. выше) и автоматически 
 | `manage.bat` | **менеджер динамических RRO**: install/enable/disable/uninstall/status/diag/report, группы 1-4/top-8/все/auto, CLI (`manage.bat <mode> <preset>`) или меню |
 | `manage_static.bat` | **менеджер статических RRO**: install/uninstall/status/diag/report (push в `/vendor/overlay/`, root), те же группы |
 | `collect_report.bat` | вызывается из обоих `report`: сборка zip-лога для анализа (`logs\deepal_<scheme>_report_<TS>.zip`) |
+| `logshot/` (Go, `shot`) | снимок **живого logcat** ГУ (`main,system,crash` + host-штамп) + **охота за фразой**, которой нет в APK (runtime-текст: шина авто, TBOX, scene.db, TTS): `-q "фраза"` (хиты с контекстом ±3), `-cjk` (все CJK-фрагменты: частота, доминирующий pid, tag), `-offline <snapshot.log>` (по уже снятому), pid → приложение через `/proc/<pid>/cmdline` + `pm map`; снимки в `logs/logshot/` (`shot_<ts>.log` / `.meta.txt` / `.hits.txt`). Сборка: `logshot/build.sh` (бинарники `shot`/`shot.exe` в корень) |
 
 Префикс пакета динамических: `com.android.vendor.translate.rro.<app>` — лаунчер
 скрывает такие пакеты (фильтр №1, `LAUNCHER_APP_HIDDEN_DESIGN.md`).
