@@ -86,10 +86,12 @@ deepal-HU-translate/
     #   runtime-фразой (-q/-cjk/-offline), не в APK (шина/TBOX/scene.db/TTS)
     #   build.sh - gofmt+vet+тесты+сборка shot/shot.exe в корень
 #   СОСТАВ АРХИВА РЕЛИЗА (deepal-HU-translate_v3.2.X.zip):
-#   deepl, deepl.exe, targets.txt, manage.bat + collect_report.bat
-#   (динамические; без collect_report.bat пункт [7] report падает),
+#   README.md (руководство пользователя, с v3.2.13), deepl, deepl.exe,
+#   targets.txt, manage.bat + collect_report.bat (динамические; без
+#   collect_report.bat пункт [7] report падает),
 #   apks_rro_min/ (200 .apk+.idsig), apks_rro_static/ (200).
-#   НЕ входит: manage_static.bat (статика — из git), shot*, keys/.
+#   НЕ входит: manage_static.bat (статика — из git), остальные документы
+#   (WORKFLOW/TODO/CHANGELOG/MEMORY), shot*, keys/.
 ```
 
 ---
@@ -114,6 +116,123 @@ Go:  go + gofmt (1.22+)       — build.sh (deepl) и logshot/build.sh (shot);
 ```
 
 ---
+
+## Референс скриптов
+
+| Скрипт | Назначение |
+|--------|-----------|
+| `extract_cjk.py` | Извлечение из `decompiled/`: все строки (strings, arrays, plurals) из values/ и values-zh/ в `translations/*.json`. **Обнуляет `ru`** (см. шаг 2) |
+| `scripts/decompile_apks.py` | Декомпиляция APK из original_apks/ в decompiled/ (apktool) |
+| `generate_overlays.py` | Формирование `overlays/<app>/` (динамические — для `adb install`); пишет RU в `res/values-ru/` **и** дубль в `res/values/` (default-конфиг: RU применяется и при локали ГУ ≠ ru); `--only <App>` |
+| `create_rro_min.py` | Сборка APK динамических оверлеев (aapt2 compile + link, подпись `keys/platform.jks`); `--only <App>` |
+| `generate_overlays_static.py` | Формирование `overlays_static/<app>/` (статические, `isStatic="true"`) |
+| `create_rro_static.py` | Сборка APK статических оверлеев (аналог min); `--only <App>` |
+| `generate_summary.py` | Итоговая таблица: сколько строк, сколько переведено, сколько APK (source of truth статуса) |
+| `scripts/quality_check.py` | Аудит качества (CJK в ru, пустые поля); отчёт в `/tmp/quality_report.json` |
+| `create_db.py` | SQLite-словарь переводов из `translations/*.json`; `--stats`, `--find <zh>`, `--find-ru` |
+| `apply_db_translations.py` | Заполняет ПУСТЫЕ `ru` из SQLite-словаря (матч (app,name)→(app,zh)→уникальный cross-app + guard), `--dry-run` |
+| `validate.py` | **Автопроверка перед сборкой**: форматтеры zh↔ru (порядок + %s/%%), CJK-in-ru, размеры/индексы массивов против источника, plurals few/many, package-префикс, дубли name; WARN-аудит ширины RU vs ZH (`--length-report FILE`, секция 1c); разбор APK через `aapt2 dump` (`--skip-apk` — без). **Exit 1 при ошибках** |
+| `strwidth.py` | Метрика «ширины строки» (CJK=2, остальное=1) + пороги `--fit` (FIT_* env). Общая для `validate.py` и `improve_translations.py --fit` |
+| `improve_translations.py` | **Перевод/улучшение строк в `ru`** (LLM). Режимы: `--all`, `--defective` (пустые/CJK/битые плейсхолдеры/дегенеративные), `--empty`, `--long` (длинные, по одной; обходит progress-фильтр), `--fit` (укорочение «раздутых»), `--styled` (строки с разметкой, по фрагментам, кэш `improve_styled_cache.json`), `--app <имя>`, `--limit`, `--resume`, `--fresh`, `--dry-run` |
+| `promt.md` | Системный промпт для improve (HTML/экранирование, плейсхолдеры, глоссарий) |
+| `test_improve_selftest.py` | Self-test: guard, specs, wake-word, aapt2 round-trip (compile+link+dump) |
+| `make_bisect_overs.py [K][A][B][NAME]` | Диагностика: K «кусковых» RRO-APK с частью строк одного приложения (бисекция проблемного ресурса на ГУ) |
+| `make_zh_control.py [N]` | Диагностика: RRO «контроль» — все/первые N ID таргета, но значения КИТАЙСКИЕ (разделяет «структура таблицы» vs «контент перевода») |
+| `create_app_pipeline.sh` | Полный цикл: create_db → generate_overlays(±static) → create_rro_* |
+| `export-to-db.sh` | create_db + validate (± dry-run apply_db) |
+
+### Словарь (SQLite)
+
+```bash
+python3 create_db.py                 # пересобрать словарь из translations/*.json
+python3 create_db.py --stats         # статистика
+python3 create_db.py --find 蓝牙      # поиск по zh
+python3 apply_db_translations.py --all --dry-run   # безопасно: только пустые ru
+```
+
+Не запускайте `apply_db_translations.py --all` **без** `--dry-run`, пока
+`improve_translations --all` не дойдёт до конца.
+
+### Переменные окружения improve_translations.py
+
+`API_URL`, `API_KEY`, `API_MODEL` (по умолчанию Ollama
+`http://10.0.0.128:11434/v1/chat/completions`, `qwen3.8:27b`), плюс
+`API_LONG_THRESHOLD` (умолч. 200: строки `len(zh)>=` порога отправляются
+**по одной** — одна длинная в батче на 8 роняла весь пакет), `API_BATCH_SIZE`,
+`API_MAX_TOKENS`, `API_TIMEOUT`, `API_DEBUG`, `API_DRY_RUN`.
+Прогресс — `translations/improve_progress.json` (resume/fresh; save после
+каждого батча). `--fit` — свой прогресс `improve_fit_progress.json`
+(попадают только УКРОЧЕННЫЕ; повторный прогон без `--fresh` не укорачивает
+повторно); не укороченные «переширокие» — `logs/fit_stuck.txt` (ручное ревью),
+аудит «до/после» — `validate.py --skip-apk --length-report …` (секция 1c, WARN).
+
+### Префиксы пакетов и скрытие из лаунчера
+
+- **динамические**: `com.android.vendor.translate.rro.<app>` — лаунчер скрывает
+  такие пакеты (фильтр №1: `startsWith("com.android")`; детали —
+  `docs/LAUNCHER_APP_HIDDEN_DESIGN.md`);
+- **статические**: `com.deepal.translate.rro.<app>`, `isStatic="true"`,
+  ставятся в `/vendor/overlay/<app>/` (root+remount).
+
+Переводы в оверлее: `res/values-ru/` (для ru-локали) **+** дубль в `res/values/`
+(default-конфиг: RU применяется и когда locale ГУ НЕ ru — fallback вместо zh
+у WT-* / en у AOSP-*).
+
+### Ограничение: 9 AOSP-target динамически НЕ ставятся (EXCLUDE9)
+
+Проверено по живым логам 22.09 (CHANGELOG [2026-09-22b]): 9 оверлеев, целящих
+чистые AOSP-пакеты — NetworkStack, MediaProviderLegacy, UserDictionaryProvider,
+DownloadProvider, DownloadProviderUi, CompanionDeviceManager, MtpService,
+CaptivePortalLogin, ContactsProvider — `adb install` отклоняет
+(`INSTALL_FAILED_INTERNAL_ERROR`: «signed with different certificates, and the
+overlay lacks <overlay android:targetName>»; подписаны AOSP-ключом, а RRO —
+заводским; `overlay enable` не выполняется). **Решение (25.09): исключены из
+`manage.bat`** (секция `EXCLUDE9` в `targets.txt`; не входят в GROUP1 ни при
+`A`, ни при `auto`) — динамически ставится **91 из 100**. Перевод их строк —
+только статикой (`manage_static.bat` автоматически добирает EXCLUDE9 в GROUP1,
+т.е. в static ставятся 100).
+
+### Нормализация перевода (`_sanitize_ru`, aapt2-safe)
+
+`improve_translations.py` пишет модельный ответ в `ru` после нормализации:
+
+| Было (модель) | Стало в `ru` | Зачем |
+|---|---|---|
+| `&amp;lt;`, `&amp;quot;`, `&amp;gt;`, `&amp;apos;` | `&lt;`, `&quot;`, `&gt;`, `&apos;` | двойное экранирование → одинарное, иначе `generate_overlays._esc()` даст `&amp;lt;` и aapt2 FAIL |
+| `'`, `&apos;`, `&#x27;` | ‘ (U+2019) | aapt2 отклоняет одиночный `'` и даже `&apos;` (проверено compile-матрицей) |
+| живые `\n`, `\r`, `\t` | литеральные `\\n`, `\\t` | конвенция ресурсов: `\n` в XML — два символа |
+| `%s`, `%1$d`, `%.1f`, `%%`, URL, «» | не трогается | паритет форматтеров гонится guard'ом |
+
+### Лимит aapt2: строка ≤ 32 700 UTF-8-байт
+
+aapt2 молча режет значение >32767 байт в «STRING_TOO_LARGE» (warning, не
+error). Генераторы (`AAPT2_MAX_BYTES=32700`) **не пишут** такие строки в
+оверлей (на ГУ остаётся текст источника), печатают `[WARN]`; `create_rro_*`
+FAIL'ит приложение; `validate.py` — STRING_TOO_LARGE в APK = ошибка.
+Текущий состав (6 строк): 4 больших юридических документа WT_FusionNavigation +
+`road_book_my_agreement_two_content` + WT_GameCenter/`str_procotol`. Перевод
+сохранён в `translations/*.json`; для включения нужен split на несколько
+ресурсов (правки приложения).
+
+### Строки, НЕ попадающие в оверлей (`translations/exclude.json`)
+
+Некоторые строки приложениями используются **как данные/ключи**, а не как
+надписи — их RU-перевод ломает логику. Классический пример (25.09):
+`dialog_part_*_title_text` в WT_AutoMaintenance сравниваются
+(`getString(id).equals(push.getMaintenanceProgram())`) со **значением сервера**
+(всегда китайским) — RU-ключ = сравнение ложно = карточки «Умного
+обслуживания» не заполнялись («Осталось - - км»). Механизм:
+`exclude.json` = `{"App": {"name": "причина"}}`; генераторы читают его
+(`load_excludes()`/`filter_excluded()`) и не пишут перечисленные строки в
+оверлей (на ГУ остаётся zh); RU-перевод **остаётся** в `translations/<app>.json`
+(справка/будущий репак, не удалять); `exclude.json` исключён из ignore-списков
+всех скриптов, читающих `translations/*.json`. Состав (25.09):
+`WT_AutoMaintenance` — 8 строк `dialog_part_*_title_text`;
+`WT_HDCloudCamera` — `setting_guardian_mode`, `cruise_protect_model` (ключи
+голосовых команд). **Осознанное ограничение:** заголовки «Умного
+обслуживания» (空调滤芯/制动液/减速器油) остаются **китайскими** — данные
+с сервера, рессурса нет; RU-вариант = только smali-репак (решено не делать).
+После правки `exclude.json`/`ru`: `generate_overlays* → create_rro_* --only <App> → validate.py`.
 
 ## Шаг 1. Декомпилировать APK
 
@@ -340,8 +459,13 @@ deepl.exe reboot          REM перезагрузить ГУ
 
 Поиск adb у `deepl` (bat требует `where adb` — platform-tools в PATH):
 `DEEPL_ADB=C:\путь\adb.exe` → PATH → **adb.exe рядом с deepl.exe**; выбранный
-путь печатается `[ADB] using: <путь>`. Перед install/enable `deepl` сам
-выставляет `system_locales=ru-RU,en-US,zh-CN` (строки `[LOCALE] было/стало`).
+путь печатается `[ADB] using: <путь>`. Перед install/enable **оба**
+менеджера сами выставляют `system_locales=ru-RU,en-US,zh-CN` (строки
+`[LOCALE] было/стало` в консоль и ops-лог): `manage.bat` — подпрограмма
+`:EnsureRuLocale` (добавлена 27.10; live-фикс WT_VehicleCenter по-китайски
+при локали ГУ без ru), `deepl` — аналог. Без этой строки при en/zh-локали
+ГУ русские строки молча не проявляются (см. FAQ ниже,
+«Частично не переведено» → «Локаль ГУ»).
 
 Или вручную (adb с любой ОС):
 ```bash
@@ -486,36 +610,16 @@ python3 scripts/quality_check.py
 
 ---
 
-## Шаг 12. Перевод зашитых в layout надписей — ВАРИАНТ ОТКЛОНЁН (25.09), архив в /home/user/projects/deepal-HU-translate-bak-repack/
+## Шаг 12. Перевод зашитых в layout надписей — ВАРИАНТ ОТКЛОНЁН (25.09)
 
-**Решение (25.09, пользователь):** репатированный вариант (бинарный патч
-AXML внутри исходных APK) отменён — проект переводит только через RRO.
-Все артефакты шага вынесены в бэкап
-`/home/user/projects/deepal-HU-translate-bak-repack/`:
-`{axml.py, scan_layout_literals.py, translate_layout_literals.py,
-patch_apk_layouts.py, verify_patched_apks.py, install_patched.bat,
-revert_patched.bat, layout_literals.json,
-logs/{layout_literals.json, apk_patch_report.json, apk_patch_verify.json,
-patched_map.txt, translate_layout_literals.log}}`.
-`apks_patched/` (4.8GB) на данной машине не собирался — нечего было
-переносить. На ГУ **никакие** patched-APK не установлены (live-проверка
-окончательно не проводилась) — откат с машины не требуется.
-(`original_apks/` 25.09 возвращён в проект — нужен RRO-конвейеру для
-передекомпиляции, `scripts/decompile_apks.py`.)
-
-**Контекст (исторически):** 56 APK / 1487 CJK-литералов в binary-XML
-layout (RRO layout не покрывает). Инструмент был готов (byte-exact
-round-trip 137/137) и собран, но не принят. Если когда-либо понадобится
-вернуться: вернуть файлы из бэкапа, история — в CHANGELOG [2026-09-22]
-и якорях MEMORY.md; установка/откат (data: `adb install -r -d` /
-`pm uninstall`; system: push + remount) — в README бэкапа-бат'ов.
-
-**Не покрывается RRO и не покрывалось этим шагом** (осталось открытым,
-см. TODO 22.09): `assets/` и `res/raw/` (голосовые hotwords WT_TSpeech,
-конфигурация WT_MLWecarControl, virtual_data.xml, speech yaml) и
-CJK-константы в smali (аудит: 0 по примерам).
-
----
+Решение пользователя: проект переводит только через RRO; «бинарный патч AXML
+внутри исходных APK» свёрнут, все артефакты (axml.py, scan/translate/patch/
+verify, install/revert_patched.bat, layout_literals.json + логи) вынесены в
+`/home/user/projects/deepal-HU-translate-bak-repack/`. На ГУ никакие
+patched-APK не устанавливались — откат не требуется. История: CHANGELOG
+[2026-09-22], [2026-09-25], 5.14. Не покрыто RRO никогда: assets/ и res/raw/
+(голосовые хотворды WT_TSpeech, carconfig WT_MLWecarControl, virtual_data.xml)
+— см. TODO.md.
 
 ## Полезные команды
 
@@ -571,34 +675,48 @@ adb shell settings get global DriveMode
 ### `deepl`: «не найден targets.txt»
 - Файл ищется в CWD и всех родительских папках (вверх) либо задаётся env `DEEPL_TARGETS=/путь`. Положите `targets.txt` рядом с бинарником — единый источник групп (91/8/9), эталон — корневой `targets.txt` из репозитория.
 
+### «Частично не переведено» / «какой-то раздел по-китайски»
+- **Локаль ГУ:** проверьте, что `system_locales` начинается с `ru-RU`
+  (`adb shell settings get system system_locales`; должно быть
+  `ru-RU,en-US,zh-CN`). Менеджеры выставляют это сами перед install/enable
+  (строка `[LOCALE]` в ops-логе) — но уже запущенные приложения увидят RU
+  только после своего перезапуска (force-stop из recent) или reboot ГУ.
+  Причина: при локали без ru точное совпадение конфигурации цели (values-en/
+  values-zh-rCN) разрешается выше default-`values/` нашего оверлея.
+- **9 AOSP-пакетов (NetworkStack/Providers/MTP/…):** их строки в динамике
+  не работают (EXCLUDE9 — не ставятся `adb install`); перевод есть только в
+  статике (`manage_static.bat` → `/vendor/overlay`).
+- **Строки-данные:** заголовки «Умного обслуживания» и ряд строк-ключей
+  намеренно НЕ переведены (`translations/exclude.json`, серверные данные) —
+  см. референс «Строки, НЕ попадающие в оверлей».
+- **6 строк-«гигантов»** (юридические документы) не влезли в лимит aapt2
+  (32700 байт) — на ГУ исходный текст; список — TODO.md.
+- Всё остальное: диагностика ([6] в меню) + report ([7]) — zip и
+  `summary.txt` отвечают, что именно не установлено/не включено.
+
+### `manage.bat`: после строки `[TGT] … - строк с целями: N` окно замирает (меню не появляется)
+- Симптом живого наблюдения (28.10): после `[TGT]` окно не обновляется и висит.
+  Меню рисуется только ПОСЛЕ быстрой проверки `adb devices` (`:ADB_CHECK_FAST`)
+  и `cls` — т.е. застрял `adb devices` (сам скрипт не блокируется ничего
+  другого).
+- Причины: зависший adb-демон (кратковременно обрывавшееся USB, старая
+  сессия с другим клиентом), кабель «зарядка-только», USB-хаб.
+- Лечение в отдельном окне: `adb kill-server` (иногда —
+  `adb kill-server && adb start-server`), переткнуть кабель, затем
+  `adb devices`. После — [R] в меню `manage.bat`. Если `adb devices` в
+  отдельном терминале тоже висит — проблема в USB-связи, а не в скрипте.
+- Усложнить bat-менеджер таймаутом на `adb devices` можно, но это ломает
+  проверенную плоскую форму; сначала — `kill-server` (решение 28.10).
+
 ---
 
 ## История версий
 
+Только последние (вся история — `CHANGELOG.md`):
+
 | Версия | Дата | Изменения |
 |--------|------------|---------------------------------------------------------------------|
-| 5.21 | 2026-10-27 | **`manage.bat`: `:EnsureRuLocale` — ru в начале `system_locales` перед install/enable** (live-фикс 04.10: WT_VehicleCenter — главное меню по-китайски при локали ГУ `en-US,zh-CN` без ru — точное совпадение values-en/цели бьёт values-ru/ оверлея). get→compare→`settings put ru-RU,en-US,zh-CN`+read-back, плоская форма (temp+for/f type); строки `[LOCALE]` в консоль+ops-лог; wine-smoke обеих веток. Релиз v3.2.12 (состав = v3.2.11) |
-| 5.20 | 2026-10-27 | **`manage.bat` + `collect_report.bat` в архив релиза** (динамические RRO на Windows-машине, рядом с `deepl`/`deepl.exe`/`targets.txt`). Валидация перед релизом (smoke, wine 9 + фейковый adb.exe): `goto`/`call :X` все на лейблы; `LoadTargets` читает `targets.txt` (108 целей); проходы `install 8` (root→2×Success+ops-лог), `enable A` (91), `disable 1`, `uninstall C`, `status`, `report` (15 raw+summary+zip); `manage_static.bat install 8` (root+remount+push). Ограничение wine (не bat): `findstr /R /C:"device$"` + `set /p` под пайп — обойдены в smoke-копии, репозиторий не тронут. `manage_static.bat` в архив НЕ входит (статика — из git). v3.2.11 |
-| 5.19 | 2026-10-27 | **Документация актуализирована**: README (новый раздел «Использование Go-менеджера `deepl»`: запуск/режимы/предеты, поиск adb `DEEPL_ADB->PATH->рядом с бинарником`, `system_locales` ru-RU,en-US,zh-CN перед install/enable, логи; logshot в структуре и таблице скриптов; Go в зависимостях), WORKFLOW (шаги 6/8/9 с вариантами `deepl.exe`, структура проекта, FAQ: adb/targets). Код (v3.2.5–v3.2.7): Go-исходники в `go/`, `logshot/` (shot), `targets.txt` без go:embed (fallback вверх, честные ошибки), `deepl` — поиск adb (env/PATH/рядом, `[ADB] using:`), фикс [R] в меню (полная проверка + пауза, вывод не смахивается cls), `[LOCALE]` перед install/enable |
-| 5.18 | 2026-09-25 | **Отказ от reпак-варианта** (решение пользователя): файлы и данные шага 12 (axml.py, scan/translate/patch/verify, install_patched.bat, revert_patched.bat, layout_literals.json + логи) вынесены в `/home/user/projects/deepal-HU-translate-bak-repack/`; step 12 переведён в «ОТКЛОНЁН/архив»; TODO переписан; patched-APK на ГУ не были установлены (live-проверка не проводилась). `original_apks/` в бэкап НЕ отправлен (и туда не попал) — остался/вернулся в проект, т.к. нужен RRO-конвейеру (декомпиляция) |
-| 5.17 | 2026-09-24 | **Живой log `logs/bat/` (report 093642): `collect_report.bat` рвался на [7/9], отчёт обрывался пополам.** Корень: `collect_report.bat:270` — вторая строка многострочного `REM` в блоке дампа ANR **без приставки `REM`** (выпала при переносе) → cmd исполняет её как команду, неэкранированная `)` в `безвредно)` закрывает `if !N_ANR! GTR 0 (` досрочно, хвостовой `.` → `. was unexpected at this time.` → блок рвался до дампа трассы, [8/9]/[9/9]/`summary.txt`/zip не выполнялись. Wine-репро идентично живому обрыву. Починено: `REM` на :270. Второй (неблокирующий) дефект того же прогона — `The system cannot find the file specified.` в banner `:CollectReport`: литеральный `<TS>`/`<pkg>` в `echo` = input-redirection → экранировано `^<…^>` в `manage.bat:567`, `manage_static.bat:540`, `install_all_static.bat:50`. Установка в прогоне 24.09 в порядке: 91/100 (9 AOSP-target ожидаемо не ставятся), WT_WtSystemUI `[ ]` (vendor-баг enable), wecarspeech FATAL (не наш) |
-| 5.16 | 2026-09-23 | **Итерация 2 по live-репорту 22.09 21:26.** Подтверждено: 22b-чинки работают (91/9, phonelink `[x]`, ver виден, 0 `---`). Новая волна починки: ops-логи были ПОТЕРЯНЫ (имя `ops_…_OTST:=_.log` — замена ПАРЫ `!X:=_!` в `:OpSTs` дала битое имя с `:`, файл не создавался) → таймстемп wmic/powershell `YYYYMMDDHHMMSS`; FATAL-счётчик (`find /C` = `---------- N C(S) FOUND`, токен1=дефисы → «---------- 0 - всё чисто» при 4 FATAL) → построчный счётчик как N_ANR; ANR-trace Permission denied (`anr_*`=system:system 600) → `adb root` ВСЕГДА перед дампом; `overlay enable` в install был скрыт (WT_WtSystemUI стоял `[ ]` без следов) → `:DoOpAdb` с выводом + retry + `[WARN]` в лог; хрупкий `"%%I"=="Success"` (хвостовой пробел/CR) → префикс-матч 7 символов. Summary: ровно 9 отсутствующих = «ОЖИДАЕМО» (9 AOSP-target) |
-| 5.15 | 2026-09-22 | **Живые логи HU (logs/bat/ + report-zip): manage.bat/отчёт починены.** Корень false-`[ERROR]`/«OK: N / Ошибок: N» — неэкранированные скобки в `RESULT:`-строках ops-лога (та же класс-бага, что 5.12, но на строках в ЛОГ; экранированы в manage/manage_static + 3 Legacy-обёртки; wine-репро до/после). Формат `pm list` этого ГУ = `package:PKG versionCode:N` (пробел, без `=`) → парсер отчёта новый (было ложное 0/100, стало 90/10; `tokens=3 delims=:`). GROUP3 `WT_PhoneLink`→`PhoneLink` (файл `PhoneLink_RRO.apk`, пакет `…rro.phonelink`). ANR-dump: `head -150 /data/anr/$f` (полный путь). **Найденные на устройстве:** 9 dynamic-оверлеев с AOSP-target не ставятся `adb install` (DELETE_FAILED_INTERNAL_ERROR, нет в overlay list) — решение: static или исключение из групп; WT_WtSystemUI STATE_DISABLED → enable; vendor-краш wecarspeech (NumberFormatException, не наш) |
-| 5.14 | 2026-09-22 | **Зашитые в layout надписи** (RRO не покрывает) — путь собран, **25.09 ОТКЛОНЁН пользователем, архив вынесен** в `/home/user/projects/deepal-HU-translate-bak-repack/` (см. шаг 12). История: `scan_layout_literals.py` (122 APK → 56 apps/1487 unique/3761 uses); `translations/layout_literals.json` 1487/1487; `axml.py` (AXML read/write, byte-exact 137/137) + `patch_apk_layouts.py` → apks_patched/ 56 APK, подпись platform.jks 56/56, cjk_left=0. RRO layout override доказан невозможным (aapt2). Не покрыто: assets/raw + smali (0) — см. TODO |
-| 5.13 | 2026-09-21 | Извлечение «чисто»: plain — regex (zero-drift), **markup-строки (`<b>/<a>/<annotation>/<Data>`) — ET** (`_string_inner_xml`, ручная сериализация) + `"styled": true`; plurals/arrays через ET/`itertext`; fallback на regex при `ParseError`. aapt2 **32767-байтовый** лимит: >32700 → строка **не** в оверлей (на ГУ остаётся текст источника, а не «STRING_TOO_LARGE»); create_rro_* теперь **FAIL'ит** приложение при «too large» (aapt2-предупреждение в STDOUT, rc=0); validate.py: STRING_TOO_LARGE=ОШИБКА, байт-аудит >32700=WARN, CJK-ресурс ∉ JSON=WARN. styled-перевод по фрагментам — `improve_translations.py --styled` (кэш improve_styled_cache.json). Self-test 90/90. Предупреждение: `extract_cjk.py` ОБНУЛЯЕТ `ru` — не гонять после перевода |
-| 5.12 | 2026-09-20 | Wine-проверка bat (headless 9.0 + mock-adb): синтаксис/структура/меню подтверждены; пойманы и починены 13 live-багов — 12 неэкранированных скобок в `echo` внутри `if (...)`-блоков (обоих менеджеров + report) и «ECHO is OFF» в summary (дефолты MODEL/REL/INC_LINE); `:DoOpAdb` на портативный `type "!F!"`. Ограничение wine задокументировано: adb-форматы `pm list`/`overlay list` и реальный report — только живая Windows+adb+HU |
-| 5.11 | 2026-09-19 | Логи установки/работы: `logs\ops_<mode>_<TS>.log` у обоих менеджеров (вывод adb + RESULT по каждому пакету, попадает в report-zip); report: raw/43_main + 44_overlay_main (работа apk) + 45_overlay_dump (ошибочные оверлеи) + ANR с auto root и trace; починка парсера (pm list `=`/delims==, overlay list двойной поиск, fota≠fotaservice) |
-| 5.10 | 2026-09-19 | `manage.bat`/`manage_static.bat`: меню появляется ВСЕГДА даже при недоступном adb (баннер статуса + пункт [R] «проверить заново»); убрана ADB-блокировка до меню (была `exit /b 1` в `:ADB_CHECK` и вечный 45-сек цикл ожидания авторизации) |
-| 5.9 | 2026-09-19 | Сбор логов для анализа: `collect_report.bat` + режим `report` в `manage.bat` (пункт [7]) и `manage_static.bat` (пункт [5]); zip в `logs\deepal_<scheme>_report_<TS>.zip` (pm list, overlay states по 100 пакетам, locale, /vendor/overlay, crash/FATAL/ANR, summary с авто-выводом «есть ли проблемы») |
-| 5.8 | 2026-09-18 | Ревью динамических bat: весь функционал сведён в `manage.bat` (install/enable/disable/uninstall/status/diag, группы 1-4 + TOP-8 + A/C/auto, CLI `manage.bat <mode> <preset>`, счётчики+сводка); `install_8/install_all/disable_8/diag` удалены (менеджер один — `manage.bat`) |
-| 5.7 | 2026-09-18 | Tочечный CJK-ремонт длинных строк (`_repair_cjk`: окно ±50 симв., lenient-парсер, 3 retry, полный повтор = фолбэк); добита последняя строка road_book_my_agreement_two_content (9 273→33 152 ru): **17 827/17 827 (100.0%)**, 100/100 apps; self-test 42/42 |
-| 5.6 | 2026-09-18 | Длинные строки (len(zh)>=200) — по одной (API_LONG_THRESHOLD, _make_chunks) + режим --long (обходит progress-фильтр); починка str(None)→"None" (res.get("ru") or ""); guard: DEGENERATE_ANSWERS + LONG_RATIO_MIN + CJK-hint-retry; починка обнуления progress (merge, не --resume → done=set()); self-test 37/37; доведено до 17 826/17 827 (1 строка) |
-| 5.5 | 2026-09-18 | Удалён исторический путь translate (translate_one/batch, api_translate_ambiguity, scan_ambiguities, apply_db_new_ru, revert_cjk, run_pipeline); единственный путь переводов — improve_translations.py; добавлены create_app_pipeline.sh / export-to-db.sh; синхронизация документации |
-| 5.4 | 2026-09-17 | add improve_translations.py + promt.md + validate.py + self-test; починка specs() (%s/%%, порядок); values-ru у обеих схем; массивы 0..N; plurals few/many; create_db/apply_db пофикс (матч (app,name)+guard) |
-| 5.3 | 2026-09-17 | reverted префикс динамических — com.android.vendor.translate.rro.* (скрытие из лаунчера, LAUNCHER_APP_HIDDEN_DESIGN.md фильтр №1); bat'ы уже его использовали |
-| 5.2 | 2026-09-17 | Починены 5 багов данных (см. REVIEW.md): 12 строк с %s/CJK, пустые array-элементы, plurals few/many |
-| 5.1 | 2026-09-17 | added apply_db_new_ru.py (new_ru → ru), добавлена _sanitize_new_ru нормализация (%s, HTML-entities, apostrophes). Сборка 100/100 OK, 0 FAIL |
-| 4.0 | 2026-09-13 | Полная актуализация по всем скриптам, добавлены статические RRO, скрытие из лаунчера |
-| 3.0 | 2026-09-13 | Добавлены статические RRO, LAUNCHER_APP_HIDDEN_DESIGN.md |
-| 2.0 | 2026-09-05 | Финальная версия workflow, 8 целевых приложений переведены |
-| 1.0 | 2026-09-04 | Первый рабочий цикл: decompile → extract → translate → build |
+| 5.23 | 2026-10-28 | **README.md входит в архив релиза** (с v3.2.13) — пользователь видит руководство вместе с архивом. Состав = v3.2.12 + README.md (408 записей / 406 файлов) |
+| 5.22 | 2026-10-28 | **Документация: README прост (пользователь), нюансы → WORKFLOW/CHANGELOG.** README переписан: установка из архива, меню, режимы, логи, troubleshooting, ссылки; dev-нюансы (таблица скриптов, LLM-режимы, env, нормализация aapt2, exclude.json, EXCLUDE9) перенесены сюда. TODO.md — только статус + открытые (история → CHANGELOG) |
+| 5.21 | 2026-10-27 | **`manage.bat`: `:EnsureRuLocale`** — ru в начале `system_locales` перед install/enable (live-фикс 04.10: WT_VehicleCenter по-китайски при локали ГУ без ru). get→compare→`settings put ru-RU,en-US,zh-CN`+read-back; строки `[LOCALE]` в консоль+ops-лог; wine-smoke обеих веток. Релиз v3.2.12 |
+| 5.20 | 2026-10-27 | **`manage.bat` + `collect_report.bat` в архив релиза** (динамические RRO на Windows-машине). Валидация перед релизом (smoke, wine 9 + фейковый adb.exe): install 8/enable A/disable 1/uninstall C/status/report; manage_static install 8. `manage_static.bat` в архив НЕ входит (статика — из git). v3.2.11 |

@@ -3,7 +3,22 @@
 Оперативный статус. История — в `CHANGELOG.md`,
 шаги — в `WORKFLOW.md`.
 
+## ЯКОРЬ (28.10b) — README в архиве релиза; v3.2.13
+
+По просьбе пользователя (28.10) `README.md` (новый короткий, 149 строк) входит
+в архив релиза: пользователь получает руководство вместе с бинарниками.
+v3.2.13 = v3.2.12 + README.md (состав: 408 записей / 406 файлов; APK/idsig/бинарники
+идентичны v3.2.12 по md5). WORKFLOW: блок «СОСТАВ АРХИВА РЕЛИЗА» + история 5.23.
+Доки, НЕ входящие в архив: WORKFLOW/TODO/CHANGELOG/MEMORY (только в git).
+
 ## ЯКОРЬ (27.10) — `deepl`: окружение (adb, targets, локаль) — как читать/чинить
+
+**Роли доков (28.10):** README = пользователь (скачать/установить/меню/логи/
+troubleshooting, ~150 строк); WORKFLOW = dev-справочник (референс скриптов,
+LLM/env, нормализация aapt2, EXCLUDE9/локаль/гиганты, FAQ); TODO = только
+статус+открытые; CHANGELOG = история. В архив релизов входит **README.md**
+(п.1 доки, v3.2.13+), остальные доки (WORKFLOW/TODO/CHANGELOG/MEMORY) — только
+в git.
 
 Симптом-триада на чужой машине (не наш баг, а окружение): (1) «adb не найден:
 нет в PATH и нет рядом с бинарником», (2) «adb devices пуст, хотя соседний
@@ -21,10 +36,11 @@ deepl/deepl.exe (`adb.ResolveBin`, [ADB] using: <путь> в stderr) — platfo
 в консоль + ops-лог (важно: values-en/таргета с кит. значениями в разрешении
 конфига ВЫШЕ default values/, без ru в preferred RU-строки не видны). Сборка:
 `go/build.sh` (deepl), `logshot/build.sh` (shot) — оба в корень; тесты
-`go test` в `go/` и `logshot/`. Релизы: архив (deepl/deepl.exe + targets.txt +
+`go test` в `go/` и `logshot/`. Релизы: архив (**README.md** (v3.2.13+) + deepl/deepl.exe + targets.txt +
 **manage.bat + collect_report.bat** (динамические, v3.2.11, без collect_report.bat
 пункт [7] report падает) + apks_rro_min/static; без manage_static.bat — статика
-из git), тег vn, GitHub REST uploads (нет gh CLI: credential fill + uploads).
+из git; остальные доки в архив не входят), тег vn, GitHub REST uploads
+(нет gh CLI: credential fill + uploads).
 
 ## ЯКОРЬ (02.10) — фразы вида «将执行+название сцены» и вообще СЦЕНАРНЫЕ тексты — ВНЕ ЗОНЫ RRO, не переводить
 
