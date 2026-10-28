@@ -13,8 +13,11 @@
 //	deepl stat-uninstall-all             - удалить все группы (static)
 //	deepl report [dyn|stat]              - собрать zip-отчёт
 //
-// modes:   install | enable | disable | uninstall | status | diag | report | reboot
+// modes:   install | enable | disable | uninstall | status | diag | report | reboot | locale-restore
 // presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <имена пакетов через пробел> | 0
+//
+// locale-restore — вернуть оригинальную (до перевода) локаль zh-CN
+// (обратная операция install/enable): deepl dyn locale-restore / меню [9].
 //
 // adb:     ищется в порядке: env DEEPL_ADB -> PATH -> рядом с бинарником
 //
@@ -171,7 +174,7 @@ func newAdbClient() (adb.Client, error) {
 // после выполнения — пауза (если TTY) и exit.
 func cliMode(ctx context.Context, adbClient adb.Client, cfg *groups.Config, rest []string) error {
 	if len(rest) == 0 {
-		return fmt.Errorf("не указан mode (install|enable|disable|uninstall|status|diag|report|reboot)")
+		return fmt.Errorf("не указан mode (install|enable|disable|uninstall|status|diag|report|reboot|locale-restore)")
 	}
 	modeStr := rest[0]
 	preset := ""
@@ -180,7 +183,7 @@ func cliMode(ctx context.Context, adbClient adb.Client, cfg *groups.Config, rest
 	}
 	mode, ok := parseMode(modeStr)
 	if !ok {
-		return fmt.Errorf("неизвестный mode %q (ожидается: install|enable|disable|uninstall|status|diag|report|reboot)", modeStr)
+		return fmt.Errorf("неизвестный mode %q (ожидается: install|enable|disable|uninstall|status|diag|report|reboot|locale-restore)", modeStr)
 	}
 
 	a := app.New(ctx, cfg, adbClient)
@@ -209,6 +212,8 @@ func parseMode(s string) (app.Mode, bool) {
 		return app.ModeReport, true
 	case "reboot":
 		return app.ModeReboot, true
+	case "locale-restore":
+		return app.ModeLocaleRestore, true
 	}
 	return "", false
 }
@@ -247,8 +252,9 @@ func usage() {
   deepl stat-uninstall-all             удалить все группы (static)
   deepl report [dyn|stat]              собрать zip-отчёт
   deepl reboot                         перезагрузить ГУ (adb reboot)
+  deepl dyn|stat locale-restore        восстановить оригинальную локаль (zh-CN)
 
-modes:   install | enable | disable | uninstall | status | diag | report | reboot
+modes:   install | enable | disable | uninstall | status | diag | report | reboot | locale-restore
 presets: 1 | 2 | 3 | 4 | 8 | A | C | auto | <пакеты через пробел> | 0 (меню)
 
 ВАЖНО: после install или uninstall перезагрузите ГУ (режим reboot / пункт [6]/[8] в меню) —

@@ -55,6 +55,18 @@ func (m *Menu) Run() {
 			continue
 		case "1", "2", "3", "4", "5", "6", "7", "8":
 			mode = m.modeFor(choice)
+		case "9":
+			// [9] Восстановить оригинальную локаль (zh-CN) — без цели:
+			// прогон напрямую, как status/diag/reboot (group-меню не нужно).
+			if _, err := m.a.Run(ModeLocaleRestore, ""); err != nil {
+				fmt.Fprintln(m.out)
+				fmt.Fprintln(m.out, err)
+				continue // без ADB/с ошибкой — обратно в меню (без Y/N)
+			}
+			if !m.askAgain() {
+				return
+			}
+			continue
 		default:
 			fmt.Fprintln(m.out, "Неверный выбор.")
 			time.Sleep(time.Second)
@@ -176,6 +188,7 @@ func (m *Menu) actionMenu() string {
 		fmt.Fprintln(m.out, "    [4] Диагностика  (locale, целевые оверлеи, dump, dumpsys)")
 		fmt.Fprintln(m.out, "    [5] Собрать логи  (report: zip для анализа)")
 		fmt.Fprintln(m.out, "    [6] Перезагрузить (adb reboot) - ТОЛЬКО нужно после install/uninstall")
+		fmt.Fprintln(m.out, "    [9] Восстановить оригинальную локаль (zh-CN) - снять перевод системы")
 		fmt.Fprintln(m.out, "    [R] Проверить ADB заново  (полная проверка + рестарт демона)")
 		fmt.Fprintln(m.out, "    [0] Выход")
 	} else {
@@ -188,6 +201,7 @@ func (m *Menu) actionMenu() string {
 		fmt.Fprintln(m.out, "    [6] Диагностика             (locale, наши оверлеи, dump, dumpsys)")
 		fmt.Fprintln(m.out, "    [7] Собрать логи            (report: zip для анализа)")
 		fmt.Fprintln(m.out, "    [8] Перезагрузить ГУ        (adb reboot)")
+		fmt.Fprintln(m.out, "    [9] Восстановить оригинальную локаль (zh-CN) - снять перевод системы")
 		fmt.Fprintln(m.out, "    [R] Проверить ADB заново    (полная проверка + рестарт демона)")
 		fmt.Fprintln(m.out, "    [0] Выход")
 	}

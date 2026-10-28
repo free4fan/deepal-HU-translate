@@ -285,6 +285,59 @@ func TestMenuRUnavailableShowsErrorAndPauses(t *testing.T) {
 	}
 }
 
+// Меню: пункт [9] — восстановление оригинальной локали. Вывод в dyn-меню,
+// без group-меню (цель не нужна); прогон ставит zh-CN и спрашивает Y/N.
+func TestMenuLocaleRestoreDyn(t *testing.T) {
+	cfg := groups.Dynamic()
+	cfg.Groups = [4][]string{{"Cam"}, nil, nil, nil}
+	cfg.Top8 = []string{"Cam"}
+	mc := &mockClient{uid: 0, deviceOK: true, locale: wantLocales}
+	a := New(context.Background(), cfg, mc)
+	a.Now = func() time.Time { return time.Now() }
+	a.PmsDelay = 0
+	w := newCollectWriter(t)
+	m := NewMenu(a, cfg.Scheme, w, strings.NewReader("9\nN\n")) // 9 -> N (выход)
+	m.Clear = func(io.Writer) {}
+
+	m.Run()
+
+	if !strings.Contains(w.s, "Восстановить оригинальную локаль") {
+		t.Errorf("dyn-меню без пункта [9]:\n%s", w.s)
+	}
+	if strings.Contains(w.s, "Режим: ") {
+		t.Errorf("locale-restore ушёл в group-меню (не должен):%s", w.s)
+	}
+	if !strings.Contains(w.s, "Вернуться в меню?") {
+		t.Errorf("после locale-restore нет Y/N:\n%s", w.s)
+	}
+	if !containsCall(mc.calls, "shell settings put system system_locales "+originalLocales) {
+		t.Errorf("пункт [9] не выставил оригинальную локаль: %v", mc.calls)
+	}
+}
+
+// Статическое меню: тот же пункт [9] (единое поведение обеих схем).
+func TestMenuLocaleRestoreStatic(t *testing.T) {
+	cfg := groups.Static()
+	cfg.Groups = [4][]string{{"Cam"}, nil, nil, nil}
+	cfg.Top8 = []string{"Cam"}
+	mc := &mockClient{uid: 0, deviceOK: true, locale: wantLocales}
+	a := New(context.Background(), cfg, mc)
+	a.Now = func() time.Time { return time.Now() }
+	a.PmsDelay = 0
+	w := newCollectWriter(t)
+	m := NewMenu(a, cfg.Scheme, w, strings.NewReader("9\nN\n"))
+	m.Clear = func(io.Writer) {}
+
+	m.Run()
+
+	if !strings.Contains(w.s, "Восстановить оригинальную локаль") {
+		t.Errorf("static-меню без пункта [9]:\n%s", w.s)
+	}
+	if !containsCall(mc.calls, "shell settings put system system_locales "+originalLocales) {
+		t.Errorf("статика: пункт [9] не выставил оригинальную локаль: %v", mc.calls)
+	}
+}
+
 // captureWriter — io.Writer, коллекция.
 type captureWriter struct{ s string }
 

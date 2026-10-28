@@ -247,11 +247,12 @@ echo     [3] Статус       (overlay list: все / наши)
 echo     [4] Диагностика  (locale, наши оверлеи, dump, dumpsys)
 echo     [5] Собрать логи  (report: zip для анализа)
 echo     [6] Перезагрузить (adb reboot) - ТОЛЬКО нужно после install/uninstall
+echo     [9] Восстановить оригинальную локаль (zh-CN) - снять перевод системы
 echo     [R] Проверить ADB заново  (полная проверка + рестарт демона)
 echo     [0] Выход
 echo.
 set "MODE="
-set /p "MODE=Выбор [0-6 или R]: "
+set /p "MODE=Выбор [0-6,9 или R]: "
 if /i "%MODE%"=="0" exit /b 0
 if /i "%MODE%"=="R" (
     echo.
@@ -266,6 +267,7 @@ if /i "%MODE%"=="3" set "ACT=status"
 if /i "%MODE%"=="4" set "ACT=diag"
 if /i "%MODE%"=="5" set "ACT=report"
 if /i "%MODE%"=="6" set "ACT=reboot"
+if /i "%MODE%"=="9" set "ACT=locale-restore"
 if not defined ACT (
     echo Неверный выбор.
     timeout /t 1 >nul
@@ -286,6 +288,7 @@ if /i "%MODE%"=="status" ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="diag"   ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="report" ( set "TARGETS=ok" & goto RUN )
 if /i "%MODE%"=="reboot" ( set "TARGETS=ok" & goto RUN )
+if /i "%MODE%"=="locale-restore" ( set "TARGETS=ok" & goto RUN )
 cls
 :GROUP_MENU
 echo ============================================================
@@ -341,6 +344,12 @@ if /i "%MODE%"=="reboot" (
     echo   Устройство перезагрузится, adb-подключение прервётся.
     goto ASK_MENU
 )
+REM locale-restore: вернуть оригинальную (до перевода) локаль zh-CN.
+REM settings shell работает без root/remount - ДО ROOT_CHECK, ops-лог не пишет.
+if /i "%MODE%"=="locale-restore" (
+    call :RestoreOrigLocale
+    goto ASK_MENU
+)
 REM install/uninstall пишут в /vendor - нужен root + remount
 call :ROOT_CHECK
 if not "!RC_OK!"=="1" (
@@ -361,6 +370,10 @@ if defined OPS_LOG (
     if not exist "!LOGS_DIR!" mkdir "!LOGS_DIR!"
     echo ==== %DATE% %TIME% ^| mode=!MODE! preset=!PRESET! ^| schema=static ^| root+remount ok ^| начало ==== >  "!OPS_LOG!"
 )
+
+REM ru в system_locales ДО установки (статика грузится при boot; см.
+REM :EnsureRuLocale в manage.bat - аналогичный блок).
+if /i "!MODE!"=="install"   call :EnsureRuLocale
 
 set "TOTAL=0"
 set "OK_C=0"
@@ -553,6 +566,70 @@ if !ERRORLEVEL! EQU 0 (
 )
 echo.
 exit /b 0
+
+REM ============================================================
+REM  :EnsureRuLocale - проверить и при необходимости добавить ru в НАЧАЛО
+REM  system_locales. Скопировано из manage.bat (см. его комментарий).
+REM  Точные команды: settings get / settings put system system_locales
+REM  ru-RU,en-US,zh-CN (проверено live 2026-10-04).
+REM ============================================================
+ :EnsureRuLocale
+ set "LOCALE_WANT=ru-RU,en-US,zh-CN"
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NOW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NOW set "LOC_NOW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NOW!"=="null" set "LOC_NOW="
+ if "!LOC_NOW!"=="!LOCALE_WANT!" (
+     echo [LOCALE] system_locales уже: !LOCALE_WANT!
+     if defined OPS_LOG echo   [LOCALE] уже: !LOCALE_WANT! >> "!OPS_LOG!"
+     goto LOCALE_DONE
+ )
+ echo [LOCALE] system_locales сейчас: "%LOC_NOW%" - выставляю "!LOCALE_WANT!"
+ if defined OPS_LOG echo   [LOCALE] было: "%LOC_NOW%" >> "!OPS_LOG!"
+ adb shell settings put system system_locales !LOCALE_WANT!
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NEW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NEW set "LOC_NEW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NEW!"=="null" set "LOC_NEW="
+ echo   [LOCALE] теперь: !LOC_NEW! (применится после reboot GU)
+ if defined OPS_LOG echo   [LOCALE] стало: !LOC_NEW! >> "!OPS_LOG!"
+ :LOCALE_DONE
+ exit /b 0
+
+REM ============================================================
+REM  :RestoreOrigLocale - вернуть system_locales в оригинальную (до перевода)
+REM  локаль zh-CN (OEM, из коробки; решение 27.10). Обратная операция
+REM  :EnsureRuLocale. Точные команды (так же, как :EnsureRuLocale, проверено
+REM  live): settings get / settings put system system_locales zh-CN.
+REM  ФОРМА ПЛОСКАЯ (как :EnsureRuLocale).
+REM ============================================================
+ :RestoreOrigLocale
+ set "LOCALE_ORIG=zh-CN"
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NOW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NOW set "LOC_NOW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NOW!"=="null" set "LOC_NOW="
+ if "!LOC_NOW!"=="!LOCALE_ORIG!" (
+     echo [LOCALE] system_locales уже оригинальная: !LOCALE_ORIG! - ничего не меняю
+     goto ORIG_LOCALE_DONE
+ )
+ echo [LOCALE] system_locales сейчас: "%LOC_NOW%" - возвращаю оригинальную "!LOCALE_ORIG!" ^(до перевода^)
+ adb shell settings put system system_locales !LOCALE_ORIG!
+ set "IDF=%~dp0%RANDOM%_loc.txt"
+ adb shell settings get system system_locales >"!IDF!" 2>&1
+ set "LOC_NEW="
+ for /f "delims=" %%i in ('type "!IDF!"') do if not defined LOC_NEW set "LOC_NEW=%%i"
+ del "!IDF!" >nul 2>&1
+ if "!LOC_NEW!"=="null" set "LOC_NEW="
+ echo   [LOCALE] теперь: !LOC_NEW! ^(уже запущенные процессы увидят после своего перезапуска или reboot^)
+ :ORIG_LOCALE_DONE
+ exit /b 0
 
 REM ============================================================
 REM  :ShowStatus [full|ours]

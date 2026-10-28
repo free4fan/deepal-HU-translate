@@ -26,6 +26,9 @@ type mockClient struct {
 	remountOK  bool
 	// mockCheckResult подменяет результат CheckResult (nil = по deviceOK).
 	mockCheckResult *adb.CheckResult
+	// locale / locales — эмуляция system_locales (settings get / put).
+	locale  string
+	locales []string
 }
 
 func keyOf(args ...string) string { return strings.Join(args, " ") }
@@ -36,6 +39,16 @@ func (m *mockClient) Shell(ctx context.Context, args ...string) adb.Result {
 	switch k {
 	case "shell id -u":
 		return adb.Result{Out: itoa(m.uid) + "\n", Code: 0}
+	case "shell settings get system system_locales":
+		v := "null"
+		if m.locale != "" {
+			v = m.locale
+		}
+		return adb.Result{Out: v + "\n", Code: 0}
+	case "shell settings put system system_locales zh-CN":
+		m.locale = "zh-CN"
+		m.locales = append(m.locales, "zh-CN")
+		return adb.Result{Code: 0}
 	default:
 		return adb.Result{Out: "", Code: 0}
 	}

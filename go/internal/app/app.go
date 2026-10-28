@@ -27,6 +27,10 @@ const (
 	ModeDiag      Mode = "diag"
 	ModeReport    Mode = "report"
 	ModeReboot    Mode = "reboot"
+	// ModeLocaleRestore — вернуть оригинальную (до перевода) локаль:
+	// пункт меню [9] / CLI "locale-restore". Не изменяющие: цель/root/
+	// ops-лог не нужны (settings shell работает без root).
+	ModeLocaleRestore Mode = "locale-restore"
 )
 
 // mutating — изменяющие режимы (требуют root, пишут ops-лог).
@@ -102,6 +106,9 @@ func (a *App) Run(mode Mode, preset string) (Outcome, error) {
 		return Outcome{}, nil
 	case ModeReboot:
 		a.Reboot()
+		return Outcome{}, nil
+	case ModeLocaleRestore:
+		a.RestoreOriginalLocale()
 		return Outcome{}, nil
 	}
 
