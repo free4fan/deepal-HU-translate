@@ -1,5 +1,34 @@
 # Changelog
 
+## [2026-10-28c] — `locale-restore`: вернуть оригинальную локаль zh-CN — **v3.1.2-15**
+
+**Повод:** добавить пользователю обратную операцию к переводу: снять русскую
+локаль и вернуть ГУ в OEM-локаль (из коробки — zh-CN).
+
+- **`locale-restore`** — новый режим всех трёх менеджеров (обратная операция
+  install/enable, настраивает `system_locales = zh-CN`):
+  - `deepl`: CLI `deepl dyn|stat locale-restore` / `deepl locale-restore`;
+    меню обеих схем — пункт **[9]**; без root/цели/ops-лога (settings shell
+    работает без root, как status/diag/reboot);
+  - `manage.bat` / `manage_static.bat`: пункт меню **[9]** + CLI-режим;
+    `:RestoreOrigLocale` (плоская форма как `:EnsureRuLocale`):
+    get → сравнить → put zh-CN → read-back; строки `[LOCALE]` в консоль.
+- **Фикс CLI-ветки (`manage.bat`/`manage_static.bat`)**: режимы без цели
+  (status/diag/report/reboot/locale-restore) теперь идут сразу в RUN.
+  До фикса `manage.bat reboot` и `manage.bat locale-restore` падали в
+  group-меню выбора цели (reboot — предсуществующий баг, т.к. accept-список
+  разрешал reboot, а TARGETS-ок для него не было).
+- **Доки**: README (пункт [9] в таблице меню + CLI `locale-restore` в блоках
+  manage.bat/deepl.exe).
+- **Валидация**: go test (menu locale-restore dyn+static, locale_restore,
+  main_test) зелёные; wine-smoke (фейковый adb.exe) CLI-веток:
+  `manage.bat locale-restore|reboot`, `manage_static.bat locale-restore|reboot`
+  — достают свой обработчик ([LOCALE]/[REBOOT] в консоль, group-меню не дают).
+- Состав архива = v3.1.2-14 + `deepl`/`deepl.exe` (локально пересобраны,
+  содержат locale-restore) + `manage.bat`, `manage_static.bat` (пункт [9] +
+  CLI) + README (доки про пункт [9]). APK/idsig/collect_report.bat/targets.txt
+  без изменений.
+
 ## [2026-10-28] — переименование релизов: v3.2.1…v3.2.13 → v3.1.2-1…v3.1.2-13 (нумерация по прошивке ГУ)
 
 **Повод:** «Изменить терми для релизов на v3.1.2-1, v3.1.2-2 и т.д., чтобы не

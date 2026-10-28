@@ -8,9 +8,11 @@
   0 «STRING_TOO_LARGE».
 - `validate.py` (с aapt2 dump по 200 APK): 0 ошибок; self-test — 90/90.
 - Установка: **91 из 100 динамически** (9 AOSP-target — EXCLUDE9, статикой).
-- Релиз: v3.1.2-12 (deepl + manage.bat + collect_report.bat + targets.txt +
-  оба архива APK). Локаль: `manage.bat :EnsureRuLocale` + аналог в `deepl`
-  (ru-RU в начале `system_locales` перед install/enable).
+- Релиз: **v3.1.2-15** (deepl/deepl.exe + manage.bat + collect_report.bat +
+  targets.txt + оба архива APK; README.md в шапке). Локаль: `manage.bat
+  :EnsureRuLocale` + аналог в `deepl` (ru-RU в начале `system_locales` перед
+  install/enable); **`locale-restore`** ([9]/CLI) — снять перевод и вернуть
+  OEM-локаль zh-CN (обратная операция).
 - История изменений — `CHANGELOG.md`; рабочий контекст и якоря — `MEMORY.md`.
 
 ## Открытые задачи

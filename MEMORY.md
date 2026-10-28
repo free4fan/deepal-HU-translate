@@ -3,6 +3,22 @@
 Оперативный статус. История — в `CHANGELOG.md`,
 шаги — в `WORKFLOW.md`.
 
+## ЯКОРЬ (28.10c) — режим locale-restore (снять перевод системы; вернуть zh-CN) — v3.1.2-15
+
+Обратная операция к ensureRuLocale/install: `system_locales = zh-CN` (OEM,
+из коробки; решение 27.10). Есть во всех трёх менеджерах: `deepl`
+(CLI `deepl dyn|stat locale-restore` + меню [9] обеих схем; без root/цели/
+ops-лога — settings shell работает без root) и оба bat (пункт [9] + CLI,
+`:RestoreOrigLocale`). ВАЖНО: CLI-ветки режимов БЕЗ ЦЕЛИ (status/diag/
+report/reboot/locale-restore) требуют `set "TARGETS=ok"` в ветке аргументов
+(до `if defined TARGETS goto RUN`) + ветку в :RUN; иначе падают в
+GROUP_MENU (баг ловлен 28.10c: `manage.bat reboot/locale-restore` в CLI
+падали в выбор цели; menu-ветка была ок). Валидация: go test + wine-smoke
+CLI (фейковый adb; wine findstr игнорирует /I /R — в smoke-копии патчил
+на `findstr /I /C:"device" /C:"unauthorized"`, в репо не трогал). Релиз
+v3.1.2-15 = v3.1.2-14 + deepl/deepl.exe (с locale-restore) + manage*.bat +
+README.
+
 ## ЯКОРЬ (28.10) — нумерация релизов = `v<прошивка>-N`; v3.2.N переименованы в v3.1.2-N (1…13)
 
 По просьбе пользователя: номер релиза читается как «прошивка ГУ + номер

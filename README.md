@@ -49,6 +49,7 @@ manage.bat install 8     REM установить + включить TOP-8 (бы
 manage.bat install A     REM установить все группы
 manage.bat report        REM собрать zip-логи для анализа
 manage.bat reboot        REM перезагрузить автомобиль
+manage.bat locale-restore REM вернуть оригинальную локаль (zh-CN)
 ```
 
 То же самое через **`deepl.exe`**:
@@ -58,6 +59,7 @@ deepl.exe                REM меню (динамические)
 deepl.exe dyn install 8  REM динамические, TOP-8
 deepl.exe stat install A REM статические, все группы
 deepl.exe report dynamic REM zip-логи
+deepl.exe locale-restore REM вернуть оригинальную локаль (zh-CN)
 deepl.exe reboot
 ```
 
@@ -94,6 +96,7 @@ deepl.exe reboot
 | [6] Диагностика | локаль, оверлеи, dump по пакету |
 | [7] Собрать логи | zip-отчёт: `logs\deepal_<dynamic\|static>_report_<время>.zip` |
 | [8] Перезагрузить ГУ | `adb reboot` |
+| [9] Вернуть оригинальную локаль | сброс `system_locales` на `zh-CN` (снять перевод системы; обратная установка [1]/[2]); без root |
 | [R] Проверить ADB заново | полная проверка (3 попытки + рестарт демона); вывод удерживается паузой «Нажмите любую клавишу…» |
 
 Выбор цели: [1]–[4] группы (системные сервисы / основной интерфейс / важные

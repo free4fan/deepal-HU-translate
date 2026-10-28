@@ -81,7 +81,7 @@ REM ================== аргументы ==================
 if "%~1"=="" goto MENU
 set "CLI=1"
 set "MODE=%~1"
-if /i not "%MODE%"=="install" if /i not "%MODE%"=="enable"  if /i not "%MODE%"=="disable" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" if /i not "%MODE%"=="reboot" goto MENU
+if /i not "%MODE%"=="install" if /i not "%MODE%"=="enable"  if /i not "%MODE%"=="disable" if /i not "%MODE%"=="uninstall" if /i not "%MODE%"=="status" if /i not "%MODE%"=="diag" if /i not "%MODE%"=="report" if /i not "%MODE%"=="reboot" if /i not "%MODE%"=="locale-restore" goto MENU
 call :ADB_CHECK
 if not "!A_OK!"=="1" (
     echo.
@@ -89,9 +89,13 @@ if not "!A_OK!"=="1" (
     echo   Меню: manage.bat; пункт [R] - повторная проверка АDB
     exit /b 1
 )
-if /i "%MODE%"=="status"   set "TARGETS=ok"
-if /i "%MODE%"=="diag"     set "TARGETS=ok"
-if /i "%MODE%"=="report"   set "TARGETS=ok"
+REM Без выбора цели (режимы не работают с группами): status/diag/report/
+REM reboot/locale-restore -> сразу RUN. (reboot раньше падал в group-меню.)
+if /i "%MODE%"=="status"         set "TARGETS=ok"
+if /i "%MODE%"=="diag"           set "TARGETS=ok"
+if /i "%MODE%"=="report"         set "TARGETS=ok"
+if /i "%MODE%"=="reboot"         set "TARGETS=ok"
+if /i "%MODE%"=="locale-restore" set "TARGETS=ok"
 if defined TARGETS goto RUN
 set "PRESET=%~2"
 if "%PRESET%"=="" goto GROUP_MENU
