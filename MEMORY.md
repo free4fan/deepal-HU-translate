@@ -3,12 +3,27 @@
 Оперативный статус. История — в `CHANGELOG.md`,
 шаги — в `WORKFLOW.md`.
 
-## ЯКОРЬ (28.10b) — README в архиве релиза; v3.2.13
+## ЯКОРЬ (28.10) — нумерация релизов = `v<прошивка>-N`; v3.2.N переименованы в v3.1.2-N (1…13)
+
+По просьбе пользователя: номер релиза читается как «прошивка ГУ + номер
+релиза», чтобы не путать с версиями прошивки ГУ. `v3.1.2-1 … v3.1.2-13`
+(бывшие v3.2.1…v3.2.13): git-теги пересозданы (типы коммиты), GitHub-релизы
+пересобраны (tag/name/notes/zip `deepal-HU-translate_v3.1.2-N.zip`; zip —
+скачан, sha сверен с digest, перезалит), доки (README/WORKFLOW/TODO/MEMORY/
+CHANGELOG) обновлены. Следующий релиз = **v3.1.2-14** (итог переименования,
+состав как v3.1.2-13 + README). Новая прошивка (например 3.2.0) → счётчик
+начнётся с `v3.2.0-1`. Ограничение GitHub: ассет релиза НЕ переименовывается
+(DELETE asset → 404, GraphQL-мутации нет) — только delete+reupload; а после
+удаления тега download-link релиза ломается (`untagged-…` → 404), т.е. тег и
+релиз — привязаны, менять тег = пересобрать релиз. README: блок «Номера: …»
+в «Скачать архив».
+
+## ЯКОРЬ (28.10b) — README в архиве релиза; v3.1.2-13
 
 По просьбе пользователя (28.10) `README.md` (новый короткий, 149 строк) входит
 в архив релиза: пользователь получает руководство вместе с бинарниками.
-v3.2.13 = v3.2.12 + README.md (состав: 408 записей / 406 файлов; APK/idsig/бинарники
-идентичны v3.2.12 по md5). WORKFLOW: блок «СОСТАВ АРХИВА РЕЛИЗА» + история 5.23.
+v3.1.2-13 = v3.1.2-12 + README.md (состав: 408 записей / 406 файлов; APK/idsig/бинарники
+идентичны v3.1.2-12 по md5). WORKFLOW: блок «СОСТАВ АРХИВА РЕЛИЗА» + история 5.23.
 Доки, НЕ входящие в архив: WORKFLOW/TODO/CHANGELOG/MEMORY (только в git).
 
 ## ЯКОРЬ (27.10) — `deepl`: окружение (adb, targets, локаль) — как читать/чинить
@@ -17,7 +32,7 @@ v3.2.13 = v3.2.12 + README.md (состав: 408 записей / 406 файло
 troubleshooting, ~150 строк); WORKFLOW = dev-справочник (референс скриптов,
 LLM/env, нормализация aapt2, EXCLUDE9/локаль/гиганты, FAQ); TODO = только
 статус+открытые; CHANGELOG = история. В архив релизов входит **README.md**
-(п.1 доки, v3.2.13+), остальные доки (WORKFLOW/TODO/CHANGELOG/MEMORY) — только
+(п.1 доки, v3.1.2-13+), остальные доки (WORKFLOW/TODO/CHANGELOG/MEMORY) — только
 в git.
 
 Симптом-триада на чужой машине (не наш баг, а окружение): (1) «adb не найден:
@@ -30,14 +45,14 @@ deepl/deepl.exe (`adb.ResolveBin`, [ADB] using: <путь> в stderr) — platfo
 проверку (3 попытки + kill-server) и **пауза «Нажмите любую клавишу...»** до
 следующего cls — раньше вывод мгновенно смахивался (симптом «ничего не
 происходит», фикс 27.10). targets.txt: CWD→родительские вверх, либо
-`DEEPL_TARGETS`; бинарник списков APK не несёт (go:embed убран, v3.2.5).
+`DEEPL_TARGETS`; бинарник списков APK не несёт (go:embed убран, v3.1.2-5).
 `[LOCALE]`: перед install/enable (dyn) и install (stat) — `system_locales`
 → `ru-RU,en-US,zh-CN` (как manage.bat :EnsureRuLocale), строки было/стало
 в консоль + ops-лог (важно: values-en/таргета с кит. значениями в разрешении
 конфига ВЫШЕ default values/, без ru в preferred RU-строки не видны). Сборка:
 `go/build.sh` (deepl), `logshot/build.sh` (shot) — оба в корень; тесты
-`go test` в `go/` и `logshot/`. Релизы: архив (**README.md** (v3.2.13+) + deepl/deepl.exe + targets.txt +
-**manage.bat + collect_report.bat** (динамические, v3.2.11, без collect_report.bat
+`go test` в `go/` и `logshot/`. Релизы: архив (**README.md** (v3.1.2-13+) + deepl/deepl.exe + targets.txt +
+**manage.bat + collect_report.bat** (динамические, v3.1.2-11, без collect_report.bat
 пункт [7] report падает) + apks_rro_min/static; без manage_static.bat — статика
 из git; остальные доки в архив не входят), тег vn, GitHub REST uploads
 (нет gh CLI: credential fill + uploads).

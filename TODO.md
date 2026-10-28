@@ -8,7 +8,7 @@
   0 «STRING_TOO_LARGE».
 - `validate.py` (с aapt2 dump по 200 APK): 0 ошибок; self-test — 90/90.
 - Установка: **91 из 100 динамически** (9 AOSP-target — EXCLUDE9, статикой).
-- Релиз: v3.2.12 (deepl + manage.bat + collect_report.bat + targets.txt +
+- Релиз: v3.1.2-12 (deepl + manage.bat + collect_report.bat + targets.txt +
   оба архива APK). Локаль: `manage.bat :EnsureRuLocale` + аналог в `deepl`
   (ru-RU в начале `system_locales` перед install/enable).
 - История изменений — `CHANGELOG.md`; рабочий контекст и якоря — `MEMORY.md`.
@@ -43,7 +43,7 @@
   adbauth). CHANGELOG [2026-10-27..d].
 - **(27.10) `:EnsureRuLocale` в `manage.bat`** (live-фикс WT_VehicleCenter):
   ru в начале `system_locales` перед install/enable. CHANGELOG [2026-10-27f].
-- **(27.10) Rелизы v3.2.11/v3.2.12**: batы динамических (manage.bat +
+- **(27.10) Rелизы v3.1.2-11/v3.1.2-12**: batы динамических (manage.bat +
   collect_report.bat) в архиве релиза; доки о составе.
 - **(26.10) «将执行+название сцены» в Camera** — рантайм-конкатенация
   код+данные (SQLite-БД ГУ), **вне зоны RRO, не переводить**. Якорь в

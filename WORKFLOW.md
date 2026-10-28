@@ -85,8 +85,8 @@ deepal-HU-translate/
 └── logshot/                       # Go-инструмент shot: снимок logcat + охота за
     #   runtime-фразой (-q/-cjk/-offline), не в APK (шина/TBOX/scene.db/TTS)
     #   build.sh - gofmt+vet+тесты+сборка shot/shot.exe в корень
-#   СОСТАВ АРХИВА РЕЛИЗА (deepal-HU-translate_v3.2.X.zip):
-#   README.md (руководство пользователя, с v3.2.13), deepl, deepl.exe,
+#   СОСТАВ АРХИВА РЕЛИЗА (deepal-HU-translate_v3.1.2-N.zip):
+#   README.md (руководство пользователя, с v3.1.2-13), deepl, deepl.exe,
 #   targets.txt, manage.bat + collect_report.bat (динамические; без
 #   collect_report.bat пункт [7] report падает),
 #   apks_rro_min/ (200 .apk+.idsig), apks_rro_static/ (200).
@@ -716,7 +716,8 @@ adb shell settings get global DriveMode
 
 | Версия | Дата | Изменения |
 |--------|------------|---------------------------------------------------------------------|
-| 5.23 | 2026-10-28 | **README.md входит в архив релиза** (с v3.2.13) — пользователь видит руководство вместе с архивом. Состав = v3.2.12 + README.md (408 записей / 406 файлов) |
+| 5.24 | 2026-10-28 | **Нумерация релизов: `v<прошивка>-N`.** Все релизы v3.2.1…v3.2.13 → **v3.1.2-1…v3.1.2-13** (git-теги + GitHub-релизы + zip + доки). Причина: не путать версию релиза с версией прошивки ГУ (3.1.2). Дальше v3.1.2-14, 15, …; при смене прошивки — v<новая>-1. Ограничение GitHub: ассет релиза не переименовывается (только delete+reupload) |
+| 5.23 | 2026-10-28 | **README.md входит в архив релиза** (с v3.1.2-13) — пользователь видит руководство вместе с архивом. Состав = v3.1.2-12 + README.md (408 записей / 406 файлов) |
 | 5.22 | 2026-10-28 | **Документация: README прост (пользователь), нюансы → WORKFLOW/CHANGELOG.** README переписан: установка из архива, меню, режимы, логи, troubleshooting, ссылки; dev-нюансы (таблица скриптов, LLM-режимы, env, нормализация aapt2, exclude.json, EXCLUDE9) перенесены сюда. TODO.md — только статус + открытые (история → CHANGELOG) |
-| 5.21 | 2026-10-27 | **`manage.bat`: `:EnsureRuLocale`** — ru в начале `system_locales` перед install/enable (live-фикс 04.10: WT_VehicleCenter по-китайски при локали ГУ без ru). get→compare→`settings put ru-RU,en-US,zh-CN`+read-back; строки `[LOCALE]` в консоль+ops-лог; wine-smoke обеих веток. Релиз v3.2.12 |
-| 5.20 | 2026-10-27 | **`manage.bat` + `collect_report.bat` в архив релиза** (динамические RRO на Windows-машине). Валидация перед релизом (smoke, wine 9 + фейковый adb.exe): install 8/enable A/disable 1/uninstall C/status/report; manage_static install 8. `manage_static.bat` в архив НЕ входит (статика — из git). v3.2.11 |
+| 5.21 | 2026-10-27 | **`manage.bat`: `:EnsureRuLocale`** — ru в начале `system_locales` перед install/enable (live-фикс 04.10: WT_VehicleCenter по-китайски при локали ГУ без ru). get→compare→`settings put ru-RU,en-US,zh-CN`+read-back; строки `[LOCALE]` в консоль+ops-лог; wine-smoke обеих веток. Релиз v3.1.2-12 |
+| 5.20 | 2026-10-27 | **`manage.bat` + `collect_report.bat` в архив релиза** (динамические RRO на Windows-машине). Валидация перед релизом (smoke, wine 9 + фейковый adb.exe): install 8/enable A/disable 1/uninstall C/status/report; manage_static install 8. `manage_static.bat` в архив НЕ входит (статика — из git). v3.1.2-11 |
