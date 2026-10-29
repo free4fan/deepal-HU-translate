@@ -158,6 +158,15 @@ func TestCheckUnauthLimit(t *testing.T) {
 	if !strings.Contains(log, "adbauth") {
 		t.Errorf("нет подсказки про adbauth: %q", log)
 	}
+	if !strings.Contains(log, "приложение adbauth на ГУ") {
+		t.Errorf("нет подсказки про приложение adbauth на ГУ (ключ копируется НА ГУ):\n%s", log)
+	}
+	if strings.Contains(log, "на этом ПК") {
+		t.Errorf("устаревшая формулировка «на этом ПК» (adbauth — приложение на ГУ):\n%s", log)
+	}
+	if strings.Contains(log, "Запустите adbauth") {
+		t.Errorf("устаревшая формулировка «Запустите adbauth» (это приложение на ГУ, не запускается на ПК):\n%s", log)
+	}
 	if !strings.Contains(log, "остановка.") {
 		t.Errorf("нет 'остановка.': %q", log)
 	}
@@ -359,6 +368,12 @@ func TestCheckResultFast(t *testing.T) {
 	if !strings.Contains(m.logBuf.String(), "adbauth") {
 		t.Errorf("fast(none): нет подсказки про adbauth:\n%s", m.logBuf.String())
 	}
+	if !strings.Contains(m.logBuf.String(), "приложение adbauth на ГУ") {
+		t.Errorf("fast(none): нет подсказки про приложение adbauth на ГУ:\n%s", m.logBuf.String())
+	}
+	if strings.Contains(m.logBuf.String(), "программа, которая передаёт ключ") {
+		t.Errorf("fast(none): устаревшая формулировка «программа, которая передаёт ключ»:\n%s", m.logBuf.String())
+	}
 
 	// unauth: ADB на ГУ уже активно, но публичный ключ adb этого ПК не
 	// добавлен — совет: adbauth (добавить ключ ноутбука), а не «включите ADB».
@@ -372,6 +387,12 @@ func TestCheckResultFast(t *testing.T) {
 	}
 	if !strings.Contains(m.logBuf.String(), "adbauth") {
 		t.Errorf("fast(unauth): нет подсказки про adbauth:\n%s", m.logBuf.String())
+	}
+	if strings.Contains(m.logBuf.String(), "на этом ПК") {
+		t.Errorf("fast(unauth): устаревшая формулировка «на этом ПК» (adbauth — приложение на ГУ):\n%s", m.logBuf.String())
+	}
+	if !strings.Contains(m.logBuf.String(), "приложение adbauth на ГУ") {
+		t.Errorf("fast(unauth): нет подсказки про приложение adbauth на ГУ:\n%s", m.logBuf.String())
 	}
 
 	m.available = false

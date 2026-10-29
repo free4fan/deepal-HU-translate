@@ -703,6 +703,10 @@ adb shell settings get global DriveMode
   `/data/misc/adb/adb_keys` через `adb root` (append) — он тоже переживает
   OTA (файл в /data). Важно вписать именно тот ключ, который предъявляет ПК
   (host key `~/.android/adbkey.pub`): adbd сверяет fingerprint.
+- **bat (manage*.bat):** echo-строки ВНУТРИ блока `if ( ... )` не могут
+  содержать обычные скобки — cmd исполняет `(X)` как подкоманду («Can't
+  recognize 'adbkey.pub' as an internal or external command»); для вывода
+  скобок экранировать `^(^)` (ловля 29.10, wine-smoke unauthorized/none).
 
 ### `deepl`: «не найден targets.txt»
 - Файл ищется в CWD и всех родительских папках (вверх) либо задаётся env `DEEPL_TARGETS=/путь`. Положите `targets.txt` рядом с бинарником — единый источник групп (91/8/9), эталон — корневой `targets.txt` из репозитория.

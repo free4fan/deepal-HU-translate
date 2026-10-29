@@ -203,6 +203,12 @@ func TestMenuBannerUnauthShowsKeyHint(t *testing.T) {
 	if !strings.Contains(w.s, "adbauth") {
 		t.Errorf("баннер unauth: нет подсказки adbauth:\n%s", w.s)
 	}
+	if !strings.Contains(w.s, "приложение adbauth на ГУ") {
+		t.Errorf("баннер unauth: нет подсказки про приложение adbauth на ГУ:\n%s", w.s)
+	}
+	if strings.Contains(w.s, "Запустите adbauth") {
+		t.Errorf("баннер unauth: устаревшая формулировка «Запустите adbauth» (это приложение на ГУ):\n%s", w.s)
+	}
 	if strings.Contains(w.s, "Устройство не найдено") {
 		t.Errorf("unauth показан как «устройство не найдено» (общее сообщение):\n%s", w.s)
 	}
