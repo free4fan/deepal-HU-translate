@@ -41,8 +41,8 @@
 
 - **(27.10) `deepl`-триада на чужой машине**: adb без platform-tools
   (env `DEEPL_ADB` → PATH → рядом с бинарником), [R] в меню теперь печатает
-  результат и держит паузу, unauthorized — своё сообщение (ключ adb ПК через
-  adbauth). CHANGELOG [2026-10-27..d].
+  результат и держит паузу, unauthorized — своё сообщение (ключ adb ПК
+  копируется на ГУ приложением adbauth). CHANGELOG [2026-10-27..d].
 - **(27.10) `:EnsureRuLocale` в `manage.bat`** (live-фикс WT_VehicleCenter):
   ru в начале `system_locales` перед install/enable. CHANGELOG [2026-10-27f].
 - **(27.10) Rелизы v3.1.2-11/v3.1.2-12**: batы динамических (manage.bat +

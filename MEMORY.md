@@ -3,6 +3,36 @@
 Оперативный статус. История — в `CHANGELOG.md`,
 шаги — в `WORKFLOW.md`.
 
+## ЯКОРЬ (29.10) — adbauth = приложение на ГУ (НЕ программа на ПК); unauthorized → 3.1.1 → AdbAuth.apk → ключ → OTA 3.1.2
+
+Уточнение пользователя (29.10) + исходники `/home/user/projects/deepal-firmware/adbauth`:
+доки писали «adbauth на ПК» — неверно. Модель:
+- adbauth = приложение `com.deepal.adbauth` («ADB Activator»), APK
+  `AdbAuth.apk`, platform-подпись, `sharedUserId=android.uid.system` (uid=1000),
+  ставится **на ГУ** (`adb install -r AdbAuth.apk`). Живёт в /data →
+  переживает OTA (после OTA при потере uid=1000 — переустановить тот же APK).
+- Умеет: включить ADB (USB+Wi-Fi; после холодного boot — полный цикл USB, т.к.
+  по умолчанию флешка); «Добавить ADB-ключ с USB» (`adbkey.pub` с флешки →
+  `/data/misc/adb/adb_keys`); отключить автоудаление ключей AdbKeyStore
+  (`adb_allowed_connection_time=0`); восстановить стёртый ключ на boot/FOTA
+  (BOOT_COMPLETED/`fota.action.restart`); код инженерного меню по VIN; EMode.
+- **Устанавливается заранее, пока adb ещё доступен.**
+- **Если adb уже unauthorized (на 3.1.2 авторизация по ключу):** откат ГУ на
+  **3.1.1** (нет авторизации по ключу) → `adb install -r AdbAuth.apk` →
+  скопировать ключ adb ПК (`adbkey.pub`) на ГУ (в приложении, с флешки) →
+  **OTA до 3.1.2** (ключ в /data остаётся) → adb авторизован.
+- Альтернатива без APK: `adbauth/auth_from_open_adb.sh` — на 3.1.1 с
+  открытым adb + `ro.debuggable=1` вписать host-ключ ПК прямо в
+  `/data/misc/adb/adb_keys` через `adb root` (adbd сверяет fingerprint —
+  только `~/.android/adbkey.pub` этого ПК).
+- Доки исправлены 29.10: README (§2 + «Если автомобиль не подключается» —
+  процедура отката), WORKFLOW (раздел «adbauth: приложение на ГУ»), TODO.
+- НЕ исправлены (runtime-сообщения, код; решение — у пользователя):
+  `go/internal/adb/adb.go` + `go/internal/app/menu.go` («adbauth (на этом
+  ПК)», «adbauth передаёт ключ USB-отладки») и unauthorized-блок
+  `manage.bat`/`manage_static.bat` («НА УСТРОЙСТВЕ: нажмите "АВТОРИЗОВАТЬ"»
+  — на этом ГУ диалог недоступен).
+
 ## ЯКОРЬ (28.10c) — режим locale-restore (снять перевод системы; вернуть zh-CN) — v3.1.2-15
 
 Обратная операция к ensureRuLocale/install: `system_locales = zh-CN` (OEM,
